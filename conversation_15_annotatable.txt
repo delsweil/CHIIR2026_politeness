@@ -1,0 +1,204 @@
+hi
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YI8v0QNKYQhbhWrOe] [conversation.participant=user]
+
+Hey there! Happy to have you on board for our masterclass :) Today you will be learning how to prepare Old-Fashioned Apple Pie. Make sure you have all the ingredients and tools and feel free to ask questions. If you are ready to start cooking simply say next.
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YIIMF273LLzPsMxXU] [conversation.participant=agent]
+
+next
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YILPHP2eOXB4Votyd] [conversation.participant=user]
+
+
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YIOKbD8EWeDQ2XFW_] [conversation.participant=agent]
+
+User moved to section "Step 1".
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YIOObfknU5NLt2iGp] [conversation.participant=user]
+
+User moved to section "Step 1".
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YIOOj-ECs7-2LcP06] [conversation.participant=user]
+
+what type of apples should I be using?
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YIVLSJh2-n3Z5jCwE] [conversation.participant=user]
+
+While it's often said that using a variety of apples can create depth of flavor, this can also introduce unnecessary variables into the equation, with some types breaking down more quickly to flood the pie with juice. When you stick with one type of apple, the pie's consistency stays the same from batch to batch; depth is created through a blend of brown sugar and spices that highlights the apples rather than overwhelming them. For this purpose, I'm a big fan of tart baking apples, like Granny Smiths.
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YIedYn4hQBnj9yQn2] [conversation.participant=agent]
+
+Thank you!
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YIk8HRcMiIuIP0LMK] [conversation.participant=user]
+
+Okay, I am ready to move on
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YIoG-sejm6ppQC-KG] [conversation.participant=user]
+
+
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YIpCV-qXduQzmFTFD] [conversation.participant=agent]
+
+User moved to section "Step 2".
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YIpGXC-bYjlDi0Thd] [conversation.participant=user]
+
+why is it important to cover the apples in syrup?
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YIzo-0t6_1WsVfdtZ] [conversation.participant=user]
+
+That's a great question! Let me see what I can find
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YJ9XNcJgmcDUaeMwh] [conversation.participant=agent]
+
+The syrup is composed primarily of brown sugar dissolved by a small amount of tart apple juice. This is the result of macerating the apples.  Macerating helps break down the fruit's structure, leading to a massive reduction in volume without any cooking.
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YJ_TQjd2GdrIjy6U4] [conversation.participant=agent]
+
+that's interesting!
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YJisxZRrYtDBCfwLL] [conversation.participant=user]
+
+I'm curious, who created apple pie?
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YJpOnZuSMgTSxrQt2] [conversation.participant=user]
+
+Let me see what I can find :)
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YKDq5Ny2apheBb8-o] [conversation.participant=agent]
+
+Thank you
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YKFEkiBd94IyLaZgL] [conversation.participant=user]
+
+New England was the first region to experience large-scale English colonization in the early 17th century, beginning in 1620, and it was dominated by East Anglian Calvinists, better known as the Puritans. Baking was a particular favorite of the New Englanders and was the origin of dishes seen today as quintessentially "American", such as apple pie and the oven-roasted Thanksgiving turkey.
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YKWnaPPHgsGb1Qpoh] [conversation.participant=agent]
+
+Thank you
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YKe0n2hPGdzdScIAq] [conversation.participant=user]
+
+I am ready to move on
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YKevsNGUKk1XWzydx] [conversation.participant=user]
+
+
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YKfasGGSGAhjLDPsB] [conversation.participant=agent]
+
+User moved to section "Step 3".
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YKff4CxVcoIYHkfG5] [conversation.participant=user]
+
+Why should I let my pastry go to room temperature?
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YKtQM_F57YtEI6ppG] [conversation.participant=user]
+
+I'm sorry but I do not have an answer to that question
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YLCEp0iNfj8B6addm] [conversation.participant=agent]
+
+that's okay
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YLDgtm-o8aQwDaVUx] [conversation.participant=user]
+
+Can you show me how to drape and pinch the top crust
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YLKl_XMqjJVIfTj9z] [conversation.participant=user]
+
+https://cdn.jwplayer.com/v2/media/Ern2tc8F/poster.jpg<video_separator>https://cdn.jwplayer.com/videos/Ern2tc8F.mp4
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YLcRktJHPmNmIAatz] [conversation.participant=agent]
+
+You can check from minute 1:20
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YLeiw92Q7w4C0CxCz] [conversation.participant=agent]
+
+until minute 1:40
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YLk3r-ls6YO3J4dyt] [conversation.participant=agent]
+
+that's very helpful, thank you.
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YLpGIWdgMnEVpZQD8] [conversation.participant=user]
+
+Why must I refrigerate my pie before baking it?
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YLsWP8GyJPV4zFMWR] [conversation.participant=user]
+
+That's a great question!  Chilling ensures the dough is cold to start, which keeps the crust flaky and light.
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YM-waIWYCKgJImkz6] [conversation.participant=agent]
+
+I like a flaky crust, so I will definitely do this
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YM4vqzqHv0h13NM_y] [conversation.participant=user]
+
+I'm ready to move on now :)
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YM6iefVhd1hw1hghq] [conversation.participant=user]
+
+
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YM8901b7zSm8x8DEj] [conversation.participant=agent]
+
+User moved to section "Step 4".
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YM8D1IdSkm76_UeIo] [conversation.participant=user]
+
+Why should I put cream in my egg wash?
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YMFX3MXYYk9gFyBvs] [conversation.participant=user]
+
+I'm sorry but I do not have an answer to that question
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YMQkHCieEWJKHT-84] [conversation.participant=agent]
+
+What is the purpose of an egg wash?
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YMTia5NTija2Xoxpj] [conversation.participant=user]
+
+An egg wash is often used to make pastries shiny and golden or brown in color, and it also is used to help toppings or coatings stick to the surface of the pastry, or to bind pastry parts together, such as empanadas or other en croute recipes. Egg wash can usually be made with 30 ml or two tablespoons of liquid, such as milk or water, for every egg. Less liquid makes for a darker wash. The part of the egg used and liquid added determines the finished look of the crust.
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YMhckmuSwZ1tifsa6] [conversation.participant=agent]
+
+thank you!
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YMpzxOtOdoI17Xy0u] [conversation.participant=user]
+
+So, what's the difference between an apple pie and an apple crumble?
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YMugbdz4_8Xnf8z_h] [conversation.participant=user]
+
+An Apple crumble is a dessert of baked chopped apples topped with a crisp streusel crust. In the UK, Australia and New Zealand the term 'crumble' refers to both desserts but in the US and Canada the two are distinguished. Ingredients usually include cooked apples, butter, sugar, flour, cinnamon, and often oats and brown sugar, ginger, and/or nutmeg. One of the most common variants is "apple rhubarb crisp", in which the rhubarb provides a tart contrast to the apples.
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YNJG5LAIYs_JdGEIi] [conversation.participant=agent]
+
+An apple pie is a pie in which the principal filling ingredient is apple. It is, on occasion, served with whipped cream or iced cream (which is known as "apple pie a la mode"), or with cheddar cheese. The pastry part is generally used top-and-bottom, making it a "double-crust pie"; the upper crust may be circular or latticed (woven of crosswise strips). Depending on the baker's preference, the bottom crust may be baked first (before baking the whole pie) to prevent it from getting soggy.
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YNM0f7nvevmXceoz9] [conversation.participant=agent]
+
+thank you, that's very informative
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YNXogFqk5wCXemo1N] [conversation.participant=user]
+
+I am ready to move on
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YNZR3o5T9WLJF9lIj] [conversation.participant=user]
+
+
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YN_Sv5HUdstGvQ6L6] [conversation.participant=agent]
+
+User moved to section "Step 5".
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YN_XCDr2YDFS8UmDx] [conversation.participant=user]
+
+Why is the type of pan important here?
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YNjxq8An9KtJfT-Rd] [conversation.participant=user]
+
+That's a great question! The type of pan really affects the quality of your pie.  Heavy materials, like thick ceramic or stoneware, will slow that process down, which can produce a dense and greasy crust. Meanwhile, lightweight metal, like aluminum, may speed things up so much that by the time the crust is golden brown, the apples may still be a little crunchy.  Glass lands right in the middle, conducting heat at a brisk but not breakneck pace, so that the crust turns out flaky and crisp just as the apples cook through.
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YO-QlSgMCgAp3HyoK] [conversation.participant=agent]
+
+Thank you! I am ready to move on now
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YOCfnAGV-xTi2tF0-] [conversation.participant=user]
+
+
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YOFMsi3BF0Yi4TPbY] [conversation.participant=agent]
+
+User moved to section "Step 6".
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YOFQy_fafHZQxnXyh] [conversation.participant=user]
+
+Why should I cool my pie for one hour?
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YOP7JpEuQ_TNoGMe7] [conversation.participant=user]
+
+I'm sorry but I do not have an answer to that question
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YOp3HIdVDyAlP2ZsW] [conversation.participant=agent]
+
+What are good things to have with my apple pie?
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YOvM-4IWSgT6MrDRG] [conversation.participant=user]
+
+An apple pie is, on occasion, served with whipped cream or iced cream
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YP9YNaBm4GDsXvatW] [conversation.participant=agent]
+
+when do people usually eat apple pie?
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YPFcgAfTBehraKIEE] [conversation.participant=user]
+
+I'm sorry I do not have an answer to that question
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YPZgTpAXPvpxkk_F2] [conversation.participant=agent]
+
+that's okay :
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YPb4F5zOA5tRB5uDT] [conversation.participant=user]
+
+Can I keep my apple pie in the fridge?
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YPdBR0vwGsIqdujAo] [conversation.participant=user]
+
+Sure! Store it in the fridge, then serve at room temperature, or if you'd like, crisp it up in a warm oven for half an hour before serving.
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YPlLe7AYmP9sEAdSV] [conversation.participant=agent]
+
+how long can I keep the pie in the fridge for?
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YPpV0_4q2HFPWU89P] [conversation.participant=user]
+
+I'm sorry I do not have answer for this question
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YPzqQF-lkmhiYCiZ7] [conversation.participant=agent]
+
+okay, no worries.
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YQ0xlhatFAid-mwte] [conversation.participant=user]
+
+I am done with this step now :)
+[conversation_id=608b0f7f4699c09aa348c57f] [conversation.id=-N8YQ2k7tkl09q4qebdT] [conversation.participant=user]
+

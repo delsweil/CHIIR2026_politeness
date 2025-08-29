@@ -1,0 +1,212 @@
+hello
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kCFYldfpYhAsdpINW] [conversation.participant=user]
+
+Hey there! Happy to have you on board for our masterclass :) Today you will be learning how to prepare pesto. Make sure you have all the ingredients and tools and feel free to ask questions. If you are ready to start cooking simply say next.
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kCME2_VM37IKlDeLX] [conversation.participant=agent]
+
+next
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kCjIqWEAD9dth-tA7] [conversation.participant=user]
+
+
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kCkb5i53ZkLVMtgCO] [conversation.participant=agent]
+
+User moved to section "Step 1".
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kCkh-STIVtcocTcLl] [conversation.participant=user]
+
+is it possible to grate it?
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kCneKuWJo9VtRnNtY] [conversation.participant=user]
+
+what is the best technique to pound the garlic?
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kCrZ8UgXmqc6Hp0WL] [conversation.participant=user]
+
+I'm not sure I understand you. Can you rephrase this?
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kCrs9ZOpF_2g6L413] [conversation.participant=agent]
+
+is it possible to grate the garlic instead of pounding it?
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kCyFFwD0B_X6Y4GLX] [conversation.participant=user]
+
+Ok thanks! Let me see what I can find
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kD1os862rQHrKkEUB] [conversation.participant=agent]
+
+ok
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kDEYbkHarSQORdLRq] [conversation.participant=user]
+
+it is recommended to pound the garlic to a paste.
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kDHWg72FY2T6q1-XX] [conversation.participant=agent]
+
+thankyou
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kDIumEpgzVE8UY4cG] [conversation.participant=user]
+
+can you show me the best technique to pound the garlic?
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kDLgcVd1sJze5Y2By] [conversation.participant=user]
+
+Yes sure! Just check this video from minutes 0.59 to 1.20
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kDcc97IfsL4cOSibj] [conversation.participant=agent]
+
+https://cdn.jwplayer.com/v2/media/YdWNzjnJ/poster.jpg<video_separator>https://cdn.jwplayer.com/videos/YdWNzjnJ.mp4
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kDd3qv58ryb-kEi3l] [conversation.participant=agent]
+
+does the material of the mortar and pestle make a difference to the taste?
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kDuSeA_kIiMwJPy3K] [conversation.participant=user]
+
+Let me see what I can find
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kE9pzt4Ju38hf7KgW] [conversation.participant=agent]
+
+thank you
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kEC4Rh5FnOiVuRXdU] [conversation.participant=user]
+
+im ready for the next step
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kEkioJkg-ZeIOz-7u] [conversation.participant=user]
+
+That's a really good question. So does It Matter What Kind of Mortar and Pestle You Use for Pesto? So if you use a ceramic mortar with a narrow ceramic pestle, the results are good, but the sauce never fully emulsifies.  The Thai granite mortar and pestle does a much better job, but it still didn't come close to the effectiveness of the Italian marble mortar with the large wooden pestle.  That large pestle head is perfect for efficiently smashing the garlic to paste, and the pine nuts, too. The basil yields under it in a fraction of the time and breaks down more fully.
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kEouthEuUPY0A_fCs] [conversation.participant=agent]
+
+
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kEu-7JE4SCDbN0L3Z] [conversation.participant=agent]
+
+User moved to section "Step 2".
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kEu4mRYVvGgwjmAXl] [conversation.participant=user]
+
+thank you that is interesting
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kEwweX6lG7a4n-16H] [conversation.participant=user]
+
+can you substitute the pine nuts with other nuts
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kF0HClC0j7Se-n4Aq] [conversation.participant=user]
+
+Most recipes for pesto sauce call for pine nuts, but you can also use walnuts.
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kF75vpa6gpVEOV0gV] [conversation.participant=agent]
+
+ok thank you
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kF8oFdd2FE1na4eM1] [conversation.participant=user]
+
+im ready for the next step
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kFBUqHYpPRTmlYsmn] [conversation.participant=user]
+
+
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kFCEF7j8KK0VZEgnZ] [conversation.participant=agent]
+
+User moved to section "Step 3".
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kFCTe2SefS6SCTTiq] [conversation.participant=user]
+
+does the type of salt make a difference?
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kFG9xSWW0_fWeZ9AZ] [conversation.participant=user]
+
+do the basil leaves need to be organic?
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kFRQQHw5DKgalUEE0] [conversation.participant=user]
+
+You should use coarse sea salt, as needed as it acts as an abrasive.
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kFTGV_R-qHyZWkaRe] [conversation.participant=agent]
+
+ok thank you
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kFVetHe5hfygNBLuS] [conversation.participant=user]
+
+Unless you're reading this from Liguria itself, you probably don't have access to the prized basil of that region. If you happen to grow your own, lucky you. If you have access to a good farmers market that carries beautiful tufts of fragrant basil at the height of summer, definitely go for it. If you have to settle for supermarket clamshells of hydroponic herb, well, then, that's what it's going to be. Basically, get the best fresh basil you can, and that's all there is to it.
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kFagUJlMsUk6amyFW] [conversation.participant=agent]
+
+thank you
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kFga5UOA8uyk0Etfd] [conversation.participant=user]
+
+im ready for the next step
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kFhgk9_Pj8Oc3SgAQ] [conversation.participant=user]
+
+
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kFier6j3VR46KiimX] [conversation.participant=agent]
+
+User moved to section "Step 4".
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kFikiAGLJco37JBS8] [conversation.participant=user]
+
+what is the recommended amount of oil?
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kFnxVNxzQ3PxH1Qai] [conversation.participant=user]
+
+does the type of olive oil change the taste?
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kFq0JmnLsYn-ZpGcZ] [conversation.participant=user]
+
+You should use 3/4 cup (175ml) mildly flavored extra-virgin olive oil
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kFv6yl_Ni1gnVNz4P] [conversation.participant=agent]
+
+thank you
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kFx-lz1PeB2bBrp0D] [conversation.participant=user]
+
+As long as you're using a decent, somewhat mild olive oil, your pesto is going to be good; if you feel like using an even higher-quality, not-too-spicy oil, whether Ligurian or not, it may be subtly better.
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kFybOkrAFczakyco5] [conversation.participant=agent]
+
+ok thank you
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kG1DJoerQI7dk9-8Q] [conversation.participant=user]
+
+how do i know when its been crushed enough, can you show me what it would look like?
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kG7-PlSS8kkLKnAt7] [conversation.participant=user]
+
+what should the paste look like at this point?
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kGBQPhp9EaSrRCkPd] [conversation.participant=user]
+
+So in terms of the mix of garlic and pine nuts the paste should look like this
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kGIGFbakUcQDbO2-g] [conversation.participant=agent]
+
+https://www.seriouseats.com/thmb/6uKLgGvoO8b1hMKMPAeiySAlP2I=/1500x1125/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2018__08__20180706-pesto-vicky-wasik-garlic-pinenuts-1500x1125-25ce13e01bc14328895a01caeb910364.jpg
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kGIU45TegbAivZFfS] [conversation.participant=agent]
+
+After adding salt, basil and olive oil the paste should look as follows
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kGNGJNiUELHamzGmk] [conversation.participant=agent]
+
+ok has this been set aside or mixed with the pesto already?
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kGOHVfikE_2Hcmuc3] [conversation.participant=user]
+
+https://www.seriouseats.com/thmb/46h30hK40zmc08msX2Ujus27TOk=/1500x1125/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2018__08__20180731-pesto-reshoot-vicky-wasik-10--1500x1125-1c63329c0a5447bd9c7d3fe3bb997172.jpg
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kGOZkc_IQOQkm3Vt6] [conversation.participant=agent]
+
+ok looks good thank you
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kGQGBs5UMQ7SkHauM] [conversation.participant=user]
+
+im ready for the next step
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kGRlHTm5Ww1lh2xbb] [conversation.participant=user]
+
+it should be all mixed together
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kGT5z_LOjAqD60YZv] [conversation.participant=agent]
+
+
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kGTFzfmL2k71KkUzy] [conversation.participant=agent]
+
+User moved to section "Step 5".
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kGTLiEzFdIRSza1AO] [conversation.participant=user]
+
+ok thank you
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kGUl25ck6wybbrNV4] [conversation.participant=user]
+
+how long does this pesto last in the fridge?
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kGXSOdB9KrAWHGeoI] [conversation.participant=user]
+
+what is the recommended layer of olive oil on top?
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kGewKukLLw5y-S_BV] [conversation.participant=user]
+
+what is the quantity of it sorry?
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kGiKJO8uqKjLt-4bA] [conversation.participant=user]
+
+Exact time is impossible to judge but the best indicator of freshness is the colour of the leaves. Once they turn from green to brown, it is all over for the pesto.
+
+To boost the 'shelf-life' of the pesto in the fridge, make sure that it is completely covered with olive oil before sealing the container.
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kH0LZSrhBME5LOOPU] [conversation.participant=agent]
+
+ok thank you that is very interesting to know
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kH6zpTWaxcZI9XFZK] [conversation.participant=user]
+
+which pasta is it best served with?
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kH9M6tho8hR2O8wk0] [conversation.participant=user]
+
+Pesto is commonly used on pasta, traditionally with "mandilli de sæa" ("silk handkerchiefs" in the Genoese dialect), trofie or trenette.
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kHOEtYK4neCmV1e1y] [conversation.participant=agent]
+
+can you show me a photo of this pasta, ive never heard of it before?
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kHSsucBhc2q7F7lpO] [conversation.participant=user]
+
+I'm sorry I do not have answer for this question
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kHfjK9PYRLuztm5rO] [conversation.participant=agent]
+
+ok thank you
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kHh4UN1236WcQ8Z-Z] [conversation.participant=user]
+
+im ready for the next step
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kHi0IYHVl3vtaG-7J] [conversation.participant=user]
+
+Congratulations! You reached the last step of this recipe!
+[conversation_id=60c48655811ab33a8f77dd34] [conversation.id=-N9kHp4hbF7PRhd8um53] [conversation.participant=agent]
+

@@ -1,0 +1,123 @@
+Hi
+[conversation_id=5fdbb3b4e66d7f061f78ea21] [conversation.id=-N96KKBpvbfxo8HnLTts] [conversation.participant=user]
+
+Hey there! Happy to have you on board for our masterclass :) Today you will be learning how to prepare gnocchi. Make sure you have all the ingredients and tools and feel free to ask questions. If you are ready to start cooking simply say next.
+[conversation_id=5fdbb3b4e66d7f061f78ea21] [conversation.id=-N96KOyXn3GVIsV1sSNe] [conversation.participant=agent]
+
+Next
+[conversation_id=5fdbb3b4e66d7f061f78ea21] [conversation.id=-N96KdZIiTKA31u8akbo] [conversation.participant=user]
+
+
+[conversation_id=5fdbb3b4e66d7f061f78ea21] [conversation.id=-N96KeGOYo_ZIQvxypIu] [conversation.participant=agent]
+
+User moved to section "Step 1".
+[conversation_id=5fdbb3b4e66d7f061f78ea21] [conversation.id=-N96KeM7djc-qG9tPGe5] [conversation.participant=user]
+
+Can you show me what the dough should look like?
+[conversation_id=5fdbb3b4e66d7f061f78ea21] [conversation.id=-N96Krc3Pui0QP2Vwyjc] [conversation.participant=user]
+
+You should stir it vigorously with a wooden spoon until a smooth ball of dough forms.
+[conversation_id=5fdbb3b4e66d7f061f78ea21] [conversation.id=-N96L0UbjgMm237GIf3E] [conversation.participant=agent]
+
+https://www.seriouseats.com/thmb/LsksINgo0eplkplKzuzPlUc2P6M=/610x458/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2013__09__20130827-gnocchi-parisian-souffle-03-8055e2ed51894009995e78844d770af7.jpg
+[conversation_id=5fdbb3b4e66d7f061f78ea21] [conversation.id=-N96L0rNsPrKIrVJwqs_] [conversation.participant=agent]
+
+Next
+[conversation_id=5fdbb3b4e66d7f061f78ea21] [conversation.id=-N96L3ja-8nF84GGgS0I] [conversation.participant=user]
+
+
+[conversation_id=5fdbb3b4e66d7f061f78ea21] [conversation.id=-N96L4baGNUs8uU1jX5M] [conversation.participant=agent]
+
+User moved to section "Step 2".
+[conversation_id=5fdbb3b4e66d7f061f78ea21] [conversation.id=-N96L4hJnOydnuV2NQ2G] [conversation.participant=user]
+
+What mustard do I need
+[conversation_id=5fdbb3b4e66d7f061f78ea21] [conversation.id=-N96LDP88ha6fr6pdvDH] [conversation.participant=user]
+
+Is it step four or step 3 to proceed
+[conversation_id=5fdbb3b4e66d7f061f78ea21] [conversation.id=-N96LJZbzi_pwmyS-5U2] [conversation.participant=user]
+
+You should use Dijon mustard
+[conversation_id=5fdbb3b4e66d7f061f78ea21] [conversation.id=-N96LNgoh3fFPuG8DIea] [conversation.participant=agent]
+
+Can you reformulate your question?
+[conversation_id=5fdbb3b4e66d7f061f78ea21] [conversation.id=-N96LQ0ubLgdGLSvxp7p] [conversation.participant=agent]
+
+Next
+[conversation_id=5fdbb3b4e66d7f061f78ea21] [conversation.id=-N96LRipZlkiglOJPNhC] [conversation.participant=user]
+
+
+[conversation_id=5fdbb3b4e66d7f061f78ea21] [conversation.id=-N96LUbiS1JcySqjyLMk] [conversation.participant=agent]
+
+User moved to section "Step 3".
+[conversation_id=5fdbb3b4e66d7f061f78ea21] [conversation.id=-N96LUgGcs4yG5AmEqyq] [conversation.participant=user]
+
+What is curdling
+[conversation_id=5fdbb3b4e66d7f061f78ea21] [conversation.id=-N96Lbuicgmx88mA6tpZ] [conversation.participant=user]
+
+In cookery, curdling is the breaking of an emulsion or colloid into large parts of different composition through the physico-chemical processes of flocculation, creaming, and coalescence. Curdling is intentional and desirable in making cheese and tofu; unintentional and undesirable in making sauces and custards. Curdling occurs naturally in cows' milk, if it is left open to air for a few days in a warm environment.
+[conversation_id=5fdbb3b4e66d7f061f78ea21] [conversation.id=-N96Lm0LN88AD7AxRoXJ] [conversation.participant=agent]
+
+Next
+[conversation_id=5fdbb3b4e66d7f061f78ea21] [conversation.id=-N96LpHOEYaCPYhDASVK] [conversation.participant=user]
+
+
+[conversation_id=5fdbb3b4e66d7f061f78ea21] [conversation.id=-N96LsBqX_lnRFr8EQYP] [conversation.participant=agent]
+
+User moved to section "Step 4".
+[conversation_id=5fdbb3b4e66d7f061f78ea21] [conversation.id=-N96LsHAV0q4VEevSaob] [conversation.participant=user]
+
+What size baking sheet is needed
+[conversation_id=5fdbb3b4e66d7f061f78ea21] [conversation.id=-N96ME-FtO3K-ST9eaK_] [conversation.participant=user]
+
+Can you show a video of putting them in the water
+[conversation_id=5fdbb3b4e66d7f061f78ea21] [conversation.id=-N96MMzNDxgPoGlHZlB_] [conversation.participant=user]
+
+it really depends on how much dough you have. Simply transfer to a rimmed baking sheet.
+[conversation_id=5fdbb3b4e66d7f061f78ea21] [conversation.id=-N96MTuFzs-UMOnB_p-L] [conversation.participant=agent]
+
+Let me see what I can find :)
+[conversation_id=5fdbb3b4e66d7f061f78ea21] [conversation.id=-N96MVnK9CI5LoHVfT2u] [conversation.participant=agent]
+
+I'm sorry but I do not have a video on that specific step
+[conversation_id=5fdbb3b4e66d7f061f78ea21] [conversation.id=-N96MaNGee1lrBoJpKI6] [conversation.participant=agent]
+
+Next
+[conversation_id=5fdbb3b4e66d7f061f78ea21] [conversation.id=-N96MeX4rfMdVWL1RF4e] [conversation.participant=user]
+
+
+[conversation_id=5fdbb3b4e66d7f061f78ea21] [conversation.id=-N96Mfu9pu85CjRip0K0] [conversation.participant=agent]
+
+User moved to section "Step 5".
+[conversation_id=5fdbb3b4e66d7f061f78ea21] [conversation.id=-N96Mg-f530YSU5URb_F] [conversation.participant=user]
+
+How long with the gnocchi need to cook
+[conversation_id=5fdbb3b4e66d7f061f78ea21] [conversation.id=-N96Mm435n4wpBPTU82Y] [conversation.participant=user]
+
+How long will the cooled gnocchi last
+[conversation_id=5fdbb3b4e66d7f061f78ea21] [conversation.id=-N96N-O1cFjiFolVmH1J] [conversation.participant=user]
+
+You should wait until all gnocchi have floated to the top, then continue cooking until gnocchi are fully cooked to the center which should take about 3 minutes longer.
+[conversation_id=5fdbb3b4e66d7f061f78ea21] [conversation.id=-N96N-YQiBpAI6cHfPte] [conversation.participant=agent]
+
+Next
+[conversation_id=5fdbb3b4e66d7f061f78ea21] [conversation.id=-N96NAOuMplZxAlAQR7z] [conversation.participant=user]
+
+I'm sorry but I do not have an answer to that question
+[conversation_id=5fdbb3b4e66d7f061f78ea21] [conversation.id=-N96NEMPLLHdFHSqACz8] [conversation.participant=agent]
+
+
+[conversation_id=5fdbb3b4e66d7f061f78ea21] [conversation.id=-N96NEVkrEi_GZvbBq-8] [conversation.participant=agent]
+
+User moved to section "Step 5".
+[conversation_id=5fdbb3b4e66d7f061f78ea21] [conversation.id=-N96NEaRVA55R8BWyzVX] [conversation.participant=user]
+
+Next
+[conversation_id=5fdbb3b4e66d7f061f78ea21] [conversation.id=-N96NJ25keuUPM_e_tOM] [conversation.participant=user]
+
+You reached the last step! Well done!
+[conversation_id=5fdbb3b4e66d7f061f78ea21] [conversation.id=-N96NKCjY5pmnVEPX-UC] [conversation.participant=agent]
+
+Thankyou
+[conversation_id=5fdbb3b4e66d7f061f78ea21] [conversation.id=-N96NPaYr0tLoqzNB0-y] [conversation.participant=user]
+

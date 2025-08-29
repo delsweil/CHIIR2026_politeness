@@ -1,0 +1,318 @@
+Hey there! Happy to have you on board for our masterclass :) Today you will be learning how to prepare Savory Cheese Soufflé. Make sure you have all the ingredients and tools and feel free to ask questions. If you are ready to start cooking simply say start.
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSFNHXZAgWRvRJh10v] [conversation.participant=agent]
+
+start
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSFQoVw_Xusmvaj-BC] [conversation.participant=user]
+
+can you tell me about the history of this recipe please?
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSFcv1ysh6-nIjdxeo] [conversation.participant=user]
+
+Let me tell you
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSFfkkLet5BAqTbQJC] [conversation.participant=agent]
+
+The earliest mention of the soufflé is attributed to French master cook  Vincent La Chapelle, in the early eighteenth century. The development and popularization of the soufflé is usually traced to French chef Marie-Antoine Carême in the early nineteenth century.
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSFsKW2vDAj6ymQY04] [conversation.participant=agent]
+
+what other types of souffle are there?
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSG1kIBMGwPof_JSEV] [conversation.participant=user]
+
+There are a number of both savory and sweet soufflé flavor variations. Savory soufflés often include cheese, and vegetables such as spinach, carrot and herbs, and may sometimes incorporate poultry, bacon, ham, or seafood for a more substantial dish. Sweet soufflés may be based on a chocolate or fruit sauce (lemon or raspberry, for example), and are often served with a dusting of powdered sugar. Frugal recipes sometimes emphasize the possibilities for making soufflés from leftovers. A soufflé may be served alone or with ice cream, fruit, or a sauce.
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSG6M0QoVQeyBJpolJ] [conversation.participant=agent]
+
+cool
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSGIVou7_WCv-tSW0k] [conversation.participant=user]
+
+what actually is a souffle?
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSGK52oOz14eiOU9gD] [conversation.participant=user]
+
+A soufflé is a baked egg-based dish which originated in early eighteenth century France. It is made with egg yolks and beaten egg whites combined with various other ingredients and served as a savory main dish or sweetened as a dessert. The word soufflé is the past participle of the French verb "souffler" which means "to blow", "to breathe", "to inflate" or "to puff".
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSGNs8qJ-KPoizLrg4] [conversation.participant=agent]
+
+can you show me a picture
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSGSLxx7dp2tL8RipR] [conversation.participant=user]
+
+https://www.seriouseats.com/thmb/Xhhyze7_ec5__CIP6lWApSGiPPM=/1500x1125/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2019__01__20190116-cheese-souffle-vicky-wasik-20-1500x1125-665264f4c45347e0b9f5dd65cf759a41.jpg
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSGYFNEzrsQskRdNjF] [conversation.participant=agent]
+
+very nice
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSGeKov46g3b1Lh-rT] [conversation.participant=user]
+
+how do you make it?
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSGfx-Xw2WRFH4UawK] [conversation.participant=user]
+
+
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSGgmHXhbqMTwvmVkY] [conversation.participant=agent]
+
+User moved to section "Step 1".
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSGgrwZjwW7tKYQGaj] [conversation.participant=user]
+
+next
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSHLZYxuQEZhpH26U8] [conversation.participant=user]
+
+
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSHM554bU70CsFadky] [conversation.participant=agent]
+
+User moved to section "Step 2".
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSHM9hAjmbLV4mnUDJ] [conversation.participant=user]
+
+is this difficult to get right?
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSHbC6MF_hwv6aQmw4] [conversation.participant=user]
+
+Can you specify your question?
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSHkDBRbOY-0EPS8K4] [conversation.participant=agent]
+
+don't worry
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSOg8XHLb4eBxseZ5G] [conversation.participant=user]
+
+next step
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSOgvn1lAoMV_wuq5E] [conversation.participant=user]
+
+
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSOi0dlXY5c7kqqxrR] [conversation.participant=agent]
+
+User moved to section "Step 1".
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSOi4kxreadelslDt7] [conversation.participant=user]
+
+
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSOiQVeY6THdbM7T3e] [conversation.participant=agent]
+
+User moved to section "Step 2".
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSOiUg6GJmr6Zwnvw4] [conversation.participant=user]
+
+Did you mean step 2?
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSOpoqJOq6bJ-AtyEs] [conversation.participant=agent]
+
+yes
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSOtB7-91fg2nZTbJT] [conversation.participant=user]
+
+can you show me a video of this step please?
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSP5P4DZc0IHNuqYqz] [conversation.participant=user]
+
+I'm sorry. There is no video available
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSPFgvDWsio9Zkfc-i] [conversation.participant=agent]
+
+no worries
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSPJiaIVXQenC-rcqd] [conversation.participant=user]
+
+next step
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSPK1PD99rv0PEpe36] [conversation.participant=user]
+
+
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSPKjFVVoAOlqDKTdx] [conversation.participant=agent]
+
+User moved to section "Step 3".
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSPKoDmtmMgrh8u8Zc] [conversation.participant=user]
+
+is there a video for this step?
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSPmAQ0D_rcw1nzgDD] [conversation.participant=user]
+
+I'm sorry, there are no videos available for this recipe.
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSPtdQMSnKS5rA2zhd] [conversation.participant=agent]
+
+that is fine
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSPvqsi0SEceomos60] [conversation.participant=user]
+
+are there any photos?
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSPwu0N1F5sNLZokFI] [conversation.participant=user]
+
+There is a picture for the béchamel sauce:
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSQ8kKkTNt-y6NQGSG] [conversation.participant=agent]
+
+https://www.seriouseats.com/thmb/Z7oTQqfqYjrW7z6XBsM7JEUlEtA=/1500x1125/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2019__01__20190116-cheese-souffle-vicky-wasik-yolks-mixing-1500x1125-4a46fe3fbb9d4cb4a4b4f38eaded6793.jpg
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSQ8zr8Twwr695GZX9] [conversation.participant=agent]
+
+thank you
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSQDNOQs1OD6UE1H2R] [conversation.participant=user]
+
+next step please
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSQDt0z__9RflpSd7C] [conversation.participant=user]
+
+
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSQEKB_e941iWFpOY_] [conversation.participant=agent]
+
+User moved to section "Step 4".
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSQEPaewRANgxavjJ_] [conversation.participant=user]
+
+next
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSQHM5Ns-SrX9sUM08] [conversation.participant=user]
+
+
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSQHyLGG_HhG56TFvO] [conversation.participant=agent]
+
+User moved to section "Step 5".
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSQI1d0SAtF2aH12Qi] [conversation.participant=user]
+
+how long does this part take?
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSQOgBIKANX-WV4doW] [conversation.participant=user]
+
+I'm sorry I do not have answer for this question
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSQSraqX_jFgv-OMpz] [conversation.participant=agent]
+
+But  Preparation Time is 30 minutes
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSQWpSCeQOi6GUnVhQ] [conversation.participant=agent]
+
+okay thank you
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSQYukuJuVtRNaEsSp] [conversation.participant=user]
+
+next
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSQZAAzoIkQsIWDET7] [conversation.participant=user]
+
+
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSQZzZwBJVNjpZzCsz] [conversation.participant=agent]
+
+User moved to section "Step 6".
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSQ_3Hb0-mLZ4dRUX4] [conversation.participant=user]
+
+next
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSQiIX90rvkOIgDLm4] [conversation.participant=user]
+
+
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSQj4qy3njQIfrxWtU] [conversation.participant=agent]
+
+User moved to section "Step 7".
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSQj9bbt1eri-S_TKm] [conversation.participant=user]
+
+next
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSQnmq94iOKUOHrBeJ] [conversation.participant=user]
+
+
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSQoPJlkWz3-i0BizD] [conversation.participant=agent]
+
+User moved to section "Step 8".
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSQoTLrbEwd4DG3Va2] [conversation.participant=user]
+
+next
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSQrzsccg148LF-CDD] [conversation.participant=user]
+
+
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSQsnoKpx_1IXZeXaz] [conversation.participant=agent]
+
+User moved to section "Step 9".
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSQsrrdNwng9cXeHen] [conversation.participant=user]
+
+how long before it deflates?
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSR2ZGJ5pWb5BqYONW] [conversation.participant=user]
+
+Let me see...
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSR47W3NVoPk5Wl_L5] [conversation.participant=agent]
+
+Usually, a soufflé will deflate as soon as it leaves the oven.
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSRIX8i4fn7FZKuWkq] [conversation.participant=agent]
+
+Therefore:  Immediately transfer soufflé to table and serve before it deflates too much, scooping out portions onto each diner's plate.
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSRLYUhBQ4F3zqkVMY] [conversation.participant=agent]
+
+cool
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSRWkzw2aHweVPAS5r] [conversation.participant=user]
+
+what do you serve it with?
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSRXvpxW0d8X0bWG30] [conversation.participant=user]
+
+Let me see...
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSRd-AIGxxpfyLck7M] [conversation.participant=agent]
+
+The soufflé may be served with a sauce atop, such as a sweet dessert sauce, or with a sorbet or ice-cream on the side. When served, the top of a soufflé may be punctured with serving utensils to separate it into individual servings. This can also enable a sauce to integrate into the dish.
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSSAQOrlktjNUHjUMM] [conversation.participant=agent]
+
+nice
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSSIjQmVv14Hzbk2-i] [conversation.participant=user]
+
+next step
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSSJEBN3Wma0W-OvyQ] [conversation.participant=user]
+
+We already reached the last step.
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSSQ4d9v_jIQBHuvJg] [conversation.participant=agent]
+
+can you show me the ingredients again?
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSSWinBVe9-byc0CmV] [conversation.participant=user]
+
+Sure.
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSSYes6CGh4p2_-VUw] [conversation.participant=agent]
+
+
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSSYvnfBI3tY75a6Ol] [conversation.participant=agent]
+
+User moved to section "Step 8".
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSSYzp4MXMQGWjHlgX] [conversation.participant=user]
+
+
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSSZFvx3mmgF0iAAeM] [conversation.participant=agent]
+
+User moved to section "Step 7".
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSSZK3mh7iRxfJJ-NW] [conversation.participant=user]
+
+
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSSZZA8eGrw6EfjSlp] [conversation.participant=agent]
+
+User moved to section "Step 6".
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSSZdDe3XUoUo1lysB] [conversation.participant=user]
+
+
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSSZp3-WpU60Rf_qGO] [conversation.participant=agent]
+
+User moved to section "Step 5".
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSSZuwptBGzlnbqPgj] [conversation.participant=user]
+
+
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSS_2XuVVl0y3faGw5] [conversation.participant=agent]
+
+User moved to section "Step 4".
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSS_879GUZDSf41XTS] [conversation.participant=user]
+
+
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSS_HEnZI5Vpn42QPl] [conversation.participant=agent]
+
+
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSS_KPfYubo90mi1va] [conversation.participant=agent]
+
+User moved to section "Step 3".
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSS_LrCb0MbsmhbL9V] [conversation.participant=user]
+
+
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSS_OI3L8D5OMqC5ve] [conversation.participant=agent]
+
+User moved to section "Step 2".
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSS_QRuLKmF6pg2Sx0] [conversation.participant=user]
+
+User moved to section "Step 1".
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSS_ZhaGzOExkpRMgS] [conversation.participant=user]
+
+
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSS_otjaahwC-qbHA0] [conversation.participant=agent]
+
+User moved to section "Time, Equipment & Ingredients".
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSS_t2EELAg5D21kkb] [conversation.participant=user]
+
+what is cream of tartar?
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSSk7EEDEZWe4FxlMU] [conversation.participant=user]
+
+Give me a moment
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSSpjspUV4wvfVMo65] [conversation.participant=agent]
+
+In confectionery and candy making, cream of tartar is commonly used as the acidulant, with typical amounts in the range of 0.15-0.25% of the sugar's weight. The use of cream of tartar imparts a honey-like flavor to the syrup. After the inversion is completed, it may be neutralized with baking soda using a weight of 45% of the cream of tartar's weight.
+[conversation_id=tcYis3RLgY] [conversation.id=-NBST4EdhYntXXMETtzd] [conversation.participant=agent]
+
+what is an acidulant
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSTEKSpik73qmVWhwm] [conversation.participant=user]
+
+For the soufflée, cream of tartar helps form more stable beaten whites that are less prone to breaking and weeping. It is an acid that also prevents sulfur bonds from forming.
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSTELXXIxtolBhtDSn] [conversation.participant=agent]
+
+oh i see
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSTH74plsCtiVfbGLm] [conversation.participant=user]
+
+Acidulants are chemical compounds that confer a tart, sour, or acidic flavor to foods. They differ from acidity regulators, which are food additives intended to modify the stability of food or enzymes within it. Typical acidulants are acetic acid (e.g. in pickles) and citric acid. Many beverages, such as colas, contain phosphoric acid. Sour candies often are formulated with malic acid.
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSTJ7al1vKa8YrzEaP] [conversation.participant=agent]
+
+very interesting! thank you
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSTNHNrp4GwNQUoYXA] [conversation.participant=user]
+
+You are welcome
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSTSr2DDPsdSEnoryz] [conversation.participant=agent]
+
+I don't have any more questions
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSTWrtW-N4Z3IFaeTX] [conversation.participant=user]
+
+Thank you.
+[conversation_id=tcYis3RLgY] [conversation.id=-NBSTaX9L-igFsmxpLdW] [conversation.participant=agent]
+

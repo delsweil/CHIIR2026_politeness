@@ -1,0 +1,489 @@
+user joined the chat.
+[conversation_id=EioCaKa] [conversation.id=-NGzprfJFjcKG6oD8-54] [conversation.participant=user]
+
+Hey there! Happy to have you on board for our masterclass :-) Today you will be learning how to prepare Duck a l'orange. Make sure you have all the ingredients and tools and feel free to ask questions. If you are ready to start cooking simply say next.
+[conversation_id=EioCaKa] [conversation.id=-NGzqIJstSJcMYwpfMxt] [conversation.participant=agent]
+
+next
+[conversation_id=EioCaKa] [conversation.id=-NGzqMtHiqE6CIw3R2ng] [conversation.participant=user]
+
+Hello.  How can I help you?
+[conversation_id=EioCaKa] [conversation.id=-NGzqPRrLc3joIECtRDP] [conversation.participant=agent]
+
+what are poultry shears?
+[conversation_id=EioCaKa] [conversation.id=-NGzqSwsMruxoe06alQv] [conversation.participant=user]
+
+A good pair of poultry shears needs to cleanly snip through slippery skin, and it needs to force its way through bone. That sounds simple enough, but it's probably pretty hard to pack both capabilities into one set of shears, as bone-crushing power and skin-snipping finesse are very different things.
+[conversation_id=EioCaKa] [conversation.id=-NGzqowNMvFILbwlK5Mw] [conversation.participant=agent]
+
+can you show me a video of how to cook the duck
+[conversation_id=EioCaKa] [conversation.id=-NGzr1xwsAMrAdbBoNVw] [conversation.participant=user]
+
+Sure, have a look at this:
+[conversation_id=EioCaKa] [conversation.id=-NGzrE_lTPf2M8oj6Bvk] [conversation.participant=agent]
+
+https://cdn.jwplayer.com/v2/media/MULAFKQe/poster.jpg<video_separator>https://cdn.jwplayer.com/videos/MULAFKQe.mp4
+[conversation_id=EioCaKa] [conversation.id=-NGzrFARGwQd9PZ0x0AW] [conversation.participant=agent]
+
+But you can have a look at this later to recap the recipe steps you will learn about here.
+[conversation_id=EioCaKa] [conversation.id=-NGzsTB4EvOFDlM0vFuH] [conversation.participant=agent]
+
+What else can I do for you?
+[conversation_id=EioCaKa] [conversation.id=-NGzt172egCvRCvUwpza] [conversation.participant=agent]
+
+Hello. Are you still there?
+[conversation_id=EioCaKa] [conversation.id=-NGztf-hpf-x7hra1nMZ] [conversation.participant=agent]
+
+next
+[conversation_id=EioCaKa] [conversation.id=-NGzthk785Perxxjg9Uv] [conversation.participant=user]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NGzticUmKAGRvFCotvl] [conversation.participant=agent]
+
+User moved to section "Step 1".
+[conversation_id=EioCaKa] [conversation.id=-NGztigGIrvM15NIsB0A] [conversation.participant=user]
+
+next
+[conversation_id=EioCaKa] [conversation.id=-NGztnMIabdVmJ4RDqs2] [conversation.participant=user]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NGztnzr2C-3IKpS-vWK] [conversation.participant=agent]
+
+User moved to section "Step 2".
+[conversation_id=EioCaKa] [conversation.id=-NGzto2WXquNONYjO1r4] [conversation.participant=user]
+
+next
+[conversation_id=EioCaKa] [conversation.id=-NGztqbbP5Nxw07i7krs] [conversation.participant=user]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NGztr5vn2EPQUGrILeP] [conversation.participant=agent]
+
+User moved to section "Step 3".
+[conversation_id=EioCaKa] [conversation.id=-NGztr9gHG7S9VPtI8dQ] [conversation.participant=user]
+
+why does the duck skin need to be pricked?
+[conversation_id=EioCaKa] [conversation.id=-NGzu-_WzJn8QoBmrlTy] [conversation.participant=user]
+
+Let me see...
+[conversation_id=EioCaKa] [conversation.id=-NGzu1dzit4-PafnK1bp] [conversation.participant=agent]
+
+Duck is high in fat, so when roasting a whole duck you can end up with a lot of fat left with the duck inside the skin and soggier skin. This can present a challenge when cooking, because we want the fat to render out and the skin to become crispy and delicious.The most common way to do this, classically, is to prick the skin all over, to permit the fat an exit path (when doing this, be careful to cut through the skin into the fat layer, but hopefully not into the meat itself)
+[conversation_id=EioCaKa] [conversation.id=-NGzuTa4Je1tvU2IBtbO] [conversation.participant=agent]
+
+next
+[conversation_id=EioCaKa] [conversation.id=-NGzuonqZ1Br3qzE_6Ue] [conversation.participant=user]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NGzupfAFuRDxitSzieb] [conversation.participant=agent]
+
+User moved to section "Step 4".
+[conversation_id=EioCaKa] [conversation.id=-NGzupip9Y0jOQUJn4Iv] [conversation.participant=user]
+
+next
+[conversation_id=EioCaKa] [conversation.id=-NGzv8RBPfcA3nytwjS6] [conversation.participant=user]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NGzv9W6A-NvMs-IEKo5] [conversation.participant=agent]
+
+User moved to section "Step 5".
+[conversation_id=EioCaKa] [conversation.id=-NGzv9Zpsz8GwIpchEPw] [conversation.participant=user]
+
+why does the duck need to be refrigerated?
+[conversation_id=EioCaKa] [conversation.id=-NGzvDFE_giYuuuij-jz] [conversation.participant=user]
+
+user joined the chat.
+[conversation_id=EioCaKa] [conversation.id=-NGzvhB5M2LMqsIg8Qz6] [conversation.participant=user]
+
+Refrigerate it and the fat will get on top of the water.
+[conversation_id=EioCaKa] [conversation.id=-NGzvjxxitqfRpLQG4Z7] [conversation.participant=agent]
+
+So the fat will render off.
+[conversation_id=EioCaKa] [conversation.id=-NGzvohRgrf9PTzzXkV9] [conversation.participant=agent]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NGzwDSYg22knlAY72IS] [conversation.participant=agent]
+
+User moved to section "Step 1".
+[conversation_id=EioCaKa] [conversation.id=-NGzwDXIlFg7Vp9t1OWo] [conversation.participant=user]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NGzwEH6dEbXBKEs0Pgf] [conversation.participant=agent]
+
+User moved to section "Step 2".
+[conversation_id=EioCaKa] [conversation.id=-NGzwEM1q-z_JbRnl0ID] [conversation.participant=user]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NGzwEgvhLTEGUcxUoEP] [conversation.participant=agent]
+
+User moved to section "Step 3".
+[conversation_id=EioCaKa] [conversation.id=-NGzwEkfpPfjiXQS36PG] [conversation.participant=user]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NGzwF0CSlN-1zJtSwQF] [conversation.participant=agent]
+
+next
+[conversation_id=EioCaKa] [conversation.id=-NGzwF2hpQHjaKElnWCV] [conversation.participant=user]
+
+User moved to section "Step 4".
+[conversation_id=EioCaKa] [conversation.id=-NGzwF3rNPrWkH-m3529] [conversation.participant=user]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NGzwFYyM83riUre99rA] [conversation.participant=agent]
+
+User moved to section "Step 5".
+[conversation_id=EioCaKa] [conversation.id=-NGzwFcfhfrZ86P6iC9d] [conversation.participant=user]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NGzwFvEkP2gUvIipeHI] [conversation.participant=agent]
+
+User moved to section "Step 6".
+[conversation_id=EioCaKa] [conversation.id=-NGzwFyVT9lqky3hBuPA] [conversation.participant=user]
+
+what is the origin of this recipe?
+[conversation_id=EioCaKa] [conversation.id=-NGzwKPmmeThNCECZtlO] [conversation.participant=user]
+
+Duck à l'orange, or canard à l'orange in French, is a classic French dish in which a duck is roasted and served with a bigarade sauce. The Italians claim it migrated from Italy to France. Italian poet Antonio Caccitore detailed his first encounter with duck à l'orange outside of Italy in the poem "Anatra all'Arancia", which tells the story of how the dish made its way to Paris from its origin in Naples.
+[conversation_id=EioCaKa] [conversation.id=-NGzwZkEbjHF3ERqPdfH] [conversation.participant=agent]
+
+next
+[conversation_id=EioCaKa] [conversation.id=-NGzwqX7UMNgxxnLuDbl] [conversation.participant=user]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NGzwqvki2Pdq_5xs36X] [conversation.participant=agent]
+
+User moved to section "Step 7".
+[conversation_id=EioCaKa] [conversation.id=-NGzwqzMkdTy8PO5E5pP] [conversation.participant=user]
+
+next
+[conversation_id=EioCaKa] [conversation.id=-NGzwtOkXSIReywc5ADF] [conversation.participant=user]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NGzwtk990P8VThkRVeW] [conversation.participant=agent]
+
+User moved to section "Step 8".
+[conversation_id=EioCaKa] [conversation.id=-NGzwtpJMKwyjev6UwVi] [conversation.participant=user]
+
+next
+[conversation_id=EioCaKa] [conversation.id=-NGzxBxBzHT7DZS6t1e_] [conversation.participant=user]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NGzxCPr0ovDVQoZVVjC] [conversation.participant=agent]
+
+User moved to section "Step 9".
+[conversation_id=EioCaKa] [conversation.id=-NGzxCVe_rwVyGe7nqQa] [conversation.participant=user]
+
+next
+[conversation_id=EioCaKa] [conversation.id=-NGzxMIXvkXLTNkQyq00] [conversation.participant=user]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NGzxN6AUHiUUM26efJJ] [conversation.participant=agent]
+
+User moved to section "Step 10".
+[conversation_id=EioCaKa] [conversation.id=-NGzxN9rfD9BO3k1-v0b] [conversation.participant=user]
+
+next
+[conversation_id=EioCaKa] [conversation.id=-NGzxg87qo9ywtA6bliJ] [conversation.participant=user]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NGzxhO9m1icdRRDtUE7] [conversation.participant=agent]
+
+User moved to section "Step 11".
+[conversation_id=EioCaKa] [conversation.id=-NGzxhSS3rxcRWTpAIgm] [conversation.participant=user]
+
+can you show me a picture of how the duck should look like at this step?
+[conversation_id=EioCaKa] [conversation.id=-NGzxqiHl0TcWDfGkw27] [conversation.participant=user]
+
+I'm sorry, I do not think I have this information
+[conversation_id=EioCaKa] [conversation.id=-NGzxz2_u7dysl2N3V4M] [conversation.participant=agent]
+
+Maybe something in this direction
+[conversation_id=EioCaKa] [conversation.id=-NGzy3icqsW8oXgv3AwR] [conversation.participant=agent]
+
+https://www.seriouseats.com/thmb/G1-aj4JMB1X06y0HCIUS_jrqDLo=/1500x1125/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2018__11__20181023-duck-a-l-orange-vicky-wasik-25-1500x1125-7c35b141135c4ca4bdcaa2d166e3614e.jpg
+[conversation_id=EioCaKa] [conversation.id=-NGzy3uXIdAbAZ3cb6Mn] [conversation.participant=agent]
+
+next
+[conversation_id=EioCaKa] [conversation.id=-NGzyUJFVCtBhs325DBC] [conversation.participant=user]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NGzyZxBWgLSup2wo6si] [conversation.participant=agent]
+
+User moved to section "Step 12".
+[conversation_id=EioCaKa] [conversation.id=-NGzy_1K2fu1ysd35-l_] [conversation.participant=user]
+
+can you show me a video of this step
+[conversation_id=EioCaKa] [conversation.id=-NGzykhujqCTKsPdtSGE] [conversation.participant=user]
+
+Unfortunately not. I do not have a video for this.
+[conversation_id=EioCaKa] [conversation.id=-NGzyr6rvgD1AGCSdZZp] [conversation.participant=agent]
+
+next
+[conversation_id=EioCaKa] [conversation.id=-NGzysVftIv6aO2V202v] [conversation.participant=user]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NGzyt-73lxk5BPuSlnZ] [conversation.participant=agent]
+
+User moved to section "Step 13".
+[conversation_id=EioCaKa] [conversation.id=-NGzyt4XX7HfqenuovvS] [conversation.participant=user]
+
+next
+[conversation_id=EioCaKa] [conversation.id=-NGzz414tjYFZbKne3OX] [conversation.participant=user]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NGzz4ahrW5B2eAj4B14] [conversation.participant=agent]
+
+User moved to section "Step 14".
+[conversation_id=EioCaKa] [conversation.id=-NGzz4hVfPMhlcv8P-o9] [conversation.participant=user]
+
+what is a gastrique
+[conversation_id=EioCaKa] [conversation.id=-NGzzD2HMhJd-GUwc1QM] [conversation.participant=user]
+
+A gastrique is a sweet-sour mixture of caramel and wine vinegar, added in small doses to a sauce to flavor it. When done right, the acidity is bright and sharp, but lightly rounded out by the darkened sugar.
+[conversation_id=EioCaKa] [conversation.id=-NGzzKvjF36yMhhK4NPX] [conversation.participant=agent]
+
+next
+[conversation_id=EioCaKa] [conversation.id=-NGzzZ-NkTEO3JXV4dJJ] [conversation.participant=user]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NGzzZicPJkI2Lr4b_Ry] [conversation.participant=agent]
+
+User moved to section "Step 15".
+[conversation_id=EioCaKa] [conversation.id=-NGzzZnUnGQM3XD9FsvW] [conversation.participant=user]
+
+next
+[conversation_id=EioCaKa] [conversation.id=-NGzzn4aHyNiZhXRo7C4] [conversation.participant=user]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NGzznoYhF3KphxyQc9w] [conversation.participant=agent]
+
+User moved to section "Step 16".
+[conversation_id=EioCaKa] [conversation.id=-NGzznshttAmAxn1SY-k] [conversation.participant=user]
+
+next
+[conversation_id=EioCaKa] [conversation.id=-NH--1L3p608FG_u4J1k] [conversation.participant=user]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NH--1qfMBRKwiuViMq-] [conversation.participant=agent]
+
+User moved to section "Step 17".
+[conversation_id=EioCaKa] [conversation.id=-NH--1vvq8b3WHFm481x] [conversation.participant=user]
+
+next
+[conversation_id=EioCaKa] [conversation.id=-NH--JZoTyVlfZP73SCG] [conversation.participant=user]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NH--Kb0y23DNmZHN3Yz] [conversation.participant=agent]
+
+User moved to section "Step 18".
+[conversation_id=EioCaKa] [conversation.id=-NH--Kfwnnj8EbY3rK8U] [conversation.participant=user]
+
+next
+[conversation_id=EioCaKa] [conversation.id=-NH--VsPcX79HVazcA7P] [conversation.participant=user]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NH--WdgRL4WIi-J9wYS] [conversation.participant=agent]
+
+User moved to section "Step 19".
+[conversation_id=EioCaKa] [conversation.id=-NH--Wj7WZ3hjl0TIVDR] [conversation.participant=user]
+
+next
+[conversation_id=EioCaKa] [conversation.id=-NH--lLA0rvwCZaxS8Rt] [conversation.participant=user]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NH--mHDJlRrO-F7M8ay] [conversation.participant=agent]
+
+User moved to section "Step 20".
+[conversation_id=EioCaKa] [conversation.id=-NH--mMAbl3iGxypStcL] [conversation.participant=user]
+
+can you show me what the sauce should look like at this point
+[conversation_id=EioCaKa] [conversation.id=-NH--zCyJf5Kd2H-TEl4] [conversation.participant=user]
+
+Sure! It should look like this:
+[conversation_id=EioCaKa] [conversation.id=-NH-07url3EuZu1e0oy0] [conversation.participant=agent]
+
+https://www.seriouseats.com/thmb/2W_7hDU3rtIQOU5BMjcrviYRbx4=/1500x1125/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2018__11__20181023-duck-a-l-orange-vicky-wasik-sauce-1500x1125-3c468b3ad85d4f9ca1283414f9fbbbf3.jpg
+[conversation_id=EioCaKa] [conversation.id=-NH-083-_ODpgLb22BsV] [conversation.participant=agent]
+
+next
+[conversation_id=EioCaKa] [conversation.id=-NH-0oulZjECOLhkxh5x] [conversation.participant=user]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NH-0rJig8cWLegSAJ-T] [conversation.participant=agent]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NH-0sBTl5uVagRMF8_F] [conversation.participant=agent]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NH-0v3OzeYu8sUugcoj] [conversation.participant=agent]
+
+Step 21: Add blanched zest and let very gently simmer for 1 minute to infuse into the sauce.
+[conversation_id=EioCaKa] [conversation.id=-NH-1-dd4mM8aQNFqCX7] [conversation.participant=agent]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NH-13GRwOOHTvH6DR8q] [conversation.participant=agent]
+
+On a side note: Please don't open the chat in multiple tabs
+[conversation_id=EioCaKa] [conversation.id=-NH-1cOwN36IsXE_C1ID] [conversation.participant=agent]
+
+user joined the chat.
+[conversation_id=EioCaKa] [conversation.id=-NH-2w4Lyc1OsjL2CcEd] [conversation.participant=user]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NH-3-MgicuhZA8P4h5L] [conversation.participant=agent]
+
+User moved to section "Step 1".
+[conversation_id=EioCaKa] [conversation.id=-NH-3-_fQ4PrXuif_iOn] [conversation.participant=user]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NH-3-q4OlSjS8AOMkBL] [conversation.participant=agent]
+
+User moved to section "Step 2".
+[conversation_id=EioCaKa] [conversation.id=-NH-3-twTmkR3tI7duq7] [conversation.participant=user]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NH-303SjAqjpML6IASs] [conversation.participant=agent]
+
+User moved to section "Step 3".
+[conversation_id=EioCaKa] [conversation.id=-NH-308yry5NujLri1z6] [conversation.participant=user]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NH-30BqAnezPgIc0lE1] [conversation.participant=agent]
+
+User moved to section "Step 4".
+[conversation_id=EioCaKa] [conversation.id=-NH-30MREhl5wkCVSXla] [conversation.participant=user]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NH-30MZjjO_oOkcIkFn] [conversation.participant=agent]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NH-30VEIcnL5-crroiu] [conversation.participant=agent]
+
+User moved to section "Step 5".
+[conversation_id=EioCaKa] [conversation.id=-NH-30Zuz4rJPINr2cxk] [conversation.participant=user]
+
+User moved to section "Step 6".
+[conversation_id=EioCaKa] [conversation.id=-NH-30Zz04tMCdh-B81e] [conversation.participant=user]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NH-30a3yt6Gl-wGWmRD] [conversation.participant=agent]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NH-30gxXPuNw15J6At9] [conversation.participant=agent]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NH-30l3__gw4uh1oWs1] [conversation.participant=agent]
+
+User moved to section "Step 7".
+[conversation_id=EioCaKa] [conversation.id=-NH-30nTcQj7hxHK7Qxm] [conversation.participant=user]
+
+User moved to section "Step 8".
+[conversation_id=EioCaKa] [conversation.id=-NH-30uM5mTZnIEmTlkR] [conversation.participant=user]
+
+User moved to section "Step 9".
+[conversation_id=EioCaKa] [conversation.id=-NH-30x2Bj9Si5mzrOsR] [conversation.participant=user]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NH-30xzHtvZ_ZLI6FEV] [conversation.participant=agent]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NH-313blzpLDthx-eOK] [conversation.participant=agent]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NH-318B1Q3tmDqrR-Fx] [conversation.participant=agent]
+
+User moved to section "Step 10".
+[conversation_id=EioCaKa] [conversation.id=-NH-31B436Rd_TXj2mDy] [conversation.participant=user]
+
+User moved to section "Step 11".
+[conversation_id=EioCaKa] [conversation.id=-NH-31C2imWbCUg4XyuJ] [conversation.participant=user]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NH-31CWr_WEuu_qNE7g] [conversation.participant=agent]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NH-31FatsJI30XtWZJs] [conversation.participant=agent]
+
+User moved to section "Step 12".
+[conversation_id=EioCaKa] [conversation.id=-NH-31ITGsnYgwH06ErV] [conversation.participant=user]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NH-31Io49qTEVoQ1aKj] [conversation.participant=agent]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NH-31Lc5xcnnUOGm01q] [conversation.participant=agent]
+
+User moved to section "Step 13".
+[conversation_id=EioCaKa] [conversation.id=-NH-31PSWm1FdI43wGnt] [conversation.participant=user]
+
+User moved to section "Step 14".
+[conversation_id=EioCaKa] [conversation.id=-NH-31QMokXwf6JakBBa] [conversation.participant=user]
+
+User moved to section "Step 15".
+[conversation_id=EioCaKa] [conversation.id=-NH-31VoTAXKEgagvyBB] [conversation.participant=user]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NH-31WNMk1mR4OwaCXv] [conversation.participant=agent]
+
+User moved to section "Step 16".
+[conversation_id=EioCaKa] [conversation.id=-NH-31WjW6XwyILHc0Zn] [conversation.participant=user]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NH-31ZGtO7q3zbmzFnq] [conversation.participant=agent]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NH-31bZxEUdPnqBufQK] [conversation.participant=agent]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NH-31eQ4lO78w57wsZu] [conversation.participant=agent]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NH-31ha9ZqlHAcB57jl] [conversation.participant=agent]
+
+User moved to section "Step 17".
+[conversation_id=EioCaKa] [conversation.id=-NH-31iIikGYb_dx98o4] [conversation.participant=user]
+
+User moved to section "Step 18".
+[conversation_id=EioCaKa] [conversation.id=-NH-31k3bFb5-o8AJBDr] [conversation.participant=user]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NH-31kYZo1ziolcCTbv] [conversation.participant=agent]
+
+User moved to section "Step 19".
+[conversation_id=EioCaKa] [conversation.id=-NH-31ldwxG-fRTURshr] [conversation.participant=user]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NH-31n_lpo2sr9MQ2BS] [conversation.participant=agent]
+
+User moved to section "Step 20".
+[conversation_id=EioCaKa] [conversation.id=-NH-31oqARZDYZ4j6AGI] [conversation.participant=user]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NH-31qaKlGyKnh4vdjL] [conversation.participant=agent]
+
+User moved to section "Step 21".
+[conversation_id=EioCaKa] [conversation.id=-NH-31rnn6rri-ZvskAX] [conversation.participant=user]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NH-31tbVGySkyDCDIhb] [conversation.participant=agent]
+
+User moved to section "Step 22".
+[conversation_id=EioCaKa] [conversation.id=-NH-31z7sjNPMd6BPB4I] [conversation.participant=user]
+
+User moved to section "Step 22".
+[conversation_id=EioCaKa] [conversation.id=-NH-32-1q9m53vc29-iW] [conversation.participant=user]
+
+User moved to section "Step 22".
+[conversation_id=EioCaKa] [conversation.id=-NH-321DqlMl9N5PS5-C] [conversation.participant=user]
+
+User moved to section "Step 22".
+[conversation_id=EioCaKa] [conversation.id=-NH-3244ZUJrKdGABZoc] [conversation.participant=user]
+
+
+[conversation_id=EioCaKa] [conversation.id=-NH-324qob0i_BvRkOg7] [conversation.participant=agent]
+
+User moved to section "Step 22".
+[conversation_id=EioCaKa] [conversation.id=-NH-32HaKwerN6eSJ878] [conversation.participant=user]
+
+Great. Thank you!
+[conversation_id=EioCaKa] [conversation.id=-NH-33toh0u7wRJvJI3t] [conversation.participant=agent]
+

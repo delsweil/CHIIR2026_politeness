@@ -1,0 +1,243 @@
+user joined the chat.
+[conversation_id=7460a2a0] [conversation.id=-NKgoIqsu-wIsGnKt8Hg] [conversation.participant=user]
+
+user joined the chat.
+[conversation_id=7460a2a0] [conversation.id=-NKgoaLzw19Mxht54v1k] [conversation.participant=user]
+
+user joined the chat.
+[conversation_id=7460a2a0] [conversation.id=-NKgprMBGRSWkYgBxxwB] [conversation.participant=user]
+
+Hey there! Happy to have you on board for our masterclass :-) Today you will be learning how to prepare a Savory Soufflé. Make sure you have all the ingredients and tools and feel free to ask questions. If you are ready to start cooking simply say start.
+[conversation_id=7460a2a0] [conversation.id=-NKgq-mjfV_tpLWwyHyi] [conversation.participant=agent]
+
+start
+[conversation_id=7460a2a0] [conversation.id=-NKgqJnKp_7lux4ooRJw] [conversation.participant=user]
+
+Do you have any questions about the ingredients?
+[conversation_id=7460a2a0] [conversation.id=-NKgqRMr4c0wEyyWzxRm] [conversation.participant=agent]
+
+What type of cheese is Gruyere
+[conversation_id=7460a2a0] [conversation.id=-NKgqa_y_y5AQsdGpqZk] [conversation.participant=user]
+
+That's a great question! Let me see what I can find
+[conversation_id=7460a2a0] [conversation.id=-NKgqmPmvAtv-2aMvJpj] [conversation.participant=agent]
+
+Gruyère is a hard yellow cheese made from cow's milk, named after the town of Gruyères.
+[conversation_id=7460a2a0] [conversation.id=-NKgrBx4tUjnSeDJcTp4] [conversation.participant=agent]
+
+Can you show me a picture please?
+[conversation_id=7460a2a0] [conversation.id=-NKgrHhDsIlM2BePjxPs] [conversation.participant=user]
+
+It's perfect for this recipe as you want a good melter with low water content.  That means a semifirm cheese that can be grated into shreds, like Gruyère or cheddar.
+[conversation_id=7460a2a0] [conversation.id=-NKgrKqsebCjqiYToOP1] [conversation.participant=agent]
+
+Sure!
+[conversation_id=7460a2a0] [conversation.id=-NKgrMqA6c6pXFEfoA9-] [conversation.participant=agent]
+
+https://www.seriouseats.com/thmb/PB8VYYepaY5BaN_EEOf_DyqFsrM=/1500x1125/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2019__01__20190116-cheese-souffle-vicky-wasik-18-1500x1125-9784c7ecaa3542fd94e437a9c56df866.jpg
+[conversation_id=7460a2a0] [conversation.id=-NKgrOIFsqHYKZgMmu85] [conversation.participant=agent]
+
+Thankyou
+[conversation_id=7460a2a0] [conversation.id=-NKgrdEeE2u50bOztdqq] [conversation.participant=user]
+
+Start
+[conversation_id=7460a2a0] [conversation.id=-NKgrdupS0vMFK8epEtr] [conversation.participant=user]
+
+As a reminder, if you want to go to the next step, simply type "next". To go to a previous step, type "previous".
+[conversation_id=7460a2a0] [conversation.id=-NKgrnvrwDlLoiXqnTQG] [conversation.participant=agent]
+
+Would you like to go to the next step?
+[conversation_id=7460a2a0] [conversation.id=-NKgrprGucbPBwBceTPF] [conversation.participant=agent]
+
+next
+[conversation_id=7460a2a0] [conversation.id=-NKgrthg3js4y8ESNMdM] [conversation.participant=user]
+
+
+[conversation_id=7460a2a0] [conversation.id=-NKgrv4wnE3cZmDwKKqC] [conversation.participant=agent]
+
+User moved to section "Step 1".
+[conversation_id=7460a2a0] [conversation.id=-NKgrv8lp-i1JTDbkil_] [conversation.participant=user]
+
+Why does the ramekin need to be refridgerated?
+[conversation_id=7460a2a0] [conversation.id=-NKgs1f7R0CeU7ctokkV] [conversation.participant=user]
+
+I'm sorry, I do not think I have this information
+[conversation_id=7460a2a0] [conversation.id=-NKgsG9QEDD5iuDu6qec] [conversation.participant=agent]
+
+ok, can you please tell me the history of the souffle recipe?
+[conversation_id=7460a2a0] [conversation.id=-NKgsSHpYEKbPNNLNa86] [conversation.participant=user]
+
+A soufflé is a baked egg-based dish which originated in early eighteenth century France. It is made with egg yolks and beaten egg whites combined with various other ingredients and served as a savory main dish or sweetened as a dessert. The word soufflé is the past participle of the French verb "souffler" which means "to blow", "to breathe", "to inflate" or "to puff". The earliest mention of the soufflé is attributed to French master cook  Vincent La Chapelle, in the early eighteenth century. The development and popularization of the soufflé is usually traced to French chef Marie-Antoine Carême in the early nineteenth century.
+[conversation_id=7460a2a0] [conversation.id=-NKgsoDyt8x7a_uGmT_n] [conversation.participant=agent]
+
+Thank you
+[conversation_id=7460a2a0] [conversation.id=-NKgsxKrd53KEDCxivjI] [conversation.participant=user]
+
+next
+[conversation_id=7460a2a0] [conversation.id=-NKgszm1mNI7xl800Zcu] [conversation.participant=user]
+
+
+[conversation_id=7460a2a0] [conversation.id=-NKgt-SBUCN4B3ERUiyU] [conversation.participant=agent]
+
+User moved to section "Step 2".
+[conversation_id=7460a2a0] [conversation.id=-NKgt-W2vRuEwTFvukZ7] [conversation.participant=user]
+
+Can you show me a video of adding flour?
+[conversation_id=7460a2a0] [conversation.id=-NKgt5M4jeomLGQzZh3L] [conversation.participant=user]
+
+I'm sorry but I do not have a video for this recipe.
+[conversation_id=7460a2a0] [conversation.id=-NKgtC8UcwsKQJ0pI7P4] [conversation.participant=agent]
+
+ok, what consistency should the paste be?
+[conversation_id=7460a2a0] [conversation.id=-NKgtI8wrXmMcF49L29l] [conversation.participant=user]
+
+You should obtain a relatively dense lump-free texture.
+[conversation_id=7460a2a0] [conversation.id=-NKgtazlvPLQ5RcpcD4O] [conversation.participant=agent]
+
+ok thank you
+[conversation_id=7460a2a0] [conversation.id=-NKgtg_VfEQd0QOhksWs] [conversation.participant=user]
+
+next
+[conversation_id=7460a2a0] [conversation.id=-NKgtiMXdhP2BrlL6B2M] [conversation.participant=user]
+
+
+[conversation_id=7460a2a0] [conversation.id=-NKgtjad9vV4pNeHvmGj] [conversation.participant=agent]
+
+User moved to section "Step 3".
+[conversation_id=7460a2a0] [conversation.id=-NKgtjeHcKmAkqf7ckoJ] [conversation.participant=user]
+
+How much seasoning should I use?
+[conversation_id=7460a2a0] [conversation.id=-NKgtwkfgAFEZsrzY56y] [conversation.participant=user]
+
+You should add kosher salt and freshly ground black pepper to taste and  1/2 teaspoon cream of tartar (optional)
+[conversation_id=7460a2a0] [conversation.id=-NKguAh9bRMa6kaOEOF3] [conversation.participant=agent]
+
+What is cream of tartar?
+[conversation_id=7460a2a0] [conversation.id=-NKguKmwMFGRjmU0X9t3] [conversation.participant=user]
+
+Potassium bitartrate, also known as cream of tartar, is commonly used as an acidulant in confectionery and candy making. The use of cream of tartar imparts a honey-like flavor to the syrup.
+[conversation_id=7460a2a0] [conversation.id=-NKgv34mY-hg-_M_IgmQ] [conversation.participant=agent]
+
+next
+[conversation_id=7460a2a0] [conversation.id=-NKgv8NaM5gXM_qFLJHE] [conversation.participant=user]
+
+
+[conversation_id=7460a2a0] [conversation.id=-NKgv99oH69zJaaANxWa] [conversation.participant=agent]
+
+User moved to section "Step 4".
+[conversation_id=7460a2a0] [conversation.id=-NKgv9DfVXQPQPP6B0b8] [conversation.participant=user]
+
+What is the best method to separate egg yolk from the white?
+[conversation_id=7460a2a0] [conversation.id=-NKgvI764M10d-2sdVk6] [conversation.participant=user]
+
+I have to say, there's no single best way to separate an egg. First, though, a few tips: Make sure your hands are scrupulously clean. No matter how you separate your eggs, the yolks and whites are likely to come into contact with your fingers. You don't want to transfer anything germy from your hands to the eggs. No matter what method you use, start by gently cracking the egg against a flat surface, so that you don't get eggshell into the egg. Cold eggs are easier to separate than those at room temperature; the yolk breaks less easily.  Fresh eggs are easier to separate than older ones. After cracking the egg, gently pry the shell halves apart. Let the yolk settle into the bottom half of the shell, allowing the white to run over the shell and into a measuring cup or small bowl. Some white will remain with the yolk, so you can gently transfer the yolk back and forth between the shell, continuing to let the white drip over the shell into the bowl.
+[conversation_id=7460a2a0] [conversation.id=-NKgvqbKOL4dDhnG2Ped] [conversation.participant=agent]
+
+ok
+[conversation_id=7460a2a0] [conversation.id=-NKgxpJeHx7K2320OBoP] [conversation.participant=user]
+
+next
+[conversation_id=7460a2a0] [conversation.id=-NKgxq6Ul_nZWmU7wJEd] [conversation.participant=user]
+
+
+[conversation_id=7460a2a0] [conversation.id=-NKgxsBg4oTcVDtol9oJ] [conversation.participant=agent]
+
+User moved to section "Step 5".
+[conversation_id=7460a2a0] [conversation.id=-NKgxsGNyjKbq4HnDQZc] [conversation.participant=user]
+
+how do I know if it has been whisked enough
+[conversation_id=7460a2a0] [conversation.id=-NKgy-H3Gs6QNUu-0hwC] [conversation.participant=user]
+
+You know Egg whites  have been whisked enough when they are  firm and glossy
+[conversation_id=7460a2a0] [conversation.id=-NKgysL9lvthSnCP_5jG] [conversation.participant=agent]
+
+next
+[conversation_id=7460a2a0] [conversation.id=-NKgz-jZRVFmO-H2ivRE] [conversation.participant=user]
+
+
+[conversation_id=7460a2a0] [conversation.id=-NKgz0VJqJhykBQeD58P] [conversation.participant=agent]
+
+User moved to section "Step 6".
+[conversation_id=7460a2a0] [conversation.id=-NKgz0ZVtU8rLs3fkVEB] [conversation.participant=user]
+
+show me how to fold the mixture
+[conversation_id=7460a2a0] [conversation.id=-NKgzWunYDC92l63CJII] [conversation.participant=user]
+
+Sure!
+[conversation_id=7460a2a0] [conversation.id=-NKgzi6OJBYLIsllAlpm] [conversation.participant=agent]
+
+https://www.seriouseats.com/thmb/Z6wDyHtAc9wQ_3_GrEvbWC4PF2A=/1500x1125/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2019__01__20190116-cheese-souffle-vicky-wasik-folding-egg-whites2-1f126c7bdabb4678ab5142a57b485b06.jpg
+[conversation_id=7460a2a0] [conversation.id=-NKgziTIzbOWIAgU4yRg] [conversation.participant=agent]
+
+next
+[conversation_id=7460a2a0] [conversation.id=-NKgzkBKzgcF0vi_5nCT] [conversation.participant=user]
+
+
+[conversation_id=7460a2a0] [conversation.id=-NKgzmYPV4pwlMbXE9BN] [conversation.participant=agent]
+
+User moved to section "Step 7".
+[conversation_id=7460a2a0] [conversation.id=-NKgzmtG9ASJ7qqxFIaz] [conversation.participant=user]
+
+why do I need to fold the mixture?
+[conversation_id=7460a2a0] [conversation.id=-NKgzr1Pwb9l6Va7XemH] [conversation.participant=user]
+
+That is a great question!  That gentle folding is key since you want to keep as many of the tiny air bubbles trapped in the beaten whites as you can. The more you mix, and the more vigorously you do it, the more air bubbles you'll lose. Once in the oven, those air bubbles will expand as gases and steam inflate them.
+[conversation_id=7460a2a0] [conversation.id=-NKh-0uOYol8qRY1tgPQ] [conversation.participant=agent]
+
+That's what causes a soufflé to rise
+[conversation_id=7460a2a0] [conversation.id=-NKh-3xtFK8PEkIPIEmy] [conversation.participant=agent]
+
+How will I know when I have folded enough?
+[conversation_id=7460a2a0] [conversation.id=-NKh-9FUVkXteMEWCHiA] [conversation.participant=user]
+
+I'm sorry, I do not think I have this information
+[conversation_id=7460a2a0] [conversation.id=-NKh-HXIiOoleaVbbwLM] [conversation.participant=agent]
+
+Why does the mixture need to be level?
+[conversation_id=7460a2a0] [conversation.id=-NKh-U2HyFNy0d1_Ed8U] [conversation.participant=user]
+
+It's just to smooth and level the surface of the soufflé batter.
+[conversation_id=7460a2a0] [conversation.id=-NKh-jJMOdv2fdPhVFJ6] [conversation.participant=agent]
+
+Let me show you a picture of this step
+[conversation_id=7460a2a0] [conversation.id=-NKh-lcCYkwF6rDyKdwA] [conversation.participant=agent]
+
+https://www.seriouseats.com/thmb/-DEugTMX9xrfDI8DC2Mx9MKjtbo=/1500x1125/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2019__01__20190116-cheese-souffle-vicky-wasik-11-ddfdf74f795544df8e28d9302b407368.jpg
+[conversation_id=7460a2a0] [conversation.id=-NKh-lo9aXuYEz_jSrxb] [conversation.participant=agent]
+
+next
+[conversation_id=7460a2a0] [conversation.id=-NKh-n-G3kubAxSmGhah] [conversation.participant=user]
+
+
+[conversation_id=7460a2a0] [conversation.id=-NKh-oQt1hKWQUpQYZmu] [conversation.participant=agent]
+
+User moved to section "Step 8".
+[conversation_id=7460a2a0] [conversation.id=-NKh-oUfTY8pseI7g7O5] [conversation.participant=user]
+
+Can I open the oven door to check the progress?
+[conversation_id=7460a2a0] [conversation.id=-NKh06289x-s0aoIkZ0r] [conversation.participant=user]
+
+Yes, there is no problem with doing that.
+[conversation_id=7460a2a0] [conversation.id=-NKh0IK-K92AygDcbaeh] [conversation.participant=agent]
+
+next
+[conversation_id=7460a2a0] [conversation.id=-NKh0N9QReXsNeCVS8dF] [conversation.participant=user]
+
+
+[conversation_id=7460a2a0] [conversation.id=-NKh0NioaFFLrKoE0LcO] [conversation.participant=agent]
+
+User moved to section "Step 9".
+[conversation_id=7460a2a0] [conversation.id=-NKh0Nm_NnEdhayrINpm] [conversation.participant=user]
+
+What is a good accompaniment to this dish?
+[conversation_id=7460a2a0] [conversation.id=-NKh0bSq1jJG65mFmYBT] [conversation.participant=user]
+
+I'm sorry, I do not think I have this information
+[conversation_id=7460a2a0] [conversation.id=-NKh0jbCLA4DYlc5oYdD] [conversation.participant=agent]
+
+next
+[conversation_id=7460a2a0] [conversation.id=-NKh0nIe9IsFyNA6VcuH] [conversation.participant=user]
+
+This is the last step in the recipe! Well done!
+[conversation_id=7460a2a0] [conversation.id=-NKh0rMY0_cfx8wFEQpz] [conversation.participant=agent]
+

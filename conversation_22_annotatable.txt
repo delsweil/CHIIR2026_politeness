@@ -1,0 +1,162 @@
+user joined the chat.
+[conversation_id=KlOmIXe] [conversation.id=-NH4RoLA9KiG3jqdeam3] [conversation.participant=user]
+
+Hey there! Happy to have you on board for our masterclass :-) Today you will be learning how to prepare Fried Chicken. Make sure you have all the ingredients and tools and feel free to ask questions. If you are ready to start cooking simply say next.
+[conversation_id=KlOmIXe] [conversation.id=-NH4SQxJIhRajqZJdIoa] [conversation.participant=agent]
+
+next
+[conversation_id=KlOmIXe] [conversation.id=-NH4SW9gzvj-M9JmCFpF] [conversation.participant=user]
+
+Hi.  How can I help you?
+[conversation_id=KlOmIXe] [conversation.id=-NH4SYXj4ldN6oFBzUyK] [conversation.participant=agent]
+
+I have all the ingredients now
+[conversation_id=KlOmIXe] [conversation.id=-NH4ShgS1Xxse4Pkt8lO] [conversation.participant=user]
+
+Any questions or move to step 1? If you want to move to the next step pleas say "next".
+[conversation_id=KlOmIXe] [conversation.id=-NH4Sv9LOIyVv1agAvpm] [conversation.participant=agent]
+
+can I use whole garlic rather than garlic granules?
+[conversation_id=KlOmIXe] [conversation.id=-NH4T1mn2w53lnkkjwRt] [conversation.participant=user]
+
+Let me see...
+[conversation_id=KlOmIXe] [conversation.id=-NH4T6HpUjylyoyja8zf] [conversation.participant=agent]
+
+In general, garlic powder is nothing like real garlic.  But that doesn't mean it doesn't have its culinary uses. It's particularly effective in spice rubs and breadings, where fresh garlic would be difficult to incorporate, due to its texture. So garlic granules is the better choice for our fried chicken.
+[conversation_id=KlOmIXe] [conversation.id=-NH4T_X-Rrmlc6w3DkiT] [conversation.participant=agent]
+
+next
+[conversation_id=KlOmIXe] [conversation.id=-NH4TfNLiyjoLtFy4kox] [conversation.participant=user]
+
+
+[conversation_id=KlOmIXe] [conversation.id=-NH4TfvdLW8GvtIoWQ1O] [conversation.participant=agent]
+
+User moved to section "Step 1".
+[conversation_id=KlOmIXe] [conversation.id=-NH4Tg-7gPEAJ7EIJ5hR] [conversation.participant=user]
+
+nrxt
+[conversation_id=KlOmIXe] [conversation.id=-NH4TkvsSaGtgSFXLCFU] [conversation.participant=user]
+
+
+[conversation_id=KlOmIXe] [conversation.id=-NH4TlnK3ouq7QreLKj8] [conversation.participant=agent]
+
+User moved to section "Step 2".
+[conversation_id=KlOmIXe] [conversation.id=-NH4Tm0MME_W97hq3VVK] [conversation.participant=user]
+
+will the taste be very different if I reduce marinating time?
+[conversation_id=KlOmIXe] [conversation.id=-NH4Tyu5lh8dnetOLQKR] [conversation.participant=user]
+
+Let me tell you
+[conversation_id=KlOmIXe] [conversation.id=-NH4UBEpwYBjGYrCA6DV] [conversation.participant=agent]
+
+This process is called brining.  As the meat sits, the saltwater will slowly dissolve key muscle proteins—most notably myosin, a protein that acts as a sort of glue, holding muscle fibers together.   An overnight brine will penetrate a few millimeters into the meat, giving you built-in seasoning before you ever get to the breading.  Brines also improve juiciness by increasing the muscles' ability to retain moisture. In this case, however, a much, much longer brining time was necessary in order to completely mitigate the effects of high-temperature frying, delivering a uniquely smooth, juicy texture to the meat.
+[conversation_id=KlOmIXe] [conversation.id=-NH4UhaP7Hk9AOoc-mhQ] [conversation.participant=agent]
+
+next
+[conversation_id=KlOmIXe] [conversation.id=-NH4UpMTlA8xz0_r0oJl] [conversation.participant=user]
+
+If you reduce the time, this might affect the juiciness and seasoning capabilities.
+[conversation_id=KlOmIXe] [conversation.id=-NH4Uq772yI1EU3fcanH] [conversation.participant=agent]
+
+
+[conversation_id=KlOmIXe] [conversation.id=-NH4UrSTept4lWPUNQYi] [conversation.participant=agent]
+
+User moved to section "Step 3".
+[conversation_id=KlOmIXe] [conversation.id=-NH4UrXzTJ4wnxtDhxAL] [conversation.participant=user]
+
+next
+[conversation_id=KlOmIXe] [conversation.id=-NH4V04TdseG9jtzHjWB] [conversation.participant=user]
+
+
+[conversation_id=KlOmIXe] [conversation.id=-NH4V0ZVgiM_zlTtGU6F] [conversation.participant=agent]
+
+User moved to section "Step 4".
+[conversation_id=KlOmIXe] [conversation.id=-NH4V0dTEHOLTxQeOnWS] [conversation.participant=user]
+
+I do not have a thermometer for the oil
+[conversation_id=KlOmIXe] [conversation.id=-NH4VCyX6CcI7FyQZrhW] [conversation.participant=user]
+
+next
+[conversation_id=KlOmIXe] [conversation.id=-NH4VXfMcbXQiNIeNbc0] [conversation.participant=user]
+
+You can spot-check your oil temp with a basic instant-read thermometer if oyu have one.
+[conversation_id=KlOmIXe] [conversation.id=-NH4VZsJi9MLuRtcqWu4] [conversation.participant=agent]
+
+
+[conversation_id=KlOmIXe] [conversation.id=-NH4V_dm3vo1QwSJa6YY] [conversation.participant=agent]
+
+User moved to section "Step 5".
+[conversation_id=KlOmIXe] [conversation.id=-NH4V_i2GwVzyWfeDegy] [conversation.participant=user]
+
+can i see a video of the frying process?
+[conversation_id=KlOmIXe] [conversation.id=-NH4VjIxrRb1zyluj0sC] [conversation.participant=user]
+
+I'm sorry, I do not think I have a video, but a picture:
+[conversation_id=KlOmIXe] [conversation.id=-NH4VpV1vdTgP6QSpwn6] [conversation.participant=agent]
+
+https://www.seriouseats.com/thmb/uNAEH3RMAwkVMkj8yHsfeJWRKVw=/1500x1125/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2015__07__20150715-fried-chicken-18-b4317b62296f4a25ba7fdcada7aa6705.jpg
+[conversation_id=KlOmIXe] [conversation.id=-NH4VpmoUstZgcWl7uGX] [conversation.participant=agent]
+
+next
+[conversation_id=KlOmIXe] [conversation.id=-NH4VwDvwMhCUCQUznjc] [conversation.participant=user]
+
+user joined the chat.
+[conversation_id=KlOmIXe] [conversation.id=-NH4VwXAsLYFZzt3HaLQ] [conversation.participant=user]
+
+
+[conversation_id=KlOmIXe] [conversation.id=-NH4Vx-BRvmW4mekm81X] [conversation.participant=agent]
+
+User moved to section "Step 1".
+[conversation_id=KlOmIXe] [conversation.id=-NH4Vx4XpLhMbypP_rG9] [conversation.participant=user]
+
+
+[conversation_id=KlOmIXe] [conversation.id=-NH4VxNPfjeb9aM3UpwV] [conversation.participant=agent]
+
+User moved to section "Step 2".
+[conversation_id=KlOmIXe] [conversation.id=-NH4VxRk9ONNEkbIykbF] [conversation.participant=user]
+
+
+[conversation_id=KlOmIXe] [conversation.id=-NH4Vxjx4QkiUhhxjJvy] [conversation.participant=agent]
+
+User moved to section "Step 3".
+[conversation_id=KlOmIXe] [conversation.id=-NH4VxoNu4QSf5kuaGpi] [conversation.participant=user]
+
+
+[conversation_id=KlOmIXe] [conversation.id=-NH4Vy2Q0CkWcQiYCEp4] [conversation.participant=agent]
+
+User moved to section "Step 4".
+[conversation_id=KlOmIXe] [conversation.id=-NH4Vy6Sqtng03amT3F0] [conversation.participant=user]
+
+
+[conversation_id=KlOmIXe] [conversation.id=-NH4VyLtEETISAL_NwXy] [conversation.participant=agent]
+
+User moved to section "Step 5".
+[conversation_id=KlOmIXe] [conversation.id=-NH4VyQZAmU14i6ZMYcf] [conversation.participant=user]
+
+
+[conversation_id=KlOmIXe] [conversation.id=-NH4VygYCYvK-275Y2FQ] [conversation.participant=agent]
+
+User moved to section "Step 6".
+[conversation_id=KlOmIXe] [conversation.id=-NH4VykgsT_Iuv3bwRgZ] [conversation.participant=user]
+
+next
+[conversation_id=KlOmIXe] [conversation.id=-NH4W92Tq6jcXNpbJj93] [conversation.participant=user]
+
+
+[conversation_id=KlOmIXe] [conversation.id=-NH4W9Y8N5Zl4NhJfeB4] [conversation.participant=agent]
+
+User moved to section "Step 7".
+[conversation_id=KlOmIXe] [conversation.id=-NH4W9cSc-N3nTFwsOmO] [conversation.participant=user]
+
+what is the origin of southern fried recipe
+[conversation_id=KlOmIXe] [conversation.id=-NH4WHyINMZ8uTGIw35n] [conversation.participant=user]
+
+The first dish known to have been deep fried was fritters, which were popular in the European Middle Ages. However, it was the Scottish who were the first Europeans to deep fry their chicken in fat (though without seasoning). Meanwhile, a number of West African peoples had traditions of seasoned fried chicken (though battering and cooking the chicken in palm oil). Scottish frying techniques and West African seasoning techniques were combined by enslaved Africans and African-Americans in the American South. Interestingly, the Roman cookbook of "Apicius" (4th century) has a recipe for deep-fried chicken called "Pullum Frontonianum".  The American English expression "fried chicken" is first recorded in the 1830s, and frequently appears in American cookbooks of the 1860s and 1870s.
+[conversation_id=KlOmIXe] [conversation.id=-NH4Wba-fCsV28kcEQBa] [conversation.participant=agent]
+
+next
+[conversation_id=KlOmIXe] [conversation.id=-NH4Wjay-c7-5YG-JfQR] [conversation.participant=user]
+
+Thank you, we already reached the last step.
+[conversation_id=KlOmIXe] [conversation.id=-NH4WoM2U95GO4P-zrJd] [conversation.participant=agent]
+

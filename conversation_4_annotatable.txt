@@ -1,0 +1,174 @@
+Hey there! Happy to have you on board for our masterclass :) Today you will be learning how to prepare Pesto alla Genovese. Make sure you have all the ingredients and tools and feel free to ask questions. If you are ready to start cooking simply say start.
+[conversation_id=coe2XtNapn] [conversation.id=-NBX7dE7MCsOXBRDHs-P] [conversation.participant=agent]
+
+start
+[conversation_id=coe2XtNapn] [conversation.id=-NBX7k3pkrRjCUkNx0VA] [conversation.participant=user]
+
+Hello, I would like to know the first step for making the recipe Pest alla Genovesse
+[conversation_id=coe2XtNapn] [conversation.id=-NBX8-HqhRBQY0b9Fey8] [conversation.participant=user]
+
+
+[conversation_id=coe2XtNapn] [conversation.id=-NBX80eby9TFrc4jr8HP] [conversation.participant=agent]
+
+User moved to section "Step 1".
+[conversation_id=coe2XtNapn] [conversation.id=-NBX80iy9zH4yEWAgLlC] [conversation.participant=user]
+
+If I don't have a mortar and pestle what is the best way to create a garlic paste?
+[conversation_id=coe2XtNapn] [conversation.id=-NBX88GdCBIG29nhwIPj] [conversation.participant=user]
+
+Let me see...
+[conversation_id=coe2XtNapn] [conversation.id=-NBX8EVybcLazhn4Mwcl] [conversation.participant=agent]
+
+One shortcut most people take with pesto sauce is using a food processor, which turns a somewhat laborious process into one of the quickest and easiest of sauces to put together.
+[conversation_id=coe2XtNapn] [conversation.id=-NBX8S2Rd7S91qztSOLG] [conversation.participant=agent]
+
+ok, next step please
+[conversation_id=coe2XtNapn] [conversation.id=-NBX8VXWiKi7WOfSPpFT] [conversation.participant=user]
+
+
+[conversation_id=coe2XtNapn] [conversation.id=-NBX8WgyQS4PBSQ8I6z3] [conversation.participant=agent]
+
+User moved to section "Step 2".
+[conversation_id=coe2XtNapn] [conversation.id=-NBX8Wl_D2OVPse1XxMa] [conversation.participant=user]
+
+next
+[conversation_id=coe2XtNapn] [conversation.id=-NBX8_79LQUTIwRymHUi] [conversation.participant=user]
+
+
+[conversation_id=coe2XtNapn] [conversation.id=-NBX8_uuAbA_E3FNtNOv] [conversation.participant=agent]
+
+User moved to section "Step 3".
+[conversation_id=coe2XtNapn] [conversation.id=-NBX8a-GOff-5Wmey690] [conversation.participant=user]
+
+next
+[conversation_id=coe2XtNapn] [conversation.id=-NBX8cwY7A0L4mKZQMS6] [conversation.participant=user]
+
+
+[conversation_id=coe2XtNapn] [conversation.id=-NBX8dRGVSBvMspIgIVJ] [conversation.participant=agent]
+
+User moved to section "Step 4".
+[conversation_id=coe2XtNapn] [conversation.id=-NBX8dVH6LGVsVjmfKhZ] [conversation.participant=user]
+
+Remind me what the two cheeses in this recipe are?
+[conversation_id=coe2XtNapn] [conversation.id=-NBX8j4B2dad3FTDZaXm] [conversation.participant=user]
+
+You need 3/4 ounce (about 2 tablespoons) grated Parmigiano Reggiano and  3/4 ounce (about 2 tablespoons) Pecorino Fiore Sardo
+[conversation_id=coe2XtNapn] [conversation.id=-NBX8qxhQocgPjIYX0IQ] [conversation.participant=agent]
+
+Thanks, next step please
+[conversation_id=coe2XtNapn] [conversation.id=-NBX8v7VfkVAzs7WkFy2] [conversation.participant=user]
+
+
+[conversation_id=coe2XtNapn] [conversation.id=-NBX8w79vY_v6199KYl0] [conversation.participant=agent]
+
+User moved to section "Step 5".
+[conversation_id=coe2XtNapn] [conversation.id=-NBX8wBChkoQp1qVdD00] [conversation.participant=user]
+
+That seems simple enough
+[conversation_id=coe2XtNapn] [conversation.id=-NBX91zf1WQeHY4fXRG8] [conversation.participant=user]
+
+Does this dish originate from Genovesse?
+[conversation_id=coe2XtNapn] [conversation.id=-NBX9Gqd7Dbe0XW99IMu] [conversation.participant=user]
+
+Give me a moment
+[conversation_id=coe2XtNapn] [conversation.id=-NBX9INUbdyeOgJMen6h] [conversation.participant=agent]
+
+Pesto genovese is not the only authentic Italian pesto. Pesto rosso is made with sun-dried tomatoes and almonds, while versions from Southern Italy favor sweet red peppers or cherry tomatoes. What all traditional pestos have in common, and what defines a pesto as a pesto is that the ingredients are crushed with a mortar and pestle.
+[conversation_id=coe2XtNapn] [conversation.id=-NBX9SEKsCvtDZIJNSws] [conversation.participant=agent]
+
+The most famous, and the one we're talking about here, is pesto alla genovese, from the Ligurian city of Genoa and its environs.
+[conversation_id=coe2XtNapn] [conversation.id=-NBX9_sIifvSUGuXM1Uo] [conversation.participant=agent]
+
+Does the word pesto have something to do with the word pestle?
+[conversation_id=coe2XtNapn] [conversation.id=-NBX9ixfu0DjdA9iAsjY] [conversation.participant=user]
+
+Let me see...
+[conversation_id=coe2XtNapn] [conversation.id=-NBX9maSik5Er2m1cyRH] [conversation.participant=agent]
+
+The name is the past participle of the Genoese verb (Italian: ), which means "to pound", "to crush", in reference to the original method of preparation: according to tradition, the ingredients are "crushed" or ground in a marble mortar through a circular motion of a wooden pestle. This same Latin root, through Old French, also gave rise to the English noun "pestle".
+[conversation_id=coe2XtNapn] [conversation.id=-NBXA8VfNWOzdk3NjqCM] [conversation.participant=agent]
+
+So yes, it does!
+[conversation_id=coe2XtNapn] [conversation.id=-NBXAFR367JOlus4h8O6] [conversation.participant=agent]
+
+That makes sense! Is Step five the final step in the recipe?
+[conversation_id=coe2XtNapn] [conversation.id=-NBXAOGoml_5yH-zk6Sr] [conversation.participant=user]
+
+Yes.
+[conversation_id=coe2XtNapn] [conversation.id=-NBXARJuJIU-Ui8wAfiY] [conversation.participant=agent]
+
+Can you show me the ingredients list again?
+[conversation_id=coe2XtNapn] [conversation.id=-NBXAVcaz9A2sL9z_VGv] [conversation.participant=user]
+
+
+[conversation_id=coe2XtNapn] [conversation.id=-NBXAXEjCSA5AjBn82CU] [conversation.participant=agent]
+
+
+[conversation_id=coe2XtNapn] [conversation.id=-NBXAXIjYLeQp1hxz8Jk] [conversation.participant=agent]
+
+User moved to section "Step 4".
+[conversation_id=coe2XtNapn] [conversation.id=-NBXAXKJ20kHMBxqeabe] [conversation.participant=user]
+
+
+[conversation_id=coe2XtNapn] [conversation.id=-NBXAXMaQXLmeN434BQC] [conversation.participant=agent]
+
+
+[conversation_id=coe2XtNapn] [conversation.id=-NBXAXPN5dyPzMfCgcHf] [conversation.participant=agent]
+
+User moved to section "Step 3".
+[conversation_id=coe2XtNapn] [conversation.id=-NBXAXQ_Rz4Q7jpwW2fe] [conversation.participant=user]
+
+
+[conversation_id=coe2XtNapn] [conversation.id=-NBXAXS4A5OtGDvUMJot] [conversation.participant=agent]
+
+
+[conversation_id=coe2XtNapn] [conversation.id=-NBXAXUipwJKaTJ9AifN] [conversation.participant=agent]
+
+User moved to section "Step 2".
+[conversation_id=coe2XtNapn] [conversation.id=-NBXAXWq0b6MsR_0A2Df] [conversation.participant=user]
+
+User moved to section "Step 1".
+[conversation_id=coe2XtNapn] [conversation.id=-NBXAXY9l-Pr5hpEoS9O] [conversation.participant=user]
+
+User moved to section "Time, Equipment & Ingredients".
+[conversation_id=coe2XtNapn] [conversation.id=-NBXAXcCmxlSCWwvYjla] [conversation.participant=user]
+
+User moved to section "Time, Equipment & Ingredients".
+[conversation_id=coe2XtNapn] [conversation.id=-NBXAXdmd0uEp3pkR--F] [conversation.participant=user]
+
+Do you have any recommendations for brands of cheese to buy? or what to look for in order to get good quality
+[conversation_id=coe2XtNapn] [conversation.id=-NBXAkHbd2drf8Zin3-Y] [conversation.participant=user]
+
+Historically, the cheeses of true Ligurian pesto were Parmigiano-Reggiano and Pecorino Sardo (or Fiore Sardo), a Sardinian sheep's-milk cheese. If you can find the Fiore Sardo, it will make a marginally better pesto sauce, but Pecorino Romano makes a darned good one, too (and, frankly, Parmigiano-Reggiano alone makes a great one as well).
+[conversation_id=coe2XtNapn] [conversation.id=-NBXAzdXel2FGl_1UxBl] [conversation.participant=agent]
+
+Thank you, that is helpful. It is much easier to find Parmigianio-Reggiano as this is most popular. Can you tell me more about the Southern recipe variations that use sun-dried peppers and tomatoes? You mentioned that they sometimes use almonds instead of pine nuts, why is that and how does this change the taste?
+[conversation_id=coe2XtNapn] [conversation.id=-NBXBcq5r2ZFM592T56m] [conversation.participant=user]
+
+Let me see...
+[conversation_id=coe2XtNapn] [conversation.id=-NBXBjG6u6-Z2EJZoKDF] [conversation.participant=agent]
+
+So speaking of nuts in pesto:
+Walnuts are actually a traditional alternative to pine nuts for Pesto alla Genovese; pine nuts have always been scarce, even in early-20th-century Italy.  As a caution, though, you need to get good, fresh walnuts and make sure to get all of the skin off the nuts, or the pesto will taste bitter and rancid.
+
+Almonds could also work, although I'd think they'd be rather bland.  The herb pastes which traditionally have crushed almonds -- such as Romanesco sauce -- include some hot pepper.  Again, freshness and getting the skin off is important. As long as you toast them properly first, they are delicious (though not the same as pine nuts, of course -- not nearly as fatty, for one thing).
+[conversation_id=coe2XtNapn] [conversation.id=-NBXCfeMr5VQPItnZOp_] [conversation.participant=agent]
+
+In southern recipe variations such as "Pesto alla siciliana", sometimes called "pesto rosso" (red pesto), you have a sauce from Sicily similar to "pesto alla genovese" but with the addition of tomato, almonds instead of pine nuts, and much less basil.
+[conversation_id=coe2XtNapn] [conversation.id=-NBXD74l0PORRIZwM79O] [conversation.participant=agent]
+
+Hmm interesting. I never knew there was so many variations of the traditional recipe. I suppose the different ingredients were also based on what grows in those regions?
+[conversation_id=coe2XtNapn] [conversation.id=-NBXDU-zaFZt0tyY5dgm] [conversation.participant=user]
+
+I'm sorry, I do not think I have this information. But your assumption seems plausible.
+[conversation_id=coe2XtNapn] [conversation.id=-NBXDm-5yA8vFdN9pOC2] [conversation.participant=agent]
+
+No problem. Thanks for all the information
+[conversation_id=coe2XtNapn] [conversation.id=-NBXDrGbYJTiwL2I3c-U] [conversation.participant=user]
+
+You are welcome
+[conversation_id=coe2XtNapn] [conversation.id=-NBXDuQyeMnOq1BqkgDi] [conversation.participant=agent]
+
+Thank you. You’re at the end.
+[conversation_id=coe2XtNapn] [conversation.id=-NBXDweihUbdq1WUjNm1] [conversation.participant=agent]
+

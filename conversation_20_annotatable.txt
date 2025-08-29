@@ -1,0 +1,393 @@
+Hey there! Happy to have you on board for our masterclass :-) Today you will be learning how to prepare Duck à l'orange. Make sure you have all the ingredients and tools and feel free to ask questions. If you are ready to start cooking simply say next.
+[conversation_id=xMKcudn] [conversation.id=-NGgE3JPGNoLnV8I5Asy] [conversation.participant=agent]
+
+next
+[conversation_id=xMKcudn] [conversation.id=-NGgED9B4oggRNr07rFu] [conversation.participant=user]
+
+Hi.  How can I help you?
+[conversation_id=xMKcudn] [conversation.id=-NGgEFieAQEYKuBusdX_] [conversation.participant=agent]
+
+what do I do first?
+[conversation_id=xMKcudn] [conversation.id=-NGgEVYw7D3L9GZOB0w2] [conversation.participant=user]
+
+
+[conversation_id=xMKcudn] [conversation.id=-NGgEWO4YbbyiMxsxCsU] [conversation.participant=agent]
+
+User moved to section "Step 1".
+[conversation_id=xMKcudn] [conversation.id=-NGgEWSb0gf0EFg8qYYq] [conversation.participant=user]
+
+I don't have any poultry shears
+[conversation_id=xMKcudn] [conversation.id=-NGgEkEiPGwWbVfyZtCE] [conversation.participant=user]
+
+Let me see...
+[conversation_id=xMKcudn] [conversation.id=-NGgEp42-OgBbRAdmVFG] [conversation.participant=agent]
+
+Poultry shears are optional here, so don't worry.
+[conversation_id=xMKcudn] [conversation.id=-NGgEvAl-JPpu3fwadkE] [conversation.participant=agent]
+
+can I use a knife
+[conversation_id=xMKcudn] [conversation.id=-NGgEw9L6OcX6ceScTr3] [conversation.participant=user]
+
+I'm sorry I do not have answer for this question.
+[conversation_id=xMKcudn] [conversation.id=-NGgFBUVW_OHbnZapRou] [conversation.participant=agent]
+
+what is the origin of the sauce?
+[conversation_id=xMKcudn] [conversation.id=-NGgFGTXfoVTuNJqPFOV] [conversation.participant=user]
+
+Let me tell you
+[conversation_id=xMKcudn] [conversation.id=-NGgFIFG1oy1g6zIjxy9] [conversation.participant=agent]
+
+Duck à l'orange, or canard à l'orange in French, is a classic French dish in which a duck is roasted and served with a bigarade sauce.  "Bigarade" is the French name of bitter oranges, also sometimes sold as Seville oranges.
+[conversation_id=xMKcudn] [conversation.id=-NGgFffrRJkLxV9D10IM] [conversation.participant=agent]
+
+show me a video of how to spatchcock
+[conversation_id=xMKcudn] [conversation.id=-NGgFlwKRGqkFJmI6zVK] [conversation.participant=user]
+
+I'm sorry, I do not think I have a video for the spatchcocking process, but I found this:
+[conversation_id=xMKcudn] [conversation.id=-NGgG2BnxezrhHzGXLwL] [conversation.participant=agent]
+
+https://cdn.jwplayer.com/v2/media/MULAFKQe/poster.jpg<video_separator>https://cdn.jwplayer.com/videos/MULAFKQe.mp4
+[conversation_id=xMKcudn] [conversation.id=-NGgG2nGylHVkq4HEfsJ] [conversation.participant=agent]
+
+help
+[conversation_id=xMKcudn] [conversation.id=-NGgGH24xpLF2UVALBoa] [conversation.participant=user]
+
+Can you specify your question?
+[conversation_id=xMKcudn] [conversation.id=-NGgGMOBHUgvqJmEuFJ5] [conversation.participant=agent]
+
+Are you still there?
+[conversation_id=xMKcudn] [conversation.id=-NGgH6Ti1bDXFL55uq8x] [conversation.participant=agent]
+
+next
+[conversation_id=xMKcudn] [conversation.id=-NGgHLwTWsy_ZoLGvgS0] [conversation.participant=user]
+
+
+[conversation_id=xMKcudn] [conversation.id=-NGgHRjEwaW2WGcgN7Y7] [conversation.participant=agent]
+
+
+[conversation_id=xMKcudn] [conversation.id=-NGgHTCKpbNE_3n4kihh] [conversation.participant=agent]
+
+
+[conversation_id=xMKcudn] [conversation.id=-NGgHaU5ACOmEYtbzYz1] [conversation.participant=agent]
+
+
+[conversation_id=xMKcudn] [conversation.id=-NGgHbLUrM2VfJWHGnu9] [conversation.participant=agent]
+
+
+[conversation_id=xMKcudn] [conversation.id=-NGgHbfxb7nD5VeAiI8m] [conversation.participant=agent]
+
+
+[conversation_id=xMKcudn] [conversation.id=-NGgHxJegjDiwuAj4HGd] [conversation.participant=agent]
+
+
+[conversation_id=xMKcudn] [conversation.id=-NGgILEiW7f-ispTDx0D] [conversation.participant=agent]
+
+User moved to section "Step 1".
+[conversation_id=xMKcudn] [conversation.id=-NGgILJdzuRUEJiMbkuJ] [conversation.participant=user]
+
+
+[conversation_id=xMKcudn] [conversation.id=-NGgIMlJBFoLTRXhmdPx] [conversation.participant=agent]
+
+User moved to section "Step 2".
+[conversation_id=xMKcudn] [conversation.id=-NGgIMquGOw7sUWV8BAl] [conversation.participant=user]
+
+next
+[conversation_id=xMKcudn] [conversation.id=-NGgIk2_vz13SvaiGrIE] [conversation.participant=user]
+
+
+[conversation_id=xMKcudn] [conversation.id=-NGgIk_8nRdaWPvdJYit] [conversation.participant=agent]
+
+User moved to section "Step 3".
+[conversation_id=xMKcudn] [conversation.id=-NGgIke09d_r0zcm99sD] [conversation.participant=user]
+
+what is step two
+[conversation_id=xMKcudn] [conversation.id=-NGgJluKFi93rnsqnw5h] [conversation.participant=user]
+
+
+[conversation_id=xMKcudn] [conversation.id=-NGgJmm0x8UpDh_zzQ-N] [conversation.participant=agent]
+
+User moved to section "Step 4".
+[conversation_id=xMKcudn] [conversation.id=-NGgJmr0OGQ5eMKNOI96] [conversation.participant=user]
+
+
+[conversation_id=xMKcudn] [conversation.id=-NGgJrJD9A0g4j_EvZs4] [conversation.participant=agent]
+
+User moved to section "Step 5".
+[conversation_id=xMKcudn] [conversation.id=-NGgJrQg8-LztSbbOWgg] [conversation.participant=user]
+
+
+[conversation_id=xMKcudn] [conversation.id=-NGgJsh6zzH8ZFPKHk8m] [conversation.participant=agent]
+
+User moved to section "Step 4".
+[conversation_id=xMKcudn] [conversation.id=-NGgJsvo49bnOU4kAD33] [conversation.participant=user]
+
+
+[conversation_id=xMKcudn] [conversation.id=-NGgJt9Oob77cFsZDSO9] [conversation.participant=agent]
+
+User moved to section "Step 3".
+[conversation_id=xMKcudn] [conversation.id=-NGgJtEM6bv96mT6SZZJ] [conversation.participant=user]
+
+
+[conversation_id=xMKcudn] [conversation.id=-NGgJtV-HHM4g-zKqz55] [conversation.participant=agent]
+
+User moved to section "Step 2".
+[conversation_id=xMKcudn] [conversation.id=-NGgJt_Hehknvf2LND0Z] [conversation.participant=user]
+
+Trim away any excess skin around the duck's neck and cavity openings. Cut off duck wingettes and wing tips at the joint, leaving the drumettes connected to the duck; remove neck and any giblets from the cavity. Refrigerate trimmed wing ends, neck, and spine (if using) until ready to make the sauce; reserve giblets and trimmed skin for another use, or discard.
+[conversation_id=xMKcudn] [conversation.id=-NGgJwCHKyGYYIk4dPPb] [conversation.participant=agent]
+
+can you use the giblets for anything else?
+[conversation_id=xMKcudn] [conversation.id=-NGgK4yjzFr_X1IKbnql] [conversation.participant=user]
+
+Let me see...
+[conversation_id=xMKcudn] [conversation.id=-NGgK9EsPvqWXBgtet9s] [conversation.participant=agent]
+
+There are a number of recipes that use giblets. If a bird is to be stuffed, the giblets are traditionally chopped and added to the stuffing; however, the USDA recommends cooking giblets separately from the rest of the bird. If not, they can be used for other purposes, such as "giblet pie" or, a Southern U.S. favorite, giblet gravy. With the exception of giblet gravy, the liver is not usually included in these recipes, as its strong flavor tends to overpower other ingredients. It may be used in liver-specific recipes, such as pâté or yakitori. Giblets can also be used to make alicot, a French stew.
+[conversation_id=xMKcudn] [conversation.id=-NGgKMbkIgz9sOro8kL8] [conversation.participant=agent]
+
+next
+[conversation_id=xMKcudn] [conversation.id=-NGgKT2p93BRCOuc8h9-] [conversation.participant=user]
+
+
+[conversation_id=xMKcudn] [conversation.id=-NGgKTfYbiInNWrABUCy] [conversation.participant=agent]
+
+User moved to section "Step 3".
+[conversation_id=xMKcudn] [conversation.id=-NGgKTkhQpzw75t7TtiK] [conversation.participant=user]
+
+Is step 3 visible now?
+[conversation_id=xMKcudn] [conversation.id=-NGgKYHknio1R5unc6Le] [conversation.participant=agent]
+
+yes
+[conversation_id=xMKcudn] [conversation.id=-NGgKZmt7z6JcLTAXthE] [conversation.participant=user]
+
+next
+[conversation_id=xMKcudn] [conversation.id=-NGgKeK-BsgnVnPpz8Z9] [conversation.participant=user]
+
+
+[conversation_id=xMKcudn] [conversation.id=-NGgKezKWEolB1i3vmmr] [conversation.participant=agent]
+
+User moved to section "Step 4".
+[conversation_id=xMKcudn] [conversation.id=-NGgKf4OUn3mNpoJS-tH] [conversation.participant=user]
+
+where can i buy kosher salt?
+[conversation_id=xMKcudn] [conversation.id=-NGgKjSmpiak64fva-a7] [conversation.participant=user]
+
+Let me see...
+[conversation_id=xMKcudn] [conversation.id=-NGgKtbg970bSsK8uE5S] [conversation.participant=agent]
+
+I'm sorry, I do not think I have this information. Usually you find it in supermarkets.
+[conversation_id=xMKcudn] [conversation.id=-NGgL9CwOxQjmTBQqe-0] [conversation.participant=agent]
+
+next
+[conversation_id=xMKcudn] [conversation.id=-NGgLCk6KEgRS7hJhfEz] [conversation.participant=user]
+
+
+[conversation_id=xMKcudn] [conversation.id=-NGgLDOyXUPYJJ1Dphj0] [conversation.participant=agent]
+
+User moved to section "Step 5".
+[conversation_id=xMKcudn] [conversation.id=-NGgLDU-xCY3WOW7i80o] [conversation.participant=user]
+
+what is the gas mark?
+[conversation_id=xMKcudn] [conversation.id=-NGgLJKD5L4tXkYFxht7] [conversation.participant=user]
+
+Gas mark 1 is 275 °Fahrenheit (135 °Celsius). Oven temperatures increase by 25 °F (13.9 °C) each time the gas mark increases by 1. Below Gas Mark 1 the scale markings halve at each step, each representing a decrease of 25 °F.
+[conversation_id=xMKcudn] [conversation.id=-NGgL_3AmXlEf0ycwBDL] [conversation.participant=agent]
+
+next
+[conversation_id=xMKcudn] [conversation.id=-NGgLb_JCQDsjj23gyIt] [conversation.participant=user]
+
+
+[conversation_id=xMKcudn] [conversation.id=-NGgLc5QJQYLThuPZ6iw] [conversation.participant=agent]
+
+User moved to section "Step 6".
+[conversation_id=xMKcudn] [conversation.id=-NGgLcBBdzdWawyUs8gJ] [conversation.participant=user]
+
+next
+[conversation_id=xMKcudn] [conversation.id=-NGgLiW0sUQNpavIWIax] [conversation.participant=user]
+
+
+[conversation_id=xMKcudn] [conversation.id=-NGgLjKi5zLUt-NQYh0d] [conversation.participant=agent]
+
+User moved to section "Step 7".
+[conversation_id=xMKcudn] [conversation.id=-NGgLjPCV8beTGXvdUae] [conversation.participant=user]
+
+previous
+[conversation_id=xMKcudn] [conversation.id=-NGgLl1ey74oNLPXbvWM] [conversation.participant=user]
+
+
+[conversation_id=xMKcudn] [conversation.id=-NGgLlp53Kv1uSpy4Ym7] [conversation.participant=agent]
+
+User moved to section "Step 6".
+[conversation_id=xMKcudn] [conversation.id=-NGgLluRXaC6dzh88-Nt] [conversation.participant=user]
+
+next
+[conversation_id=xMKcudn] [conversation.id=-NGgLnjU5s0YJd-WgvDC] [conversation.participant=user]
+
+
+[conversation_id=xMKcudn] [conversation.id=-NGgLoBsl-FWw5wj8ozq] [conversation.participant=agent]
+
+User moved to section "Step 7".
+[conversation_id=xMKcudn] [conversation.id=-NGgLoHL97cVwku0Nqq7] [conversation.participant=user]
+
+next
+[conversation_id=xMKcudn] [conversation.id=-NGgLxU-50shHBwcmFCo] [conversation.participant=user]
+
+
+[conversation_id=xMKcudn] [conversation.id=-NGgLxwY_OZ_5oKifrG0] [conversation.participant=agent]
+
+User moved to section "Step 8".
+[conversation_id=xMKcudn] [conversation.id=-NGgLy1Efdf99Q7li263] [conversation.participant=user]
+
+can i see a video of how to make the sauce
+[conversation_id=xMKcudn] [conversation.id=-NGgM2Qt6B8W_8fW7Lmp] [conversation.participant=user]
+
+I'm sorry, I do not think I have this information. But I can show you pictures:
+[conversation_id=xMKcudn] [conversation.id=-NGgMASaC4P2vCA2toBa] [conversation.participant=agent]
+
+next
+[conversation_id=xMKcudn] [conversation.id=-NGgMDzMbhXRFLEU80oK] [conversation.participant=user]
+
+https://www.seriouseats.com/thmb/iVh3CJWHBb_2Bj1qSo3lNeM6wWY=/1500x1125/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2018__11__20181023-duck-a-l-orange-vicky-wasik-36-1500x1125-989bef2112ee46fea4aefca0bfa2b046.jpg
+[conversation_id=xMKcudn] [conversation.id=-NGgMFNUImbFa0030MqN] [conversation.participant=agent]
+
+https://www.seriouseats.com/thmb/NqP2Gj25GTSYdLWhci93qECngwU=/1500x1125/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2018__11__20181023-duck-a-l-orange-vicky-wasik-gastrique-1500x1125-37e03824291349569bb9548bbd65cc7d.jpg
+[conversation_id=xMKcudn] [conversation.id=-NGgMGFK0gKo3PHvMm-q] [conversation.participant=agent]
+
+
+[conversation_id=xMKcudn] [conversation.id=-NGgMGXpx1E6TLvYSlot] [conversation.participant=agent]
+
+User moved to section "Step 9".
+[conversation_id=xMKcudn] [conversation.id=-NGgMGat6r2Xkbn9s6CM] [conversation.participant=user]
+
+next
+[conversation_id=xMKcudn] [conversation.id=-NGgMLuxX9GI12y-EjmC] [conversation.participant=user]
+
+
+[conversation_id=xMKcudn] [conversation.id=-NGgMMcKmJaq1s9nf3Iv] [conversation.participant=agent]
+
+User moved to section "Step 10".
+[conversation_id=xMKcudn] [conversation.id=-NGgMMhWLDDjuTAmk3Dz] [conversation.participant=user]
+
+next
+[conversation_id=xMKcudn] [conversation.id=-NGgMregtgf-wxXEB_WN] [conversation.participant=user]
+
+
+[conversation_id=xMKcudn] [conversation.id=-NGgMsFLqs4YtGFHvQTZ] [conversation.participant=agent]
+
+User moved to section "Step 11".
+[conversation_id=xMKcudn] [conversation.id=-NGgMsKeyBxkjVd5xTq6] [conversation.participant=user]
+
+next
+[conversation_id=xMKcudn] [conversation.id=-NGgMw82uYuCJhgS1iMn] [conversation.participant=user]
+
+
+[conversation_id=xMKcudn] [conversation.id=-NGgMwc1DOI9Ryz_WaWB] [conversation.participant=agent]
+
+User moved to section "Step 12".
+[conversation_id=xMKcudn] [conversation.id=-NGgMwg9mJHcAnX1gexC] [conversation.participant=user]
+
+next
+[conversation_id=xMKcudn] [conversation.id=-NGgN0CQ_kKO-r0SEsi0] [conversation.participant=user]
+
+
+[conversation_id=xMKcudn] [conversation.id=-NGgN0Yj_5Sz1g9GPTGi] [conversation.participant=agent]
+
+User moved to section "Step 13".
+[conversation_id=xMKcudn] [conversation.id=-NGgN0dFwzHPafWHh35_] [conversation.participant=user]
+
+next
+[conversation_id=xMKcudn] [conversation.id=-NGgN4C2SwZ-I1vwshzA] [conversation.participant=user]
+
+
+[conversation_id=xMKcudn] [conversation.id=-NGgN4lFjzkiakP8mlWk] [conversation.participant=agent]
+
+User moved to section "Step 14".
+[conversation_id=xMKcudn] [conversation.id=-NGgN4rO-bcTbTWsk_YD] [conversation.participant=user]
+
+xt
+[conversation_id=xMKcudn] [conversation.id=-NGgN7vWPjzZ8miwVrOE] [conversation.participant=user]
+
+
+[conversation_id=xMKcudn] [conversation.id=-NGgN8QcCgq7S67LpaEB] [conversation.participant=agent]
+
+User moved to section "Step 15".
+[conversation_id=xMKcudn] [conversation.id=-NGgN8W5QUgFTcA1LHNB] [conversation.participant=user]
+
+next
+[conversation_id=xMKcudn] [conversation.id=-NGgNDg476bv-zBBkxsK] [conversation.participant=user]
+
+
+[conversation_id=xMKcudn] [conversation.id=-NGgNEEB5ERcMo3jl4EY] [conversation.participant=agent]
+
+User moved to section "Step 16".
+[conversation_id=xMKcudn] [conversation.id=-NGgNEJAHNLd-dzFMCSJ] [conversation.participant=user]
+
+next
+[conversation_id=xMKcudn] [conversation.id=-NGgNHmkB-JjJi47msEj] [conversation.participant=user]
+
+
+[conversation_id=xMKcudn] [conversation.id=-NGgNIDRCPnBLLViyLsx] [conversation.participant=agent]
+
+User moved to section "Step 17".
+[conversation_id=xMKcudn] [conversation.id=-NGgNIIu0iP1OUAq-XOv] [conversation.participant=user]
+
+next
+[conversation_id=xMKcudn] [conversation.id=-NGgNLmQlVc5BsEFdwTS] [conversation.participant=user]
+
+
+[conversation_id=xMKcudn] [conversation.id=-NGgNMNsiiy3s3-BfAOT] [conversation.participant=agent]
+
+User moved to section "Step 18".
+[conversation_id=xMKcudn] [conversation.id=-NGgNMSu4lNu9OxEF8xp] [conversation.participant=user]
+
+next
+[conversation_id=xMKcudn] [conversation.id=-NGgNSQbfrhI4pCZPH0w] [conversation.participant=user]
+
+
+[conversation_id=xMKcudn] [conversation.id=-NGgNSvTNC2oyCdQMp67] [conversation.participant=agent]
+
+User moved to section "Step 19".
+[conversation_id=xMKcudn] [conversation.id=-NGgNT-iX3QLr0XuUOIp] [conversation.participant=user]
+
+next
+[conversation_id=xMKcudn] [conversation.id=-NGgNXUftI1L9LlZm-Qb] [conversation.participant=user]
+
+
+[conversation_id=xMKcudn] [conversation.id=-NGgNXpmzlo41VywOQ-2] [conversation.participant=agent]
+
+User moved to section "Step 20".
+[conversation_id=xMKcudn] [conversation.id=-NGgNXuJea3DFBFBOH78] [conversation.participant=user]
+
+next
+[conversation_id=xMKcudn] [conversation.id=-NGgNcxpWJQ7Oqt8Zxob] [conversation.participant=user]
+
+
+[conversation_id=xMKcudn] [conversation.id=-NGgNdJr-kJdEe9Ym8iP] [conversation.participant=agent]
+
+User moved to section "Step 21".
+[conversation_id=xMKcudn] [conversation.id=-NGgNdO4hdiq9tBzclZB] [conversation.participant=user]
+
+next
+[conversation_id=xMKcudn] [conversation.id=-NGgNfS6t9-M6eD4b9pY] [conversation.participant=user]
+
+
+[conversation_id=xMKcudn] [conversation.id=-NGgNfpTbZ4s2mqhgdPW] [conversation.participant=agent]
+
+User moved to section "Step 22".
+[conversation_id=xMKcudn] [conversation.id=-NGgNfuNTs5rFnxFpWqW] [conversation.participant=user]
+
+what can you  serve with duck al'orange
+[conversation_id=xMKcudn] [conversation.id=-NGgNlbtkW6fLbLTOyYj] [conversation.participant=user]
+
+Let me see...
+[conversation_id=xMKcudn] [conversation.id=-NGgNnl2XelsTZXRCTtI] [conversation.participant=agent]
+
+next
+[conversation_id=xMKcudn] [conversation.id=-NGgOFGsAdQda2-Ff-33] [conversation.participant=user]
+
+Usually only the duck is served. While duck à l'orange is often cloyingly sweet with a heavy, syrupy sauce, this recipe calls for bitter oranges, which balance the dish's sweetness and cut through the rich and fatty duck (if you can't find bitter oranges, we give you the option of substituting a mixture of navel oranges and lemons).
+[conversation_id=xMKcudn] [conversation.id=-NGgOKdsfCsO5T-McXsZ] [conversation.participant=agent]
+
+Thank you, you reached the final step.
+[conversation_id=xMKcudn] [conversation.id=-NGgOPFt4bqtlSqFfU5a] [conversation.participant=agent]
+

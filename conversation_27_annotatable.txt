@@ -1,0 +1,147 @@
+user joined the chat.
+[conversation_id=2b71cb60] [conversation.id=-NKcbLvAfiwpSmaEvcE-] [conversation.participant=user]
+
+user joined the chat.
+[conversation_id=2b71cb60] [conversation.id=-NKcbZnRc7-TEOcjnhXB] [conversation.participant=user]
+
+user joined the chat.
+[conversation_id=2b71cb60] [conversation.id=-NKccVxPhUqoyWMbkMzF] [conversation.participant=user]
+
+Hey there! Happy to have you on board for our masterclass :-) Today you will be learning how to prepare the Best Pesto. Make sure you have all the ingredients and tools and feel free to ask questions. If you are ready to start cooking, simply say start.
+[conversation_id=2b71cb60] [conversation.id=-NKcct1dOx8HWcvRP8ps] [conversation.participant=agent]
+
+start
+[conversation_id=2b71cb60] [conversation.id=-NKccvbDmpAuPxBynKfh] [conversation.participant=user]
+
+Do you have any questions about the tools or ingredients required to make pesto?
+[conversation_id=2b71cb60] [conversation.id=-NKcd14mqW3ykZR_3PDE] [conversation.participant=agent]
+
+no i have a pestle and mortar
+[conversation_id=2b71cb60] [conversation.id=-NKcd7xZsXMVNMbR09Fa] [conversation.participant=user]
+
+where is the note about pecorino fiore sardo
+[conversation_id=2b71cb60] [conversation.id=-NKcdGXcsiVOm0IIG_P3] [conversation.participant=user]
+
+The note is actually not there so don't worry about it!
+[conversation_id=2b71cb60] [conversation.id=-NKcdSSsqRB6Di9p4CKD] [conversation.participant=agent]
+
+ok
+[conversation_id=2b71cb60] [conversation.id=-NKcdUxw7hw-W8tILk31] [conversation.participant=user]
+
+could i use chilli olive oil
+[conversation_id=2b71cb60] [conversation.id=-NKcdbW3DizvJGYEeDlT] [conversation.participant=user]
+
+That is a great question! I would not recommend using chilli olive oil.  More precisely, as long as you're using a decent, somewhat mild olive oil, your pesto is going to be good; if you feel like using an even higher-quality, not-too-spicy oil, whether Ligurian or not, it may be subtly better.
+[conversation_id=2b71cb60] [conversation.id=-NKcdqysw-DoDAY_NTSM] [conversation.participant=agent]
+
+ok i have regular olive oil so will use that. i might put some walnuts in as well as the pine nuts
+[conversation_id=2b71cb60] [conversation.id=-NKce02Gt07Jw25Q8Jqz] [conversation.participant=user]
+
+Yes, that would work.  Most recipes for pesto sauce call for pine nuts, but walnuts are not unheard of.
+[conversation_id=2b71cb60] [conversation.id=-NKceBY9qX2ViqClz_Wn] [conversation.participant=agent]
+
+Also,  toasting nuts is not worth it.
+[conversation_id=2b71cb60] [conversation.id=-NKceGo1qa2sy6-atGU2] [conversation.participant=agent]
+
+ive made pesto many times so have a good idea of what to do.  um surprised preparation time is 30 minutes because it is usully very quick to make
+[conversation_id=2b71cb60] [conversation.id=-NKceIop3NTibtDJscPw] [conversation.participant=user]
+
+I think that just depends on whether you are using a food processor or mortar and pestle.
+[conversation_id=2b71cb60] [conversation.id=-NKceWFPinwMoNR4xlqC] [conversation.participant=agent]
+
+Also, as a reminder, whenever you want to go to the next step simply type "next". If you want to go to a previous step type "previous". But if you have any questions, feel free to ask.
+[conversation_id=2b71cb60] [conversation.id=-NKceZRpghu-COaf2Ag2] [conversation.participant=agent]
+
+i usually use a blender instead of a pestle and mortar
+[conversation_id=2b71cb60] [conversation.id=-NKceZdOLp46-GrQrL-E] [conversation.participant=user]
+
+next
+[conversation_id=2b71cb60] [conversation.id=-NKceauYrP8VAh00OwLS] [conversation.participant=user]
+
+
+[conversation_id=2b71cb60] [conversation.id=-NKcebiUSv082h57U3fL] [conversation.participant=agent]
+
+User moved to section "Step 1".
+[conversation_id=2b71cb60] [conversation.id=-NKcebomB5RTTLWc3YXr] [conversation.participant=user]
+
+next
+[conversation_id=2b71cb60] [conversation.id=-NKceeKP8Dz6L74xQgMO] [conversation.participant=user]
+
+
+[conversation_id=2b71cb60] [conversation.id=-NKcefx_FWO8dmRAdSKX] [conversation.participant=agent]
+
+User moved to section "Step 2".
+[conversation_id=2b71cb60] [conversation.id=-NKceg0gxzMkgdIIK1xh] [conversation.participant=user]
+
+thanks for the reminder
+[conversation_id=2b71cb60] [conversation.id=-NKceiOnpdIUcJXlG3Nr] [conversation.participant=user]
+
+next
+[conversation_id=2b71cb60] [conversation.id=-NKcejc4J86kALJLo1A2] [conversation.participant=user]
+
+next
+[conversation_id=2b71cb60] [conversation.id=-NKceqPSLlL1qElvyQry] [conversation.participant=user]
+
+Before going to the next step, do you have any questions?
+[conversation_id=2b71cb60] [conversation.id=-NKcern5z1Qnkfu0KM7I] [conversation.participant=agent]
+
+no i understand everythig
+[conversation_id=2b71cb60] [conversation.id=-NKcevvAWhge89XOFlKU] [conversation.participant=user]
+
+ok great! Let's go to the next step
+[conversation_id=2b71cb60] [conversation.id=-NKceyeyi3uMsyjhrbe9] [conversation.participant=agent]
+
+
+[conversation_id=2b71cb60] [conversation.id=-NKceyx3NdBwk5HIBmD8] [conversation.participant=agent]
+
+User moved to section "Step 3".
+[conversation_id=2b71cb60] [conversation.id=-NKcez04BZOln1ZLKik5] [conversation.participant=user]
+
+next
+[conversation_id=2b71cb60] [conversation.id=-NKcf0vxvI_nLgioxkCP] [conversation.participant=user]
+
+
+[conversation_id=2b71cb60] [conversation.id=-NKcf26Nuzf7OzVaExq2] [conversation.participant=agent]
+
+User moved to section "Step 4".
+[conversation_id=2b71cb60] [conversation.id=-NKcf2ATJcAF1h3gQQn5] [conversation.participant=user]
+
+it looks a lovely colour
+[conversation_id=2b71cb60] [conversation.id=-NKcf64KiGIarrWmjSjl] [conversation.participant=user]
+
+next
+[conversation_id=2b71cb60] [conversation.id=-NKcf78tEoUNkZ179SON] [conversation.participant=user]
+
+
+[conversation_id=2b71cb60] [conversation.id=-NKcf8tsB9pmPqb8ETno] [conversation.participant=agent]
+
+User moved to section "Step 5".
+[conversation_id=2b71cb60] [conversation.id=-NKcf8y2grBLIojoD3I4] [conversation.participant=user]
+
+does it last longer than overnight
+[conversation_id=2b71cb60] [conversation.id=-NKcfCmtmbOFtuAYKeGZ] [conversation.participant=user]
+
+next
+[conversation_id=2b71cb60] [conversation.id=-NKcfFFWoYYY6WHHBq4z] [conversation.participant=user]
+
+next
+[conversation_id=2b71cb60] [conversation.id=-NKcfQp2eaMozLISWx4c] [conversation.participant=user]
+
+Yes it does. To boost the 'shelf-life' of the pesto in the fridge, make sure that it is completely covered with olive oil before sealing the container.
+[conversation_id=2b71cb60] [conversation.id=-NKcfULGwc8RZ40miz6W] [conversation.participant=agent]
+
+ok ive not done that before. useful tip thanks
+[conversation_id=2b71cb60] [conversation.id=-NKcfZEgm4RWMTI1w6dm] [conversation.participant=user]
+
+next
+[conversation_id=2b71cb60] [conversation.id=-NKcf_PfFoJdFvhBIWc1] [conversation.participant=user]
+
+This is the last step in the recipe! Well done!
+[conversation_id=2b71cb60] [conversation.id=-NKcfciKIqkt1UdhQh0D] [conversation.participant=agent]
+
+next
+[conversation_id=2b71cb60] [conversation.id=-NKcffSHxkyM_G4w48IX] [conversation.participant=user]
+
+thank you
+[conversation_id=2b71cb60] [conversation.id=-NKcfmHpJrbDebLw3pDo] [conversation.participant=user]
+

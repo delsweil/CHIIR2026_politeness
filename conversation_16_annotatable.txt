@@ -1,0 +1,105 @@
+hello
+[conversation_id=4D2ekMAIis] [conversation.id=-NAirApyyVwjKKMMZbTN] [conversation.participant=user]
+
+Hey there! Happy to have you on board for our masterclass :) Today you will be learning how to prepare Apple Pie. Make sure you have all the ingredients and tools and feel free to ask questions. If you are ready to start cooking simply say next.
+[conversation_id=4D2ekMAIis] [conversation.id=-NAirCMkokAUosTr3FgV] [conversation.participant=agent]
+
+next
+[conversation_id=4D2ekMAIis] [conversation.id=-NAirDxmESzE3zvjc_WN] [conversation.participant=user]
+
+
+[conversation_id=4D2ekMAIis] [conversation.id=-NAirPlD1xA9FC-73wG0] [conversation.participant=agent]
+
+
+[conversation_id=4D2ekMAIis] [conversation.id=-NAirRBR3jd7w0G2gBXa] [conversation.participant=agent]
+
+User moved to section "Step 1".
+[conversation_id=4D2ekMAIis] [conversation.id=-NAirRFVR53SX6VbI_s8] [conversation.participant=user]
+
+
+[conversation_id=4D2ekMAIis] [conversation.id=-NAirROAOQrzaJJ9TKJd] [conversation.participant=agent]
+
+
+[conversation_id=4D2ekMAIis] [conversation.id=-NAirRT0JutkIaIp8jR8] [conversation.participant=agent]
+
+next
+[conversation_id=4D2ekMAIis] [conversation.id=-NAirssMIjtLXalLrNrb] [conversation.participant=user]
+
+
+[conversation_id=4D2ekMAIis] [conversation.id=-NAirtkuQfTS4im5rzfM] [conversation.participant=agent]
+
+User moved to section "Step 2".
+[conversation_id=4D2ekMAIis] [conversation.id=-NAirtoiKytsCCjyx9bF] [conversation.participant=user]
+
+next
+[conversation_id=4D2ekMAIis] [conversation.id=-NAisKyo6CNpggm02-cP] [conversation.participant=user]
+
+
+[conversation_id=4D2ekMAIis] [conversation.id=-NAisLrsFo9Nw63ef1me] [conversation.participant=agent]
+
+User moved to section "Step 3".
+[conversation_id=4D2ekMAIis] [conversation.id=-NAisLvcYEmzzLZPPK9k] [conversation.participant=user]
+
+can you show me a video?
+[conversation_id=4D2ekMAIis] [conversation.id=-NAisX-AzfZo2n6qUzZT] [conversation.participant=user]
+
+https://cdn.jwplayer.com/v2/media/Ern2tc8F/poster.jpg<video_separator>https://cdn.jwplayer.com/videos/Ern2tc8F.mp4
+[conversation_id=4D2ekMAIis] [conversation.id=-NAis_14B-_z4ttryPUp] [conversation.participant=agent]
+
+next7
+[conversation_id=4D2ekMAIis] [conversation.id=-NAitMXDPkoDFI5vWcbR] [conversation.participant=user]
+
+next
+[conversation_id=4D2ekMAIis] [conversation.id=-NAitO-ZwZrF_XYLS66j] [conversation.participant=user]
+
+
+[conversation_id=4D2ekMAIis] [conversation.id=-NAitO2uNq5W2yz37p7Q] [conversation.participant=agent]
+
+
+[conversation_id=4D2ekMAIis] [conversation.id=-NAitPAgcBciPe4PxmZy] [conversation.participant=agent]
+
+User moved to section "Step 4".
+[conversation_id=4D2ekMAIis] [conversation.id=-NAitPEVbO54keb92hyz] [conversation.participant=user]
+
+what kind of knife should I use?
+[conversation_id=4D2ekMAIis] [conversation.id=-NAitTmi0D2wLQ0_NuTi] [conversation.participant=user]
+
+It does not really matter as long as you use a sharp knife. You should use the blade to open each vent a little wider. When vents are cut too narrow, entrapped steam can make the top crust a bit mushy.
+[conversation_id=4D2ekMAIis] [conversation.id=-NAitvWLFCQsP3tocknV] [conversation.participant=agent]
+
+next
+[conversation_id=4D2ekMAIis] [conversation.id=-NAiu05IGm18KRZlAbT8] [conversation.participant=user]
+
+
+[conversation_id=4D2ekMAIis] [conversation.id=-NAiu11wLVw0HMaZLmIe] [conversation.participant=agent]
+
+User moved to section "Step 5".
+[conversation_id=4D2ekMAIis] [conversation.id=-NAiu15mFNF5Pq8BRqS6] [conversation.participant=user]
+
+next
+[conversation_id=4D2ekMAIis] [conversation.id=-NAiuRhvi6LTZGsrU6rt] [conversation.participant=user]
+
+
+[conversation_id=4D2ekMAIis] [conversation.id=-NAiuWonI2Z5H-TJvdSm] [conversation.participant=agent]
+
+User moved to section "Step 6".
+[conversation_id=4D2ekMAIis] [conversation.id=-NAiuWshf5DiN6YQb0IC] [conversation.participant=user]
+
+next
+[conversation_id=4D2ekMAIis] [conversation.id=-NAiunDp1ecAOcvY3i0k] [conversation.participant=user]
+
+
+[conversation_id=4D2ekMAIis] [conversation.id=-NAiuqMNjuH_P_wvKQW6] [conversation.participant=agent]
+
+
+[conversation_id=4D2ekMAIis] [conversation.id=-NAiur0sT_AmC1S3IT2Z] [conversation.participant=agent]
+
+User moved to section "Step 6".
+[conversation_id=4D2ekMAIis] [conversation.id=-NAiur4wU9Y8iPXEUS95] [conversation.participant=user]
+
+next
+[conversation_id=4D2ekMAIis] [conversation.id=-NAiv0-KZg5MDo9_J7H2] [conversation.participant=user]
+
+You reached the last step in the recipe. Congratulations.
+[conversation_id=4D2ekMAIis] [conversation.id=-NAiv0ccgLZuWpyjfIaP] [conversation.participant=agent]
+

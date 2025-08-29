@@ -1,0 +1,132 @@
+user joined the chat.
+[conversation_id=pC0jYVl] [conversation.id=-NKItvf2Ss_emcq6_1wN] [conversation.participant=user]
+
+Hey there! Happy to have you on board for our masterclass :-) Today you will be learning how to prepare Parisian Gnocchi. Make sure you have all the ingredients and tools and feel free to ask questions. If you are ready to start cooking simply say start.
+[conversation_id=pC0jYVl] [conversation.id=-NKIv5pQxzCz6TNwZY6h] [conversation.participant=agent]
+
+start
+[conversation_id=pC0jYVl] [conversation.id=-NKIvM4h8oheS4Tq_ckT] [conversation.participant=user]
+
+Do you have any question about the ingredients?
+[conversation_id=pC0jYVl] [conversation.id=-NKIvSK8NrrGExfhNKze] [conversation.participant=agent]
+
+about the eggs
+[conversation_id=pC0jYVl] [conversation.id=-NKIvdWh3JuRje1jANRi] [conversation.participant=user]
+
+if my eggs are smaller how many will be enough
+[conversation_id=pC0jYVl] [conversation.id=-NKIvoedZ2wXCuCNGxoM] [conversation.participant=user]
+
+I'm sorry, I do not think I have this information. However, as long as you have approximately  3 to 5 eggs, it should be fine for this recipe.
+[conversation_id=pC0jYVl] [conversation.id=-NKIw7LFUnSWZ5xRdeuT] [conversation.participant=agent]
+
+Okay
+[conversation_id=pC0jYVl] [conversation.id=-NKIweCqjwyFkDNZUiyF] [conversation.participant=user]
+
+What quantity of the olive oil will be enough
+[conversation_id=pC0jYVl] [conversation.id=-NKIwly7BUuVGhxMQVTg] [conversation.participant=user]
+
+Just enough as you prefer or as required at each step.
+[conversation_id=pC0jYVl] [conversation.id=-NKIxD9iDmvUvyF6zk2k] [conversation.participant=agent]
+
+Do you have any other questions about the ingredients, or would you like to go to the next step?
+[conversation_id=pC0jYVl] [conversation.id=-NKIxZRPcHeV629VYjet] [conversation.participant=agent]
+
+what is a kosher salt
+[conversation_id=pC0jYVl] [conversation.id=-NKIxaDy_ZP6igBtzrfA] [conversation.participant=user]
+
+That is a great question!  Kosher salt or kitchen salt is coarse edible salt without common additives such as iodine. Used in cooking and not at the table, it consists mainly of sodium chloride and may include anticaking agents.
+[conversation_id=pC0jYVl] [conversation.id=-NKIxotvTAh-F0GWdM0G] [conversation.participant=agent]
+
+okay
+[conversation_id=pC0jYVl] [conversation.id=-NKIyAf-lprAIU6af0qX] [conversation.participant=user]
+
+next step
+[conversation_id=pC0jYVl] [conversation.id=-NKIyB_V3QYsIwJj4-cc] [conversation.participant=user]
+
+
+[conversation_id=pC0jYVl] [conversation.id=-NKIyCOCIfaUNdKjna0o] [conversation.participant=agent]
+
+User moved to section "Step 1".
+[conversation_id=pC0jYVl] [conversation.id=-NKIyCZ_rz0bdq68QW0m] [conversation.participant=user]
+
+okay great
+[conversation_id=pC0jYVl] [conversation.id=-NKIygVnZCe4xXllwMGU] [conversation.participant=user]
+
+next step
+[conversation_id=pC0jYVl] [conversation.id=-NKIyhZG3fGfHbH0i6i0] [conversation.participant=user]
+
+
+[conversation_id=pC0jYVl] [conversation.id=-NKIyjapnNBxX2wa_52z] [conversation.participant=agent]
+
+User moved to section "Step 2".
+[conversation_id=pC0jYVl] [conversation.id=-NKIyjm9u2WNDUKgdTEt] [conversation.participant=user]
+
+next step
+[conversation_id=pC0jYVl] [conversation.id=-NKIzYxy8BOJSnzLY5OP] [conversation.participant=user]
+
+
+[conversation_id=pC0jYVl] [conversation.id=-NKIz_Jbe17k99GQ04FX] [conversation.participant=agent]
+
+User moved to section "Step 3".
+[conversation_id=pC0jYVl] [conversation.id=-NKIz_TMuOQCBreWKDm2] [conversation.participant=user]
+
+Feel free to ask any question you might have
+[conversation_id=pC0jYVl] [conversation.id=-NKIzlaYomwJS_iobZeE] [conversation.participant=agent]
+
+should the pot be removed immediately after the herbs have been added ?
+[conversation_id=pC0jYVl] [conversation.id=-NKJ-X2R5KsDMlxlCrr6] [conversation.participant=user]
+
+from the stove
+[conversation_id=pC0jYVl] [conversation.id=-NKJ-_GC_DKgVySgGUPd] [conversation.participant=user]
+
+next step
+[conversation_id=pC0jYVl] [conversation.id=-NKJ03LlbWap--2kIF_s] [conversation.participant=user]
+
+You should remove the pot from heat before adding the herbs. After doing so you can proceed by  adding mustard and cheese and beat with wooden spoon until homogenous. You can then  add eggs one at a time, beating vigorously with each addition to prevent eggs from curdling and allowing dough to fully incorporate egg before adding the next one.  When final egg has been added, add herbs and beat to combine.
+[conversation_id=pC0jYVl] [conversation.id=-NKJ0G_f9P9YipuaGGFG] [conversation.participant=agent]
+
+
+[conversation_id=pC0jYVl] [conversation.id=-NKJ0Gq2g72JcGQFC6nG] [conversation.participant=agent]
+
+User moved to section "Step 4".
+[conversation_id=pC0jYVl] [conversation.id=-NKJ0H2aiTT9Cy3h5G47] [conversation.participant=user]
+
+next step
+[conversation_id=pC0jYVl] [conversation.id=-NKJ0XNtjRNOWGS2M7HL] [conversation.participant=user]
+
+
+[conversation_id=pC0jYVl] [conversation.id=-NKJ0Y3S-sygQfbBieQC] [conversation.participant=agent]
+
+User moved to section "Step 5".
+[conversation_id=pC0jYVl] [conversation.id=-NKJ0YCaOtyFmizS_7NT] [conversation.participant=user]
+
+next
+[conversation_id=pC0jYVl] [conversation.id=-NKJ0vA2jLK-jaWa251h] [conversation.participant=user]
+
+next step
+[conversation_id=pC0jYVl] [conversation.id=-NKJ0zR1UTDD0rUXbu5s] [conversation.participant=user]
+
+Well done! Your reached the last step in this recipe
+[conversation_id=pC0jYVl] [conversation.id=-NKJ14XihUsbUGNz4Cyw] [conversation.participant=agent]
+
+Okay
+[conversation_id=pC0jYVl] [conversation.id=-NKJ1JB9u9VooptaDIMA] [conversation.participant=user]
+
+Thank you for your time
+[conversation_id=pC0jYVl] [conversation.id=-NKJ1L42RnXPPz-Jg03I] [conversation.participant=user]
+
+can I get a picture of the recipe
+[conversation_id=pC0jYVl] [conversation.id=-NKJ1ZS-0vQ_pciLXzoJ] [conversation.participant=user]
+
+Can you rephrase this?
+[conversation_id=pC0jYVl] [conversation.id=-NKJ1iq4e2EGqen8TFD1] [conversation.participant=agent]
+
+I want a picture of this recipe ready to be served
+[conversation_id=pC0jYVl] [conversation.id=-NKJ2e7yKLRJS-NZwHKb] [conversation.participant=user]
+
+Sure! The final result should look as shown in the following picture
+[conversation_id=pC0jYVl] [conversation.id=-NKJ2rdWI_2gbsvU6UPv] [conversation.participant=agent]
+
+https://www.seriouseats.com/thmb/WMhNeW2C0sMh3cscrauQNn0OSHU=/610x458/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2013__09__20130827-gnocchi-parisian-souffle-31-10eb2fa00fd14ff9a88f1fc20ca68b90.jpg
+[conversation_id=pC0jYVl] [conversation.id=-NKJ2sX3vuip8vrcdyvF] [conversation.participant=agent]
+

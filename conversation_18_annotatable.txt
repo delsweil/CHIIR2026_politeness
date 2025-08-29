@@ -1,0 +1,180 @@
+Hey there! Happy to have you on board for our masterclass :-) Today you will be learning how to prepare Apple Pie. Make sure you have all the ingredients and tools and feel free to ask questions. If you are ready to start cooking simply say next.
+[conversation_id=LFiNVaQ] [conversation.id=-NGLeqYfNSWkxisdLOLq] [conversation.participant=agent]
+
+next
+[conversation_id=LFiNVaQ] [conversation.id=-NGLevEAWmwlJPMBshnj] [conversation.participant=user]
+
+Hello.  How can I help you?
+[conversation_id=LFiNVaQ] [conversation.id=-NGLeypGge9d_17h26x6] [conversation.participant=agent]
+
+for how many people is this recipe?
+[conversation_id=LFiNVaQ] [conversation.id=-NGLf4kvZEm1jZsKDG5i] [conversation.participant=user]
+
+Let me see...
+[conversation_id=LFiNVaQ] [conversation.id=-NGLf8IVJIgMXlDem3pT] [conversation.participant=agent]
+
+The recipe yields 10 to 12 servings
+[conversation_id=LFiNVaQ] [conversation.id=-NGLfKpxGh5Pi6vKlP5a] [conversation.participant=agent]
+
+Can I see a video to help me?
+[conversation_id=LFiNVaQ] [conversation.id=-NGLfMIg9XfnbDLJFBMW] [conversation.participant=user]
+
+https://cdn.jwplayer.com/v2/media/Ern2tc8F/poster.jpg<video_separator>https://cdn.jwplayer.com/videos/Ern2tc8F.mp4
+[conversation_id=LFiNVaQ] [conversation.id=-NGLfU6FJU81ZyaJ0CRr] [conversation.participant=agent]
+
+it looks nice thank you
+[conversation_id=LFiNVaQ] [conversation.id=-NGLfWn7N966VsiAB3Qa] [conversation.participant=user]
+
+how much does it cost to make it?
+[conversation_id=LFiNVaQ] [conversation.id=-NGLgDGI4N10UL1FXWCk] [conversation.participant=user]
+
+Let me see...
+[conversation_id=LFiNVaQ] [conversation.id=-NGLgGZxP_E6Z9zqs1mW] [conversation.participant=agent]
+
+I'm sorry I do not have answer for this question
+[conversation_id=LFiNVaQ] [conversation.id=-NGLgeHBxcBnJe1u3wkd] [conversation.participant=agent]
+
+what is the origin of this tart?
+[conversation_id=LFiNVaQ] [conversation.id=-NGLglal2oB0RC9JqLuJ] [conversation.participant=user]
+
+New England was the first region to experience large-scale English colonization in the early 17th century, beginning in 1620, and it was dominated by East Anglian Calvinists, better known as the Puritans. Baking was a particular favorite of the New Englanders and was the origin of dishes seen today as quintessentially "American", such as apple pie and the oven-roasted Thanksgiving turkey. "As American as apple pie" is a well-known phrase used to suggest that something is all-American.
+[conversation_id=LFiNVaQ] [conversation.id=-NGLh3W8xsI8abJbFCq4] [conversation.participant=agent]
+
+ok thanks.
+[conversation_id=LFiNVaQ] [conversation.id=-NGLhKGed79rhaIEOdnr] [conversation.participant=user]
+
+allergy?
+[conversation_id=LFiNVaQ] [conversation.id=-NGLhP6aCzBJWgyHRRpb] [conversation.participant=user]
+
+Let me see...
+[conversation_id=LFiNVaQ] [conversation.id=-NGLhfJoMBw8JO0hnY3s] [conversation.participant=agent]
+
+If you are allergic to fruits from the  APPLE family (apple, pear), you can still bake an apple pie. These allergic reactions usually occur only when the food is raw. People who are allergic to the raw food can eat it cooked, canned, microwaved, processed or baked. For example, someone allergic to raw apples can eat apple sauce, apple jelly, apple juice, apple pie and dried apples. However, nuts may cause allergic reactions whether raw or cooked. This problem is usually life long.
+[conversation_id=LFiNVaQ] [conversation.id=-NGLiV_RsaDCUH6LqAD4] [conversation.participant=agent]
+
+can you send images?
+[conversation_id=LFiNVaQ] [conversation.id=-NGLiq2o74sgZqXNX2mk] [conversation.participant=user]
+
+https://www.seriouseats.com/thmb/IV3NdnPnxSoK-RUim3YgTpDxlsI=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2017__09__20170730-bravetart-apple-pie-vicky-wasik-20-aba8c249b2fb42cabe5b4f2628afbf2e.jpg
+[conversation_id=LFiNVaQ] [conversation.id=-NGLivCS30fQBJhJO8Go] [conversation.participant=agent]
+
+what's your favourite dessert?
+[conversation_id=LFiNVaQ] [conversation.id=-NGLjK4NwFwgWsgirAOJ] [conversation.participant=user]
+
+If you want to proceed to the first step, let me know.
+[conversation_id=LFiNVaQ] [conversation.id=-NGLjKmOXfWQOD8ApzA1] [conversation.participant=agent]
+
+let's process to the first step yes
+[conversation_id=LFiNVaQ] [conversation.id=-NGLjOg6OU1MV2Okb4xI] [conversation.participant=user]
+
+
+[conversation_id=LFiNVaQ] [conversation.id=-NGLjPLb68OKsM51nj2N] [conversation.participant=agent]
+
+User moved to section "Step 1".
+[conversation_id=LFiNVaQ] [conversation.id=-NGLjPS8nV0q-eLjrRd9] [conversation.participant=user]
+
+ok, first step is done
+[conversation_id=LFiNVaQ] [conversation.id=-NGLjWJh_dn2KVPN1YlP] [conversation.participant=user]
+
+what is the next step?
+[conversation_id=LFiNVaQ] [conversation.id=-NGLjaaaBS12v7rX3sqh] [conversation.participant=user]
+
+My algorithms do not allow me to have a favourite dessert
+[conversation_id=LFiNVaQ] [conversation.id=-NGLjap6xRnmwg_78uII] [conversation.participant=agent]
+
+
+[conversation_id=LFiNVaQ] [conversation.id=-NGLjb4wvmzrBkCdhikR] [conversation.participant=agent]
+
+User moved to section "Step 2".
+[conversation_id=LFiNVaQ] [conversation.id=-NGLjb9kgWY45taIDYQJ] [conversation.participant=user]
+
+step 3
+[conversation_id=LFiNVaQ] [conversation.id=-NGLjuPmv2Pe4n--SYxh] [conversation.participant=user]
+
+
+[conversation_id=LFiNVaQ] [conversation.id=-NGLjv6PI_rqY4RsReOk] [conversation.participant=agent]
+
+User moved to section "Step 3".
+[conversation_id=LFiNVaQ] [conversation.id=-NGLjvCFicy2t8HNfvZx] [conversation.participant=user]
+
+step 4 please
+[conversation_id=LFiNVaQ] [conversation.id=-NGLk96i406GjXaCV6RC] [conversation.participant=user]
+
+
+[conversation_id=LFiNVaQ] [conversation.id=-NGLk9oDe_Sce5JVRbyo] [conversation.participant=agent]
+
+User moved to section "Step 4".
+[conversation_id=LFiNVaQ] [conversation.id=-NGLk9twIdbL9yz9Pm3e] [conversation.participant=user]
+
+done
+[conversation_id=LFiNVaQ] [conversation.id=-NGLkFF-5tpj2EXhZDxn] [conversation.participant=user]
+
+step 5?
+[conversation_id=LFiNVaQ] [conversation.id=-NGLkHPCsI7ZACfiuJ9X] [conversation.participant=user]
+
+
+[conversation_id=LFiNVaQ] [conversation.id=-NGLkHgfUwqjr2uRNY8h] [conversation.participant=agent]
+
+User moved to section "Step 5".
+[conversation_id=LFiNVaQ] [conversation.id=-NGLkHlVQHurVnyskm0n] [conversation.participant=user]
+
+science
+[conversation_id=LFiNVaQ] [conversation.id=-NGLk_7IU3EFU4fw4pk6] [conversation.participant=user]
+
+Can you rephrase this? What exactly do you want to know?
+[conversation_id=LFiNVaQ] [conversation.id=-NGLklrq0qwsEugiX2Hi] [conversation.participant=agent]
+
+what technic is used for this dish?
+[conversation_id=LFiNVaQ] [conversation.id=-NGLkqXXiGTQMlK5y1AW] [conversation.participant=user]
+
+why certain techniques are required?
+[conversation_id=LFiNVaQ] [conversation.id=-NGLl5IoYanR98-VgyV-] [conversation.participant=user]
+
+For which part of the dish?
+[conversation_id=LFiNVaQ] [conversation.id=-NGLl6zYZki1NvC40A-7] [conversation.participant=agent]
+
+the step 5
+[conversation_id=LFiNVaQ] [conversation.id=-NGLlA2EuqUJp8unya25] [conversation.participant=user]
+
+Let me see...
+[conversation_id=LFiNVaQ] [conversation.id=-NGLlBVoLbD6dqCSKOFD] [conversation.participant=agent]
+
+The step says you need to bake until the pie reaches an internal temperature of 195°F (91°C), about 75 minutes.  This is significantly cooler than the goal temperature for most fruit pie fillings, which are typically brought to a full boil, but it keeps the apples tender rather than mushy and avoids the problem of a watery pie. When brought to a boil, apples break down and release their juices completely, flooding the pie. A slightly-cooler-than-standard target temperature keeps the apples plump and juicy, with enough structure to retain their own water content, so there isn't as much need for starch.
+[conversation_id=LFiNVaQ] [conversation.id=-NGLlPXikMIucMD1W1K9] [conversation.participant=agent]
+
+ok thank you
+[conversation_id=LFiNVaQ] [conversation.id=-NGLlVKRmsUTyVCiiy9R] [conversation.participant=user]
+
+step 6?
+[conversation_id=LFiNVaQ] [conversation.id=-NGLlWTFadCc_Av7HdZ4] [conversation.participant=user]
+
+
+[conversation_id=LFiNVaQ] [conversation.id=-NGLlXOgE---J2UaCogu] [conversation.participant=agent]
+
+User moved to section "Step 6".
+[conversation_id=LFiNVaQ] [conversation.id=-NGLlXTbC9llu9pxTkq7] [conversation.participant=user]
+
+how many calories?
+[conversation_id=LFiNVaQ] [conversation.id=-NGLmDQac2A3mmEPKpZZ] [conversation.participant=user]
+
+Let me tell you
+[conversation_id=LFiNVaQ] [conversation.id=-NGLmGFoqnGHWJExD0pQ] [conversation.participant=agent]
+
+Usually, a commercially prepared apple pie is 52% water, 34% carbohydrates, 2% protein, and 11% fat. A 100-gram serving supplies 237 Calories and 13% of the US recommended Daily Value of sodium, with no other micronutrients in significant content.
+[conversation_id=LFiNVaQ] [conversation.id=-NGLmZhbeYmwpI_OdadF] [conversation.participant=agent]
+
+step 7
+[conversation_id=LFiNVaQ] [conversation.id=-NGLme-8ihYllbxncBWP] [conversation.participant=user]
+
+Thank you we already reached the final step.
+[conversation_id=LFiNVaQ] [conversation.id=-NGLmrRupdJM8O8vOijc] [conversation.participant=agent]
+
+thank you :)
+[conversation_id=LFiNVaQ] [conversation.id=-NGLn8sq7-p0ETup3s5Z] [conversation.participant=user]
+
+have a good day!
+[conversation_id=LFiNVaQ] [conversation.id=-NGLnGx9F_YnhHEJXDaW] [conversation.participant=user]
+
+Thanks, have a good day as well!
+[conversation_id=LFiNVaQ] [conversation.id=-NGLnkoCZFhM5ulrydSZ] [conversation.participant=agent]
+

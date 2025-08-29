@@ -1,0 +1,186 @@
+user joined the chat.
+[conversation_id=nRHLDUQ] [conversation.id=-NH4nL8LIkGZo0lC8nC_] [conversation.participant=user]
+
+Hey there! Happy to have you on board for our masterclass :-) Today you will be learning how to prepare Savory Cheese Soufflé. Make sure you have all the ingredients and tools and feel free to ask questions. If you are ready to start cooking simply say next.
+[conversation_id=nRHLDUQ] [conversation.id=-NH4o3ESbFNFOYZydcJ-] [conversation.participant=agent]
+
+Next
+[conversation_id=nRHLDUQ] [conversation.id=-NH4oGy837kE88nbtOeP] [conversation.participant=user]
+
+Hi.  How can I help you?
+[conversation_id=nRHLDUQ] [conversation.id=-NH4oHYtlVtjh5Xm83VL] [conversation.participant=agent]
+
+Hi, I was hoping for a view of what the completed recipe looks like.  It would be good to know what I am aiming for
+[conversation_id=nRHLDUQ] [conversation.id=-NH4oPM9vs-4CTiC1Q34] [conversation.participant=user]
+
+Sure. This is what it looks like in the end:
+[conversation_id=nRHLDUQ] [conversation.id=-NH4oW679e_-wqSN6Ryb] [conversation.participant=agent]
+
+https://www.seriouseats.com/thmb/hQRpZyPXA4ZTG88KtuqFrUcTpIw=/1500x1125/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2019__01__20190116-cheese-souffle-vicky-wasik-28-1500x1125-c9ea5aba3a0d46bfbce6aeb4303500a1.jpg
+[conversation_id=nRHLDUQ] [conversation.id=-NH4oWMqQk_m5RzFdk6U] [conversation.participant=agent]
+
+Awesome, thank you what is step 1
+[conversation_id=nRHLDUQ] [conversation.id=-NH4ocNdzOqRIluhhrEB] [conversation.participant=user]
+
+
+[conversation_id=nRHLDUQ] [conversation.id=-NH4od1fx7higxZoSBmO] [conversation.participant=agent]
+
+User moved to section "Step 1".
+[conversation_id=nRHLDUQ] [conversation.id=-NH4od5rMYh3jJlSFB3j] [conversation.participant=user]
+
+Is it just butter, no butter substitutes that can be used for this?
+[conversation_id=nRHLDUQ] [conversation.id=-NH4otHcC9zWye0xcd28] [conversation.participant=user]
+
+Let me see...
+[conversation_id=nRHLDUQ] [conversation.id=-NH4p1J7zrCS3JyhKO1z] [conversation.participant=agent]
+
+You could try to use margarine instead. But an all-butter crust has much better flavor than the alternatives.
+[conversation_id=nRHLDUQ] [conversation.id=-NH4piZ0VaRwE6_V5JT6] [conversation.participant=agent]
+
+Ah ok, I was just seeing if there are any vegan options
+[conversation_id=nRHLDUQ] [conversation.id=-NH4pmc2YijV2aJTUdr8] [conversation.participant=user]
+
+Also, what about newer cooking appliances, such as instapots etc, can they be used?
+[conversation_id=nRHLDUQ] [conversation.id=-NH4q0DspuUOsDwdzlL7] [conversation.participant=user]
+
+I'm sorry I do not have answer for this question
+[conversation_id=nRHLDUQ] [conversation.id=-NH4qBjbA-hIwXFUd7tz] [conversation.participant=agent]
+
+ok no problem, can we move to step 2 please
+[conversation_id=nRHLDUQ] [conversation.id=-NH4qFOPNHgTliDwIYap] [conversation.participant=user]
+
+
+[conversation_id=nRHLDUQ] [conversation.id=-NH4qGzmbPPZdflFbS8z] [conversation.participant=agent]
+
+User moved to section "Step 2".
+[conversation_id=nRHLDUQ] [conversation.id=-NH4qH2g3nJJMFFzbnGa] [conversation.participant=user]
+
+If there are lumps, do I just keep stirring until they are gone?
+[conversation_id=nRHLDUQ] [conversation.id=-NH4qV8sxrFZuvxeEMvu] [conversation.participant=user]
+
+Let me tell you
+[conversation_id=nRHLDUQ] [conversation.id=-NH4qgEWKfnct_myK4Vc] [conversation.participant=agent]
+
+he flour and butter are cooked together to make a roux, and that thickened base is thinned out with liquid (in this case, dairy) to make a sauce. Just keep stirring until they are gone.
+[conversation_id=nRHLDUQ] [conversation.id=-NH4rRqfEqZYnyoKKtyn] [conversation.participant=agent]
+
+Where is this recipe from?
+[conversation_id=nRHLDUQ] [conversation.id=-NH4rZ5UBFXVOnQa_Z8x] [conversation.participant=user]
+
+The earliest mention of the soufflé is attributed to French master cook  Vincent La Chapelle, in the early eighteenth century. The development and popularization of the soufflé is usually traced to French chef Marie-Antoine Carême in the early nineteenth century.
+[conversation_id=nRHLDUQ] [conversation.id=-NH4rfFfwdXsH0OaBSSE] [conversation.participant=agent]
+
+next step
+[conversation_id=nRHLDUQ] [conversation.id=-NH4rvciLUlVEaTH9zbt] [conversation.participant=user]
+
+
+[conversation_id=nRHLDUQ] [conversation.id=-NH4rwauVEMT7-GqLDXJ] [conversation.participant=agent]
+
+User moved to section "Step 3".
+[conversation_id=nRHLDUQ] [conversation.id=-NH4rwesrdXiV3lYfFTy] [conversation.participant=user]
+
+next step
+[conversation_id=nRHLDUQ] [conversation.id=-NH4sZAxEuEO3n7c3n1p] [conversation.participant=user]
+
+
+[conversation_id=nRHLDUQ] [conversation.id=-NH4saPwWtmfVVVx4ZuA] [conversation.participant=agent]
+
+User moved to section "Step 4".
+[conversation_id=nRHLDUQ] [conversation.id=-NH4saTlEtyZ3AiaXOgR] [conversation.participant=user]
+
+can you use other types of mustard?
+[conversation_id=nRHLDUQ] [conversation.id=-NH4sglTEpE647FFIG6_] [conversation.participant=user]
+
+Other mustard such es English mustard would be fine as well.
+[conversation_id=nRHLDUQ] [conversation.id=-NH4t1yTIqUv8H_Kkasp] [conversation.participant=agent]
+
+is it traditional to use cayenne or hot sauce?
+[conversation_id=nRHLDUQ] [conversation.id=-NH4tI01lwWMZuyBL5AC] [conversation.participant=user]
+
+I'm sorry I do not have answer for this question
+[conversation_id=nRHLDUQ] [conversation.id=-NH4uJQdli7Y2JKkjZhI] [conversation.participant=agent]
+
+next step
+[conversation_id=nRHLDUQ] [conversation.id=-NH4uNQZmpglabfWPE2q] [conversation.participant=user]
+
+
+[conversation_id=nRHLDUQ] [conversation.id=-NH4uO8dyWxXlGHAVNC3] [conversation.participant=agent]
+
+User moved to section "Step 5".
+[conversation_id=nRHLDUQ] [conversation.id=-NH4uOCR3_I142myhUbD] [conversation.participant=user]
+
+Is a souffle as hard to make as people say?
+[conversation_id=nRHLDUQ] [conversation.id=-NH4vAcSZm6la9yqfiZO] [conversation.participant=user]
+
+Soufflé anxiety, or "soufflanxiety," as it's clinically known, is very much a real thing, suffered by millions of cooks all over the world. But don't worry, a soufflé is easy, stupid easy, souffloopid easy.
+[conversation_id=nRHLDUQ] [conversation.id=-NH4vO4lIcKt5wnByb5f] [conversation.participant=agent]
+
+why would you use cream of tartar
+[conversation_id=nRHLDUQ] [conversation.id=-NH4vplO216lX2Q43FzO] [conversation.participant=user]
+
+If you don't have a stand mixer or you're lax with beating the egg whites, you can add a little cream of tartar to the whites, an acid that also prevents those sulfur bonds from forming.  If you want an insurance policy against messed-up egg whites, copper or cream of tartar are good ideas.
+[conversation_id=nRHLDUQ] [conversation.id=-NH4wH33jrvKLtJ26F6N] [conversation.participant=agent]
+
+next step
+[conversation_id=nRHLDUQ] [conversation.id=-NH4wPFT9Md6mdbOO9Vh] [conversation.participant=user]
+
+
+[conversation_id=nRHLDUQ] [conversation.id=-NH4wRlrk2aveYujESF_] [conversation.participant=agent]
+
+User moved to section "Step 6".
+[conversation_id=nRHLDUQ] [conversation.id=-NH4wRplyu6RrXHUwufr] [conversation.participant=user]
+
+why does the spatula need to be silicon
+[conversation_id=nRHLDUQ] [conversation.id=-NH4waTH4gQgcoBb3NwP] [conversation.participant=user]
+
+Silicone is a heat-resistant rubber that is inert and non-toxic. Just like Teflon, this makes them non-stick and easy to clean. Silicone has a very specific use as cookware, since it is not rigid.
+[conversation_id=nRHLDUQ] [conversation.id=-NH4x3EQv1Anm94frBEy] [conversation.participant=agent]
+
+Probably the non-stick property is important here.
+[conversation_id=nRHLDUQ] [conversation.id=-NH4xBYABqLv7cAYbmyL] [conversation.participant=agent]
+
+next step
+[conversation_id=nRHLDUQ] [conversation.id=-NH4xEo44Bsyy9mKZR8g] [conversation.participant=user]
+
+
+[conversation_id=nRHLDUQ] [conversation.id=-NH4xFoM3jU5hliSL_4S] [conversation.participant=agent]
+
+User moved to section "Step 7".
+[conversation_id=nRHLDUQ] [conversation.id=-NH4xFscFA7sw_uH9aEx] [conversation.participant=user]
+
+next step
+[conversation_id=nRHLDUQ] [conversation.id=-NH4xkFQToT2ho_AW65g] [conversation.participant=user]
+
+
+[conversation_id=nRHLDUQ] [conversation.id=-NH4xkzJ-pmHBH2Sxnnw] [conversation.participant=agent]
+
+User moved to section "Step 8".
+[conversation_id=nRHLDUQ] [conversation.id=-NH4xl2RR1j_tyYnHR-6] [conversation.participant=user]
+
+What do the different set levels mean?
+[conversation_id=nRHLDUQ] [conversation.id=-NH4xprkVcSeZKmqjLku] [conversation.participant=user]
+
+Temperature is an important factor when making the soufflé. The hotter the oven, the more quickly and fully the soufflé will rise, and the faster it will brown and set on the outside. A 400°F oven produced a marginally taller soufflé than a 375°F oven did.
+[conversation_id=nRHLDUQ] [conversation.id=-NH4y3V3HCRXpVbEcXgl] [conversation.participant=agent]
+
+next step
+[conversation_id=nRHLDUQ] [conversation.id=-NH4yVITeodLzM-zx8uH] [conversation.participant=user]
+
+
+[conversation_id=nRHLDUQ] [conversation.id=-NH4yWAUtfgrD2xXQz6c] [conversation.participant=agent]
+
+User moved to section "Step 9".
+[conversation_id=nRHLDUQ] [conversation.id=-NH4yWEIMgEtY6tMI6zs] [conversation.participant=user]
+
+what happens if there is a delay in serving?
+[conversation_id=nRHLDUQ] [conversation.id=-NH4ycaLg-vL3-UJ73Uh] [conversation.participant=user]
+
+A soufflé will deflate as soon as it leaves the oven. Therefore, it is recommended to serve it immediatley.
+[conversation_id=nRHLDUQ] [conversation.id=-NH4ysELKY84CbxA6nwD] [conversation.participant=agent]
+
+next step
+[conversation_id=nRHLDUQ] [conversation.id=-NH4yyuPa0iiGjBFlxUI] [conversation.participant=user]
+
+We've reached the final step already.
+[conversation_id=nRHLDUQ] [conversation.id=-NH4z3K44C_odlwrnrvL] [conversation.participant=agent]
+

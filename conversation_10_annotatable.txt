@@ -1,0 +1,215 @@
+Hey there! Happy to have you on board for our masterclass :) Today you will be learning how to prepare Souffle. Make sure you have all the ingredients and tools and feel free to ask questions. Just to remind you, your goal today is to interact with our chatbot and ask questions about the history, science, and techniques associated with a specific step. Whenever you feel ready, feel free to start!
+[conversation_id=wwwfod2dos] [conversation.id=-NAj273Wof32CXUOgnkH] [conversation.participant=agent]
+
+Can you tell me where Grana Padano cheese comes from
+[conversation_id=wwwfod2dos] [conversation.id=-NAj2K63_M15JlKPJhkt] [conversation.participant=user]
+
+Grana Padano is a hard, slow-ripened, semi-fat, cow's-milk cheese from Italy, comparable to Parmigiano Reggiano. Grana Padano has had protected designation of origin status since 1996. It is made from cows' milk produced in Padania.
+[conversation_id=wwwfod2dos] [conversation.id=-NAj2dV0D9KpYdN7wJj4] [conversation.participant=agent]
+
+Can you show me how the Savory Cheese Souffle should look?
+[conversation_id=wwwfod2dos] [conversation.id=-NAj2p9-17P6fnIClb8s] [conversation.participant=user]
+
+The final result should be similar to this
+[conversation_id=wwwfod2dos] [conversation.id=-NAj2wZ-oFS-mLshRVUw] [conversation.participant=agent]
+
+https://www.seriouseats.com/thmb/hQRpZyPXA4ZTG88KtuqFrUcTpIw=/1500x1125/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2019__01__20190116-cheese-souffle-vicky-wasik-28-1500x1125-c9ea5aba3a0d46bfbce6aeb4303500a1.jpg
+[conversation_id=wwwfod2dos] [conversation.id=-NAj2wlBfY12n8lLkj6b] [conversation.participant=agent]
+
+How do I start making the souffle
+[conversation_id=wwwfod2dos] [conversation.id=-NAj3-enjqGf-ZanAIFO] [conversation.participant=user]
+
+
+[conversation_id=wwwfod2dos] [conversation.id=-NAj37BxT_sClgrS3Zjx] [conversation.participant=agent]
+
+User moved to section "Step 1".
+[conversation_id=wwwfod2dos] [conversation.id=-NAj37S8iQNqqsTpykRM] [conversation.participant=user]
+
+Can I see a video of the ramekin being greased?
+[conversation_id=wwwfod2dos] [conversation.id=-NAj3ITaY0UphtXTIbxO] [conversation.participant=user]
+
+I'm sorry but I do not have a video for that
+[conversation_id=wwwfod2dos] [conversation.id=-NAj3NqeelMaMFmCtHIN] [conversation.participant=agent]
+
+Can you show me a video for step 1?
+[conversation_id=wwwfod2dos] [conversation.id=-NAj3RFhmKC8uVFBcdA-] [conversation.participant=user]
+
+I'm sorry but I do not have videos for this recipe
+[conversation_id=wwwfod2dos] [conversation.id=-NAj3XIuO3t76mNEX_lc] [conversation.participant=agent]
+
+can I see step 2?
+[conversation_id=wwwfod2dos] [conversation.id=-NAj3ZZnrhe7clYB-nFe] [conversation.participant=user]
+
+
+[conversation_id=wwwfod2dos] [conversation.id=-NAj3_Q6acbsvV-Sb-hd] [conversation.participant=agent]
+
+User moved to section "Step 2".
+[conversation_id=wwwfod2dos] [conversation.id=-NAj3_WGvDfImE5f-Bg5] [conversation.participant=user]
+
+Why do you whisk constantly?
+[conversation_id=wwwfod2dos] [conversation.id=-NAj3kCxfmzASJBXJrcR] [conversation.participant=user]
+
+Why do you whisk constantly?
+[conversation_id=wwwfod2dos] [conversation.id=-NAj3rWeFP9SgoX3DAww] [conversation.participant=user]
+
+That's a great question!  The more you mix, and the more vigorously you do it, the more air bubbles you'll lose. Once in the oven, those air bubbles will expand as gases and steam inflate them. That's what causes a soufflé to rise, and really, there's no stopping it—your beaten whites will contain air bubbles and those air bubbles will expand, and when they do your soufflé will push higher and higher in its baking dish.
+[conversation_id=wwwfod2dos] [conversation.id=-NAj3xzFuYsURrXbi6va] [conversation.participant=agent]
+
+Does whisking constantly make the souffle taste better?
+[conversation_id=wwwfod2dos] [conversation.id=-NAj47bmUdPV-YslLjdZ] [conversation.participant=user]
+
+More than taste whisking will affect the souffle consistency. More precisely, this will trap tiny air bubbles in the beaten whites. Once in the oven, those air bubbles will expand as gases and steam inflate them. That's what causes a soufflé to rise.
+[conversation_id=wwwfod2dos] [conversation.id=-NAj4XN9DSfVJGltBsix] [conversation.participant=agent]
+
+Do you have a video for this step?
+[conversation_id=wwwfod2dos] [conversation.id=-NAj4byY0Dck_MFeIiyQ] [conversation.participant=user]
+
+I'm sorry but I do not have videos for this recipe
+[conversation_id=wwwfod2dos] [conversation.id=-NAj4fNzzaDAuylMNiYu] [conversation.participant=agent]
+
+Do you have a photo for this step?
+[conversation_id=wwwfod2dos] [conversation.id=-NAj4lwVzCLvZDErseu0] [conversation.participant=user]
+
+I'm sorry, but I do not have a photo for this step
+[conversation_id=wwwfod2dos] [conversation.id=-NAj4t3Ej5-EiQ0D4irN] [conversation.participant=agent]
+
+What's next?
+[conversation_id=wwwfod2dos] [conversation.id=-NAj5CYPuR3FYaBwKVpo] [conversation.participant=user]
+
+
+[conversation_id=wwwfod2dos] [conversation.id=-NAj5DPzmfGpvUiKuL-5] [conversation.participant=agent]
+
+User moved to section "Step 3".
+[conversation_id=wwwfod2dos] [conversation.id=-NAj5DWf8T8uo0_X7RFl] [conversation.participant=user]
+
+Where does bechamel sauce come from?
+[conversation_id=wwwfod2dos] [conversation.id=-NAj5OfS6mDBrdzflxCg] [conversation.participant=user]
+
+Balsamell or Besciamella is the Italian equivalent of the French Béchamel: a very simple white sauce of flour, butter and milk. The sauce was originally from Renaissance Tuscany and was known as "Salsa Colla or Colletta" ("glue sauce") because of the gluey consistency of the sauce, and was brought to France by the chefs of Catherina de' Medici in 1533.
+[conversation_id=wwwfod2dos] [conversation.id=-NAj5aE2Wz0L6Dr2meDy] [conversation.participant=agent]
+
+What does bechamel sauce look like?
+[conversation_id=wwwfod2dos] [conversation.id=-NAj5kFCvZIixLbqWWpf] [conversation.participant=user]
+
+I'm sorry I do not have a photo of bechamel sauce
+[conversation_id=wwwfod2dos] [conversation.id=-NAj5sOLsN1GGKftKpn0] [conversation.participant=agent]
+
+How much salt and pepper do i use?
+[conversation_id=wwwfod2dos] [conversation.id=-NAj5waoqrEfAMNx8YqV] [conversation.participant=user]
+
+You should season generously to taste with salt and pepper.
+[conversation_id=wwwfod2dos] [conversation.id=-NAj65_9PIYaceBT4Lns] [conversation.participant=agent]
+
+What is step 4?
+[conversation_id=wwwfod2dos] [conversation.id=-NAj67SKkfULaloLWcD2] [conversation.participant=user]
+
+
+[conversation_id=wwwfod2dos] [conversation.id=-NAj68VqtAELDR1qVsNA] [conversation.participant=agent]
+
+User moved to section "Step 4".
+[conversation_id=wwwfod2dos] [conversation.id=-NAj68agJv1dPq6D_vjL] [conversation.participant=user]
+
+Why do you only use egg yolks?
+[conversation_id=wwwfod2dos] [conversation.id=-NAj6CVuSVSP8W7pYuSd] [conversation.participant=user]
+
+The main reason why we need to use egg yolks is that when in the oven, they coagulate as they cook. This allows them to set allowing the soufflé to hold onto its loft for at least some time before deflating.
+[conversation_id=wwwfod2dos] [conversation.id=-NAj6msECUqChBNxGWVX] [conversation.participant=agent]
+
+What next?
+[conversation_id=wwwfod2dos] [conversation.id=-NAj6tteA-MgKbEugozi] [conversation.participant=user]
+
+
+[conversation_id=wwwfod2dos] [conversation.id=-NAj6vpAKrQazoPjuW4-] [conversation.participant=agent]
+
+User moved to section "Step 5".
+[conversation_id=wwwfod2dos] [conversation.id=-NAj6vvRq38w4tC8P4Sn] [conversation.participant=user]
+
+What is a French whisk?
+[conversation_id=wwwfod2dos] [conversation.id=-NAj7-txWn9Cc-yhVFyR] [conversation.participant=user]
+
+The most common shape for a whisk is that of a wide teardrop, termed a "balloon whisk". Balloon whisks are best suited to mixing in bowls, as their curved edges conform to a bowl's concave sides. However, with longer, narrower wire loops, the "French whisk" has a more cylindrical profile, suiting it to deep, straight-sided pans.
+[conversation_id=wwwfod2dos] [conversation.id=-NAj7TBap2IUio292d9Q] [conversation.participant=agent]
+
+Does using a French whisk make the souffle better?
+[conversation_id=wwwfod2dos] [conversation.id=-NAj7ZUVZmbnW-szP6zP] [conversation.participant=user]
+
+it only helps you during the process of beating the egg whites by hand. More precisely, with a french whisk, it should take a couple minutes at most
+[conversation_id=wwwfod2dos] [conversation.id=-NAj8G5kJWzVGgVjAJFb] [conversation.participant=agent]
+
+what is the origin of the Savory Cheese Souffle?
+[conversation_id=wwwfod2dos] [conversation.id=-NAj8LyobUd25AYvLbbC] [conversation.participant=user]
+
+The earliest mention of the soufflé is attributed to French master cook  Vincent La Chapelle, in the early eighteenth century. The development and popularization of the soufflé is usually traced to French chef Marie-Antoine Carême in the early nineteenth century.
+[conversation_id=wwwfod2dos] [conversation.id=-NAj8dzZ2J5UEDabuqV1] [conversation.participant=agent]
+
+next
+[conversation_id=wwwfod2dos] [conversation.id=-NAj8r0YD4IEavziNtc_] [conversation.participant=user]
+
+
+[conversation_id=wwwfod2dos] [conversation.id=-NAj8ro_ywAIfuQVs8De] [conversation.participant=agent]
+
+User moved to section "Step 6".
+[conversation_id=wwwfod2dos] [conversation.id=-NAj8ruEWNk8Og6EoqDO] [conversation.participant=user]
+
+Where does Gruyere come from?
+[conversation_id=wwwfod2dos] [conversation.id=-NAj8wmgMzRkDP8cecyF] [conversation.participant=user]
+
+Gruyère ( or ; , German: "Greyerzer") is a hard yellow Swiss cheese that originated in the cantons of Fribourg, Vaud, Neuchâtel, Jura, and Berne in Switzerland. It is named after the town of Gruyères. It is generally known as one of the finest cheeses for baking, having a distinctive but not overpowering taste.
+[conversation_id=wwwfod2dos] [conversation.id=-NAj9N-DZE_rYanQlIg5] [conversation.participant=agent]
+
+Do you have any other questions on this step?
+[conversation_id=wwwfod2dos] [conversation.id=-NAjA6mLUKxhduswwlpX] [conversation.participant=agent]
+
+why do you use Gruyere?
+[conversation_id=wwwfod2dos] [conversation.id=-NAjA8kPPMVe8oUu19L0] [conversation.participant=user]
+
+Gruyère cheese is generally known as one of the finest cheeses for baking, having a distinctive but not overpowering taste. More precisely, Gruyère adds savoriness without overshadowing the other ingredients.
+[conversation_id=wwwfod2dos] [conversation.id=-NAjANOytO-xLJ2zpIRL] [conversation.participant=agent]
+
+next
+[conversation_id=wwwfod2dos] [conversation.id=-NAjARcKpq5gjZtbPOEY] [conversation.participant=user]
+
+
+[conversation_id=wwwfod2dos] [conversation.id=-NAjASGImhgkiaLOra-i] [conversation.participant=agent]
+
+User moved to section "Step 7".
+[conversation_id=wwwfod2dos] [conversation.id=-NAjASMKaf3tMJ7WkIfd] [conversation.participant=user]
+
+what is an offset spatula?
+[conversation_id=wwwfod2dos] [conversation.id=-NAjAjco1XLP4pLonG2r] [conversation.participant=user]
+
+I'm sorry but I do not have an answer to your question
+[conversation_id=wwwfod2dos] [conversation.id=-NAjB4AFkOJ8elYdGEua] [conversation.participant=agent]
+
+next?
+[conversation_id=wwwfod2dos] [conversation.id=-NAjB7ft1KyJ1hMGHzjW] [conversation.participant=user]
+
+
+[conversation_id=wwwfod2dos] [conversation.id=-NAjBACNCVrx6MpBl2Ge] [conversation.participant=agent]
+
+User moved to section "Step 8".
+[conversation_id=wwwfod2dos] [conversation.id=-NAjBAJU5Jvf6IOAj1h3] [conversation.participant=user]
+
+next step please
+[conversation_id=wwwfod2dos] [conversation.id=-NAjBE-9fC14_nJMGhb1] [conversation.participant=user]
+
+
+[conversation_id=wwwfod2dos] [conversation.id=-NAjBEjAMNgMHqnJD0yP] [conversation.participant=agent]
+
+User moved to section "Step 9".
+[conversation_id=wwwfod2dos] [conversation.id=-NAjBEpVritjRSZ6Zo8V] [conversation.participant=user]
+
+why does souffle deflate?
+[conversation_id=wwwfod2dos] [conversation.id=-NAjBLMRN8PzRQHgDxSX] [conversation.participant=user]
+
+As mentioned, a souffle it first rises because of the steam created during baking, but once the steam production is over, it deflates. 
+
+There is nothing to prevent a souffle from falling when it has cooled
+[conversation_id=wwwfod2dos] [conversation.id=-NAjC5qODAhL7xZ8EHRO] [conversation.participant=agent]
+
+next
+[conversation_id=wwwfod2dos] [conversation.id=-NAjCErLerFvAqYrSToD] [conversation.participant=user]
+
+Congratulations! You reached the last step in the recipe.
+[conversation_id=wwwfod2dos] [conversation.id=-NAjCPnzuvd6v1BVpyq1] [conversation.participant=agent]
+

@@ -1,0 +1,255 @@
+Hi
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YRd9-Mghm45rfM_Ok] [conversation.participant=user]
+
+Hey there! Happy to have you onboard for our masterclass :) 
+Today you will be learning how to prepare Duck à l’Orange. 
+Making Duck à l’Orange is a pretty straightforward process. However, there are certain aspects that you need to learn to successfully prepare this dish. 
+This includes learning about 
+* how to roast a whole duck, 
+* how to make sauce bigarade, 
+* how to make a good brown stock, 
+* how to make sauce gastrique 
+
+Make sure you have everything you need, and once you are ready we can start cooking.
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YS8dhNvyTDaEFWyCc] [conversation.participant=agent]
+
+Next
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YSHaaEneJJlfR6nVo] [conversation.participant=user]
+
+
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YSICMsvCtlthd6anY] [conversation.participant=agent]
+
+User moved to section "Step 1".
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YSIHjnu59lYJ6VHkY] [conversation.participant=user]
+
+Next
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YSOVHxJbm5LIGzYsG] [conversation.participant=user]
+
+
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YSOxjzwATY3yAwoqK] [conversation.participant=agent]
+
+User moved to section "Step 2".
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YSP2HvlGnSRBUAX4o] [conversation.participant=user]
+
+What would the spine be used for?
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YSYE6t8i8PvhN2i_H] [conversation.participant=user]
+
+Thanks for your question! The spine will be used to make the sauce.
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YStXUM2fRE20VJCjb] [conversation.participant=agent]
+
+Ah, I see!
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YT-rJ2021bvkVNFgz] [conversation.participant=user]
+
+Next
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YT10OaXNXSCUAkbOw] [conversation.participant=user]
+
+
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YT1VvrScf5dquhZmI] [conversation.participant=agent]
+
+User moved to section "Step 3".
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YT1aTQyTPjjMLkl9G] [conversation.participant=user]
+
+Next
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YTCx1izof6VEAZmHZ] [conversation.participant=user]
+
+
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YTDVAcM1yzJk6JZlN] [conversation.participant=agent]
+
+User moved to section "Step 4".
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YTDaXeZNFHFun8NcM] [conversation.participant=user]
+
+Next
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YTKxRDeWB3lWD2n9i] [conversation.participant=user]
+
+
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YTLnzQBCncdTAklK3] [conversation.participant=agent]
+
+User moved to section "Step 5".
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YTLt5YcM0la8lN-ZX] [conversation.participant=user]
+
+Next
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YTSs3_NP3AIujgIP9] [conversation.participant=user]
+
+
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YTTx3q5eeKwRXpW_U] [conversation.participant=agent]
+
+User moved to section "Step 6".
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YTU1nkG-Y6PlQfPN2] [conversation.participant=user]
+
+Next
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YTXU7_HQQzV1jBtsz] [conversation.participant=user]
+
+
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YTY69EnaA_fiomBsl] [conversation.participant=agent]
+
+User moved to section "Step 7".
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YTYKsr4w7NKH6xV9Y] [conversation.participant=user]
+
+Next
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YTfqciFsKaWZADFXl] [conversation.participant=user]
+
+
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YTgQFtW3JuH8d4wnb] [conversation.participant=agent]
+
+User moved to section "Step 8".
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YTgWZRFqojgztKmhk] [conversation.participant=user]
+
+Is there any way to tell visually if the stock has been reduced by half?
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YTxQWqahwDUIBGoDo] [conversation.participant=user]
+
+I'm sorry I do not have answer for this question
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YUAPIXtzLVWsXwI7P] [conversation.participant=agent]
+
+I see.
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YUFGqyNdJUOSp1nqd] [conversation.participant=user]
+
+Next
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YUFwK9QzYZdeifCf9] [conversation.participant=user]
+
+But a guess would be that it might be lighter
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YUGjpjvUKA6VvOzHw] [conversation.participant=agent]
+
+
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YUH3sR6_gC-CewRgQ] [conversation.participant=agent]
+
+User moved to section "Step 9".
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YUH9FE_RTV33uz77g] [conversation.participant=user]
+
+Hmm, okay
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YULmwcibep9OagbnD] [conversation.participant=user]
+
+Next
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YUQSRHe9rVBlWrDG0] [conversation.participant=user]
+
+
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YUR9M2xQXCUy8OZpq] [conversation.participant=agent]
+
+User moved to section "Step 10".
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YUREelJtctCwtGSuU] [conversation.participant=user]
+
+Next
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YUX1JSwDNpoenLAPy] [conversation.participant=user]
+
+
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YUXrjJXj5gkogEZZn] [conversation.participant=agent]
+
+User moved to section "Step 11".
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YUY5LvK3fdGQ4crY_] [conversation.participant=user]
+
+Next
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YUdKBLIUjXQPMizhr] [conversation.participant=user]
+
+
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YUe60kiIQvjaZO7zP] [conversation.participant=agent]
+
+User moved to section "Step 12".
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YUeBK-Dds8nZweTme] [conversation.participant=user]
+
+Next
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YUj_nWS1LFz3AqwIt] [conversation.participant=user]
+
+
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YUkH1XgXW9FpE58tG] [conversation.participant=agent]
+
+User moved to section "Step 13".
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YUkMhW7jBYSctdBuj] [conversation.participant=user]
+
+Next
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YUv-63hSne1L6MyM7] [conversation.participant=user]
+
+
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YUvY5J5yNpDabC1bi] [conversation.participant=agent]
+
+User moved to section "Step 14".
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YUvcQ5QV2lnhRz3oT] [conversation.participant=user]
+
+Next
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YUzaYo28NDeslG5D9] [conversation.participant=user]
+
+
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YV-8PsrAIFpWfaYhE] [conversation.participant=agent]
+
+User moved to section "Step 15".
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YV-DxSMRW7kM3j1PI] [conversation.participant=user]
+
+Next
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YV5UPUJNoAK9FBsI3] [conversation.participant=user]
+
+
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YV63sFjZIrECLbTya] [conversation.participant=agent]
+
+User moved to section "Step 16".
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YV693YY2zkoxLWWSI] [conversation.participant=user]
+
+Next
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YV9m7_Ss9-qGPZjpS] [conversation.participant=user]
+
+
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YVACPeYWc8JoXSlxs] [conversation.participant=agent]
+
+User moved to section "Step 17".
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YVAHgO70XCHATGjp3] [conversation.participant=user]
+
+Next
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YVLAt-nhXlouVUx3b] [conversation.participant=user]
+
+
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YVM6BztAIO7FSxmtJ] [conversation.participant=agent]
+
+User moved to section "Step 18".
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YVMBKrzOtRV0hk8ZI] [conversation.participant=user]
+
+Next
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YVSRVLLUMXFcBRUB0] [conversation.participant=user]
+
+
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YVSyCohAmMOjrMRV_] [conversation.participant=agent]
+
+User moved to section "Step 19".
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YVT5-4iNkJhBWfoTk] [conversation.participant=user]
+
+What does the causing the sauce to break entail, exactly? Does allowing it to boil ruin the mixture of ingredients somehow?
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YVpOovp4vdSVUuFMa] [conversation.participant=user]
+
+Thanks for your question! Whisking constantly, work the butter into the sauce, making sure to keep the sauce below the boil, lest it break. It should be silky and glossy, the butter is helping to enrich, thicken, and temper the acidic edge of the sauce even more. Sauces will usually break when there isn't enough liquid to hold the fat in suspension. Boiling removes liquid and therefore, the sauce might break.
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YWYCLD0iQTC8_erTG] [conversation.participant=agent]
+
+Thank you! I'll keep that in mind when attempting to make sauce in the future.
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YWvqeFEuWCe5uB5Sh] [conversation.participant=user]
+
+Next
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YWwSgJA2ideQ-ALI4] [conversation.participant=user]
+
+
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YWx-oPCU_v0KQj2_w] [conversation.participant=agent]
+
+User moved to section "Step 20".
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YWx53vaSF-C5ZnJ2r] [conversation.participant=user]
+
+Next
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YX8MMzolPSuqgoZV-] [conversation.participant=user]
+
+
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YX8t87Ifc-pck0wCa] [conversation.participant=agent]
+
+User moved to section "Step 21".
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YX8yjDyGoKHJJa_be] [conversation.participant=user]
+
+Next
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YXALnliW1mcc6OPJc] [conversation.participant=user]
+
+
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YXAqG-tCWtHUL09oM] [conversation.participant=agent]
+
+User moved to section "Step 22".
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YXAvt_4n7V3MUF-JK] [conversation.participant=user]
+
+Next
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YXCCuEQdcJYl9MY_0] [conversation.participant=user]
+
+
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YXD4ZLVE8TuCLK8Ib] [conversation.participant=agent]
+
+User moved to section "Step 22".
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YXD9sB876xHRsY6nI] [conversation.participant=user]
+

@@ -1,0 +1,123 @@
+Hey there! Happy to have you on board for our masterclass :) Today you will be learning how to prepare Apple Pie. Make sure you have all the ingredients and tools and feel free to ask questions. If you are ready to start cooking simply say next.
+[conversation_id=mmhHDA6eue] [conversation.id=-NBGmcMezEAYPYlyQkYI] [conversation.participant=agent]
+
+Next
+[conversation_id=mmhHDA6eue] [conversation.id=-NBGnEPN3dJ_kP0cHvEW] [conversation.participant=user]
+
+
+[conversation_id=mmhHDA6eue] [conversation.id=-NBGnFXLrIB7PwCDOePz] [conversation.participant=agent]
+
+User moved to section "Step 1".
+[conversation_id=mmhHDA6eue] [conversation.id=-NBGnFaghuOAECPtJnQf] [conversation.participant=user]
+
+
+[conversation_id=mmhHDA6eue] [conversation.id=-NBGnHHX0QZx9EwPtkng] [conversation.participant=agent]
+
+User moved to section "Time, Equipment & Ingredients".
+[conversation_id=mmhHDA6eue] [conversation.id=-NBGnHLiyuWZv2i_o_6J] [conversation.participant=user]
+
+Next
+[conversation_id=mmhHDA6eue] [conversation.id=-NBGneRvcsYeCiGKeGs-] [conversation.participant=user]
+
+
+[conversation_id=mmhHDA6eue] [conversation.id=-NBGnf4WO9g4hFOOTQ2S] [conversation.participant=agent]
+
+User moved to section "Step 1".
+[conversation_id=mmhHDA6eue] [conversation.id=-NBGnf8O2238RpryCwP4] [conversation.participant=user]
+
+Next
+[conversation_id=mmhHDA6eue] [conversation.id=-NBGnqBBMEDLt7qFD2IO] [conversation.participant=user]
+
+
+[conversation_id=mmhHDA6eue] [conversation.id=-NBGnrXK4-I_455UkoSm] [conversation.participant=agent]
+
+User moved to section "Step 2".
+[conversation_id=mmhHDA6eue] [conversation.id=-NBGnraOoDz7paV9Ipn8] [conversation.participant=user]
+
+What does macerate mean
+[conversation_id=mmhHDA6eue] [conversation.id=-NBGo33y9RuOwyp6J4sH] [conversation.participant=user]
+
+Let me see...
+[conversation_id=mmhHDA6eue] [conversation.id=-NBGo8C6byqS_8smZsth] [conversation.participant=agent]
+
+So maceration is the "magic" (really science) of applied osmotic pressure. The sugar mixture will draw fluid out of the fruit.  Macerating helps break down the fruit's structure, leading to a massive reduction in volume without any cooking.
+[conversation_id=mmhHDA6eue] [conversation.id=-NBGoa6gvOs4QssieP7C] [conversation.participant=agent]
+
+Was it helpful?
+[conversation_id=mmhHDA6eue] [conversation.id=-NBGolNp2hFKYA0n6NiU] [conversation.participant=agent]
+
+Yes, thank you
+[conversation_id=mmhHDA6eue] [conversation.id=-NBGomycRiCStmg2F_rY] [conversation.participant=user]
+
+You're welcome!
+[conversation_id=mmhHDA6eue] [conversation.id=-NBGoqgAOjt3kNMu3CMv] [conversation.participant=agent]
+
+Next
+[conversation_id=mmhHDA6eue] [conversation.id=-NBGosB1Rd8SrjiFT-G1] [conversation.participant=user]
+
+
+[conversation_id=mmhHDA6eue] [conversation.id=-NBGot4WUTWwV971uDut] [conversation.participant=agent]
+
+User moved to section "Step 3".
+[conversation_id=mmhHDA6eue] [conversation.id=-NBGotBUkAB1aI1QlAlD] [conversation.participant=user]
+
+Is the apple filling blended?
+[conversation_id=mmhHDA6eue] [conversation.id=-NBGpJHX3KxAiZF2YArG] [conversation.participant=user]
+
+Thanks for your question!
+[conversation_id=mmhHDA6eue] [conversation.id=-NBGpnp555A87azrCSEn] [conversation.participant=agent]
+
+So blending the apples in a blender is not required. Instead, put the slices in the pie shell and try to make an effort to nestle the slices together as compactly as you can; it'll take a minute to pile all the apples into a mound, but they'll all fit so long as you've got a standard nine-inch glass pie plate.
+[conversation_id=mmhHDA6eue] [conversation.id=-NBGqExPOKNOoQrQchYA] [conversation.participant=agent]
+
+Okay thank you
+[conversation_id=mmhHDA6eue] [conversation.id=-NBGqWTSsaLhzBh5B9DR] [conversation.participant=user]
+
+Next
+[conversation_id=mmhHDA6eue] [conversation.id=-NBGqYkVD2mhLOcJwMqj] [conversation.participant=user]
+
+
+[conversation_id=mmhHDA6eue] [conversation.id=-NBGqZX4LjrzLzRxpeGN] [conversation.participant=agent]
+
+User moved to section "Step 4".
+[conversation_id=mmhHDA6eue] [conversation.id=-NBGqZa379r5hiCskwTo] [conversation.participant=user]
+
+Next
+[conversation_id=mmhHDA6eue] [conversation.id=-NBGqflefTc5PWkGo0p2] [conversation.participant=user]
+
+
+[conversation_id=mmhHDA6eue] [conversation.id=-NBGqhLNQBLjRg48nbXA] [conversation.participant=agent]
+
+User moved to section "Step 5".
+[conversation_id=mmhHDA6eue] [conversation.id=-NBGqhPLjnBTFSsttbZn] [conversation.participant=user]
+
+Next
+[conversation_id=mmhHDA6eue] [conversation.id=-NBGqw7zrgtVoyziB6-x] [conversation.participant=user]
+
+
+[conversation_id=mmhHDA6eue] [conversation.id=-NBGqxN9XC8lcj6Q2MxF] [conversation.participant=agent]
+
+User moved to section "Step 6".
+[conversation_id=mmhHDA6eue] [conversation.id=-NBGqxR96Onw1ZyHdMXd] [conversation.participant=user]
+
+Can I put leftovers in the fridge or freezer
+[conversation_id=mmhHDA6eue] [conversation.id=-NBGr3F1lTNH76fXBrVl] [conversation.participant=user]
+
+Great question! Green apples (as used in this recipe) are especially high in pectin, which means that even though this recipe doesn't use nearly as much starch as my other pies, the filling will thicken considerably as it cools. This should be taken into consideration when putting leftovers in the fridge or freezer. However, that only means that it's best served warm—something that's been true of apple pie all along.
+[conversation_id=mmhHDA6eue] [conversation.id=-NBGrVg3_OGFxuqVfIfZ] [conversation.participant=agent]
+
+How long should i warm the apple pie in the oven
+[conversation_id=mmhHDA6eue] [conversation.id=-NBGrb5eqZ-p0pZvtJtL] [conversation.participant=user]
+
+Let me see...
+[conversation_id=mmhHDA6eue] [conversation.id=-NBGrkvVPCp6ZlRJR43f] [conversation.participant=agent]
+
+Best would be to warm it in a 350°F (180°C) oven to restore the crispy crust and saucy filling. Probably about 15 to 20 minutes.
+[conversation_id=mmhHDA6eue] [conversation.id=-NBGse9ICax9Q4RYWkfW] [conversation.participant=agent]
+
+Next
+[conversation_id=mmhHDA6eue] [conversation.id=-NBGshVW2KlNR5PrFTtO] [conversation.participant=user]
+
+Thank you. You’re at the end.
+[conversation_id=mmhHDA6eue] [conversation.id=-NBGslySN1gXA3lhOvRS] [conversation.participant=agent]
+

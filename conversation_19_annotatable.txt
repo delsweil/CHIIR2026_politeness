@@ -1,0 +1,165 @@
+Hey there! Happy to have you on board for our masterclass :-) Today you will be learning how to prepare Parisian Gnocchi. Make sure you have all the ingredients and tools and feel free to ask questions. If you are ready to start cooking simply say next.
+[conversation_id=PPmiUbC] [conversation.id=-NGWw--lkGle0N74xwHR] [conversation.participant=agent]
+
+Next
+[conversation_id=PPmiUbC] [conversation.id=-NGWw31gJwAQcAru6QWx] [conversation.participant=user]
+
+Hi.  What can I do for you?
+[conversation_id=PPmiUbC] [conversation.id=-NGWw4WGdJIUwfaLDgl9] [conversation.participant=agent]
+
+Is it possible to have the measurements in gm and ml, my scales don't do ounces!
+[conversation_id=PPmiUbC] [conversation.id=-NGWwKOYAhyQu08ym2Nf] [conversation.participant=user]
+
+Let me see...
+[conversation_id=PPmiUbC] [conversation.id=-NGWwNUsK0pDIA0tmBtj] [conversation.participant=agent]
+
+I'm sorry I do not have answer for this question
+[conversation_id=PPmiUbC] [conversation.id=-NGWwgCGZpLwYMnDuDaS] [conversation.participant=agent]
+
+But I have a general conversion table:1 cup ~ 237 mL1 quart ~ 1 L1 oz = 28.4 g1 lbs = 0.45 kg
+[conversation_id=PPmiUbC] [conversation.id=-NGWwsPxZCAb6Fk-3qL7] [conversation.participant=agent]
+
+OK, never mind, i'm sure we can improvise. It'll be fine. I also don't have a stand mixer, will a balloon whisk be OK instead
+[conversation_id=PPmiUbC] [conversation.id=-NGWwzXP26ft0NfGpE_f] [conversation.participant=user]
+
+Give me a moment
+[conversation_id=PPmiUbC] [conversation.id=-NGWx2H3asl552B34BBP] [conversation.participant=agent]
+
+Maybe a wooden spoon might be an alternative. Cooked side-by-side, there's absolutely no detectable difference between the wooden spoon and the stand-mixer method, provided you beat extremely vigorously.  If you're even slightly lax with the hand-beating, then the stand mixer method will produce superior results every time.
+[conversation_id=PPmiUbC] [conversation.id=-NGWxKa2_RCsqYKf7Rl-] [conversation.participant=agent]
+
+That makes sense, I've got a wooden spoon so we're ready to go! What do I have to do first?
+[conversation_id=PPmiUbC] [conversation.id=-NGWxWvRNvOuirIlG_nt] [conversation.participant=user]
+
+
+[conversation_id=PPmiUbC] [conversation.id=-NGWxXvhWol679HAVDCH] [conversation.participant=agent]
+
+User moved to section "Step 1".
+[conversation_id=PPmiUbC] [conversation.id=-NGWxY2OGOi4TuCDxKNQ] [conversation.participant=user]
+
+That sounds like a choux pastry mix, is it similar?
+[conversation_id=PPmiUbC] [conversation.id=-NGWxhvF_oSgdUsjWOsp] [conversation.participant=user]
+
+Yes you are working with a pâte à choux dough here.
+[conversation_id=PPmiUbC] [conversation.id=-NGWxw1j4JVHxFhgf7Mz] [conversation.participant=agent]
+
+I thought it looked familiar. I've had Italian gnocchi before, what is the difference between them  and the Parisian version?
+[conversation_id=PPmiUbC] [conversation.id=-NGWyEIq0jR0I8RHwfwH] [conversation.participant=user]
+
+Let me see...
+[conversation_id=PPmiUbC] [conversation.id=-NGWyH-iGMwCqpgbUY1b] [conversation.participant=agent]
+
+In Roman times, gnocchi were made from a semolina porridge-like dough mixed with eggs, and are still found in similar forms today, particularly the oven-baked "gnocchi alla romana" and Sardinia's "malloreddus" which do not contain eggs. The name is also used in France in the dish known as "gnocchis à la parisienne", served with Béchamel sauce. A specialty of Nice, the "gnocchi de tantifla a la nissarda", is made with potatoes, wheat flour, eggs and "blette" (Swiss chard), which is also used for the "tourte de blette". "La merda dé can" is longer than the original gnocchi.
+[conversation_id=PPmiUbC] [conversation.id=-NGWyjrDhh6MkC45ibgA] [conversation.participant=agent]
+
+That's interesting, I didn't know there were so many versions. Is there a video showing how to mix the dough?
+[conversation_id=PPmiUbC] [conversation.id=-NGWz5aeroBqe5q5qF70] [conversation.participant=user]
+
+No, but I can show you a picture:
+[conversation_id=PPmiUbC] [conversation.id=-NGWzA2RvWFxgORqUzlr] [conversation.participant=agent]
+
+https://www.seriouseats.com/thmb/xiPZuMf-fHHiiVbuTiNbOp6j8uQ=/610x458/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2013__09__20130827-gnocchi-parisian-souffle-32-35d8cfcda3024bd09d49c24a7177bace.jpg
+[conversation_id=PPmiUbC] [conversation.id=-NGWzBzECNApj-EtrnKh] [conversation.participant=agent]
+
+https://www.seriouseats.com/thmb/kERdrIlvHCJJIne8WRhCHPd1oWM=/610x458/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2013__09__20130827-gnocchi-parisian-souffle-06-9c62a6102d08476f94f270bb1599b346.jpg
+[conversation_id=PPmiUbC] [conversation.id=-NGWzCKU9lt740Et7g3_] [conversation.participant=agent]
+
+or
+[conversation_id=PPmiUbC] [conversation.id=-NGWzD6foIItNlTnjOwX] [conversation.participant=agent]
+
+https://www.seriouseats.com/thmb/LsksINgo0eplkplKzuzPlUc2P6M=/610x458/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2013__09__20130827-gnocchi-parisian-souffle-03-8055e2ed51894009995e78844d770af7.jpg
+[conversation_id=PPmiUbC] [conversation.id=-NGWzEQc5lB5MtUH7P8c] [conversation.participant=agent]
+
+Thanks,  that show s me what to look for. I think i'm ready to move to the next step.
+[conversation_id=PPmiUbC] [conversation.id=-NGWzQePmLYnT0ozu3-c] [conversation.participant=user]
+
+
+[conversation_id=PPmiUbC] [conversation.id=-NGWzRhpbEMtL6beJwN1] [conversation.participant=agent]
+
+User moved to section "Step 2".
+[conversation_id=PPmiUbC] [conversation.id=-NGWzRnFWo4gJI4JFonK] [conversation.participant=user]
+
+Does it have to be Dijon mustard? I'm sure it does for authenticity but I don't like the taste.
+[conversation_id=PPmiUbC] [conversation.id=-NGWzjop_cT7NYmvS_zA] [conversation.participant=user]
+
+Let me see...
+[conversation_id=PPmiUbC] [conversation.id=-NGWznxnojUK_kU294Xq] [conversation.participant=agent]
+
+You could try English mustard instead.
+[conversation_id=PPmiUbC] [conversation.id=-NGX-DPFYkjgtNSOiFaJ] [conversation.participant=agent]
+
+I will, I have that in stock too. Next step please.
+[conversation_id=PPmiUbC] [conversation.id=-NGX-PISgf6qQmjZPMJC] [conversation.participant=user]
+
+
+[conversation_id=PPmiUbC] [conversation.id=-NGX-QPlt3Wlb4hpB6Ak] [conversation.participant=agent]
+
+User moved to section "Step 3".
+[conversation_id=PPmiUbC] [conversation.id=-NGX-QVO5zA6GfkUIdCA] [conversation.participant=user]
+
+Ah! now I see why a balloon whisk wouldn't have worked. If I wanted to make a double quantity would it be better in two smaller batches or one big one?
+[conversation_id=PPmiUbC] [conversation.id=-NGX-v9XpZLZskuTelPI] [conversation.participant=user]
+
+I'm sorry, I do not think I have this information. If I need to guess, maybe doing two batches might work better.
+[conversation_id=PPmiUbC] [conversation.id=-NGX05Y4kQdXdoIoJTd2] [conversation.participant=agent]
+
+Never mind, I just wondered. I think you're right though. Is this an everyday recipe or would it have been made for special occasions?
+[conversation_id=PPmiUbC] [conversation.id=-NGX0ShJMRUcnLt4NepN] [conversation.participant=user]
+
+Actually there are special occasions to eat gnocchi: In Verona, it is tradition to eat homemade potato gnocchi on Venerdì Gnocolar, the last Friday of Carnival. In Uruguay, gnocchi are traditionally eaten on the 29th day of each month. This was the day before payday, when people were at their poorest. Gnocchi made a cheap and hearty meal. On these occasions, some people leave a coin or a banknote under the plate to attract prosperity.
+[conversation_id=PPmiUbC] [conversation.id=-NGX0wk2jN17TkxvFVTR] [conversation.participant=agent]
+
+Interesting! Food history is really fascinating. Do you have any suggestions for further reading?
+[conversation_id=PPmiUbC] [conversation.id=-NGX1HnnCmjkUlYZlkBU] [conversation.participant=user]
+
+Sure! Here are some recommendations:- Anderson, Heather Arndt. "Breakfast: A History" (2014) - Elias, Megan. "Lunch: A History" (2014) - Claflin, Kyri and Peter Scholliers, eds. "Writing Food History, a Global Perspective" (Berg, 2012)
+[conversation_id=PPmiUbC] [conversation.id=-NGX1bHzNBd9EKV5kia_] [conversation.participant=agent]
+
+Thanks, i'll check them out later! Next step please
+[conversation_id=PPmiUbC] [conversation.id=-NGX1kLv5r1qEPbn827F] [conversation.participant=user]
+
+
+[conversation_id=PPmiUbC] [conversation.id=-NGX1pd-aGnY5gVWUywd] [conversation.participant=agent]
+
+User moved to section "Step 4".
+[conversation_id=PPmiUbC] [conversation.id=-NGX1pjo86RDcjwPkFwJ] [conversation.participant=user]
+
+I think I can manage that step - but I'm curious why it says 'to cut them for one minute?
+[conversation_id=PPmiUbC] [conversation.id=-NGX292-zzCz4c__cT5H] [conversation.participant=user]
+
+Let me see...
+[conversation_id=PPmiUbC] [conversation.id=-NGX2CLS4cn5o8owynyT] [conversation.participant=agent]
+
+The goal is to pipe and cut as many gnocchi as you possibly can within about a minute, so that the last gnocchi that drops in won't be too far behind the first one that entered the pool. Once they've finished cooking, you fish them out and start again with the next batch.
+[conversation_id=PPmiUbC] [conversation.id=-NGX2MDY3iXRey4y59s3] [conversation.participant=agent]
+
+OK, I understand now, I suppose it stops the pan getting too crowded too. Are there any videos for this recipe?
+[conversation_id=PPmiUbC] [conversation.id=-NGX2a7LXeNQYxfeLy2y] [conversation.participant=user]
+
+Yes, you're right! I do not have videos for this recipe, I'm sorry.
+[conversation_id=PPmiUbC] [conversation.id=-NGX2fq5NEdHLg_mzIqz] [conversation.participant=agent]
+
+Doesn't matter, the pictures are quite clear. Next step please.
+[conversation_id=PPmiUbC] [conversation.id=-NGX2oOKoiuKfYahll00] [conversation.participant=user]
+
+
+[conversation_id=PPmiUbC] [conversation.id=-NGX2pTLqSFcG-iy2gIl] [conversation.participant=agent]
+
+User moved to section "Step 5".
+[conversation_id=PPmiUbC] [conversation.id=-NGX2pYXf72Z1gUUzx4k] [conversation.participant=user]
+
+And the next
+[conversation_id=PPmiUbC] [conversation.id=-NGX33SHzKuEtgLYyJOl] [conversation.participant=user]
+
+
+[conversation_id=PPmiUbC] [conversation.id=-NGX35o_5BDwAgOZLEjA] [conversation.participant=agent]
+
+User moved to section "Step 5".
+[conversation_id=PPmiUbC] [conversation.id=-NGX35tlFGYC1EqPBGP3] [conversation.participant=user]
+
+We already reached the final step. Thank you! 
+[conversation_id=PPmiUbC] [conversation.id=-NGX3BAj888oM9vKMXLy] [conversation.participant=agent]
+
+OK, thanks, i've enjoyed it!
+[conversation_id=PPmiUbC] [conversation.id=-NGX3gIDSjlK_F4pThvU] [conversation.participant=user]
+

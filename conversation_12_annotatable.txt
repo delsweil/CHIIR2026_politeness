@@ -1,0 +1,219 @@
+hi
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W4cUiEUFOUOS9ihPQ] [conversation.participant=user]
+
+Hey there! Happy to have you on board for our masterclass :) Today you will be learning how to prepare gnocchi. Make sure you have all the ingredients and tools and feel free to ask questions. If you are ready to start cooking simply say next.
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W4j578tQHJFD5t1rP] [conversation.participant=agent]
+
+next
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W4ptsqAOwewwr3dC8] [conversation.participant=user]
+
+
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W4qTh47fh744OoLAA] [conversation.participant=agent]
+
+User moved to section "Step 1".
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W4qgoJaKtVpPXWPeE] [conversation.participant=user]
+
+how much salt shall i add?
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W5-jPar-WNYJRV3Jk] [conversation.participant=user]
+
+3/4 teaspoon (about .15 ounces) kosher salt
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W52Sge6jlUjXTnzHj] [conversation.participant=agent]
+
+what is kosher salt?
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W55HsTNdjRZNha2c-] [conversation.participant=user]
+
+That's a really good question! Kosher salt or kitchen salt is coarse edible salt without common additives such as iodine. Used in cooking and not at the table, it consists mainly of sodium chloride and may include anticaking agents.
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W5F9s653o76GVzVrD] [conversation.participant=agent]
+
+okay, how much butter shall i put into the saucepan?
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W5WghDk62w-UpSEkw] [conversation.participant=user]
+
+8 tablespoons (1 stick, 4 ounces) unsalted butter
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W5aafHjh1EaUKGCMD] [conversation.participant=agent]
+
+can i use salted butter instead?
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W5i1CaXpBuNXpjW_X] [conversation.participant=user]
+
+Generally, you should use unsalted butter. You can always add salt to your unsalted butter, but you can't take it out if you want it less salty
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W5x62waGYWRHrgoBd] [conversation.participant=agent]
+
+next
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W65gehCWeRb9beHBc] [conversation.participant=user]
+
+
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W66yDSAeiqzgxn3h5] [conversation.participant=agent]
+
+User moved to section "Step 2".
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W6710C2gbVaDIOm4r] [conversation.participant=user]
+
+does the dough have to be hot or can i leave it to cool down?
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W6Fn5m1OdRg31PtRo] [conversation.participant=user]
+
+Let me see what I can find :)
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W6RWPDeVZLM_MnuBj] [conversation.participant=agent]
+
+I'm sorry I do not have answer for this question
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W6dSpN7T6kDJ_7S5j] [conversation.participant=agent]
+
+okay no problem
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W6lPIoMc0zU3yMavy] [conversation.participant=user]
+
+what herbs shall i add to the mixture?
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W6nPHUVn5ucmGZAtk] [conversation.participant=user]
+
+You can simply use a mix of chopped herbs
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W7As8RVnTNtpJ4Imu] [conversation.participant=agent]
+
+what is 1 gallon in kg?
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W7Ri2nWiHtaOSmMlF] [conversation.participant=user]
+
+The US gallon defined as 231 cubic inches corresponds exactly to 3.785411784 litres
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W7kjbHxYA45jqa4Oc] [conversation.participant=agent]
+
+next
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W7tUf85MIuKVF38na] [conversation.participant=user]
+
+
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W7uFGxdxb7eIenDJ4] [conversation.participant=agent]
+
+User moved to section "Step 3".
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W7uJNxtsjYRMKanXr] [conversation.participant=user]
+
+previous
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W7yFGSiZe1GKPzcT9] [conversation.participant=user]
+
+
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W7yzToA_sm7J4rTSK] [conversation.participant=agent]
+
+User moved to section "Step 2".
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W7z2cdsl0jzQUt8Wo] [conversation.participant=user]
+
+next
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W8-UbjxmvkL74nJRK] [conversation.participant=user]
+
+
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W804YanPztFiPKi6Y] [conversation.participant=agent]
+
+User moved to section "Step 3".
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W80IDbbm8ximkt9xK] [conversation.participant=user]
+
+what does homogenous mean?
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W83UUTfAyBkxgO1Fh] [conversation.participant=user]
+
+Homogenization (from "homogeneous;" Greek, "homogenes": "homos," same + "genos," kind) is the process of converting two immiscible liquids (i.e. liquids that are not soluble, in all proportions, one in another) into an emulsion (an emulsion is a type of colloid, which is a substance microscopically dispersed throughout another substance
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W8OrVhu5-VVAd5Mgs] [conversation.participant=agent]
+
+okay
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W8XdMxZDP7aCQQ0wa] [conversation.participant=user]
+
+previous
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W8YEe4W8ZAp-unWW5] [conversation.participant=user]
+
+
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W8YyGDg8birPYvGfR] [conversation.participant=agent]
+
+User moved to section "Step 2".
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W8Z1-TyzNa35oU85I] [conversation.participant=user]
+
+previous
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W8ZCN4Azz4m5aQQ0L] [conversation.participant=user]
+
+
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W8ZkQpzam0w-CyNUq] [conversation.participant=agent]
+
+User moved to section "Step 1".
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W8Zothi8beF97x1s7] [conversation.participant=user]
+
+previous
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W8_YlnbrW9fFYwXgJ] [conversation.participant=user]
+
+
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W8aDgDFH6k0cKQJ8W] [conversation.participant=agent]
+
+User moved to section "Time, Equipment & Ingredients".
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W8aIKaFVdAgznTwwO] [conversation.participant=user]
+
+can i use self raising flour instead?
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W8e3MrXXCT0aQFw88] [conversation.participant=user]
+
+Self-rising flour is just flour with the addition of baking powder and salt. So, it doesn't matter whether you use self-rising flour or make your own by combining these ingredients yourself.
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W8qfp83Kbs5k8mLyI] [conversation.participant=agent]
+
+next
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W8yqr_BkQLmr20m0H] [conversation.participant=user]
+
+
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W8zl4VqXliMa_8wtk] [conversation.participant=agent]
+
+User moved to section "Step 1".
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W8zozNuT5EizPwAdF] [conversation.participant=user]
+
+next
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W9-07tWAUzpfl2fFI] [conversation.participant=user]
+
+next
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W90O9bPqAAdm0N950] [conversation.participant=user]
+
+
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W90sVm8wAKtCWfTG6] [conversation.participant=agent]
+
+User moved to section "Step 2".
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W90wH8frrM-NbskYK] [conversation.participant=user]
+
+
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W916HzVaGk2X0Xae9] [conversation.participant=agent]
+
+User moved to section "Step 3".
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W91B73SKvQhT7EKFQ] [conversation.participant=user]
+
+next
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W91bEb5APQ5Edq4FX] [conversation.participant=user]
+
+
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W91y_G2mCgMFugNqE] [conversation.participant=agent]
+
+User moved to section "Step 4".
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W923lM3PKyLylm1KF] [conversation.participant=user]
+
+what's the history of parisian gnocchi?
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W9FqmFw-l4LTnGX8X] [conversation.participant=user]
+
+I'm sorry, I do not think I have this information
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W9lOfWB3mFLKDlW_v] [conversation.participant=agent]
+
+okay
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W9qd4shual79_qQQQ] [conversation.participant=user]
+
+next
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W9qw7d7W7lpn0fp06] [conversation.participant=user]
+
+
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W9rY6uFBpqeEsRsRD] [conversation.participant=agent]
+
+User moved to section "Step 5".
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W9rkuoW4zyVocDl7u] [conversation.participant=user]
+
+what is a metal spider?
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9W9yHlZPVuem6agSxa] [conversation.participant=user]
+
+A metal spider, is restaurant lingo for a flat mesh scoop used in frying and skimming.
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9WAEUslZSBRAB3818i] [conversation.participant=agent]
+
+okay, do you have a picture i can see?
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9WAKOTRKYJK5lVpIZT] [conversation.participant=user]
+
+I'm sorry, I do not think I have this information
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9WAWtndHExWJpG-pRk] [conversation.participant=agent]
+
+okay
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9WAZPCaJFOrM2OOus5] [conversation.participant=user]
+
+next
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9WAZn1mX5-lqAiPXAm] [conversation.participant=user]
+
+Congratulations! You got to the end of this recipe!
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9WAdBD_xXputCANFWF] [conversation.participant=agent]
+
+okay
+[conversation_id=5f36cd2444884c0f7ff186f6] [conversation.id=-N9WAfOV3ME5fzmISceN] [conversation.participant=user]
+

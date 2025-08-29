@@ -1,0 +1,92 @@
+Hi
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAEY2G2fBD59GtgUC1_] [conversation.participant=user]
+
+Hey there! Happy to have you on board for our masterclass :) Today you will be learning how to prepare Pesto. Make sure you have all the ingredients and tools and feel free to ask questions. If you are ready to start cooking simply say next.
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAEYD05HPUN972EuMGj] [conversation.participant=agent]
+
+Next
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAEYF2HoxdHure4Yz41] [conversation.participant=user]
+
+
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAEYFUzGIY_pUNJq8SL] [conversation.participant=agent]
+
+User moved to section "Step 1".
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAEYFZEK2ozz6aoWi1Q] [conversation.participant=user]
+
+Next
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAEYLr95ds1As6SdEOl] [conversation.participant=user]
+
+
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAEYR3CCW80641LlJ3J] [conversation.participant=agent]
+
+User moved to section "Step 2".
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAEYR7VrrAxMi1Q2WbQ] [conversation.participant=user]
+
+Next
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAEYbGCZlKjkhG-UdgQ] [conversation.participant=user]
+
+
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAEYc8tOrD_2ybplQ8I] [conversation.participant=agent]
+
+User moved to section "Step 3".
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAEYcD1qOrsLOC_y0VJ] [conversation.participant=user]
+
+Is there a specific type of basil that's best?
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAEYg_fmL-yJcsmclCP] [conversation.participant=user]
+
+That's a great question!   Unless you're reading this from Liguria itself, you probably don't have access to the prized basil of that region. If you happen to grow your own, lucky you. If you have access to a good farmers market that carries beautiful tufts of fragrant basil at the height of summer, definitely go for it. If you have to settle for supermarket clamshells of hydroponic herb, well, then, that's what it's going to be. Basically, get the best fresh basil you can, and that's all there is to it.
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAEYuN_-vXylucg24yA] [conversation.participant=agent]
+
+Basil from Liguria is really good - I have tried it!
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAEZ2hN60MHTMiEVKrp] [conversation.participant=user]
+
+Next
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAEZ4chIb8Xo8FyQzzZ] [conversation.participant=user]
+
+
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAEZ5CMt9DJz-SDe_HT] [conversation.participant=agent]
+
+User moved to section "Step 4".
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAEZ5GQqxOuTuDyVE35] [conversation.participant=user]
+
+Remind me which types of cheese to use
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAEZCIsjE2091AqL_oY] [conversation.participant=user]
+
+Historically, the cheeses of true Ligurian pesto were Parmigiano-Reggiano and Pecorino Sardo (or Fiore Sardo), a Sardinian sheep's-milk cheese. When pesto first became popular in the United States, however, Fiore Sardo was pretty much unavailable here, so recipe writers substituted the next best available thing: Pecorino Romano. But Pecorino Romano is saltier, sharper, and tangier than Fiore Sardo. So, if you can find the Fiore Sardo, it will make a marginally better pesto sauce, but Pecorino Romano makes a darned good one, too (and, frankly, Parmigiano-Reggiano alone makes a great one as well).
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAEZSDiAaYQGZ0FopO5] [conversation.participant=agent]
+
+That's good to know - sometimes it's hard to find specific types of cheese like Fiore Sardo. And they're expensive!
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAEZiWuRNX6470tz1B-] [conversation.participant=user]
+
+next
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAEZn0FJceU68gDR4Xp] [conversation.participant=user]
+
+
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAEZnmTLl61GRNF3ARW] [conversation.participant=agent]
+
+User moved to section "Step 5".
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAEZns0KZDi8WsTobv-] [conversation.participant=user]
+
+How long can I store the pesto in the fridge?
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAEZrsCidl-1GodpjS8] [conversation.participant=user]
+
+I believe that the best indicator of freshness is the colour of the leaves. Once they turn from green to brown, it is all over for the pesto.
+
+To boost the 'shelf-life' of the pesto in the fridge, make sure that it is completely covered with olive oil before sealing the container.
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAE_8yB5_YulMKemNtJ] [conversation.participant=agent]
+
+Is it okay to store the pesto in a plastic container?
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAE_ITSL8ze9E7RIFG-] [conversation.participant=user]
+
+I'm sorry, I do not think I have this information
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAE_WFtxZJqgGSQuTXV] [conversation.participant=agent]
+
+That's okay!
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAE_ZPcy9volAi8vWGI] [conversation.participant=user]
+
+next
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAE_Zb5QI58tGRlVNz9] [conversation.participant=user]
+
+You got to the end of this recipe! Well done!
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAE_eyOtHKHJ8UQTxGJ] [conversation.participant=agent]
+

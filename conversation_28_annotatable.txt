@@ -1,0 +1,222 @@
+user joined the chat.
+[conversation_id=68942e2a] [conversation.id=-NKcl2ORyf4mHj2YGbMU] [conversation.participant=user]
+
+user joined the chat.
+[conversation_id=68942e2a] [conversation.id=-NKcrz8yMzStKpndpFvx] [conversation.participant=user]
+
+Hey there! Happy to have you on board for our masterclass :-) Today you will be learning how to prepare The Best Southern Fried Chicken. Make sure you have all the ingredients and tools and feel free to ask questions. If you are ready to start cooking simply say start.
+[conversation_id=68942e2a] [conversation.id=-NKcsAHXCFISryg7cjbu] [conversation.participant=agent]
+
+start
+[conversation_id=68942e2a] [conversation.id=-NKcsGD1esdT-Fh9DtlE] [conversation.participant=user]
+
+Do you have any questions about the required ingredients or do you already have all you need?
+[conversation_id=68942e2a] [conversation.id=-NKcsNEPmKY1OClhgI-f] [conversation.participant=agent]
+
+I have all the ingredients but I would like to know the difference between southern fried chicken and just normal fried chicken.
+[conversation_id=68942e2a] [conversation.id=-NKcsgDXckgCcstsh8Lb] [conversation.participant=user]
+
+Sure! Let me see what I can find
+[conversation_id=68942e2a] [conversation.id=-NKcsnlgtD7EYRFLssCz] [conversation.participant=agent]
+
+There is no difference. Southern fried chicken, also known as fried chicken, is a dish consisting of chicken pieces which have been coated in a seasoned batter and pan-fried, deep fried, or pressure fried. The breading adds a crisp coating or crust to the exterior of the chicken while retaining juices in the meat. Broiler chickens are most commonly used.
+[conversation_id=68942e2a] [conversation.id=-NKct7NXR6foGQtd7pXx] [conversation.participant=agent]
+
+Can you also tell me why it takes so long to cook? Is it because we have to cook each piece individually?
+[conversation_id=68942e2a] [conversation.id=-NKctPlGqAijVW908ygp] [conversation.participant=user]
+
+So what is my first step? I assume it is to brine the chicken. I don't see any water in the recipe to mix the Kosher salt with. How much water do I need?
+[conversation_id=68942e2a] [conversation.id=-NKctuYLitAgW0MxBk6U] [conversation.participant=user]
+
+Yes. It takes a bit of time as you'll have to first fry the chicken one piece at a time and then bake it.
+[conversation_id=68942e2a] [conversation.id=-NKctysmgMHTYAMgNBA2] [conversation.participant=agent]
+
+Let me show you the first step.
+[conversation_id=68942e2a] [conversation.id=-NKcu0DBmpgRzWX2t2Lm] [conversation.participant=agent]
+
+
+[conversation_id=68942e2a] [conversation.id=-NKcu0P4JTgkwzVhZT7y] [conversation.participant=agent]
+
+User moved to section "Step 1".
+[conversation_id=68942e2a] [conversation.id=-NKcu0V9IRfON7sBPvCR] [conversation.participant=user]
+
+No problem. I have everything in the dish and mixed together.
+[conversation_id=68942e2a] [conversation.id=-NKcuA8IhGDAQAvYSs0f] [conversation.participant=user]
+
+That is great to hear!
+[conversation_id=68942e2a] [conversation.id=-NKcuGWAX6o5QYHmrs6Y] [conversation.participant=agent]
+
+So I assume the chick is already brined?
+[conversation_id=68942e2a] [conversation.id=-NKcuJqsum4q4i7R7NbI] [conversation.participant=user]
+
+That's part of step 2. Let me show it to you.
+[conversation_id=68942e2a] [conversation.id=-NKcuQUCUYjm7Y6Wmadm] [conversation.participant=agent]
+
+
+[conversation_id=68942e2a] [conversation.id=-NKcuQf4ti8mzVNDwu3o] [conversation.participant=agent]
+
+User moved to section "Step 2".
+[conversation_id=68942e2a] [conversation.id=-NKcuQkXIlnEWG0WkEtx] [conversation.participant=user]
+
+Why would this not be step one since it has to sit for at least 4 hours?
+[conversation_id=68942e2a] [conversation.id=-NKcufsd8Ke1uCbL9jKo] [conversation.participant=user]
+
+That's because in step 1 you are required to prepare the spice mixture required in step 2.
+[conversation_id=68942e2a] [conversation.id=-NKcv-8Q1RPSejhuWuZY] [conversation.participant=agent]
+
+More precisely, you need to whisk the buttermilk, egg, 1 tablespoon salt, and 2 tablespoons of the spice mixture in a large bowl.
+[conversation_id=68942e2a] [conversation.id=-NKcv4FvibgBQ4_1wlSS] [conversation.participant=agent]
+
+Ah I see.  I guess I'm not used to brining the chicken with the spices on it.
+[conversation_id=68942e2a] [conversation.id=-NKcvFxYSJ28lPrdaZtm] [conversation.participant=user]
+
+As a reminder, if you'd like to go to the next step simply type "next". To go to a previous step type "previous".
+[conversation_id=68942e2a] [conversation.id=-NKcvb0JzmMHaAy-OKQT] [conversation.participant=agent]
+
+So  that should really get the spices into the chicken.
+[conversation_id=68942e2a] [conversation.id=-NKcveIdTyAqbZxUGVrp] [conversation.participant=user]
+
+next
+[conversation_id=68942e2a] [conversation.id=-NKcvg00SNM2RPz9Lq1w] [conversation.participant=user]
+
+Exactly,  An overnight brine will penetrate a few millimeters into the meat, giving you built-in seasoning before you ever get to the breading.  Brines also improve juiciness by increasing the muscles' ability to retain moisture.
+[conversation_id=68942e2a] [conversation.id=-NKcvoQAU7HDj-_ABMXS] [conversation.participant=agent]
+
+However, my normal brining for chicken breast is anywhere from 30 minutes to two hours.
+[conversation_id=68942e2a] [conversation.id=-NKcvrEsSF-JvKf8X4cM] [conversation.participant=agent]
+
+Or more as preferred.
+[conversation_id=68942e2a] [conversation.id=-NKcvuiFXHCvlLcNF7LI] [conversation.participant=agent]
+
+
+[conversation_id=68942e2a] [conversation.id=-NKcvx-hES9nq2euY1l2] [conversation.participant=agent]
+
+User moved to section "Step 3".
+[conversation_id=68942e2a] [conversation.id=-NKcvx5GCSDtFxW5VhfI] [conversation.participant=user]
+
+Interesting.  I don't normally even brine my chicken, but I think I might try it now the next time i cook chicken.
+[conversation_id=68942e2a] [conversation.id=-NKcw7jr6tei6AVLrfHq] [conversation.participant=user]
+
+next
+[conversation_id=68942e2a] [conversation.id=-NKcwHXtp7RAd33Lxx2H] [conversation.participant=user]
+
+
+[conversation_id=68942e2a] [conversation.id=-NKcwI0TZzrsExarc-4p] [conversation.participant=agent]
+
+User moved to section "Step 4".
+[conversation_id=68942e2a] [conversation.id=-NKcwI6X-ptWImtNlKmO] [conversation.participant=user]
+
+next
+[conversation_id=68942e2a] [conversation.id=-NKcwUiRRllC6sJQ4Mte] [conversation.participant=user]
+
+
+[conversation_id=68942e2a] [conversation.id=-NKcwXuum2vPiCOwGL16] [conversation.participant=agent]
+
+User moved to section "Step 5".
+[conversation_id=68942e2a] [conversation.id=-NKcwY-SdXbo7TxKpaaC] [conversation.participant=user]
+
+next
+[conversation_id=68942e2a] [conversation.id=-NKcwmIo4316LVh7SoM5] [conversation.participant=user]
+
+Before going to the next step, do you have any questions?
+[conversation_id=68942e2a] [conversation.id=-NKcwtee1J2GVCVuDqz3] [conversation.participant=agent]
+
+Not really. I have a thermometer to check the temperature of the oil and I have deep fried other things in the past such as fish.
+[conversation_id=68942e2a] [conversation.id=-NKcx8dywG75jr5lHINq] [conversation.participant=user]
+
+Ok great! Let's go to the next step
+[conversation_id=68942e2a] [conversation.id=-NKcxJIwEI6ODLWifwy7] [conversation.participant=agent]
+
+
+[conversation_id=68942e2a] [conversation.id=-NKcxJUZrl-xffrgkID5] [conversation.participant=agent]
+
+User moved to section "Step 6".
+[conversation_id=68942e2a] [conversation.id=-NKcxJ_4txrrwXP8jYgw] [conversation.participant=user]
+
+Actually, what this the best way to check the doneness of the chicken?
+[conversation_id=68942e2a] [conversation.id=-NKcxMV1KZPMnOY5REeL] [conversation.participant=user]
+
+That's a great question! Let me see what I can find
+[conversation_id=68942e2a] [conversation.id=-NKcxVhtI64c-J2E3m1p] [conversation.participant=agent]
+
+So the best way to ensure your chicken is fully cooked is to fry it until golden brown, then transfer it to a hot oven to finish cooking at a gentler pace.
+[conversation_id=68942e2a] [conversation.id=-NKcxu2KAWu-sj2pD8B9] [conversation.participant=agent]
+
+The result is chicken with a deep brown, craggy crust that's shatteringly crisp but not tough and that breaks away to meat that bursts with intensely seasoned juices underneath.
+[conversation_id=68942e2a] [conversation.id=-NKcxvM6OZcYxrTTgkQs] [conversation.participant=agent]
+
+It should look as shown in the picture below.
+[conversation_id=68942e2a] [conversation.id=-NKcy0I0OiYTQO3WJaZl] [conversation.participant=agent]
+
+https://www.seriouseats.com/thmb/VZyd-duglvTu1XG9r0p4ehTVXUg=/1500x1125/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2015__07__20150715-fried-chicken-06-23fc327de5e143a2b89f3d493ca12ff1.jpg
+[conversation_id=68942e2a] [conversation.id=-NKcy0_v-yP2ae0SGNzP] [conversation.participant=agent]
+
+Ok thanks. That's a great picture. It gives me a good idea of what it should look like.
+[conversation_id=68942e2a] [conversation.id=-NKcy8l2iN8KYJldjKRN] [conversation.participant=user]
+
+next
+[conversation_id=68942e2a] [conversation.id=-NKcyAWcFuedTpL2DGPI] [conversation.participant=user]
+
+
+[conversation_id=68942e2a] [conversation.id=-NKcyEXbrwL9NDr6ri3H] [conversation.participant=agent]
+
+User moved to section "Step 7".
+[conversation_id=68942e2a] [conversation.id=-NKcyEbynSW_wR0Hqg2T] [conversation.participant=user]
+
+previous
+[conversation_id=68942e2a] [conversation.id=-NKcySFtJG885y8rilMF] [conversation.participant=user]
+
+
+[conversation_id=68942e2a] [conversation.id=-NKcyZepNnpufxcrvtHP] [conversation.participant=agent]
+
+User moved to section "Step 6".
+[conversation_id=68942e2a] [conversation.id=-NKcyZkPBzGJcnU_FYhO] [conversation.participant=user]
+
+next
+[conversation_id=68942e2a] [conversation.id=-NKcycIrfWSo1gfgL9yI] [conversation.participant=user]
+
+
+[conversation_id=68942e2a] [conversation.id=-NKcyczXNXgyannfaBA0] [conversation.participant=agent]
+
+User moved to section "Step 7".
+[conversation_id=68942e2a] [conversation.id=-NKcyd3nb_w4_kh5gSXS] [conversation.participant=user]
+
+Yum yum. Sounds and looks fantastic.
+[conversation_id=68942e2a] [conversation.id=-NKcykUi0CHTsyBp4dNK] [conversation.participant=user]
+
+next
+[conversation_id=68942e2a] [conversation.id=-NKcyl3KSM6poBIy3g8v] [conversation.participant=user]
+
+This is the last step in the recipe! Well done!
+[conversation_id=68942e2a] [conversation.id=-NKcytvWBQDW1adzZ7n1] [conversation.participant=agent]
+
+Can you tell me if can substitute any of the ingredients such as the buttermilk for normal milk or if I can make my own buttermilk by adding vinegar to normal milk and if would work?
+[conversation_id=68942e2a] [conversation.id=-NKczET477enMAnbKtL4] [conversation.participant=user]
+
+Let me see what I can find
+[conversation_id=68942e2a] [conversation.id=-NKczXavSYEStHriWOZl] [conversation.participant=agent]
+
+I would actually recommend using buttermilk due to its tenderizing effects on food
+[conversation_id=68942e2a] [conversation.id=-NKczo_WTkrSNmfKeQjL] [conversation.participant=agent]
+
+ok thanks. This was great.
+[conversation_id=68942e2a] [conversation.id=-NKczsbxCu1vgv3-aRFw] [conversation.participant=user]
+
+That's great to hear. Let me see if I can find how to make buttermilk from normal milk.
+[conversation_id=68942e2a] [conversation.id=-NKd-0yIQHvl6hSbahg_] [conversation.participant=agent]
+
+ok thanks
+[conversation_id=68942e2a] [conversation.id=-NKd-8a7z7dAuFtC0IEB] [conversation.participant=user]
+
+So, "Acidified buttermilk" is a substitute for buttermilk made by adding a food-grade acid such as vinegar or lemon juice to milk. It can be produced by mixing 1 tablespoon of acid with 1 cup of milk and letting it sit until it curdles for about 10 minutes. Any level of fat content for the milk ingredient may be used.
+[conversation_id=68942e2a] [conversation.id=-NKd-K-vfUQ-7sbxwk7I] [conversation.participant=agent]
+
+Great thank you.
+[conversation_id=68942e2a] [conversation.id=-NKd-UeJ6DPgCjUAL5ym] [conversation.participant=user]
+
+goodbye
+[conversation_id=68942e2a] [conversation.id=-NKd-_50VGsOaAxZ1ovM] [conversation.participant=user]
+
+Goodbye
+[conversation_id=68942e2a] [conversation.id=-NKd-cUYJF3BsjZfsyhb] [conversation.participant=agent]
+

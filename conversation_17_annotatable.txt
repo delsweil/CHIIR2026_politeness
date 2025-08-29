@@ -1,0 +1,243 @@
+Hello :)
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdILLGEVO9Klsq4Bec] [conversation.participant=user]
+
+Hey there! Happy to have you on board for our masterclass :) Today you will be learning how to prepare Duck à l'Orange. Make sure you have all the ingredients and tools and feel free to ask questions. If you are ready to start cooking simply say next.
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdIT81wCtYzUFOUQE5] [conversation.participant=agent]
+
+next
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdI_yeeLyY12YDDjBf] [conversation.participant=user]
+
+
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdIaqrbInSM63zt1TH] [conversation.participant=agent]
+
+User moved to section "Step 1".
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdIaw4ju9_Y-KA4w_G] [conversation.participant=user]
+
+next
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdIhg_bTQiLIMJZvoo] [conversation.participant=user]
+
+
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdIiabeRr-2X7AEAHf] [conversation.participant=agent]
+
+User moved to section "Step 2".
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdIifB9S1nFuSqrE7_] [conversation.participant=user]
+
+what is a drumette
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdIlhPV_iYDtxMCYYr] [conversation.participant=user]
+
+The drumette is a specific cut of white meat shaped like a small drumstick
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdJ2wBzIvnO3wO7Ibh] [conversation.participant=agent]
+
+next
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdJ3nLnh48HAeOqle1] [conversation.participant=user]
+
+
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdJ4F-1qvfctl-lm6E] [conversation.participant=agent]
+
+User moved to section "Step 3".
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdJ4JrfENUBEkWqnkY] [conversation.participant=user]
+
+next
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdJ69a-fBX-uODOR78] [conversation.participant=user]
+
+
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdJ7rfr-ChyjjaR98K] [conversation.participant=agent]
+
+User moved to section "Step 4".
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdJ7vRZidY2pUf6Krs] [conversation.participant=user]
+
+next
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdJClAT-O9Lvuk0iSv] [conversation.participant=user]
+
+
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdJDMCz2U-YTatqpMm] [conversation.participant=agent]
+
+User moved to section "Step 5".
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdJDQAcx7PxobsOU8_] [conversation.participant=user]
+
+next
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdJOMWY90FliUVZidm] [conversation.participant=user]
+
+
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdJOuN8Yo-6JZ2oWn8] [conversation.participant=agent]
+
+User moved to section "Step 6".
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdJOyCt3RmUr5BZrQT] [conversation.participant=user]
+
+next
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdJX5toAzYdCUqmIgg] [conversation.participant=user]
+
+
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdJXljHvFZSrXJAeoJ] [conversation.participant=agent]
+
+User moved to section "Step 7".
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdJXrxChtJK0GudsJ0] [conversation.participant=user]
+
+next
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdJbm5KssJjBDwg20a] [conversation.participant=user]
+
+
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdJcItwTC78RMIGiob] [conversation.participant=agent]
+
+User moved to section "Step 8".
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdJcMmqb6cZLQbHoxW] [conversation.participant=user]
+
+do I need to keep the fat for a gravy later?
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdJirrZbAe2UIVKJfb] [conversation.participant=user]
+
+No, you need to discard any scum or rendered fat that accumulates on the surface.
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdJpcUbVqoJLZECYUJ] [conversation.participant=agent]
+
+next
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdJrHO-R9xCqL7yNto] [conversation.participant=user]
+
+
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdJrqPPc6vjVBnaDFS] [conversation.participant=agent]
+
+User moved to section "Step 9".
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdJrvmpF95ry_gvzpw] [conversation.participant=user]
+
+next
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdJz1kcoKXpZNveesF] [conversation.participant=user]
+
+
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdJztHy93KDlNqSO9V] [conversation.participant=agent]
+
+User moved to section "Step 10".
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdJzxf-_I-gszL-4YX] [conversation.participant=user]
+
+next
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdK75w_Xej3IVOTTZ8] [conversation.participant=user]
+
+
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdK7xYpgMTK9DsPVT0] [conversation.participant=agent]
+
+User moved to section "Step 11".
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdK80V3EOmzLiImIOA] [conversation.participant=user]
+
+how long should I set aside to rest
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdKEKN7UshL81VUmkf] [conversation.participant=user]
+
+I'm sorry, I do not think I have this information
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdKS5qqmhwM5O2RzNk] [conversation.participant=agent]
+
+next
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdKTEjybiSu-gYibNE] [conversation.participant=user]
+
+
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdKU4ouxQIeMbzb2jw] [conversation.participant=agent]
+
+User moved to section "Step 12".
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdKU8ovGWGNVJ6vVuX] [conversation.participant=user]
+
+next
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdKb0HTlCyRhoGAdlS] [conversation.participant=user]
+
+
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdKc0E1W-dcCMIMuWP] [conversation.participant=agent]
+
+User moved to section "Step 13".
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdKc4BMfUcMnjeLmW5] [conversation.participant=user]
+
+next
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdKi5NCAVuq4GpnqeM] [conversation.participant=user]
+
+
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdKiqvk82NzaVWq6-t] [conversation.participant=agent]
+
+User moved to section "Step 14".
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdKivFi9RSIYf19XjB] [conversation.participant=user]
+
+next
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdKkbURVJ30MuQQrQZ] [conversation.participant=user]
+
+
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdKlCWzZXAVg9UrBEA] [conversation.participant=agent]
+
+User moved to section "Step 15".
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdKlGZuQ3XgVHGeIzy] [conversation.participant=user]
+
+next
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdKr9cKatw_6AbqtLg] [conversation.participant=user]
+
+
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdKrm4hCxKthZ7ZVXT] [conversation.participant=agent]
+
+User moved to section "Step 16".
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdKrqUtQMq-je-n-zM] [conversation.participant=user]
+
+next
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdKwGVtIKBg0QqLTsJ] [conversation.participant=user]
+
+
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdKx9gCFePncfX7jjy] [conversation.participant=agent]
+
+User moved to section "Step 17".
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdKxF4lAuzDeTLClki] [conversation.participant=user]
+
+next
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdL-v91N8hrStClrLg] [conversation.participant=user]
+
+
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdL2b-whU8su3x3Nh7] [conversation.participant=agent]
+
+User moved to section "Step 18".
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdL2fAN5XhE7lRsSMf] [conversation.participant=user]
+
+what if i've made the sauce too thick?
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdLB27Prolf7AXrE8f] [conversation.participant=user]
+
+That's a great question! Let me see what I can find
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdLVdEtR_eG8nKsUNl] [conversation.participant=agent]
+
+next
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdLZCxXyCinw8tWqk7] [conversation.participant=user]
+
+I'm sorry, I do not think I have this information
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdLjq9zQdf48CsVHvv] [conversation.participant=agent]
+
+
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdLk-wgCMdy4itipad] [conversation.participant=agent]
+
+User moved to section "Step 19".
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdLk4HW8jqhxvRfTpl] [conversation.participant=user]
+
+next
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdLq0m9pnbFOFJOIv3] [conversation.participant=user]
+
+
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdLt9SikQErJeneop9] [conversation.participant=agent]
+
+User moved to section "Step 20".
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdLtF9cUgm249G8UMl] [conversation.participant=user]
+
+next
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdLxbCmWg4O_WUWzVq] [conversation.participant=user]
+
+
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdLyIRFYyPc26oHqrD] [conversation.participant=agent]
+
+User moved to section "Step 21".
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdLyMaBCWaVcPTtMtS] [conversation.participant=user]
+
+next
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdLz9J2C50c0GtKu0c] [conversation.participant=user]
+
+
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdM-9ByTvMWOBHoBVa] [conversation.participant=agent]
+
+User moved to section "Step 22".
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdM-DWDueVxtw0dC7U] [conversation.participant=user]
+
+Do I need to remove the zest?
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdM12zDCmGssL2mlMb] [conversation.participant=user]
+
+No, you do not need to remove the  blanched zest
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdM8T1pN9WLI060CM0] [conversation.participant=agent]
+
+next
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdMFUSTuSWMccAVfWI] [conversation.participant=user]
+
+Congratulations! You reached the last step in this recipe! Well done!
+[conversation_id=577c065c9fecfe0001a5bcc7] [conversation.id=-NAdMHqbUE1eSLRTKE0Q] [conversation.participant=agent]
+

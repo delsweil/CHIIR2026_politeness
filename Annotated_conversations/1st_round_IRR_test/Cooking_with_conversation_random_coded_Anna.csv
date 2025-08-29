@@ -1,0 +1,347 @@
+﻿Color;Comment;Document group;Document name;Code;Beginning;End;Weight score;Segment;Modified by;Modified;Created by;Created;Area;Coverage %
+●;;Conversations (coded by Anna);conversation_6_annotatable_coder_1;Absolving – acceptance (user);63;64;0;"I see.
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YUFGqyNdJUOSp1nqd] [conversation.participant=user]";christineelsweiler;14.07.25 13:45:52;User2;12.07.25 18:34:40;120;1,02
+●;;Conversations (coded by Anna);conversation_14_annotatable_coder_1;Absolving – acceptance (user);51;52;0;"That's okay!
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAE_ZPcy9volAi8vWGI] [conversation.participant=user]";christineelsweiler;14.07.25 13:45:52;User2;13.07.25 12:18:52;126;2,19
+●;;Conversations (coded by Anna);conversation_27_annotatable_coder_1;Acknowledge response (agent);59;60;0;"ok great! Let's go to the next step
+[conversation_id=2b71cb60] [conversation.id=-NKceyeyi3uMsyjhrbe9] [conversation.participant=agent]";Anna_;25.07.25 19:36:14;Anna_;25.07.25 19:36:14;134;1,88
+●;;Conversations (coded by Anna);conversation_6_annotatable_coder_1;Acknowledge response (user);27;28;0;"Ah, I see!
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YT-rJ2021bvkVNFgz] [conversation.participant=user]";Anna_;24.07.25 17:06:17;Anna_;24.07.25 17:06:17;124;1,05
+●;;Conversations (coded by Anna);conversation_6_annotatable_coder_1;Acknowledge response (user);128;129;0;"Thank you! I'll keep that in mind when attempting to make sauce in the future.
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YWvqeFEuWCe5uB5Sh] [conversation.participant=user]";Anna_;27.07.25 19:10:39;Anna_;27.07.25 19:10:39;192;1,63
+●;;Conversations (coded by Anna);conversation_14_annotatable_coder_1;Acknowledge response (user);24;25;0;"Basil from Liguria is really good - I have tried it!
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAEZ2hN60MHTMiEVKrp] [conversation.participant=user]";Anna_;27.07.25 19:21:53;Anna_;27.07.25 19:21:53;166;2,88
+●;Positive politeness;Conversations (coded by Anna);conversation_14_annotatable_coder_1;Acknowledge response (user);35;36;0;"That's good to know - sometimes it's hard to find specific types of cheese like Fiore Sardo. And they're expensive!
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAEZiWuRNX6470tz1B-] [conversation.participant=user]";Anna_;25.07.25 19:05:24;Anna_;25.07.25 19:05:17;229;3,98
+●;;Conversations (coded by Anna);conversation_27_annotatable_coder_1;Acknowledge response (user);19;20;0;"ok
+[conversation_id=2b71cb60] [conversation.id=-NKcdUxw7hw-W8tILk31] [conversation.participant=user]";Anna_;25.07.25 19:35:16;Anna_;25.07.25 19:35:16;100;1,40
+●;;Conversations (coded by Anna);conversation_27_annotatable_coder_1;Acknowledge response (user);25;26;0;"ok i have regular olive oil so will use that. i might put some walnuts in as well as the pine nuts
+[conversation_id=2b71cb60] [conversation.id=-NKce02Gt07Jw25Q8Jqz] [conversation.participant=user]";Anna_;25.07.25 19:35:21;Anna_;25.07.25 19:35:21;196;2,75
+●;;Conversations (coded by Anna);conversation_27_annotatable_coder_1;Acknowledge response (user);37;38;0;"i usually use a blender instead of a pestle and mortar
+[conversation_id=2b71cb60] [conversation.id=-NKceZdOLp46-GrQrL-E] [conversation.participant=user]";Anna_;27.07.25 19:52:47;Anna_;27.07.25 19:52:47;152;2,13
+●;Positive politeness;Conversations (coded by Anna);conversation_27_annotatable_coder_1;Acknowledge response (user);84;85;0;"ok ive not done that before. useful tip thanks
+[conversation_id=2b71cb60] [conversation.id=-NKcfZEgm4RWMTI1w6dm] [conversation.participant=user]";Anna_;25.07.25 19:36:41;Anna_;25.07.25 19:36:33;144;2,02
+●;Giving alternative information without prompting;Conversations (coded by Anna);conversation_6_annotatable_coder_1;Additional information (agent);67;68;0;"But a guess would be that it might be lighter
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YUGjpjvUKA6VvOzHw] [conversation.participant=agent]";Anna_;17.07.25 20:57:41;Anna_;17.07.25 20:57:17;160;1,36
+●;;Conversations (coded by Anna);conversation_22_annotatable_coder_1;Additional information (agent);58;59;0;"but a picture:
+[conversation_id=KlOmIXe] [conversation.id=-NH4VpV1vdTgP6QSpwn6] [conversation.participant=agent]";Anna_;17.07.25 17:49:21;Anna_;17.07.25 17:49:21;112;1,28
+●;Giving additional information without prompting;Conversations (coded by Anna);conversation_27_annotatable_coder_1;Additional information (agent);29;30;0;"Also,  toasting nuts is not worth it.
+[conversation_id=2b71cb60] [conversation.id=-NKceGo1qa2sy6-atGU2] [conversation.participant=agent]";Anna_;17.07.25 19:24:15;Anna_;17.07.25 19:17:50;136;1,91
+●;Explanation supporting apology added;Conversations (coded by Anna);conversation_3_annotatable_coder_1;Apology (IFID) (agent);25;26;0;"I'm sorry, I do not think I have this information
+[conversation_id=77x3diEC4B] [conversation.id=-NBXVPmL1GnuRISQ4hVQ] [conversation.participant=agent]";Anna_;24.07.25 16:00:46;Anna_;24.07.25 16:00:43;150;4,16
+●;Explanation supporting apology added;Conversations (coded by Anna);conversation_3_annotatable_coder_1;Apology (IFID) (agent);38;39;0;"I'm sorry I do not have answer for this question
+[conversation_id=77x3diEC4B] [conversation.id=-NBXWVLgSSxKrfVl7RaW] [conversation.participant=agent]";Anna_;24.07.25 16:01:08;Anna_;24.07.25 16:01:02;149;4,13
+●;Explanation supporting apology added;Conversations (coded by Anna);conversation_6_annotatable_coder_1;Apology (IFID) (agent);61;62;0;"I'm sorry I do not have answer for this question
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YUAPIXtzLVWsXwI7P] [conversation.participant=agent]";Anna_;24.07.25 16:02:20;Anna_;24.07.25 16:02:15;163;1,38
+●;Explanation supporting apology added;Conversations (coded by Anna);conversation_10_annotatable_coder_1;Apology (IFID) (agent);20;21;0;"I'm sorry but I do not have a video for that
+[conversation_id=wwwfod2dos] [conversation.id=-NAj3NqeelMaMFmCtHIN] [conversation.participant=agent]";Anna_;24.07.25 16:09:48;Anna_;24.07.25 16:09:45;145;1,16
+●;Explanation supporting apology added;Conversations (coded by Anna);conversation_10_annotatable_coder_1;Apology (IFID) (agent);24;25;0;"I'm sorry but I do not have videos for this recipe
+[conversation_id=wwwfod2dos] [conversation.id=-NAj3XIuO3t76mNEX_lc] [conversation.participant=agent]";Anna_;24.07.25 16:09:39;Anna_;24.07.25 16:09:36;151;1,20
+●;Explanation supporting apology added;Conversations (coded by Anna);conversation_10_annotatable_coder_1;Apology (IFID) (agent);43;44;0;"I'm sorry but I do not have videos for this recipe
+[conversation_id=wwwfod2dos] [conversation.id=-NAj4fNzzaDAuylMNiYu] [conversation.participant=agent]";Anna_;24.07.25 16:09:18;Anna_;24.07.25 16:09:15;151;1,20
+●;Explanation supporting apology added;Conversations (coded by Anna);conversation_10_annotatable_coder_1;Apology (IFID) (agent);47;48;0;"I'm sorry, but I do not have a photo for this step
+[conversation_id=wwwfod2dos] [conversation.id=-NAj4t3Ej5-EiQ0D4irN] [conversation.participant=agent]";Anna_;24.07.25 16:09:05;Anna_;24.07.25 16:09:01;151;1,20
+●;Explanation supporting apology added;Conversations (coded by Anna);conversation_10_annotatable_coder_1;Apology (IFID) (agent);60;61;0;"I'm sorry I do not have a photo of bechamel sauce
+[conversation_id=wwwfod2dos] [conversation.id=-NAj5sOLsN1GGKftKpn0] [conversation.participant=agent]";Anna_;24.07.25 16:08:50;Anna_;24.07.25 16:08:46;150;1,20
+●;Explanation supporting apology added;Conversations (coded by Anna);conversation_10_annotatable_coder_1;Apology (IFID) (agent);114;115;0;"I'm sorry but I do not have an answer to your question
+[conversation_id=wwwfod2dos] [conversation.id=-NAjB4AFkOJ8elYdGEua] [conversation.participant=agent]";Anna_;24.07.25 16:08:31;Anna_;24.07.25 16:08:27;155;1,24
+●;Explanation supporting apology added;Conversations (coded by Anna);conversation_14_annotatable_coder_1;Apology (IFID) (agent);49;50;0;"I'm sorry, I do not think I have this information
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAE_WFtxZJqgGSQuTXV] [conversation.participant=agent]";Anna_;24.07.25 16:13:08;Anna_;24.07.25 16:13:04;164;2,85
+●;Explanation supporting apology added;Conversations (coded by Anna);conversation_22_annotatable_coder_1;Apology (IFID) (agent);58;59;0;"I'm sorry, I do not think I have a video, but a picture:
+[conversation_id=KlOmIXe] [conversation.id=-NH4VpV1vdTgP6QSpwn6] [conversation.participant=agent]";Anna_;24.07.25 16:23:19;Anna_;24.07.25 16:23:15;154;1,76
+●;Praise;Conversations (coded by Anna);conversation_10_annotatable_coder_1;Compliment/praise/face-enhancing feedback (agent);35;36;0;"That's a great question!  The more you mix, and the more vigorously you do it, the more air bubbles you'll lose. Once in the oven, those air bubbles will expand as gases and steam inflate them. That's what causes a soufflé to rise, and really, there's no stopping it—your beaten whites will contain air bubbles and those air bubbles will expand, and when they do your soufflé will push higher and higher in its baking dish.
+[conversation_id=wwwfod2dos] [conversation.id=-NAj3xzFuYsURrXbi6va] [conversation.participant=agent]";christineelsweiler;14.07.25 13:45:52;User2;12.07.25 19:23:05;524;4,18
+●;Praise;Conversations (coded by Anna);conversation_10_annotatable_coder_1;Compliment/praise/face-enhancing feedback (agent);133;134;0;"Congratulations! You reached the last step in the recipe.
+[conversation_id=wwwfod2dos] [conversation.id=-NAjCPnzuvd6v1BVpyq1] [conversation.participant=agent]";christineelsweiler;14.07.25 13:45:52;User2;12.07.25 19:38:00;158;1,26
+●;Praise;Conversations (coded by Anna);conversation_14_annotatable_coder_1;Compliment/praise/face-enhancing feedback (agent);22;23;0;"That's a great question!   Unless you're reading this from Liguria itself, you probably don't have access to the prized basil of that region. If you happen to grow your own, lucky you. If you have access to a good farmers market that carries beautiful tufts of fragrant basil at the height of summer, definitely go for it. If you have to settle for supermarket clamshells of hydroponic herb, well, then, that's what it's going to be. Basically, get the best fresh basil you can, and that's all there is to it.
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAEYuN_-vXylucg24yA] [conversation.participant=agent]";christineelsweiler;14.07.25 13:45:52;User2;13.07.25 12:16:16;624;10,84
+●;Praise;Conversations (coded by Anna);conversation_14_annotatable_coder_1;Compliment/praise/face-enhancing feedback (agent);55;56;0;"You got to the end of this recipe! Well done!
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAE_eyOtHKHJ8UQTxGJ] [conversation.participant=agent]";christineelsweiler;14.07.25 13:45:52;User2;13.07.25 12:19:58;160;2,78
+●;Praise;Conversations (coded by Anna);conversation_27_annotatable_coder_1;Compliment/praise/face-enhancing feedback (agent);23;24;0;"That is a great question! I would not recommend using chilli olive oil.  More precisely, as long as you're using a decent, somewhat mild olive oil, your pesto is going to be good; if you feel like using an even higher-quality, not-too-spicy oil, whether Ligurian or not, it may be subtly better.
+[conversation_id=2b71cb60] [conversation.id=-NKcdqysw-DoDAY_NTSM] [conversation.participant=agent]";Anna_;17.07.25 18:37:16;Anna_;17.07.25 18:37:12;394;5,53
+●;;Conversations (coded by Anna);conversation_27_annotatable_coder_1;Compliment/praise/face-enhancing feedback (agent);59;60;0;"great! Let's go to the next step
+[conversation_id=2b71cb60] [conversation.id=-NKceyeyi3uMsyjhrbe9] [conversation.participant=agent]";Anna_;25.07.25 19:36:10;Anna_;25.07.25 19:36:10;131;1,84
+●;Compliment because of user uptake;Conversations (coded by Anna);conversation_27_annotatable_coder_1;Compliment/praise/face-enhancing feedback (agent);88;89;0;"Well done!
+[conversation_id=2b71cb60] [conversation.id=-NKcfciKIqkt1UdhQh0D] [conversation.participant=agent]";Anna_;17.07.25 18:45:44;Anna_;17.07.25 18:44:59;109;1,53
+●;;Conversations (coded by Anna);conversation_6_annotatable_coder_1;Compliment/praise/face-enhancing feedback (user);128;129;0;"I'll keep that in mind when attempting to make sauce in the future.
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YWvqeFEuWCe5uB5Sh] [conversation.participant=user]";Anna_;27.07.25 19:10:44;Anna_;27.07.25 19:10:44;181;1,54
+●;;Conversations (coded by Anna);conversation_14_annotatable_coder_1;Compliment/praise/face-enhancing feedback (user);24;25;0;"Basil from Liguria is really good - I have tried it!
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAEZ2hN60MHTMiEVKrp] [conversation.participant=user]";Anna_;27.07.25 19:22:02;Anna_;27.07.25 19:22:02;166;2,88
+●;;Conversations (coded by Anna);conversation_14_annotatable_coder_1;Compliment/praise/face-enhancing feedback (user);35;36;0;"That's good to know - sometimes it's hard to find specific types of cheese like Fiore Sardo. And they're expensive!
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAEZiWuRNX6470tz1B-] [conversation.participant=user]";Anna_;27.07.25 19:22:09;Anna_;27.07.25 19:22:09;229;3,98
+●;Positive evaluation of process;Conversations (coded by Anna);conversation_27_annotatable_coder_1;Compliment/praise/face-enhancing feedback (user);69;70;0;"it looks a lovely colour
+[conversation_id=2b71cb60] [conversation.id=-NKcf64KiGIarrWmjSjl] [conversation.participant=user]";Anna_;28.07.25 17:25:34;Anna_;28.07.25 17:25:24;122;1,71
+●;Praise;Conversations (coded by Anna);conversation_27_annotatable_coder_1;Compliment/praise/face-enhancing feedback (user);84;85;0;"useful tip thanks
+[conversation_id=2b71cb60] [conversation.id=-NKcfZEgm4RWMTI1w6dm] [conversation.participant=user]";Anna_;17.07.25 18:44:02;Anna_;17.07.25 18:43:53;115;1,61
+●;;Conversations (coded by Anna);conversation_22_annotatable_coder_1;Hint - statement (user);9;10;0;"I have all the ingredients now
+[conversation_id=KlOmIXe] [conversation.id=-NH4ShgS1Xxse4Pkt8lO] [conversation.participant=user]";Anna_;17.07.25 21:28:08;Anna_;17.07.25 21:28:08;127;1,45
+●;;Conversations (coded by Anna);conversation_22_annotatable_coder_1;Hint - statement (user);47;48;0;"I do not have a thermometer for the oil
+[conversation_id=KlOmIXe] [conversation.id=-NH4VCyX6CcI7FyQZrhW] [conversation.participant=user]";Anna_;17.07.25 21:28:42;Anna_;17.07.25 21:28:42;136;1,56
+●;;Conversations (coded by Anna);conversation_3_annotatable_coder_1;Information-eliciting question (user);12;13;0;"What are the steps to making this recipe?
+[conversation_id=77x3diEC4B] [conversation.id=-NBXUT_-E3J4n3KO6o52] [conversation.participant=user]";Anna_;30.07.25 20:48:40;Anna_;30.07.25 20:48:40;141;3,91
+●;;Conversations (coded by Anna);conversation_3_annotatable_coder_1;Information-eliciting question (user);17;18;0;"Where does this recipe originate from?
+[conversation_id=77x3diEC4B] [conversation.id=-NBXUhkjzw9faevE6CN-] [conversation.participant=user]";Anna_;30.07.25 20:48:46;Anna_;30.07.25 20:48:46;138;3,82
+●;;Conversations (coded by Anna);conversation_3_annotatable_coder_1;Information-eliciting question (user);27;28;0;"How long does this recipe take to prepare?
+[conversation_id=77x3diEC4B] [conversation.id=-NBXVUIb9lLZlCnI1txC] [conversation.participant=user]";Anna_;30.07.25 20:48:53;Anna_;30.07.25 20:48:53;142;3,93
+●;;Conversations (coded by Anna);conversation_3_annotatable_coder_1;Information-eliciting question (user);31;32;0;"What are the next steps to making this recipe?
+[conversation_id=77x3diEC4B] [conversation.id=-NBXVuhsOkicn_ig3Q8i] [conversation.participant=user]";Anna_;30.07.25 20:49:01;Anna_;30.07.25 20:49:01;146;4,04
+●;;Conversations (coded by Anna);conversation_3_annotatable_coder_1;Information-eliciting question (user);36;37;0;"How many servings does this recipe yield?
+[conversation_id=77x3diEC4B] [conversation.id=-NBXWCtcjcLVhim9oPeE] [conversation.participant=user]";Anna_;30.07.25 20:49:06;Anna_;30.07.25 20:49:06;141;3,91
+●;;Conversations (coded by Anna);conversation_6_annotatable_coder_1;Information-eliciting question (user);23;24;0;"What would the spine be used for?
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YSYE6t8i8PvhN2i_H] [conversation.participant=user]";Anna_;30.07.25 20:52:31;Anna_;30.07.25 20:52:31;147;1,25
+●;;Conversations (coded by Anna);conversation_6_annotatable_coder_1;Information-eliciting question (user);59;60;0;"Is there any way to tell visually if the stock has been reduced by half?
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YTxQWqahwDUIBGoDo] [conversation.participant=user]";Anna_;30.07.25 20:52:45;Anna_;30.07.25 20:52:45;186;1,58
+●;;Conversations (coded by Anna);conversation_6_annotatable_coder_1;Information-eliciting question (user);124;125;0;"What does the causing the sauce to break entail, exactly? Does allowing it to boil ruin the mixture of ingredients somehow?
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YVpOovp4vdSVUuFMa] [conversation.participant=user]";Anna_;30.07.25 20:53:04;Anna_;30.07.25 20:53:04;237;2,01
+●;;Conversations (coded by Anna);conversation_10_annotatable_coder_1;Information-eliciting question (user);13;14;0;"How do I start making the souffle
+[conversation_id=wwwfod2dos] [conversation.id=-NAj3-enjqGf-ZanAIFO] [conversation.participant=user]";Anna_;01.08.25 14:58:23;Anna_;01.08.25 14:58:23;133;1,06
+●;;Conversations (coded by Anna);conversation_10_annotatable_coder_1;Information-eliciting question (user);31;32;0;"Why do you whisk constantly?
+[conversation_id=wwwfod2dos] [conversation.id=-NAj3kCxfmzASJBXJrcR] [conversation.participant=user]";Anna_;01.08.25 14:58:49;Anna_;01.08.25 14:58:49;128;1,02
+●;;Conversations (coded by Anna);conversation_10_annotatable_coder_1;Information-eliciting question (user);33;34;0;"Why do you whisk constantly?
+[conversation_id=wwwfod2dos] [conversation.id=-NAj3rWeFP9SgoX3DAww] [conversation.participant=user]";Anna_;01.08.25 14:58:52;Anna_;01.08.25 14:58:52;128;1,02
+●;;Conversations (coded by Anna);conversation_10_annotatable_coder_1;Information-eliciting question (user);37;38;0;"Does whisking constantly make the souffle taste better?
+[conversation_id=wwwfod2dos] [conversation.id=-NAj47bmUdPV-YslLjdZ] [conversation.participant=user]";Anna_;01.08.25 14:58:59;Anna_;01.08.25 14:58:59;155;1,24
+●;;Conversations (coded by Anna);conversation_10_annotatable_coder_1;Information-eliciting question (user);41;42;0;"Do you have a video for this step?
+[conversation_id=wwwfod2dos] [conversation.id=-NAj4byY0Dck_MFeIiyQ] [conversation.participant=user]";Anna_;01.08.25 14:59:07;Anna_;01.08.25 14:59:07;134;1,07
+●;;Conversations (coded by Anna);conversation_10_annotatable_coder_1;Information-eliciting question (user);45;46;0;"Do you have a photo for this step?
+[conversation_id=wwwfod2dos] [conversation.id=-NAj4lwVzCLvZDErseu0] [conversation.participant=user]";Anna_;01.08.25 14:59:13;Anna_;01.08.25 14:59:13;134;1,07
+●;;Conversations (coded by Anna);conversation_10_annotatable_coder_1;Information-eliciting question (user);49;50;0;"What's next?
+[conversation_id=wwwfod2dos] [conversation.id=-NAj5CYPuR3FYaBwKVpo] [conversation.participant=user]";Anna_;01.08.25 14:59:19;Anna_;01.08.25 14:59:19;112;0,89
+●;;Conversations (coded by Anna);conversation_10_annotatable_coder_1;Information-eliciting question (user);54;55;0;"Where does bechamel sauce come from?
+[conversation_id=wwwfod2dos] [conversation.id=-NAj5OfS6mDBrdzflxCg] [conversation.participant=user]";Anna_;01.08.25 14:59:27;Anna_;01.08.25 14:59:27;136;1,08
+●;;Conversations (coded by Anna);conversation_10_annotatable_coder_1;Information-eliciting question (user);58;59;0;"What does bechamel sauce look like?
+[conversation_id=wwwfod2dos] [conversation.id=-NAj5kFCvZIixLbqWWpf] [conversation.participant=user]";Anna_;01.08.25 14:59:32;Anna_;01.08.25 14:59:32;135;1,08
+●;;Conversations (coded by Anna);conversation_10_annotatable_coder_1;Information-eliciting question (user);62;63;0;"How much salt and pepper do i use?
+[conversation_id=wwwfod2dos] [conversation.id=-NAj5waoqrEfAMNx8YqV] [conversation.participant=user]";Anna_;01.08.25 14:59:36;Anna_;01.08.25 14:59:36;134;1,07
+●;;Conversations (coded by Anna);conversation_10_annotatable_coder_1;Information-eliciting question (user);66;67;0;"What is step 4?
+[conversation_id=wwwfod2dos] [conversation.id=-NAj67SKkfULaloLWcD2] [conversation.participant=user]";Anna_;01.08.25 14:59:46;Anna_;01.08.25 14:59:46;115;0,92
+●;;Conversations (coded by Anna);conversation_10_annotatable_coder_1;Information-eliciting question (user);71;72;0;"Why do you only use egg yolks?
+[conversation_id=wwwfod2dos] [conversation.id=-NAj6CVuSVSP8W7pYuSd] [conversation.participant=user]";Anna_;01.08.25 14:59:50;Anna_;01.08.25 14:59:50;130;1,04
+●;;Conversations (coded by Anna);conversation_10_annotatable_coder_1;Information-eliciting question (user);75;76;0;"What next?
+[conversation_id=wwwfod2dos] [conversation.id=-NAj6tteA-MgKbEugozi] [conversation.participant=user]";Anna_;01.08.25 14:59:57;Anna_;01.08.25 14:59:57;110;0,88
+●;;Conversations (coded by Anna);conversation_10_annotatable_coder_1;Information-eliciting question (user);80;81;0;"What is a French whisk?
+[conversation_id=wwwfod2dos] [conversation.id=-NAj7-txWn9Cc-yhVFyR] [conversation.participant=user]";Anna_;01.08.25 15:00:03;Anna_;01.08.25 15:00:03;123;0,98
+●;;Conversations (coded by Anna);conversation_10_annotatable_coder_1;Information-eliciting question (user);84;85;0;"Does using a French whisk make the souffle better?
+[conversation_id=wwwfod2dos] [conversation.id=-NAj7ZUVZmbnW-szP6zP] [conversation.participant=user]";Anna_;01.08.25 15:00:09;Anna_;01.08.25 15:00:09;150;1,20
+●;;Conversations (coded by Anna);conversation_10_annotatable_coder_1;Information-eliciting question (user);88;89;0;"what is the origin of the Savory Cheese Souffle?
+[conversation_id=wwwfod2dos] [conversation.id=-NAj8LyobUd25AYvLbbC] [conversation.participant=user]";Anna_;01.08.25 15:00:15;Anna_;01.08.25 15:00:15;148;1,18
+●;;Conversations (coded by Anna);conversation_10_annotatable_coder_1;Information-eliciting question (user);97;98;0;"Where does Gruyere come from?
+[conversation_id=wwwfod2dos] [conversation.id=-NAj8wmgMzRkDP8cecyF] [conversation.participant=user]";Anna_;01.08.25 15:00:51;Anna_;01.08.25 15:00:51;129;1,03
+●;;Conversations (coded by Anna);conversation_10_annotatable_coder_1;Information-eliciting question (user);103;104;0;"why do you use Gruyere?
+[conversation_id=wwwfod2dos] [conversation.id=-NAjA8kPPMVe8oUu19L0] [conversation.participant=user]";Anna_;01.08.25 15:02:39;Anna_;01.08.25 15:02:39;123;0,98
+●;;Conversations (coded by Anna);conversation_10_annotatable_coder_1;Information-eliciting question (user);112;113;0;"what is an offset spatula?
+[conversation_id=wwwfod2dos] [conversation.id=-NAjAjco1XLP4pLonG2r] [conversation.participant=user]";Anna_;01.08.25 15:02:46;Anna_;01.08.25 15:02:46;126;1,01
+●;;Conversations (coded by Anna);conversation_10_annotatable_coder_1;Information-eliciting question (user);126;127;0;"why does souffle deflate?
+[conversation_id=wwwfod2dos] [conversation.id=-NAjBLMRN8PzRQHgDxSX] [conversation.participant=user]";Anna_;01.08.25 15:09:23;Anna_;01.08.25 15:09:23;125;1,00
+●;;Conversations (coded by Anna);conversation_14_annotatable_coder_1;Information-eliciting question (user);20;21;0;"Is there a specific type of basil that's best?
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAEYg_fmL-yJcsmclCP] [conversation.participant=user]";Anna_;01.08.25 15:21:18;Anna_;01.08.25 15:21:18;160;2,78
+●;;Conversations (coded by Anna);conversation_14_annotatable_coder_1;Information-eliciting question (user);42;43;0;"How long can I store the pesto in the fridge?
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAEZrsCidl-1GodpjS8] [conversation.participant=user]";Anna_;01.08.25 15:21:34;Anna_;01.08.25 15:21:34;159;2,76
+●;;Conversations (coded by Anna);conversation_14_annotatable_coder_1;Information-eliciting question (user);47;48;0;"Is it okay to store the pesto in a plastic container?
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAE_ITSL8ze9E7RIFG-] [conversation.participant=user]";Anna_;01.08.25 15:21:41;Anna_;01.08.25 15:21:41;167;2,90
+●;;Conversations (coded by Anna);conversation_22_annotatable_coder_1;Information-eliciting question (user);29;30;0;"will the taste be very different if I reduce marinating time?
+[conversation_id=KlOmIXe] [conversation.id=-NH4Tyu5lh8dnetOLQKR] [conversation.participant=user]";Anna_;01.08.25 15:44:58;Anna_;01.08.25 15:44:58;158;1,81
+●;;Conversations (coded by Anna);conversation_22_annotatable_coder_1;Information-eliciting question (user);89;90;0;"what is the origin of southern fried recipe
+[conversation_id=KlOmIXe] [conversation.id=-NH4WHyINMZ8uTGIw35n] [conversation.participant=user]";Anna_;01.08.25 15:45:21;Anna_;01.08.25 15:45:21;140;1,60
+●;;Conversations (coded by Anna);conversation_27_annotatable_coder_1;Information-eliciting question (user);15;16;0;"where is the note about pecorino fiore sardo
+[conversation_id=2b71cb60] [conversation.id=-NKcdGXcsiVOm0IIG_P3] [conversation.participant=user]";Anna_;01.08.25 16:13:10;Anna_;01.08.25 16:13:10;142;1,99
+●;;Conversations (coded by Anna);conversation_27_annotatable_coder_1;Information-eliciting question (user);21;22;0;"could i use chilli olive oil
+[conversation_id=2b71cb60] [conversation.id=-NKcdbW3DizvJGYEeDlT] [conversation.participant=user]";Anna_;01.08.25 16:13:15;Anna_;01.08.25 16:13:15;126;1,77
+●;;Conversations (coded by Anna);conversation_27_annotatable_coder_1;Information-eliciting question (user);76;77;0;"does it last longer than overnight
+[conversation_id=2b71cb60] [conversation.id=-NKcfCmtmbOFtuAYKeGZ] [conversation.participant=user]";Anna_;01.08.25 16:14:04;Anna_;01.08.25 16:14:04;132;1,85
+●;Statement;Conversations (coded by Anna);conversation_3_annotatable_coder_1;Offer – direct (agent);1;3;0;"feel free to ask questions. If you are ready to start cooking simply say start
+.
+[conversation_id=77x3diEC4B] [conversation.id=-NBXU3qaGoIT7SdggmEb] [conversation.participant=agent]";Anna_;27.07.25 18:36:09;Anna_;17.07.25 21:03:20;181;5,01
+●;Statement;Conversations (coded by Anna);conversation_6_annotatable_coder_1;Offer – direct (agent);11;12;0;"and once you are ready we can start cooking.
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YS8dhNvyTDaEFWyCc] [conversation.participant=agent]";Anna_;27.07.25 18:52:01;Anna_;27.07.25 18:51:54;159;1,35
+●;Statement;Conversations (coded by Anna);conversation_10_annotatable_coder_1;Offer – direct (agent);1;2;0;"feel free to ask questions. Just to remind you, your goal today is to interact with our chatbot and ask questions about the history, science, and techniques associated with a specific step. Whenever you feel ready, feel free to start!
+[conversation_id=wwwfod2dos] [conversation.id=-NAj273Wof32CXUOgnkH] [conversation.participant=agent]";Anna_;27.07.25 18:36:38;Anna_;17.07.25 20:46:35;335;2,67
+●;Statement;Conversations (coded by Anna);conversation_14_annotatable_coder_1;Offer – direct (agent);3;4;0;"feel free to ask questions. If you are ready to start cooking simply say next.
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAEYD05HPUN972EuMGj] [conversation.participant=agent]";Anna_;27.07.25 18:36:51;Anna_;17.07.25 20:39:22;193;3,35
+●;Statement;Conversations (coded by Anna);conversation_22_annotatable_coder_1;Offer – direct (agent);3;4;0;"feel free to ask questions. If you are ready to start cooking simply say next.
+[conversation_id=KlOmIXe] [conversation.id=-NH4SQxJIhRajqZJdIoa] [conversation.participant=agent]";Anna_;27.07.25 18:37:16;Anna_;17.07.25 19:25:51;176;2,01
+●;Statement;Conversations (coded by Anna);conversation_27_annotatable_coder_1;Offer – direct (agent);7;8;0;"feel free to ask questions. If you are ready to start cooking, simply say start.
+[conversation_id=2b71cb60] [conversation.id=-NKcct1dOx8HWcvRP8ps] [conversation.participant=agent]";Anna_;27.07.25 18:37:36;Anna_;17.07.25 18:36:23;179;2,51
+●;Statement;Conversations (coded by Anna);conversation_27_annotatable_coder_1;Offer – direct (agent);35;36;0;"But if you have any questions, feel free to ask.
+[conversation_id=2b71cb60] [conversation.id=-NKceZRpghu-COaf2Ag2] [conversation.participant=agent]";Anna_;27.07.25 18:37:38;Anna_;17.07.25 18:39:33;147;2,06
+●;Delay;Conversations (coded by Anna);conversation_3_annotatable_coder_1;Offer – indirect (agent);19;20;0;"Let me see...
+[conversation_id=77x3diEC4B] [conversation.id=-NBXUkk1Qw0EKEqgkBKP] [conversation.participant=agent]";Anna_;27.07.25 17:57:40;Anna_;27.07.25 17:57:36;114;3,16
+●;;Conversations (coded by Anna);conversation_10_annotatable_coder_1;Offer – indirect (agent);101;102;0;"Do you have any other questions on this step?
+[conversation_id=wwwfod2dos] [conversation.id=-NAjA6mLUKxhduswwlpX] [conversation.participant=agent]";Anna_;01.08.25 15:01:06;Anna_;01.08.25 15:01:06;146;1,16
+●;;Conversations (coded by Anna);conversation_22_annotatable_coder_1;Offer – indirect (agent);7;8;0;"How can I help you?
+[conversation_id=KlOmIXe] [conversation.id=-NH4SYXj4ldN6oFBzUyK] [conversation.participant=agent]";Anna_;17.07.25 17:46:55;Anna_;17.07.25 17:46:55;117;1,34
+●;Delay;Conversations (coded by Anna);conversation_22_annotatable_coder_1;Offer – indirect (agent);15;16;0;"Let me see...
+[conversation_id=KlOmIXe] [conversation.id=-NH4T6HpUjylyoyja8zf] [conversation.participant=agent]";Anna_;27.07.25 17:49:05;Anna_;27.07.25 17:48:48;111;1,27
+●;;Conversations (coded by Anna);conversation_22_annotatable_coder_1;Offer – indirect (agent);31;32;0;"Let me tell you
+[conversation_id=KlOmIXe] [conversation.id=-NH4UBEpwYBjGYrCA6DV] [conversation.participant=agent]";Anna_;27.07.25 17:50:04;Anna_;27.07.25 17:50:04;113;1,29
+●;;Conversations (coded by Anna);conversation_27_annotatable_coder_1;Offer – indirect (agent);11;12;0;"Do you have any questions about the tools or ingredients required to make pesto?
+[conversation_id=2b71cb60] [conversation.id=-NKcd14mqW3ykZR_3PDE] [conversation.participant=agent]";Anna_;01.08.25 16:13:03;Anna_;01.08.25 16:13:03;179;2,51
+●;;Conversations (coded by Anna);conversation_27_annotatable_coder_1;Offer – indirect (agent);55;56;0;"do you have any questions?
+[conversation_id=2b71cb60] [conversation.id=-NKcern5z1Qnkfu0KM7I] [conversation.participant=agent]";Anna_;01.08.25 16:13:47;Anna_;01.08.25 16:13:47;125;1,75
+●;;Conversations (coded by Anna);conversation_27_annotatable_coder_1;Offer – indirect (agent);59;60;0;"Let's go to the next step
+[conversation_id=2b71cb60] [conversation.id=-NKceyeyi3uMsyjhrbe9] [conversation.participant=agent]";Anna_;27.07.25 18:16:21;Anna_;27.07.25 18:16:21;124;1,74
+●;;Conversations (coded by Anna);conversation_22_annotatable_coder_1;Politeness marker please (agent);11;12;0;"pleas say ""next"".
+[conversation_id=KlOmIXe] [conversation.id=-NH4Sv9LOIyVv1agAvpm] [conversation.participant=agent]";Anna_;27.07.25 19:42:13;Anna_;27.07.25 19:42:13;115;1,32
+●;;Conversations (coded by Anna);conversation_10_annotatable_coder_1;Politeness marker please (user);121;122;0;"please
+[conversation_id=wwwfod2dos] [conversation.id=-NAjBE-9fC14_nJMGhb1] [conversation.participant=user]";Anna_;24.07.25 16:44:31;Anna_;24.07.25 16:44:31;106;0,85
+●;Instruction followed by offer of help;Conversations (coded by Anna);conversation_3_annotatable_coder_1;Request – direct (agent);1;3;0;"Make sure you have all the ingredients and tools and feel free to ask questions. If you are ready to start cooking simply say start
+.
+[conversation_id=77x3diEC4B] [conversation.id=-NBXU3qaGoIT7SdggmEb] [conversation.participant=agent]";Anna_;27.07.25 18:40:41;Anna_;27.07.25 18:40:38;234;6,48
+●;Instruction followed by offer of help;Conversations (coded by Anna);conversation_6_annotatable_coder_1;Request – direct (agent);11;12;0;"Make sure you have everything you need, and once you are ready we can start cooking.
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YS8dhNvyTDaEFWyCc] [conversation.participant=agent]";Anna_;27.07.25 18:41:33;Anna_;27.07.25 18:41:30;199;1,69
+●;Instruction followed by offer of help;Conversations (coded by Anna);conversation_10_annotatable_coder_1;Request – direct (agent);1;2;0;"Make sure you have all the ingredients and tools and feel free to ask questions. Just to remind you, your goal today is to interact with our chatbot and ask questions about the history, science, and techniques associated with a specific step. Whenever you feel ready, feel free to start!
+[conversation_id=wwwfod2dos] [conversation.id=-NAj273Wof32CXUOgnkH] [conversation.participant=agent]";Anna_;27.07.25 18:42:10;Anna_;27.07.25 18:42:07;388;3,10
+●;Instruction followed by offer of help;Conversations (coded by Anna);conversation_14_annotatable_coder_1;Request – direct (agent);3;4;0;"Make sure you have all the ingredients and tools and feel free to ask questions. If you are ready to start cooking simply say next.
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAEYD05HPUN972EuMGj] [conversation.participant=agent]";Anna_;27.07.25 18:43:13;Anna_;27.07.25 18:43:10;246;4,27
+●;Instruction followed by offer of help;Conversations (coded by Anna);conversation_22_annotatable_coder_1;Request – direct (agent);3;4;0;"Make sure you have all the ingredients and tools and feel free to ask questions. If you are ready to start cooking simply say next.
+[conversation_id=KlOmIXe] [conversation.id=-NH4SQxJIhRajqZJdIoa] [conversation.participant=agent]";Anna_;27.07.25 18:44:55;Anna_;27.07.25 18:44:51;229;2,62
+●;;Conversations (coded by Anna);conversation_22_annotatable_coder_1;Request – direct (agent);11;12;0;"If you want to move to the next step pleas say ""next"".
+[conversation_id=KlOmIXe] [conversation.id=-NH4Sv9LOIyVv1agAvpm] [conversation.participant=agent]";Anna_;27.07.25 19:42:05;Anna_;27.07.25 19:42:05;152;1,74
+●;Instruction followed by offer of help;Conversations (coded by Anna);conversation_27_annotatable_coder_1;Request – direct (agent);7;8;0;"Make sure you have all the ingredients and tools and feel free to ask questions. If you are ready to start cooking, simply say start.
+[conversation_id=2b71cb60] [conversation.id=-NKcct1dOx8HWcvRP8ps] [conversation.participant=agent]";Anna_;27.07.25 18:47:48;Anna_;27.07.25 18:47:45;232;3,26
+●;Imperative;Conversations (coded by Anna);conversation_14_annotatable_coder_1;Request – direct (user);31;32;0;"Remind me which types of cheese to use
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAEZCIsjE2091AqL_oY] [conversation.participant=user]";christineelsweiler;14.07.25 13:45:52;User2;13.07.25 12:16:54;152;2,64
+●;Ability-oriented question;Conversations (coded by Anna);conversation_3_annotatable_coder_1;Request – indirect (user);6;7;0;"Can you show me an image of what the Parisian Gnocchi looks like?
+[conversation_id=77x3diEC4B] [conversation.id=-NBXUIi-fM89JV-q2XE2] [conversation.participant=user]";christineelsweiler;14.07.25 13:45:53;User2;12.07.25 17:41:21;165;4,57
+●;Ability-oriented question;Conversations (coded by Anna);conversation_3_annotatable_coder_1;Request – indirect (user);23;24;0;"Can you show me a video of someone making this recipe?
+[conversation_id=77x3diEC4B] [conversation.id=-NBXVLZdn3rZv3EvLsSM] [conversation.participant=user]";christineelsweiler;14.07.25 13:45:53;User2;12.07.25 17:41:59;154;4,27
+●;Ability-oriented question;Conversations (coded by Anna);conversation_10_annotatable_coder_1;Request – indirect (user);3;4;0;"Can you tell me where Grana Padano cheese comes from
+[conversation_id=wwwfod2dos] [conversation.id=-NAj2K63_M15JlKPJhkt] [conversation.participant=user]";christineelsweiler;14.07.25 13:45:52;User2;12.07.25 19:19:18;152;1,21
+●;Ability-oriented question;Conversations (coded by Anna);conversation_10_annotatable_coder_1;Request – indirect (user);7;8;0;"Can you show me how the Savory Cheese Souffle should look?
+[conversation_id=wwwfod2dos] [conversation.id=-NAj2p9-17P6fnIClb8s] [conversation.participant=user]";christineelsweiler;14.07.25 13:45:52;User2;12.07.25 19:19:35;158;1,26
+●;Possibility-oriented question;Conversations (coded by Anna);conversation_10_annotatable_coder_1;Request – indirect (user);18;19;0;"Can I see a video of the ramekin being greased?
+[conversation_id=wwwfod2dos] [conversation.id=-NAj3ITaY0UphtXTIbxO] [conversation.participant=user]";christineelsweiler;14.07.25 13:45:52;User2;12.07.25 19:19:56;147;1,17
+●;Ability-oriented question;Conversations (coded by Anna);conversation_10_annotatable_coder_1;Request – indirect (user);22;23;0;"Can you show me a video for step 1?
+[conversation_id=wwwfod2dos] [conversation.id=-NAj3RFhmKC8uVFBcdA-] [conversation.participant=user]";christineelsweiler;14.07.25 13:45:52;User2;12.07.25 19:20:57;135;1,08
+●;Possibility-oriented question;Conversations (coded by Anna);conversation_10_annotatable_coder_1;Request – indirect (user);26;27;0;"can I see step 2?
+[conversation_id=wwwfod2dos] [conversation.id=-NAj3ZZnrhe7clYB-nFe] [conversation.participant=user]";christineelsweiler;14.07.25 13:45:52;User2;12.07.25 19:21:52;117;0,93
+●;Possibility-oriented question;Conversations (coded by Anna);conversation_22_annotatable_coder_1;Request – indirect (user);13;14;0;"can I use whole garlic rather than garlic granules?
+[conversation_id=KlOmIXe] [conversation.id=-NH4T1mn2w53lnkkjwRt] [conversation.participant=user]";Anna_;17.07.25 17:47:25;Anna_;17.07.25 17:47:13;148;1,69
+●;Possibility-oriented question;Conversations (coded by Anna);conversation_22_annotatable_coder_1;Request – indirect (user);56;57;0;"can i see a video of the frying process?
+[conversation_id=KlOmIXe] [conversation.id=-NH4VjIxrRb1zyluj0sC] [conversation.participant=user]";Anna_;17.07.25 17:48:39;Anna_;17.07.25 17:48:27;137;1,57
+●;;Conversations (coded by Anna);conversation_3_annotatable_coder_1;Request – non-sentential (user);4;5;0;"Start
+[conversation_id=77x3diEC4B] [conversation.id=-NBXU7Ay0WnsjjNlH1IE] [conversation.participant=user]";Anna_;17.07.25 21:03:32;Anna_;17.07.25 21:03:32;105;2,91
+●;;Conversations (coded by Anna);conversation_6_annotatable_coder_1;Request – non-sentential (user);13;14;0;"Next
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YSHaaEneJJlfR6nVo] [conversation.participant=user]";christineelsweiler;14.07.25 13:45:52;User2;12.07.25 18:28:40;118;1,00
+●;;Conversations (coded by Anna);conversation_6_annotatable_coder_1;Request – non-sentential (user);18;19;0;"Next
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YSOVHxJbm5LIGzYsG] [conversation.participant=user]";christineelsweiler;14.07.25 13:45:52;User2;12.07.25 18:28:49;118;1,00
+●;;Conversations (coded by Anna);conversation_6_annotatable_coder_1;Request – non-sentential (user);29;30;0;"Next
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YT10OaXNXSCUAkbOw] [conversation.participant=user]";christineelsweiler;14.07.25 13:45:52;User2;12.07.25 18:29:15;118;1,00
+●;;Conversations (coded by Anna);conversation_6_annotatable_coder_1;Request – non-sentential (user);34;35;0;"Next
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YTCx1izof6VEAZmHZ] [conversation.participant=user]";christineelsweiler;14.07.25 13:45:52;User2;12.07.25 18:29:23;118;1,00
+●;;Conversations (coded by Anna);conversation_6_annotatable_coder_1;Request – non-sentential (user);39;40;0;"Next
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YTKxRDeWB3lWD2n9i] [conversation.participant=user]";christineelsweiler;14.07.25 13:45:52;User2;12.07.25 18:29:31;118;1,00
+●;;Conversations (coded by Anna);conversation_6_annotatable_coder_1;Request – non-sentential (user);44;45;0;"Next
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YTSs3_NP3AIujgIP9] [conversation.participant=user]";christineelsweiler;14.07.25 13:45:52;User2;12.07.25 18:29:42;118;1,00
+●;;Conversations (coded by Anna);conversation_6_annotatable_coder_1;Request – non-sentential (user);49;50;0;"Next
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YTXU7_HQQzV1jBtsz] [conversation.participant=user]";christineelsweiler;14.07.25 13:45:52;User2;12.07.25 18:29:53;118;1,00
+●;;Conversations (coded by Anna);conversation_6_annotatable_coder_1;Request – non-sentential (user);54;55;0;"Next
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YTfqciFsKaWZADFXl] [conversation.participant=user]";christineelsweiler;14.07.25 13:45:52;User2;12.07.25 18:30:01;118;1,00
+●;;Conversations (coded by Anna);conversation_6_annotatable_coder_1;Request – non-sentential (user);65;66;0;"Next
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YUFwK9QzYZdeifCf9] [conversation.participant=user]";christineelsweiler;14.07.25 13:45:52;User2;12.07.25 18:30:40;118;1,00
+●;;Conversations (coded by Anna);conversation_6_annotatable_coder_1;Request – non-sentential (user);74;75;0;"Next
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YUQSRHe9rVBlWrDG0] [conversation.participant=user]";christineelsweiler;14.07.25 13:45:52;User2;12.07.25 18:30:55;118;1,00
+●;;Conversations (coded by Anna);conversation_6_annotatable_coder_1;Request – non-sentential (user);79;80;0;"Next
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YUX1JSwDNpoenLAPy] [conversation.participant=user]";christineelsweiler;14.07.25 13:45:52;User2;12.07.25 18:31:03;118;1,00
+●;;Conversations (coded by Anna);conversation_6_annotatable_coder_1;Request – non-sentential (user);84;85;0;"Next
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YUdKBLIUjXQPMizhr] [conversation.participant=user]";christineelsweiler;14.07.25 13:45:52;User2;12.07.25 18:31:10;118;1,00
+●;;Conversations (coded by Anna);conversation_6_annotatable_coder_1;Request – non-sentential (user);89;90;0;"Next
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YUj_nWS1LFz3AqwIt] [conversation.participant=user]";christineelsweiler;14.07.25 13:45:52;User2;12.07.25 18:31:27;118;1,00
+●;;Conversations (coded by Anna);conversation_6_annotatable_coder_1;Request – non-sentential (user);94;95;0;"Next
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YUv-63hSne1L6MyM7] [conversation.participant=user]";christineelsweiler;14.07.25 13:45:52;User2;12.07.25 18:31:36;118;1,00
+●;;Conversations (coded by Anna);conversation_6_annotatable_coder_1;Request – non-sentential (user);99;100;0;"Next
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YUzaYo28NDeslG5D9] [conversation.participant=user]";christineelsweiler;14.07.25 13:45:52;User2;12.07.25 18:31:44;118;1,00
+●;;Conversations (coded by Anna);conversation_6_annotatable_coder_1;Request – non-sentential (user);104;105;0;"Next
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YV5UPUJNoAK9FBsI3] [conversation.participant=user]";christineelsweiler;14.07.25 13:45:52;User2;12.07.25 18:31:51;118;1,00
+●;;Conversations (coded by Anna);conversation_6_annotatable_coder_1;Request – non-sentential (user);109;110;0;"Next
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YV9m7_Ss9-qGPZjpS] [conversation.participant=user]";christineelsweiler;14.07.25 13:45:52;User2;12.07.25 18:32:00;118;1,00
+●;;Conversations (coded by Anna);conversation_6_annotatable_coder_1;Request – non-sentential (user);114;115;0;"Next
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YVLAt-nhXlouVUx3b] [conversation.participant=user]";christineelsweiler;14.07.25 13:45:52;User2;12.07.25 18:32:08;118;1,00
+●;;Conversations (coded by Anna);conversation_6_annotatable_coder_1;Request – non-sentential (user);119;120;0;"Next
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YVSRVLLUMXFcBRUB0] [conversation.participant=user]";christineelsweiler;14.07.25 13:45:52;User2;12.07.25 18:32:15;118;1,00
+●;;Conversations (coded by Anna);conversation_6_annotatable_coder_1;Request – non-sentential (user);130;131;0;"Next
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YWwSgJA2ideQ-ALI4] [conversation.participant=user]";christineelsweiler;14.07.25 13:45:52;User2;12.07.25 18:32:52;118;1,00
+●;;Conversations (coded by Anna);conversation_6_annotatable_coder_1;Request – non-sentential (user);135;136;0;"Next
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YX8MMzolPSuqgoZV-] [conversation.participant=user]";christineelsweiler;14.07.25 13:45:52;User2;12.07.25 18:32:59;118;1,00
+●;;Conversations (coded by Anna);conversation_6_annotatable_coder_1;Request – non-sentential (user);140;141;0;"Next
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YXALnliW1mcc6OPJc] [conversation.participant=user]";christineelsweiler;14.07.25 13:45:52;User2;12.07.25 18:33:05;118;1,00
+●;;Conversations (coded by Anna);conversation_6_annotatable_coder_1;Request – non-sentential (user);145;146;0;"Next
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YXCCuEQdcJYl9MY_0] [conversation.participant=user]";christineelsweiler;14.07.25 13:45:52;User2;12.07.25 18:33:11;118;1,00
+●;;Conversations (coded by Anna);conversation_10_annotatable_coder_1;Request – non-sentential (user);92;93;0;"next
+[conversation_id=wwwfod2dos] [conversation.id=-NAj8r0YD4IEavziNtc_] [conversation.participant=user]";christineelsweiler;14.07.25 13:45:52;User2;12.07.25 19:36:36;104;0,83
+●;;Conversations (coded by Anna);conversation_10_annotatable_coder_1;Request – non-sentential (user);107;108;0;"next
+[conversation_id=wwwfod2dos] [conversation.id=-NAjARcKpq5gjZtbPOEY] [conversation.participant=user]";christineelsweiler;14.07.25 13:45:52;User2;12.07.25 19:36:56;104;0,83
+●;;Conversations (coded by Anna);conversation_10_annotatable_coder_1;Request – non-sentential (user);116;117;0;"next?
+[conversation_id=wwwfod2dos] [conversation.id=-NAjB7ft1KyJ1hMGHzjW] [conversation.participant=user]";christineelsweiler;14.07.25 13:45:52;User2;12.07.25 19:37:17;105;0,84
+●;;Conversations (coded by Anna);conversation_10_annotatable_coder_1;Request – non-sentential (user);121;122;0;"next step please
+[conversation_id=wwwfod2dos] [conversation.id=-NAjBE-9fC14_nJMGhb1] [conversation.participant=user]";Anna_;25.07.25 19:44:49;User2;12.07.25 19:37:25;116;0,93
+●;;Conversations (coded by Anna);conversation_10_annotatable_coder_1;Request – non-sentential (user);131;132;0;"next
+[conversation_id=wwwfod2dos] [conversation.id=-NAjCErLerFvAqYrSToD] [conversation.participant=user]";christineelsweiler;14.07.25 13:45:52;User2;12.07.25 19:37:50;104;0,83
+●;;Conversations (coded by Anna);conversation_14_annotatable_coder_1;Request – non-sentential (user);5;6;0;"Next
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAEYF2HoxdHure4Yz41] [conversation.participant=user]";christineelsweiler;14.07.25 13:45:52;User2;13.07.25 12:15:46;118;2,05
+●;;Conversations (coded by Anna);conversation_14_annotatable_coder_1;Request – non-sentential (user);10;11;0;"Next
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAEYLr95ds1As6SdEOl] [conversation.participant=user]";christineelsweiler;14.07.25 13:45:52;User2;13.07.25 12:15:53;118;2,05
+●;;Conversations (coded by Anna);conversation_14_annotatable_coder_1;Request – non-sentential (user);15;16;0;"Next
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAEYbGCZlKjkhG-UdgQ] [conversation.participant=user]";christineelsweiler;14.07.25 13:45:52;User2;13.07.25 12:16:00;118;2,05
+●;;Conversations (coded by Anna);conversation_14_annotatable_coder_1;Request – non-sentential (user);26;27;0;"Next
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAEZ4chIb8Xo8FyQzzZ] [conversation.participant=user]";christineelsweiler;14.07.25 13:45:52;User2;13.07.25 12:16:30;118;2,05
+●;;Conversations (coded by Anna);conversation_14_annotatable_coder_1;Request – non-sentential (user);37;38;0;"next
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAEZn0FJceU68gDR4Xp] [conversation.participant=user]";christineelsweiler;14.07.25 13:45:52;User2;13.07.25 12:18:08;118;2,05
+●;;Conversations (coded by Anna);conversation_14_annotatable_coder_1;Request – non-sentential (user);53;54;0;"next
+[conversation_id=61489eae028bc2392c90af21] [conversation.id=-NAE_Zb5QI58tGRlVNz9] [conversation.participant=user]";christineelsweiler;14.07.25 13:45:52;User2;13.07.25 12:19:49;118;2,05
+●;;Conversations (coded by Anna);conversation_22_annotatable_coder_1;Request – non-sentential (user);5;6;0;"next
+[conversation_id=KlOmIXe] [conversation.id=-NH4SW9gzvj-M9JmCFpF] [conversation.participant=user]";Anna_;17.07.25 17:45:49;Anna_;17.07.25 17:45:49;101;1,16
+●;;Conversations (coded by Anna);conversation_22_annotatable_coder_1;Request – non-sentential (user);19;20;0;"next
+[conversation_id=KlOmIXe] [conversation.id=-NH4TfNLiyjoLtFy4kox] [conversation.participant=user]";Anna_;17.07.25 17:47:44;Anna_;17.07.25 17:47:44;101;1,16
+●;;Conversations (coded by Anna);conversation_22_annotatable_coder_1;Request – non-sentential (user);24;25;0;"nrxt
+[conversation_id=KlOmIXe] [conversation.id=-NH4TkvsSaGtgSFXLCFU] [conversation.participant=user]";Anna_;17.07.25 17:47:49;Anna_;17.07.25 17:47:49;101;1,16
+●;;Conversations (coded by Anna);conversation_22_annotatable_coder_1;Request – non-sentential (user);35;36;0;"next
+[conversation_id=KlOmIXe] [conversation.id=-NH4UpMTlA8xz0_r0oJl] [conversation.participant=user]";Anna_;17.07.25 17:48:06;Anna_;17.07.25 17:48:06;101;1,16
+●;;Conversations (coded by Anna);conversation_22_annotatable_coder_1;Request – non-sentential (user);42;43;0;"next
+[conversation_id=KlOmIXe] [conversation.id=-NH4V04TdseG9jtzHjWB] [conversation.participant=user]";Anna_;17.07.25 17:48:12;Anna_;17.07.25 17:48:12;101;1,16
+●;;Conversations (coded by Anna);conversation_22_annotatable_coder_1;Request – non-sentential (user);49;50;0;"next
+[conversation_id=KlOmIXe] [conversation.id=-NH4VXfMcbXQiNIeNbc0] [conversation.participant=user]";Anna_;17.07.25 17:48:21;Anna_;17.07.25 17:48:21;101;1,16
+●;;Conversations (coded by Anna);conversation_22_annotatable_coder_1;Request – non-sentential (user);62;63;0;"next
+[conversation_id=KlOmIXe] [conversation.id=-NH4VwDvwMhCUCQUznjc] [conversation.participant=user]";Anna_;17.07.25 17:49:30;Anna_;17.07.25 17:49:30;101;1,16
+●;;Conversations (coded by Anna);conversation_22_annotatable_coder_1;Request – non-sentential (user);84;85;0;"next
+[conversation_id=KlOmIXe] [conversation.id=-NH4W92Tq6jcXNpbJj93] [conversation.participant=user]";Anna_;17.07.25 17:49:38;Anna_;17.07.25 17:49:38;101;1,16
+●;;Conversations (coded by Anna);conversation_22_annotatable_coder_1;Request – non-sentential (user);93;94;0;"next
+[conversation_id=KlOmIXe] [conversation.id=-NH4Wjay-c7-5YG-JfQR] [conversation.participant=user]";Anna_;17.07.25 17:49:44;Anna_;17.07.25 17:49:44;101;1,16
+●;;Conversations (coded by Anna);conversation_27_annotatable_coder_1;Request – non-sentential (user);9;10;0;"start
+[conversation_id=2b71cb60] [conversation.id=-NKccvbDmpAuPxBynKfh] [conversation.participant=user]";Anna_;17.07.25 18:36:33;Anna_;17.07.25 18:36:33;103;1,45
+●;;Conversations (coded by Anna);conversation_27_annotatable_coder_1;Request – non-sentential (user);39;40;0;"next
+[conversation_id=2b71cb60] [conversation.id=-NKceauYrP8VAh00OwLS] [conversation.participant=user]";Anna_;17.07.25 18:39:45;Anna_;17.07.25 18:39:45;102;1,43
+●;;Conversations (coded by Anna);conversation_27_annotatable_coder_1;Request – non-sentential (user);44;45;0;"next
+[conversation_id=2b71cb60] [conversation.id=-NKceeKP8Dz6L74xQgMO] [conversation.participant=user]";Anna_;17.07.25 18:39:49;Anna_;17.07.25 18:39:49;102;1,43
+●;;Conversations (coded by Anna);conversation_27_annotatable_coder_1;Request – non-sentential (user);51;52;0;"next
+[conversation_id=2b71cb60] [conversation.id=-NKcejc4J86kALJLo1A2] [conversation.participant=user]";Anna_;17.07.25 18:40:10;Anna_;17.07.25 18:40:10;102;1,43
+●;;Conversations (coded by Anna);conversation_27_annotatable_coder_1;Request – non-sentential (user);53;54;0;"next
+[conversation_id=2b71cb60] [conversation.id=-NKceqPSLlL1qElvyQry] [conversation.participant=user]";Anna_;17.07.25 18:40:14;Anna_;17.07.25 18:40:14;102;1,43
+●;;Conversations (coded by Anna);conversation_27_annotatable_coder_1;Request – non-sentential (user);64;65;0;"next
+[conversation_id=2b71cb60] [conversation.id=-NKcf0vxvI_nLgioxkCP] [conversation.participant=user]";Anna_;17.07.25 18:42:28;Anna_;17.07.25 18:42:28;102;1,43
+●;;Conversations (coded by Anna);conversation_27_annotatable_coder_1;Request – non-sentential (user);71;72;0;"next
+[conversation_id=2b71cb60] [conversation.id=-NKcf78tEoUNkZ179SON] [conversation.participant=user]";Anna_;17.07.25 18:43:30;Anna_;17.07.25 18:43:30;102;1,43
+●;;Conversations (coded by Anna);conversation_27_annotatable_coder_1;Request – non-sentential (user);78;79;0;"next
+[conversation_id=2b71cb60] [conversation.id=-NKcfFFWoYYY6WHHBq4z] [conversation.participant=user]";Anna_;17.07.25 18:43:37;Anna_;17.07.25 18:43:37;102;1,43
+●;;Conversations (coded by Anna);conversation_27_annotatable_coder_1;Request – non-sentential (user);80;81;0;"next
+[conversation_id=2b71cb60] [conversation.id=-NKcfQp2eaMozLISWx4c] [conversation.participant=user]";Anna_;17.07.25 18:43:40;Anna_;17.07.25 18:43:40;102;1,43
+●;;Conversations (coded by Anna);conversation_27_annotatable_coder_1;Request – non-sentential (user);86;87;0;"next
+[conversation_id=2b71cb60] [conversation.id=-NKcf_PfFoJdFvhBIWc1] [conversation.participant=user]";Anna_;17.07.25 18:44:37;Anna_;17.07.25 18:44:37;102;1,43
+●;;Conversations (coded by Anna);conversation_27_annotatable_coder_1;Request – non-sentential (user);90;91;0;"next
+[conversation_id=2b71cb60] [conversation.id=-NKcffSHxkyM_G4w48IX] [conversation.participant=user]";Anna_;17.07.25 18:45:11;Anna_;17.07.25 18:45:11;102;1,43
+●;;Conversations (coded by Anna);conversation_6_annotatable_coder_1;Thanking (agent);25;26;0;"Thanks for your question! The spine will be used to make the sauce.
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YStXUM2fRE20VJCjb] [conversation.participant=agent]";christineelsweiler;14.07.25 13:45:52;User2;12.07.25 18:29:02;182;1,55
+●;;Conversations (coded by Anna);conversation_6_annotatable_coder_1;Thanking (agent);126;127;0;"Thanks for your question! Whisking constantly, work the butter into the sauce, making sure to keep the sauce below the boil, lest it break. It should be silky and glossy, the butter is helping to enrich, thicken, and temper the acidic edge of the sauce even more. Sauces will usually break when there isn't enough liquid to hold the fat in suspension. Boiling removes liquid and therefore, the sauce might break.
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YWYCLD0iQTC8_erTG] [conversation.participant=agent]";christineelsweiler;14.07.25 13:45:52;User2;12.07.25 18:32:27;527;4,47
+●;Marking end of conversation;Conversations (coded by Anna);conversation_22_annotatable_coder_1;Thanking (agent);95;96;0;"Thank you, we already reached the last step.
+[conversation_id=KlOmIXe] [conversation.id=-NH4WoM2U95GO4P-zrJd] [conversation.participant=agent]";Anna_;17.07.25 17:50:01;Anna_;17.07.25 17:49:51;142;1,62
+●;;Conversations (coded by Anna);conversation_6_annotatable_coder_1;Thanking (user);128;129;0;"Thank you! I'll keep that in mind when attempting to make sauce in the future.
+[conversation_id=5c8d1bee1bb19f00019d519e] [conversation.id=-N4YWvqeFEuWCe5uB5Sh] [conversation.participant=user]";christineelsweiler;14.07.25 13:45:52;User2;12.07.25 18:32:34;192;1,63
+●;User specifies what they are thankful for;Conversations (coded by Anna);conversation_27_annotatable_coder_1;Thanking (user);49;50;0;"thanks for the reminder
+[conversation_id=2b71cb60] [conversation.id=-NKceiOnpdIUcJXlG3Nr] [conversation.participant=user]";Anna_;27.07.25 19:53:06;Anna_;27.07.25 19:52:58;121;1,70
+●;Thanking for agent information;Conversations (coded by Anna);conversation_27_annotatable_coder_1;Thanking (user);84;85;0;"thanks
+[conversation_id=2b71cb60] [conversation.id=-NKcfZEgm4RWMTI1w6dm] [conversation.participant=user]";Anna_;17.07.25 18:44:31;Anna_;17.07.25 18:44:08;104;1,46
+●;Thanking for compliment;Conversations (coded by Anna);conversation_27_annotatable_coder_1;Thanking (user);92;93;0;"thank you
+[conversation_id=2b71cb60] [conversation.id=-NKcfmHpJrbDebLw3pDo] [conversation.participant=user]";Anna_;17.07.25 18:45:28;Anna_;17.07.25 18:45:14;107;1,50
+●;;Conversations (coded by Anna);conversation_3_annotatable_coder_1;Verbal compliance with request (agent);8;9;0;"Sure
+[conversation_id=77x3diEC4B] [conversation.id=-NBXUKxeUIw_MHQ8GBiM] [conversation.participant=agent]";Anna_;17.07.25 21:03:37;Anna_;17.07.25 21:03:37;105;2,91

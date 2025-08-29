@@ -1,0 +1,141 @@
+Hi!
+[conversation_id=qk8kmns74p] [conversation.id=-NAix54iqdXIjEMDjYoh] [conversation.participant=user]
+
+Hey there! Happy to have you on board for our masterclass :) Today you will be learning how to prepare Souffle. Make sure you have all the ingredients and tools and feel free to ask questions. Just to remind you, your goal today is to interact with our chatbot and ask questions about the history, science, and techniques associated with a specific step. Whenever you feel ready, feel free to start!
+[conversation_id=qk8kmns74p] [conversation.id=-NAix6JsrC8Tpp9DgJzP] [conversation.participant=agent]
+
+What is a French whisk?
+[conversation_id=qk8kmns74p] [conversation.id=-NAixEzjujJjN3utn-gz] [conversation.participant=user]
+
+Next
+[conversation_id=qk8kmns74p] [conversation.id=-NAixPwigc8HWVKWdW5_] [conversation.participant=user]
+
+That's a great question. Let me see what I can find
+[conversation_id=qk8kmns74p] [conversation.id=-NAixQ1MeejguZuNjhBD] [conversation.participant=agent]
+
+next
+[conversation_id=qk8kmns74p] [conversation.id=-NAixYLnk74DBmOwGw1w] [conversation.participant=user]
+
+I'm sorry, I do not think I have this information
+[conversation_id=qk8kmns74p] [conversation.id=-NAixexovGPh512VoGHl] [conversation.participant=agent]
+
+
+[conversation_id=qk8kmns74p] [conversation.id=-NAixf6q2VpGYm23BGPg] [conversation.participant=agent]
+
+User moved to section "Step 1".
+[conversation_id=qk8kmns74p] [conversation.id=-NAixfDXd1X4F1NsdAYI] [conversation.participant=user]
+
+next
+[conversation_id=qk8kmns74p] [conversation.id=-NAiy3-eaxdT_9LS-s9y] [conversation.participant=user]
+
+
+[conversation_id=qk8kmns74p] [conversation.id=-NAiy3uT_b9Az5ABsnZU] [conversation.participant=agent]
+
+User moved to section "Step 2".
+[conversation_id=qk8kmns74p] [conversation.id=-NAiy3yMW18hbLiKBGSI] [conversation.participant=user]
+
+What do I do if the mixture becomes lumpy?
+[conversation_id=qk8kmns74p] [conversation.id=-NAiyDKgc2pQGhEqUwKY] [conversation.participant=user]
+
+Can I see a photo of step 2 please?
+[conversation_id=qk8kmns74p] [conversation.id=-NAiyPfgQy9FqbjTbO37] [conversation.participant=user]
+
+next
+[conversation_id=qk8kmns74p] [conversation.id=-NAiySnXvK65eocZPTVG] [conversation.participant=user]
+
+You should keep whisking constantly, add milk in thin, steady stream, or in increments of a couple of tablespoons at a time, whisking thoroughly and getting into all corners of pan to maintain a lump-free texture. Sauce will initially become very thick, then get thin once all the milk is added.
+[conversation_id=qk8kmns74p] [conversation.id=-NAiyUxLdQR1HIv_wILN] [conversation.participant=agent]
+
+next
+[conversation_id=qk8kmns74p] [conversation.id=-NAiybLTQEh2X7qLqrFX] [conversation.participant=user]
+
+I'm sorry but I do not have a photo for step 2
+[conversation_id=qk8kmns74p] [conversation.id=-NAiydunxbk8ocZ25Hh-] [conversation.participant=agent]
+
+
+[conversation_id=qk8kmns74p] [conversation.id=-NAiye74Xuzgcszk1bDX] [conversation.participant=agent]
+
+User moved to section "Step 3".
+[conversation_id=qk8kmns74p] [conversation.id=-NAiyeD_mOmm8vMxlT1u] [conversation.participant=user]
+
+when was bechamel sauce invented?
+[conversation_id=qk8kmns74p] [conversation.id=-NAiysrq3_a2y1BIsqo4] [conversation.participant=user]
+
+That's a great question! Let me see what I can find
+[conversation_id=qk8kmns74p] [conversation.id=-NAiywomyjnxhCEPfBbs] [conversation.participant=agent]
+
+Balsamell or Besciamella is the Italian equivalent of the French Béchamel: a very simple white sauce of flour, butter and milk. The sauce was originally from Renaissance Tuscany and was known as "Salsa Colla or Colletta" ("glue sauce") because of the gluey consistency of the sauce, and was brought to France by the chefs of Catherina de' Medici in 1533.
+[conversation_id=qk8kmns74p] [conversation.id=-NAizayKf3y-Np_krVjk] [conversation.participant=agent]
+
+next
+[conversation_id=qk8kmns74p] [conversation.id=-NAizgblSi9cdXarqzTA] [conversation.participant=user]
+
+
+[conversation_id=qk8kmns74p] [conversation.id=-NAizhGcMN9RsUSOFygo] [conversation.participant=agent]
+
+User moved to section "Step 4".
+[conversation_id=qk8kmns74p] [conversation.id=-NAizhKlop6iiP249xF5] [conversation.participant=user]
+
+next
+[conversation_id=qk8kmns74p] [conversation.id=-NAizkXjpKQLj6SVKDN9] [conversation.participant=user]
+
+
+[conversation_id=qk8kmns74p] [conversation.id=-NAizldiDNIieDNU9boZ] [conversation.participant=agent]
+
+User moved to section "Step 5".
+[conversation_id=qk8kmns74p] [conversation.id=-NAizlh_hzA05HroM_W_] [conversation.participant=user]
+
+what is cream of tartar?
+[conversation_id=qk8kmns74p] [conversation.id=-NAizuBNENvY5W2NghOc] [conversation.participant=user]
+
+next
+[conversation_id=qk8kmns74p] [conversation.id=-NAj-2OX0OTnA0PVEeID] [conversation.participant=user]
+
+I'm sorry, I do not think I have this information
+[conversation_id=qk8kmns74p] [conversation.id=-NAj-_VTqkqeTfeGm_2I] [conversation.participant=agent]
+
+
+[conversation_id=qk8kmns74p] [conversation.id=-NAj-_h-Kz78pmA3MLZ4] [conversation.participant=agent]
+
+User moved to section "Step 6".
+[conversation_id=qk8kmns74p] [conversation.id=-NAj-_kiBIb3G1F80vUG] [conversation.participant=user]
+
+next
+[conversation_id=qk8kmns74p] [conversation.id=-NAj-i46RYxjbyTC6lfq] [conversation.participant=user]
+
+
+[conversation_id=qk8kmns74p] [conversation.id=-NAj-jTMAPJTVmFWAGhS] [conversation.participant=agent]
+
+User moved to section "Step 7".
+[conversation_id=qk8kmns74p] [conversation.id=-NAj-jXXgTvCoxcP_NlK] [conversation.participant=user]
+
+next
+[conversation_id=qk8kmns74p] [conversation.id=-NAj-sl-0X4ZY8Mc7Ay2] [conversation.participant=user]
+
+
+[conversation_id=qk8kmns74p] [conversation.id=-NAj-ugQz1CU8dSxy-xP] [conversation.participant=agent]
+
+User moved to section "Step 8".
+[conversation_id=qk8kmns74p] [conversation.id=-NAj-uk-30ATMSxvqL14] [conversation.participant=user]
+
+next
+[conversation_id=qk8kmns74p] [conversation.id=-NAj-xJyQcExz0Q_a8bK] [conversation.participant=user]
+
+
+[conversation_id=qk8kmns74p] [conversation.id=-NAj-y6sibBg-LayMvjE] [conversation.participant=agent]
+
+User moved to section "Step 9".
+[conversation_id=qk8kmns74p] [conversation.id=-NAj-yAswNMnEPxmI4n_] [conversation.participant=user]
+
+next
+[conversation_id=qk8kmns74p] [conversation.id=-NAj0-ThDuq9nAbI0eB_] [conversation.participant=user]
+
+Next
+[conversation_id=qk8kmns74p] [conversation.id=-NAj08NXIPtRT5Z-nYTg] [conversation.participant=user]
+
+You reached the last step in this recipe.
+[conversation_id=qk8kmns74p] [conversation.id=-NAj09IwZVS2jHFd2vOW] [conversation.participant=agent]
+
+thank you
+[conversation_id=qk8kmns74p] [conversation.id=-NAj0DQWajJekhMZMo5s] [conversation.participant=user]
+

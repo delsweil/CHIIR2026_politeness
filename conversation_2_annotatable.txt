@@ -1,0 +1,120 @@
+Hey there! Happy to have you on board for our masterclass :) Today you will be learning how to prepare Parisian Gnocchi. Make sure you have all the ingredients and tools and feel free to ask questions. If you are ready to start cooking simply say start.
+[conversation_id=h8x8QLzyCx] [conversation.id=-NBfyYtG0TQl6bfM_0Yf] [conversation.participant=agent]
+
+start
+[conversation_id=h8x8QLzyCx] [conversation.id=-NBfylPpZWeBn9tuJsdp] [conversation.participant=user]
+
+i want to learn about the recipe
+[conversation_id=h8x8QLzyCx] [conversation.id=-NBfz59snZQZ0hPVZVux] [conversation.participant=user]
+
+Feel free to ask any questions you have.
+[conversation_id=h8x8QLzyCx] [conversation.id=-NBfzIlMGtQ9f4jAihaC] [conversation.participant=agent]
+
+no questions ready to start cooking
+[conversation_id=h8x8QLzyCx] [conversation.id=-NBfzbKiYVsJwliGohel] [conversation.participant=user]
+
+
+[conversation_id=h8x8QLzyCx] [conversation.id=-NBfzcMgOw7PbFyZPjER] [conversation.participant=agent]
+
+User moved to section "Step 1".
+[conversation_id=h8x8QLzyCx] [conversation.id=-NBfzcRSx6ZTESlj0gEr] [conversation.participant=user]
+
+why is a wooden spoon used
+[conversation_id=h8x8QLzyCx] [conversation.id=-NBg-RifoOS3TANFpCcI] [conversation.participant=user]
+
+Let me see...
+[conversation_id=h8x8QLzyCx] [conversation.id=-NBg-VGGSVRlaiJaFnhy] [conversation.participant=agent]
+
+There are really two types of gnocchi recipes: those made the old school, wooden-spoon-and-elbow-grease way, and those made with the mechanical aid of a stand mixer. The latter is also possible and probably easier, particularly if your beating arm is not quite in shape.
+[conversation_id=h8x8QLzyCx] [conversation.id=-NBg02FNdLDR6myFmYtP] [conversation.participant=agent]
+
+thank you for the info
+[conversation_id=h8x8QLzyCx] [conversation.id=-NBg0Toh8kdoASOJyyds] [conversation.participant=user]
+
+step 2 please
+[conversation_id=h8x8QLzyCx] [conversation.id=-NBg0WQQfx3eb48fSa6U] [conversation.participant=user]
+
+
+[conversation_id=h8x8QLzyCx] [conversation.id=-NBg0XK27OOiYpmwV2m_] [conversation.participant=agent]
+
+User moved to section "Step 2".
+[conversation_id=h8x8QLzyCx] [conversation.id=-NBg0XPgh189YjD-zpZ3] [conversation.participant=user]
+
+how does this technique help the food
+[conversation_id=h8x8QLzyCx] [conversation.id=-NBg1lEP7XqQnFy_sQVe] [conversation.participant=user]
+
+Let me tell you
+[conversation_id=h8x8QLzyCx] [conversation.id=-NBg1sJLWoW5YShf3zoH] [conversation.participant=agent]
+
+So Parisian gnocchi are somewhat of an oddity in the Western repertoire, in that they're made with a hot water dough.  The beauty of a hot water dough is that it doesn't bounce back as much as a cold water dough does.  As a result, a pâte à choux dough isn't stretchy or bouncy; its more malleable and supple, kind of like Play-Do. With our tender, easy-to-shape hot water dough, however, the stretching is easy, and, what's more, the gnocchi keep their stretched-out shape even after they begin to cool, ensuring that they stay light and tender no matter how we choose to finish them off.
+[conversation_id=h8x8QLzyCx] [conversation.id=-NBg2RTAF0LkPhaJ8OSw] [conversation.participant=agent]
+
+next step
+[conversation_id=h8x8QLzyCx] [conversation.id=-NBg3FVHuEmGuVMw-RTe] [conversation.participant=user]
+
+
+[conversation_id=h8x8QLzyCx] [conversation.id=-NBg3GQYada9c7oHQIeZ] [conversation.participant=agent]
+
+User moved to section "Step 3".
+[conversation_id=h8x8QLzyCx] [conversation.id=-NBg3GUrs3J9rYd7GmdJ] [conversation.participant=user]
+
+ready for step 4
+[conversation_id=h8x8QLzyCx] [conversation.id=-NBg4gOFmzbpjfrlInDe] [conversation.participant=user]
+
+
+[conversation_id=h8x8QLzyCx] [conversation.id=-NBg4hNIAkf0DZe-zJFj] [conversation.participant=agent]
+
+User moved to section "Step 4".
+[conversation_id=h8x8QLzyCx] [conversation.id=-NBg4hR5e6EPFCQZJAAV] [conversation.participant=user]
+
+is there any history why it is made like this
+[conversation_id=h8x8QLzyCx] [conversation.id=-NBg5-y-EHeNppAmPis4] [conversation.participant=user]
+
+Let me see...
+[conversation_id=h8x8QLzyCx] [conversation.id=-NBg531gn11JHv2xYePb] [conversation.participant=agent]
+
+According to some cookbooks, a chef by the name of Pantarelli or Pantanelli invented the dough in 1540, seven years after he left Florence with Catherine de' Medici and her court. He used the dough to make a gâteau and named it . Over time, the recipe of the dough evolved, and the name changed to , which was used to make, small cakes made in the shape of a woman's breasts. Then, Avice, in the eighteenth century, created what was then called choux buns. The name of the dough changed to , as Avice's buns resembled cabbages—"choux" in French. This pastry is used to make profiteroles, , éclairs, French crullers, St. Honoré cake, Parisian gnocchi, dumplings and gougères.
+[conversation_id=h8x8QLzyCx] [conversation.id=-NBg5OcPe1JNlpFN1pkw] [conversation.participant=agent]
+
+next step
+[conversation_id=h8x8QLzyCx] [conversation.id=-NBg5lUW_SpnQ4HbcKAN] [conversation.participant=user]
+
+
+[conversation_id=h8x8QLzyCx] [conversation.id=-NBg5m9dkdIT8AKpUBs-] [conversation.participant=agent]
+
+User moved to section "Step 5".
+[conversation_id=h8x8QLzyCx] [conversation.id=-NBg5mEYORtJM1s9ejd9] [conversation.participant=user]
+
+what does the olive oil do
+[conversation_id=h8x8QLzyCx] [conversation.id=-NBg6H3D9c2SkODa4Y82] [conversation.participant=user]
+
+Let me see...
+[conversation_id=h8x8QLzyCx] [conversation.id=-NBg6MRAlC7V29VPSaiy] [conversation.participant=agent]
+
+I'm sorry, I do not think I have this information
+[conversation_id=h8x8QLzyCx] [conversation.id=-NBg7FGx-Oj1fnj64ySS] [conversation.participant=agent]
+
+what is a metal spider that is okay
+[conversation_id=h8x8QLzyCx] [conversation.id=-NBg7S0OSTVo7E-HnD5k] [conversation.participant=user]
+
+A "spider" is restaurant lingo for a flat mesh scoop used in frying and skimming.
+[conversation_id=h8x8QLzyCx] [conversation.id=-NBg7ru98dxEPoxRKzVE] [conversation.participant=agent]
+
+next step
+[conversation_id=h8x8QLzyCx] [conversation.id=-NBg83QMirhn-YC6yUCc] [conversation.participant=user]
+
+We already reached the final step.
+[conversation_id=h8x8QLzyCx] [conversation.id=-NBg89kOeMgYMGAzhEG4] [conversation.participant=agent]
+
+is there any more history on the recipe
+[conversation_id=h8x8QLzyCx] [conversation.id=-NBg8WDmKLhDheRbcVjM] [conversation.participant=user]
+
+Let me see...
+[conversation_id=h8x8QLzyCx] [conversation.id=-NBg8fqCMAvUcbGxHFf7] [conversation.participant=agent]
+
+Parisian Gnocchi are a French gnocchi variety. The name is also used in France in the dish known as "gnocchis à la parisienne", a hot dish comprising gnocchi formed of choux pastry served with Béchamel sauce. A specialty of Nice, the "gnocchi de tantifla a la nissarda", is made with potatoes, wheat flour, eggs and "blette" (Swiss chard), which is also used for the "tourte de blette". "La merda dé can" is longer than the original gnocchi.
+[conversation_id=h8x8QLzyCx] [conversation.id=-NBg9Agc7qdiT_qzbTUK] [conversation.participant=agent]
+
+thank yoi
+[conversation_id=h8x8QLzyCx] [conversation.id=-NBg9Xwu3Hr1UBxRXcuG] [conversation.participant=user]
+

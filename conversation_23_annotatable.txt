@@ -1,0 +1,123 @@
+user joined the chat.
+[conversation_id=Fxikuau] [conversation.id=-NH4dvJv36ikGGZfavzk] [conversation.participant=user]
+
+Hey there! Happy to have you on board for our masterclass :-) Today you will be learning how to prepare Apple Pie. Make sure you have all the ingredients and tools and feel free to ask questions. If you are ready to start cooking simply say next.
+[conversation_id=Fxikuau] [conversation.id=-NH4eLy_WOIpyDBXT5o5] [conversation.participant=agent]
+
+next
+[conversation_id=Fxikuau] [conversation.id=-NH4eP6ZpyfAQmPeAwZc] [conversation.participant=user]
+
+Hi.  How can I help you?
+[conversation_id=Fxikuau] [conversation.id=-NH4eSMpSe93cVEwGuG3] [conversation.participant=agent]
+
+im ready to start
+[conversation_id=Fxikuau] [conversation.id=-NH4eWJIqnyGXpsO8ksC] [conversation.participant=user]
+
+Feel free to ask any questions. If you want to proceed to the next step, simply say "next".
+[conversation_id=Fxikuau] [conversation.id=-NH4ecmgzwRWY4gV7sNf] [conversation.participant=agent]
+
+next
+[conversation_id=Fxikuau] [conversation.id=-NH4ef7waF3qapKQy50k] [conversation.participant=user]
+
+
+[conversation_id=Fxikuau] [conversation.id=-NH4efannYSYkZstLEak] [conversation.participant=agent]
+
+User moved to section "Step 1".
+[conversation_id=Fxikuau] [conversation.id=-NH4efemkjv99y0zF0PZ] [conversation.participant=user]
+
+what's a gallon size in metric
+[conversation_id=Fxikuau] [conversation.id=-NH4ewMkZPN-EKebdmoP] [conversation.participant=user]
+
+So 1 gallon = 4 quarts and 1 quart is roughly 1 L. So 1 gallon is about 4 L.
+[conversation_id=Fxikuau] [conversation.id=-NH4fHJOncXY_i_aMzW7] [conversation.participant=agent]
+
+next
+[conversation_id=Fxikuau] [conversation.id=-NH4fhalo5T6u9zSJBvU] [conversation.participant=user]
+
+
+[conversation_id=Fxikuau] [conversation.id=-NH4fl5bMKZuHhdVgVeY] [conversation.participant=agent]
+
+User moved to section "Step 2".
+[conversation_id=Fxikuau] [conversation.id=-NH4flAHwU7GffWUJ3Qt] [conversation.participant=user]
+
+what does macerate mean
+[conversation_id=Fxikuau] [conversation.id=-NH4g-O51rOiH5tVdScp] [conversation.participant=user]
+
+Maceration is the "magic" (really science) of applied osmotic pressure. The sugar mixture will draw fluid out of the fruit (indeed, many maceration steps are done by mixing the dry sugar with the fruit, rather than by placing the fruit in sugar-water - there is soon fluid, and the osmotic pressure is considerably higher since the concentration of sugar is higher. If water is needed, it would be added after maceration, in those recipes.)
+[conversation_id=Fxikuau] [conversation.id=-NH4gZRA4evnvYuVBrwR] [conversation.participant=agent]
+
+next
+[conversation_id=Fxikuau] [conversation.id=-NH4gswAWMjUK0-xAYAf] [conversation.participant=user]
+
+
+[conversation_id=Fxikuau] [conversation.id=-NH4gtn4hgp82WBV45Cr] [conversation.participant=agent]
+
+User moved to section "Step 3".
+[conversation_id=Fxikuau] [conversation.id=-NH4gtqz9X2bCkyqWT5_] [conversation.participant=user]
+
+can you show me a video of this step
+[conversation_id=Fxikuau] [conversation.id=-NH4hDEpXR0uAkEILgEm] [conversation.participant=user]
+
+I'm sorry, I do not have a video, but I can show you some pictures:
+[conversation_id=Fxikuau] [conversation.id=-NH4hKv3PBM-ta1CZQUI] [conversation.participant=agent]
+
+https://www.seriouseats.com/thmb/9Rs99qALRw2JIgG9W_1HCujPE14=/1505x1125/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2017__09__20170730-bravetart-apple-pie-vicky-wasik_collage-2-1013be3b880d415b97328a10995289de.jpg
+[conversation_id=Fxikuau] [conversation.id=-NH4hLojuPwENo5cdMdp] [conversation.participant=agent]
+
+https://www.seriouseats.com/thmb/acOBqtWEHR7i0hiBcb6Y5nCVIiQ=/1505x1125/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2017__09__20170730-bravetart-apple-pie-vicky-wasik_collage-3-84c29ebbc364417f8ccb9dc674904cdc.jpg
+[conversation_id=Fxikuau] [conversation.id=-NH4hNDzeyL-WnF5yYmm] [conversation.participant=agent]
+
+next
+[conversation_id=Fxikuau] [conversation.id=-NH4htKDeFcuPdt8IC5Z] [conversation.participant=user]
+
+
+[conversation_id=Fxikuau] [conversation.id=-NH4hvG3_BiHap8-j45Z] [conversation.participant=agent]
+
+User moved to section "Step 4".
+[conversation_id=Fxikuau] [conversation.id=-NH4hvJoHfUPBsSBOEoQ] [conversation.participant=user]
+
+can i use milk instead of egg?
+[conversation_id=Fxikuau] [conversation.id=-NH4i8fdqLF0suDNKNLl] [conversation.participant=user]
+
+Substitutes for egg wash include vegetable oil, non-dairy milk and butter substitutes, and light corn syrup thinned with water if you like it vegan. The best non-vegan results are probably achieved with eggs. The egg wash is used to make the pie shiny and golden or brown in color
+[conversation_id=Fxikuau] [conversation.id=-NH4iyAVtczsxixUzFAA] [conversation.participant=agent]
+
+But you can mix it with milk. Egg wash can usually be made with 30 ml or two tablespoons of liquid, such as milk or water, for every egg. Less liquid makes for a darker wash. The part of the egg used and liquid added determines the finished look of the crust.
+[conversation_id=Fxikuau] [conversation.id=-NH4j5-Xlh-GZgFo645R] [conversation.participant=agent]
+
+next
+[conversation_id=Fxikuau] [conversation.id=-NH4jBICH1rWbH7mOE8N] [conversation.participant=user]
+
+
+[conversation_id=Fxikuau] [conversation.id=-NH4jBx_W2ZV-G_psCzv] [conversation.participant=agent]
+
+User moved to section "Step 5".
+[conversation_id=Fxikuau] [conversation.id=-NH4jCA7qluylfuE4Vr0] [conversation.participant=user]
+
+next
+[conversation_id=Fxikuau] [conversation.id=-NH4jTFrePTi74gKjpUH] [conversation.participant=user]
+
+
+[conversation_id=Fxikuau] [conversation.id=-NH4jUCof2_qhedCF-fI] [conversation.participant=agent]
+
+User moved to section "Step 6".
+[conversation_id=Fxikuau] [conversation.id=-NH4jUGdJKwTzW9K_YtA] [conversation.participant=user]
+
+Can I keep for longer than 3 days in a fridge?
+[conversation_id=Fxikuau] [conversation.id=-NH4jeCOazbAkauWbXbw] [conversation.participant=user]
+
+Let me see...
+[conversation_id=Fxikuau] [conversation.id=-NH4jjEhFKjqKvM_017X] [conversation.participant=agent]
+
+Pretty much any pie can be made way ahead of time (2+ days).
+[conversation_id=Fxikuau] [conversation.id=-NH4kPHy7ogeFg-X6rq0] [conversation.participant=agent]
+
+This also holds for apple pies.
+[conversation_id=Fxikuau] [conversation.id=-NH4kRioWAo89YllKVn9] [conversation.participant=agent]
+
+next
+[conversation_id=Fxikuau] [conversation.id=-NH4kX8Foru10BLWjznh] [conversation.participant=user]
+
+Thank you, we've reached the final step.
+[conversation_id=Fxikuau] [conversation.id=-NH4kcCdVFp0WjfpxSLs] [conversation.participant=agent]
+

@@ -1,0 +1,213 @@
+Next
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJuBsU5p_oKElhRdnU] [conversation.participant=user]
+
+
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJuGIkZdOqc9NcKXTV] [conversation.participant=agent]
+
+User moved to section "Step 1".
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJuGNepcczaGH9uTeA] [conversation.participant=user]
+
+can you tell me the history of this chicken recipe. it appears to have a lot of ingredients that could make a nice blend
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJuRXAvGhzxtbQptc9] [conversation.participant=user]
+
+Next
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJuUqu_QvZWAtlOU7d] [conversation.participant=user]
+
+That's a great question! t was the Scottish who were the first Europeans to deep fry their chicken in fat (though without seasoning). Meanwhile, a number of West African peoples had traditions of seasoned fried chicken (through battering and cooking the chicken in palm oil). Scottish frying techniques and West African seasoning techniques were combined by enslaved Africans and African-Americans in the American South.
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJumMSMdWkb3HDRgO3] [conversation.participant=agent]
+
+
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJumYn-IERFyi6QZ5x] [conversation.participant=agent]
+
+User moved to section "Step 2".
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJumca-tbwiAWfTMuC] [conversation.participant=user]
+
+very interesting history. would never have thought it had roots in the Scottish. Always perceived seasoned buttermilk chicken to be linked to Africans and African Americans
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJv5sZgu1vD5BJO3EB] [conversation.participant=user]
+
+what is the purpose of buttermilk in this recipe? how does it enhance this recipe?
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJvDxM_DAaAbcrl2EV] [conversation.participant=user]
+
+That's a really good question! Let me see what I can find
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJvJJUqgUR2HloER-A] [conversation.participant=agent]
+
+Also why refrigerate for at least 4 hours or overnight? can't I proceed to fry it once all seasoned together?
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJvZxeksZjqAf8YKI2] [conversation.participant=user]
+
+Buttermilk has a tenderizing effect on food
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJvlfdN7OFVQz0OE3X] [conversation.participant=agent]
+
+Next
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJvrFCXIyPN2blJXfz] [conversation.participant=user]
+
+Brining is the process by which a lean meat (most often chicken, turkey, or pork) is submerged in a saltwater solution. As the meat sits, the saltwater will slowly dissolve key muscle proteins. As proteins dissolve, three things take place:
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJvweZsJVZ2jMR_3M3] [conversation.participant=agent]
+
+First, the ability of the meat to hold onto moisture increases.
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJvxIVGcREYEGuqkFM] [conversation.participant=agent]
+
+Second, brining alters the texture of the meat by allowing dissolved proteins to cross-link with each other.
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJvyyyj3dZnEEWst9i] [conversation.participant=agent]
+
+Third, as the brine slowly works its way into the meat, it seasons it beyond just the very surface.
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJvzuIVByRywkOWpUR] [conversation.participant=agent]
+
+Hence,  an overnight brine will penetrate a few millimeters into the meat, giving you built-in seasoning before you ever get to the breading.
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJw28aERgF2In4H3_r] [conversation.participant=agent]
+
+interesting fact about brining. i didn't know that's how it works scientifically.
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJwDQmkcd1TPSKVfo4] [conversation.participant=user]
+
+With regards to the tenderizing properties of buttermilk, is it the milk that makes it to have such properties? what is buttermilk. butter and milk?
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJwTM2GFRBFfZviUcY] [conversation.participant=user]
+
+NEXT
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJw_cezlxaKLA7hsCC] [conversation.participant=user]
+
+No it's the buttermilk.  Buttermilk is a fermented dairy drink. Traditionally, it was the liquid left behind after churning butter out of cultured cream. However, most modern buttermilk is cultured.It can be used in marination, especially of chicken and pork, which the lactic acid helps to tenderize, retain moisture and allows added flavors to permeate the meat.
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJwyW9B3iNfUQMz4kt] [conversation.participant=agent]
+
+
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJx5PnRP4wDZJyNWIS] [conversation.participant=agent]
+
+User moved to section "Step 3".
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJx5VjrlFqoyuZEY9z] [conversation.participant=user]
+
+why coat the chicken in flour mixture?
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJxLc3udVOj3I_qPCe] [conversation.participant=user]
+
+That's because you want to form a crust that was light and crisp.
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJxiGwyQJx3qwq6jmj] [conversation.participant=agent]
+
+Ingredients includes baking powder? but isn't the chicken to be deep fried? why use baking powder
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJxvBHbI4le8UjbQ9Z] [conversation.participant=user]
+
+NEXT
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJxvpT0SCBomnZRTRZ] [conversation.participant=user]
+
+That's a great question!  Adding a couple of teaspoons of baking powder to the mix helps to bring a bit of air to the mix, forming a crust that is lighter and crisper, with increased surface area.
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJy8m1XnzyIU967Rd0] [conversation.participant=agent]
+
+
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJy9gfi5l5UMj23ZY7] [conversation.participant=agent]
+
+User moved to section "Step 4".
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJy9koeLbznOa4c6Pj] [conversation.participant=user]
+
+now this is an interesting step! why would be fry and then put it in the oven? what is the science and thought-process behind this technique
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJyTpng_qaFCLjR8c7] [conversation.participant=user]
+
+Also why heat the oil to a specific temperature. what happens if it's a hotter than specified or colder than specified?
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJyeM9MEYe0S4ywjov] [conversation.participant=user]
+
+You want to avoid the coating overcooking long before the chicken is cooked through to the center. For this reason, you need to fry the chicken until golden brown, then transfer it to a hot oven to finish cooking at a gentler pace. The result is chicken with a deep brown, craggy crust that's shatteringly crisp but not tough and that breaks away to the meat that bursts with intensely seasoned juices underneath.
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJyo7Lej9teUzYxl32] [conversation.participant=agent]
+
+I'm sorry, I do not think I have this information
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJyqIvCzOWWPWWJXCk] [conversation.participant=agent]
+
+NEXT
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJyssmPk4_Iyc85wMX] [conversation.participant=user]
+
+
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJytfgb4fXdsyeUGKN] [conversation.participant=agent]
+
+User moved to section "Step 5".
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJytkqSRRm4-rXmrdN] [conversation.participant=user]
+
+NEXT
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJz5bALyQUpWA4cC4s] [conversation.participant=user]
+
+
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJz6dP-DvQsS56p_lj] [conversation.participant=agent]
+
+User moved to section "Step 6".
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJz6hehX-YcK0qsbnP] [conversation.participant=user]
+
+Why seasoning lightly with salt before it goes into the oven?
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJzIXOkXAmtOEQ212m] [conversation.participant=user]
+
+You should just season with salt to taste.
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJzSdJpuM3-ZOETLIU] [conversation.participant=agent]
+
+why are there different cooking temperatures for breast pieces and thigh/drumstick pieces?
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJzZrCZYOMKq7qcKrr] [conversation.participant=user]
+
+NEXT
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJzefyW_ifrG2YyI91] [conversation.participant=user]
+
+I'm sorry, I do not think I have this information
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJzqPAvH46vFh6iZlD] [conversation.participant=agent]
+
+You reached the last step in this recipe! well done!
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJzu-4XAJH7QCasdnm] [conversation.participant=agent]
+
+thank you
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJzvjK5dG4z5gVFy6V] [conversation.participant=user]
+
+PREVIOUS
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAJzyzCNL-aUK9uZHe2] [conversation.participant=user]
+
+
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAK--el-mHk8651nt0e] [conversation.participant=agent]
+
+User moved to section "Step 5".
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAK--sugQQ1iU9AXpK-] [conversation.participant=user]
+
+PREVIOUS
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAK-0R-Mz3h1y9taIN8] [conversation.participant=user]
+
+
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAK-27Sz9HQUJ7AL6W0] [conversation.participant=agent]
+
+User moved to section "Step 4".
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAK-2BKkrPPJB9-Bd6N] [conversation.participant=user]
+
+PREVIOUS
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAK-3R2VNxodQASdt9b] [conversation.participant=user]
+
+
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAK-3tXQWl5FxHbJExs] [conversation.participant=agent]
+
+User moved to section "Step 3".
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAK-3xh5VPyWB-ICP28] [conversation.participant=user]
+
+PREVIOUS
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAK-7w16DJOAkty7QUX] [conversation.participant=user]
+
+
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAK-8MtZK8s0rOtz3u9] [conversation.participant=agent]
+
+User moved to section "Step 2".
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAK-8RBJSkh-LGq_T40] [conversation.participant=user]
+
+PREVIOUS
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAK-ArExOb-DeahNycK] [conversation.participant=user]
+
+
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAK-BR5VUguZI0Frc3F] [conversation.participant=agent]
+
+User moved to section "Step 1".
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAK-BUmZsU5fGRMUX60] [conversation.participant=user]
+
+PREVIOUS
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAK-DmQUudd30qW0vNE] [conversation.participant=user]
+
+
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAK-ELAlpV5-v2lqB67] [conversation.participant=agent]
+
+User moved to section "Time, Equipment & Ingredients".
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAK-EPZjbHENHzw6oF0] [conversation.participant=user]
+
+any more interesting facts about the history of this recipe?
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAK-LmkqLv4Isqzvtml] [conversation.participant=user]
+
+The Roman cookbook of "Apicius" (4th century) has a recipe for deep-fried chicken called "Pullum Frontonianum".
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAK-UyxRP8LmSnDuQvP] [conversation.participant=agent]
+
+Is there a special name for this technique?
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAK-Y31bdmWHzFNa50r] [conversation.participant=user]
+
+The technique referred to in the late Roman cookbook of "Apicius" (c. 400), is simply named deep frying.
+[conversation_id=5ced03998f09450015fa845d] [conversation.id=-NAK-yTNg11MJtFlVFKb] [conversation.participant=agent]
+

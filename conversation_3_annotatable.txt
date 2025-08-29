@@ -1,0 +1,61 @@
+Hey there! Happy to have you on board for our masterclass :) Today you will be learning how to prepare Parisian Gnocchi. Make sure you have all the ingredients and tools and feel free to ask questions. If you are ready to start cooking simply say start
+.
+[conversation_id=77x3diEC4B] [conversation.id=-NBXU3qaGoIT7SdggmEb] [conversation.participant=agent]
+
+Start
+[conversation_id=77x3diEC4B] [conversation.id=-NBXU7Ay0WnsjjNlH1IE] [conversation.participant=user]
+
+Can you show me an image of what the Parisian Gnocchi looks like?
+[conversation_id=77x3diEC4B] [conversation.id=-NBXUIi-fM89JV-q2XE2] [conversation.participant=user]
+
+Sure
+[conversation_id=77x3diEC4B] [conversation.id=-NBXUKxeUIw_MHQ8GBiM] [conversation.participant=agent]
+
+https://www.seriouseats.com/thmb/On4YBpJuAdzJqNrW2q3jZBwBzHc=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2013__09__20130827-gnocchi-parisian-souffle-19-35f39ad1e01d4150a2d173458c11f1af.jpg
+[conversation_id=77x3diEC4B] [conversation.id=-NBXULJhYNb1xv_W6T97] [conversation.participant=agent]
+
+What are the steps to making this recipe?
+[conversation_id=77x3diEC4B] [conversation.id=-NBXUT_-E3J4n3KO6o52] [conversation.participant=user]
+
+
+[conversation_id=77x3diEC4B] [conversation.id=-NBXUXLZsN6ZZ7ufobmp] [conversation.participant=agent]
+
+User moved to section "Step 1".
+[conversation_id=77x3diEC4B] [conversation.id=-NBXUXTzJz55v6hSt-_Z] [conversation.participant=user]
+
+Where does this recipe originate from?
+[conversation_id=77x3diEC4B] [conversation.id=-NBXUhkjzw9faevE6CN-] [conversation.participant=user]
+
+Let me see...
+[conversation_id=77x3diEC4B] [conversation.id=-NBXUkk1Qw0EKEqgkBKP] [conversation.participant=agent]
+
+The name is used in France in the dish known as "gnocchis à la parisienne", a hot dish comprising gnocchi formed of choux pastry served with Béchamel sauce. A specialty of Nice, the "gnocchi de tantifla a la nissarda", is made with potatoes, wheat flour, eggs and "blette" (Swiss chard), which is also used for the "tourte de blette". "La merda dé can" is longer than the original gnocchi.
+[conversation_id=77x3diEC4B] [conversation.id=-NBXVDwNdBk1RNm5Uj-p] [conversation.participant=agent]
+
+Can you show me a video of someone making this recipe?
+[conversation_id=77x3diEC4B] [conversation.id=-NBXVLZdn3rZv3EvLsSM] [conversation.participant=user]
+
+I'm sorry, I do not think I have this information
+[conversation_id=77x3diEC4B] [conversation.id=-NBXVPmL1GnuRISQ4hVQ] [conversation.participant=agent]
+
+How long does this recipe take to prepare?
+[conversation_id=77x3diEC4B] [conversation.id=-NBXVUIb9lLZlCnI1txC] [conversation.participant=user]
+
+The total time to prepare this recipe is 65 minutes.  Preparation Time: 20 minutes Cooking Time: 45 minutes
+[conversation_id=77x3diEC4B] [conversation.id=-NBXVd23TuPwYuMyAHwJ] [conversation.participant=agent]
+
+What are the next steps to making this recipe?
+[conversation_id=77x3diEC4B] [conversation.id=-NBXVuhsOkicn_ig3Q8i] [conversation.participant=user]
+
+
+[conversation_id=77x3diEC4B] [conversation.id=-NBXVvf2llnp7a9bLaKK] [conversation.participant=agent]
+
+User moved to section "Step 2".
+[conversation_id=77x3diEC4B] [conversation.id=-NBXVvlXESPtoXHUyKQN] [conversation.participant=user]
+
+How many servings does this recipe yield?
+[conversation_id=77x3diEC4B] [conversation.id=-NBXWCtcjcLVhim9oPeE] [conversation.participant=user]
+
+I'm sorry I do not have answer for this question
+[conversation_id=77x3diEC4B] [conversation.id=-NBXWVLgSSxKrfVl7RaW] [conversation.participant=agent]
+

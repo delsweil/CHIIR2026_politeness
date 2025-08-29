@@ -1,0 +1,177 @@
+user joined the chat.
+[conversation_id=sVzhG] [conversation.id=-NJinBQt1XNQuiEq-4QS] [conversation.participant=user]
+
+user joined the chat.
+[conversation_id=sVzhG] [conversation.id=-NJiqeOJAqrcc13O_lR3] [conversation.participant=user]
+
+Hey there! Happy to have you on board for our masterclass :-) Today you will be learning how to prepare the best pesto. Make sure you have all the ingredients and tools and feel free to ask questions. If you are ready to start cooking simply say start.
+[conversation_id=sVzhG] [conversation.id=-NJiqmhOwdGICNKR0_lw] [conversation.participant=agent]
+
+start
+[conversation_id=sVzhG] [conversation.id=-NJiqqLNLUmgvXaWMZwr] [conversation.participant=user]
+
+How can I help you? Do you have any questions about the ingredients?
+[conversation_id=sVzhG] [conversation.id=-NJiqy0LZlk-mUGzhB_d] [conversation.participant=agent]
+
+I'm not sure what pecorino fiore sardo is?
+[conversation_id=sVzhG] [conversation.id=-NJir6ZYXvL5VIQb1FmC] [conversation.participant=user]
+
+Pecorino sardo, also known as fiore sardo, is a firm cheese from the Italian island of Sardinia which is made from sheep milk: specifically from the milk of the local Sardinian breed. Its flavour is different from that of the Pecorino Romano, which is also made on the island. Sardo is richer while romano is much more biting and salty.
+[conversation_id=sVzhG] [conversation.id=-NJirM1DjjX7R0bqZsCn] [conversation.participant=agent]
+
+Ok interesting. What is the origins of pesto alla genovese?
+[conversation_id=sVzhG] [conversation.id=-NJir_E5mHbO56lI_-7y] [conversation.participant=user]
+
+Pesto  or to refer to the original dish pesto alla genovese , is a sauce originating in Genoa, the capital city of Liguria, Italy.  Pesto is thought to have two predecessors in ancient times, going back as far as the Roman age. The ancient Romans used to eat a similar paste called moretum, which was made by crushing garlic, salt, cheese, herbs, olive oil and vinegar together.  During the Middle Ages, a popular sauce in the Genoan cuisine was "agliata", which was basically a mash of garlic and walnuts, as garlic was a staple in the nutrition of Ligurians, especially for the seafarers. The introduction of basil, the main ingredient of modern pesto, occurred in more recent times and is first documented only in the mid-19th century, when gastronomist Giovanni Battista Ratto published his book "La Cuciniera Genovese" in 1863
+[conversation_id=sVzhG] [conversation.id=-NJis7DFF-M_LBglXT6F] [conversation.participant=agent]
+
+What is the first step in making the pesto?
+[conversation_id=sVzhG] [conversation.id=-NJisK-Gtfk7lLNvXZ1R] [conversation.participant=user]
+
+Let me show you the first step.
+[conversation_id=sVzhG] [conversation.id=-NJisOdcuKTYPkv4V2Su] [conversation.participant=agent]
+
+
+[conversation_id=sVzhG] [conversation.id=-NJisP-9fD2jOeCHFjwo] [conversation.participant=agent]
+
+
+[conversation_id=sVzhG] [conversation.id=-NJisPrhbN3MIPMswdKB] [conversation.participant=agent]
+
+
+[conversation_id=sVzhG] [conversation.id=-NJisQG5f5vJ46iq1ZeW] [conversation.participant=agent]
+
+
+[conversation_id=sVzhG] [conversation.id=-NJisQIMgRWvP57PrSn8] [conversation.participant=agent]
+
+
+[conversation_id=sVzhG] [conversation.id=-NJisRDs8nyISbFUzovw] [conversation.participant=agent]
+
+
+[conversation_id=sVzhG] [conversation.id=-NJisRFabURxF8-WFcMl] [conversation.participant=agent]
+
+
+[conversation_id=sVzhG] [conversation.id=-NJisRHfZy07QIdFkWsg] [conversation.participant=agent]
+
+
+[conversation_id=sVzhG] [conversation.id=-NJisRJruqyGWrNO7bRf] [conversation.participant=agent]
+
+
+[conversation_id=sVzhG] [conversation.id=-NJisRLdLGzEcfp-Z-WC] [conversation.participant=agent]
+
+
+[conversation_id=sVzhG] [conversation.id=-NJisRNZaz7iNa98pMpO] [conversation.participant=agent]
+
+
+[conversation_id=sVzhG] [conversation.id=-NJisRPLn2POhkjwBWyc] [conversation.participant=agent]
+
+
+[conversation_id=sVzhG] [conversation.id=-NJisRRtfeCWBMccIIQt] [conversation.participant=agent]
+
+
+[conversation_id=sVzhG] [conversation.id=-NJisU0IFiVt4MjKspLD] [conversation.participant=agent]
+
+
+[conversation_id=sVzhG] [conversation.id=-NJisULta9HBRvykMcc7] [conversation.participant=agent]
+
+
+[conversation_id=sVzhG] [conversation.id=-NJisUOy2KR5pRq7-75W] [conversation.participant=agent]
+
+
+[conversation_id=sVzhG] [conversation.id=-NJisUQ9H8U4cSOFLA9a] [conversation.participant=agent]
+
+
+[conversation_id=sVzhG] [conversation.id=-NJisUSTfO8bpAv4TxTA] [conversation.participant=agent]
+
+
+[conversation_id=sVzhG] [conversation.id=-NJisUUXgpXXW_kTQIFP] [conversation.participant=agent]
+
+Step 1: Using a mortar and pestle, pound the garlic to a paste.
+[conversation_id=sVzhG] [conversation.id=-NJisZTgOJWqPqoXqQYH] [conversation.participant=agent]
+
+Can you show me a video showing me how to do this?
+[conversation_id=sVzhG] [conversation.id=-NJisiQ0jFowi69jhJP8] [conversation.participant=user]
+
+Sure, you can check this video from minutes 0.57 to 1.08
+[conversation_id=sVzhG] [conversation.id=-NJiswlNxiIqxCN8jXcJ] [conversation.participant=agent]
+
+https://cdn.jwplayer.com/v2/media/YdWNzjnJ/poster.jpg<video_separator>https://cdn.jwplayer.com/videos/YdWNzjnJ.mp4
+[conversation_id=sVzhG] [conversation.id=-NJisx3oqeiFtu7KnJGV] [conversation.participant=agent]
+
+
+[conversation_id=sVzhG] [conversation.id=-NJit3dtWdlcRXQB-Z6I] [conversation.participant=agent]
+
+
+[conversation_id=sVzhG] [conversation.id=-NJit3y1qfQrho0JMY8s] [conversation.participant=agent]
+
+
+[conversation_id=sVzhG] [conversation.id=-NJit4-2eQxNcWC7iuLe] [conversation.participant=agent]
+
+
+[conversation_id=sVzhG] [conversation.id=-NJit410lVwiVJ3M4tLq] [conversation.participant=agent]
+
+
+[conversation_id=sVzhG] [conversation.id=-NJit43Azb4IX9Eb5Zhz] [conversation.participant=agent]
+
+
+[conversation_id=sVzhG] [conversation.id=-NJit45rmQKFLW0ipbWV] [conversation.participant=agent]
+
+
+[conversation_id=sVzhG] [conversation.id=-NJit4aD6OZwOh68eP8T] [conversation.participant=agent]
+
+
+[conversation_id=sVzhG] [conversation.id=-NJit4hbILRDegOm4kGA] [conversation.participant=agent]
+
+user joined the chat.
+[conversation_id=sVzhG] [conversation.id=-NJit7MvgEeG7fpxQn0z] [conversation.participant=user]
+
+Thanks. In history who first used a pestle and mortar?
+[conversation_id=sVzhG] [conversation.id=-NJitBK45zP2yMjinyzj] [conversation.participant=user]
+
+The adoption of ground stone technology is associated closely with the Neolithic, also called the New Stone Age. In the Levant ground stones appear in Mesolithic 2 (Natufian). In prehistoric Japan, ground stone tools appear during the Japanese Paleolithic, possibly predating adoption elsewhere in the Neolithic by 25,000 years. When mashing up seeds and leaves into powders, rounded and smooth ground stones would be used inside a stone bowl. This pair of tools is called a mortar and pestle. The material would be placed into the mortar and the pestle would be moved and pressed into the mortar to grind the material into a fine powder.
+[conversation_id=sVzhG] [conversation.id=-NJitaTetlQrCR35yKYy] [conversation.participant=agent]
+
+Interesting. So what is the next step in the recipe?
+[conversation_id=sVzhG] [conversation.id=-NJitpcOrKtgFXKcPNjj] [conversation.participant=user]
+
+Step 2:  Add pine nuts and continue to crush with pestle, smashing and grinding them, until a sticky, only slightly chunky, beige paste forms.
+[conversation_id=sVzhG] [conversation.id=-NJitszbR8xyFukPTZhM] [conversation.participant=agent]
+
+And next step?
+[conversation_id=sVzhG] [conversation.id=-NJitytwU3fNsxWfcjTv] [conversation.participant=user]
+
+Step 3:  Add basil leaves, a handful at a time, and pound and grind against the walls of the mortar. Add pinch of salt with each handful to act as an abrasive. Continue until all basil leaves have been crushed to fine bits.
+[conversation_id=sVzhG] [conversation.id=-NJiu0wh7UqFoB_8D5Am] [conversation.participant=agent]
+
+https://www.seriouseats.com/thmb/-CrbF0wRqs5nm50SrgRDLAwVoVc=/1500x1125/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2018__08__20180706-pesto-vicky-wasik-adding-basil-307007a563144bfea367bca436f4fc45.jpg
+[conversation_id=sVzhG] [conversation.id=-NJiu1j6JGNvG6IOyH13] [conversation.participant=agent]
+
+And what do you do next?
+[conversation_id=sVzhG] [conversation.id=-NJiu9iBftCZGMtS6TS8] [conversation.participant=user]
+
+Step 4:  Add both cheeses, then slowly drizzle in olive oil, working it into the pesto with the pestle until a fairly smooth, creamy, emulsified, sauce forms. Add more oil, if desired.
+[conversation_id=sVzhG] [conversation.id=-NJiuDMdjh-7hWx6_xYu] [conversation.participant=agent]
+
+Do you use pestle and mortar for this step or do you just mix it in? Can you show me a video for this stage?
+[conversation_id=sVzhG] [conversation.id=-NJiuUWdnJ-2jm1gJcfc] [conversation.participant=user]
+
+Yes! You should be using pestle and mortar in this step.
+[conversation_id=sVzhG] [conversation.id=-NJiunkI0CrdpUu8YUPt] [conversation.participant=agent]
+
+You check check the process from minutes 3:30 to 3:50 in the following video
+[conversation_id=sVzhG] [conversation.id=-NJiusopLHEMDOabptRw] [conversation.participant=agent]
+
+https://cdn.jwplayer.com/v2/media/YdWNzjnJ/poster.jpg<video_separator>https://cdn.jwplayer.com/videos/YdWNzjnJ.mp4
+[conversation_id=sVzhG] [conversation.id=-NJiutDXUF2I1S4JpAop] [conversation.participant=agent]
+
+Thank you. What are the next steps to complete process?
+[conversation_id=sVzhG] [conversation.id=-NJivm4zkGXikDVclllk] [conversation.participant=user]
+
+Step 5:  Pesto can be served with pasta right away, or transferred to a jar or container, covered with a small layer of olive oil, sealed, and refrigerated overnight.
+[conversation_id=sVzhG] [conversation.id=-NJivpv89aNrQYIfMnVg] [conversation.participant=agent]
+
+Thanks.
+[conversation_id=sVzhG] [conversation.id=-NJivyb7z1tT3dGvi5x8] [conversation.participant=user]
+
+user joined the chat.
+[conversation_id=sVzhG] [conversation.id=-NJjBNuovPjnwSo-D62X] [conversation.participant=user]
+
