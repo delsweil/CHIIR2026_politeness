@@ -1,0 +1,111 @@
+hello
+[conversation_id=bKBDfgUAa3] [conversation.id=-NBILq62NBZyYiVXUw0D] [conversation.participant=user]
+
+Hey there! Happy to have you on board for our masterclass :) Today you will be learning how to prepare Buttermilk-Brined Southern Fried Chicken. Make sure you have all the ingredients and tools and feel free to ask questions. If you are ready to start cooking simply say start.
+[conversation_id=bKBDfgUAa3] [conversation.id=-NBIMrw2XCEN3v9PbqkA] [conversation.participant=agent]
+
+start
+[conversation_id=bKBDfgUAa3] [conversation.id=-NBIMw9yemEEqNbtbHDk] [conversation.participant=user]
+
+can you show me a video on how to prepare the chicken?
+[conversation_id=bKBDfgUAa3] [conversation.id=-NBIN8cP82KlE2rmnQ9E] [conversation.participant=user]
+
+I'm sorry I do not have this feature.
+[conversation_id=bKBDfgUAa3] [conversation.id=-NBINJ1oacznsqu57MNc] [conversation.participant=agent]
+
+what is the origin of the buttermilk-brined recipe
+[conversation_id=bKBDfgUAa3] [conversation.id=-NBIN_FiXqelCqs0E7kb] [conversation.participant=user]
+
+Let me see...
+[conversation_id=bKBDfgUAa3] [conversation.id=-NBINoKVtDMYsA2W8UFN] [conversation.participant=agent]
+
+The recipe here is inspired by experiences from Gus's, a sixty-seven-year-old institution in Mason, Tennessee.  They serve fried chicken that he describes as incredibly crunchy, with a crisp, craggy crust, juicy meat, and a "cosmic oneness" between the breading and the skin.
+[conversation_id=bKBDfgUAa3] [conversation.id=-NBIO5D6XudyCUNy-JA1] [conversation.participant=agent]
+
+next
+[conversation_id=bKBDfgUAa3] [conversation.id=-NBIOC84Q6fo85tzcfjY] [conversation.participant=user]
+
+
+[conversation_id=bKBDfgUAa3] [conversation.id=-NBIOELlwxPln6_4WwL3] [conversation.participant=agent]
+
+User moved to section "Step 1".
+[conversation_id=bKBDfgUAa3] [conversation.id=-NBIOER84jiSXvkytkao] [conversation.participant=user]
+
+next
+[conversation_id=bKBDfgUAa3] [conversation.id=-NBIOJ_7uEbUtT3PmA8J] [conversation.participant=user]
+
+
+[conversation_id=bKBDfgUAa3] [conversation.id=-NBIOKwbDCEiqTbhtE55] [conversation.participant=agent]
+
+User moved to section "Step 2".
+[conversation_id=bKBDfgUAa3] [conversation.id=-NBIOL0ViN_7b6ZL9kLS] [conversation.participant=user]
+
+next
+[conversation_id=bKBDfgUAa3] [conversation.id=-NBIOXITBUzMmEUSM4Dl] [conversation.participant=user]
+
+
+[conversation_id=bKBDfgUAa3] [conversation.id=-NBIOYih2j52vThkWGve] [conversation.participant=agent]
+
+User moved to section "Step 3".
+[conversation_id=bKBDfgUAa3] [conversation.id=-NBIOYnXsnN4WMfJmh6l] [conversation.participant=user]
+
+do you need to defrost the chicken before mixing in the flour mixture?
+[conversation_id=bKBDfgUAa3] [conversation.id=-NBIOkMYTlhdO1Krl7kb] [conversation.participant=user]
+
+Thanks for the question.  Give me a moment...
+[conversation_id=bKBDfgUAa3] [conversation.id=-NBIOpXXTT7GqjXgQp79] [conversation.participant=agent]
+
+I'm sorry, I do not think I have this information.
+[conversation_id=bKBDfgUAa3] [conversation.id=-NBIP3nX8lL0yLAS5wpA] [conversation.participant=agent]
+
+next
+[conversation_id=bKBDfgUAa3] [conversation.id=-NBIPLfoo405ooWLKHA4] [conversation.participant=user]
+
+But most likely the meat would need an hour to marinate after defrosting.
+[conversation_id=bKBDfgUAa3] [conversation.id=-NBIPTIDeXeseoN95WJk] [conversation.participant=agent]
+
+
+[conversation_id=bKBDfgUAa3] [conversation.id=-NBIPTUFLin7-8OywIkj] [conversation.participant=agent]
+
+User moved to section "Step 4".
+[conversation_id=bKBDfgUAa3] [conversation.id=-NBIPTa3209VTJXKEVEr] [conversation.participant=user]
+
+next
+[conversation_id=bKBDfgUAa3] [conversation.id=-NBIPezOiSaiSuD9WtF2] [conversation.participant=user]
+
+
+[conversation_id=bKBDfgUAa3] [conversation.id=-NBIPjaxf4T7ceeaCP_a] [conversation.participant=agent]
+
+User moved to section "Step 5".
+[conversation_id=bKBDfgUAa3] [conversation.id=-NBIPjfxxCgh3ilR2NpR] [conversation.participant=user]
+
+next
+[conversation_id=bKBDfgUAa3] [conversation.id=-NBIPv9xSLvuAcZTrLIl] [conversation.participant=user]
+
+
+[conversation_id=bKBDfgUAa3] [conversation.id=-NBIPwY0XCZQDm3xAcgf] [conversation.participant=agent]
+
+User moved to section "Step 6".
+[conversation_id=bKBDfgUAa3] [conversation.id=-NBIPwc-BUvJvnlCecww] [conversation.participant=user]
+
+next
+[conversation_id=bKBDfgUAa3] [conversation.id=-NBIQ-IdCKZJk5-tfANm] [conversation.participant=user]
+
+
+[conversation_id=bKBDfgUAa3] [conversation.id=-NBIQ0EVxfW_ya9LV4U-] [conversation.participant=agent]
+
+User moved to section "Step 7".
+[conversation_id=bKBDfgUAa3] [conversation.id=-NBIQ0T8zsFFllzNhS0A] [conversation.participant=user]
+
+next
+[conversation_id=bKBDfgUAa3] [conversation.id=-NBIQ5KqK-XK3Wr4DL2J] [conversation.participant=user]
+
+We already reached the last steps
+[conversation_id=bKBDfgUAa3] [conversation.id=-NBIQFH5nvbeImMz6DBF] [conversation.participant=agent]
+
+no thank you
+[conversation_id=bKBDfgUAa3] [conversation.id=-NBIQGr8h6SnP71b5Jn4] [conversation.participant=user]
+
+Thank you. You’re at the end.
+[conversation_id=bKBDfgUAa3] [conversation.id=-NBIQLElfT_ux1b4Mxwg] [conversation.participant=agent]
+

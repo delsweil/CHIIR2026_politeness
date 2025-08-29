@@ -1,0 +1,1507 @@
+{
+    "conversation_id": "5ced03998f09450015fa845d",
+    "condition": "passive",
+    "recipe_id": "2331",
+    "recipe_title": "The Best Buttermilk-Brined Southern Fried Chicken Recipe",
+    "participant_gender": "female",
+    "participant_age": "35-44",
+    "keep_conversation": false,
+    "comments": "",
+    "conversation": [
+        {
+            "id": "-NAJuBsU5p_oKElhRdnU",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Next",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661429403167
+        },
+        {
+            "id": "-NAJuGIkZdOqc9NcKXTV",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661429421296
+        },
+        {
+            "id": "-NAJuGNepcczaGH9uTeA",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 1\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661429421610
+        },
+        {
+            "id": "-NAJuRXAvGhzxtbQptc9",
+            "interaction_type": "text",
+            "information_need_type": "knowledge",
+            "information_need_subtype": "history",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "can you tell me the history of this chicken recipe. it appears to have a lot of ingredients that could make a nice blend",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661429467275
+        },
+        {
+            "id": "-NAJuUqu_QvZWAtlOU7d",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Next",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661429480890
+        },
+        {
+            "id": "-NAJumMSMdWkb3HDRgO3",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NAJuRXAvGhzxtbQptc9"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "That's a great question! t was the Scottish who were the first Europeans to deep fry their chicken in fat (though without seasoning). Meanwhile, a number of West African peoples had traditions of seasoned fried chicken (through battering and cooking the chicken in palm oil). Scottish frying techniques and West African seasoning techniques were combined by enslaved Africans and African-Americans in the American South.",
+            "provenance": [
+                {
+                    "page_id": "71a6337848e9020d",
+                    "page_origin": "wikipedia",
+                    "page_title": "Fried chicken",
+                    "section_title": "Fried chicken",
+                    "paragraph_id": "694f8cc312a7357c",
+                    "paragraph_text": "The first dish known to have been deep fried was fritters, which were popular in the European Middle Ages. However, it was the Scottish who were the first Europeans to deep fry their chicken in fat (though without seasoning). Meanwhile, a number of West African peoples had traditions of seasoned fried chicken (though battering and cooking the chicken in palm oil). Scottish frying techniques and West African seasoning techniques were combined by enslaved Africans and African-Americans in the American South.",
+                    "timestamp": 1661429510305
+                }
+            ],
+            "query": [
+                {
+                    "query": "fried chicken",
+                    "timestamp": 1661429476117
+                }
+            ],
+            "timestamp": 1661429556702
+        },
+        {
+            "id": "-NAJumYn-IERFyi6QZ5x",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661429557492
+        },
+        {
+            "id": "-NAJumca-tbwiAWfTMuC",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 2\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661429557799
+        },
+        {
+            "id": "-NAJv5sZgu1vD5BJO3EB",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [
+                "-NAJumMSMdWkb3HDRgO3"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "very interesting history. would never have thought it had roots in the Scottish. Always perceived seasoned buttermilk chicken to be linked to Africans and African Americans",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661429640740
+        },
+        {
+            "id": "-NAJvDxM_DAaAbcrl2EV",
+            "interaction_type": "text",
+            "information_need_type": "knowledge",
+            "information_need_subtype": "science",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "what is the purpose of buttermilk in this recipe? how does it enhance this recipe?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661429673815
+        },
+        {
+            "id": "-NAJvJJUqgUR2HloER-A",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NAJvDxM_DAaAbcrl2EV"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "That's a really good question! Let me see what I can find",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661429695775
+        },
+        {
+            "id": "-NAJvZxeksZjqAf8YKI2",
+            "interaction_type": "text",
+            "information_need_type": "knowledge",
+            "information_need_subtype": "step_importance",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Also why refrigerate for at least 4 hours or overnight? can't I proceed to fry it once all seasoned together?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661429763947
+        },
+        {
+            "id": "-NAJvlfdN7OFVQz0OE3X",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NAJvDxM_DAaAbcrl2EV"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Buttermilk has a tenderizing effect on food",
+            "provenance": [
+                {
+                    "page_id": "fe69d5b036a5e21d",
+                    "page_origin": "excel",
+                    "page_title": "The Best Southern Fried Chicken | The Food Lab",
+                    "section_title": "Inside Out",
+                    "paragraph_id": "f004c021091a3656",
+                    "paragraph_text": "Not only did the chicken come out just as moist as with water brine, it was actually significantly more tender as well, due to the tenderizing effects of buttermilk on food (soaking it for more than one night led to chicken that was so tender that it bordered on mush).",
+                    "timestamp": 1661429730079
+                }
+            ],
+            "query": [
+                {
+                    "query": "buttermilk",
+                    "timestamp": 1661429697525
+                }
+            ],
+            "timestamp": 1661429816043
+        },
+        {
+            "id": "-NAJvrFCXIyPN2blJXfz",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Next",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661429838861
+        },
+        {
+            "id": "-NAJvweZsJVZ2jMR_3M3",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NAJvZxeksZjqAf8YKI2"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Brining is the process by which a lean meat (most often chicken, turkey, or pork) is submerged in a saltwater solution. As the meat sits, the saltwater will slowly dissolve key muscle proteins. As proteins dissolve, three things take place:",
+            "provenance": [
+                {
+                    "page_id": "fe69d5b036a5e21d",
+                    "page_origin": "excel",
+                    "page_title": "The Best Southern Fried Chicken | The Food Lab",
+                    "section_title": "Inside Out",
+                    "paragraph_id": "ecf33b65342bbfc7",
+                    "paragraph_text": "Brining is the process by which a lean meat (most often chicken, turkey, or pork) is submerged in a saltwater solution.",
+                    "timestamp": 1661429822730
+                },
+                {
+                    "page_id": "fe69d5b036a5e21d",
+                    "page_origin": "excel",
+                    "page_title": "The Best Southern Fried Chicken | The Food Lab",
+                    "section_title": "Inside Out",
+                    "paragraph_id": "ecf33b65342bbfc7",
+                    "paragraph_text": "As the meat sits, the saltwater will slowly dissolve key muscle proteins\u2014most notably myosin, a protein that acts as a sort of glue, holding muscle fibers together).",
+                    "timestamp": 1661429829980
+                },
+                {
+                    "page_id": "fe69d5b036a5e21d",
+                    "page_origin": "excel",
+                    "page_title": "The Best Southern Fried Chicken | The Food Lab",
+                    "section_title": "Inside Out",
+                    "paragraph_id": "ecf33b65342bbfc7",
+                    "paragraph_text": "As the myosin dissolves, three things take place:",
+                    "timestamp": 1661429850343
+                }
+            ],
+            "query": [],
+            "timestamp": 1661429861028
+        },
+        {
+            "id": "-NAJvxIVGcREYEGuqkFM",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NAJvZxeksZjqAf8YKI2"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "First, the ability of the meat to hold onto moisture increases.",
+            "provenance": [
+                {
+                    "page_id": "fe69d5b036a5e21d",
+                    "page_origin": "excel",
+                    "page_title": "The Best Southern Fried Chicken | The Food Lab",
+                    "section_title": "Inside Out",
+                    "paragraph_id": "ba0576fee75e6f46",
+                    "paragraph_text": "First, the ability of the meat to hold onto moisture increases.",
+                    "timestamp": 1661429860412
+                }
+            ],
+            "query": [],
+            "timestamp": 1661429863648
+        },
+        {
+            "id": "-NAJvyyyj3dZnEEWst9i",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NAJvZxeksZjqAf8YKI2"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Second, brining alters the texture of the meat by allowing dissolved proteins to cross-link with each other.",
+            "provenance": [
+                {
+                    "page_id": "fe69d5b036a5e21d",
+                    "page_origin": "excel",
+                    "page_title": "The Best Southern Fried Chicken | The Food Lab",
+                    "section_title": "Inside Out",
+                    "paragraph_id": "ba0576fee75e6f46",
+                    "paragraph_text": "Second, brining alters the texture of the meat by allowing dissolved proteins to cross-link with each other.",
+                    "timestamp": 1661429865527
+                }
+            ],
+            "query": [],
+            "timestamp": 1661429870526
+        },
+        {
+            "id": "-NAJvzuIVByRywkOWpUR",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NAJvZxeksZjqAf8YKI2"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Third, as the brine slowly works its way into the meat, it seasons it beyond just the very surface.",
+            "provenance": [
+                {
+                    "page_id": "fe69d5b036a5e21d",
+                    "page_origin": "excel",
+                    "page_title": "The Best Southern Fried Chicken | The Food Lab",
+                    "section_title": "Inside Out",
+                    "paragraph_id": "ba0576fee75e6f46",
+                    "paragraph_text": "Third, as the brine slowly works its way into the meat, it seasons it beyond just the very surface.",
+                    "timestamp": 1661429870760
+                }
+            ],
+            "query": [],
+            "timestamp": 1661429874323
+        },
+        {
+            "id": "-NAJw28aERgF2In4H3_r",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NAJvZxeksZjqAf8YKI2"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Hence,  an overnight brine will penetrate a few millimeters into the meat, giving you built-in seasoning before you ever get to the breading.",
+            "provenance": [
+                {
+                    "page_id": "fe69d5b036a5e21d",
+                    "page_origin": "excel",
+                    "page_title": "The Best Southern Fried Chicken | The Food Lab",
+                    "section_title": "Inside Out",
+                    "paragraph_id": "ba0576fee75e6f46",
+                    "paragraph_text": "An overnight brine will penetrate a few millimeters into the meat, giving you built-in seasoning before you ever get to the breading.",
+                    "timestamp": 1661429879525
+                }
+            ],
+            "query": [],
+            "timestamp": 1661429887590
+        },
+        {
+            "id": "-NAJwDQmkcd1TPSKVfo4",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [
+                "-NAJvweZsJVZ2jMR_3M3",
+                "-NAJvxIVGcREYEGuqkFM",
+                "-NAJvyyyj3dZnEEWst9i",
+                "-NAJvzuIVByRywkOWpUR",
+                "-NAJw28aERgF2In4H3_r"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "interesting fact about brining. i didn't know that's how it works scientifically.",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661429933810
+        },
+        {
+            "id": "-NAJwTM2GFRBFfZviUcY",
+            "interaction_type": "text",
+            "information_need_type": "knowledge",
+            "information_need_subtype": "ingredient",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [
+                "-NAJvJJUqgUR2HloER-A",
+                "-NAJvlfdN7OFVQz0OE3X"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "With regards to the tenderizing properties of buttermilk, is it the milk that makes it to have such properties? what is buttermilk. butter and milk?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661429999043
+        },
+        {
+            "id": "-NAJw_cezlxaKLA7hsCC",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "NEXT",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661430028842
+        },
+        {
+            "id": "-NAJwyW9B3iNfUQMz4kt",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NAJwTM2GFRBFfZviUcY"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "No it's the buttermilk.  Buttermilk is a fermented dairy drink. Traditionally, it was the liquid left behind after churning butter out of cultured cream. However, most modern buttermilk is cultured.It can be used in marination, especially of chicken and pork, which the lactic acid helps to tenderize, retain moisture and allows added flavors to permeate the meat.",
+            "provenance": [
+                {
+                    "page_id": "1a7e179d83935375",
+                    "page_origin": "wikipedia",
+                    "page_title": "Buttermilk",
+                    "section_title": "Buttermilk",
+                    "paragraph_id": "e7a55e4bd874a19c",
+                    "paragraph_text": "Buttermilk is a fermented dairy drink. Traditionally, it was the liquid left behind after churning butter out of cultured cream. However, most modern buttermilk is cultured. It is common in warm climates (including the Balkans, South Asia, the Middle East and the Southern United States) where unrefrigerated fresh milk sours quickly.",
+                    "timestamp": 1661430059705
+                },
+                {
+                    "page_id": "1a7e179d83935375",
+                    "page_origin": "wikipedia",
+                    "page_title": "Buttermilk",
+                    "section_title": "Buttermilk",
+                    "paragraph_id": "fdc7d36c0084146d",
+                    "paragraph_text": "Buttermilk can be drunk straight, and it can also be used in cooking. In making Soda bread, the acid in buttermilk reacts with the raising agent, sodium bicarbonate, to produce carbon dioxide which acts as the leavening agent. Buttermilk is also used in marination, especially of chicken and pork, which the lactic acid helps to tenderize, retain moisture and allows added flavors to permeate the meat.",
+                    "timestamp": 1661430060372
+                }
+            ],
+            "query": [
+                {
+                    "query": "buttermilk",
+                    "timestamp": 1661430012541
+                }
+            ],
+            "timestamp": 1661430130762
+        },
+        {
+            "id": "-NAJx5PnRP4wDZJyNWIS",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661430163124
+        },
+        {
+            "id": "-NAJx5VjrlFqoyuZEY9z",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 3\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661430163503
+        },
+        {
+            "id": "-NAJxLc3udVOj3I_qPCe",
+            "interaction_type": "text",
+            "information_need_type": "knowledge",
+            "information_need_subtype": "step_importance",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "why coat the chicken in flour mixture?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661430229509
+        },
+        {
+            "id": "-NAJxiGwyQJx3qwq6jmj",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NAJxLc3udVOj3I_qPCe"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "That's because you want to form a crust that was light and crisp.",
+            "provenance": [
+                {
+                    "page_id": "fe69d5b036a5e21d",
+                    "page_origin": "excel",
+                    "page_title": "The Best Southern Fried Chicken | The Food Lab",
+                    "section_title": "Crust Lust",
+                    "paragraph_id": "5b97264f07c0dfcc",
+                    "paragraph_text": "Adding a couple teaspoons of baking powder to the mix helped bring a bit of air to the mix, forming a crust that was lighter and crisper, with increased surface area (and we all know that more surface area = more crispness, right?).",
+                    "timestamp": 1661430302068
+                }
+            ],
+            "query": [],
+            "timestamp": 1661430326396
+        },
+        {
+            "id": "-NAJxvBHbI4le8UjbQ9Z",
+            "interaction_type": "text",
+            "information_need_type": "konwledge",
+            "information_need_subtype": "science",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Ingredients includes baking powder? but isn't the chicken to be deep fried? why use baking powder",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661430379282
+        },
+        {
+            "id": "-NAJxvpT0SCBomnZRTRZ",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "NEXT",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661430381918
+        },
+        {
+            "id": "-NAJy8m1XnzyIU967Rd0",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NAJxvBHbI4le8UjbQ9Z"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "That's a great question!  Adding a couple of teaspoons of baking powder to the mix helps to bring a bit of air to the mix, forming a crust that is lighter and crisper, with increased surface area.",
+            "provenance": [
+                {
+                    "page_id": "fe69d5b036a5e21d",
+                    "page_origin": "excel",
+                    "page_title": "The Best Southern Fried Chicken | The Food Lab",
+                    "section_title": "Crust Lust",
+                    "paragraph_id": "5b97264f07c0dfcc",
+                    "paragraph_text": "Adding a couple teaspoons of baking powder to the mix helped bring a bit of air to the mix, forming a crust that was lighter and crisper, with increased surface area (and we all know that more surface area = more crispness, right?).",
+                    "timestamp": 1661430402993
+                }
+            ],
+            "query": [],
+            "timestamp": 1661430439042
+        },
+        {
+            "id": "-NAJy9gfi5l5UMj23ZY7",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661430442795
+        },
+        {
+            "id": "-NAJy9koeLbznOa4c6Pj",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 4\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661430443060
+        },
+        {
+            "id": "-NAJyTpng_qaFCLjR8c7",
+            "interaction_type": "text",
+            "information_need_type": "knowledge",
+            "information_need_subtype": "science",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [
+                "-NAJy8m1XnzyIU967Rd0"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "now this is an interesting step! why would be fry and then put it in the oven? what is the science and thought-process behind this technique",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661430525300
+        },
+        {
+            "id": "-NAJyeM9MEYe0S4ywjov",
+            "interaction_type": "text",
+            "information_need_type": "knowledge",
+            "information_need_subtype": "science",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Also why heat the oil to a specific temperature. what happens if it's a hotter than specified or colder than specified?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661430572490
+        },
+        {
+            "id": "-NAJyo7Lej9teUzYxl32",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NAJyTpng_qaFCLjR8c7"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "You want to avoid the coating overcooking long before the chicken is cooked through to the center. For this reason, you need to fry the chicken until golden brown, then transfer it to a hot oven to finish cooking at a gentler pace. The result is chicken with a deep brown, craggy crust that's shatteringly crisp but not tough and that breaks away to the meat that bursts with intensely seasoned juices underneath.",
+            "provenance": [
+                {
+                    "page_id": "fe69d5b036a5e21d",
+                    "page_origin": "excel",
+                    "page_title": "The Best Southern Fried Chicken | The Food Lab",
+                    "section_title": "Crust Lust",
+                    "paragraph_id": "7f3eeaf5bc97b128",
+                    "paragraph_text": "The last problem\u2014the coating overcooking long before the chicken is cooked through to the center\u2014was simple to solve.",
+                    "timestamp": 1661430554375
+                },
+                {
+                    "page_id": "fe69d5b036a5e21d",
+                    "page_origin": "excel",
+                    "page_title": "The Best Southern Fried Chicken | The Food Lab",
+                    "section_title": "Crust Lust",
+                    "paragraph_id": "7f3eeaf5bc97b128",
+                    "paragraph_text": "Just fry the chicken until golden brown, then transfer it to a hot oven to finish cooking at a gentler pace.",
+                    "timestamp": 1661430555392
+                },
+                {
+                    "page_id": "fe69d5b036a5e21d",
+                    "page_origin": "excel",
+                    "page_title": "The Best Southern Fried Chicken | The Food Lab",
+                    "section_title": "Crust Lust",
+                    "paragraph_id": "7f3eeaf5bc97b128",
+                    "paragraph_text": "The result is chicken with a deep brown, craggy crust that's shatteringly crisp but not tough and that breaks away to meat that bursts with intensely seasoned juices underneath.",
+                    "timestamp": 1661430557408
+                }
+            ],
+            "query": [],
+            "timestamp": 1661430612502
+        },
+        {
+            "id": "-NAJyqIvCzOWWPWWJXCk",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NAJyeM9MEYe0S4ywjov"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "I'm sorry, I do not think I have this information",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661430621436
+        },
+        {
+            "id": "-NAJyssmPk4_Iyc85wMX",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "NEXT",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661430631986
+        },
+        {
+            "id": "-NAJytfgb4fXdsyeUGKN",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661430635245
+        },
+        {
+            "id": "-NAJytkqSRRm4-rXmrdN",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 5\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661430635575
+        },
+        {
+            "id": "-NAJz5bALyQUpWA4cC4s",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "NEXT",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661430688203
+        },
+        {
+            "id": "-NAJz6dP-DvQsS56p_lj",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661430692442
+        },
+        {
+            "id": "-NAJz6hehX-YcK0qsbnP",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 6\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661430692714
+        },
+        {
+            "id": "-NAJzIXOkXAmtOEQ212m",
+            "interaction_type": "text",
+            "information_need_type": "knowledge",
+            "information_need_subtype": "step_importance",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Why seasoning lightly with salt before it goes into the oven?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661430741146
+        },
+        {
+            "id": "-NAJzSdJpuM3-ZOETLIU",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NAJzIXOkXAmtOEQ212m"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "You should just season with salt to taste.",
+            "provenance": [
+                {
+                    "page_id": "88c7d3ee4ea22283",
+                    "page_origin": "excel",
+                    "page_title": "The Best Buttermilk-Brined Southern Fried Chicken Recipe",
+                    "section_title": "The Best Buttermilk-Brined Southern Fried Chicken Recipe",
+                    "paragraph_id": "e5e8f271e886629e",
+                    "paragraph_text": "Season with salt to taste.",
+                    "timestamp": 1661430770420
+                }
+            ],
+            "query": [],
+            "timestamp": 1661430782550
+        },
+        {
+            "id": "-NAJzZrCZYOMKq7qcKrr",
+            "interaction_type": "text",
+            "information_need_type": "konwledge",
+            "information_need_subtype": "step_importance",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "why are there different cooking temperatures for breast pieces and thigh/drumstick pieces?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661430812110
+        },
+        {
+            "id": "-NAJzefyW_ifrG2YyI91",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "NEXT",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661430835966
+        },
+        {
+            "id": "-NAJzqPAvH46vFh6iZlD",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NAJzZrCZYOMKq7qcKrr"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "I'm sorry, I do not think I have this information",
+            "provenance": [],
+            "query": [
+                {
+                    "query": "fried chicken different times",
+                    "timestamp": 1661430869260
+                }
+            ],
+            "timestamp": 1661430883979
+        },
+        {
+            "id": "-NAJzu-4XAJH7QCasdnm",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "You reached the last step in this recipe! well done!",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661430898694
+        },
+        {
+            "id": "-NAJzvjK5dG4z5gVFy6V",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [
+                "-NAJzu-4XAJH7QCasdnm"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "thank you",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661430905813
+        },
+        {
+            "id": "-NAJzyzCNL-aUK9uZHe2",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "PREVIOUS",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661430919118
+        },
+        {
+            "id": "-NAK--el-mHk8651nt0e",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "prev"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661430926001
+        },
+        {
+            "id": "-NAK--sugQQ1iU9AXpK-",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 5\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661430926906
+        },
+        {
+            "id": "-NAK-0R-Mz3h1y9taIN8",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "PREVIOUS",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661430929153
+        },
+        {
+            "id": "-NAK-27Sz9HQUJ7AL6W0",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "prev"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661430936094
+        },
+        {
+            "id": "-NAK-2BKkrPPJB9-Bd6N",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 4\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661430936342
+        },
+        {
+            "id": "-NAK-3R2VNxodQASdt9b",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "PREVIOUS",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661430941443
+        },
+        {
+            "id": "-NAK-3tXQWl5FxHbJExs",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "prev"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661430943331
+        },
+        {
+            "id": "-NAK-3xh5VPyWB-ICP28",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 3\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661430943597
+        },
+        {
+            "id": "-NAK-7w16DJOAkty7QUX",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "PREVIOUS",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661430959874
+        },
+        {
+            "id": "-NAK-8MtZK8s0rOtz3u9",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "prev"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661430961657
+        },
+        {
+            "id": "-NAK-8RBJSkh-LGq_T40",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 2\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661430961933
+        },
+        {
+            "id": "-NAK-ArExOb-DeahNycK",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "PREVIOUS",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661430971855
+        },
+        {
+            "id": "-NAK-BR5VUguZI0Frc3F",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "prev"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661430974214
+        },
+        {
+            "id": "-NAK-BUmZsU5fGRMUX60",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 1\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661430974450
+        },
+        {
+            "id": "-NAK-DmQUudd30qW0vNE",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "PREVIOUS",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661430983835
+        },
+        {
+            "id": "-NAK-ELAlpV5-v2lqB67",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "prev"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661430986124
+        },
+        {
+            "id": "-NAK-EPZjbHENHzw6oF0",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Time, Equipment & Ingredients\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661430986405
+        },
+        {
+            "id": "-NAK-LmkqLv4Isqzvtml",
+            "interaction_type": "text",
+            "information_need_type": "konwledge",
+            "information_need_subtype": "history",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "any more interesting facts about the history of this recipe?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661431016625
+        },
+        {
+            "id": "-NAK-UyxRP8LmSnDuQvP",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NAK-LmkqLv4Isqzvtml"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "The Roman cookbook of \"Apicius\" (4th century) has a recipe for deep-fried chicken called \"Pullum Frontonianum\".",
+            "provenance": [
+                {
+                    "page_id": "71a6337848e9020d",
+                    "page_origin": "wikipedia",
+                    "page_title": "Fried chicken",
+                    "section_title": "History.",
+                    "paragraph_id": "418768f0e97a96fb",
+                    "paragraph_text": "The Roman cookbook of \"Apicius\" (4th century) has a recipe for deep-fried chicken called \"Pullum Frontonianum\". ",
+                    "timestamp": 1661431045010
+                }
+            ],
+            "query": [
+                {
+                    "query": "fried chicken",
+                    "timestamp": 1661431022957
+                }
+            ],
+            "timestamp": 1661431054269
+        },
+        {
+            "id": "-NAK-Y31bdmWHzFNa50r",
+            "interaction_type": "text",
+            "information_need_type": "cooking_technique",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Is there a special name for this technique?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1661431066883
+        },
+        {
+            "id": "-NAK-yTNg11MJtFlVFKb",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NAK-Y31bdmWHzFNa50r"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "The technique referred to in the late Roman cookbook of \"Apicius\" (c. 400), is simply named deep frying.",
+            "provenance": [
+                {
+                    "page_id": "a2e923da63c9dc6b",
+                    "page_origin": "wikipedia",
+                    "page_title": "Deep frying",
+                    "section_title": "History.",
+                    "paragraph_id": "5a7166d5a4e3be38",
+                    "paragraph_text": "Frying food in olive oil is attested in Classical Greece from about the 5th century BCE. The late Roman cookbook of \"Apicius\" (c. 400), appears to list the ancient Romans' first use of deep frying to prepare Pullum Frontonianum, a chicken dish. The practice of deep frying spread to other parts of Europe and Arabia in the following centuries. Deep-fried foods such as funnel cakes arrived in northern Europe by the 13th century, and deep-fried fish recipes have been found in cookbooks in Spain and Portugal at around the same time. Falafel arrived in the Middle East from population migrations from Egypt as soon as the 14th century.",
+                    "timestamp": 1661431125993
+                }
+            ],
+            "query": [
+                {
+                    "query": "Pullum Frontonianum",
+                    "timestamp": 1661431075194
+                }
+            ],
+            "timestamp": 1661431179160
+        }
+    ]
+}

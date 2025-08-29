@@ -1,0 +1,16 @@
+cluster,conversation_id,seed,steps,total_user_turns,total_agent_turns,total_asks,prop_steps_with_q,prop_steps_proceed_no_q
+C1_Hyperpolite,C1_Hyperpolite__debug__seed20251,20251,6,7,1,1,0.125,0
+C1_Hyperpolite,C1_Hyperpolite__debug__seed20252,20252,6,6,0,0,0,0
+C1_Hyperpolite,C1_Hyperpolite__debug__seed20253,20253,6,12,6,2,0.1111111111111111,0
+C1_Hyperpolite,C1_Hyperpolite__debug__seed20254,20254,6,16,10,1,0.038461538461538464,0
+C1_Hyperpolite,C1_Hyperpolite__debug__seed20255,20255,6,8,2,0,0,0
+C3_DirectLowPoliteness,C3_DirectLowPoliteness__debug__seed20251,20251,6,12,6,4,0.2222222222222222,0
+C3_DirectLowPoliteness,C3_DirectLowPoliteness__debug__seed20252,20252,6,12,6,5,0.2777777777777778,0
+C3_DirectLowPoliteness,C3_DirectLowPoliteness__debug__seed20253,20253,6,12,6,6,0.3333333333333333,0
+C3_DirectLowPoliteness,C3_DirectLowPoliteness__debug__seed20254,20254,6,12,6,4,0.2222222222222222,0
+C3_DirectLowPoliteness,C3_DirectLowPoliteness__debug__seed20255,20255,6,14,8,5,0.22727272727272727,0
+C5_Impolite,C5_Impolite__debug__seed20251,20251,6,12,6,5,0.2777777777777778,0
+C5_Impolite,C5_Impolite__debug__seed20252,20252,6,12,6,8,0.4444444444444444,0
+C5_Impolite,C5_Impolite__debug__seed20253,20253,6,12,6,7,0.3888888888888889,0
+C5_Impolite,C5_Impolite__debug__seed20254,20254,6,12,6,5,0.2777777777777778,0
+C5_Impolite,C5_Impolite__debug__seed20255,20255,6,12,6,8,0.4444444444444444,0

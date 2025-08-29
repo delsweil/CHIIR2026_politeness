@@ -1,0 +1,4 @@
+cluster,model_agent,conv_n,mean_energy_Wh,sd_energy_Wh,mean_agent_turns
+C1_Hyperpolite,deepseek-r1:8b,1,0,NA,6
+C3_DirectLowPoliteness,deepseek-r1:8b,1,0,NA,6
+C5_Impolite,deepseek-r1:8b,1,0,NA,6

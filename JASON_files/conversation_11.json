@@ -1,0 +1,823 @@
+{
+    "conversation_id": "5fdbb3b4e66d7f061f78ea21",
+    "condition": "passive",
+    "recipe_id": "120",
+    "recipe_title": "Parisian Gnocchi Recipe",
+    "participant_gender": "female",
+    "participant_age": "35-44",
+    "keep_conversation": true,
+    "comments": "",
+    "conversation": [
+        {
+            "id": "-N96KKBpvbfxo8HnLTts",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Hi",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660127892281
+        },
+        {
+            "id": "-N96KOyXn3GVIsV1sSNe",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Hey there! Happy to have you on board for our masterclass :) Today you will be learning how to prepare gnocchi. Make sure you have all the ingredients and tools and feel free to ask questions. If you are ready to start cooking simply say next.",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660127911842
+        },
+        {
+            "id": "-N96KdZIiTKA31u8akbo",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Next",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660127975699
+        },
+        {
+            "id": "-N96KeGOYo_ZIQvxypIu",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660127978585
+        },
+        {
+            "id": "-N96KeM7djc-qG9tPGe5",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 1\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660127978952
+        },
+        {
+            "id": "-N96Krc3Pui0QP2Vwyjc",
+            "interaction_type": "text",
+            "information_need_type": "preparation",
+            "information_need_subtype": "image",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Can you show me what the dough should look like?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660128033286
+        },
+        {
+            "id": "-N96L0UbjgMm237GIf3E",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-N96Krc3Pui0QP2Vwyjc"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "You should stir it vigorously with a wooden spoon until a smooth ball of dough forms.",
+            "provenance": [
+                {
+                    "page_id": "01be516b91f955d3",
+                    "page_origin": "excel",
+                    "page_title": "How to Make Parisian Gnocchi | The Food Lab",
+                    "section_title": "Gnocchi Basics",
+                    "paragraph_id": "e67916eacf52117e",
+                    "paragraph_text": "First, boil water and butter in a saucepan, then dump in flour all at once and stir it vigorously with a wooden spoon until a smooth ball of dough forms.",
+                    "timestamp": 1660128063934
+                }
+            ],
+            "query": [],
+            "timestamp": 1660128073703
+        },
+        {
+            "id": "-N96L0rNsPrKIrVJwqs_",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [
+                "-N96Krc3Pui0QP2Vwyjc"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "https://www.seriouseats.com/thmb/LsksINgo0eplkplKzuzPlUc2P6M=/610x458/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2013__09__20130827-gnocchi-parisian-souffle-03-8055e2ed51894009995e78844d770af7.jpg",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660128075226
+        },
+        {
+            "id": "-N96L3ja-8nF84GGgS0I",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Next",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660128087014
+        },
+        {
+            "id": "-N96L4baGNUs8uU1jX5M",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660128090598
+        },
+        {
+            "id": "-N96L4hJnOydnuV2NQ2G",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 2\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660128090964
+        },
+        {
+            "id": "-N96LDP88ha6fr6pdvDH",
+            "interaction_type": "text",
+            "information_need_type": "ingredient",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "What mustard do I need",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660128126601
+        },
+        {
+            "id": "-N96LJZbzi_pwmyS-5U2",
+            "interaction_type": "text",
+            "information_need_type": "preparation",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Is it step four or step 3 to proceed",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660128151848
+        },
+        {
+            "id": "-N96LNgoh3fFPuG8DIea",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-N96LDP88ha6fr6pdvDH"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "You should use Dijon mustard",
+            "provenance": [
+                {
+                    "page_id": "f43cc8996bac7920",
+                    "page_origin": "excel",
+                    "page_title": "Parisian Gnocchi Recipe",
+                    "section_title": "Parisian Gnocchi Recipe",
+                    "paragraph_id": "67cbcfcfd9027e91",
+                    "paragraph_text": "1 tablespoon Dijon mustard",
+                    "timestamp": 1660128147902
+                }
+            ],
+            "query": [
+                {
+                    "query": "mustard",
+                    "timestamp": 1660128142094
+                }
+            ],
+            "timestamp": 1660128168756
+        },
+        {
+            "id": "-N96LQ0ubLgdGLSvxp7p",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [
+                "-N96LJZbzi_pwmyS-5U2"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Can you reformulate your question?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660128178298
+        },
+        {
+            "id": "-N96LRipZlkiglOJPNhC",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Next",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660128185270
+        },
+        {
+            "id": "-N96LUbiS1JcySqjyLMk",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660128197102
+        },
+        {
+            "id": "-N96LUgGcs4yG5AmEqyq",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 3\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660128197393
+        },
+        {
+            "id": "-N96Lbuicgmx88mA6tpZ",
+            "interaction_type": "text",
+            "information_need_type": "cooking_technique",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "What is curdling",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660128231087
+        },
+        {
+            "id": "-N96Lm0LN88AD7AxRoXJ",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-N96Lbuicgmx88mA6tpZ"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "In cookery, curdling is the breaking of an emulsion or colloid into large parts of different composition through the physico-chemical processes of flocculation, creaming, and coalescence. Curdling is intentional and desirable in making cheese and tofu; unintentional and undesirable in making sauces and custards. Curdling occurs naturally in cows' milk, if it is left open to air for a few days in a warm environment.",
+            "provenance": [
+                {
+                    "page_id": "650e610665dd452a",
+                    "page_origin": "wikipedia",
+                    "page_title": "Curdling",
+                    "section_title": "Curdling",
+                    "paragraph_id": "e74b36419eafdf1c",
+                    "paragraph_text": "In cookery, curdling is the breaking of an emulsion or colloid into large parts of different composition through the physico-chemical processes of flocculation, creaming, and coalescence. Curdling is intentional and desirable in making cheese and tofu; unintentional and undesirable in making sauces and custards. Curdling occurs naturally in cows' milk, if it is left open to air for a few days in a warm environment. Milk is composed of several compounds, primarily fat, protein, and sugar. The protein in milk is normally suspended in a colloidal solution, which means that the small protein molecules float around freely and independently. These floating protein molecules refract light and contribute (with the suspended fat) to the white appearance of milk. Normally these protein molecules repel each other, allowing them to float about without clumping, but when the pH of their solution changes, they can attract one another and form clumps. This is what happens when milk curdles, as the pH drops and becomes more acidic, the protein (casein and others) molecules attract one another and become \"curdles\" floating in a solution of translucent whey. This clumping reaction happens more swiftly at warmer temperatures than it does at cold temperatures. ",
+                    "timestamp": 1660128249185
+                }
+            ],
+            "query": [
+                {
+                    "query": "curdling",
+                    "timestamp": 1660128236733
+                }
+            ],
+            "timestamp": 1660128272471
+        },
+        {
+            "id": "-N96LpHOEYaCPYhDASVK",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Next",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660128285849
+        },
+        {
+            "id": "-N96LsBqX_lnRFr8EQYP",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660128297783
+        },
+        {
+            "id": "-N96LsHAV0q4VEevSaob",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 4\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660128298124
+        },
+        {
+            "id": "-N96ME-FtO3K-ST9eaK_",
+            "interaction_type": "text",
+            "information_need_type": "equipment",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "What size baking sheet is needed",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660128391185
+        },
+        {
+            "id": "-N96MMzNDxgPoGlHZlB_",
+            "interaction_type": "text",
+            "information_need_type": "preparation",
+            "information_need_subtype": "video",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Can you show a video of putting them in the water",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660128427993
+        },
+        {
+            "id": "-N96MTuFzs-UMOnB_p-L",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-N96ME-FtO3K-ST9eaK_"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "it really depends on how much dough you have. Simply transfer to a rimmed baking sheet.",
+            "provenance": [
+                {
+                    "page_id": "f43cc8996bac7920",
+                    "page_origin": "excel",
+                    "page_title": "Parisian Gnocchi Recipe",
+                    "section_title": "Parisian Gnocchi Recipe",
+                    "paragraph_id": "67cbcfcfd9027e91",
+                    "paragraph_text": "Lift gnocchi with a fine mesh strainer or a metal spider and transfer to rimmed baking sheet.",
+                    "timestamp": 1660128421163
+                }
+            ],
+            "query": [
+                {
+                    "query": "baking sheet",
+                    "timestamp": 1660128399967
+                }
+            ],
+            "timestamp": 1660128456336
+        },
+        {
+            "id": "-N96MVnK9CI5LoHVfT2u",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [
+                "-N96MMzNDxgPoGlHZlB_"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Let me see what I can find :)",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660128464085
+        },
+        {
+            "id": "-N96MaNGee1lrBoJpKI6",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-N96MMzNDxgPoGlHZlB_"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "I'm sorry but I do not have a video on that specific step",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660128486930
+        },
+        {
+            "id": "-N96MeX4rfMdVWL1RF4e",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Next",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660128503941
+        },
+        {
+            "id": "-N96Mfu9pu85CjRip0K0",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660128509578
+        },
+        {
+            "id": "-N96Mg-f530YSU5URb_F",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 5\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660128509995
+        },
+        {
+            "id": "-N96Mm435n4wpBPTU82Y",
+            "interaction_type": "text",
+            "information_need_type": "time",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "How long with the gnocchi need to cook",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660128534852
+        },
+        {
+            "id": "-N96N-O1cFjiFolVmH1J",
+            "interaction_type": "text",
+            "information_need_type": "time",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "How long will the cooled gnocchi last",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660128593475
+        },
+        {
+            "id": "-N96N-YQiBpAI6cHfPte",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-N96Mm435n4wpBPTU82Y"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "You should wait until all gnocchi have floated to the top, then continue cooking until gnocchi are fully cooked to the center which should take about 3 minutes longer.",
+            "provenance": [
+                {
+                    "page_id": "f43cc8996bac7920",
+                    "page_origin": "excel",
+                    "page_title": "Parisian Gnocchi Recipe",
+                    "section_title": "Parisian Gnocchi Recipe",
+                    "paragraph_id": "67cbcfcfd9027e91",
+                    "paragraph_text": "When all gnocchi have floated to the top, continue cooking until gnocchi are fully cooked to the center, about 3 minutes longer.",
+                    "timestamp": 1660128562264
+                }
+            ],
+            "query": [],
+            "timestamp": 1660128594139
+        },
+        {
+            "id": "-N96NAOuMplZxAlAQR7z",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Next",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660128638587
+        },
+        {
+            "id": "-N96NEMPLLHdFHSqACz8",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-N96N-O1cFjiFolVmH1J"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "I'm sorry but I do not have an answer to that question",
+            "provenance": [],
+            "query": [
+                {
+                    "query": "how long do gnocchi last",
+                    "timestamp": 1660128613524
+                },
+                {
+                    "query": "gnocchi last",
+                    "timestamp": 1660128634863
+                },
+                {
+                    "query": "gnocchi expire",
+                    "timestamp": 1660128637484
+                }
+            ],
+            "timestamp": 1660128654810
+        },
+        {
+            "id": "-N96NEVkrEi_GZvbBq-8",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660128655409
+        },
+        {
+            "id": "-N96NEaRVA55R8BWyzVX",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 5\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660128655772
+        },
+        {
+            "id": "-N96NJ25keuUPM_e_tOM",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Next",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660128673991
+        },
+        {
+            "id": "-N96NKCjY5pmnVEPX-UC",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [
+                "-N96NJ25keuUPM_e_tOM"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "You reached the last step! Well done!",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660128678768
+        },
+        {
+            "id": "-N96NPaYr0tLoqzNB0-y",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [
+                "-N96NKCjY5pmnVEPX-UC"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Thankyou",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660128700835
+        }
+    ]
+}

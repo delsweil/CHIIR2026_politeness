@@ -1,0 +1,1723 @@
+{
+    "conversation_id": "7460a2a0",
+    "condition": "passive",
+    "recipe_id": "597",
+    "recipe_title": "How to Make a Savory Souffl\u00e9",
+    "participant_gender": "male",
+    "participant_age": "45-54",
+    "keep_conversation": true,
+    "comments": "",
+    "conversation": [
+        {
+            "id": "-NKgoIqsu-wIsGnKt8Hg",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "user joined the chat.",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672567930296
+        },
+        {
+            "id": "-NKgoaLzw19Mxht54v1k",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "user joined the chat.",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672568006079
+        },
+        {
+            "id": "-NKgprMBGRSWkYgBxxwB",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "user joined the chat.",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672568337868
+        },
+        {
+            "id": "-NKgq-mjfV_tpLWwyHyi",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Hey there! Happy to have you on board for our masterclass :-) Today you will be learning how to prepare a Savory Souffl\u00e9. Make sure you have all the ingredients and tools and feel free to ask questions. If you are ready to start cooking simply say start.",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672568376495
+        },
+        {
+            "id": "-NKgqJnKp_7lux4ooRJw",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [
+                "-NKgq-mjfV_tpLWwyHyi"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "start",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672568458453
+        },
+        {
+            "id": "-NKgqRMr4c0wEyyWzxRm",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Do you have any questions about the ingredients?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672568489463
+        },
+        {
+            "id": "-NKgqa_y_y5AQsdGpqZk",
+            "interaction_type": "text",
+            "information_need_type": "ingredient",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [
+                "-NKgqRMr4c0wEyyWzxRm"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "What type of cheese is Gruyere",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672568531327
+        },
+        {
+            "id": "-NKgqmPmvAtv-2aMvJpj",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NKgqa_y_y5AQsdGpqZk"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "That's a great question! Let me see what I can find",
+            "provenance": [],
+            "query": [
+                {
+                    "query": "gruyere",
+                    "timestamp": 1672568538209
+                },
+                {
+                    "query": "gruyere cheese",
+                    "timestamp": 1672568557604
+                }
+            ],
+            "timestamp": 1672568579762
+        },
+        {
+            "id": "-NKgrBx4tUjnSeDJcTp4",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NKgqa_y_y5AQsdGpqZk"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Gruy\u00e8re is a hard yellow cheese made from cow's milk, named after the town of Gruy\u00e8res.",
+            "provenance": [
+                {
+                    "page_id": "1b4dfd46830a77b9",
+                    "page_origin": "wikipedia",
+                    "page_title": "Gruy\u00e8re (disambiguation)",
+                    "section_title": "Gruy\u00e8re (disambiguation)",
+                    "paragraph_id": "58d75a448ffd4d85",
+                    "paragraph_text": "Gruy\u00e8re is a hard yellow cheese made from cow's milk, named after the town of Gruy\u00e8res",
+                    "timestamp": 1672568641407
+                }
+            ],
+            "query": [
+                {
+                    "query": "Gruy\u00e8re cheese",
+                    "timestamp": 1672568618103
+                }
+            ],
+            "timestamp": 1672568688453
+        },
+        {
+            "id": "-NKgrHhDsIlM2BePjxPs",
+            "interaction_type": "text",
+            "information_need_type": "preparation",
+            "information_need_subtype": "picture",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [
+                "-NKgqmPmvAtv-2aMvJpj",
+                "-NKgrBx4tUjnSeDJcTp4"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Can you show me a picture please?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672568712014
+        },
+        {
+            "id": "-NKgrKqsebCjqiYToOP1",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NKgqa_y_y5AQsdGpqZk"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "It's perfect for this recipe as you want a good melter with low water content.  That means a semifirm cheese that can be grated into shreds, like Gruy\u00e8re or cheddar.",
+            "provenance": [
+                {
+                    "page_id": "9e01f5ae61758e46",
+                    "page_origin": "excel",
+                    "page_title": "How to Make a Savory Souffl\u00e9",
+                    "section_title": "Say Cheese! (I Got Nothing for This One, So Sou Me)",
+                    "paragraph_id": "88421470d79cdc10",
+                    "paragraph_text": "You want a good melter with a low water content.",
+                    "timestamp": 1672568698022
+                },
+                {
+                    "page_id": "9e01f5ae61758e46",
+                    "page_origin": "excel",
+                    "page_title": "How to Make a Savory Souffl\u00e9",
+                    "section_title": "Say Cheese! (I Got Nothing for This One, So Sou Me)",
+                    "paragraph_id": "88421470d79cdc10",
+                    "paragraph_text": "That means a semifirm cheese that can be grated into shreds, like Gruy\u00e8re or cheddar.",
+                    "timestamp": 1672568706856
+                }
+            ],
+            "query": [],
+            "timestamp": 1672568724920
+        },
+        {
+            "id": "-NKgrMqA6c6pXFEfoA9-",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NKgrHhDsIlM2BePjxPs"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Sure!",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672568733067
+        },
+        {
+            "id": "-NKgrOIFsqHYKZgMmu85",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NKgrHhDsIlM2BePjxPs"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "https://www.seriouseats.com/thmb/PB8VYYepaY5BaN_EEOf_DyqFsrM=/1500x1125/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2019__01__20190116-cheese-souffle-vicky-wasik-18-1500x1125-9784c7ecaa3542fd94e437a9c56df866.jpg",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672568739024
+        },
+        {
+            "id": "-NKgrdEeE2u50bOztdqq",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [
+                "-NKgrMqA6c6pXFEfoA9-",
+                "-NKgrOIFsqHYKZgMmu85"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Thankyou",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672568804331
+        },
+        {
+            "id": "-NKgrdupS0vMFK8epEtr",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Start",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672568807093
+        },
+        {
+            "id": "-NKgrnvrwDlLoiXqnTQG",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "As a reminder, if you want to go to the next step, simply type \"next\". To go to a previous step, type \"previous\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672568848119
+        },
+        {
+            "id": "-NKgrprGucbPBwBceTPF",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Would you like to go to the next step?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672568856017
+        },
+        {
+            "id": "-NKgrthg3js4y8ESNMdM",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NKgrprGucbPBwBceTPF"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "next",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672568871788
+        },
+        {
+            "id": "-NKgrv4wnE3cZmDwKKqC",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672568877436
+        },
+        {
+            "id": "-NKgrv8lp-i1JTDbkil_",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 1\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672568877681
+        },
+        {
+            "id": "-NKgs1f7R0CeU7ctokkV",
+            "interaction_type": "text",
+            "information_need_type": "knowledge",
+            "information_need_subtype": "step_importance",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Why does the ramekin need to be refridgerated?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672568908488
+        },
+        {
+            "id": "-NKgsG9QEDD5iuDu6qec",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NKgs1f7R0CeU7ctokkV"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "I'm sorry, I do not think I have this information",
+            "provenance": [],
+            "query": [
+                {
+                    "query": "ramekin",
+                    "timestamp": 1672568938895
+                }
+            ],
+            "timestamp": 1672568967836
+        },
+        {
+            "id": "-NKgsSHpYEKbPNNLNa86",
+            "interaction_type": "text",
+            "information_need_type": "knowledge",
+            "information_need_subtype": "history",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [
+                "-NKgsG9QEDD5iuDu6qec"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "ok, can you please tell me the history of the souffle recipe?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672569017525
+        },
+        {
+            "id": "-NKgsoDyt8x7a_uGmT_n",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NKgsSHpYEKbPNNLNa86"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "A souffl\u00e9 is a baked egg-based dish which originated in early eighteenth century France. It is made with egg yolks and beaten egg whites combined with various other ingredients and served as a savory main dish or sweetened as a dessert. The word souffl\u00e9 is the past participle of the French verb \"souffler\" which means \"to blow\", \"to breathe\", \"to inflate\" or \"to puff\". The earliest mention of the souffl\u00e9 is attributed to French master cook  Vincent La Chapelle, in the early eighteenth century. The development and popularization of the souffl\u00e9 is usually traced to French chef Marie-Antoine Car\u00eame in the early nineteenth century.",
+            "provenance": [
+                {
+                    "page_id": "7187b9896cbc542f",
+                    "page_origin": "wikipedia",
+                    "page_title": "Souffl\u00e9",
+                    "section_title": "History.",
+                    "paragraph_id": "8dd188d59bedca1c",
+                    "paragraph_text": "The earliest mention of the souffl\u00e9 is attributed to French master cook",
+                    "timestamp": 1672569060452
+                },
+                {
+                    "page_id": "7187b9896cbc542f",
+                    "page_origin": "wikipedia",
+                    "page_title": "Souffl\u00e9",
+                    "section_title": "History.",
+                    "paragraph_id": "09b3295ee3156e65",
+                    "paragraph_text": "Vincent La Chapelle, in the early eighteenth century. The development and popularization of the souffl\u00e9 is usually traced to French chef Marie-Antoine Car\u00eame in the early nineteenth century.",
+                    "timestamp": 1672569062202
+                },
+                {
+                    "page_id": "7187b9896cbc542f",
+                    "page_origin": "wikipedia",
+                    "page_title": "Souffl\u00e9",
+                    "section_title": "Souffl\u00e9",
+                    "paragraph_id": "d4a917820130db42",
+                    "paragraph_text": "A souffl\u00e9 is a baked egg-based dish which originated in early eighteenth century France. It is made with egg yolks and beaten egg whites combined with various other ingredients and served as a savory main dish or sweetened as a dessert. The word souffl\u00e9 is the past participle of the French verb \"souffler\" which means \"to blow\", \"to breathe\", \"to inflate\" or \"to puff\".",
+                    "timestamp": 1672569079286
+                }
+            ],
+            "query": [
+                {
+                    "query": "souffle",
+                    "timestamp": 1672569029991
+                },
+                {
+                    "query": "Souffl\u00e9",
+                    "timestamp": 1672569046164
+                }
+            ],
+            "timestamp": 1672569111486
+        },
+        {
+            "id": "-NKgsxKrd53KEDCxivjI",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [
+                "-NKgsoDyt8x7a_uGmT_n"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Thank you",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672569148791
+        },
+        {
+            "id": "-NKgszm1mNI7xl800Zcu",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "next",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672569158786
+        },
+        {
+            "id": "-NKgt-SBUCN4B3ERUiyU",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672569161549
+        },
+        {
+            "id": "-NKgt-W2vRuEwTFvukZ7",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 2\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672569161795
+        },
+        {
+            "id": "-NKgt5M4jeomLGQzZh3L",
+            "interaction_type": "text",
+            "information_need_type": "preparation",
+            "information_need_subtype": "video",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Can you show me a video of adding flour?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672569185733
+        },
+        {
+            "id": "-NKgtC8UcwsKQJ0pI7P4",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NKgt5M4jeomLGQzZh3L"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "I'm sorry but I do not have a video for this recipe.",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672569213535
+        },
+        {
+            "id": "-NKgtI8wrXmMcF49L29l",
+            "interaction_type": "text",
+            "information_need_type": "ingredient",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [
+                "-NKgtC8UcwsKQJ0pI7P4"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "ok, what consistency should the paste be?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672569238140
+        },
+        {
+            "id": "-NKgtazlvPLQ5RcpcD4O",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NKgtI8wrXmMcF49L29l"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "You should obtain a relatively dense lump-free texture.",
+            "provenance": [
+                {
+                    "page_id": "9a18a3d8b2d7f984",
+                    "page_origin": "excel",
+                    "page_title": "Savory Cheese Souffl\u00e9 Recipe",
+                    "section_title": "Savory Cheese Souffl\u00e9 Recipe",
+                    "paragraph_id": "0c3be88e6a332909",
+                    "paragraph_text": "Whisking constantly, add milk in thin, steady stream, or in increments of a couple of tablespoons at a time, whisking thoroughly and getting into all corners of pan to maintain a lump-free texture.",
+                    "timestamp": 1672569308811
+                }
+            ],
+            "query": [],
+            "timestamp": 1672569319409
+        },
+        {
+            "id": "-NKgtg_VfEQd0QOhksWs",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [
+                "-NKgtazlvPLQ5RcpcD4O"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "ok thank you",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672569342304
+        },
+        {
+            "id": "-NKgtiMXdhP2BrlL6B2M",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "next",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672569349603
+        },
+        {
+            "id": "-NKgtjad9vV4pNeHvmGj",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672569354665
+        },
+        {
+            "id": "-NKgtjeHcKmAkqf7ckoJ",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 3\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672569354898
+        },
+        {
+            "id": "-NKgtwkfgAFEZsrzY56y",
+            "interaction_type": "text",
+            "information_need_type": "amount",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "How much seasoning should I use?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672569408555
+        },
+        {
+            "id": "-NKguAh9bRMa6kaOEOF3",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NKgtwkfgAFEZsrzY56y"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "You should add kosher salt and freshly ground black pepper to taste and  1/2 teaspoon cream of tartar (optional)",
+            "provenance": [
+                {
+                    "page_id": "9a18a3d8b2d7f984",
+                    "page_origin": "excel",
+                    "page_title": "Savory Cheese Souffl\u00e9 Recipe",
+                    "section_title": "Savory Cheese Souffl\u00e9 Recipe",
+                    "paragraph_id": "0c3be88e6a332909",
+                    "paragraph_text": "Kosher salt and freshly ground black pepper",
+                    "timestamp": 1672569450668
+                },
+                {
+                    "page_id": "9a18a3d8b2d7f984",
+                    "page_origin": "excel",
+                    "page_title": "Savory Cheese Souffl\u00e9 Recipe",
+                    "section_title": "Savory Cheese Souffl\u00e9 Recipe",
+                    "paragraph_id": "0c3be88e6a332909",
+                    "paragraph_text": "1/2 teaspoon cream of tartar (optional; see note)",
+                    "timestamp": 1672569463750
+                }
+            ],
+            "query": [],
+            "timestamp": 1672569469770
+        },
+        {
+            "id": "-NKguKmwMFGRjmU0X9t3",
+            "interaction_type": "text",
+            "information_need_type": "ingredient",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "What is cream of tartar?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672569511100
+        },
+        {
+            "id": "-NKgv34mY-hg-_M_IgmQ",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NKguKmwMFGRjmU0X9t3"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Potassium bitartrate, also known as cream of tartar, is commonly used as an acidulant in confectionery and candy making. The use of cream of tartar imparts a honey-like flavor to the syrup.",
+            "provenance": [
+                {
+                    "page_id": "17add04eb829838f",
+                    "page_origin": "wikipedia",
+                    "page_title": "Inverted sugar syrup",
+                    "section_title": "Production.",
+                    "paragraph_id": "51ce3da9d5b4529c",
+                    "paragraph_text": "In confectionery and candy making, cream of tartar is commonly used as the acidulant, with typical amounts in the range of 0.15-0.25% of the sugar's weight. The use of cream of tartar imparts a honey-like flavor to the syrup. After the inversion is completed, it may be neutralized with baking soda using a weight of 45% of the cream of tartar's weight.",
+                    "timestamp": 1672569587687
+                },
+                {
+                    "page_id": "c56a4b7c38df7630",
+                    "page_origin": "wikipedia",
+                    "page_title": "Potassium tartrate",
+                    "section_title": "Potassium tartrate",
+                    "paragraph_id": "e3dedee21db0cb7c",
+                    "paragraph_text": "Potassium tartrate, dipotassium tartrate or argol has formula KCHO. It is the potassium salt of tartaric acid. It is often confused with potassium bitartrate, also known as cream of tartar. As a food additive, it shares the E number E336 with potassium bitartrate.",
+                    "timestamp": 1672569617688
+                }
+            ],
+            "query": [
+                {
+                    "query": "Potassium bitartrate",
+                    "timestamp": 1672569532443
+                },
+                {
+                    "query": "Cream of tartar",
+                    "timestamp": 1672569560187
+                },
+                {
+                    "query": "cream of tartar",
+                    "timestamp": 1672569582320
+                }
+            ],
+            "timestamp": 1672569700722
+        },
+        {
+            "id": "-NKgv8NaM5gXM_qFLJHE",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "next",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672569722406
+        },
+        {
+            "id": "-NKgv99oH69zJaaANxWa",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672569725620
+        },
+        {
+            "id": "-NKgv9DfVXQPQPP6B0b8",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 4\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672569725867
+        },
+        {
+            "id": "-NKgvI764M10d-2sdVk6",
+            "interaction_type": "text",
+            "information_need_type": "cooking_technique",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "What is the best method to separate egg yolk from the white?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672569762311
+        },
+        {
+            "id": "-NKgvqbKOL4dDhnG2Ped",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NKgvI764M10d-2sdVk6"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "I have to say, there's no single best way to separate an egg. First, though, a few tips: Make sure your hands are scrupulously clean. No matter how you separate your eggs, the yolks and whites are likely to come into contact with your fingers. You don't want to transfer anything germy from your hands to the eggs. No matter what method you use, start by gently cracking the egg against a flat surface, so that you don't get eggshell into the egg. Cold eggs are easier to separate than those at room temperature; the yolk breaks less easily.  Fresh eggs are easier to separate than older ones. After cracking the egg, gently pry the shell halves apart. Let the yolk settle into the bottom half of the shell, allowing the white to run over the shell and into a measuring cup or small bowl. Some white will remain with the yolk, so you can gently transfer the yolk back and forth between the shell, continuing to let the white drip over the shell into the bowl.",
+            "provenance": [
+                {
+                    "page_id": "68b96f34128f3fc2",
+                    "page_origin": "seriousEats",
+                    "page_title": "Cocktail 101: Eggs in Cocktails, Part 2",
+                    "section_title": "Separate Ways",
+                    "paragraph_id": "3d4f448b8127152a",
+                    "paragraph_text": "If you've never separated an egg before, you might be wondering right now how to go about it. I have to say, there's no single best way to separate an egg, but I'll give you a few techniques you might try, to find what suits you. First, though, a few tips:",
+                    "timestamp": 1672569819592
+                },
+                {
+                    "page_id": "68b96f34128f3fc2",
+                    "page_origin": "seriousEats",
+                    "page_title": "Cocktail 101: Eggs in Cocktails, Part 2",
+                    "section_title": "Separate Ways",
+                    "paragraph_id": "52cd87fe99eec43d",
+                    "paragraph_text": "Make sure your hands are scrupulously clean. No matter how you separate your eggs, the yolks and whites are likely to come into contact with your fingers. You don't want to transfer anything germy from your hands to the eggs. No matter what method you use, start by gently cracking the egg against a flat surface, so that you don't get eggshell into the egg. Cold eggs are easier to separate than those at room temperature; the yolk breaks less easily. But that's not a problem, right? You've read last week's article, so you know to keep your eggs cold until you need them. Fresh eggs are easier to separate than older ones. Again, last week's article gives a hint as to why; the older the egg, the thinner the membrane separating yolk from white.",
+                    "timestamp": 1672569820655
+                },
+                {
+                    "page_id": "68b96f34128f3fc2",
+                    "page_origin": "seriousEats",
+                    "page_title": "Cocktail 101: Eggs in Cocktails, Part 2",
+                    "section_title": "Separate Ways",
+                    "paragraph_id": "db5b7fd8ca600413",
+                    "paragraph_text": "After cracking the egg, gently pry the shell halves apart. Let the yolk settle into the bottom half of the shell, allowing the white to run over the shell and into a measuring cup or small bowl. Some white will remain with the yolk, so you can gently transfer the yolk back and forth between the shell, continuing to let the white drip over the shell into the bowl.",
+                    "timestamp": 1672569828823
+                }
+            ],
+            "query": [
+                {
+                    "query": "separate egg yolk",
+                    "timestamp": 1672569774539
+                },
+                {
+                    "query": "separate egg yolks from",
+                    "timestamp": 1672569776098
+                },
+                {
+                    "query": "separate egg yolks from whites",
+                    "timestamp": 1672569777392
+                }
+            ],
+            "timestamp": 1672569907669
+        },
+        {
+            "id": "-NKgxpJeHx7K2320OBoP",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [
+                "-NKgvqbKOL4dDhnG2Ped"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "ok",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672570426667
+        },
+        {
+            "id": "-NKgxq6Ul_nZWmU7wJEd",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "next",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672570429919
+        },
+        {
+            "id": "-NKgxsBg4oTcVDtol9oJ",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672570438444
+        },
+        {
+            "id": "-NKgxsGNyjKbq4HnDQZc",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 5\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672570438744
+        },
+        {
+            "id": "-NKgy-H3Gs6QNUu-0hwC",
+            "interaction_type": "text",
+            "information_need_type": "cooking_technique",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "how do I know if it has been whisked enough",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672570471556
+        },
+        {
+            "id": "-NKgysL9lvthSnCP_5jG",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NKgy-H3Gs6QNUu-0hwC"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "You know Egg whites  have been whisked enough when they are  firm and glossy",
+            "provenance": [
+                {
+                    "page_id": "9e01f5ae61758e46",
+                    "page_origin": "excel",
+                    "page_title": "How to Make a Savory Souffl\u00e9",
+                    "section_title": "Beating the Whites (Soufflex Those Muscles)",
+                    "paragraph_id": "08760fa68a06323a",
+                    "paragraph_text": "The progression is slower than in the bowl of a stand mixer, so you're much less likely to pass your desired stage of firm and glossy whites without noticing it.",
+                    "timestamp": 1672570624974
+                }
+            ],
+            "query": [],
+            "timestamp": 1672570701195
+        },
+        {
+            "id": "-NKgz-jZRVFmO-H2ivRE",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "next",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672570735589
+        },
+        {
+            "id": "-NKgz0VJqJhykBQeD58P",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672570738708
+        },
+        {
+            "id": "-NKgz0ZVtU8rLs3fkVEB",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 6\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672570738976
+        },
+        {
+            "id": "-NKgzWunYDC92l63CJII",
+            "interaction_type": "text",
+            "information_need_type": "preparation",
+            "information_need_subtype": "picture",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "show me how to fold the mixture",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672570871475
+        },
+        {
+            "id": "-NKgzi6OJBYLIsllAlpm",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [
+                "-NKgzWunYDC92l63CJII"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Sure!",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672570921433
+        },
+        {
+            "id": "-NKgziTIzbOWIAgU4yRg",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [
+                "-NKgzWunYDC92l63CJII"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "https://www.seriouseats.com/thmb/Z6wDyHtAc9wQ_3_GrEvbWC4PF2A=/1500x1125/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2019__01__20190116-cheese-souffle-vicky-wasik-folding-egg-whites2-1f126c7bdabb4678ab5142a57b485b06.jpg",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672570922899
+        },
+        {
+            "id": "-NKgzkBKzgcF0vi_5nCT",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "next",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672570929942
+        },
+        {
+            "id": "-NKgzmYPV4pwlMbXE9BN",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672570939610
+        },
+        {
+            "id": "-NKgzmtG9ASJ7qqxFIaz",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 7\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672570941009
+        },
+        {
+            "id": "-NKgzr1Pwb9l6Va7XemH",
+            "interaction_type": "text",
+            "information_need_type": "knowledge",
+            "information_need_subtype": "step_importance",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "why do I need to fold the mixture?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672570957978
+        },
+        {
+            "id": "-NKh-0uOYol8qRY1tgPQ",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NKgzr1Pwb9l6Va7XemH"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "That is a great question!  That gentle folding is key since you want to keep as many of the tiny air bubbles trapped in the beaten whites as you can. The more you mix, and the more vigorously you do it, the more air bubbles you'll lose. Once in the oven, those air bubbles will expand as gases and steam inflate them.",
+            "provenance": [
+                {
+                    "page_id": "9e01f5ae61758e46",
+                    "page_origin": "excel",
+                    "page_title": "How to Make a Savory Souffl\u00e9",
+                    "section_title": "Breaking Down Souffl\u00e9 (Without a Tragic Soufflump)",
+                    "paragraph_id": "a764507a2b1ca6b2",
+                    "paragraph_text": "That gentle folding is key, since you want to keep as many of the tiny air bubbles trapped in the beaten whites as you can.",
+                    "timestamp": 1672570985188
+                },
+                {
+                    "page_id": "9e01f5ae61758e46",
+                    "page_origin": "excel",
+                    "page_title": "How to Make a Savory Souffl\u00e9",
+                    "section_title": "Breaking Down Souffl\u00e9 (Without a Tragic Soufflump)",
+                    "paragraph_id": "a764507a2b1ca6b2",
+                    "paragraph_text": "The more you mix, and the more vigorously you do it, the more air bubbles you'll lose.",
+                    "timestamp": 1672570986140
+                },
+                {
+                    "page_id": "9e01f5ae61758e46",
+                    "page_origin": "excel",
+                    "page_title": "How to Make a Savory Souffl\u00e9",
+                    "section_title": "Breaking Down Souffl\u00e9 (Without a Tragic Soufflump)",
+                    "paragraph_id": "90f87ccf009c5043",
+                    "paragraph_text": "Once in the oven, those air bubbles will expand as gases and steam inflate them.",
+                    "timestamp": 1672570988540
+                }
+            ],
+            "query": [],
+            "timestamp": 1672571002521
+        },
+        {
+            "id": "-NKh-3xtFK8PEkIPIEmy",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [
+                "-NKgzr1Pwb9l6Va7XemH"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "That's what causes a souffl\u00e9 to rise",
+            "provenance": [
+                {
+                    "page_id": "9e01f5ae61758e46",
+                    "page_origin": "excel",
+                    "page_title": "How to Make a Savory Souffl\u00e9",
+                    "section_title": "Breaking Down Souffl\u00e9 (Without a Tragic Soufflump)",
+                    "paragraph_id": "90f87ccf009c5043",
+                    "paragraph_text": "That's what causes a souffl\u00e9 to rise, and really, there's no stopping it\u2014your beaten whites will contain air bubbles and those air bubbles will expand, and when they do your souffl\u00e9 will push higher and higher in its baking dish.",
+                    "timestamp": 1672571007256
+                }
+            ],
+            "query": [],
+            "timestamp": 1672571015034
+        },
+        {
+            "id": "-NKh-9FUVkXteMEWCHiA",
+            "interaction_type": "text",
+            "information_need_type": "cooking_technique",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [
+                "-NKh-0uOYol8qRY1tgPQ",
+                "-NKh-3xtFK8PEkIPIEmy"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "How will I know when I have folded enough?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672571036703
+        },
+        {
+            "id": "-NKh-HXIiOoleaVbbwLM",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NKh-9FUVkXteMEWCHiA"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "I'm sorry, I do not think I have this information",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672571070611
+        },
+        {
+            "id": "-NKh-U2HyFNy0d1_Ed8U",
+            "interaction_type": "text",
+            "information_need_type": "knowledge",
+            "information_need_subtype": "step_importance",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Why does the mixture need to be level?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672571121875
+        },
+        {
+            "id": "-NKh-jJMOdv2fdPhVFJ6",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NKh-U2HyFNy0d1_Ed8U"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "It's just to smooth and level the surface of the souffl\u00e9 batter.",
+            "provenance": [
+                {
+                    "page_id": "9a18a3d8b2d7f984",
+                    "page_origin": "excel",
+                    "page_title": "Savory Cheese Souffl\u00e9 Recipe",
+                    "section_title": "Savory Cheese Souffl\u00e9 Recipe",
+                    "paragraph_id": "0c3be88e6a332909",
+                    "paragraph_text": "If desired, using an offset or other spatula, gently smooth and level surface of the souffl\u00e9 batter.",
+                    "timestamp": 1672571158631
+                }
+            ],
+            "query": [],
+            "timestamp": 1672571188503
+        },
+        {
+            "id": "-NKh-lcCYkwF6rDyKdwA",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NKh-U2HyFNy0d1_Ed8U"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Let me show you a picture of this step",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672571197965
+        },
+        {
+            "id": "-NKh-lo9aXuYEz_jSrxb",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NKh-U2HyFNy0d1_Ed8U"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "https://www.seriouseats.com/thmb/-DEugTMX9xrfDI8DC2Mx9MKjtbo=/1500x1125/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2019__01__20190116-cheese-souffle-vicky-wasik-11-ddfdf74f795544df8e28d9302b407368.jpg",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672571198730
+        },
+        {
+            "id": "-NKh-n-G3kubAxSmGhah",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "next",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672571203602
+        },
+        {
+            "id": "-NKh-oQt1hKWQUpQYZmu",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672571209465
+        },
+        {
+            "id": "-NKh-oUfTY8pseI7g7O5",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 8\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672571209707
+        },
+        {
+            "id": "-NKh06289x-s0aoIkZ0r",
+            "interaction_type": "text",
+            "information_need_type": "preparation",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Can I open the oven door to check the progress?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672571285705
+        },
+        {
+            "id": "-NKh0IK-K92AygDcbaeh",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NKh06289x-s0aoIkZ0r"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Yes, there is no problem with doing that.",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672571336001
+        },
+        {
+            "id": "-NKh0N9QReXsNeCVS8dF",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "next",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672571355804
+        },
+        {
+            "id": "-NKh0NioaFFLrKoE0LcO",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672571358133
+        },
+        {
+            "id": "-NKh0Nm_NnEdhayrINpm",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 9\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672571358373
+        },
+        {
+            "id": "-NKh0bSq1jJG65mFmYBT",
+            "interaction_type": "text",
+            "information_need_type": "meal",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "What is a good accompaniment to this dish?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672571418487
+        },
+        {
+            "id": "-NKh0jbCLA4DYlc5oYdD",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NKh0bSq1jJG65mFmYBT"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "I'm sorry, I do not think I have this information",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672571451853
+        },
+        {
+            "id": "-NKh0nIe9IsFyNA6VcuH",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "next",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672571466986
+        },
+        {
+            "id": "-NKh0rMY0_cfx8wFEQpz",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "This is the last step in the recipe! Well done!",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672571483619
+        }
+    ]
+}

@@ -1,0 +1,426 @@
+{
+    "conversation_id": "77x3diEC4B",
+    "condition": "passive",
+    "recipe_id": "120",
+    "recipe_title": "Parisian Gnocchi Recipe",
+    "participant_gender": "female",
+    "participant_age": "25-34",
+    "keep_conversation": false,
+    "comments": "",
+    "conversation": [
+        {
+            "id": "-NBXU3qaGoIT7SdggmEb",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Hey there! Happy to have you on board for our masterclass :) Today you will be learning how to prepare Parisian Gnocchi. Make sure you have all the ingredients and tools and feel free to ask questions. If you are ready to start cooking simply say start\n.",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662730915238
+        },
+        {
+            "id": "-NBXU7Ay0WnsjjNlH1IE",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Start",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662730928894
+        },
+        {
+            "id": "-NBXUIi-fM89JV-q2XE2",
+            "interaction_type": "text",
+            "information_need_type": "recipe",
+            "information_need_subtype": "visual",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Can you show me an image of what the Parisian Gnocchi looks like?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662730976128
+        },
+        {
+            "id": "-NBXUKxeUIw_MHQ8GBiM",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NBXUIi-fM89JV-q2XE2"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Sure",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662730985323
+        },
+        {
+            "id": "-NBXULJhYNb1xv_W6T97",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NBXUIi-fM89JV-q2XE2"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "https://www.seriouseats.com/thmb/On4YBpJuAdzJqNrW2q3jZBwBzHc=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2013__09__20130827-gnocchi-parisian-souffle-19-35f39ad1e01d4150a2d173458c11f1af.jpg",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662730986797
+        },
+        {
+            "id": "-NBXUT_-E3J4n3KO6o52",
+            "interaction_type": "text",
+            "information_need_type": "preparation",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "What are the steps to making this recipe?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662731020608
+        },
+        {
+            "id": "-NBXUXLZsN6ZZ7ufobmp",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662731036068
+        },
+        {
+            "id": "-NBXUXTzJz55v6hSt-_Z",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 1\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662731036607
+        },
+        {
+            "id": "-NBXUhkjzw9faevE6CN-",
+            "interaction_type": "text",
+            "information_need_type": "knowledge",
+            "information_need_subtype": "history",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Where does this recipe originate from?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662731082800
+        },
+        {
+            "id": "-NBXUkk1Qw0EKEqgkBKP",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NBXUhkjzw9faevE6CN-"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Let me see...",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662731095042
+        },
+        {
+            "id": "-NBXVDwNdBk1RNm5Uj-p",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NBXUhkjzw9faevE6CN-"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "The name is used in France in the dish known as \"gnocchis \u00e0 la parisienne\", a hot dish comprising gnocchi formed of choux pastry served with B\u00e9chamel sauce. A specialty of Nice, the \"gnocchi de tantifla a la nissarda\", is made with potatoes, wheat flour, eggs and \"blette\" (Swiss chard), which is also used for the \"tourte de blette\". \"La merda d\u00e9 can\" is longer than the original gnocchi.",
+            "provenance": [
+                {
+                    "page_id": "12ba6f8c60f94e33",
+                    "page_origin": "wikipedia",
+                    "page_title": "Gnocchi",
+                    "section_title": "Regional varieties.:France.",
+                    "paragraph_id": "0064b81ffa20d39a",
+                    "paragraph_text": "The name is also used in France in the dish known as \"gnocchis \u00e0 la parisienne\", a hot dish comprising gnocchi formed of choux pastry served with B\u00e9chamel sauce. A specialty of Nice, the \"gnocchi de tantifla a la nissarda\", is made with potatoes, wheat flour, eggs and \"blette\" (Swiss chard), which is also used for the \"tourte de blette\". \"La merda d\u00e9 can\" is longer than the original gnocchi.",
+                    "timestamp": 1662731200008
+                }
+            ],
+            "query": [
+                {
+                    "query": "parisian gnocchi",
+                    "timestamp": 1662731102778
+                }
+            ],
+            "timestamp": 1662731218712
+        },
+        {
+            "id": "-NBXVLZdn3rZv3EvLsSM",
+            "interaction_type": "text",
+            "information_need_type": "preparation",
+            "information_need_subtype": "video",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Can you show me a video of someone making this recipe?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662731249961
+        },
+        {
+            "id": "-NBXVPmL1GnuRISQ4hVQ",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [
+                "-NBXVLZdn3rZv3EvLsSM"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "I'm sorry, I do not think I have this information",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662731267223
+        },
+        {
+            "id": "-NBXVUIb9lLZlCnI1txC",
+            "interaction_type": "text",
+            "information_need_type": "time",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "How long does this recipe take to prepare?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662731285735
+        },
+        {
+            "id": "-NBXVd23TuPwYuMyAHwJ",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NBXVUIb9lLZlCnI1txC"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "The total time to prepare this recipe is 65 minutes.  Preparation Time: 20 minutes Cooking Time: 45 minutes",
+            "provenance": [
+                {
+                    "page_id": "f43cc8996bac7920",
+                    "page_origin": "excel",
+                    "page_title": "Parisian Gnocchi Recipe",
+                    "section_title": "Parisian Gnocchi Recipe",
+                    "paragraph_id": "67cbcfcfd9027e91",
+                    "paragraph_text": "Total Time: 65 minutes",
+                    "timestamp": 1662731294698
+                },
+                {
+                    "page_id": "f43cc8996bac7920",
+                    "page_origin": "excel",
+                    "page_title": "Parisian Gnocchi Recipe",
+                    "section_title": "Parisian Gnocchi Recipe",
+                    "paragraph_id": "67cbcfcfd9027e91",
+                    "paragraph_text": "Preparation Time: 20 minutes",
+                    "timestamp": 1662731320747
+                },
+                {
+                    "page_id": "f43cc8996bac7920",
+                    "page_origin": "excel",
+                    "page_title": "Parisian Gnocchi Recipe",
+                    "section_title": "Parisian Gnocchi Recipe",
+                    "paragraph_id": "67cbcfcfd9027e91",
+                    "paragraph_text": "Cooking Time: 45 minutes",
+                    "timestamp": 1662731323723
+                }
+            ],
+            "query": [],
+            "timestamp": 1662731325636
+        },
+        {
+            "id": "-NBXVuhsOkicn_ig3Q8i",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "What are the next steps to making this recipe?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662731398008
+        },
+        {
+            "id": "-NBXVvf2llnp7a9bLaKK",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662731401923
+        },
+        {
+            "id": "-NBXVvlXESPtoXHUyKQN",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 2\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662731402339
+        },
+        {
+            "id": "-NBXWCtcjcLVhim9oPeE",
+            "interaction_type": "text",
+            "information_need_type": "amount",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "How many servings does this recipe yield?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662731476584
+        },
+        {
+            "id": "-NBXWVLgSSxKrfVl7RaW",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NBXWCtcjcLVhim9oPeE"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "I'm sorry I do not have answer for this question",
+            "provenance": [],
+            "query": [
+                {
+                    "query": "serves",
+                    "timestamp": 1662731497988
+                },
+                {
+                    "query": "serve",
+                    "timestamp": 1662731510941
+                },
+                {
+                    "query": "serving",
+                    "timestamp": 1662731512807
+                }
+            ],
+            "timestamp": 1662731552172
+        }
+    ]
+}

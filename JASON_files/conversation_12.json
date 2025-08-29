@@ -1,0 +1,1481 @@
+{
+    "conversation_id": "5f36cd2444884c0f7ff186f6",
+    "condition": "passive",
+    "recipe_id": "120",
+    "recipe_title": "Parisian Gnocchi Recipe",
+    "participant_gender": "female",
+    "participant_age": "25-34",
+    "keep_conversation": false,
+    "comments": "",
+    "conversation": [
+        {
+            "id": "-N9W4cUiEUFOUOS9ihPQ",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "hi",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660559984622
+        },
+        {
+            "id": "-N9W4j578tQHJFD5t1rP",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Hey there! Happy to have you on board for our masterclass :) Today you will be learning how to prepare gnocchi. Make sure you have all the ingredients and tools and feel free to ask questions. If you are ready to start cooking simply say next.",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660560011657
+        },
+        {
+            "id": "-N9W4ptsqAOwewwr3dC8",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "next",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660560039545
+        },
+        {
+            "id": "-N9W4qTh47fh744OoLAA",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660560041901
+        },
+        {
+            "id": "-N9W4qgoJaKtVpPXWPeE",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 1\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660560042804
+        },
+        {
+            "id": "-N9W5-jPar-WNYJRV3Jk",
+            "interaction_type": "text",
+            "information_need_type": "amount",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "how much salt shall i add?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660560083930
+        },
+        {
+            "id": "-N9W52Sge6jlUjXTnzHj",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-N9W5-jPar-WNYJRV3Jk"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "3/4 teaspoon (about .15 ounces) kosher salt",
+            "provenance": [
+                {
+                    "page_id": "f43cc8996bac7920",
+                    "page_origin": "excel",
+                    "page_title": "Parisian Gnocchi Recipe",
+                    "section_title": "Parisian Gnocchi Recipe",
+                    "paragraph_id": "67cbcfcfd9027e91",
+                    "paragraph_text": "3/4 teaspoon (about .15 ounces) kosher salt",
+                    "timestamp": 1660560093422
+                }
+            ],
+            "query": [],
+            "timestamp": 1660560095085
+        },
+        {
+            "id": "-N9W55HsTNdjRZNha2c-",
+            "interaction_type": "text",
+            "information_need_type": "ingredient",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "what is kosher salt?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660560106680
+        },
+        {
+            "id": "-N9W5F9s653o76GVzVrD",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-N9W55HsTNdjRZNha2c-"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "That's a really good question! Kosher salt or kitchen salt is coarse edible salt without common additives such as iodine. Used in cooking and not at the table, it consists mainly of sodium chloride and may include anticaking agents.",
+            "provenance": [
+                {
+                    "page_id": "9650940d502b01d6",
+                    "page_origin": "wikipedia",
+                    "page_title": "Kosher salt",
+                    "section_title": "Kosher salt",
+                    "paragraph_id": "f2006367bc3e9d1c",
+                    "paragraph_text": "Kosher salt or kitchen salt is coarse edible salt without common additives such as iodine. Used in cooking and not at the table, it consists mainly of sodium chloride and may include anticaking agents.",
+                    "timestamp": 1660560129788
+                }
+            ],
+            "query": [
+                {
+                    "query": "kosher salt",
+                    "timestamp": 1660560112655
+                }
+            ],
+            "timestamp": 1660560147128
+        },
+        {
+            "id": "-N9W5WghDk62w-UpSEkw",
+            "interaction_type": "text",
+            "information_need_type": "amount",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "okay, how much butter shall i put into the saucepan?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660560218925
+        },
+        {
+            "id": "-N9W5aafHjh1EaUKGCMD",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-N9W5WghDk62w-UpSEkw"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "8 tablespoons (1 stick, 4 ounces) unsalted butter",
+            "provenance": [
+                {
+                    "page_id": "f43cc8996bac7920",
+                    "page_origin": "excel",
+                    "page_title": "Parisian Gnocchi Recipe",
+                    "section_title": "Parisian Gnocchi Recipe",
+                    "paragraph_id": "67cbcfcfd9027e91",
+                    "paragraph_text": "8 tablespoons (1 stick, 4 ounces) unsalted butter",
+                    "timestamp": 1660560237326
+                }
+            ],
+            "query": [],
+            "timestamp": 1660560239019
+        },
+        {
+            "id": "-N9W5i1CaXpBuNXpjW_X",
+            "interaction_type": "text",
+            "information_need_type": "ingredient",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "can i use salted butter instead?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660560269453
+        },
+        {
+            "id": "-N9W5x62waGYWRHrgoBd",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-N9W5i1CaXpBuNXpjW_X"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Generally, you should use unsalted butter. You can always add salt to your unsalted butter, but you can't take it out if you want it less salty",
+            "provenance": [
+                {
+                    "page_id": "981815ab9d2bd557",
+                    "page_origin": "stackExchangeCooking",
+                    "page_title": "Should I use salted or unsalted butter if the recipe doesn't specify?",
+                    "section_title": "Answer 1",
+                    "paragraph_id": "1ea5567e3df430e1",
+                    "paragraph_text": "Generally, you should use unsalted butter. You can always add salt to your unsalted butter, but you can't take it out if you want it less salty!\n\nIf it's just being melted on some vegetables, then salted butter is probably fine. However, different brands of salted butter have different amounts of salt added, which makes it difficult to know how much total salt is going into your food. This is more problematic in baking. It's possible to easily oversalt or undersalt just by using a different brand \u2014 leading to unpredictable results. By using unsalted butter, the only salt remaining in the recipe is what you have added, and you have more careful control over the outcome.\n\nIf you need to substitute one for another, you can estimate how much salt is in salted butter and adjust your recipe accordingly.\n\n\n\nIf you are not sure whether a particular recipe calls for salted or unsalted, look for clues.\n\n\nIs there additional salt in the recipe? (If not, it may expect some salt from the butter. If so, it may expect unsalted butter!)\nHow old is the recipe? (Newer recipes tend to assume unsalted butter. Older recipes tend to assume salted butter.)\nWhere was the recipe written? Different cultures assume different butters (and salt levels may vary between countries for salted butter!); I will not give an exhaustive list here, mostly because I don't know, but it's worth researching.\n\n\nIf you have the time, interest, and money, you can try making the recipe twice (once with salted, once with unsalted butter) and see which tastes better. This is a bigger investment, though, so only worth doing if you really want to get the recipe as good as possible.\n",
+                    "timestamp": 1660560309954
+                }
+            ],
+            "query": [
+                {
+                    "query": "salted",
+                    "timestamp": 1660560287549
+                },
+                {
+                    "query": "salted or unsalted butter",
+                    "timestamp": 1660560291695
+                }
+            ],
+            "timestamp": 1660560331203
+        },
+        {
+            "id": "-N9W65gehCWeRb9beHBc",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "next",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660560370475
+        },
+        {
+            "id": "-N9W66yDSAeiqzgxn3h5",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660560375694
+        },
+        {
+            "id": "-N9W6710C2gbVaDIOm4r",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 2\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660560375937
+        },
+        {
+            "id": "-N9W6Fn5m1OdRg31PtRo",
+            "interaction_type": "text",
+            "information_need_type": "preparation",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "does the dough have to be hot or can i leave it to cool down?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660560411846
+        },
+        {
+            "id": "-N9W6RWPDeVZLM_MnuBj",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-N9W6Fn5m1OdRg31PtRo"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Let me see what I can find :)",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660560459866
+        },
+        {
+            "id": "-N9W6dSpN7T6kDJ_7S5j",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-N9W6Fn5m1OdRg31PtRo"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "I'm sorry I do not have answer for this question",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660560512885
+        },
+        {
+            "id": "-N9W6lPIoMc0zU3yMavy",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [
+                "-N9W6RWPDeVZLM_MnuBj",
+                "-N9W6dSpN7T6kDJ_7S5j"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "okay no problem",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660560545427
+        },
+        {
+            "id": "-N9W6nPHUVn5ucmGZAtk",
+            "interaction_type": "text",
+            "information_need_type": "ingredient",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "what herbs shall i add to the mixture?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660560553618
+        },
+        {
+            "id": "-N9W7As8RVnTNtpJ4Imu",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-N9W6nPHUVn5ucmGZAtk"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "You can simply use a mix of chopped herbs",
+            "provenance": [
+                {
+                    "page_id": "01be516b91f955d3",
+                    "page_origin": "excel",
+                    "page_title": "How to Make Parisian Gnocchi | The Food Lab",
+                    "section_title": "How to Make Parisian Gnocchi | The Food Lab",
+                    "paragraph_id": "506bfb919a12291f",
+                    "paragraph_text": "You can deep fry it into light and puffy beignets, or mix it with herbs and cheese to be baked into savory goug\u00e8res.",
+                    "timestamp": 1660560634839
+                }
+            ],
+            "query": [
+                {
+                    "query": "herb",
+                    "timestamp": 1660560585510
+                }
+            ],
+            "timestamp": 1660560653834
+        },
+        {
+            "id": "-N9W7Ri2nWiHtaOSmMlF",
+            "interaction_type": "text",
+            "information_need_type": "amount",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "what is 1 gallon in kg?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660560722819
+        },
+        {
+            "id": "-N9W7kjbHxYA45jqa4Oc",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-N9W7Ri2nWiHtaOSmMlF"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "The US gallon defined as 231 cubic inches corresponds exactly to 3.785411784 litres",
+            "provenance": [
+                {
+                    "page_id": "fa28cecb5d195de7",
+                    "page_origin": "wikipedia",
+                    "page_title": "Gallon",
+                    "section_title": "Gallon",
+                    "paragraph_id": "095bebefe3570592",
+                    "paragraph_text": "- the US gallon defined as 231 cubic inches (exactly 3.785411784 litres), which is used in the US and some Latin American and Caribbean countries; and",
+                    "timestamp": 1660560781090
+                }
+            ],
+            "query": [
+                {
+                    "query": "gallon to kilogam",
+                    "timestamp": 1660560755382
+                }
+            ],
+            "timestamp": 1660560804839
+        },
+        {
+            "id": "-N9W7tUf85MIuKVF38na",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "next",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660560840684
+        },
+        {
+            "id": "-N9W7uFGxdxb7eIenDJ4",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660560843794
+        },
+        {
+            "id": "-N9W7uJNxtsjYRMKanXr",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 3\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660560844057
+        },
+        {
+            "id": "-N9W7yFGSiZe1GKPzcT9",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "previous",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660560860178
+        },
+        {
+            "id": "-N9W7yzToA_sm7J4rTSK",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "prev"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660560863198
+        },
+        {
+            "id": "-N9W7z2cdsl0jzQUt8Wo",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 2\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660560863464
+        },
+        {
+            "id": "-N9W8-UbjxmvkL74nJRK",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "next",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660560869352
+        },
+        {
+            "id": "-N9W804YanPztFiPKi6Y",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660560871780
+        },
+        {
+            "id": "-N9W80IDbbm8ximkt9xK",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 3\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660560872654
+        },
+        {
+            "id": "-N9W83UUTfAyBkxgO1Fh",
+            "interaction_type": "text",
+            "information_need_type": "knowledge",
+            "information_need_subtype": "science",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "what does homogenous mean?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660560885727
+        },
+        {
+            "id": "-N9W8OrVhu5-VVAd5Mgs",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-N9W83UUTfAyBkxgO1Fh"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Homogenization (from \"homogeneous;\" Greek, \"homogenes\": \"homos,\" same + \"genos,\" kind) is the process of converting two immiscible liquids (i.e. liquids that are not soluble, in all proportions, one in another) into an emulsion (an emulsion is a type of colloid, which is a substance microscopically dispersed throughout another substance",
+            "provenance": [
+                {
+                    "page_id": "010b805a12e2664e",
+                    "page_origin": "wikipedia",
+                    "page_title": "Homogenization (chemistry)",
+                    "section_title": "Definition.",
+                    "paragraph_id": "772a9104851374ba",
+                    "paragraph_text": "Homogenization (from \"homogeneous;\" Greek, \"homogenes\": \"homos,\" same + \"genos,\" kind) is the process of converting two immiscible liquids (i.e. liquids that are not soluble, in all proportions, one in another) into an emulsion (an emulsion is a type of colloid, which is a substance microscopically dispersed throughout another substance; when both the dispersed and the continuous substances are liquids, the colloid is called an emulsion). Sometimes two types of homogenization are distinguished: primary homogenization, when the emulsion is created directly from separate liquids; and secondary homogenization, when the emulsion is created by the reduction in size of droplets in an existing emulsion.",
+                    "timestamp": 1660560961612
+                }
+            ],
+            "query": [
+                {
+                    "query": "homogeneous",
+                    "timestamp": 1660560904143
+                },
+                {
+                    "query": "homogeneous meaning",
+                    "timestamp": 1660560937211
+                },
+                {
+                    "query": "homogeneous substance",
+                    "timestamp": 1660560955455
+                }
+            ],
+            "timestamp": 1660560973281
+        },
+        {
+            "id": "-N9W8XdMxZDP7aCQQ0wa",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [
+                "-N9W8OrVhu5-VVAd5Mgs"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "okay",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660561009239
+        },
+        {
+            "id": "-N9W8YEe4W8ZAp-unWW5",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "previous",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660561011690
+        },
+        {
+            "id": "-N9W8YyGDg8birPYvGfR",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "prev"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660561014673
+        },
+        {
+            "id": "-N9W8Z1-TyzNa35oU85I",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 2\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660561014913
+        },
+        {
+            "id": "-N9W8ZCN4Azz4m5aQQ0L",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "previous",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660561015640
+        },
+        {
+            "id": "-N9W8ZkQpzam0w-CyNUq",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "prev"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660561017884
+        },
+        {
+            "id": "-N9W8Zothi8beF97x1s7",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 1\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660561018169
+        },
+        {
+            "id": "-N9W8_YlnbrW9fFYwXgJ",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "previous",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660561021171
+        },
+        {
+            "id": "-N9W8aDgDFH6k0cKQJ8W",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "prev"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660561023916
+        },
+        {
+            "id": "-N9W8aIKaFVdAgznTwwO",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Time, Equipment & Ingredients\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660561024213
+        },
+        {
+            "id": "-N9W8e3MrXXCT0aQFw88",
+            "interaction_type": "text",
+            "information_need_type": "ingredient",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "can i use self raising flour instead?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660561039639
+        },
+        {
+            "id": "-N9W8qfp83Kbs5k8mLyI",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-N9W8e3MrXXCT0aQFw88"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Self-rising flour is just flour with the addition of baking powder and salt. So, it doesn't matter whether you use self-rising flour or make your own by combining these ingredients yourself.",
+            "provenance": [
+                {
+                    "page_id": "7a6a7c5bd4d23411",
+                    "page_origin": "stackExchangeCooking",
+                    "page_title": "Should I use self-rising flour or all purpose flour for two ingredient pizza dough?",
+                    "section_title": "Answer 1",
+                    "paragraph_id": "26006f69d6ac6f9b",
+                    "paragraph_text": "Self-rising flour is just flour with the addition of baking powder and salt*. So, it doesn't matter whether you use self-rising flour or make your own by combining these ingredients yourself. \n\n* note: not all countries include salt in self-rising flour. There is no salt added in the UK \"self-raising\" mixture for example, but there salt added in the US and Canada.\n\nBecause of this, if you live in the US and are using a UK recipe, you will need to omit some or all of the salt in the recipe since self-rising flour already contains salt. \n\nConversely, if you are living in the UK and following a US recipe, you will need to add salt if using self-raising flour where it calls for self-rising flour. \n\nOtherwise you could end up with no salt or more than you intended. It sounds like in your case your recipe assumes that self-rising flour has salt added. \n\nOne of our devoted readers also found that US self-rising flour has less baking powder than UK self-raising flour, raising doubts as to whether additional baking powder may be needed for some recipes. \n\nNote: A good clue will be the spelling of \"self-raising\" vs. \"self-rising\" to determine whether salt is expected in your mix. And Brits also have a lot of other weird spelling, grammar, and nomenclature differences, such as calling desserts \"puddings.\" Be cautious when dealing with these people. They are very suspicious. \n\nIn the end, I would suggest just using normal flour and adding salt and baking powder yourself. If you are using a recipe that calls for self-raising or self-rising or pulling-yourself-up-by-your-bootstraps flour, just find a similar recipe that calls for normal flour to see how much salt and baking powder should be used. \n",
+                    "timestamp": 1660561077693
+                }
+            ],
+            "query": [
+                {
+                    "query": "self raising",
+                    "timestamp": 1660561059733
+                },
+                {
+                    "query": "self raising flour",
+                    "timestamp": 1660561060739
+                }
+            ],
+            "timestamp": 1660561091318
+        },
+        {
+            "id": "-N9W8yqr_BkQLmr20m0H",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "next",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660561124791
+        },
+        {
+            "id": "-N9W8zl4VqXliMa_8wtk",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660561128517
+        },
+        {
+            "id": "-N9W8zozNuT5EizPwAdF",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 1\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660561128768
+        },
+        {
+            "id": "-N9W9-07tWAUzpfl2fFI",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "next",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660561129544
+        },
+        {
+            "id": "-N9W90O9bPqAAdm0N950",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "next",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660561135178
+        },
+        {
+            "id": "-N9W90sVm8wAKtCWfTG6",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660561137184
+        },
+        {
+            "id": "-N9W90wH8frrM-NbskYK",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 2\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660561137426
+        },
+        {
+            "id": "-N9W916HzVaGk2X0Xae9",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660561138130
+        },
+        {
+            "id": "-N9W91B73SKvQhT7EKFQ",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 3\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660561138440
+        },
+        {
+            "id": "-N9W91bEb5APQ5Edq4FX",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "next",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660561140175
+        },
+        {
+            "id": "-N9W91y_G2mCgMFugNqE",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660561141670
+        },
+        {
+            "id": "-N9W923lM3PKyLylm1KF",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 4\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660561142065
+        },
+        {
+            "id": "-N9W9FqmFw-l4LTnGX8X",
+            "interaction_type": "text",
+            "information_need_type": "knowledge",
+            "information_need_subtype": "history",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "what's the history of parisian gnocchi?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660561198514
+        },
+        {
+            "id": "-N9W9lOfWB3mFLKDlW_v",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-N9W9FqmFw-l4LTnGX8X"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "I'm sorry, I do not think I have this information",
+            "provenance": [],
+            "query": [
+                {
+                    "query": "parisian gnocchi",
+                    "timestamp": 1660561208875
+                },
+                {
+                    "query": "parisian gnocchi origin",
+                    "timestamp": 1660561230518
+                },
+                {
+                    "query": "gnocchis a la parisienne",
+                    "timestamp": 1660561278688
+                },
+                {
+                    "query": "gnocchis a la parisienne origin",
+                    "timestamp": 1660561300327
+                }
+            ],
+            "timestamp": 1660561331820
+        },
+        {
+            "id": "-N9W9qd4shual79_qQQQ",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [
+                "-N9W9lOfWB3mFLKDlW_v"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "okay",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660561353285
+        },
+        {
+            "id": "-N9W9qw7d7W7lpn0fp06",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "next",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660561354505
+        },
+        {
+            "id": "-N9W9rY6uFBpqeEsRsRD",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660561356999
+        },
+        {
+            "id": "-N9W9rkuoW4zyVocDl7u",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 5\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660561357882
+        },
+        {
+            "id": "-N9W9yHlZPVuem6agSxa",
+            "interaction_type": "text",
+            "information_need_type": "equipment",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "what is a metal spider?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660561384625
+        },
+        {
+            "id": "-N9WAEUslZSBRAB3818i",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-N9W9yHlZPVuem6agSxa"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "A metal spider, is restaurant lingo for a flat mesh scoop used in frying and skimming.",
+            "provenance": [
+                {
+                    "page_id": "997a155baa516940",
+                    "page_origin": "stackExchangeCooking",
+                    "page_title": "Frying - Straw potatoes in fryer",
+                    "section_title": "Answer 3",
+                    "paragraph_id": "a4496c5e6a017bca",
+                    "paragraph_text": "Try switching from a fry basked to a bird's nest fryer or using a \"spider\" (restaurant lingo for a flat mesh scoop used in frying and skimming).  \n\nYou can find a sample bird's nest fryer here  and also a spider.  The spider looks exactly like the one we use at work.  You can also use blanching basket, which is I think what we use for pre-cooking our fries in the restaurant I work at.\n",
+                    "timestamp": 1660561434349
+                }
+            ],
+            "query": [
+                {
+                    "query": "metal spider",
+                    "timestamp": 1660561405149
+                }
+            ],
+            "timestamp": 1660561455096
+        },
+        {
+            "id": "-N9WAKOTRKYJK5lVpIZT",
+            "interaction_type": "text",
+            "information_need_type": "equipment",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "okay, do you have a picture i can see?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660561479263
+        },
+        {
+            "id": "-N9WAWtndHExWJpG-pRk",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-N9WAKOTRKYJK5lVpIZT"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "I'm sorry, I do not think I have this information",
+            "provenance": [],
+            "query": [
+                {
+                    "query": "metal spider png",
+                    "timestamp": 1660561501333
+                }
+            ],
+            "timestamp": 1660561530484
+        },
+        {
+            "id": "-N9WAZPCaJFOrM2OOus5",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [
+                "-N9WAWtndHExWJpG-pRk"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "okay",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660561540750
+        },
+        {
+            "id": "-N9WAZn1mX5-lqAiPXAm",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "next",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660561542338
+        },
+        {
+            "id": "-N9WAdBD_xXputCANFWF",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [
+                "-N9WAZn1mX5-lqAiPXAm"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Congratulations! You got to the end of this recipe!",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660561560335
+        },
+        {
+            "id": "-N9WAfOV3ME5fzmISceN",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [
+                "-N9WAdBD_xXputCANFWF"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "okay",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1660561569376
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+cluster,conversation_id,model_agent,energy_Wh_total,agent_turns,mean_W_mean,peak_W_max
+C1_Hyperpolite,C1_Hyperpolite__debug__seed20251,deepseek-r1:8b,0,6,NA,-Inf
+C3_DirectLowPoliteness,C3_DirectLowPoliteness__debug__seed20251,deepseek-r1:8b,0,6,NA,-Inf
+C5_Impolite,C5_Impolite__debug__seed20251,deepseek-r1:8b,0,6,NA,-Inf

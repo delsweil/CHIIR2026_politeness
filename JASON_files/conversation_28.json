@@ -1,0 +1,1507 @@
+{
+    "conversation_id": "68942e2a",
+    "condition": "passive",
+    "recipe_id": "2331",
+    "recipe_title": "The Best Southern Fried Chicken",
+    "participant_gender": "male",
+    "participant_age": "65-74",
+    "keep_conversation": true,
+    "comments": "",
+    "conversation": [
+        {
+            "id": "-NKcl2ORyf4mHj2YGbMU",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "user joined the chat.",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672499967580
+        },
+        {
+            "id": "-NKcrz8yMzStKpndpFvx",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "user joined the chat.",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672501785215
+        },
+        {
+            "id": "-NKcsAHXCFISryg7cjbu",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Hey there! Happy to have you on board for our masterclass :-) Today you will be learning how to prepare The Best Southern Fried Chicken. Make sure you have all the ingredients and tools and feel free to ask questions. If you are ready to start cooking simply say start.",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672501834914
+        },
+        {
+            "id": "-NKcsGD1esdT-Fh9DtlE",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [
+                "-NKcsAHXCFISryg7cjbu"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "start",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672501859202
+        },
+        {
+            "id": "-NKcsNEPmKY1OClhgI-f",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Do you have any questions about the required ingredients or do you already have all you need?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672501887962
+        },
+        {
+            "id": "-NKcsgDXckgCcstsh8Lb",
+            "interaction_type": "text",
+            "information_need_type": "ingredient",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [
+                "-NKcsNEPmKY1OClhgI-f"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "I have all the ingredients but I would like to know the difference between southern fried chicken and just normal fried chicken.",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672501969826
+        },
+        {
+            "id": "-NKcsnlgtD7EYRFLssCz",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NKcsgDXckgCcstsh8Lb"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Sure! Let me see what I can find",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672502000748
+        },
+        {
+            "id": "-NKct7NXR6foGQtd7pXx",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NKcsgDXckgCcstsh8Lb"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "There is no difference. Southern fried chicken, also known as fried chicken, is a dish consisting of chicken pieces which have been coated in a seasoned batter and pan-fried, deep fried, or pressure fried. The breading adds a crisp coating or crust to the exterior of the chicken while retaining juices in the meat. Broiler chickens are most commonly used.",
+            "provenance": [
+                {
+                    "page_id": "71a6337848e9020d",
+                    "page_origin": "wikipedia",
+                    "page_title": "Fried chicken",
+                    "section_title": "Fried chicken",
+                    "paragraph_id": "634b8765d685f540",
+                    "paragraph_text": "Southern fried chicken, also known simply as fried chicken, is a dish consisting of chicken pieces which have been coated in a seasoned batter and pan-fried, deep fried, or pressure fried. The breading adds a crisp coating or crust to the exterior of the chicken while retaining juices in the meat. Broiler chickens are most commonly used.",
+                    "timestamp": 1672502033536
+                }
+            ],
+            "query": [
+                {
+                    "query": "southern fried",
+                    "timestamp": 1672502009647
+                },
+                {
+                    "query": "southern fried chicken",
+                    "timestamp": 1672502011037
+                }
+            ],
+            "timestamp": 1672502085154
+        },
+        {
+            "id": "-NKctPlGqAijVW908ygp",
+            "interaction_type": "text",
+            "information_need_type": "knowledge",
+            "information_need_subtype": "step_importance",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Can you also tell me why it takes so long to cook? Is it because we have to cook each piece individually?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672502160465
+        },
+        {
+            "id": "-NKctuYLitAgW0MxBk6U",
+            "interaction_type": "text",
+            "information_need_type": "amount",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "So what is my first step? I assume it is to brine the chicken. I don't see any water in the recipe to mix the Kosher salt with. How much water do I need?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672502290646
+        },
+        {
+            "id": "-NKctysmgMHTYAMgNBA2",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NKctPlGqAijVW908ygp"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Yes. It takes a bit of time as you'll have to first fry the chicken one piece at a time and then bake it.",
+            "provenance": [
+                {
+                    "page_id": "88c7d3ee4ea22283",
+                    "page_origin": "excel",
+                    "page_title": "The Best Buttermilk-Brined Southern Fried Chicken Recipe",
+                    "section_title": "The Best Buttermilk-Brined Southern Fried Chicken Recipe",
+                    "paragraph_id": "e5e8f271e886629e",
+                    "paragraph_text": "Fry the chicken until it\u2019s a deep golden brown on the first side, about 6 minutes; do not move the chicken or start checking for doneness until it has fried for at least 3 minutes, or you may knock off the coating.",
+                    "timestamp": 1672502267272
+                },
+                {
+                    "page_id": "88c7d3ee4ea22283",
+                    "page_origin": "excel",
+                    "page_title": "The Best Buttermilk-Brined Southern Fried Chicken Recipe",
+                    "section_title": "The Best Buttermilk-Brined Southern Fried Chicken Recipe",
+                    "paragraph_id": "e5e8f271e886629e",
+                    "paragraph_text": "Bake until thickest part of breast pieces registers 150\u00b0F (65.5\u00b0C) on an instant-read thermometer, and thigh/drumstick pieces register 165\u00b0F (74\u00b0C), 5 to 10 minutes; remove chicken pieces as they reach their target temperature, and transfer to a second wire rack set in a rimmed baking sheet, or a paper towel-lined plate.",
+                    "timestamp": 1672502299020
+                }
+            ],
+            "query": [],
+            "timestamp": 1672502308403
+        },
+        {
+            "id": "-NKcu0DBmpgRzWX2t2Lm",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NKctuYLitAgW0MxBk6U"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Let me show you the first step.",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672502317964
+        },
+        {
+            "id": "-NKcu0P4JTgkwzVhZT7y",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672502318725
+        },
+        {
+            "id": "-NKcu0V9IRfON7sBPvCR",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 1\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672502319114
+        },
+        {
+            "id": "-NKcuA8IhGDAQAvYSs0f",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "No problem. I have everything in the dish and mixed together.",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672502358611
+        },
+        {
+            "id": "-NKcuGWAX6o5QYHmrs6Y",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [
+                "-NKcuA8IhGDAQAvYSs0f"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "That is great to hear!",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672502384715
+        },
+        {
+            "id": "-NKcuJqsum4q4i7R7NbI",
+            "interaction_type": "text",
+            "information_need_type": "preparation",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "So I assume the chick is already brined?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672502398392
+        },
+        {
+            "id": "-NKcuQUCUYjm7Y6Wmadm",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NKcuJqsum4q4i7R7NbI"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "That's part of step 2. Let me show it to you.",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672502425549
+        },
+        {
+            "id": "-NKcuQf4ti8mzVNDwu3o",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672502426309
+        },
+        {
+            "id": "-NKcuQkXIlnEWG0WkEtx",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 2\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672502426658
+        },
+        {
+            "id": "-NKcufsd8Ke1uCbL9jKo",
+            "interaction_type": "text",
+            "information_need_type": "knowledge",
+            "information_need_subtype": "step_importance",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Why would this not be step one since it has to sit for at least 4 hours?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672502492713
+        },
+        {
+            "id": "-NKcv-8Q1RPSejhuWuZY",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NKcufsd8Ke1uCbL9jKo"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "That's because in step 1 you are required to prepare the spice mixture required in step 2.",
+            "provenance": [
+                {
+                    "page_id": "88c7d3ee4ea22283",
+                    "page_origin": "excel",
+                    "page_title": "The Best Buttermilk-Brined Southern Fried Chicken Recipe",
+                    "section_title": "The Best Buttermilk-Brined Southern Fried Chicken Recipe",
+                    "paragraph_id": "e5e8f271e886629e",
+                    "paragraph_text": "Combine the paprika, black pepper, garlic powder, oregano, and cayenne in a small bowl and mix thoroughly with a fork.",
+                    "timestamp": 1672502529371
+                }
+            ],
+            "query": [],
+            "timestamp": 1672502575708
+        },
+        {
+            "id": "-NKcv4FvibgBQ4_1wlSS",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NKcufsd8Ke1uCbL9jKo"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "More precisely, you need to whisk the buttermilk, egg, 1 tablespoon salt, and 2 tablespoons of the spice mixture in a large bowl.",
+            "provenance": [
+                {
+                    "page_id": "88c7d3ee4ea22283",
+                    "page_origin": "excel",
+                    "page_title": "The Best Buttermilk-Brined Southern Fried Chicken Recipe",
+                    "section_title": "The Best Buttermilk-Brined Southern Fried Chicken Recipe",
+                    "paragraph_id": "e5e8f271e886629e",
+                    "paragraph_text": "Whisk the buttermilk, egg, 1 tablespoon salt, and 2 tablespoons of the spice mixture in a large bowl.",
+                    "timestamp": 1672502589121
+                }
+            ],
+            "query": [],
+            "timestamp": 1672502596667
+        },
+        {
+            "id": "-NKcvFxYSJ28lPrdaZtm",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [
+                "-NKcv-8Q1RPSejhuWuZY",
+                "-NKcv4FvibgBQ4_1wlSS"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Ah I see.  I guess I'm not used to brining the chicken with the spices on it.",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672502644579
+        },
+        {
+            "id": "-NKcvb0JzmMHaAy-OKQT",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "As a reminder, if you'd like to go to the next step simply type \"next\". To go to a previous step type \"previous\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672502734932
+        },
+        {
+            "id": "-NKcveIdTyAqbZxUGVrp",
+            "interaction_type": "text",
+            "information_need_type": "knowledge",
+            "information_need_subtype": "science",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [
+                "-NKcv-8Q1RPSejhuWuZY",
+                "-NKcv4FvibgBQ4_1wlSS"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "So  that should really get the spices into the chicken.",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672502748393
+        },
+        {
+            "id": "-NKcvg00SNM2RPz9Lq1w",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "next",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672502755394
+        },
+        {
+            "id": "-NKcvoQAU7HDj-_ABMXS",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NKcveIdTyAqbZxUGVrp"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Exactly,  An overnight brine will penetrate a few millimeters into the meat, giving you built-in seasoning before you ever get to the breading.  Brines also improve juiciness by increasing the muscles' ability to retain moisture.",
+            "provenance": [
+                {
+                    "page_id": "fe69d5b036a5e21d",
+                    "page_origin": "excel",
+                    "page_title": "The Best Southern Fried Chicken | The Food Lab",
+                    "section_title": "Inside Out",
+                    "paragraph_id": "ba0576fee75e6f46",
+                    "paragraph_text": "An overnight brine will penetrate a few millimeters into the meat, giving you built-in seasoning before you ever get to the breading.",
+                    "timestamp": 1672502775674
+                },
+                {
+                    "page_id": "fe69d5b036a5e21d",
+                    "page_origin": "excel",
+                    "page_title": "The Best Southern Fried Chicken | The Food Lab",
+                    "section_title": "Inside Out",
+                    "paragraph_id": "ba0576fee75e6f46",
+                    "paragraph_text": "Brines also improve juiciness by increasing the muscles' ability to retain moisture.",
+                    "timestamp": 1672502786606
+                }
+            ],
+            "query": [],
+            "timestamp": 1672502789835
+        },
+        {
+            "id": "-NKcvrEsSF-JvKf8X4cM",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NKcveIdTyAqbZxUGVrp"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "However, my normal brining for chicken breast is anywhere from 30 minutes to two hours.",
+            "provenance": [
+                {
+                    "page_id": "fe69d5b036a5e21d",
+                    "page_origin": "excel",
+                    "page_title": "The Best Southern Fried Chicken | The Food Lab",
+                    "section_title": "Inside Out",
+                    "paragraph_id": "ba0576fee75e6f46",
+                    "paragraph_text": "My normal brining for chicken breast is anywhere from 30 minutes to two hours.",
+                    "timestamp": 1672502794876
+                }
+            ],
+            "query": [],
+            "timestamp": 1672502801400
+        },
+        {
+            "id": "-NKcvuiFXHCvlLcNF7LI",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NKcveIdTyAqbZxUGVrp"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Or more as preferred.",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672502815632
+        },
+        {
+            "id": "-NKcvx-hES9nq2euY1l2",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672502825005
+        },
+        {
+            "id": "-NKcvx5GCSDtFxW5VhfI",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 3\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672502825362
+        },
+        {
+            "id": "-NKcw7jr6tei6AVLrfHq",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [
+                "-NKcvoQAU7HDj-_ABMXS",
+                "-NKcvrEsSF-JvKf8X4cM",
+                "-NKcvuiFXHCvlLcNF7LI"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Interesting.  I don't normally even brine my chicken, but I think I might try it now the next time i cook chicken.",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672502873079
+        },
+        {
+            "id": "-NKcwHXtp7RAd33Lxx2H",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "next",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672502913209
+        },
+        {
+            "id": "-NKcwI0TZzrsExarc-4p",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672502915166
+        },
+        {
+            "id": "-NKcwI6X-ptWImtNlKmO",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 4\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672502915554
+        },
+        {
+            "id": "-NKcwUiRRllC6sJQ4Mte",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "next",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672502967196
+        },
+        {
+            "id": "-NKcwXuum2vPiCOwGL16",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672502980282
+        },
+        {
+            "id": "-NKcwY-SdXbo7TxKpaaC",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 5\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672502980637
+        },
+        {
+            "id": "-NKcwmIo4316LVh7SoM5",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "next",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672503043316
+        },
+        {
+            "id": "-NKcwtee1J2GVCVuDqz3",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Before going to the next step, do you have any questions?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672503073450
+        },
+        {
+            "id": "-NKcx8dywG75jr5lHINq",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NKcwtee1J2GVCVuDqz3"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Not really. I have a thermometer to check the temperature of the oil and I have deep fried other things in the past such as fish.",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672503138942
+        },
+        {
+            "id": "-NKcxJIwEI6ODLWifwy7",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [
+                "-NKcx8dywG75jr5lHINq"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Ok great! Let's go to the next step",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672503182588
+        },
+        {
+            "id": "-NKcxJUZrl-xffrgkID5",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672503183332
+        },
+        {
+            "id": "-NKcxJ_4txrrwXP8jYgw",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 6\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672503183685
+        },
+        {
+            "id": "-NKcxMV1KZPMnOY5REeL",
+            "interaction_type": "text",
+            "information_need_type": "cooking_technique",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [
+                "-NKcxJIwEI6ODLWifwy7"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Actually, what this the best way to check the doneness of the chicken?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672503195650
+        },
+        {
+            "id": "-NKcxVhtI64c-J2E3m1p",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NKcxMV1KZPMnOY5REeL"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "That's a great question! Let me see what I can find",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672503233401
+        },
+        {
+            "id": "-NKcxu2KAWu-sj2pD8B9",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NKcxMV1KZPMnOY5REeL"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "So the best way to ensure your chicken is fully cooked is to fry it until golden brown, then transfer it to a hot oven to finish cooking at a gentler pace.",
+            "provenance": [
+                {
+                    "page_id": "fe69d5b036a5e21d",
+                    "page_origin": "excel",
+                    "page_title": "The Best Southern Fried Chicken | The Food Lab",
+                    "section_title": "Crust Lust",
+                    "paragraph_id": "7f3eeaf5bc97b128",
+                    "paragraph_text": "Just fry the chicken until golden brown, then transfer it to a hot oven to finish cooking at a gentler pace.",
+                    "timestamp": 1672503311086
+                }
+            ],
+            "query": [],
+            "timestamp": 1672503337173
+        },
+        {
+            "id": "-NKcxvM6OZcYxrTTgkQs",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NKcxMV1KZPMnOY5REeL"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "The result is chicken with a deep brown, craggy crust that's shatteringly crisp but not tough and that breaks away to meat that bursts with intensely seasoned juices underneath.",
+            "provenance": [
+                {
+                    "page_id": "fe69d5b036a5e21d",
+                    "page_origin": "excel",
+                    "page_title": "The Best Southern Fried Chicken | The Food Lab",
+                    "section_title": "Crust Lust",
+                    "paragraph_id": "7f3eeaf5bc97b128",
+                    "paragraph_text": "The result is chicken with a deep brown, craggy crust that's shatteringly crisp but not tough and that breaks away to meat that bursts with intensely seasoned juices underneath.",
+                    "timestamp": 1672503338121
+                }
+            ],
+            "query": [],
+            "timestamp": 1672503342536
+        },
+        {
+            "id": "-NKcy0I0OiYTQO3WJaZl",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NKcxMV1KZPMnOY5REeL"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "It should look as shown in the picture below.",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672503366849
+        },
+        {
+            "id": "-NKcy0_v-yP2ae0SGNzP",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NKcxMV1KZPMnOY5REeL"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "https://www.seriouseats.com/thmb/VZyd-duglvTu1XG9r0p4ehTVXUg=/1500x1125/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2015__07__20150715-fried-chicken-06-23fc327de5e143a2b89f3d493ca12ff1.jpg",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672503368059
+        },
+        {
+            "id": "-NKcy8l2iN8KYJldjKRN",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [
+                "-NKcy0_v-yP2ae0SGNzP"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Ok thanks. That's a great picture. It gives me a good idea of what it should look like.",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672503401540
+        },
+        {
+            "id": "-NKcyAWcFuedTpL2DGPI",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "next",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672503408744
+        },
+        {
+            "id": "-NKcyEXbrwL9NDr6ri3H",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672503425191
+        },
+        {
+            "id": "-NKcyEbynSW_wR0Hqg2T",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 7\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672503425534
+        },
+        {
+            "id": "-NKcySFtJG885y8rilMF",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "previous",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672503481402
+        },
+        {
+            "id": "-NKcyZepNnpufxcrvtHP",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "prev"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672503511734
+        },
+        {
+            "id": "-NKcyZkPBzGJcnU_FYhO",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 6\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672503512090
+        },
+        {
+            "id": "-NKcycIrfWSo1gfgL9yI",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "next",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672503526647
+        },
+        {
+            "id": "-NKcyczXNXgyannfaBA0",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672503529442
+        },
+        {
+            "id": "-NKcyd3nb_w4_kh5gSXS",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 7\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672503529779
+        },
+        {
+            "id": "-NKcykUi0CHTsyBp4dNK",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Yum yum. Sounds and looks fantastic.",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672503560174
+        },
+        {
+            "id": "-NKcyl3KSM6poBIy3g8v",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "next",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672503562517
+        },
+        {
+            "id": "-NKcytvWBQDW1adzZ7n1",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "This is the last step in the recipe! Well done!",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672503598818
+        },
+        {
+            "id": "-NKczET477enMAnbKtL4",
+            "interaction_type": "text",
+            "information_need_type": "ingredient",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Can you tell me if can substitute any of the ingredients such as the buttermilk for normal milk or if I can make my own buttermilk by adding vinegar to normal milk and if would work?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672503687045
+        },
+        {
+            "id": "-NKczXavSYEStHriWOZl",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NKczET477enMAnbKtL4"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Let me see what I can find",
+            "provenance": [],
+            "query": [
+                {
+                    "query": "buttermilk",
+                    "timestamp": 1672503737737
+                }
+            ],
+            "timestamp": 1672503765435
+        },
+        {
+            "id": "-NKczo_WTkrSNmfKeQjL",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NKczET477enMAnbKtL4"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "I would actually recommend using buttermilk due to its tenderizing effects on food",
+            "provenance": [
+                {
+                    "page_id": "fe69d5b036a5e21d",
+                    "page_origin": "excel",
+                    "page_title": "The Best Southern Fried Chicken | The Food Lab",
+                    "section_title": "Inside Out",
+                    "paragraph_id": "f004c021091a3656",
+                    "paragraph_text": "Not only did the chicken come out just as moist as with water brine, it was actually significantly more tender as well, due to the tenderizing effects of buttermilk on food (soaking it for more than one night led to chicken that was so tender that it bordered on mush).",
+                    "timestamp": 1672503792737
+                }
+            ],
+            "query": [
+                {
+                    "query": "tenderising",
+                    "timestamp": 1672503781015
+                },
+                {
+                    "query": "tenderi",
+                    "timestamp": 1672503785047
+                },
+                {
+                    "query": "tenderizing",
+                    "timestamp": 1672503786032
+                }
+            ],
+            "timestamp": 1672503839073
+        },
+        {
+            "id": "-NKczsbxCu1vgv3-aRFw",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [
+                "-NKczXavSYEStHriWOZl",
+                "-NKczo_WTkrSNmfKeQjL"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "ok thanks. This was great.",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672503855613
+        },
+        {
+            "id": "-NKd-0yIQHvl6hSbahg_",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [
+                "-NKczsbxCu1vgv3-aRFw"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "That's great to hear. Let me see if I can find how to make buttermilk from normal milk.",
+            "provenance": [],
+            "query": [
+                {
+                    "query": "making buttermilk",
+                    "timestamp": 1672503844250
+                }
+            ],
+            "timestamp": 1672503893907
+        },
+        {
+            "id": "-NKd-8a7z7dAuFtC0IEB",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [
+                "-NKd-0yIQHvl6hSbahg_"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "ok thanks",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672503925128
+        },
+        {
+            "id": "-NKd-K-vfUQ-7sbxwk7I",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [
+                "-NKczsbxCu1vgv3-aRFw"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "So, \"Acidified buttermilk\" is a substitute for buttermilk made by adding a food-grade acid such as vinegar or lemon juice to milk. It can be produced by mixing 1 tablespoon of acid with 1 cup of milk and letting it sit until it curdles for about 10 minutes. Any level of fat content for the milk ingredient may be used.",
+            "provenance": [
+                {
+                    "page_id": "1a7e179d83935375",
+                    "page_origin": "wikipedia",
+                    "page_title": "Buttermilk",
+                    "section_title": "Acidified buttermilk.",
+                    "paragraph_id": "579fac2755f297ed",
+                    "paragraph_text": "\"Acidified buttermilk\" is a substitute made by adding a food-grade acid such as vinegar or lemon juice to milk. It can be produced by mixing 1 tablespoon () of acid with 1 cup () of milk and letting it sit until it curdles, about 10 minutes. Any level of fat content for the milk ingredient may be used, but whole milk is usually used for baking. In the process which is used to produce paneer, such acidification is done in the presence of heat.",
+                    "timestamp": 1672503920288
+                }
+            ],
+            "query": [],
+            "timestamp": 1672503971899
+        },
+        {
+            "id": "-NKd-UeJ6DPgCjUAL5ym",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [
+                "-NKd-K-vfUQ-7sbxwk7I"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Great thank you.",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672504015508
+        },
+        {
+            "id": "-NKd-_50VGsOaAxZ1ovM",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "goodbye",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672504037761
+        },
+        {
+            "id": "-NKd-cUYJF3BsjZfsyhb",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Goodbye",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1672504051683
+        }
+    ]
+}

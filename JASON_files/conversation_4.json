@@ -1,0 +1,1187 @@
+{
+    "conversation_id": "coe2XtNapn",
+    "condition": "passive",
+    "recipe_id": "158",
+    "recipe_title": "The Best Pesto alla Genovese (Classic Basil Pesto Sauce) Recipe",
+    "participant_gender": "female",
+    "participant_age": "25-34",
+    "keep_conversation": true,
+    "comments": "",
+    "conversation": [
+        {
+            "id": "-NBX7dE7MCsOXBRDHs-P",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Hey there! Happy to have you on board for our masterclass :) Today you will be learning how to prepare Pesto alla Genovese. Make sure you have all the ingredients and tools and feel free to ask questions. If you are ready to start cooking simply say start.",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662725034952
+        },
+        {
+            "id": "-NBX7k3pkrRjCUkNx0VA",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "start",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662725062965
+        },
+        {
+            "id": "-NBX8-HqhRBQY0b9Fey8",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Hello, I would like to know the first step for making the recipe Pest alla Genovesse",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662725129398
+        },
+        {
+            "id": "-NBX80eby9TFrc4jr8HP",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662725135015
+        },
+        {
+            "id": "-NBX80iy9zH4yEWAgLlC",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 1\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662725135294
+        },
+        {
+            "id": "-NBX88GdCBIG29nhwIPj",
+            "interaction_type": "text",
+            "information_need_type": "equipment",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "If I don't have a mortar and pestle what is the best way to create a garlic paste?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662725166186
+        },
+        {
+            "id": "-NBX8EVybcLazhn4Mwcl",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NBX88GdCBIG29nhwIPj"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Let me see...",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662725191742
+        },
+        {
+            "id": "-NBX8S2Rd7S91qztSOLG",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NBX88GdCBIG29nhwIPj"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "One shortcut most people take with pesto sauce is using a food processor, which turns a somewhat laborious process into one of the quickest and easiest of sauces to put together.",
+            "provenance": [
+                {
+                    "page_id": "befbdfc1840680d3",
+                    "page_origin": "excel",
+                    "page_title": "How to Make the Best Pesto",
+                    "section_title": "The Best Equipment for Making Pesto Sauce: Mortar and Pestle or Food Processor?",
+                    "paragraph_id": "3254065c4d7d4215",
+                    "paragraph_text": "If there's one shortcut most people take with pesto sauce, it's using a food processor, which turns a somewhat laborious process into one of the quickest and easiest of sauces to put together.",
+                    "timestamp": 1662725204172
+                }
+            ],
+            "query": [],
+            "timestamp": 1662725247197
+        },
+        {
+            "id": "-NBX8VXWiKi7WOfSPpFT",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [
+                "-NBX8EVybcLazhn4Mwcl",
+                "-NBX8S2Rd7S91qztSOLG"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "ok, next step please",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662725261473
+        },
+        {
+            "id": "-NBX8WgyQS4PBSQ8I6z3",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662725266239
+        },
+        {
+            "id": "-NBX8Wl_D2OVPse1XxMa",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 2\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662725266534
+        },
+        {
+            "id": "-NBX8_79LQUTIwRymHUi",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "next",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662725280267
+        },
+        {
+            "id": "-NBX8_uuAbA_E3FNtNOv",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662725283514
+        },
+        {
+            "id": "-NBX8a-GOff-5Wmey690",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 3\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662725283857
+        },
+        {
+            "id": "-NBX8cwY7A0L4mKZQMS6",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "next",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662725295907
+        },
+        {
+            "id": "-NBX8dRGVSBvMspIgIVJ",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662725297938
+        },
+        {
+            "id": "-NBX8dVH6LGVsVjmfKhZ",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 4\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662725298194
+        },
+        {
+            "id": "-NBX8j4B2dad3FTDZaXm",
+            "interaction_type": "text",
+            "information_need_type": "ingredient",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Remind me what the two cheeses in this recipe are?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662725321036
+        },
+        {
+            "id": "-NBX8qxhQocgPjIYX0IQ",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NBX8j4B2dad3FTDZaXm"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "You need 3/4 ounce (about 2 tablespoons) grated Parmigiano Reggiano and  3/4 ounce (about 2 tablespoons) Pecorino Fiore Sardo",
+            "provenance": [
+                {
+                    "page_id": "398b23d824dea22c",
+                    "page_origin": "excel",
+                    "page_title": "The Best Pesto alla Genovese (Classic Basil Pesto Sauce) Recipe",
+                    "section_title": "The Best Pesto alla Genovese (Classic Basil Pesto Sauce) Recipe",
+                    "paragraph_id": "1ddc3b59b4dd3e24",
+                    "paragraph_text": "3/4 ounce (about 2 tablespoons) grated Parmigiano Reggiano",
+                    "timestamp": 1662725338691
+                },
+                {
+                    "page_id": "398b23d824dea22c",
+                    "page_origin": "excel",
+                    "page_title": "The Best Pesto alla Genovese (Classic Basil Pesto Sauce) Recipe",
+                    "section_title": "The Best Pesto alla Genovese (Classic Basil Pesto Sauce) Recipe",
+                    "paragraph_id": "1ddc3b59b4dd3e24",
+                    "paragraph_text": "3/4 ounce (about 2 tablespoons) Pecorino Fiore Sardo (see note)",
+                    "timestamp": 1662725345051
+                }
+            ],
+            "query": [],
+            "timestamp": 1662725353325
+        },
+        {
+            "id": "-NBX8v7VfkVAzs7WkFy2",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [
+                "-NBX8qxhQocgPjIYX0IQ"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Thanks, next step please",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662725370401
+        },
+        {
+            "id": "-NBX8w79vY_v6199KYl0",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662725374474
+        },
+        {
+            "id": "-NBX8wBChkoQp1qVdD00",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 5\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662725374733
+        },
+        {
+            "id": "-NBX91zf1WQeHY4fXRG8",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "That seems simple enough",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662725402604
+        },
+        {
+            "id": "-NBX9Gqd7Dbe0XW99IMu",
+            "interaction_type": "text",
+            "information_need_type": "knowledge",
+            "information_need_subtype": "history",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Does this dish originate from Genovesse?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662725463466
+        },
+        {
+            "id": "-NBX9INUbdyeOgJMen6h",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NBX9Gqd7Dbe0XW99IMu"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Give me a moment",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662725469727
+        },
+        {
+            "id": "-NBX9SEKsCvtDZIJNSws",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NBX9Gqd7Dbe0XW99IMu"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Pesto genovese is not the only authentic Italian pesto. Pesto rosso is made with sun-dried tomatoes and almonds, while versions from Southern Italy favor sweet red peppers or cherry tomatoes. What all traditional pestos have in common, and what defines a pesto as a pesto is that the ingredients are crushed with a mortar and pestle.",
+            "provenance": [
+                {
+                    "page_id": "e9ca05e4965e1989",
+                    "page_origin": "seriousEats",
+                    "page_title": "Pantry Essentials: All About Pesto",
+                    "section_title": "Pantry Essentials: All About Pesto",
+                    "paragraph_id": "879b2773bfac7784",
+                    "paragraph_text": "Pesto genovese is not the only authentic Italian pesto. Pesto rosso is made with sun-dried tomatoes and almonds, while versions from Southern Italy favor sweet red peppers or cherry tomatoes. (If you want to experiment with your own pesto variations, we can show you how!) What all traditional pestos have in common, and what defines a pesto as a pesto is that the ingredients are crushed with a mortar and pestle.",
+                    "timestamp": 1662725496474
+                }
+            ],
+            "query": [
+                {
+                    "query": "pesto",
+                    "timestamp": 1662725474428
+                }
+            ],
+            "timestamp": 1662725510101
+        },
+        {
+            "id": "-NBX9_sIifvSUGuXM1Uo",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [
+                "-NBX9Gqd7Dbe0XW99IMu"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "The most famous, and the one we're talking about here, is pesto alla genovese, from the Ligurian city of Genoa and its environs.",
+            "provenance": [
+                {
+                    "page_id": "befbdfc1840680d3",
+                    "page_origin": "excel",
+                    "page_title": "How to Make the Best Pesto",
+                    "section_title": "What Is Pesto Sauce?",
+                    "paragraph_id": "428db68c99c2c35f",
+                    "paragraph_text": "The most famous, and the one we're talking about here, is pesto alla genovese, from the Ligurian city of Genoa and its environs.",
+                    "timestamp": 1662725541662
+                }
+            ],
+            "query": [],
+            "timestamp": 1662725545492
+        },
+        {
+            "id": "-NBX9ixfu0DjdA9iAsjY",
+            "interaction_type": "text",
+            "information_need_type": "knowledge",
+            "information_need_subtype": "history",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Does the word pesto have something to do with the word pestle?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662725582699
+        },
+        {
+            "id": "-NBX9maSik5Er2m1cyRH",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NBX9ixfu0DjdA9iAsjY"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Let me see...",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662725597597
+        },
+        {
+            "id": "-NBXA8VfNWOzdk3NjqCM",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NBX9ixfu0DjdA9iAsjY"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "The name is the past participle of the Genoese verb (Italian: ), which means \"to pound\", \"to crush\", in reference to the original method of preparation: according to tradition, the ingredients are \"crushed\" or ground in a marble mortar through a circular motion of a wooden pestle. This same Latin root, through Old French, also gave rise to the English noun \"pestle\".",
+            "provenance": [
+                {
+                    "page_id": "c1423facf62cd38d",
+                    "page_origin": "wikipedia",
+                    "page_title": "Pesto",
+                    "section_title": "Etymology.",
+                    "paragraph_id": "e63b3c161f93b1a0",
+                    "paragraph_text": "The name is the past participle of the Genoese verb (Italian: ), which means \"to pound\", \"to crush\", in reference to the original method of preparation: according to tradition, the ingredients are \"crushed\" or ground in a marble mortar through a circular motion of a wooden pestle. This same Latin root, through Old French, also gave rise to the English noun \"pestle\".",
+                    "timestamp": 1662725672955
+                }
+            ],
+            "query": [
+                {
+                    "query": "pestle",
+                    "timestamp": 1662725632980
+                },
+                {
+                    "query": "pesto",
+                    "timestamp": 1662725654316
+                }
+            ],
+            "timestamp": 1662725691435
+        },
+        {
+            "id": "-NBXAFR367JOlus4h8O6",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [
+                "-NBX9ixfu0DjdA9iAsjY"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "So yes, it does!",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662725719812
+        },
+        {
+            "id": "-NBXAOGoml_5yH-zk6Sr",
+            "interaction_type": "text",
+            "information_need_type": "preparation",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [
+                "-NBX9maSik5Er2m1cyRH",
+                "-NBXA8VfNWOzdk3NjqCM",
+                "-NBXAFR367JOlus4h8O6"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "That makes sense! Is Step five the final step in the recipe?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662725756020
+        },
+        {
+            "id": "-NBXARJuJIU-Ui8wAfiY",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NBXAOGoml_5yH-zk6Sr"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Yes.",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662725768507
+        },
+        {
+            "id": "-NBXAVcaz9A2sL9z_VGv",
+            "interaction_type": "text",
+            "information_need_type": "ingredient",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Can you show me the ingredients list again?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662725786150
+        },
+        {
+            "id": "-NBXAXEjCSA5AjBn82CU",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "prev"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662725792752
+        },
+        {
+            "id": "-NBXAXIjYLeQp1hxz8Jk",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "prev"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662725793008
+        },
+        {
+            "id": "-NBXAXKJ20kHMBxqeabe",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 4\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662725793108
+        },
+        {
+            "id": "-NBXAXMaQXLmeN434BQC",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "prev"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662725793254
+        },
+        {
+            "id": "-NBXAXPN5dyPzMfCgcHf",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "prev"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662725793432
+        },
+        {
+            "id": "-NBXAXQ_Rz4Q7jpwW2fe",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 3\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662725793509
+        },
+        {
+            "id": "-NBXAXS4A5OtGDvUMJot",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "prev"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662725793605
+        },
+        {
+            "id": "-NBXAXUipwJKaTJ9AifN",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "prev"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662725793774
+        },
+        {
+            "id": "-NBXAXWq0b6MsR_0A2Df",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 2\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662725793911
+        },
+        {
+            "id": "-NBXAXY9l-Pr5hpEoS9O",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 1\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662725793994
+        },
+        {
+            "id": "-NBXAXcCmxlSCWwvYjla",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Time, Equipment & Ingredients\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662725794317
+        },
+        {
+            "id": "-NBXAXdmd0uEp3pkR--F",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Time, Equipment & Ingredients\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662725794418
+        },
+        {
+            "id": "-NBXAkHbd2drf8Zin3-Y",
+            "interaction_type": "text",
+            "information_need_type": "ingredient",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Do you have any recommendations for brands of cheese to buy? or what to look for in order to get good quality",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662725850279
+        },
+        {
+            "id": "-NBXAzdXel2FGl_1UxBl",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NBXAkHbd2drf8Zin3-Y"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Historically, the cheeses of true Ligurian pesto were Parmigiano-Reggiano and Pecorino Sardo (or Fiore Sardo), a Sardinian sheep's-milk cheese. If you can find the Fiore Sardo, it will make a marginally better pesto sauce, but Pecorino Romano makes a darned good one, too (and, frankly, Parmigiano-Reggiano alone makes a great one as well).",
+            "provenance": [
+                {
+                    "page_id": "befbdfc1840680d3",
+                    "page_origin": "excel",
+                    "page_title": "How to Make the Best Pesto",
+                    "section_title": "What Cheese Should Be Used in Pesto Sauce?",
+                    "paragraph_id": "0600c73af94d8b73",
+                    "paragraph_text": "Historically, the cheeses of true Ligurian pesto were Parmigiano-Reggiano and Pecorino Sardo (or Fiore Sardo), a Sardinian sheep's-milk cheese.",
+                    "timestamp": 1662725896397
+                },
+                {
+                    "page_id": "befbdfc1840680d3",
+                    "page_origin": "excel",
+                    "page_title": "How to Make the Best Pesto",
+                    "section_title": "What Cheese Should Be Used in Pesto Sauce?",
+                    "paragraph_id": "b3826cc1dff86855",
+                    "paragraph_text": "So, once again, if you can find the Fiore Sardo, it will make a marginally better pesto sauce, but Pecorino Romano makes a darned good one, too (and, frankly, Parmigiano-Reggiano alone makes a great one as well).",
+                    "timestamp": 1662725898385
+                }
+            ],
+            "query": [],
+            "timestamp": 1662725913186
+        },
+        {
+            "id": "-NBXBcq5r2ZFM592T56m",
+            "interaction_type": "text",
+            "information_need_type": "knowledge",
+            "information_need_subtype": "science",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [
+                "-NBXAzdXel2FGl_1UxBl"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Thank you, that is helpful. It is much easier to find Parmigianio-Reggiano as this is most popular. Can you tell me more about the Southern recipe variations that use sun-dried peppers and tomatoes? You mentioned that they sometimes use almonds instead of pine nuts, why is that and how does this change the taste?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662726081926
+        },
+        {
+            "id": "-NBXBjG6u6-Z2EJZoKDF",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NBXBcq5r2ZFM592T56m"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Let me see...",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662726108231
+        },
+        {
+            "id": "-NBXCfeMr5VQPItnZOp_",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NBXBcq5r2ZFM592T56m"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "So speaking of nuts in pesto:\nWalnuts are actually a traditional alternative to pine nuts for Pesto alla Genovese; pine nuts have always been scarce, even in early-20th-century Italy.  As a caution, though, you need to get good, fresh walnuts and make sure to get all of the skin off the nuts, or the pesto will taste bitter and rancid.\n\nAlmonds could also work, although I'd think they'd be rather bland.  The herb pastes which traditionally have crushed almonds -- such as Romanesco sauce -- include some hot pepper.  Again, freshness and getting the skin off is important. As long as you toast them properly first, they are delicious (though not the same as pine nuts, of course -- not nearly as fatty, for one thing).",
+            "provenance": [
+                {
+                    "page_id": "aebcb4e1bbe110ef",
+                    "page_origin": "stackExchangeCooking",
+                    "page_title": "Can I replace pine nuts with other nuts in a pesto sauce recipe?",
+                    "section_title": "Answer 1",
+                    "paragraph_id": "ac9d7b75d22e0eac",
+                    "paragraph_text": "First, I'm assuming by \"pesto\" you mean \"Pesto alla Genovese\", given your question about pine nuts.  Basil, pine nuts, garlic, olive oil, and cheese is a delicious combination, but it's only one of many \"pestos\" (peste, actually), since pesto refers in general to any sauce which is made from crushed or pureed ingredients.  Mix and match to your heart's content.  \n\nWalnuts are actually a traditional alternative to pine nuts for Pesto alla Genovese; pine nuts have always been scarce, even in early-20th-century Italy.  As a caution, though, you need to get good, fresh walnuts and make sure to get all of the skin off the nuts, or the pesto will taste bitter and rancid.\n\nAlmonds could also work, although I'd think they'd be rather bland.  The herb pastes which traditionally have crushed almonds -- such as Romanesco sauce -- include some hot pepper.  Again, freshness and getting the skin off is important.\n\nI'd think sunflower seeds would be kind of odd and oily, but you don't know until you try.  If you do, post a comment to let us know!\n",
+                    "timestamp": 1662726296645
+                },
+                {
+                    "page_id": "aebcb4e1bbe110ef",
+                    "page_origin": "stackExchangeCooking",
+                    "page_title": "Can I replace pine nuts with other nuts in a pesto sauce recipe?",
+                    "section_title": "Comments to: Answer 1",
+                    "paragraph_id": "3d4c449e0f19d3c2",
+                    "paragraph_text": "(Just as an anecdote) I've used almonds many many times in basil pesto; as long as you toast them properly first, they are delicious (though not the same as pine nuts, of course -- not nearly as fatty, for one thing).",
+                    "timestamp": 1662726297451
+                }
+            ],
+            "query": [
+                {
+                    "query": "southern pesto",
+                    "timestamp": 1662726161240
+                },
+                {
+                    "query": "almonds pesto",
+                    "timestamp": 1662726193976
+                }
+            ],
+            "timestamp": 1662726355608
+        },
+        {
+            "id": "-NBXD74l0PORRIZwM79O",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NBXBcq5r2ZFM592T56m"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "In southern recipe variations such as \"Pesto alla siciliana\", sometimes called \"pesto rosso\" (red pesto), you have a sauce from Sicily similar to \"pesto alla genovese\" but with the addition of tomato, almonds instead of pine nuts, and much less basil.",
+            "provenance": [
+                {
+                    "page_id": "c1423facf62cd38d",
+                    "page_origin": "wikipedia",
+                    "page_title": "Pesto",
+                    "section_title": "Ingredients and preparation.:Variations.",
+                    "paragraph_id": "78a3df98395ccd32",
+                    "paragraph_text": "\"Pesto alla siciliana\", sometimes called \"pesto rosso\" (red pesto), is a sauce from Sicily similar to \"pesto alla genovese\" but with the addition of tomato, almonds instead of pine nuts, and much less basil.",
+                    "timestamp": 1662726437198
+                }
+            ],
+            "query": [],
+            "timestamp": 1662726472050
+        },
+        {
+            "id": "-NBXDU-zaFZt0tyY5dgm",
+            "interaction_type": "text",
+            "information_need_type": "knowledge",
+            "information_need_subtype": "history",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [
+                "-NBXBjG6u6-Z2EJZoKDF",
+                "-NBXCfeMr5VQPItnZOp_",
+                "-NBXD74l0PORRIZwM79O"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Hmm interesting. I never knew there was so many variations of the traditional recipe. I suppose the different ingredients were also based on what grows in those regions?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662726565951
+        },
+        {
+            "id": "-NBXDm-5yA8vFdN9pOC2",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NBXDU-zaFZt0tyY5dgm"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "I'm sorry, I do not think I have this information. But your assumption seems plausible.",
+            "provenance": [],
+            "query": [
+                {
+                    "query": "pesto",
+                    "timestamp": 1662726597063
+                }
+            ],
+            "timestamp": 1662726643719
+        },
+        {
+            "id": "-NBXDrGbYJTiwL2I3c-U",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [
+                "-NBXDm-5yA8vFdN9pOC2"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "No problem. Thanks for all the information",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662726665320
+        },
+        {
+            "id": "-NBXDuQyeMnOq1BqkgDi",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [
+                "-NBXDrGbYJTiwL2I3c-U"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "You are welcome",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662726678270
+        },
+        {
+            "id": "-NBXDweihUbdq1WUjNm1",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Thank you. You\u2019re at the end.",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662726687406
+        }
+    ]
+}

@@ -1,0 +1,1346 @@
+{
+    "conversation_id": "55b3120cfdf99b6ef6263a71",
+    "condition": "passive",
+    "recipe_id": "2331",
+    "recipe_title": "The Best Buttermilk-Brined Southern Fried Chicken Recipe",
+    "participant_gender": "female",
+    "participant_age": "25-34",
+    "keep_conversation": true,
+    "comments": "",
+    "conversation": [
+        {
+            "id": "-N4D_irSwV_XgOMzKe9D",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Hey there! Happy to have you on board for our masterclass :) Today you will be learning how to prepare The Best Buttermilk-Brined Southern Fried Chicken Recipe. Make sure you have all the ingredients and tools and feel free to ask questions. If you are ready to start cooking simply say next.",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1654880923101
+        },
+        {
+            "id": "-N4DacK3EN-M9Ms9-VAA",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "next",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1654881158472
+        },
+        {
+            "id": "-N4Dad5vkz9xZOQKrUlj",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1654881161659
+        },
+        {
+            "id": "-N4DadA6o2uFEvXdr5vX",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 1\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1654881161928
+        },
+        {
+            "id": "-N4DadCYMhHj_zG90AwT",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 1\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1654881162084
+        },
+        {
+            "id": "-N4DakYzXhICEp2g0aHB",
+            "interaction_type": "text",
+            "information_need_type": "ingredient",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "does it matter what type of paprika is used",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1654881192191
+        },
+        {
+            "id": "-N4DazSWhIObEPPxZz6W",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-N4DakYzXhICEp2g0aHB"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "No it does not matter. Simply use paprika to add heat and peppery flavour",
+            "provenance": [
+                {
+                    "page_id": "fe69d5b036a5e21d",
+                    "page_origin": "excel",
+                    "page_title": "The Best Southern Fried Chicken | The Food Lab",
+                    "section_title": "Inside Out",
+                    "paragraph_id": "f004c021091a3656",
+                    "paragraph_text": "I played around a bit with the mix before arriving at a blend of cayenne pepper and paprika (for their heat and peppery flavor), garlic powder**, a bit of dried oregano, and a healthy slug of freshly ground black pepper.",
+                    "timestamp": 1654881216365
+                }
+            ],
+            "query": [
+                {
+                    "query": "paprika",
+                    "timestamp": 1654881202751
+                }
+            ],
+            "timestamp": 1654881253217
+        },
+        {
+            "id": "-N4Db1IFzfcPPko5Zw9Z",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "next",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1654881264848
+        },
+        {
+            "id": "-N4Db1tisQKKH_KuseHl",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1654881267310
+        },
+        {
+            "id": "-N4Db2-JD58igVaP3IdE",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 2\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1654881267732
+        },
+        {
+            "id": "-N4DbFr8MzVTq_uNu6ju",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "next",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1654881324490
+        },
+        {
+            "id": "-N4DbG_AKH_igT2E9tqy",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1654881327436
+        },
+        {
+            "id": "-N4DbGfo_CATtTTqwvlg",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 3\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1654881327861
+        },
+        {
+            "id": "-N4DbhHxtdUJb-BkL08Z",
+            "interaction_type": "text",
+            "information_need_type": "knowledge",
+            "information_need_subtype": "step_importance",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "why does the chicken have to rest in the zip lock back before its mixed in the flour mixture",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1654881440957
+        },
+        {
+            "id": "-N4Dc7YVFHwT-nhGu49n",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-N4DbhHxtdUJb-BkL08Z"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "That's a really great question! You should place the chicken in a zip lock bag in order to brine it. An overnight brine will penetrate a few millimeters into the meat, giving you built-in seasoning before you ever get to the breading.",
+            "provenance": [
+                {
+                    "page_id": "fe69d5b036a5e21d",
+                    "page_origin": "excel",
+                    "page_title": "The Best Southern Fried Chicken | The Food Lab",
+                    "section_title": "Inside Out",
+                    "paragraph_id": "ba0576fee75e6f46",
+                    "paragraph_text": "An overnight brine will penetrate a few millimeters into the meat, giving you built-in seasoning before you ever get to the breading.",
+                    "timestamp": 1654881505234
+                }
+            ],
+            "query": [],
+            "timestamp": 1654881552608
+        },
+        {
+            "id": "-N4DcG5ta97kP0d2fLFC",
+            "interaction_type": "text",
+            "information_need_type": "time",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "does it matter if it sits for longer then the 24 hours?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1654881587641
+        },
+        {
+            "id": "-N4DcZ8bL89GZoeRPLtF",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-N4DcG5ta97kP0d2fLFC"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Usually, you should be brining your chicken breast anywhere from 30 minutes to two hours. However, a much, much longer brining time mitigates the effects of high-temperature frying, delivering a uniquely smooth, juicy texture to the meat.",
+            "provenance": [
+                {
+                    "page_id": "fe69d5b036a5e21d",
+                    "page_origin": "excel",
+                    "page_title": "The Best Southern Fried Chicken | The Food Lab",
+                    "section_title": "Inside Out",
+                    "paragraph_id": "ba0576fee75e6f46",
+                    "paragraph_text": "My normal brining for chicken breast is anywhere from 30 minutes to two hours.",
+                    "timestamp": 1654881607785
+                },
+                {
+                    "page_id": "fe69d5b036a5e21d",
+                    "page_origin": "excel",
+                    "page_title": "The Best Southern Fried Chicken | The Food Lab",
+                    "section_title": "Inside Out",
+                    "paragraph_id": "ba0576fee75e6f46",
+                    "paragraph_text": "In this case, however, a much, much longer brining time was necessary in order to completely mitigate the effects of high-temperature frying, delivering a uniquely smooth, juicy texture to the meat.",
+                    "timestamp": 1654881608518
+                }
+            ],
+            "query": [],
+            "timestamp": 1654881665640
+        },
+        {
+            "id": "-N4DcjHgct0BItee8QVM",
+            "interaction_type": "text",
+            "information_need_type": "knowledge",
+            "information_need_subtype": "science",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "what does putting 3 tablespoons of marinade into the flour do?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1654881711276
+        },
+        {
+            "id": "-N4DctSMrmtN9poorIcA",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-N4DcjHgct0BItee8QVM"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "I'm sorry I do not have answer for this question",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1654881752920
+        },
+        {
+            "id": "-N4Dd7LJTKeAUW71UCw6",
+            "interaction_type": "text",
+            "information_need_type": "preparation",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "can I skip putting the marinade into the flour before the chicken",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1654881813908
+        },
+        {
+            "id": "-N4DdEeviAdpXUtyAzdP",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-N4Dd7LJTKeAUW71UCw6"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "I'm sorry, I do not think I have this information",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1654881843900
+        },
+        {
+            "id": "-N4DdGU1wJzjk5Rzxs6X",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "next",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1654881851330
+        },
+        {
+            "id": "-N4DdH2yQT-SMxgO6URE",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1654881853694
+        },
+        {
+            "id": "-N4DdH9QDxbrBnTQIMxb",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 4\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1654881854107
+        },
+        {
+            "id": "-N4DdRpFEKlkxw9P431E",
+            "interaction_type": "text",
+            "information_need_type": "cooking_technique",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "how do i maintain the correct temperature of the oil",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1654881897808
+        },
+        {
+            "id": "-N4De59_YwscDpFolHvd",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-N4DdRpFEKlkxw9P431E"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "We know that shimmering oil is hotter than pooled oil (it starts shimmering at around 300 to 400\u00b0F), while smoking oil is hotter still (depending on the type of oil, this begins at around 450 to 500\u00b0F). In other words, oil is a built-in temperature indicator so simply looking at it should be enough",
+            "provenance": [
+                {
+                    "page_id": "35b29a0505af3e78",
+                    "page_origin": "seriousEats",
+                    "page_title": "Do I Need To Preheat My Oil? | Ask The Food Lab",
+                    "section_title": "Do I Need To Preheat My Oil?",
+                    "paragraph_id": "c4b4ea3bb687a495",
+                    "paragraph_text": "You may be asking why you can't preheat the pan, then add the oil, and the answer is that you can, technically. The problem is that without oil in it, it's very difficult to determine how hot a pan actually is. Starting with oil in the pan is a good indicator of how hot the pan is. We know that shimmering oil is hotter than pooled oil (it starts shimmering at around 300 to 400\u00b0F), while smoking oil is hotter still (depending on the type of oil, this begins at around 450 to 500\u00b0F). The oil is a built-in temperature indicator.",
+                    "timestamp": 1654882036627
+                }
+            ],
+            "query": [
+                {
+                    "query": "oil temperature",
+                    "timestamp": 1654881939754
+                },
+                {
+                    "query": "oil temperature thermometer",
+                    "timestamp": 1654881977321
+                },
+                {
+                    "query": "oil thermometer",
+                    "timestamp": 1654882006927
+                }
+            ],
+            "timestamp": 1654882067109
+        },
+        {
+            "id": "-N4DeEXO7RTHNUud7fs3",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "next",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1654882105498
+        },
+        {
+            "id": "-N4DeKj18iELk1H69K6F",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [
+                {
+                    "query": "deep-fry thermometer",
+                    "timestamp": 1654882104500
+                }
+            ],
+            "timestamp": 1654882130892
+        },
+        {
+            "id": "-N4DeKzKkQ9ekdF2LumU",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 5\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1654882131926
+        },
+        {
+            "id": "-N4DeooqdxaE9O9I-2MO",
+            "interaction_type": "text",
+            "information_need_type": "preparation",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "is the chicken transferred to the wire mesh immediately after coating with the flour?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1654882258230
+        },
+        {
+            "id": "-N4Df5ci2vuEgWsQmeDI",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-N4DeooqdxaE9O9I-2MO"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Yes, one piece at a time, transfer the coated chicken to a fine-mesh strainer and shake to remove excess flour.",
+            "provenance": [
+                {
+                    "page_id": "88c7d3ee4ea22283",
+                    "page_origin": "excel",
+                    "page_title": "The Best Buttermilk-Brined Southern Fried Chicken Recipe",
+                    "section_title": "The Best Buttermilk-Brined Southern Fried Chicken Recipe",
+                    "paragraph_id": "e5e8f271e886629e",
+                    "paragraph_text": "One piece at a time, transfer the coated chicken to a fine-mesh strainer and shake to remove excess flour.",
+                    "timestamp": 1654882300108
+                }
+            ],
+            "query": [],
+            "timestamp": 1654882331182
+        },
+        {
+            "id": "-N4DfDIUtoZfB0IfcqV0",
+            "interaction_type": "text",
+            "information_need_type": "cooking_technique",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "what do I do if the chicken is sticking to the pan once in the oil",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1654882362591
+        },
+        {
+            "id": "-N4DfVTzMYP86Vb3tA0g",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-N4DfDIUtoZfB0IfcqV0"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "To avoid that you should adjust the heat to maintain the temperature at 300\u00b0F for the duration of the cooking. Then fry the chicken until it\u2019s a deep golden brown on the first side, about 6 minutes; do not move the chicken or start checking for doneness until it has fried for at least 3 minutes, or you may knock off the coating.  Then, carefully flip the chicken pieces with tongs and cook until the second side is golden brown, about 4 minutes longer.",
+            "provenance": [
+                {
+                    "page_id": "88c7d3ee4ea22283",
+                    "page_origin": "excel",
+                    "page_title": "The Best Buttermilk-Brined Southern Fried Chicken Recipe",
+                    "section_title": "The Best Buttermilk-Brined Southern Fried Chicken Recipe",
+                    "paragraph_id": "e5e8f271e886629e",
+                    "paragraph_text": "The temperature should drop to 300\u00b0F; adjust the heat to maintain the temperature at 300\u00b0F for the duration of the cooking.",
+                    "timestamp": 1654882391027
+                },
+                {
+                    "page_id": "88c7d3ee4ea22283",
+                    "page_origin": "excel",
+                    "page_title": "The Best Buttermilk-Brined Southern Fried Chicken Recipe",
+                    "section_title": "The Best Buttermilk-Brined Southern Fried Chicken Recipe",
+                    "paragraph_id": "e5e8f271e886629e",
+                    "paragraph_text": "Fry the chicken until it\u2019s a deep golden brown on the first side, about 6 minutes; do not move the chicken or start checking for doneness until it has fried for at least 3 minutes, or you may knock off the coating.",
+                    "timestamp": 1654882409691
+                },
+                {
+                    "page_id": "88c7d3ee4ea22283",
+                    "page_origin": "excel",
+                    "page_title": "The Best Buttermilk-Brined Southern Fried Chicken Recipe",
+                    "section_title": "The Best Buttermilk-Brined Southern Fried Chicken Recipe",
+                    "paragraph_id": "e5e8f271e886629e",
+                    "paragraph_text": "Carefully flip the chicken pieces with tongs and cook until the second side is golden brown, about 4 minutes longer.",
+                    "timestamp": 1654882427815
+                }
+            ],
+            "query": [],
+            "timestamp": 1654882437055
+        },
+        {
+            "id": "-N4DfdTPxMc1JJoQVW2E",
+            "interaction_type": "text",
+            "information_need_type": "equipment",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "should I use a lid?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1654882473882
+        },
+        {
+            "id": "-N4DfwB9GkaLtPt1xHJE",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-N4DfVTzMYP86Vb3tA0g",
+                "-N4DfdTPxMc1JJoQVW2E"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "You can use a lid over the pan to cook through. Any lid will do (sauce pan, baking dish etc.) as long as it mostly covers the food being cooked, without touching it, and is heatproof.",
+            "provenance": [
+                {
+                    "page_id": "779b996684dec471",
+                    "page_origin": "stackExchangeCooking",
+                    "page_title": "Should I press the chicken breast against the pan when I grill it?",
+                    "section_title": "Answer 3",
+                    "paragraph_id": "56031a0a18938307",
+                    "paragraph_text": "A technique to try if you don't have an oven:\n\nLightly oil the pan and the surface of the chicken just before frying (nothing is gained in doing it earlier)\n\nYou do not need to pound and otherwise manipulate the chicken\n\nFry the chicken briefly in the pan to colour the outside, then lower the temperature and place a lid over the pan to cook through (to simulate a small oven). Any lid will do (sauce pan, baking dish etc.) as long as it mostly covers the food being cooked, without touching it, and is heat proof. A folded up piece of aluminium foil will do at a pinch, but better to invest in something reusable\n\nCook for the time required (as if in a normal oven), and when nearly done, increase heat and remove the lid to fry off condensation, and crisp the outside as desired\n\nAround 20 minutes cooking is the normal time with the lid on. If the chicken is burning before this time, you have the pan on too hot. Adjust time for thickness of chicken\n\nThis technique can even be used for a whole chicken (spatchcocked)\n",
+                    "timestamp": 1654882499368
+                }
+            ],
+            "query": [
+                {
+                    "query": "frying with a lid",
+                    "timestamp": 1654882484238
+                }
+            ],
+            "timestamp": 1654882550539
+        },
+        {
+            "id": "-N4Dg3VGfp-btehI4b76",
+            "interaction_type": "text",
+            "information_need_type": "equipment",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "does it matter what type of pan is used to fry the chicken in ?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1654882584594
+        },
+        {
+            "id": "-N4Dg9PnC5Mi6v2vok8e",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-N4Dg3VGfp-btehI4b76"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "It's highly recommended to use a wok or chicken fryer",
+            "provenance": [
+                {
+                    "page_id": "88c7d3ee4ea22283",
+                    "page_origin": "excel",
+                    "page_title": "The Best Buttermilk-Brined Southern Fried Chicken Recipe",
+                    "section_title": "The Best Buttermilk-Brined Southern Fried Chicken Recipe",
+                    "paragraph_id": "e5e8f271e886629e",
+                    "paragraph_text": "Wok or chicken fryer",
+                    "timestamp": 1654882595106
+                }
+            ],
+            "query": [],
+            "timestamp": 1654882608820
+        },
+        {
+            "id": "-N4DgFXaEaSADVDHIWX_",
+            "interaction_type": "text",
+            "information_need_type": "knowledge",
+            "information_need_subtype": "equipment",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "a lid will still allow the chicken to be crispy?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1654882633895
+        },
+        {
+            "id": "-N4DgSKPrCPfue8NHHAw",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-N4DgFXaEaSADVDHIWX_"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "I'm sorry I do not have answer for this question",
+            "provenance": [],
+            "query": [
+                {
+                    "query": "fry chicken lid",
+                    "timestamp": 1654882656251
+                }
+            ],
+            "timestamp": 1654882686298
+        },
+        {
+            "id": "-N4DgT79PLD5R4ilBvwx",
+            "interaction_type": "text",
+            "information_need_type": "time",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "If a lid is ues is the frying time still the same?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1654882689546
+        },
+        {
+            "id": "-N4DgXAsqdBD1kOYeeVY",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-N4DgT79PLD5R4ilBvwx"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "I'm sorry, I do not think I have this information",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1654882706169
+        },
+        {
+            "id": "-N4DgXzx_PA5hkaJML04",
+            "interaction_type": "text",
+            "information_need_type": "time",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "If I lid is used is the frying time still the same",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1654882709502
+        },
+        {
+            "id": "-N4DgbLH-KE7iVBONoDj",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-N4DgXzx_PA5hkaJML04"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "I'm sorry, I do not think I have this information",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1654882727314
+        },
+        {
+            "id": "-N4Dgbe7aVcDEx3JMVh9",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "next",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1654882728584
+        },
+        {
+            "id": "-N4Dgc-kaCQBduFSsrXF",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1654882730033
+        },
+        {
+            "id": "-N4Dgc6I9ONJzAl01ura",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 6\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1654882730451
+        },
+        {
+            "id": "-N4Dh1DpwV3pklRNvcVp",
+            "interaction_type": "text",
+            "information_need_type": "time",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "will all the pieces be done at the same time?",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1654882837429
+        },
+        {
+            "id": "-N4DhJzXHy5KIOhaX7Qj",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-N4Dh1DpwV3pklRNvcVp"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "No, you should bake until thickest part of breast pieces registers 150\u00b0F (65.5\u00b0C) on an instant-read thermometer, and thigh/drumstick pieces register 165\u00b0F (74\u00b0C), 5 to 10 minutes\n\nThen remove chicken pieces as they reach their target temperature.",
+            "provenance": [
+                {
+                    "page_id": "88c7d3ee4ea22283",
+                    "page_origin": "excel",
+                    "page_title": "The Best Buttermilk-Brined Southern Fried Chicken Recipe",
+                    "section_title": "The Best Buttermilk-Brined Southern Fried Chicken Recipe",
+                    "paragraph_id": "e5e8f271e886629e",
+                    "paragraph_text": "Bake until thickest part of breast pieces registers 150\u00b0F (65.5\u00b0C) on an instant-read thermometer, and thigh/drumstick pieces register 165\u00b0F (74\u00b0C), 5 to 10 minutes; remove chicken pieces as they reach their target temperature, and transfer to a second wire rack set in a rimmed baking sheet, or a paper towel-lined plate.",
+                    "timestamp": 1654882854145
+                }
+            ],
+            "query": [],
+            "timestamp": 1654882914274
+        },
+        {
+            "id": "-N4DhNp2TT_hMvN_8zZS",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "next",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1654882929987
+        },
+        {
+            "id": "-N4DhOMXryz9b1ea_EG3",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1654882932194
+        },
+        {
+            "id": "-N4DhOSvAjUnuaqbUz_D",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 7\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1654882932603
+        },
+        {
+            "id": "-N4DhbDAgCOiw6PQwcjF",
+            "interaction_type": "text",
+            "information_need_type": "time",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "Is the total fry time about 5 minutes",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1654882988940
+        },
+        {
+            "id": "-N4Di0QYxQnHG6OAsq-0",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-N4DhbDAgCOiw6PQwcjF"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "No. Once you have gone through the previous steps you can simply serve the chicken. However, if you placed the chicken in the refrigerator for at least 1 hour, and up to overnight then you would have to reheat the oil to 400\u00b0F., add the chicken pieces and cook until completely crisp for about 5 minutes.",
+            "provenance": [
+                {
+                    "page_id": "88c7d3ee4ea22283",
+                    "page_origin": "excel",
+                    "page_title": "The Best Buttermilk-Brined Southern Fried Chicken Recipe",
+                    "section_title": "The Best Buttermilk-Brined Southern Fried Chicken Recipe",
+                    "paragraph_id": "e5e8f271e886629e",
+                    "paragraph_text": "When ready to serve, reheat the oil to 400\u00b0F.",
+                    "timestamp": 1654883000912
+                },
+                {
+                    "page_id": "88c7d3ee4ea22283",
+                    "page_origin": "excel",
+                    "page_title": "The Best Buttermilk-Brined Southern Fried Chicken Recipe",
+                    "section_title": "The Best Buttermilk-Brined Southern Fried Chicken Recipe",
+                    "paragraph_id": "e5e8f271e886629e",
+                    "paragraph_text": "Add the chicken pieces and cook, flipping them once halfway through cooking, until completely crisp, about 5 minutes.",
+                    "timestamp": 1654883001912
+                },
+                {
+                    "page_id": "88c7d3ee4ea22283",
+                    "page_origin": "excel",
+                    "page_title": "The Best Buttermilk-Brined Southern Fried Chicken Recipe",
+                    "section_title": "The Best Buttermilk-Brined Southern Fried Chicken Recipe",
+                    "paragraph_id": "e5e8f271e886629e",
+                    "paragraph_text": "Place the plate of cooked chicken in the refrigerator for at least 1 hour, and up to overnight.",
+                    "timestamp": 1654883053397
+                }
+            ],
+            "query": [],
+            "timestamp": 1654883096291
+        },
+        {
+            "id": "-N4DiGEzC5dm6VH9SEbE",
+            "interaction_type": "text",
+            "information_need_type": "ingredient",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "is it safe to use the oil your used in the beginning as you do in the last step",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1654883161087
+        },
+        {
+            "id": "-N4DieYHLwzIGMtuC2Nl",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-N4DiGEzC5dm6VH9SEbE"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "You don't have to throw out used oil. Often you can reuse it many, many times! but there's no hard and fast rule for how many time you can reuse that oil. Distrust any source that gives a firm answer on the number times you can reuse oil. It's easy to tell when you'll need to replace your oil.",
+            "provenance": [
+                {
+                    "page_id": "be7ea7c950300f28",
+                    "page_origin": "seriousEats",
+                    "page_title": "How Many Times Can I Re-Use Fry Oil? | Ask the Food Lab",
+                    "section_title": "How Many Times Can I Reuse Fry Oil?",
+                    "paragraph_id": "85620bbdfd236f6b",
+                    "paragraph_text": "Good News A: You don't have to throw out used oil. Often you can reuse it many, many times!",
+                    "timestamp": 1654883197254
+                },
+                {
+                    "page_id": "be7ea7c950300f28",
+                    "page_origin": "seriousEats",
+                    "page_title": "How Many Times Can I Re-Use Fry Oil? | Ask the Food Lab",
+                    "section_title": "How Many Times Can I Reuse Fry Oil?",
+                    "paragraph_id": "416a09b7b8bc4be9",
+                    "paragraph_text": "Bad News: There's no hard and fast rule for how many time you can reuse that oil. Distrust any source that gives a firm answer on the number times you can reuse oil.",
+                    "timestamp": 1654883200136
+                },
+                {
+                    "page_id": "be7ea7c950300f28",
+                    "page_origin": "seriousEats",
+                    "page_title": "How Many Times Can I Re-Use Fry Oil? | Ask the Food Lab",
+                    "section_title": "How Many Times Can I Reuse Fry Oil?",
+                    "paragraph_id": "89725e79992ca393",
+                    "paragraph_text": "Good News B: It's easy to tell when you'll need to replace your oil, and more importantly, there are some great steps you can take to increase the useful lifespan of your oil!",
+                    "timestamp": 1654883229603
+                }
+            ],
+            "query": [
+                {
+                    "query": "reuse oil",
+                    "timestamp": 1654883167834
+                }
+            ],
+            "timestamp": 1654883264723
+        },
+        {
+            "id": "-N4DioUzuzhQZ8gh4baE",
+            "interaction_type": "text",
+            "information_need_type": "ingredient",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "is the oil safe since you cooked raw chicken in it to begin with",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1654883305472
+        },
+        {
+            "id": "-N4DjGInUoC6-i1JU8Kr",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-N4DioUzuzhQZ8gh4baE"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "I'm not sure I have an answer to your question. However, as a general rule  the more oil breaks down, the less hydrophobic it becomes. At first, this can actually be an advantage. Less hydrophobic molecules in your oil means that it can come into closer contact with foods, allowing them to fry just a bit more efficiently. However,   as this breakdown continues, your oil becomes less and less hydrophobic, and eventually it'll start entering your food too rapidly, causing it to turn greasy and ruining its crispness. At this point you would have to change it",
+            "provenance": [
+                {
+                    "page_id": "be7ea7c950300f28",
+                    "page_origin": "seriousEats",
+                    "page_title": "How Many Times Can I Re-Use Fry Oil? | Ask the Food Lab",
+                    "section_title": "What About Oil Freshness?",
+                    "paragraph_id": "0c48379ebacb7f3d",
+                    "paragraph_text": "The more oil breaks down, the less hydrophobic it becomes. At first, this can actually be an advantage. Less hydrophobic molecules in your oil means that it can come into closer contact with foods, allowing them to fry just a bit more efficiently. This is where the wisdom of those tempura chefs comes in\u2014adding a bit of degraded, old fry oil to the new batch will improve it.",
+                    "timestamp": 1654883371356
+                },
+                {
+                    "page_id": "be7ea7c950300f28",
+                    "page_origin": "seriousEats",
+                    "page_title": "How Many Times Can I Re-Use Fry Oil? | Ask the Food Lab",
+                    "section_title": "What About Oil Freshness?",
+                    "paragraph_id": "9ab8f5af87ff5864",
+                    "paragraph_text": "Eventually, as this breakdown continues, your oil becomes less and less hydrophobic, and eventually it'll start entering your food too rapidly, causing it to turn greasy and ruining its crispness.",
+                    "timestamp": 1654883405922
+                }
+            ],
+            "query": [
+                {
+                    "query": "reuse oil",
+                    "timestamp": 1654883167834
+                }
+            ],
+            "timestamp": 1654883423476
+        },
+        {
+            "id": "-N4DjYMkFCtBRowqXl-F",
+            "interaction_type": "text",
+            "information_need_type": "equipment",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "should a wire rack be used to drain and will using paper towels to drain cause  the chicken to not be crispy",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1654883497457
+        },
+        {
+            "id": "-N4Dk0pTW2VTESgTvCea",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-N4DjYMkFCtBRowqXl-F"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "You should transfer the chicken to a wire rack to let it drain. Alternatively, you can use a paper towel-lined plate.",
+            "provenance": [
+                {
+                    "page_id": "88c7d3ee4ea22283",
+                    "page_origin": "excel",
+                    "page_title": "The Best Buttermilk-Brined Southern Fried Chicken Recipe",
+                    "section_title": "The Best Buttermilk-Brined Southern Fried Chicken Recipe",
+                    "paragraph_id": "e5e8f271e886629e",
+                    "paragraph_text": "Transfer to a wire rack set on a rimmed baking sheet to drain, then serve immediately.",
+                    "timestamp": 1654883540325
+                },
+                {
+                    "page_id": "88c7d3ee4ea22283",
+                    "page_origin": "excel",
+                    "page_title": "The Best Buttermilk-Brined Southern Fried Chicken Recipe",
+                    "section_title": "The Best Buttermilk-Brined Southern Fried Chicken Recipe",
+                    "paragraph_id": "e5e8f271e886629e",
+                    "paragraph_text": "Bake until thickest part of breast pieces registers 150\u00b0F (65.5\u00b0C) on an instant-read thermometer, and thigh/drumstick pieces register 165\u00b0F (74\u00b0C), 5 to 10 minutes; remove chicken pieces as they reach their target temperature, and transfer to a second wire rack set in a rimmed baking sheet, or a paper towel-lined plate.",
+                    "timestamp": 1654883560292
+                }
+            ],
+            "query": [
+                {
+                    "query": "wire rack",
+                    "timestamp": 1654883516990
+                },
+                {
+                    "query": "paper towel",
+                    "timestamp": 1654883544729
+                }
+            ],
+            "timestamp": 1654883622239
+        },
+        {
+            "id": "-N4Dk2SMKB1aFnQ7jO-V",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "next",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1654883628888
+        }
+    ]
+}

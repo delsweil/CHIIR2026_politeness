@@ -1,0 +1,875 @@
+{
+    "conversation_id": "h8x8QLzyCx",
+    "condition": "passive",
+    "recipe_id": "120",
+    "recipe_title": "Parisian Gnocchi Recipe",
+    "participant_gender": "female",
+    "participant_age": "25-34",
+    "keep_conversation": true,
+    "comments": "",
+    "conversation": [
+        {
+            "id": "-NBfyYtG0TQl6bfM_0Yf",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Hey there! Happy to have you on board for our masterclass :) Today you will be learning how to prepare Parisian Gnocchi. Make sure you have all the ingredients and tools and feel free to ask questions. If you are ready to start cooking simply say start.",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662890163793
+        },
+        {
+            "id": "-NBfylPpZWeBn9tuJsdp",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "start",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662890219190
+        },
+        {
+            "id": "-NBfz59snZQZ0hPVZVux",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "i want to learn about the recipe",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662890304185
+        },
+        {
+            "id": "-NBfzIlMGtQ9f4jAihaC",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [
+                "-NBfz59snZQZ0hPVZVux"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Feel free to ask any questions you have.",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662890359895
+        },
+        {
+            "id": "-NBfzbKiYVsJwliGohel",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [
+                "-NBfzIlMGtQ9f4jAihaC"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "no questions ready to start cooking",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662890440046
+        },
+        {
+            "id": "-NBfzcMgOw7PbFyZPjER",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662890444268
+        },
+        {
+            "id": "-NBfzcRSx6ZTESlj0gEr",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 1\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662890444573
+        },
+        {
+            "id": "-NBg-RifoOS3TANFpCcI",
+            "interaction_type": "text",
+            "information_need_type": "knowledge",
+            "information_need_subtype": "equipment",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "why is a wooden spoon used",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662890658731
+        },
+        {
+            "id": "-NBg-VGGSVRlaiJaFnhy",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NBg-RifoOS3TANFpCcI"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Let me see...",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662890673233
+        },
+        {
+            "id": "-NBg02FNdLDR6myFmYtP",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NBg-RifoOS3TANFpCcI"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "There are really two types of gnocchi recipes: those made the old school, wooden-spoon-and-elbow-grease way, and those made with the mechanical aid of a stand mixer. The latter is also possible and probably easier, particularly if your beating arm is not quite in shape.",
+            "provenance": [
+                {
+                    "page_id": "01be516b91f955d3",
+                    "page_origin": "seriousEats",
+                    "page_title": "How to Make Parisian Gnocchi | The Food Lab",
+                    "section_title": "Sure Beats Beating",
+                    "paragraph_id": "60cc1c935403d101",
+                    "paragraph_text": "Remember how I said that pretty much all gnocchi recipes are identical? Well I lied a little bit. There are really two types of gnocchi recipes: those made the old school, wooden-spoon-and-elbow-grease way, and those made with the mechanical aid of a stand mixer. The latter, which I first saw in this Thomas Keller recipe is vastly easier, particularly if your beating arm is not quite in shape.",
+                    "timestamp": 1662890776285
+                }
+            ],
+            "query": [
+                {
+                    "query": "wooden spoon",
+                    "timestamp": 1662890703326
+                },
+                {
+                    "query": "wooden spoon gnocchi",
+                    "timestamp": 1662890742775
+                }
+            ],
+            "timestamp": 1662890816536
+        },
+        {
+            "id": "-NBg0Toh8kdoASOJyyds",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [
+                "-NBg-VGGSVRlaiJaFnhy",
+                "-NBg02FNdLDR6myFmYtP"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "thank you for the info",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662890929453
+        },
+        {
+            "id": "-NBg0WQQfx3eb48fSa6U",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "step 2 please",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662890940124
+        },
+        {
+            "id": "-NBg0XK27OOiYpmwV2m_",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662890943811
+        },
+        {
+            "id": "-NBg0XPgh189YjD-zpZ3",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 2\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662890944172
+        },
+        {
+            "id": "-NBg1lEP7XqQnFy_sQVe",
+            "interaction_type": "text",
+            "information_need_type": "knowledge",
+            "information_need_subtype": "step_importance",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "how does this technique help the food",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662891267035
+        },
+        {
+            "id": "-NBg1sJLWoW5YShf3zoH",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NBg1lEP7XqQnFy_sQVe"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Let me tell you",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662891296022
+        },
+        {
+            "id": "-NBg2RTAF0LkPhaJ8OSw",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NBg1lEP7XqQnFy_sQVe"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "So Parisian gnocchi are somewhat of an oddity in the Western repertoire, in that they're made with a hot water dough.  The beauty of a hot water dough is that it doesn't bounce back as much as a cold water dough does.  As a result, a p\u00e2te \u00e0 choux dough isn't stretchy or bouncy; its more malleable and supple, kind of like Play-Do. With our tender, easy-to-shape hot water dough, however, the stretching is easy, and, what's more, the gnocchi keep their stretched-out shape even after they begin to cool, ensuring that they stay light and tender no matter how we choose to finish them off.",
+            "provenance": [
+                {
+                    "page_id": "01be516b91f955d3",
+                    "page_origin": "excel",
+                    "page_title": "How to Make Parisian Gnocchi | The Food Lab",
+                    "section_title": "Some Like it Hot",
+                    "paragraph_id": "e3950afcf29acd9d",
+                    "paragraph_text": "Parisian gnocchi are somewhat of an oddity in the Western repertoire, in that they're made with a hot water dough\u2014much like Chinese-style dumpling or stretched noodle dough.",
+                    "timestamp": 1662891348369
+                },
+                {
+                    "page_id": "01be516b91f955d3",
+                    "page_origin": "excel",
+                    "page_title": "How to Make Parisian Gnocchi | The Food Lab",
+                    "section_title": "Some Like it Hot",
+                    "paragraph_id": "226b873263a94fbf",
+                    "paragraph_text": "The beauty of a hot water dough is that, as you can see, it doesn't bounce back as much as a cold water dough does.",
+                    "timestamp": 1662891374050
+                },
+                {
+                    "page_id": "01be516b91f955d3",
+                    "page_origin": "excel",
+                    "page_title": "How to Make Parisian Gnocchi | The Food Lab",
+                    "section_title": "Some Like it Hot",
+                    "paragraph_id": "8f72c93872155458",
+                    "paragraph_text": "As a result, a p\u00e2te \u00e0 choux dough isn't stretchy or bouncy; its more malleable and supple, kind of like Play-Do.",
+                    "timestamp": 1662891434236
+                },
+                {
+                    "page_id": "01be516b91f955d3",
+                    "page_origin": "excel",
+                    "page_title": "How to Make Parisian Gnocchi | The Food Lab",
+                    "section_title": "Some Like it Hot",
+                    "paragraph_id": "4e2e68a9ce41c751",
+                    "paragraph_text": "With our tender, easy-to-shape hot water dough, however, the stretching is easy, and, what's more, the gnocchi keep their stretched-out shape even after they begin to cool, ensuring that they stay light and tender no matter how we choose to finish them off.",
+                    "timestamp": 1662891440268
+                }
+            ],
+            "query": [],
+            "timestamp": 1662891444107
+        },
+        {
+            "id": "-NBg3FVHuEmGuVMw-RTe",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "next step",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662891657234
+        },
+        {
+            "id": "-NBg3GQYada9c7oHQIeZ",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662891661028
+        },
+        {
+            "id": "-NBg3GUrs3J9rYd7GmdJ",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 3\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662891661303
+        },
+        {
+            "id": "-NBg4gOFmzbpjfrlInDe",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "ready for step 4",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662892033617
+        },
+        {
+            "id": "-NBg4hNIAkf0DZe-zJFj",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662892037651
+        },
+        {
+            "id": "-NBg4hR5e6EPFCQZJAAV",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 4\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662892037894
+        },
+        {
+            "id": "-NBg5-y-EHeNppAmPis4",
+            "interaction_type": "text",
+            "information_need_type": "knowledge",
+            "information_need_subtype": "history",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "is there any history why it is made like this",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662892117888
+        },
+        {
+            "id": "-NBg531gn11JHv2xYePb",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NBg5-y-EHeNppAmPis4"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Let me see...",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662892130476
+        },
+        {
+            "id": "-NBg5OcPe1JNlpFN1pkw",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NBg5-y-EHeNppAmPis4"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "According to some cookbooks, a chef by the name of Pantarelli or Pantanelli invented the dough in 1540, seven years after he left Florence with Catherine de' Medici and her court. He used the dough to make a g\u00e2teau and named it . Over time, the recipe of the dough evolved, and the name changed to , which was used to make, small cakes made in the shape of a woman's breasts. Then, Avice, in the eighteenth century, created what was then called choux buns. The name of the dough changed to , as Avice's buns resembled cabbages\u2014\"choux\" in French. This pastry is used to make profiteroles, , \u00e9clairs, French crullers, St. Honor\u00e9 cake, Parisian gnocchi, dumplings and goug\u00e8res.",
+            "provenance": [
+                {
+                    "page_id": "2980d2fde9b06c78",
+                    "page_origin": "wikipedia",
+                    "page_title": "Choux pastry",
+                    "section_title": "History.",
+                    "paragraph_id": "b644072a9001e033",
+                    "paragraph_text": "According to some cookbooks, a chef by the name of Pantarelli or Pantanelli invented the dough in 1540, seven years after he left Florence with Catherine de' Medici and her court. He used the dough to make a g\u00e2teau and named it . Over time, the recipe of the dough evolved, and the name changed to , which was used to make , small cakes made in the shape of a woman's breasts. Then, Avice, a in the eighteenth century, created what were then called choux buns. The name of the dough changed to , as Avice's buns resembled cabbages\u2014\"choux\" in French.",
+                    "timestamp": 1662892159289
+                },
+                {
+                    "page_id": "2980d2fde9b06c78",
+                    "page_origin": "wikipedia",
+                    "page_title": "Choux pastry",
+                    "section_title": "Foods made with choux pastry.",
+                    "paragraph_id": "b7b7c3f030179421",
+                    "paragraph_text": "This pastry is used to make profiteroles, , \u00e9clairs, , French crullers, , St. Honor\u00e9 cake, Parisian gnocchi, dumplings and goug\u00e8res.",
+                    "timestamp": 1662892179944
+                }
+            ],
+            "query": [
+                {
+                    "query": "parisian gnocchi",
+                    "timestamp": 1662892145099
+                }
+            ],
+            "timestamp": 1662892218907
+        },
+        {
+            "id": "-NBg5lUW_SpnQ4HbcKAN",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "next step",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662892316641
+        },
+        {
+            "id": "-NBg5m9dkdIT8AKpUBs-",
+            "interaction_type": "action",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": false,
+            "participant": "agent",
+            "actions": [
+                "next"
+            ],
+            "utterance": "",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662892319402
+        },
+        {
+            "id": "-NBg5mEYORtJM1s9ejd9",
+            "interaction_type": "status",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": false,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "User moved to section \"Step 5\".",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662892319715
+        },
+        {
+            "id": "-NBg6H3D9c2SkODa4Y82",
+            "interaction_type": "text",
+            "information_need_type": "knowledge",
+            "information_need_subtype": "science",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "what does the olive oil do",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662892450062
+        },
+        {
+            "id": "-NBg6MRAlC7V29VPSaiy",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NBg6H3D9c2SkODa4Y82"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Let me see...",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662892472075
+        },
+        {
+            "id": "-NBg7FGx-Oj1fnj64ySS",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NBg6H3D9c2SkODa4Y82"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "I'm sorry, I do not think I have this information",
+            "provenance": [],
+            "query": [
+                {
+                    "query": "olive oil",
+                    "timestamp": 1662892486878
+                },
+                {
+                    "query": "olive oil parisian gnocchi",
+                    "timestamp": 1662892517931
+                },
+                {
+                    "query": "olive oil flavor",
+                    "timestamp": 1662892687500
+                }
+            ],
+            "timestamp": 1662892704894
+        },
+        {
+            "id": "-NBg7S0OSTVo7E-HnD5k",
+            "interaction_type": "text",
+            "information_need_type": "equipment",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "what is a metal spider that is okay",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662892757082
+        },
+        {
+            "id": "-NBg7ru98dxEPoxRKzVE",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NBg7S0OSTVo7E-HnD5k"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "A \"spider\" is restaurant lingo for a flat mesh scoop used in frying and skimming.",
+            "provenance": [
+                {
+                    "page_id": "997a155baa516940",
+                    "page_origin": "stackExchangeCooking",
+                    "page_title": "Frying - Straw potatoes in fryer",
+                    "section_title": "Answer 3",
+                    "paragraph_id": "a4496c5e6a017bca",
+                    "paragraph_text": "Try switching from a fry basked to a bird's nest fryer or using a \"spider\" (restaurant lingo for a flat mesh scoop used in frying and skimming).  \n\nYou can find a sample bird's nest fryer here  and also a spider.  The spider looks exactly like the one we use at work.  You can also use blanching basket, which is I think what we use for pre-cooking our fries in the restaurant I work at.\n",
+                    "timestamp": 1662892844515
+                }
+            ],
+            "query": [
+                {
+                    "query": "metal spider",
+                    "timestamp": 1662892764555
+                },
+                {
+                    "query": "metal spider cook",
+                    "timestamp": 1662892805159
+                },
+                {
+                    "query": "metal spider cooking",
+                    "timestamp": 1662892807682
+                }
+            ],
+            "timestamp": 1662892867211
+        },
+        {
+            "id": "-NBg83QMirhn-YC6yUCc",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "next step",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662892918487
+        },
+        {
+            "id": "-NBg89kOeMgYMGAzhEG4",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [
+                "-NBg83QMirhn-YC6yUCc"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "We already reached the final step.",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662892944409
+        },
+        {
+            "id": "-NBg8WDmKLhDheRbcVjM",
+            "interaction_type": "text",
+            "information_need_type": "knowledge",
+            "information_need_subtype": "history",
+            "utterance_type": "",
+            "dialogue_act": "question",
+            "parent": [],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "is there any more history on the recipe",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662893036467
+        },
+        {
+            "id": "-NBg8fqCMAvUcbGxHFf7",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NBg8WDmKLhDheRbcVjM"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Let me see...",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662893079952
+        },
+        {
+            "id": "-NBg9Agc7qdiT_qzbTUK",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "answer",
+            "parent": [
+                "-NBg8WDmKLhDheRbcVjM"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "agent",
+            "actions": [],
+            "utterance": "Parisian Gnocchi are a French gnocchi variety. The name is also used in France in the dish known as \"gnocchis \u00e0 la parisienne\", a hot dish comprising gnocchi formed of choux pastry served with B\u00e9chamel sauce. A specialty of Nice, the \"gnocchi de tantifla a la nissarda\", is made with potatoes, wheat flour, eggs and \"blette\" (Swiss chard), which is also used for the \"tourte de blette\". \"La merda d\u00e9 can\" is longer than the original gnocchi.",
+            "provenance": [
+                {
+                    "page_id": "12ba6f8c60f94e33",
+                    "page_origin": "wikipedia",
+                    "page_title": "Gnocchi",
+                    "section_title": "Regional varieties.:France.",
+                    "paragraph_id": "0064b81ffa20d39a",
+                    "paragraph_text": "The name is also used in France in the dish known as \"gnocchis \u00e0 la parisienne\", a hot dish comprising gnocchi formed of choux pastry served with B\u00e9chamel sauce. A specialty of Nice, the \"gnocchi de tantifla a la nissarda\", is made with potatoes, wheat flour, eggs and \"blette\" (Swiss chard), which is also used for the \"tourte de blette\". \"La merda d\u00e9 can\" is longer than the original gnocchi.",
+                    "timestamp": 1662893171981
+                }
+            ],
+            "query": [
+                {
+                    "query": "history parisian gnocchi",
+                    "timestamp": 1662893101654
+                },
+                {
+                    "query": "history",
+                    "timestamp": 1662893140951
+                },
+                {
+                    "query": "parisian gnocchi",
+                    "timestamp": 1662893145426
+                }
+            ],
+            "timestamp": 1662893210409
+        },
+        {
+            "id": "-NBg9Xwu3Hr1UBxRXcuG",
+            "interaction_type": "text",
+            "information_need_type": "",
+            "information_need_subtype": "",
+            "utterance_type": "",
+            "dialogue_act": "other",
+            "parent": [
+                "-NBg8fqCMAvUcbGxHFf7",
+                "-NBg9Agc7qdiT_qzbTUK"
+            ],
+            "visible_to_user": true,
+            "visible_to_agent": true,
+            "participant": "user",
+            "actions": [],
+            "utterance": "thank yoi",
+            "provenance": [],
+            "query": [],
+            "timestamp": 1662893305658
+        }
+    ]
+}
