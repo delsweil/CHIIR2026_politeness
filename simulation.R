@@ -2,6 +2,18 @@
 # Politeness Simulation (LLM-led) — Agent Codes + Apologies
 # ============================================================
 
+# pick a CRAN mirror so non-interactive installs don’t prompt
+options(repos = c(CRAN = "https://cloud.r-project.org"))
+
+required <- c("httr","jsonlite","tibble","dplyr","tidyr","purrr","stringr")
+to_install <- setdiff(required, rownames(installed.packages()))
+if (length(to_install)) install.packages(to_install, dependencies = TRUE)
+
+suppressPackageStartupMessages({
+  lapply(required, require, character.only = TRUE)
+})
+
+
 suppressPackageStartupMessages({
   library(httr); library(jsonlite); library(tibble); library(dplyr)
   library(tidyr); library(purrr); library(stringr)
@@ -10,7 +22,7 @@ suppressPackageStartupMessages({
 set.seed(42)
 
 # ==== Global energy-monitoring switch ====
-MONITOR_ENERGY  <- FALSE       # set TRUE to enable metering (run on GPU host)
+MONITOR_ENERGY  <- TRUE       # set TRUE to enable metering (run on GPU host)
 GPU_INDEX       <- 0           # GPU index on server
 SMI_INTERVAL_MS <- 200         # sampling interval
 
