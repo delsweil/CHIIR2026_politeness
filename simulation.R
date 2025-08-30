@@ -187,7 +187,7 @@ profile_hyperpolite <- list(
   name = "C1_Hyperpolite",
   code_rates = list(
     THANK=0.80, ACK=0.70, COMPLIMENT=0.20, INDIRECT_REQ=0.60, INFO_Q=0.30,
-    HINT=0.50, APOLOGY=0.10, DIRECT_REQ=0.05, PLEASE=0.05, PROCEED=0.10
+    HINT=0.50, APOLOGY=0.10, DIRECT_REQ=0.05, PLEASE=0.05, PROCEED=0.35
   ),
   words_target = list(min=18, max=28)
 )
@@ -195,7 +195,7 @@ profile_direct <- list(
   name = "C3_DirectLowPoliteness",
   code_rates = list(
     THANK=0.10, ACK=0.15, COMPLIMENT=0.02, INDIRECT_REQ=0.10, INFO_Q=0.15,
-    HINT=0.05, APOLOGY=0.03, DIRECT_REQ=0.70, PLEASE=0.02, PROCEED=0.45
+    HINT=0.05, APOLOGY=0.03, DIRECT_REQ=0.70, PLEASE=0.02, PROCEED=0.85
   ),
   words_target = list(min=8, max=18)
 )
@@ -203,7 +203,7 @@ profile_impolite <- list(
   name = "C5_Impolite",
   code_rates = list(
     THANK=0.00, ACK=0.05, COMPLIMENT=0.00, INDIRECT_REQ=0.05, INFO_Q=0.10,
-    HINT=0.00, APOLOGY=0.00, DIRECT_REQ=0.80, PLEASE=0.00, PROCEED=0.70,
+    HINT=0.00, APOLOGY=0.00, DIRECT_REQ=0.80, PLEASE=0.00, PROCEED=0.85,
     "Absolving – denial"=0.10, "Absolving – acceptance"=0.00,
     "Absolving – ignore"=0.05, Declining=0.10
   ),
@@ -216,28 +216,31 @@ profile_impolite <- list(
 persona_text <- function(profile_name) {
   switch(profile_name,
          "C1_Hyperpolite" = paste(
-           "- Face-enhancing, human-like: frequent THANK/ACK; occasional, understated COMPLIMENT.",
-           "- Prefer INDIRECT requests and statement HINTS (e.g., “I’m ready for the next step.”).",
+           "- Face-enhancing, human-like: frequent THANK/ACK (e.g., “Thanks. That was great”, “Thank you”, “Thank you. This is very useful”, “Interesting!”, “Useful tip, thanks!”); occasional, understated COMPLIMENT.",
+           "- Prefer INDIRECT requests (e.g., “Can you tell me about ... ?”, “Can I do [some action]?”)", 
+           "- Prefer statement HINTS (e.g., “I’m ready for the next step.”).",
            "- Rare APOLOGY for repair; avoid PLEASE most of the time.",
-           "- If the agent apologises, accept politely (e.g., 'That’s OK') and mark 'Absolving – acceptance'.",
-           "- Only proceed immediately if you are confident; otherwise consider asking a brief, relevant question.",
+           "- If the agent apologises, accept politely (e.g., “That’s OK”) and mark 'Absolving – acceptance'.",
+           "- Remember to pay attention to PROCEED probability. Most utterances will be to move on to the next step!",
            sep="\n"
          ),
          "C3_DirectLowPoliteness" = paste(
            "- Tool-like, concise, low engagement; minimal THANK/ACK/COMPLIMENT/APOLOGY.",
            "- Prefer DIRECT or non-sentential requests (e.g., 'next'); rare PLEASE/HINT.",
-           "- Ask relatively few information-eliciting questions; keep it brief.",
+           "- Ask the occasional information-eliciting question; keep it brief.",
            "- If the agent apologises, you usually just move on without absolving.",
-           "- Only proceed immediately if you are confident; otherwise consider asking a brief, relevant question.",
+           "- Remember to pay attention to PROCEED probability. Most utterances will be to move on to the next step!",
            sep="\n"
          ),
          "C5_Impolite" = paste(
            "- Abrupt, brusque, sometimes rude: issues imperatives or terse commands.",
            "- Does not use THANK, PLEASE, or COMPLIMENT.",
-           "- Rarely acknowledges information; may dismiss or deny it instead.",
-           "- May include criticisms or complaints about the assistant’s answers.",
-           "- Moves on quickly (‘next’, ‘continue’) without repair.",
+           "- Rarely acknowledges information; sometimes dismiss or deny it instead.",
+           "- Include criticisms or complaints about the agent’s answers. (e.g., ‘This is irrelevant!’; ‘That is a rubbish reply!’‘I don't see the point!’)",
+           "- Question the agent’s competence  (e.g., ‘You don’t know what you are talking about!’, ‘My [Grandmother|Father|Mother|etc's] way is better!’)",
+           "- Move on quickly (‘next’, ‘continue’) without repair.",
            "- Keeps turns short and transactional.",
+           "- Remember to pay attention to PROCEED probability. Most utterances will be to move on to the next step!",
            sep="\n"
          ),
          ""
@@ -260,7 +263,8 @@ user_system_prompt <- function(profile, recipe_title) {
     "- DON'T give instructions about how to perform the step (e.g., 'Add X', 'Brush Y', 'Cool Z').\n",
     "- DON'T summarize or restate the procedure unless you are confirming understanding in one brief sentence (e.g., 'Got it, rest for 1 hour.').\n\n",
     "Probabilistic tendencies (not per-turn rules):\n",
-    jsonlite::toJSON(profile$code_rates, auto_unbox=TRUE), "\n\n",
+    jsonlite::toJSON(profile$code_rates, auto_unbox=TRUE), "\n",
+    "- Treat these as tendencies. In particular, if the 'PROCEED' tendency is high and you feel confident, set `proceed=true`, set `intent='PROCEED'`, and make your utterance signal moving on (e.g., 'next step', or a persona-appropriate phrasing).\n\n",
     "OUTPUT SCHEMA (JSON only):\n",
     "{ \"ok\": boolean, \"utterance\": string, \"codes\": string[], \"intent\": string, \"proceed\": boolean }\n",
     "intent MUST be one of: ASK_TASK, ASK_SCIENCE, ASK_HISTORY, ACK, THANK, COMPLIMENT, REPEAT, CLARIFY, PROCEED.\n\n",
@@ -268,14 +272,16 @@ user_system_prompt <- function(profile, recipe_title) {
   )
 }
 
+
 agent_system_prompt <- function(recipe_title) {
   paste0(
     STRICT_HEADER, "\n\n",
     "ROLE: You are a cooking assistant.\n",
-    "- Normally, answer clearly and concisely.\n",
+    "- Answer clearly.\n",
     "- In ~10% of cases (esp. science/history needs), FAIL gracefully by apologising: \"I'm sorry, I don’t know.\" Include code \"Apology (IFID)\".\n\n",
-    "OUTPUT SCHEMA:\n",
-    "{ \"ok\": boolean, \"reply\": string, \"codes\": string[] }\n\n",
+    "- If the user asks for a picture FAIL gracefully by apologising. You cannot show images.",
+    "OUTPUT SCHEMA:\n{ \"ok\": boolean, \"reply\": string, \"codes\": string[] }\n
+REQUIREMENTS:\n- 'reply' must be a non-empty natural-language answer (at least one sentence).",
     "NOTES:\n",
     "- `codes` must be zero or more of these: Apology (IFID), Thanking, Acknowledge response, Hint - statement, Information-eliciting question, Request – indirect, Compliment/praise/face-enhancing feedback, Absolving – acceptance, Absolving – denial, Absolving - ignore, Politeness marker please, Declining, Request – direct, Request – non-sentential.\n",
     STRICT_FOOTER
@@ -290,15 +296,20 @@ query_ollama <- function(utterance, model, base_prompt, temperature = 0.3, forma
     model = model,
     prompt = paste0(base_prompt, "\n\nUtterance: ", utterance),
     stream = FALSE,
-    options = list(temperature = temperature)
+    options = list(
+      temperature = temperature,
+      num_ctx = 4096,
+      num_predict = 256
+    )
   )
   if (format_json) body$format <- "json"
   res <- httr::POST("http://intern.schlaubox.de:11434/api/generate",
-                    body = toJSON(body, auto_unbox = TRUE),
+                    body = jsonlite::toJSON(body, auto_unbox = TRUE),
                     encode = "json")
   if (res$status_code != 200) stop("Ollama HTTP ", res$status_code)
   httr::content(res)$response
 }
+
 
 clean_model_output <- function(x) {
   if (is.na(x) || !nzchar(x)) return("")
@@ -346,22 +357,43 @@ looks_imperative <- function(txt) {
 }
 
 user_turn <- function(history_user, history_agent, profile, recipe_row, neutral_need,
-                      model_user = "llama3.1:8b") {
+                      model_user = "llama3.1:8b",
+                      extra_hint = NULL) {
   sys <- user_system_prompt(profile, recipe_row$recipe_title[1])
   
-  build_ctx <- function(extra_hint = NULL) {
+  build_ctx <- function(extra = NULL) {
     paste0(
       "RECIPE: ", recipe_row$recipe_title[1], "\n",
       "STEP: ", recipe_row$step_description[1], "\n",
       "NEUTRAL NEED: ", neutral_need, "\n",
       "RECENT USER TURNS: ", paste(tail(history_user, 3), collapse = " | "), "\n",
       "RECENT AGENT TURNS: ", paste(tail(history_agent, 2), collapse = " | "), "\n",
-      if (!is.null(extra_hint)) paste0("\nREMINDER: ", extra_hint, "\n") else ""
+      if (!is.null(extra)) paste0("\nREMINDER: ", extra, "\n") else ""
     )
   }
   
-  raw <- query_ollama(build_ctx(), model_user, sys, temperature = 0.5, format_json = TRUE)
+  raw <- query_ollama(build_ctx(extra_hint), model_user, sys, temperature = 0.5, format_json = TRUE)
   parsed <- parse_first_json(raw)
+  
+  
+  parsed$utterance <- parsed$utterance %||% parsed$message %||% ""
+  utt <- parsed$utterance %||% ""
+  if (grepl("\\b(next( step)?|continue|move on|ready for the next step)\\b", tolower(utt))) {
+    parsed$intent   <- "PROCEED"
+    parsed$proceed  <- TRUE
+  }
+  parsed$intent    <- normalize_intent(parsed$intent)
+  if (is.na(parsed$intent)) parsed$intent <- "ACK"
+  parsed$codes     <- parsed$codes %||% character(0)
+  
+  # infer question
+  is_ask <- (!is.na(parsed$intent) && grepl("^ASK_", parsed$intent)) || grepl("\\?", parsed$utterance)
+  
+  # normalize proceed: questions never proceed, explicit proceed does
+  if (identical(parsed$intent, "PROCEED")) parsed$proceed <- TRUE
+  if (is_ask) parsed$proceed <- FALSE else parsed$proceed <- isTRUE(parsed$proceed)
+  
+  
   
   needs_retry <- is.null(parsed) ||
     is.na(normalize_intent(parsed$intent)) ||
@@ -385,24 +417,70 @@ user_turn <- function(history_user, history_agent, profile, recipe_row, neutral_
   parsed
 }
 
-# NEW: Agent turn (JSON with codes + apology cases)
 agent_turn <- function(history_user, history_agent, recipe_row, neutral_need,
                        model_agent = "llama3.1:8b") {
   sys <- agent_system_prompt(recipe_row$recipe_title[1])
-  ctx <- paste0(
-    "RECIPE: ", recipe_row$recipe_title[1], "\n",
-    "STEP: ", recipe_row$step_description[1], "\n",
-    "USER SAID: ", tail(history_user, 1) %||% "", "\n",
-    "HISTORY (last turns): USER[", paste(tail(history_user, 2), collapse = " | "),
-    "] | AGENT[", paste(tail(history_agent, 2), collapse = " | "), "]"
-  )
-  raw <- query_ollama(ctx, model_agent, sys, temperature = 0.3, format_json = TRUE)
+  build_ctx <- function(extra_hint = NULL) {
+    paste0(
+      "RECIPE: ", recipe_row$recipe_title[1], "\n",
+      "STEP: ", recipe_row$step_description[1], "\n",
+      "USER SAID: ", tail(history_user, 1) %||% "", "\n",
+      "NEED: ", neutral_need, "\n",
+      "HISTORY (last turns): USER[", paste(tail(history_user, 2), collapse = " | "),
+      "] | AGENT[", paste(tail(history_agent, 2), collapse = " | "), "]",
+      if (!is.null(extra_hint)) paste0("\n\nREMINDER: ", extra_hint) else ""
+    )
+  }
+  
+  normalize_reply_obj <- function(obj) {
+    # accept reply in multiple keys; ensure codes vector
+    r <- obj$reply %||% obj$utterance %||% obj$message %||% ""
+    c <- obj$codes  %||% character(0)
+    list(ok = isTRUE(obj$ok), reply = as_chr1(r, ""), codes = as.character(c))
+  }
+  
+  # 1) First attempt
+  raw <- query_ollama(build_ctx(), model_agent, sys, temperature = 0.3, format_json = TRUE)
   parsed <- parse_first_json(raw)
-  if (is.null(parsed)) stop("Agent LLM did not return valid JSON:\n", raw)
-  parsed$reply <- parsed$reply %||% ""
-  parsed$codes <- parsed$codes %||% character(0)
-  parsed
+  if (is.null(parsed)) {
+    # If completely unparsable, retry once with strict hint
+    raw <- query_ollama(
+      build_ctx("Return exactly ONE JSON object with a non-empty 'reply' string and optional 'codes'."),
+      model_agent, sys, temperature = 0.2, format_json = TRUE
+    )
+    parsed <- parse_first_json(raw)
+    if (is.null(parsed)) stop("Agent LLM did not return valid JSON:\n", raw)
+  }
+  
+  norm <- normalize_reply_obj(parsed)
+  
+  # 2) Validate reply content; retry once if empty or whitespace
+  needs_retry <- !nzchar(trimws(norm$reply))
+  if (needs_retry) {
+    raw <- query_ollama(
+      build_ctx("Your reply must answer the user in 1–3 sentences. The 'reply' field MUST NOT be empty."),
+      model_agent, sys, temperature = 0.2, format_json = TRUE
+    )
+    parsed <- parse_first_json(raw)
+    if (is.null(parsed)) {
+      # fall back to apology JSON if still invalid
+      return(list(ok = TRUE,
+                  reply = "I’m sorry—I couldn’t compose a proper response. Could you rephrase or ask again?",
+                  codes = c("Apology (IFID)")))
+    }
+    norm <- normalize_reply_obj(parsed)
+    if (!nzchar(trimws(norm$reply))) {
+      return(list(ok = TRUE,
+                  reply = "I’m sorry—I don’t have a good answer to that right now.",
+                  codes = c("Apology (IFID)")))
+    }
+  }
+  
+  # 3) Return normalized
+  list(ok = TRUE, reply = norm$reply, codes = norm$codes)
 }
+
+
 
 # =========================
 # GPU power measurement (NVIDIA)
@@ -535,54 +613,115 @@ run_step <- function(profile, recipe_row,
                          history = sample(recipe_row$need_history[[1]], 1))
   
   history_user <- character(); history_agent <- character()
-  questions <- 0L; turn <- 1L; log <- list()
+  questions <- 0L; turn <- 1L
+  turns <- list()  # <-- renamed from `log`
   
   repeat {
-    # USER
-    u <- user_turn(history_user, history_agent, profile, recipe_row, neutral_need, model_user)
+    p_proc <- as.numeric(profile$code_rates$PROCEED %||% 0.3)
+    turn_wants_proceed <- runif(1) < p_proc
+    hint_txt <- if (turn_wants_proceed)
+      "You are inclined to move on now. If you feel confident, set intent='PROCEED', proceed=true, and use a short utterance (e.g., 'next step')."
+    else
+      NULL
+    
+    # USER TURN
+    u <- user_turn(history_user, history_agent, profile, recipe_row, neutral_need,
+                   model_user, extra_hint = hint_txt)
     history_user <- c(history_user, u$utterance)
-    if (u$intent %in% c("ASK_TASK","ASK_SCIENCE","ASK_HISTORY","REPEAT","CLARIFY")) questions <- questions + 1L
-    log[[length(log)+1L]] <- list(step_id=recipe_row$step_id[1], need_type=need_choice,
-                                  turn=turn, role="user", payload=u,
-                                  model_user=model_user, model_agent=model_agent)
     
-    # stop if proceed or cap
-    if (isTRUE(u$proceed) || questions >= max_questions_per_step) break
+    # Count question by intent OR by "?"
+    is_ask <- (!is.na(u$intent) && grepl("^ASK_", u$intent)) || grepl("\\?", u$utterance)
+    if (is_ask) questions <- questions + 1L
     
-    # AGENT (metered if enabled)
+    turns[[length(turns)+1L]] <- list(
+      step_id     = recipe_row$step_id[1],
+      need_type   = need_choice,
+      turn        = turn,
+      role        = "user",
+      payload     = u,
+      model_user  = model_user,
+      model_agent = model_agent
+    )
+    
+    # If user explicitly proceeds, end the step before an agent reply
+    if (isTRUE(u$proceed)) break
+    
+    # If the user asked/requests/clarifies, we need an agent reply.
+    is_ask <- (!is.na(u$intent) && grepl("^ASK_", u$intent)) || grepl("\\?", u$utterance)
+    codes_upper <- toupper(u$codes %||% character(0))
+    is_request <- any(c("DIRECT_REQ","INDIRECT_REQ","REQUEST – DIRECT","REQUEST – INDIRECT","REQUEST – NON-SENTENTIAL") %in% codes_upper)
+    needs_agent <- is_ask || is_request || (!is.na(u$intent) && u$intent %in% c("REPEAT","CLARIFY"))
+    
+    # If user explicitly proceeds, end now.
+    if (isTRUE(u$proceed)) break
+    
+    # If no reply is needed, skip agent turn and go to next user turn.
+    if (!needs_agent) {
+      turn <- turn + 1L
+      next
+    }
+    
+    # AGENT TURN (metered if enabled)
     am <- agent_turn_with_energy(
       history_user, history_agent, recipe_row, neutral_need,
-      model_agent = model_agent,
-      gpu = gpu_index,
-      interval_ms = smi_interval_ms,
-      measure_energy = measure_energy
+      model_agent   = model_agent,
+      gpu           = gpu_index,
+      interval_ms   = smi_interval_ms,
+      measure_energy= measure_energy
     )
     a <- am$payload
     history_agent <- c(history_agent, a$reply)
-    log[[length(log)+1L]] <- list(step_id=recipe_row$step_id[1], need_type=need_choice,
-                                  turn=turn, role="agent", payload=a,
-                                  energy_Wh=am$energy_Wh, mean_W=am$mean_W, peak_W=am$peak_W,
-                                  model_user=model_user, model_agent=model_agent)
+    
+    turns[[length(turns)+1L]] <- list(
+      step_id     = recipe_row$step_id[1],
+      need_type   = need_choice,
+      turn        = turn,
+      role        = "agent",
+      payload     = a,
+      energy_Wh   = am$energy_Wh,
+      mean_W      = am$mean_W,
+      peak_W      = am$peak_W,
+      model_user  = model_user,
+      model_agent = model_agent
+    )
+    
+    # After answering, if we've hit the question cap, end the step
+    if (questions >= max_questions_per_step) break
     
     turn <- turn + 1L
   }
   
+  # Build tibble from `turns`
   tibble::tibble(
-    step_id   = purrr::map_int(log, ~ as_int1(.x$step_id)),
-    need_type = purrr::map_chr(log, ~ as_chr1(.x$need_type)),
-    turn      = purrr::map_int(log, ~ as_int1(.x$turn)),
-    role      = purrr::map_chr(log, ~ as_chr1(.x$role)),
-    text      = purrr::map_chr(log, ~ if (.x$role == "user") as_chr1(.x$payload$utterance, "") else as_chr1(.x$payload$reply, "")),
-    intent    = purrr::map_chr(log, ~ if (.x$role == "user") as_chr1(.x$payload$intent, NA_character_) else NA_character_),
-    codes     = purrr::map(log, ~ { cvec <- .x$payload$codes; if (is.null(cvec)) character(0) else as.character(cvec) }),
-    energy_Wh = purrr::map_dbl(log, ~ if (as_chr1(.x$role) == "agent") as.numeric(.x$energy_Wh %||% NA_real_) else NA_real_),
-    mean_W    = purrr::map_dbl(log, ~ if (as_chr1(.x$role) == "agent") as.numeric(.x$mean_W %||% NA_real_) else NA_real_),
-    peak_W    = purrr::map_dbl(log, ~ if (as_chr1(.x$role) == "agent") as.numeric(.x$peak_W %||% NA_real_) else NA_real_),
-    model_user  = purrr::map_chr(log, ~ as_chr1(.x$model_user, "")),
-    model_agent = purrr::map_chr(log, ~ as_chr1(.x$model_agent, "")),
-    event_idx = seq_along(log)
+    step_id   = purrr::map_int(turns, ~ as_int1(.x$step_id)),
+    need_type = purrr::map_chr(turns, ~ as_chr1(.x$need_type)),
+    turn      = purrr::map_int(turns, ~ as_int1(.x$turn)),
+    role      = purrr::map_chr(turns, ~ as_chr1(.x$role)),
+    text      = purrr::map_chr(turns, ~ if (.x$role == "user") {
+      as_chr1(.x$payload$utterance, "")
+    } else {
+      t <- as_chr1(.x$payload$reply, "")
+      if (!nzchar(trimws(t))) "[empty agent reply]" else t
+    }),
+    intent    = purrr::map_chr(turns, ~ if (.x$role == "user")
+      as_chr1(.x$payload$intent, NA_character_)
+      else
+        NA_character_),
+    codes     = purrr::map(turns, ~ { cvec <- .x$payload$codes
+    if (is.null(cvec)) character(0) else as.character(cvec) }),
+    energy_Wh = purrr::map_dbl(turns, ~ if (as_chr1(.x$role) == "agent")
+      as.numeric(.x$energy_Wh %||% NA_real_) else NA_real_),
+    mean_W    = purrr::map_dbl(turns, ~ if (as_chr1(.x$role) == "agent")
+      as.numeric(.x$mean_W %||% NA_real_) else NA_real_),
+    peak_W    = purrr::map_dbl(turns, ~ if (as_chr1(.x$role) == "agent")
+      as.numeric(.x$peak_W %||% NA_real_) else NA_real_),
+    model_user  = purrr::map_chr(turns, ~ as_chr1(.x$model_user, "")),
+    model_agent = purrr::map_chr(turns, ~ as_chr1(.x$model_agent, "")),
+    recipe_title = purrr::map_chr(turns, ~ as_chr1(recipe_row$recipe_title[1], "")),
+    event_idx = seq_along(turns)
   )
 }
+
 
 # ================================
 # Engagement summaries + drivers
@@ -751,8 +890,21 @@ dash$conv_summary %>%
     .groups = "drop"
   ) %>% suppressWarnings() %>% print(n = Inf)
 
-# Save (optional)
+# Save the data we need
 readr::write_csv(dialogs_flat, "batch_dialogs_flat.csv")
 readr::write_csv(dash$step_summary, "batch_step_summary.csv")
 readr::write_csv(energy_convo, "batch_energy_convo.csv")
 readr::write_csv(energy_cluster, "batch_energy_cluster.csv")
+
+step_lookup <- dplyr::bind_rows(
+  recipe_parisian_gnocchi %>% dplyr::select(recipe_title, step_id, step_description),
+  recipe_fried_chicken    %>% dplyr::select(recipe_title, step_id, step_description),
+  recipe_duck_orange      %>% dplyr::select(recipe_title, step_id, step_description),
+  recipe_souffle          %>% dplyr::select(recipe_title, step_id, step_description),
+  recipe_pesto            %>% dplyr::select(recipe_title, step_id, step_description),
+  recipe_apple_pie        %>% dplyr::select(recipe_title, step_id, step_description)
+) %>% dplyr::distinct()
+
+readr::write_csv(step_lookup, "step_lookup.csv")
+
+
