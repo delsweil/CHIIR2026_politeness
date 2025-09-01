@@ -569,39 +569,67 @@ summarise_power_trace <- function(trace) {
 with_gpu_energy <- function(expr, gpu = 0, interval_ms = 200, quiet = TRUE) {
   if (!MONITOR_ENERGY) {
     result <- withVisible(eval.parent(substitute(expr)))
-    return(list(result = if (result$visible) result$value else invisible(result$value),
-                energy_Wh = NA_real_, mean_W = NA_real_, peak_W = NA_real_, trace = NULL))
+    return(list(
+      result    = if (result$visible) result$value else invisible(result$value),
+      energy_Wh = NA_real_, mean_W = NA_real_, peak_W = NA_real_, trace = NULL
+    ))
   }
+  
+  # Try high-precision process logger first; fall back to portable sampler
   h <- .start_power_logger_proc(gpu = gpu, interval_ms = interval_ms)
+  using_fallback <- FALSE
   if (is.null(h)) {
     if (!quiet) message("processx not available; using portable R sampler.")
     h <- .start_power_logger_R(gpu = gpu, interval_s = interval_ms / 1000)
-    on.exit({ metrics <<- .stop_power_logger_R(h) }, add = TRUE)
-  } else {
-    on.exit({ metrics <<- .stop_power_logger_proc(h) }, add = TRUE)
+    using_fallback <- TRUE
   }
+  
+  # Make sure we always stop the logger
+  on.exit({
+    if (using_fallback) {
+      try(.stop_power_logger_R(h), silent = TRUE)
+    } else {
+      try(.stop_power_logger_proc(h), silent = TRUE)
+    }
+  }, add = TRUE)
+  
   result <- withVisible(eval.parent(substitute(expr)))
-  m <- get("metrics", inherits = TRUE)
-  list(result   = if (result$visible) result$value else invisible(result$value),
-       energy_Wh = m$energy_Wh, mean_W = m$mean_W, peak_W = m$peak_W, trace = m$trace)
+  
+  # Stop and collect metrics *now*, not via on.exit side-channel
+  m <- if (using_fallback) .stop_power_logger_R(h) else .stop_power_logger_proc(h)
+  
+  list(
+    result    = if (result$visible) result$value else invisible(result$value),
+    energy_Wh = m$energy_Wh,
+    mean_W    = m$mean_W,
+    peak_W    = m$peak_W,
+    trace     = m$trace
+  )
 }
 
-# --- Wrap agent_turn() with per-call GPU energy measurement ---
 agent_turn_with_energy <- function(history_user, history_agent, recipe_row,
                                    neutral_need,
                                    model_agent = "llama3.1:8b",
                                    gpu = 0,
                                    interval_ms = 200,
-                                   measure_energy = TRUE, ...) {
+                                   measure_energy = TRUE) {
   if (!isTRUE(measure_energy)) {
     payload <- agent_turn(history_user, history_agent, recipe_row, neutral_need, model_agent)
-    return(list(payload = payload, energy_Wh = NA_real_, mean_W = NA_real_, peak_W = NA_real_, trace = NULL))
+    return(list(payload = payload,
+                energy_Wh = NA_real_, mean_W = NA_real_, peak_W = NA_real_, trace = NULL))
   }
+  
   met <- with_gpu_energy({
     agent_turn(history_user, history_agent, recipe_row, neutral_need, model_agent)
   }, gpu = gpu, interval_ms = interval_ms, quiet = TRUE)
-  list(payload = met$result, energy_Wh = met$energy_Wh, mean_W = met$mean_W, peak_W = met$peak_W, trace = met$trace)
+  
+  list(payload = met$result,
+       energy_Wh = met$energy_Wh,
+       mean_W    = met$mean_W,
+       peak_W    = met$peak_W,
+       trace     = met$trace)
 }
+
 
 # ================================
 # Conversation controller
