@@ -671,6 +671,9 @@ run_step <- function(profile, recipe_row,
     # If user explicitly proceeds, end the step before an agent reply
     if (isTRUE(u$proceed)) break
     
+    norm_codes <- toupper(gsub("[\u2010-\u2015]", "-", u$codes %||% character(0)))
+    is_request <- any(norm_codes %in% c("REQUEST - DIRECT","REQUEST - INDIRECT","REQUEST - NON-SENTENTIAL","DIRECT_REQ","INDIRECT_REQ"))
+    
     # If the user asked/requests/clarifies, we need an agent reply.
     is_ask <- (!is.na(u$intent) && grepl("^ASK_", u$intent)) || grepl("\\?", u$utterance)
     codes_upper <- toupper(u$codes %||% character(0))
@@ -752,45 +755,46 @@ run_step <- function(profile, recipe_row,
 # Engagement summaries + drivers
 # ================================
 run_one_conversation <- function(profile,
-                                 recipe_tbl,                     # <— NEW
-                                 model_user  = "llama3:8b",
-                                 model_agent = "llama3:8b",
+                                 recipe_tbl,   # <- rename from recipe_df
+                                 model_user  = "llama3.1:8b",
+                                 model_agent = "llama3.1:8b",
                                  seed        = NULL,
                                  measure_energy = MONITOR_ENERGY,
                                  gpu_index      = GPU_INDEX,
                                  smi_interval_ms= SMI_INTERVAL_MS) {
-  set_convo_seed(seed)
-  convo_tag <- paste0(profile$name, "__", gsub("[^A-Za-z0-9]+","", recipe_tbl$recipe_title[1]),
-                      "__seed", ifelse(is.null(seed), "NA", seed))
+  if (!is.null(seed)) set.seed(as.integer(seed))
+  recipe_name <- unique(recipe_tbl$recipe_title) |> as_chr1("")
+  convo_tag   <- paste0(profile$name, "__", gsub("[^A-Za-z0-9]", "", gsub("\\s+", "", recipe_name)),
+                        "__seed", if (is.null(seed)) "NA" else seed)
   
   cat("[", format(Sys.time(), "%Y-%m-%d %H:%M:%S"),
       "] Starting conversation:", convo_tag,
-      "| recipe:", unique(row$recipe_title),
+      " | recipe:", recipe_name,
       " | user:", model_user,
       " | agent:", model_agent,
-      " | energy:", if (measure_energy) "ON" else "OFF", "\n", sep = "")
-  flush.console()
+      " | energy:", if (isTRUE(measure_energy)) "ON" else "OFF",
+      "\n", sep = ""); flush.console()
   
   out <- lapply(recipe_tbl$step_id, function(sid) {
     row <- dplyr::filter(recipe_tbl, step_id == sid)
-    # (Need type can still be randomized inside run_step; this stride is a harmless hint)
-    need_type <- c("task","science","history")[ ((sid-1) %% 3) + 1 ]
     dlg <- run_step(profile, row,
-                    model_user  = model_user,
-                    model_agent = model_agent,
+                    model_user   = model_user,
+                    model_agent  = model_agent,
                     max_questions_per_step = 2,
-                    need_choice     = need_type,
-                    measure_energy  = measure_energy,
+                    need_choice  = c("task","science","history")[ ((sid-1) %% 3) + 1 ],
+                    measure_energy = measure_energy,
                     gpu_index       = gpu_index,
                     smi_interval_ms = smi_interval_ms)
     dlg$cluster         <- profile$name
     dlg$conversation_id <- convo_tag
     dlg$seed            <- seed
-    dlg$recipe_title    <- recipe_tbl$recipe_title[1]      # <— keep recipe in output
+    dlg$recipe_title    <- recipe_name
     dlg
   })
   dplyr::bind_rows(out)
 }
+
+
 
 run_batch <- function(profiles, n_conversations = 5,
                       recipe_tbl,                           # <— NEW
@@ -1001,12 +1005,11 @@ dash$step_summary %>%
 
 # --- Save outputs with stamped filenames ---
 ts_tag <- format(Sys.time(), "%Y%m%d_%H%M%S")
-readr::write_csv(dialogs_flat,  file.path(OUTDIR, paste0("dialogs_flat_",  ts_tag, ".csv")))
-readr::write_csv(dash$step_summary, file.path(OUTDIR, paste0("batch_step_summary_", ts_tag, ".csv")))
-readr::write_csv(energy_convo,  file.path(OUTDIR, paste0("batch_energy_convo_",  ts_tag, ".csv")))
-readr::write_csv(energy_cluster,file.path(OUTDIR, paste0("batch_energy_cluster_",ts_tag, ".csv")))
-
-cat("\n[Done] Files written to: ", normalizePath(outdir), "\n", sep="")
+readr::write_csv(dialogs_flat,   file.path(outdir, paste0("dialogs_flat_",  ts_tag, ".csv")))
+readr::write_csv(dash$step_summary, file.path(outdir, paste0("batch_step_summary_", ts_tag, ".csv")))
+readr::write_csv(energy_convo,   file.path(outdir, paste0("batch_energy_convo_",  ts_tag, ".csv")))
+readr::write_csv(energy_cluster, file.path(outdir, paste0("batch_energy_cluster_",ts_tag, ".csv")))
+cat("\n[Done] Files written to: ", normalizePath(outdir), "\n", sep = "")
 
 
 
