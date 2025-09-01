@@ -566,26 +566,48 @@ summarise_power_trace <- function(trace) {
   summarise_power_trace(trace)
 }
 
-with_gpu_energy <- function(expr, gpu=0, interval_ms=200, measure=FALSE, quiet=TRUE) {
+# --- unified stop helper
+.stop_power_logger <- function(h) {
+  if (is.null(h)) return(list(energy_Wh = NA_real_, mean_W = NA_real_, peak_W = NA_real_, trace = NULL))
+  if (identical(h$kind, "proc")) return(.stop_power_logger_proc(h))
+  return(.stop_power_logger_R(h))
+}
+
+with_gpu_energy <- function(expr, gpu = 0, interval_ms = 200, measure = FALSE, quiet = TRUE) {
+  # If not measuring, just run and return NA metrics
   if (!isTRUE(measure)) {
     result <- withVisible(eval.parent(substitute(expr)))
-    return(list(result = if (result$visible) result$value else invisible(result$value),
-                energy_Wh = NA_real_, mean_W = NA_real_, peak_W = NA_real_, trace = NULL))
+    return(list(
+      result    = if (result$visible) result$value else invisible(result$value),
+      energy_Wh = NA_real_,
+      mean_W    = NA_real_,
+      peak_W    = NA_real_,
+      trace     = NULL
+    ))
   }
-  h <- .start_power_logger_proc(gpu, interval_ms)
+  
+  # Start logger (proc preferred, R-sampler fallback)
+  h <- .start_power_logger_proc(gpu = gpu, interval_ms = interval_ms)
   if (is.null(h)) {
     if (!quiet) message("processx not available; using portable R sampler.")
-    h <- .start_power_logger_R(gpu, interval_s = interval_ms/1000)
-    on.exit({metrics <- .stop_power_logger_R(h)}, add = TRUE)
-  } else {
-    on.exit({metrics <- .stop_power_logger_proc(h)}, add = TRUE)
+    h <- .start_power_logger_R(gpu = gpu, interval_s = interval_ms / 1000)
   }
+  
+  # Run the payload
   result <- withVisible(eval.parent(substitute(expr)))
-  # `metrics` is now guaranteed to exist because we set it in on.exit above
-  list(result   = if (result$visible) result$value else invisible(result$value),
-       energy_Wh = metrics$energy_Wh, mean_W = metrics$mean_W,
-       peak_W    = metrics$peak_W,    trace  = metrics$trace)
+  
+  # Stop logger and capture metrics *before* returning
+  metrics <- .stop_power_logger(h)
+  
+  list(
+    result    = if (result$visible) result$value else invisible(result$value),
+    energy_Wh = metrics$energy_Wh,
+    mean_W    = metrics$mean_W,
+    peak_W    = metrics$peak_W,
+    trace     = metrics$trace
+  )
 }
+
 
 agent_turn_with_energy <- function(..., model_agent, gpu=0, interval_ms=200, measure_energy=FALSE) {
   if (!isTRUE(measure_energy)) {
