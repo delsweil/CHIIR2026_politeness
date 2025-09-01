@@ -1026,6 +1026,24 @@ dash$step_summary %>%
   ) %>% print(n = Inf)
 
 # --- Save outputs with stamped filenames ---
+
+OUTDIR <- outdir  # <- keep ONE canonical var; remove any duplicates like 'outdir' vs 'OUTDIR'
+
+ensure_writable_dir <- function(p) {
+  if (!dir.exists(p)) dir.create(p, recursive = TRUE, showWarnings = FALSE)
+  # 2 = write permission; returns 0 if allowed
+  if (!dir.exists(p) || file.access(p, 2) != 0) {
+    fallback <- file.path(tempdir(), "sim_runs")
+    dir.create(fallback, recursive = TRUE, showWarnings = FALSE)
+    warning(sprintf("Output directory '%s' not writable; falling back to '%s'.", p, fallback))
+    return(fallback)
+  }
+  p
+}
+
+outdir <- ensure_writable_dir(OUTDIR)
+
+
 ts_tag <- format(Sys.time(), "%Y%m%d_%H%M%S")
 readr::write_csv(dialogs_flat,   file.path(outdir, paste0("dialogs_flat_",  ts_tag, ".csv")))
 readr::write_csv(dash$step_summary, file.path(outdir, paste0("batch_step_summary_", ts_tag, ".csv")))
