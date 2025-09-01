@@ -636,6 +636,24 @@ agent_turn_with_energy <- function(history_user, history_agent, recipe_row,
 # ================================
 set_convo_seed <- function(seed) { if (!is.null(seed)) set.seed(as.integer(seed)) }
 
+# Helper: pick a recipe tibble by name
+get_recipe_by_name <- function(name) {
+  key <- tolower(gsub("[^a-z0-9]+", "_", name))
+  switch(
+    key,
+    "parisian_gnocchi"          = recipe_parisian_gnocchi,
+    "buttermilk_brined_southern_fried_chicken" = recipe_fried_chicken,
+    "fried_chicken"             = recipe_fried_chicken,
+    "duck_a_lorange"            = recipe_duck_orange,
+    "savory_cheese_souffle"     = recipe_souffle,
+    "pesto_alla_genovese"       = recipe_pesto,
+    "old_fashioned_apple_pie"   = recipe_apple_pie,
+    "apple_pie"                 = recipe_apple_pie,
+    # default fallback:
+    recipe_apple_pie
+  )
+}
+
 run_step <- function(profile, recipe_row,
                      model_user = "llama3.1:8b",
                      model_agent = "llama3.1:8b",
@@ -767,44 +785,48 @@ run_step <- function(profile, recipe_row,
 # Engagement summaries + drivers
 # ================================
 run_one_conversation <- function(profile,
-                                 model_user  = "llama3.1:8b",
-                                 model_agent = "llama3.1:8b",
+                                 recipe_tbl,                     # <— NEW
+                                 model_user  = "llama3:8b",
+                                 model_agent = "llama3:8b",
                                  seed        = NULL,
                                  measure_energy = MONITOR_ENERGY,
                                  gpu_index      = GPU_INDEX,
                                  smi_interval_ms= SMI_INTERVAL_MS) {
-  
   set_convo_seed(seed)
-  convo_tag <- paste0(profile$name, "__debug", if (!is.null(seed)) paste0("__seed", seed) else "")
+  convo_tag <- paste0(profile$name, "__", gsub("[^A-Za-z0-9]+","", recipe_tbl$recipe_title[1]),
+                      "__seed", ifelse(is.null(seed), "NA", seed))
   
   cat("[", format(Sys.time(), "%Y-%m-%d %H:%M:%S"),
       "] Starting conversation:", convo_tag,
+      "| recipe:", recipe_tbl$recipe_title[1],
       "| user:", model_user, "| agent:", model_agent,
       "| energy:", if (measure_energy) "ON" else "OFF", "\n")
   
-  out <- lapply(recipe_apple_pie$step_id, function(sid) {
-    row <- dplyr::filter(recipe_apple_pie, step_id == sid)
-    # deterministic need-type stride (ignored inside run_step which randomises)
+  out <- lapply(recipe_tbl$step_id, function(sid) {
+    row <- dplyr::filter(recipe_tbl, step_id == sid)
+    # (Need type can still be randomized inside run_step; this stride is a harmless hint)
     need_type <- c("task","science","history")[ ((sid-1) %% 3) + 1 ]
     dlg <- run_step(profile, row,
                     model_user  = model_user,
                     model_agent = model_agent,
                     max_questions_per_step = 2,
-                    need_choice = need_type,
-                    measure_energy = measure_energy,
-                    gpu_index      = gpu_index,
-                    smi_interval_ms= smi_interval_ms)
-    dlg$cluster <- profile$name
+                    need_choice     = need_type,
+                    measure_energy  = measure_energy,
+                    gpu_index       = gpu_index,
+                    smi_interval_ms = smi_interval_ms)
+    dlg$cluster         <- profile$name
     dlg$conversation_id <- convo_tag
-    dlg$seed <- seed
+    dlg$seed            <- seed
+    dlg$recipe_title    <- recipe_tbl$recipe_title[1]      # <— keep recipe in output
     dlg
   })
   dplyr::bind_rows(out)
 }
 
 run_batch <- function(profiles, n_conversations = 5,
-                      model_user  = "llama3.1:8b",
-                      model_agent = "llama3.1:8b",
+                      recipe_tbl,                           # <— NEW
+                      model_user  = "llama3:8b",
+                      model_agent = "llama3:8b",
                       base_seed   = 2025,
                       measure_energy = MONITOR_ENERGY,
                       gpu_index      = GPU_INDEX,
@@ -814,11 +836,12 @@ run_batch <- function(profiles, n_conversations = 5,
     for (i in seq_len(n_conversations)) {
       seed_i <- base_seed + i
       runs[[length(runs)+1L]] <- run_one_conversation(
-        profile       = p,
-        model_user    = model_user,
-        model_agent   = model_agent,
-        seed          = seed_i,
-        measure_energy = measure_energy,
+        profile         = p,
+        recipe_tbl      = recipe_tbl,          # <— pass the chosen recipe
+        model_user      = model_user,
+        model_agent     = model_agent,
+        seed            = seed_i,
+        measure_energy  = measure_energy,
         gpu_index       = gpu_index,
         smi_interval_ms = smi_interval_ms
       )
@@ -863,22 +886,87 @@ summarise_engagement <- function(dialogs_flat) {
 }
 
 # ================================
-# Example run
+# Driver: CLI + env-configurable
 # ================================
-profiles_list <- list(profile_hyperpolite, profile_direct, profile_impolite)
 
-# Choose models here
-MODEL_USER  <- "llama3:70b"
-MODEL_AGENT <- "deepseek-r1:8b"
+# --- helpers to parse args like key=value ---
+parse_kv <- function(args) {
+  out <- list()
+  for (a in args) {
+    if (!grepl("=", a, fixed = TRUE)) next
+    kv <- strsplit(a, "=", fixed = TRUE)[[1]]
+    k  <- tolower(trimws(kv[1])); v <- trimws(paste(kv[-1], collapse="="))
+    out[[k]] <- v
+  }
+  out
+}
 
-dialogs_all <- run_batch(
-  profiles = profiles_list,
-  n_conversations = 1,
-  model_user  = MODEL_USER,
-  model_agent = MODEL_AGENT,
-  base_seed   = 20250
+as_bool <- function(x, default = FALSE) {
+  if (is.null(x) || identical(x, "")) return(default)
+  y <- tolower(as.character(x))
+  y %in% c("1","true","t","yes","y","on")
+}
+
+# --- Profiles map for CLI selection ---
+profiles_map <- list(
+  C1 = profile_hyperpolite,
+  C3 = profile_direct,
+  C5 = profile_impolite
 )
 
+# --- Read command line and env defaults ---
+cli <- parse_kv(commandArgs(trailingOnly = TRUE))
+
+n_conversations <- as.integer(cli$n %||% Sys.getenv("SIM_N", unset = "1"))
+recipe_name     <- cli$recipe %||% Sys.getenv("SIM_RECIPE", unset = "apple_pie")
+model_user_cli  <- cli$user   %||% Sys.getenv("SIM_USER_MODEL", unset = "llama3:70b")
+model_agent_cli <- cli$agent  %||% Sys.getenv("SIM_AGENT_MODEL", unset = "deepseek-r1:8b")
+profiles_csv    <- cli$profiles %||% Sys.getenv("SIM_PROFILES", unset = "C1,C3,C5")
+measure_energy  <- as_bool(cli$energy %||% Sys.getenv("SIM_ENERGY", unset = "0"))
+base_seed       <- as.integer(cli$seed %||% Sys.getenv("SIM_SEED", unset = "20250"))
+outdir          <- cli$outdir %||% Sys.getenv("SIM_OUTDIR", unset = "outputs")
+
+# --- Build profiles set from CSV ---
+profile_keys <- strsplit(profiles_csv, ",")[[1]] |> trimws()
+profiles_list <- lapply(profile_keys, function(k) {
+  if (!k %in% names(profiles_map)) stop("Unknown profile key: ", k,
+                                        " (valid: ", paste(names(profiles_map), collapse=", "), ")")
+  profiles_map[[k]]
+})
+
+# --- Resolve recipe tibble ---
+recipe_tbl <- get_recipe_by_name(recipe_name)
+
+# --- Make output dir ---
+if (!dir.exists(outdir)) dir.create(outdir, recursive = TRUE, showWarnings = FALSE)
+
+# --- Banner (reproducibility) ---
+cat("\n========== RUN CONFIG ==========\n",
+    "UTC time:        ", format(Sys.time(), "%Y-%m-%d %H:%M:%S %Z"), "\n",
+    "Profiles:        ", paste(profile_keys, collapse=", "), "\n",
+    "Recipe:          ", recipe_tbl$recipe_title[1], "\n",
+    "n per profile:   ", n_conversations, "\n",
+    "User model:      ", model_user_cli, "\n",
+    "Agent model:     ", model_agent_cli, "\n",
+    "Energy monitor:  ", if (measure_energy) "ON" else "OFF", "\n",
+    "Base seed:       ", base_seed, "\n",
+    "Output dir:      ", outdir, "\n",
+    "================================\n\n", sep="")
+
+# --- Run batch ---
+dialogs_all <- run_batch(
+  profiles        = profiles_list,
+  n_conversations = n_conversations,
+  recipe_tbl      = recipe_tbl,
+  model_user      = model_user_cli,
+  model_agent     = model_agent_cli,
+  base_seed       = base_seed,
+  measure_energy  = measure_energy,
+  gpu_index       = GPU_INDEX,
+  smi_interval_ms = SMI_INTERVAL_MS
+)
+
+# --- Flatten + sort ---
 dialogs_flat <- dialogs_all %>%
   dplyr::mutate(
     codes = purrr::map_chr(codes, ~ if (length(.x)==0) "" else paste(.x, collapse=",")),
@@ -886,7 +974,7 @@ dialogs_flat <- dialogs_all %>%
   ) %>%
   dplyr::arrange(cluster, conversation_id, step_id, event_idx)
 
-# Energy per conversation (agent energy only)
+# --- Energy summaries (agent rows only) ---
 energy_convo <- dialogs_flat %>%
   dplyr::filter(role == "agent") %>%
   dplyr::group_by(cluster, conversation_id, model_agent) %>%
@@ -908,6 +996,7 @@ energy_cluster <- energy_convo %>%
     .groups = "drop"
   )
 
+# --- Engagement dashboard ---
 dash <- summarise_engagement(dialogs_flat)
 
 cat("\n=== Engagement (per cluster) ===\n")
@@ -921,30 +1010,14 @@ dash$step_summary %>%
     .groups = "drop"
   ) %>% print(n = Inf)
 
-cat("\n=== Conversation stats (per cluster) ===\n")
-dash$conv_summary %>%
-  dplyr::group_by(cluster) %>%
-  dplyr::summarise(
-    mean_user_turns  = mean(dialogs_flat$total_user_turns[match(conversation_id, dialogs_flat$conversation_id, nomatch = 0)], na.rm = TRUE),
-    mean_agent_turns = mean(dialogs_flat$total_agent_turns[match(conversation_id, dialogs_flat$conversation_id, nomatch = 0)], na.rm = TRUE),
-    .groups = "drop"
-  ) %>% suppressWarnings() %>% print(n = Inf)
+# --- Save outputs with stamped filenames ---
+stamp <- format(Sys.time(), "%Y%m%d_%H%M%S")
+readr::write_csv(dialogs_flat,      file.path(outdir, paste0("dialogs_flat_", stamp, ".csv")))
+readr::write_csv(dash$step_summary, file.path(outdir, paste0("step_summary_", stamp, ".csv")))
+readr::write_csv(energy_convo,      file.path(outdir, paste0("energy_convo_", stamp, ".csv")))
+readr::write_csv(energy_cluster,    file.path(outdir, paste0("energy_cluster_", stamp, ".csv")))
 
-# Save the data we need
-readr::write_csv(dialogs_flat, "batch_dialogs_flat.csv")
-readr::write_csv(dash$step_summary, "batch_step_summary.csv")
-readr::write_csv(energy_convo, "batch_energy_convo.csv")
-readr::write_csv(energy_cluster, "batch_energy_cluster.csv")
+cat("\n[Done] Files written to: ", normalizePath(outdir), "\n", sep="")
 
-step_lookup <- dplyr::bind_rows(
-  recipe_parisian_gnocchi %>% dplyr::select(recipe_title, step_id, step_description),
-  recipe_fried_chicken    %>% dplyr::select(recipe_title, step_id, step_description),
-  recipe_duck_orange      %>% dplyr::select(recipe_title, step_id, step_description),
-  recipe_souffle          %>% dplyr::select(recipe_title, step_id, step_description),
-  recipe_pesto            %>% dplyr::select(recipe_title, step_id, step_description),
-  recipe_apple_pie        %>% dplyr::select(recipe_title, step_id, step_description)
-) %>% dplyr::distinct()
-
-readr::write_csv(step_lookup, "step_lookup.csv")
 
 
