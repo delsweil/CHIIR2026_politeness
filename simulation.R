@@ -566,68 +566,35 @@ summarise_power_trace <- function(trace) {
   summarise_power_trace(trace)
 }
 
-with_gpu_energy <- function(expr, gpu = 0, interval_ms = 200, quiet = TRUE) {
-  if (!MONITOR_ENERGY) {
+with_gpu_energy <- function(expr, gpu=0, interval_ms=200, measure=FALSE, quiet=TRUE) {
+  if (!isTRUE(measure)) {
     result <- withVisible(eval.parent(substitute(expr)))
-    return(list(
-      result    = if (result$visible) result$value else invisible(result$value),
-      energy_Wh = NA_real_, mean_W = NA_real_, peak_W = NA_real_, trace = NULL
-    ))
-  }
-  
-  # Try high-precision process logger first; fall back to portable sampler
-  h <- .start_power_logger_proc(gpu = gpu, interval_ms = interval_ms)
-  using_fallback <- FALSE
-  if (is.null(h)) {
-    if (!quiet) message("processx not available; using portable R sampler.")
-    h <- .start_power_logger_R(gpu = gpu, interval_s = interval_ms / 1000)
-    using_fallback <- TRUE
-  }
-  
-  # Make sure we always stop the logger
-  on.exit({
-    if (using_fallback) {
-      try(.stop_power_logger_R(h), silent = TRUE)
-    } else {
-      try(.stop_power_logger_proc(h), silent = TRUE)
-    }
-  }, add = TRUE)
-  
-  result <- withVisible(eval.parent(substitute(expr)))
-  
-  # Stop and collect metrics *now*, not via on.exit side-channel
-  m <- if (using_fallback) .stop_power_logger_R(h) else .stop_power_logger_proc(h)
-  
-  list(
-    result    = if (result$visible) result$value else invisible(result$value),
-    energy_Wh = m$energy_Wh,
-    mean_W    = m$mean_W,
-    peak_W    = m$peak_W,
-    trace     = m$trace
-  )
-}
-
-agent_turn_with_energy <- function(history_user, history_agent, recipe_row,
-                                   neutral_need,
-                                   model_agent = "llama3.1:8b",
-                                   gpu = 0,
-                                   interval_ms = 200,
-                                   measure_energy = TRUE) {
-  if (!isTRUE(measure_energy)) {
-    payload <- agent_turn(history_user, history_agent, recipe_row, neutral_need, model_agent)
-    return(list(payload = payload,
+    return(list(result = if (result$visible) result$value else invisible(result$value),
                 energy_Wh = NA_real_, mean_W = NA_real_, peak_W = NA_real_, trace = NULL))
   }
-  
-  met <- with_gpu_energy({
-    agent_turn(history_user, history_agent, recipe_row, neutral_need, model_agent)
-  }, gpu = gpu, interval_ms = interval_ms, quiet = TRUE)
-  
-  list(payload = met$result,
-       energy_Wh = met$energy_Wh,
-       mean_W    = met$mean_W,
-       peak_W    = met$peak_W,
-       trace     = met$trace)
+  h <- .start_power_logger_proc(gpu, interval_ms)
+  if (is.null(h)) {
+    if (!quiet) message("processx not available; using portable R sampler.")
+    h <- .start_power_logger_R(gpu, interval_s = interval_ms/1000)
+    on.exit({metrics <- .stop_power_logger_R(h)}, add = TRUE)
+  } else {
+    on.exit({metrics <- .stop_power_logger_proc(h)}, add = TRUE)
+  }
+  result <- withVisible(eval.parent(substitute(expr)))
+  # `metrics` is now guaranteed to exist because we set it in on.exit above
+  list(result   = if (result$visible) result$value else invisible(result$value),
+       energy_Wh = metrics$energy_Wh, mean_W = metrics$mean_W,
+       peak_W    = metrics$peak_W,    trace  = metrics$trace)
+}
+
+agent_turn_with_energy <- function(..., model_agent, gpu=0, interval_ms=200, measure_energy=FALSE) {
+  if (!isTRUE(measure_energy)) {
+    payload <- agent_turn(..., model_agent = model_agent)
+    return(list(payload = payload, energy_Wh=NA_real_, mean_W=NA_real_, peak_W=NA_real_, trace=NULL))
+  }
+  met <- with_gpu_energy({ agent_turn(..., model_agent = model_agent) },
+                         gpu=gpu, interval_ms=interval_ms, measure=TRUE, quiet=TRUE)
+  list(payload = met$result, energy_Wh = met$energy_Wh, mean_W = met$mean_W, peak_W = met$peak_W, trace = met$trace)
 }
 
 
@@ -798,9 +765,11 @@ run_one_conversation <- function(profile,
   
   cat("[", format(Sys.time(), "%Y-%m-%d %H:%M:%S"),
       "] Starting conversation:", convo_tag,
-      "| recipe:", recipe_tbl$recipe_title[1],
-      "| user:", model_user, "| agent:", model_agent,
-      "| energy:", if (measure_energy) "ON" else "OFF", "\n")
+      "| recipe:", unique(row$recipe_title),
+      " | user:", model_user,
+      " | agent:", model_agent,
+      " | energy:", if (measure_energy) "ON" else "OFF", "\n", sep = "")
+  flush.console()
   
   out <- lapply(recipe_tbl$step_id, function(sid) {
     row <- dplyr::filter(recipe_tbl, step_id == sid)
@@ -907,6 +876,26 @@ as_bool <- function(x, default = FALSE) {
   y %in% c("1","true","t","yes","y","on")
 }
 
+parse_bool <- function(x, default = FALSE) {
+  if (is.null(x)) return(default)
+  y <- tolower(trimws(as.character(x)))
+  if (y %in% c("1","true","t","yes","y","on"))  return(TRUE)
+  if (y %in% c("0","false","f","no","n","off")) return(FALSE)
+  default
+}
+
+# parse key=value args
+raw_args <- commandArgs(trailingOnly = TRUE)
+kv <- strsplit(raw_args, "=", fixed = TRUE)
+ARGS <- setNames(
+  vapply(kv, function(p) if (length(p)==2) p[2] else NA_character_, character(1)),
+  vapply(kv, `[`, 1, FUN.VALUE = character(1))
+)
+
+MEASURE_ENERGY <- parse_bool(ARGS[["energy"]], default = FALSE)
+OUTDIR         <- ARGS[["outdir"]] %||% "runs"
+dir.create(OUTDIR, showWarnings = FALSE, recursive = TRUE)
+
 # --- Profiles map for CLI selection ---
 profiles_map <- list(
   C1 = profile_hyperpolite,
@@ -979,10 +968,10 @@ energy_convo <- dialogs_flat %>%
   dplyr::filter(role == "agent") %>%
   dplyr::group_by(cluster, conversation_id, model_agent) %>%
   dplyr::summarise(
-    energy_Wh_total = sum(energy_Wh, na.rm = TRUE),
+    energy_Wh_total = if (all(is.na(energy_Wh))) NA_real_ else sum(energy_Wh, na.rm = TRUE),
     agent_turns     = dplyr::n(),
-    mean_W_mean     = mean(mean_W, na.rm = TRUE),
-    peak_W_max      = max(peak_W, na.rm = TRUE),
+    mean_W_mean     = if (all(is.na(mean_W))) NA_real_ else mean(mean_W, na.rm = TRUE),
+    peak_W_max      = if (all(is.na(peak_W))) NA_real_ else max(peak_W, na.rm = TRUE),
     .groups = "drop"
   )
 
@@ -1011,11 +1000,11 @@ dash$step_summary %>%
   ) %>% print(n = Inf)
 
 # --- Save outputs with stamped filenames ---
-stamp <- format(Sys.time(), "%Y%m%d_%H%M%S")
-readr::write_csv(dialogs_flat,      file.path(outdir, paste0("dialogs_flat_", stamp, ".csv")))
-readr::write_csv(dash$step_summary, file.path(outdir, paste0("step_summary_", stamp, ".csv")))
-readr::write_csv(energy_convo,      file.path(outdir, paste0("energy_convo_", stamp, ".csv")))
-readr::write_csv(energy_cluster,    file.path(outdir, paste0("energy_cluster_", stamp, ".csv")))
+ts_tag <- format(Sys.time(), "%Y%m%d_%H%M%S")
+readr::write_csv(dialogs_flat,  file.path(OUTDIR, paste0("dialogs_flat_",  ts_tag, ".csv")))
+readr::write_csv(dash$step_summary, file.path(OUTDIR, paste0("batch_step_summary_", ts_tag, ".csv")))
+readr::write_csv(energy_convo,  file.path(OUTDIR, paste0("batch_energy_convo_",  ts_tag, ".csv")))
+readr::write_csv(energy_cluster,file.path(OUTDIR, paste0("batch_energy_cluster_",ts_tag, ".csv")))
 
 cat("\n[Done] Files written to: ", normalizePath(outdir), "\n", sep="")
 
