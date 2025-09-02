@@ -885,6 +885,7 @@ summarise_engagement <- function(dialogs_flat) {
 # ================================
 
 # --- helpers to parse args like key=value ---
+# --- helpers to parse args like key=value ---
 parse_kv <- function(args) {
   out <- list()
   for (a in args) {
@@ -896,12 +897,6 @@ parse_kv <- function(args) {
   out
 }
 
-as_bool <- function(x, default = FALSE) {
-  if (is.null(x) || identical(x, "")) return(default)
-  y <- tolower(as.character(x))
-  y %in% c("1","true","t","yes","y","on")
-}
-
 parse_bool <- function(x, default = FALSE) {
   if (is.null(x)) return(default)
   y <- tolower(trimws(as.character(x)))
@@ -909,6 +904,22 @@ parse_bool <- function(x, default = FALSE) {
   if (y %in% c("0","false","f","no","n","off")) return(FALSE)
   default
 }
+
+# SAFE: when sourced, this becomes an empty list, not a vector
+raw_args <- commandArgs(trailingOnly = TRUE)
+ARGS <- if (length(raw_args)) parse_kv(raw_args) else list()
+
+MEASURE_ENERGY <- parse_bool(ARGS$energy %||% Sys.getenv("SIM_ENERGY", unset = "0"))
+OUTDIR         <- ARGS$outdir %||% Sys.getenv("SIM_OUTDIR", unset = "runs")
+dir.create(OUTDIR, showWarnings = FALSE, recursive = TRUE)
+
+
+as_bool <- function(x, default = FALSE) {
+  if (is.null(x) || identical(x, "")) return(default)
+  y <- tolower(as.character(x))
+  y %in% c("1","true","t","yes","y","on")
+}
+
 
 # parse key=value args
 raw_args <- commandArgs(trailingOnly = TRUE)
@@ -932,14 +943,14 @@ profiles_map <- list(
 # --- Read command line and env defaults ---
 cli <- parse_kv(commandArgs(trailingOnly = TRUE))
 
-n_conversations <- as.integer(cli$n %||% Sys.getenv("SIM_N", unset = "1"))
-recipe_name     <- cli$recipe %||% Sys.getenv("SIM_RECIPE", unset = "apple_pie")
-model_user_cli  <- cli$user   %||% Sys.getenv("SIM_USER_MODEL", unset = "llama3:70b")
-model_agent_cli <- cli$agent  %||% Sys.getenv("SIM_AGENT_MODEL", unset = "deepseek-r1:8b")
-profiles_csv    <- cli$profiles %||% Sys.getenv("SIM_PROFILES", unset = "C1,C3,C5")
-measure_energy  <- as_bool(cli$energy %||% Sys.getenv("SIM_ENERGY", unset = "0"))
-base_seed       <- as.integer(cli$seed %||% Sys.getenv("SIM_SEED", unset = "20250"))
-outdir          <- cli$outdir %||% Sys.getenv("SIM_OUTDIR", unset = "outputs")
+n_conversations <- as.integer(ARGS$n       %||% Sys.getenv("SIM_N", unset = "1"))
+recipe_name     <- ARGS$recipe             %||% Sys.getenv("SIM_RECIPE", unset = "apple_pie")
+model_user_cli  <- ARGS$user               %||% Sys.getenv("SIM_USER_MODEL", unset = "llama3:70b")
+model_agent_cli <- ARGS$agent              %||% Sys.getenv("SIM_AGENT_MODEL", unset = "deepseek-r1:8b")
+profiles_csv    <- ARGS$profiles           %||% Sys.getenv("SIM_PROFILES", unset = "C1,C3,C5")
+base_seed       <- as.integer(ARGS$base_seed %||% ARGS$seed %||% Sys.getenv("SIM_SEED", unset = "20250"))
+outdir          <- ARGS$outdir             %||% Sys.getenv("SIM_OUTDIR", unset = "outputs")
+measure_energy  <- MEASURE_ENERGY
 
 # --- Build profiles set from CSV ---
 profile_keys <- strsplit(profiles_csv, ",")[[1]] |> trimws()
