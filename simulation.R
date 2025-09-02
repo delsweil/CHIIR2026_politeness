@@ -947,12 +947,12 @@ profiles_map <- list(
 #measure_energy  <- MEASURE_ENERGY
 
 # --- Build profiles set from CSV ---
-#profile_keys <- strsplit(profiles_csv, ",")[[1]] |> trimws()
-#profiles_list <- lapply(profile_keys, function(k) {
-#  if (!k %in% names(profiles_map)) stop("Unknown profile key: ", k,
-#                                        " (valid: ", paste(names(profiles_map), collapse=", "), ")")
-#  profiles_map[[k]]
-#})
+profile_keys <- strsplit(profiles_csv, ",")[[1]] |> trimws()
+profiles_list <- lapply(profile_keys, function(k) {
+  if (!k %in% names(profiles_map)) stop("Unknown profile key: ", k,
+                                        " (valid: ", paste(names(profiles_map), collapse=", "), ")")
+  profiles_map[[k]]
+})
 
 # --- Resolve recipe tibble ---
 recipe_tbl <- get_recipe_by_name(recipe_name)
