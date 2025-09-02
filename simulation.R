@@ -913,147 +913,139 @@ as_bool <- function(x, default = FALSE) {
 }
 
 
-# parse key=value args
-raw_args <- commandArgs(trailingOnly = TRUE)
-cli <- parse_kv(raw_args)  # always a list, even if empty
-
-n_conversations <- as.integer(cli$n        %||% Sys.getenv("SIM_N",        unset = "1"))
-recipe_name     <-           cli$recipe    %||% Sys.getenv("SIM_RECIPE",   unset = "apple_pie")
-model_user_cli  <-           cli$user      %||% Sys.getenv("SIM_USER_MODEL",unset = "llama3:70b")
-model_agent_cli <-           cli$agent     %||% Sys.getenv("SIM_AGENT_MODEL",unset = "deepseek-r1:8b")
-profiles_csv    <-           cli$profiles  %||% Sys.getenv("SIM_PROFILES", unset = "C1,C3,C5")
-measure_energy  <- parse_bool(cli$energy   %||% Sys.getenv("SIM_ENERGY",   unset = "0"))
-base_seed       <- as.integer(cli$seed     %||% Sys.getenv("SIM_SEED",     unset = "20250"))
-outdir          <-           cli$outdir    %||% Sys.getenv("SIM_OUTDIR",   unset = "outputs")
-
-
-# --- Profiles map for CLI selection ---
-profiles_map <- list(
-  C1 = profile_hyperpolite,
-  C3 = profile_direct,
-  C5 = profile_impolite
-)
-
-# --- Read command line and env defaults ---
-#cli <- parse_kv(commandArgs(trailingOnly = TRUE))
-
-#n_conversations <- as.integer(ARGS$n       %||% Sys.getenv("SIM_N", unset = "1"))
-#recipe_name     <- ARGS$recipe             %||% Sys.getenv("SIM_RECIPE", unset = "apple_pie")
-#model_user_cli  <- ARGS$user               %||% Sys.getenv("SIM_USER_MODEL", unset = "llama3:70b")
-#model_agent_cli <- ARGS$agent              %||% Sys.getenv("SIM_AGENT_MODEL", unset = "deepseek-r1:8b")
-#profiles_csv    <- ARGS$profiles           %||% Sys.getenv("SIM_PROFILES", unset = "C1,C3,C5")
-#base_seed       <- as.integer(ARGS$base_seed %||% ARGS$seed %||% Sys.getenv("SIM_SEED", unset = "20250"))
-#outdir          <- ARGS$outdir             %||% Sys.getenv("SIM_OUTDIR", unset = "outputs")
-#measure_energy  <- MEASURE_ENERGY
-
-# --- Build profiles set from CSV ---
-profile_keys <- strsplit(profiles_csv, ",")[[1]] |> trimws()
-profiles_list <- lapply(profile_keys, function(k) {
-  if (!k %in% names(profiles_map)) stop("Unknown profile key: ", k,
-                                        " (valid: ", paste(names(profiles_map), collapse=", "), ")")
-  profiles_map[[k]]
-})
-
-# --- Resolve recipe tibble ---
-recipe_tbl <- get_recipe_by_name(recipe_name)
-
-# --- Make output dir ---
-if (!dir.exists(outdir)) dir.create(outdir, recursive = TRUE, showWarnings = FALSE)
-
-# --- Banner (reproducibility) ---
-cat("\n========== RUN CONFIG ==========\n",
-    "UTC time:        ", format(Sys.time(), "%Y-%m-%d %H:%M:%S %Z"), "\n",
-    "Profiles:        ", paste(profile_keys, collapse=", "), "\n",
-    "Recipe:          ", recipe_tbl$recipe_title[1], "\n",
-    "n per profile:   ", n_conversations, "\n",
-    "User model:      ", model_user_cli, "\n",
-    "Agent model:     ", model_agent_cli, "\n",
-    "Energy monitor:  ", if (measure_energy) "ON" else "OFF", "\n",
-    "Base seed:       ", base_seed, "\n",
-    "Output dir:      ", outdir, "\n",
-    "================================\n\n", sep="")
-
-# --- Run batch ---
-dialogs_all <- run_batch(
-  profiles        = profiles_list,
-  n_conversations = n_conversations,
-  recipe_tbl      = recipe_tbl,
-  model_user      = model_user_cli,
-  model_agent     = model_agent_cli,
-  base_seed       = base_seed,
-  measure_energy  = measure_energy,
-  gpu_index       = GPU_INDEX,
-  smi_interval_ms = SMI_INTERVAL_MS
-)
-
-# --- Flatten + sort ---
-dialogs_flat <- dialogs_all %>%
-  dplyr::mutate(
-    codes = purrr::map_chr(codes, ~ if (length(.x)==0) "" else paste(.x, collapse=",")),
-    role  = factor(role, levels = c("user","agent"))
-  ) %>%
-  dplyr::arrange(cluster, conversation_id, step_id, event_idx)
-
-# --- Energy summaries (agent rows only) ---
-energy_convo <- dialogs_flat %>%
-  dplyr::filter(role == "agent") %>%
-  dplyr::group_by(cluster, conversation_id, model_agent) %>%
-  dplyr::summarise(
-    energy_Wh_total = if (all(is.na(energy_Wh))) NA_real_ else sum(energy_Wh, na.rm = TRUE),
-    agent_turns     = dplyr::n(),
-    mean_W_mean     = if (all(is.na(mean_W))) NA_real_ else mean(mean_W, na.rm = TRUE),
-    peak_W_max      = if (all(is.na(peak_W))) NA_real_ else max(peak_W, na.rm = TRUE),
-    .groups = "drop"
+# ---------- wrap driver into a callable main and guard execution ----------
+.sim_main <- function() {
+  # parse key=value args
+  raw_args <- commandArgs(trailingOnly = TRUE)
+  cli <- parse_kv(raw_args)  # always a list, even if empty
+  
+  n_conversations <- as.integer(cli$n        %||% Sys.getenv("SIM_N",        unset = "1"))
+  recipe_name     <-           cli$recipe    %||% Sys.getenv("SIM_RECIPE",   unset = "apple_pie")
+  model_user_cli  <-           cli$user      %||% Sys.getenv("SIM_USER_MODEL",unset = "llama3:70b")
+  model_agent_cli <-           cli$agent     %||% Sys.getenv("SIM_AGENT_MODEL",unset = "deepseek-r1:8b")
+  profiles_csv    <-           cli$profiles  %||% Sys.getenv("SIM_PROFILES", unset = "C1,C3,C5")
+  measure_energy  <- parse_bool(cli$energy   %||% Sys.getenv("SIM_ENERGY",   unset = "0"))
+  base_seed       <- as.integer(cli$seed     %||% Sys.getenv("SIM_SEED",     unset = "20250"))
+  outdir          <-           cli$outdir    %||% Sys.getenv("SIM_OUTDIR",   unset = "outputs")
+  
+  # --- Profiles map for CLI selection ---
+  profiles_map <- list(
+    C1 = profile_hyperpolite,
+    C3 = profile_direct,
+    C5 = profile_impolite
   )
-
-energy_cluster <- energy_convo %>%
-  dplyr::group_by(cluster, model_agent) %>%
-  dplyr::summarise(
-    conv_n            = dplyr::n(),
-    mean_energy_Wh    = mean(energy_Wh_total, na.rm = TRUE),
-    sd_energy_Wh      = sd(energy_Wh_total, na.rm = TRUE),
-    mean_agent_turns  = mean(agent_turns, na.rm = TRUE),
-    .groups = "drop"
+  
+  # --- Build profiles set from CSV ---
+  profile_keys <- strsplit(profiles_csv, ",")[[1]] |> trimws()
+  profiles_list <- lapply(profile_keys, function(k) {
+    if (!k %in% names(profiles_map)) stop("Unknown profile key: ", k,
+                                          " (valid: ", paste(names(profiles_map), collapse=", "), ")")
+    profiles_map[[k]]
+  })
+  
+  # --- Resolve recipe tibble ---
+  recipe_tbl <- get_recipe_by_name(recipe_name)
+  
+  # --- Make output dir ---
+  if (!dir.exists(outdir)) dir.create(outdir, recursive = TRUE, showWarnings = FALSE)
+  
+  # --- Banner (reproducibility) ---
+  cat("\n========== RUN CONFIG ==========\n",
+      "UTC time:        ", format(Sys.time(), "%Y-%m-%d %H:%M:%S %Z"), "\n",
+      "Profiles:        ", paste(profile_keys, collapse=", "), "\n",
+      "Recipe:          ", recipe_tbl$recipe_title[1], "\n",
+      "n per profile:   ", n_conversations, "\n",
+      "User model:      ", model_user_cli, "\n",
+      "Agent model:     ", model_agent_cli, "\n",
+      "Energy monitor:  ", if (measure_energy) "ON" else "OFF", "\n",
+      "Base seed:       ", base_seed, "\n",
+      "Output dir:      ", outdir, "\n",
+      "================================\n\n", sep="")
+  
+  # --- Run batch ---
+  dialogs_all <- run_batch(
+    profiles        = profiles_list,
+    n_conversations = n_conversations,
+    recipe_tbl      = recipe_tbl,
+    model_user      = model_user_cli,
+    model_agent     = model_agent_cli,
+    base_seed       = base_seed,
+    measure_energy  = measure_energy,
+    gpu_index       = GPU_INDEX,
+    smi_interval_ms = SMI_INTERVAL_MS
   )
-
-# --- Engagement dashboard ---
-dash <- summarise_engagement(dialogs_flat)
-
-cat("\n=== Engagement (per cluster) ===\n")
-dash$step_summary %>%
-  dplyr::group_by(cluster) %>%
-  dplyr::summarise(
-    steps_with_questions   = mean(user_asks > 0),
-    steps_with_agent_reply = mean(agent_replied),
-    steps_proceeded_no_q   = mean(proceeded & user_asks == 0),
-    avg_questions_per_step = mean(user_asks),
-    .groups = "drop"
-  ) %>% print(n = Inf)
-
-# --- Save outputs with stamped filenames ---
-
-
-ensure_writable_dir <- function(p) {
-  if (!dir.exists(p)) dir.create(p, recursive = TRUE, showWarnings = FALSE)
-  # 2 = write permission; returns 0 if allowed
-  if (!dir.exists(p) || file.access(p, 2) != 0) {
-    fallback <- file.path(tempdir(), "sim_runs")
-    dir.create(fallback, recursive = TRUE, showWarnings = FALSE)
-    warning(sprintf("Output directory '%s' not writable; falling back to '%s'.", p, fallback))
-    return(fallback)
+  
+  # --- Flatten + sort ---
+  dialogs_flat <- dialogs_all %>%
+    dplyr::mutate(
+      codes = purrr::map_chr(codes, ~ if (length(.x)==0) "" else paste(.x, collapse=",")),
+      role  = factor(role, levels = c("user","agent"))
+    ) %>%
+    dplyr::arrange(cluster, conversation_id, step_id, event_idx)
+  
+  # --- Energy summaries (agent rows only) ---
+  energy_convo <- dialogs_flat %>%
+    dplyr::filter(role == "agent") %>%
+    dplyr::group_by(cluster, conversation_id, model_agent) %>%
+    dplyr::summarise(
+      energy_Wh_total = if (all(is.na(energy_Wh))) NA_real_ else sum(energy_Wh, na.rm = TRUE),
+      agent_turns     = dplyr::n(),
+      mean_W_mean     = if (all(is.na(mean_W))) NA_real_ else mean(mean_W, na.rm = TRUE),
+      peak_W_max      = if (all(is.na(peak_W))) NA_real_ else max(peak_W, na.rm = TRUE),
+      .groups = "drop"
+    )
+  
+  energy_cluster <- energy_convo %>%
+    dplyr::group_by(cluster, model_agent) %>%
+    dplyr::summarise(
+      conv_n            = dplyr::n(),
+      mean_energy_Wh    = mean(energy_Wh_total, na.rm = TRUE),
+      sd_energy_Wh      = sd(energy_Wh_total, na.rm = TRUE),
+      mean_agent_turns  = mean(agent_turns, na.rm = TRUE),
+      .groups = "drop"
+    )
+  
+  # --- Engagement dashboard ---
+  dash <- summarise_engagement(dialogs_flat)
+  
+  cat("\n=== Engagement (per cluster) ===\n")
+  dash$step_summary %>%
+    dplyr::group_by(cluster) %>%
+    dplyr::summarise(
+      steps_with_questions   = mean(user_asks > 0),
+      steps_with_agent_reply = mean(agent_replied),
+      steps_proceeded_no_q   = mean(proceeded & user_asks == 0),
+      avg_questions_per_step = mean(user_asks),
+      .groups = "drop"
+    ) %>% print(n = Inf)
+  
+  # --- Save outputs with stamped filenames ---
+  ensure_writable_dir <- function(p) {
+    if (!dir.exists(p)) dir.create(p, recursive = TRUE, showWarnings = FALSE)
+    if (!dir.exists(p) || file.access(p, 2) != 0) {
+      fallback <- file.path(tempdir(), "sim_runs")
+      dir.create(fallback, recursive = TRUE, showWarnings = FALSE)
+      warning(sprintf("Output directory '%s' not writable; falling back to '%s'.", p, fallback))
+      return(fallback)
+    }
+    p
   }
-  p
+  
+  outdir <- ensure_writable_dir(outdir)
+  
+  ts_tag <- format(Sys.time(), "%Y%m%d_%H%M%S")
+  readr::write_csv(dialogs_flat,      file.path(outdir, paste0("dialogs_flat_",          ts_tag, ".csv")))
+  readr::write_csv(dash$step_summary, file.path(outdir, paste0("batch_step_summary_",   ts_tag, ".csv")))
+  readr::write_csv(energy_convo,      file.path(outdir, paste0("batch_energy_convo_",   ts_tag, ".csv")))
+  readr::write_csv(energy_cluster,    file.path(outdir, paste0("batch_energy_cluster_", ts_tag, ".csv")))
+  cat("\n[Done] Files written to: ", normalizePath(outdir), "\n", sep = "")
 }
 
-outdir <- ensure_writable_dir(outdir)
-
-
-ts_tag <- format(Sys.time(), "%Y%m%d_%H%M%S")
-readr::write_csv(dialogs_flat,   file.path(outdir, paste0("dialogs_flat_",  ts_tag, ".csv")))
-readr::write_csv(dash$step_summary, file.path(outdir, paste0("batch_step_summary_", ts_tag, ".csv")))
-readr::write_csv(energy_convo,   file.path(outdir, paste0("batch_energy_convo_",  ts_tag, ".csv")))
-readr::write_csv(energy_cluster, file.path(outdir, paste0("batch_energy_cluster_",ts_tag, ".csv")))
-cat("\n[Done] Files written to: ", normalizePath(outdir), "\n", sep = "")
+# ---- only run main when invoked as a script with CLI args ----
+if (length(commandArgs(trailingOnly = TRUE)) > 0 &&
+    !isTRUE(getOption("sim.skip_main"))) {
+  .sim_main()
+}
 
 
 
