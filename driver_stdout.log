@@ -1,0 +1,86 @@
+========== RUN CONFIG ==========
+UTC time:      2025-09-02 09:17:27 UTC
+User model:    llama3:70b
+Agent model:   deepseek-r1:8b
+Energy:        1
+Out dir:       /home/david/sim_runs/test_20250902_091727
+Schedule:      run_schedule.tsv
+Log:           sim_run_447889.log
+================================
+[ 2025-09-02 09:17:27 ] Line 1 — start: profile=C1 recipe=pesto_alla_genovese seed=20310
+[ 2025-09-02 09:18:07 ] Line 1 — done:  profile=C1 recipe=pesto_alla_genovese seed=20310
+[ 2025-09-02 09:18:07 ] Line 2 — start: profile=C3 recipe=parisian_gnocchi seed=20328
+[ 2025-09-02 09:18:42 ] Line 2 — done:  profile=C3 recipe=parisian_gnocchi seed=20328
+[ 2025-09-02 09:18:42 ] Line 3 — start: profile=C1 recipe=parisian_gnocchi seed=20270
+[ 2025-09-02 09:19:30 ] Line 3 — done:  profile=C1 recipe=parisian_gnocchi seed=20270
+[ 2025-09-02 09:19:30 ] Line 4 — start: profile=C1 recipe=duck_a_lorange seed=20282
+[ 2025-09-02 09:20:59 ] Line 4 — done:  profile=C1 recipe=duck_a_lorange seed=20282
+[ 2025-09-02 09:20:59 ] Line 5 — start: profile=C3 recipe=duck_a_lorange seed=20341
+[ 2025-09-02 09:22:02 ] Line 5 — done:  profile=C3 recipe=duck_a_lorange seed=20341
+[ 2025-09-02 09:22:02 ] Line 6 — start: profile=C5 recipe=parisian_gnocchi seed=20388
+[ 2025-09-02 09:22:41 ] Line 6 — done:  profile=C5 recipe=parisian_gnocchi seed=20388
+[ 2025-09-02 09:22:41 ] Line 7 — start: profile=C5 recipe=fried_chicken seed=20395
+[ 2025-09-02 09:23:26 ] Line 7 — done:  profile=C5 recipe=fried_chicken seed=20395
+[ 2025-09-02 09:23:26 ] Line 8 — start: profile=C3 recipe=duck_a_lorange seed=20344
+[ 2025-09-02 09:24:32 ] Line 8 — done:  profile=C3 recipe=duck_a_lorange seed=20344
+[ 2025-09-02 09:24:32 ] Line 9 — start: profile=C5 recipe=fried_chicken seed=20391
+[ 2025-09-02 09:25:15 ] Line 9 — done:  profile=C5 recipe=fried_chicken seed=20391
+[ 2025-09-02 09:25:15 ] Line 10 — start: profile=C3 recipe=pesto_alla_genovese seed=20362
+[ 2025-09-02 09:25:49 ] Line 10 — done:  profile=C3 recipe=pesto_alla_genovese seed=20362
+[ 2025-09-02 09:25:49 ] Line 11 — start: profile=C5 recipe=savory_cheese_souffle seed=20413
+[ 2025-09-02 09:26:50 ] Line 11 — done:  profile=C5 recipe=savory_cheese_souffle seed=20413
+[ 2025-09-02 09:26:50 ] Line 12 — start: profile=C1 recipe=duck_a_lorange seed=20288
+[ 2025-09-02 09:28:28 ] Line 12 — done:  profile=C1 recipe=duck_a_lorange seed=20288
+[ 2025-09-02 09:28:28 ] Line 13 — start: profile=C3 recipe=pesto_alla_genovese seed=20363
+[ 2025-09-02 09:28:58 ] Line 13 — done:  profile=C3 recipe=pesto_alla_genovese seed=20363
+[ 2025-09-02 09:28:58 ] Line 14 — start: profile=C3 recipe=pesto_alla_genovese seed=20369
+[ 2025-09-02 09:29:28 ] Line 14 — done:  profile=C3 recipe=pesto_alla_genovese seed=20369
+[ 2025-09-02 09:29:28 ] Line 15 — start: profile=C3 recipe=pesto_alla_genovese seed=20361
+[ 2025-09-02 09:30:01 ] Line 15 — done:  profile=C3 recipe=pesto_alla_genovese seed=20361
+[ 2025-09-02 09:30:01 ] Line 16 — start: profile=C5 recipe=apple_pie seed=20380
+[ 2025-09-02 09:30:44 ] Line 16 — done:  profile=C5 recipe=apple_pie seed=20380
+[ 2025-09-02 09:30:44 ] Line 17 — start: profile=C3 recipe=apple_pie seed=20313
+[ 2025-09-02 09:31:17 ] Line 17 — done:  profile=C3 recipe=apple_pie seed=20313
+[ 2025-09-02 09:31:17 ] Line 18 — start: profile=C1 recipe=savory_cheese_souffle seed=20296
+[ 2025-09-02 09:32:33 ] Line 18 — done:  profile=C1 recipe=savory_cheese_souffle seed=20296
+[ 2025-09-02 09:32:33 ] Line 19 — start: profile=C5 recipe=savory_cheese_souffle seed=20418
+[ 2025-09-02 09:33:26 ] Line 19 — done:  profile=C5 recipe=savory_cheese_souffle seed=20418
+[ 2025-09-02 09:33:26 ] Line 20 — start: profile=C5 recipe=parisian_gnocchi seed=20387
+[ 2025-09-02 09:34:08 ] Line 20 — done:  profile=C5 recipe=parisian_gnocchi seed=20387
+[ 2025-09-02 09:34:08 ] Line 21 — start: profile=C3 recipe=pesto_alla_genovese seed=20368
+[ 2025-09-02 09:34:43 ] Line 21 — done:  profile=C3 recipe=pesto_alla_genovese seed=20368
+[ 2025-09-02 09:34:43 ] Line 22 — start: profile=C1 recipe=apple_pie seed=20252
+[ 2025-09-02 09:35:38 ] Line 22 — done:  profile=C1 recipe=apple_pie seed=20252
+[ 2025-09-02 09:35:38 ] Line 23 — start: profile=C5 recipe=pesto_alla_genovese seed=20428
+[ 2025-09-02 09:36:15 ] Line 23 — done:  profile=C5 recipe=pesto_alla_genovese seed=20428
+[ 2025-09-02 09:36:15 ] Line 24 — start: profile=C3 recipe=savory_cheese_souffle seed=20359
+[ 2025-09-02 09:37:09 ] Line 24 — done:  profile=C3 recipe=savory_cheese_souffle seed=20359
+[ 2025-09-02 09:37:09 ] Line 25 — start: profile=C3 recipe=fried_chicken seed=20339
+[ 2025-09-02 09:37:49 ] Line 25 — done:  profile=C3 recipe=fried_chicken seed=20339
+[ 2025-09-02 09:37:49 ] Line 26 — start: profile=C1 recipe=parisian_gnocchi seed=20263
+[ 2025-09-02 09:38:35 ] Line 26 — done:  profile=C1 recipe=parisian_gnocchi seed=20263
+[ 2025-09-02 09:38:35 ] Line 27 — start: profile=C1 recipe=fried_chicken seed=20279
+[ 2025-09-02 09:39:30 ] Line 27 — done:  profile=C1 recipe=fried_chicken seed=20279
+[ 2025-09-02 09:39:30 ] Line 28 — start: profile=C1 recipe=pesto_alla_genovese seed=20306
+[ 2025-09-02 09:40:22 ] Line 28 — done:  profile=C1 recipe=pesto_alla_genovese seed=20306
+[ 2025-09-02 09:40:22 ] Line 29 — start: profile=C3 recipe=duck_a_lorange seed=20342
+[ 2025-09-02 09:41:26 ] Line 29 — done:  profile=C3 recipe=duck_a_lorange seed=20342
+[ 2025-09-02 09:41:26 ] Line 30 — start: profile=C3 recipe=parisian_gnocchi seed=20329
+[ 2025-09-02 09:41:58 ] Line 30 — done:  profile=C3 recipe=parisian_gnocchi seed=20329
+[ 2025-09-02 09:41:58 ] Line 31 — start: profile=C5 recipe=duck_a_lorange seed=20401
+[ 2025-09-02 09:43:20 ] Line 31 — done:  profile=C5 recipe=duck_a_lorange seed=20401
+[ 2025-09-02 09:43:20 ] Line 32 — start: profile=C5 recipe=apple_pie seed=20371
+[ 2025-09-02 09:44:07 ] Line 32 — done:  profile=C5 recipe=apple_pie seed=20371
+[ 2025-09-02 09:44:07 ] Line 33 — start: profile=C5 recipe=apple_pie seed=20372
+[ 2025-09-02 09:44:52 ] Line 33 — done:  profile=C5 recipe=apple_pie seed=20372
+[ 2025-09-02 09:44:52 ] Line 34 — start: profile=C1 recipe=apple_pie seed=20259
+[ 2025-09-02 09:45:45 ] Line 34 — done:  profile=C1 recipe=apple_pie seed=20259
+[ 2025-09-02 09:45:45 ] Line 35 — start: profile=C3 recipe=savory_cheese_souffle seed=20356
+[ 2025-09-02 09:46:36 ] Line 35 — done:  profile=C3 recipe=savory_cheese_souffle seed=20356
+[ 2025-09-02 09:46:36 ] Line 36 — start: profile=C1 recipe=parisian_gnocchi seed=20267
+[ 2025-09-02 09:47:20 ] Line 36 — done:  profile=C1 recipe=parisian_gnocchi seed=20267
+[ 2025-09-02 09:47:20 ] Line 37 — start: profile=C1 recipe=fried_chicken seed=20280
+[ 2025-09-02 09:48:14 ] Line 37 — done:  profile=C1 recipe=fried_chicken seed=20280
+[ 2025-09-02 09:48:14 ] Line 38 — start: profile=C3 recipe=pesto_alla_genovese seed=20364
+[ 2025-09-02 09:48:46 ] Line 38 — done:  profile=C3 recipe=pesto_alla_genovese seed=20364
+[ 2025-09-02 09:48:46 ] Line 39 — start: profile=C5 recipe=apple_pie seed=20373

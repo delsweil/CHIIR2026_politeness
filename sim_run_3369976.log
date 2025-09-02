@@ -1,0 +1,7210 @@
+========== RUN CONFIG ==========
+UTC time:      2025-09-01 20:09:45 UTC
+User model:    llama3:70b
+Agent model:   deepseek-r1:8b
+Energy:        1
+Out dir:       /scratch/sim_runs_20250901_200945
+Schedule:      run_schedule.tsv
+Log:           sim_run_3369976.log
+================================
+[ 2025-09-01 20:09:45 ] Line 1 — start: profile=C1 recipe=pesto_alla_genovese seed=20310
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:09:46 UTC
+Profiles:        C1
+Recipe:          Pesto alla Genovese
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:09:46 ] Line 1 — done:  profile=C1 recipe=pesto_alla_genovese seed=20310
+[ 2025-09-01 20:09:46 ] Line 2 — start: profile=C3 recipe=parisian_gnocchi seed=20328
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:09:47 UTC
+Profiles:        C3
+Recipe:          Parisian Gnocchi
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:09:47 ] Line 2 — done:  profile=C3 recipe=parisian_gnocchi seed=20328
+[ 2025-09-01 20:09:47 ] Line 3 — start: profile=C1 recipe=parisian_gnocchi seed=20270
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:09:48 UTC
+Profiles:        C1
+Recipe:          Parisian Gnocchi
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:09:48 ] Line 3 — done:  profile=C1 recipe=parisian_gnocchi seed=20270
+[ 2025-09-01 20:09:48 ] Line 4 — start: profile=C1 recipe=duck_a_lorange seed=20282
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:09:48 UTC
+Profiles:        C1
+Recipe:          Duck à l’Orange
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:09:48 ] Line 4 — done:  profile=C1 recipe=duck_a_lorange seed=20282
+[ 2025-09-01 20:09:48 ] Line 5 — start: profile=C3 recipe=duck_a_lorange seed=20341
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:09:49 UTC
+Profiles:        C3
+Recipe:          Duck à l’Orange
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:09:49 ] Line 5 — done:  profile=C3 recipe=duck_a_lorange seed=20341
+[ 2025-09-01 20:09:49 ] Line 6 — start: profile=C5 recipe=parisian_gnocchi seed=20388
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:09:50 UTC
+Profiles:        C5
+Recipe:          Parisian Gnocchi
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:09:50 ] Line 6 — done:  profile=C5 recipe=parisian_gnocchi seed=20388
+[ 2025-09-01 20:09:50 ] Line 7 — start: profile=C5 recipe=fried_chicken seed=20395
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:09:51 UTC
+Profiles:        C5
+Recipe:          Buttermilk-Brined Southern Fried Chicken
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:09:51 ] Line 7 — done:  profile=C5 recipe=fried_chicken seed=20395
+[ 2025-09-01 20:09:51 ] Line 8 — start: profile=C3 recipe=duck_a_lorange seed=20344
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:09:52 UTC
+Profiles:        C3
+Recipe:          Duck à l’Orange
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:09:52 ] Line 8 — done:  profile=C3 recipe=duck_a_lorange seed=20344
+[ 2025-09-01 20:09:52 ] Line 9 — start: profile=C5 recipe=fried_chicken seed=20391
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:09:52 UTC
+Profiles:        C5
+Recipe:          Buttermilk-Brined Southern Fried Chicken
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:09:53 ] Line 9 — done:  profile=C5 recipe=fried_chicken seed=20391
+[ 2025-09-01 20:09:53 ] Line 10 — start: profile=C3 recipe=pesto_alla_genovese seed=20362
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:09:53 UTC
+Profiles:        C3
+Recipe:          Pesto alla Genovese
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:09:53 ] Line 10 — done:  profile=C3 recipe=pesto_alla_genovese seed=20362
+[ 2025-09-01 20:09:53 ] Line 11 — start: profile=C5 recipe=savory_cheese_souffle seed=20413
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:09:54 UTC
+Profiles:        C5
+Recipe:          Savory Cheese Soufflé
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:09:54 ] Line 11 — done:  profile=C5 recipe=savory_cheese_souffle seed=20413
+[ 2025-09-01 20:09:54 ] Line 12 — start: profile=C1 recipe=duck_a_lorange seed=20288
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:09:55 UTC
+Profiles:        C1
+Recipe:          Duck à l’Orange
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:09:55 ] Line 12 — done:  profile=C1 recipe=duck_a_lorange seed=20288
+[ 2025-09-01 20:09:55 ] Line 13 — start: profile=C3 recipe=pesto_alla_genovese seed=20363
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:09:56 UTC
+Profiles:        C3
+Recipe:          Pesto alla Genovese
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:09:56 ] Line 13 — done:  profile=C3 recipe=pesto_alla_genovese seed=20363
+[ 2025-09-01 20:09:56 ] Line 14 — start: profile=C3 recipe=pesto_alla_genovese seed=20369
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:09:57 UTC
+Profiles:        C3
+Recipe:          Pesto alla Genovese
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:09:57 ] Line 14 — done:  profile=C3 recipe=pesto_alla_genovese seed=20369
+[ 2025-09-01 20:09:57 ] Line 15 — start: profile=C3 recipe=pesto_alla_genovese seed=20361
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:09:58 UTC
+Profiles:        C3
+Recipe:          Pesto alla Genovese
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:09:58 ] Line 15 — done:  profile=C3 recipe=pesto_alla_genovese seed=20361
+[ 2025-09-01 20:09:58 ] Line 16 — start: profile=C5 recipe=apple_pie seed=20380
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:09:58 UTC
+Profiles:        C5
+Recipe:          Old-Fashioned Apple Pie
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:09:58 ] Line 16 — done:  profile=C5 recipe=apple_pie seed=20380
+[ 2025-09-01 20:09:58 ] Line 17 — start: profile=C3 recipe=apple_pie seed=20313
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:09:59 UTC
+Profiles:        C3
+Recipe:          Old-Fashioned Apple Pie
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:09:59 ] Line 17 — done:  profile=C3 recipe=apple_pie seed=20313
+[ 2025-09-01 20:09:59 ] Line 18 — start: profile=C1 recipe=savory_cheese_souffle seed=20296
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:00 UTC
+Profiles:        C1
+Recipe:          Savory Cheese Soufflé
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:00 ] Line 18 — done:  profile=C1 recipe=savory_cheese_souffle seed=20296
+[ 2025-09-01 20:10:00 ] Line 19 — start: profile=C5 recipe=savory_cheese_souffle seed=20418
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:01 UTC
+Profiles:        C5
+Recipe:          Savory Cheese Soufflé
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:01 ] Line 19 — done:  profile=C5 recipe=savory_cheese_souffle seed=20418
+[ 2025-09-01 20:10:01 ] Line 20 — start: profile=C5 recipe=parisian_gnocchi seed=20387
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:02 UTC
+Profiles:        C5
+Recipe:          Parisian Gnocchi
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:02 ] Line 20 — done:  profile=C5 recipe=parisian_gnocchi seed=20387
+[ 2025-09-01 20:10:02 ] Line 21 — start: profile=C3 recipe=pesto_alla_genovese seed=20368
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:03 UTC
+Profiles:        C3
+Recipe:          Pesto alla Genovese
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:03 ] Line 21 — done:  profile=C3 recipe=pesto_alla_genovese seed=20368
+[ 2025-09-01 20:10:03 ] Line 22 — start: profile=C1 recipe=apple_pie seed=20252
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:03 UTC
+Profiles:        C1
+Recipe:          Old-Fashioned Apple Pie
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:04 ] Line 22 — done:  profile=C1 recipe=apple_pie seed=20252
+[ 2025-09-01 20:10:04 ] Line 23 — start: profile=C5 recipe=pesto_alla_genovese seed=20428
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:04 UTC
+Profiles:        C5
+Recipe:          Pesto alla Genovese
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:04 ] Line 23 — done:  profile=C5 recipe=pesto_alla_genovese seed=20428
+[ 2025-09-01 20:10:04 ] Line 24 — start: profile=C3 recipe=savory_cheese_souffle seed=20359
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:05 UTC
+Profiles:        C3
+Recipe:          Savory Cheese Soufflé
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:05 ] Line 24 — done:  profile=C3 recipe=savory_cheese_souffle seed=20359
+[ 2025-09-01 20:10:05 ] Line 25 — start: profile=C3 recipe=fried_chicken seed=20339
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:06 UTC
+Profiles:        C3
+Recipe:          Buttermilk-Brined Southern Fried Chicken
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:06 ] Line 25 — done:  profile=C3 recipe=fried_chicken seed=20339
+[ 2025-09-01 20:10:06 ] Line 26 — start: profile=C1 recipe=parisian_gnocchi seed=20263
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:07 UTC
+Profiles:        C1
+Recipe:          Parisian Gnocchi
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:07 ] Line 26 — done:  profile=C1 recipe=parisian_gnocchi seed=20263
+[ 2025-09-01 20:10:07 ] Line 27 — start: profile=C1 recipe=fried_chicken seed=20279
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:08 UTC
+Profiles:        C1
+Recipe:          Buttermilk-Brined Southern Fried Chicken
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:08 ] Line 27 — done:  profile=C1 recipe=fried_chicken seed=20279
+[ 2025-09-01 20:10:08 ] Line 28 — start: profile=C1 recipe=pesto_alla_genovese seed=20306
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:08 UTC
+Profiles:        C1
+Recipe:          Pesto alla Genovese
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:08 ] Line 28 — done:  profile=C1 recipe=pesto_alla_genovese seed=20306
+[ 2025-09-01 20:10:08 ] Line 29 — start: profile=C3 recipe=duck_a_lorange seed=20342
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:09 UTC
+Profiles:        C3
+Recipe:          Duck à l’Orange
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:09 ] Line 29 — done:  profile=C3 recipe=duck_a_lorange seed=20342
+[ 2025-09-01 20:10:09 ] Line 30 — start: profile=C3 recipe=parisian_gnocchi seed=20329
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:10 UTC
+Profiles:        C3
+Recipe:          Parisian Gnocchi
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:10 ] Line 30 — done:  profile=C3 recipe=parisian_gnocchi seed=20329
+[ 2025-09-01 20:10:10 ] Line 31 — start: profile=C5 recipe=duck_a_lorange seed=20401
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:11 UTC
+Profiles:        C5
+Recipe:          Duck à l’Orange
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:11 ] Line 31 — done:  profile=C5 recipe=duck_a_lorange seed=20401
+[ 2025-09-01 20:10:11 ] Line 32 — start: profile=C5 recipe=apple_pie seed=20371
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:12 UTC
+Profiles:        C5
+Recipe:          Old-Fashioned Apple Pie
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:12 ] Line 32 — done:  profile=C5 recipe=apple_pie seed=20371
+[ 2025-09-01 20:10:12 ] Line 33 — start: profile=C5 recipe=apple_pie seed=20372
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:12 UTC
+Profiles:        C5
+Recipe:          Old-Fashioned Apple Pie
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:13 ] Line 33 — done:  profile=C5 recipe=apple_pie seed=20372
+[ 2025-09-01 20:10:13 ] Line 34 — start: profile=C1 recipe=apple_pie seed=20259
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:13 UTC
+Profiles:        C1
+Recipe:          Old-Fashioned Apple Pie
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:13 ] Line 34 — done:  profile=C1 recipe=apple_pie seed=20259
+[ 2025-09-01 20:10:13 ] Line 35 — start: profile=C3 recipe=savory_cheese_souffle seed=20356
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:14 UTC
+Profiles:        C3
+Recipe:          Savory Cheese Soufflé
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:14 ] Line 35 — done:  profile=C3 recipe=savory_cheese_souffle seed=20356
+[ 2025-09-01 20:10:14 ] Line 36 — start: profile=C1 recipe=parisian_gnocchi seed=20267
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:15 UTC
+Profiles:        C1
+Recipe:          Parisian Gnocchi
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:15 ] Line 36 — done:  profile=C1 recipe=parisian_gnocchi seed=20267
+[ 2025-09-01 20:10:15 ] Line 37 — start: profile=C1 recipe=fried_chicken seed=20280
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:16 UTC
+Profiles:        C1
+Recipe:          Buttermilk-Brined Southern Fried Chicken
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:16 ] Line 37 — done:  profile=C1 recipe=fried_chicken seed=20280
+[ 2025-09-01 20:10:16 ] Line 38 — start: profile=C3 recipe=pesto_alla_genovese seed=20364
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:17 UTC
+Profiles:        C3
+Recipe:          Pesto alla Genovese
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:17 ] Line 38 — done:  profile=C3 recipe=pesto_alla_genovese seed=20364
+[ 2025-09-01 20:10:17 ] Line 39 — start: profile=C5 recipe=apple_pie seed=20373
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:17 UTC
+Profiles:        C5
+Recipe:          Old-Fashioned Apple Pie
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:17 ] Line 39 — done:  profile=C5 recipe=apple_pie seed=20373
+[ 2025-09-01 20:10:17 ] Line 40 — start: profile=C1 recipe=parisian_gnocchi seed=20269
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:18 UTC
+Profiles:        C1
+Recipe:          Parisian Gnocchi
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:18 ] Line 40 — done:  profile=C1 recipe=parisian_gnocchi seed=20269
+[ 2025-09-01 20:10:18 ] Line 41 — start: profile=C1 recipe=savory_cheese_souffle seed=20293
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:19 UTC
+Profiles:        C1
+Recipe:          Savory Cheese Soufflé
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:19 ] Line 41 — done:  profile=C1 recipe=savory_cheese_souffle seed=20293
+[ 2025-09-01 20:10:19 ] Line 42 — start: profile=C3 recipe=apple_pie seed=20320
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:20 UTC
+Profiles:        C3
+Recipe:          Old-Fashioned Apple Pie
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:20 ] Line 42 — done:  profile=C3 recipe=apple_pie seed=20320
+[ 2025-09-01 20:10:20 ] Line 43 — start: profile=C1 recipe=duck_a_lorange seed=20285
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:21 UTC
+Profiles:        C1
+Recipe:          Duck à l’Orange
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:21 ] Line 43 — done:  profile=C1 recipe=duck_a_lorange seed=20285
+[ 2025-09-01 20:10:21 ] Line 44 — start: profile=C1 recipe=apple_pie seed=20256
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:22 UTC
+Profiles:        C1
+Recipe:          Old-Fashioned Apple Pie
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:22 ] Line 44 — done:  profile=C1 recipe=apple_pie seed=20256
+[ 2025-09-01 20:10:22 ] Line 45 — start: profile=C1 recipe=savory_cheese_souffle seed=20292
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:23 UTC
+Profiles:        C1
+Recipe:          Savory Cheese Soufflé
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:23 ] Line 45 — done:  profile=C1 recipe=savory_cheese_souffle seed=20292
+[ 2025-09-01 20:10:23 ] Line 46 — start: profile=C5 recipe=apple_pie seed=20374
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:24 UTC
+Profiles:        C5
+Recipe:          Old-Fashioned Apple Pie
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:24 ] Line 46 — done:  profile=C5 recipe=apple_pie seed=20374
+[ 2025-09-01 20:10:24 ] Line 47 — start: profile=C3 recipe=pesto_alla_genovese seed=20370
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:24 UTC
+Profiles:        C3
+Recipe:          Pesto alla Genovese
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:24 ] Line 47 — done:  profile=C3 recipe=pesto_alla_genovese seed=20370
+[ 2025-09-01 20:10:24 ] Line 48 — start: profile=C3 recipe=apple_pie seed=20312
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:25 UTC
+Profiles:        C3
+Recipe:          Old-Fashioned Apple Pie
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:25 ] Line 48 — done:  profile=C3 recipe=apple_pie seed=20312
+[ 2025-09-01 20:10:25 ] Line 49 — start: profile=C5 recipe=fried_chicken seed=20399
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:26 UTC
+Profiles:        C5
+Recipe:          Buttermilk-Brined Southern Fried Chicken
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:26 ] Line 49 — done:  profile=C5 recipe=fried_chicken seed=20399
+[ 2025-09-01 20:10:26 ] Line 50 — start: profile=C3 recipe=parisian_gnocchi seed=20322
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:27 UTC
+Profiles:        C3
+Recipe:          Parisian Gnocchi
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:27 ] Line 50 — done:  profile=C3 recipe=parisian_gnocchi seed=20322
+[ 2025-09-01 20:10:27 ] Line 51 — start: profile=C5 recipe=duck_a_lorange seed=20403
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:28 UTC
+Profiles:        C5
+Recipe:          Duck à l’Orange
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:28 ] Line 51 — done:  profile=C5 recipe=duck_a_lorange seed=20403
+[ 2025-09-01 20:10:28 ] Line 52 — start: profile=C5 recipe=pesto_alla_genovese seed=20423
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:29 UTC
+Profiles:        C5
+Recipe:          Pesto alla Genovese
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:29 ] Line 52 — done:  profile=C5 recipe=pesto_alla_genovese seed=20423
+[ 2025-09-01 20:10:29 ] Line 53 — start: profile=C3 recipe=savory_cheese_souffle seed=20352
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:30 UTC
+Profiles:        C3
+Recipe:          Savory Cheese Soufflé
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:30 ] Line 53 — done:  profile=C3 recipe=savory_cheese_souffle seed=20352
+[ 2025-09-01 20:10:30 ] Line 54 — start: profile=C5 recipe=duck_a_lorange seed=20405
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:30 UTC
+Profiles:        C5
+Recipe:          Duck à l’Orange
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:30 ] Line 54 — done:  profile=C5 recipe=duck_a_lorange seed=20405
+[ 2025-09-01 20:10:31 ] Line 55 — start: profile=C3 recipe=fried_chicken seed=20331
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:31 UTC
+Profiles:        C3
+Recipe:          Buttermilk-Brined Southern Fried Chicken
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:31 ] Line 55 — done:  profile=C3 recipe=fried_chicken seed=20331
+[ 2025-09-01 20:10:31 ] Line 56 — start: profile=C5 recipe=duck_a_lorange seed=20408
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:32 UTC
+Profiles:        C5
+Recipe:          Duck à l’Orange
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:32 ] Line 56 — done:  profile=C5 recipe=duck_a_lorange seed=20408
+[ 2025-09-01 20:10:32 ] Line 57 — start: profile=C1 recipe=pesto_alla_genovese seed=20307
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:33 UTC
+Profiles:        C1
+Recipe:          Pesto alla Genovese
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:33 ] Line 57 — done:  profile=C1 recipe=pesto_alla_genovese seed=20307
+[ 2025-09-01 20:10:33 ] Line 58 — start: profile=C5 recipe=savory_cheese_souffle seed=20419
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:34 UTC
+Profiles:        C5
+Recipe:          Savory Cheese Soufflé
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:34 ] Line 58 — done:  profile=C5 recipe=savory_cheese_souffle seed=20419
+[ 2025-09-01 20:10:34 ] Line 59 — start: profile=C3 recipe=duck_a_lorange seed=20350
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:35 UTC
+Profiles:        C3
+Recipe:          Duck à l’Orange
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:35 ] Line 59 — done:  profile=C3 recipe=duck_a_lorange seed=20350
+[ 2025-09-01 20:10:35 ] Line 60 — start: profile=C1 recipe=pesto_alla_genovese seed=20308
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:36 UTC
+Profiles:        C1
+Recipe:          Pesto alla Genovese
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:36 ] Line 60 — done:  profile=C1 recipe=pesto_alla_genovese seed=20308
+[ 2025-09-01 20:10:36 ] Line 61 — start: profile=C1 recipe=apple_pie seed=20258
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:36 UTC
+Profiles:        C1
+Recipe:          Old-Fashioned Apple Pie
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:36 ] Line 61 — done:  profile=C1 recipe=apple_pie seed=20258
+[ 2025-09-01 20:10:36 ] Line 62 — start: profile=C1 recipe=parisian_gnocchi seed=20264
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:37 UTC
+Profiles:        C1
+Recipe:          Parisian Gnocchi
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:37 ] Line 62 — done:  profile=C1 recipe=parisian_gnocchi seed=20264
+[ 2025-09-01 20:10:37 ] Line 63 — start: profile=C5 recipe=pesto_alla_genovese seed=20427
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:38 UTC
+Profiles:        C5
+Recipe:          Pesto alla Genovese
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:38 ] Line 63 — done:  profile=C5 recipe=pesto_alla_genovese seed=20427
+[ 2025-09-01 20:10:38 ] Line 64 — start: profile=C1 recipe=pesto_alla_genovese seed=20303
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:39 UTC
+Profiles:        C1
+Recipe:          Pesto alla Genovese
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:39 ] Line 64 — done:  profile=C1 recipe=pesto_alla_genovese seed=20303
+[ 2025-09-01 20:10:39 ] Line 65 — start: profile=C1 recipe=apple_pie seed=20253
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:40 UTC
+Profiles:        C1
+Recipe:          Old-Fashioned Apple Pie
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:40 ] Line 65 — done:  profile=C1 recipe=apple_pie seed=20253
+[ 2025-09-01 20:10:40 ] Line 66 — start: profile=C5 recipe=fried_chicken seed=20397
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:41 UTC
+Profiles:        C5
+Recipe:          Buttermilk-Brined Southern Fried Chicken
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:41 ] Line 66 — done:  profile=C5 recipe=fried_chicken seed=20397
+[ 2025-09-01 20:10:41 ] Line 67 — start: profile=C5 recipe=parisian_gnocchi seed=20381
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:41 UTC
+Profiles:        C5
+Recipe:          Parisian Gnocchi
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:41 ] Line 67 — done:  profile=C5 recipe=parisian_gnocchi seed=20381
+[ 2025-09-01 20:10:41 ] Line 68 — start: profile=C3 recipe=pesto_alla_genovese seed=20367
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:42 UTC
+Profiles:        C3
+Recipe:          Pesto alla Genovese
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:42 ] Line 68 — done:  profile=C3 recipe=pesto_alla_genovese seed=20367
+[ 2025-09-01 20:10:42 ] Line 69 — start: profile=C1 recipe=savory_cheese_souffle seed=20299
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:43 UTC
+Profiles:        C1
+Recipe:          Savory Cheese Soufflé
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:43 ] Line 69 — done:  profile=C1 recipe=savory_cheese_souffle seed=20299
+[ 2025-09-01 20:10:43 ] Line 70 — start: profile=C5 recipe=savory_cheese_souffle seed=20417
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:44 UTC
+Profiles:        C5
+Recipe:          Savory Cheese Soufflé
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:44 ] Line 70 — done:  profile=C5 recipe=savory_cheese_souffle seed=20417
+[ 2025-09-01 20:10:44 ] Line 71 — start: profile=C1 recipe=apple_pie seed=20260
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:45 UTC
+Profiles:        C1
+Recipe:          Old-Fashioned Apple Pie
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:45 ] Line 71 — done:  profile=C1 recipe=apple_pie seed=20260
+[ 2025-09-01 20:10:45 ] Line 72 — start: profile=C5 recipe=fried_chicken seed=20400
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:46 UTC
+Profiles:        C5
+Recipe:          Buttermilk-Brined Southern Fried Chicken
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:46 ] Line 72 — done:  profile=C5 recipe=fried_chicken seed=20400
+[ 2025-09-01 20:10:46 ] Line 73 — start: profile=C5 recipe=savory_cheese_souffle seed=20416
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:47 UTC
+Profiles:        C5
+Recipe:          Savory Cheese Soufflé
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:47 ] Line 73 — done:  profile=C5 recipe=savory_cheese_souffle seed=20416
+[ 2025-09-01 20:10:47 ] Line 74 — start: profile=C3 recipe=apple_pie seed=20318
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:47 UTC
+Profiles:        C3
+Recipe:          Old-Fashioned Apple Pie
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:47 ] Line 74 — done:  profile=C3 recipe=apple_pie seed=20318
+[ 2025-09-01 20:10:47 ] Line 75 — start: profile=C5 recipe=fried_chicken seed=20392
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:48 UTC
+Profiles:        C5
+Recipe:          Buttermilk-Brined Southern Fried Chicken
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:48 ] Line 75 — done:  profile=C5 recipe=fried_chicken seed=20392
+[ 2025-09-01 20:10:48 ] Line 76 — start: profile=C3 recipe=apple_pie seed=20311
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:49 UTC
+Profiles:        C3
+Recipe:          Old-Fashioned Apple Pie
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:49 ] Line 76 — done:  profile=C3 recipe=apple_pie seed=20311
+[ 2025-09-01 20:10:49 ] Line 77 — start: profile=C3 recipe=fried_chicken seed=20338
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:50 UTC
+Profiles:        C3
+Recipe:          Buttermilk-Brined Southern Fried Chicken
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:50 ] Line 77 — done:  profile=C3 recipe=fried_chicken seed=20338
+[ 2025-09-01 20:10:50 ] Line 78 — start: profile=C1 recipe=parisian_gnocchi seed=20261
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:51 UTC
+Profiles:        C1
+Recipe:          Parisian Gnocchi
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:51 ] Line 78 — done:  profile=C1 recipe=parisian_gnocchi seed=20261
+[ 2025-09-01 20:10:51 ] Line 79 — start: profile=C5 recipe=pesto_alla_genovese seed=20426
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:52 UTC
+Profiles:        C5
+Recipe:          Pesto alla Genovese
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:52 ] Line 79 — done:  profile=C5 recipe=pesto_alla_genovese seed=20426
+[ 2025-09-01 20:10:52 ] Line 80 — start: profile=C1 recipe=fried_chicken seed=20275
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:53 UTC
+Profiles:        C1
+Recipe:          Buttermilk-Brined Southern Fried Chicken
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:53 ] Line 80 — done:  profile=C1 recipe=fried_chicken seed=20275
+[ 2025-09-01 20:10:53 ] Line 81 — start: profile=C5 recipe=savory_cheese_souffle seed=20415
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:53 UTC
+Profiles:        C5
+Recipe:          Savory Cheese Soufflé
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:53 ] Line 81 — done:  profile=C5 recipe=savory_cheese_souffle seed=20415
+[ 2025-09-01 20:10:53 ] Line 82 — start: profile=C5 recipe=parisian_gnocchi seed=20390
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:54 UTC
+Profiles:        C5
+Recipe:          Parisian Gnocchi
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:54 ] Line 82 — done:  profile=C5 recipe=parisian_gnocchi seed=20390
+[ 2025-09-01 20:10:54 ] Line 83 — start: profile=C3 recipe=fried_chicken seed=20332
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:55 UTC
+Profiles:        C3
+Recipe:          Buttermilk-Brined Southern Fried Chicken
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:55 ] Line 83 — done:  profile=C3 recipe=fried_chicken seed=20332
+[ 2025-09-01 20:10:55 ] Line 84 — start: profile=C5 recipe=duck_a_lorange seed=20407
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:56 UTC
+Profiles:        C5
+Recipe:          Duck à l’Orange
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:56 ] Line 84 — done:  profile=C5 recipe=duck_a_lorange seed=20407
+[ 2025-09-01 20:10:56 ] Line 85 — start: profile=C5 recipe=apple_pie seed=20379
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:57 UTC
+Profiles:        C5
+Recipe:          Old-Fashioned Apple Pie
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:57 ] Line 85 — done:  profile=C5 recipe=apple_pie seed=20379
+[ 2025-09-01 20:10:57 ] Line 86 — start: profile=C3 recipe=apple_pie seed=20316
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:58 UTC
+Profiles:        C3
+Recipe:          Old-Fashioned Apple Pie
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:58 ] Line 86 — done:  profile=C3 recipe=apple_pie seed=20316
+[ 2025-09-01 20:10:58 ] Line 87 — start: profile=C3 recipe=fried_chicken seed=20334
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:58 UTC
+Profiles:        C3
+Recipe:          Buttermilk-Brined Southern Fried Chicken
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:58 ] Line 87 — done:  profile=C3 recipe=fried_chicken seed=20334
+[ 2025-09-01 20:10:58 ] Line 88 — start: profile=C1 recipe=pesto_alla_genovese seed=20302
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:10:59 UTC
+Profiles:        C1
+Recipe:          Pesto alla Genovese
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:10:59 ] Line 88 — done:  profile=C1 recipe=pesto_alla_genovese seed=20302
+[ 2025-09-01 20:10:59 ] Line 89 — start: profile=C3 recipe=pesto_alla_genovese seed=20365
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:00 UTC
+Profiles:        C3
+Recipe:          Pesto alla Genovese
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:00 ] Line 89 — done:  profile=C3 recipe=pesto_alla_genovese seed=20365
+[ 2025-09-01 20:11:00 ] Line 90 — start: profile=C3 recipe=parisian_gnocchi seed=20321
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:01 UTC
+Profiles:        C3
+Recipe:          Parisian Gnocchi
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:01 ] Line 90 — done:  profile=C3 recipe=parisian_gnocchi seed=20321
+[ 2025-09-01 20:11:01 ] Line 91 — start: profile=C3 recipe=parisian_gnocchi seed=20324
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:02 UTC
+Profiles:        C3
+Recipe:          Parisian Gnocchi
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:02 ] Line 91 — done:  profile=C3 recipe=parisian_gnocchi seed=20324
+[ 2025-09-01 20:11:02 ] Line 92 — start: profile=C1 recipe=savory_cheese_souffle seed=20291
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:03 UTC
+Profiles:        C1
+Recipe:          Savory Cheese Soufflé
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:03 ] Line 92 — done:  profile=C1 recipe=savory_cheese_souffle seed=20291
+[ 2025-09-01 20:11:03 ] Line 93 — start: profile=C1 recipe=duck_a_lorange seed=20284
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:03 UTC
+Profiles:        C1
+Recipe:          Duck à l’Orange
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:04 ] Line 93 — done:  profile=C1 recipe=duck_a_lorange seed=20284
+[ 2025-09-01 20:11:04 ] Line 94 — start: profile=C3 recipe=parisian_gnocchi seed=20325
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:04 UTC
+Profiles:        C3
+Recipe:          Parisian Gnocchi
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:04 ] Line 94 — done:  profile=C3 recipe=parisian_gnocchi seed=20325
+[ 2025-09-01 20:11:04 ] Line 95 — start: profile=C1 recipe=duck_a_lorange seed=20287
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:05 UTC
+Profiles:        C1
+Recipe:          Duck à l’Orange
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:05 ] Line 95 — done:  profile=C1 recipe=duck_a_lorange seed=20287
+[ 2025-09-01 20:11:05 ] Line 96 — start: profile=C1 recipe=fried_chicken seed=20278
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:06 UTC
+Profiles:        C1
+Recipe:          Buttermilk-Brined Southern Fried Chicken
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:06 ] Line 96 — done:  profile=C1 recipe=fried_chicken seed=20278
+[ 2025-09-01 20:11:06 ] Line 97 — start: profile=C1 recipe=apple_pie seed=20254
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:07 UTC
+Profiles:        C1
+Recipe:          Old-Fashioned Apple Pie
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:07 ] Line 97 — done:  profile=C1 recipe=apple_pie seed=20254
+[ 2025-09-01 20:11:07 ] Line 98 — start: profile=C5 recipe=fried_chicken seed=20394
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:08 UTC
+Profiles:        C5
+Recipe:          Buttermilk-Brined Southern Fried Chicken
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:08 ] Line 98 — done:  profile=C5 recipe=fried_chicken seed=20394
+[ 2025-09-01 20:11:08 ] Line 99 — start: profile=C3 recipe=fried_chicken seed=20337
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:08 UTC
+Profiles:        C3
+Recipe:          Buttermilk-Brined Southern Fried Chicken
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:08 ] Line 99 — done:  profile=C3 recipe=fried_chicken seed=20337
+[ 2025-09-01 20:11:09 ] Line 100 — start: profile=C5 recipe=parisian_gnocchi seed=20389
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:09 UTC
+Profiles:        C5
+Recipe:          Parisian Gnocchi
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:09 ] Line 100 — done:  profile=C5 recipe=parisian_gnocchi seed=20389
+[ 2025-09-01 20:11:09 ] Line 101 — start: profile=C3 recipe=savory_cheese_souffle seed=20358
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:10 UTC
+Profiles:        C3
+Recipe:          Savory Cheese Soufflé
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:10 ] Line 101 — done:  profile=C3 recipe=savory_cheese_souffle seed=20358
+[ 2025-09-01 20:11:10 ] Line 102 — start: profile=C1 recipe=duck_a_lorange seed=20286
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:11 UTC
+Profiles:        C1
+Recipe:          Duck à l’Orange
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:11 ] Line 102 — done:  profile=C1 recipe=duck_a_lorange seed=20286
+[ 2025-09-01 20:11:11 ] Line 103 — start: profile=C5 recipe=parisian_gnocchi seed=20383
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:12 UTC
+Profiles:        C5
+Recipe:          Parisian Gnocchi
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:12 ] Line 103 — done:  profile=C5 recipe=parisian_gnocchi seed=20383
+[ 2025-09-01 20:11:12 ] Line 104 — start: profile=C1 recipe=fried_chicken seed=20276
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:13 UTC
+Profiles:        C1
+Recipe:          Buttermilk-Brined Southern Fried Chicken
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:13 ] Line 104 — done:  profile=C1 recipe=fried_chicken seed=20276
+[ 2025-09-01 20:11:13 ] Line 105 — start: profile=C3 recipe=duck_a_lorange seed=20347
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:14 UTC
+Profiles:        C3
+Recipe:          Duck à l’Orange
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:14 ] Line 105 — done:  profile=C3 recipe=duck_a_lorange seed=20347
+[ 2025-09-01 20:11:14 ] Line 106 — start: profile=C3 recipe=duck_a_lorange seed=20349
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:15 UTC
+Profiles:        C3
+Recipe:          Duck à l’Orange
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:15 ] Line 106 — done:  profile=C3 recipe=duck_a_lorange seed=20349
+[ 2025-09-01 20:11:15 ] Line 107 — start: profile=C1 recipe=parisian_gnocchi seed=20265
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:15 UTC
+Profiles:        C1
+Recipe:          Parisian Gnocchi
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:15 ] Line 107 — done:  profile=C1 recipe=parisian_gnocchi seed=20265
+[ 2025-09-01 20:11:15 ] Line 108 — start: profile=C1 recipe=apple_pie seed=20255
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:16 UTC
+Profiles:        C1
+Recipe:          Old-Fashioned Apple Pie
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:16 ] Line 108 — done:  profile=C1 recipe=apple_pie seed=20255
+[ 2025-09-01 20:11:16 ] Line 109 — start: profile=C1 recipe=parisian_gnocchi seed=20268
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:17 UTC
+Profiles:        C1
+Recipe:          Parisian Gnocchi
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:17 ] Line 109 — done:  profile=C1 recipe=parisian_gnocchi seed=20268
+[ 2025-09-01 20:11:17 ] Line 110 — start: profile=C5 recipe=duck_a_lorange seed=20410
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:18 UTC
+Profiles:        C5
+Recipe:          Duck à l’Orange
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:18 ] Line 110 — done:  profile=C5 recipe=duck_a_lorange seed=20410
+[ 2025-09-01 20:11:18 ] Line 111 — start: profile=C1 recipe=duck_a_lorange seed=20281
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:19 UTC
+Profiles:        C1
+Recipe:          Duck à l’Orange
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:19 ] Line 111 — done:  profile=C1 recipe=duck_a_lorange seed=20281
+[ 2025-09-01 20:11:19 ] Line 112 — start: profile=C3 recipe=parisian_gnocchi seed=20330
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:20 UTC
+Profiles:        C3
+Recipe:          Parisian Gnocchi
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:20 ] Line 112 — done:  profile=C3 recipe=parisian_gnocchi seed=20330
+[ 2025-09-01 20:11:20 ] Line 113 — start: profile=C5 recipe=fried_chicken seed=20396
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:20 UTC
+Profiles:        C5
+Recipe:          Buttermilk-Brined Southern Fried Chicken
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:21 ] Line 113 — done:  profile=C5 recipe=fried_chicken seed=20396
+[ 2025-09-01 20:11:21 ] Line 114 — start: profile=C5 recipe=duck_a_lorange seed=20402
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:21 UTC
+Profiles:        C5
+Recipe:          Duck à l’Orange
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:21 ] Line 114 — done:  profile=C5 recipe=duck_a_lorange seed=20402
+[ 2025-09-01 20:11:21 ] Line 115 — start: profile=C1 recipe=duck_a_lorange seed=20289
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:22 UTC
+Profiles:        C1
+Recipe:          Duck à l’Orange
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:22 ] Line 115 — done:  profile=C1 recipe=duck_a_lorange seed=20289
+[ 2025-09-01 20:11:22 ] Line 116 — start: profile=C3 recipe=fried_chicken seed=20340
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:23 UTC
+Profiles:        C3
+Recipe:          Buttermilk-Brined Southern Fried Chicken
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:23 ] Line 116 — done:  profile=C3 recipe=fried_chicken seed=20340
+[ 2025-09-01 20:11:23 ] Line 117 — start: profile=C3 recipe=fried_chicken seed=20335
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:24 UTC
+Profiles:        C3
+Recipe:          Buttermilk-Brined Southern Fried Chicken
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:24 ] Line 117 — done:  profile=C3 recipe=fried_chicken seed=20335
+[ 2025-09-01 20:11:24 ] Line 118 — start: profile=C5 recipe=duck_a_lorange seed=20406
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:25 UTC
+Profiles:        C5
+Recipe:          Duck à l’Orange
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:25 ] Line 118 — done:  profile=C5 recipe=duck_a_lorange seed=20406
+[ 2025-09-01 20:11:25 ] Line 119 — start: profile=C3 recipe=savory_cheese_souffle seed=20360
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:25 UTC
+Profiles:        C3
+Recipe:          Savory Cheese Soufflé
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:25 ] Line 119 — done:  profile=C3 recipe=savory_cheese_souffle seed=20360
+[ 2025-09-01 20:11:25 ] Line 120 — start: profile=C1 recipe=fried_chicken seed=20273
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:26 UTC
+Profiles:        C1
+Recipe:          Buttermilk-Brined Southern Fried Chicken
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:26 ] Line 120 — done:  profile=C1 recipe=fried_chicken seed=20273
+[ 2025-09-01 20:11:26 ] Line 121 — start: profile=C5 recipe=pesto_alla_genovese seed=20422
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:27 UTC
+Profiles:        C5
+Recipe:          Pesto alla Genovese
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:27 ] Line 121 — done:  profile=C5 recipe=pesto_alla_genovese seed=20422
+[ 2025-09-01 20:11:27 ] Line 122 — start: profile=C5 recipe=parisian_gnocchi seed=20382
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:28 UTC
+Profiles:        C5
+Recipe:          Parisian Gnocchi
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:28 ] Line 122 — done:  profile=C5 recipe=parisian_gnocchi seed=20382
+[ 2025-09-01 20:11:28 ] Line 123 — start: profile=C3 recipe=savory_cheese_souffle seed=20355
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:29 UTC
+Profiles:        C3
+Recipe:          Savory Cheese Soufflé
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:29 ] Line 123 — done:  profile=C3 recipe=savory_cheese_souffle seed=20355
+[ 2025-09-01 20:11:29 ] Line 124 — start: profile=C5 recipe=pesto_alla_genovese seed=20430
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:30 UTC
+Profiles:        C5
+Recipe:          Pesto alla Genovese
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:30 ] Line 124 — done:  profile=C5 recipe=pesto_alla_genovese seed=20430
+[ 2025-09-01 20:11:30 ] Line 125 — start: profile=C5 recipe=fried_chicken seed=20393
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:30 UTC
+Profiles:        C5
+Recipe:          Buttermilk-Brined Southern Fried Chicken
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:31 ] Line 125 — done:  profile=C5 recipe=fried_chicken seed=20393
+[ 2025-09-01 20:11:31 ] Line 126 — start: profile=C5 recipe=apple_pie seed=20377
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:31 UTC
+Profiles:        C5
+Recipe:          Old-Fashioned Apple Pie
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:31 ] Line 126 — done:  profile=C5 recipe=apple_pie seed=20377
+[ 2025-09-01 20:11:31 ] Line 127 — start: profile=C1 recipe=savory_cheese_souffle seed=20297
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:32 UTC
+Profiles:        C1
+Recipe:          Savory Cheese Soufflé
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:32 ] Line 127 — done:  profile=C1 recipe=savory_cheese_souffle seed=20297
+[ 2025-09-01 20:11:32 ] Line 128 — start: profile=C3 recipe=duck_a_lorange seed=20346
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:33 UTC
+Profiles:        C3
+Recipe:          Duck à l’Orange
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:33 ] Line 128 — done:  profile=C3 recipe=duck_a_lorange seed=20346
+[ 2025-09-01 20:11:33 ] Line 129 — start: profile=C1 recipe=pesto_alla_genovese seed=20304
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:34 UTC
+Profiles:        C1
+Recipe:          Pesto alla Genovese
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:34 ] Line 129 — done:  profile=C1 recipe=pesto_alla_genovese seed=20304
+[ 2025-09-01 20:11:34 ] Line 130 — start: profile=C1 recipe=parisian_gnocchi seed=20266
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:35 UTC
+Profiles:        C1
+Recipe:          Parisian Gnocchi
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:35 ] Line 130 — done:  profile=C1 recipe=parisian_gnocchi seed=20266
+[ 2025-09-01 20:11:35 ] Line 131 — start: profile=C3 recipe=savory_cheese_souffle seed=20354
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:36 UTC
+Profiles:        C3
+Recipe:          Savory Cheese Soufflé
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:36 ] Line 131 — done:  profile=C3 recipe=savory_cheese_souffle seed=20354
+[ 2025-09-01 20:11:36 ] Line 132 — start: profile=C5 recipe=savory_cheese_souffle seed=20414
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:37 UTC
+Profiles:        C5
+Recipe:          Savory Cheese Soufflé
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:37 ] Line 132 — done:  profile=C5 recipe=savory_cheese_souffle seed=20414
+[ 2025-09-01 20:11:37 ] Line 133 — start: profile=C5 recipe=parisian_gnocchi seed=20384
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:37 UTC
+Profiles:        C5
+Recipe:          Parisian Gnocchi
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:37 ] Line 133 — done:  profile=C5 recipe=parisian_gnocchi seed=20384
+[ 2025-09-01 20:11:37 ] Line 134 — start: profile=C3 recipe=savory_cheese_souffle seed=20351
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:38 UTC
+Profiles:        C3
+Recipe:          Savory Cheese Soufflé
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:38 ] Line 134 — done:  profile=C3 recipe=savory_cheese_souffle seed=20351
+[ 2025-09-01 20:11:38 ] Line 135 — start: profile=C3 recipe=savory_cheese_souffle seed=20357
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:39 UTC
+Profiles:        C3
+Recipe:          Savory Cheese Soufflé
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:39 ] Line 135 — done:  profile=C3 recipe=savory_cheese_souffle seed=20357
+[ 2025-09-01 20:11:39 ] Line 136 — start: profile=C3 recipe=parisian_gnocchi seed=20326
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:40 UTC
+Profiles:        C3
+Recipe:          Parisian Gnocchi
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:40 ] Line 136 — done:  profile=C3 recipe=parisian_gnocchi seed=20326
+[ 2025-09-01 20:11:40 ] Line 137 — start: profile=C5 recipe=apple_pie seed=20375
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:41 UTC
+Profiles:        C5
+Recipe:          Old-Fashioned Apple Pie
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:41 ] Line 137 — done:  profile=C5 recipe=apple_pie seed=20375
+[ 2025-09-01 20:11:41 ] Line 138 — start: profile=C5 recipe=pesto_alla_genovese seed=20424
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:42 UTC
+Profiles:        C5
+Recipe:          Pesto alla Genovese
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:42 ] Line 138 — done:  profile=C5 recipe=pesto_alla_genovese seed=20424
+[ 2025-09-01 20:11:42 ] Line 139 — start: profile=C5 recipe=parisian_gnocchi seed=20385
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:43 UTC
+Profiles:        C5
+Recipe:          Parisian Gnocchi
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:43 ] Line 139 — done:  profile=C5 recipe=parisian_gnocchi seed=20385
+[ 2025-09-01 20:11:43 ] Line 140 — start: profile=C1 recipe=duck_a_lorange seed=20283
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:43 UTC
+Profiles:        C1
+Recipe:          Duck à l’Orange
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:44 ] Line 140 — done:  profile=C1 recipe=duck_a_lorange seed=20283
+[ 2025-09-01 20:11:44 ] Line 141 — start: profile=C1 recipe=apple_pie seed=20257
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:44 UTC
+Profiles:        C1
+Recipe:          Old-Fashioned Apple Pie
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:44 ] Line 141 — done:  profile=C1 recipe=apple_pie seed=20257
+[ 2025-09-01 20:11:44 ] Line 142 — start: profile=C3 recipe=apple_pie seed=20319
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:45 UTC
+Profiles:        C3
+Recipe:          Old-Fashioned Apple Pie
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:45 ] Line 142 — done:  profile=C3 recipe=apple_pie seed=20319
+[ 2025-09-01 20:11:45 ] Line 143 — start: profile=C3 recipe=savory_cheese_souffle seed=20353
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:46 UTC
+Profiles:        C3
+Recipe:          Savory Cheese Soufflé
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:46 ] Line 143 — done:  profile=C3 recipe=savory_cheese_souffle seed=20353
+[ 2025-09-01 20:11:46 ] Line 144 — start: profile=C3 recipe=duck_a_lorange seed=20343
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:47 UTC
+Profiles:        C3
+Recipe:          Duck à l’Orange
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:47 ] Line 144 — done:  profile=C3 recipe=duck_a_lorange seed=20343
+[ 2025-09-01 20:11:47 ] Line 145 — start: profile=C5 recipe=pesto_alla_genovese seed=20429
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:48 UTC
+Profiles:        C5
+Recipe:          Pesto alla Genovese
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:48 ] Line 145 — done:  profile=C5 recipe=pesto_alla_genovese seed=20429
+[ 2025-09-01 20:11:48 ] Line 146 — start: profile=C5 recipe=pesto_alla_genovese seed=20425
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:48 UTC
+Profiles:        C5
+Recipe:          Pesto alla Genovese
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:49 ] Line 146 — done:  profile=C5 recipe=pesto_alla_genovese seed=20425
+[ 2025-09-01 20:11:49 ] Line 147 — start: profile=C1 recipe=parisian_gnocchi seed=20262
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:49 UTC
+Profiles:        C1
+Recipe:          Parisian Gnocchi
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:49 ] Line 147 — done:  profile=C1 recipe=parisian_gnocchi seed=20262
+[ 2025-09-01 20:11:49 ] Line 148 — start: profile=C1 recipe=apple_pie seed=20251
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:50 UTC
+Profiles:        C1
+Recipe:          Old-Fashioned Apple Pie
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:50 ] Line 148 — done:  profile=C1 recipe=apple_pie seed=20251
+[ 2025-09-01 20:11:50 ] Line 149 — start: profile=C1 recipe=savory_cheese_souffle seed=20298
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:51 UTC
+Profiles:        C1
+Recipe:          Savory Cheese Soufflé
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:51 ] Line 149 — done:  profile=C1 recipe=savory_cheese_souffle seed=20298
+[ 2025-09-01 20:11:51 ] Line 150 — start: profile=C3 recipe=parisian_gnocchi seed=20323
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:52 UTC
+Profiles:        C3
+Recipe:          Parisian Gnocchi
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:52 ] Line 150 — done:  profile=C3 recipe=parisian_gnocchi seed=20323
+[ 2025-09-01 20:11:52 ] Line 151 — start: profile=C1 recipe=savory_cheese_souffle seed=20295
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:53 UTC
+Profiles:        C1
+Recipe:          Savory Cheese Soufflé
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:53 ] Line 151 — done:  profile=C1 recipe=savory_cheese_souffle seed=20295
+[ 2025-09-01 20:11:53 ] Line 152 — start: profile=C1 recipe=savory_cheese_souffle seed=20294
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:54 UTC
+Profiles:        C1
+Recipe:          Savory Cheese Soufflé
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:54 ] Line 152 — done:  profile=C1 recipe=savory_cheese_souffle seed=20294
+[ 2025-09-01 20:11:54 ] Line 153 — start: profile=C1 recipe=fried_chicken seed=20277
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:55 UTC
+Profiles:        C1
+Recipe:          Buttermilk-Brined Southern Fried Chicken
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:55 ] Line 153 — done:  profile=C1 recipe=fried_chicken seed=20277
+[ 2025-09-01 20:11:55 ] Line 154 — start: profile=C3 recipe=fried_chicken seed=20336
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:56 UTC
+Profiles:        C3
+Recipe:          Buttermilk-Brined Southern Fried Chicken
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:56 ] Line 154 — done:  profile=C3 recipe=fried_chicken seed=20336
+[ 2025-09-01 20:11:56 ] Line 155 — start: profile=C5 recipe=savory_cheese_souffle seed=20420
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:56 UTC
+Profiles:        C5
+Recipe:          Savory Cheese Soufflé
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:56 ] Line 155 — done:  profile=C5 recipe=savory_cheese_souffle seed=20420
+[ 2025-09-01 20:11:56 ] Line 156 — start: profile=C3 recipe=parisian_gnocchi seed=20327
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:57 UTC
+Profiles:        C3
+Recipe:          Parisian Gnocchi
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:57 ] Line 156 — done:  profile=C3 recipe=parisian_gnocchi seed=20327
+[ 2025-09-01 20:11:57 ] Line 157 — start: profile=C3 recipe=duck_a_lorange seed=20348
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:58 UTC
+Profiles:        C3
+Recipe:          Duck à l’Orange
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:58 ] Line 157 — done:  profile=C3 recipe=duck_a_lorange seed=20348
+[ 2025-09-01 20:11:58 ] Line 158 — start: profile=C3 recipe=fried_chicken seed=20333
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:11:59 UTC
+Profiles:        C3
+Recipe:          Buttermilk-Brined Southern Fried Chicken
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:11:59 ] Line 158 — done:  profile=C3 recipe=fried_chicken seed=20333
+[ 2025-09-01 20:11:59 ] Line 159 — start: profile=C3 recipe=duck_a_lorange seed=20345
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:12:00 UTC
+Profiles:        C3
+Recipe:          Duck à l’Orange
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:12:00 ] Line 159 — done:  profile=C3 recipe=duck_a_lorange seed=20345
+[ 2025-09-01 20:12:00 ] Line 160 — start: profile=C1 recipe=fried_chicken seed=20274
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:12:01 UTC
+Profiles:        C1
+Recipe:          Buttermilk-Brined Southern Fried Chicken
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:12:01 ] Line 160 — done:  profile=C1 recipe=fried_chicken seed=20274
+[ 2025-09-01 20:12:01 ] Line 161 — start: profile=C1 recipe=fried_chicken seed=20272
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:12:01 UTC
+Profiles:        C1
+Recipe:          Buttermilk-Brined Southern Fried Chicken
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:12:01 ] Line 161 — done:  profile=C1 recipe=fried_chicken seed=20272
+[ 2025-09-01 20:12:01 ] Line 162 — start: profile=C3 recipe=apple_pie seed=20315
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:12:02 UTC
+Profiles:        C3
+Recipe:          Old-Fashioned Apple Pie
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:12:02 ] Line 162 — done:  profile=C3 recipe=apple_pie seed=20315
+[ 2025-09-01 20:12:02 ] Line 163 — start: profile=C5 recipe=apple_pie seed=20378
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:12:03 UTC
+Profiles:        C5
+Recipe:          Old-Fashioned Apple Pie
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:12:03 ] Line 163 — done:  profile=C5 recipe=apple_pie seed=20378
+[ 2025-09-01 20:12:03 ] Line 164 — start: profile=C3 recipe=pesto_alla_genovese seed=20366
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:12:04 UTC
+Profiles:        C3
+Recipe:          Pesto alla Genovese
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:12:04 ] Line 164 — done:  profile=C3 recipe=pesto_alla_genovese seed=20366
+[ 2025-09-01 20:12:04 ] Line 165 — start: profile=C3 recipe=apple_pie seed=20317
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:12:05 UTC
+Profiles:        C3
+Recipe:          Old-Fashioned Apple Pie
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:12:05 ] Line 165 — done:  profile=C3 recipe=apple_pie seed=20317
+[ 2025-09-01 20:12:05 ] Line 166 — start: profile=C1 recipe=duck_a_lorange seed=20290
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:12:06 UTC
+Profiles:        C1
+Recipe:          Duck à l’Orange
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:12:06 ] Line 166 — done:  profile=C1 recipe=duck_a_lorange seed=20290
+[ 2025-09-01 20:12:06 ] Line 167 — start: profile=C5 recipe=apple_pie seed=20376
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:12:07 UTC
+Profiles:        C5
+Recipe:          Old-Fashioned Apple Pie
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:12:07 ] Line 167 — done:  profile=C5 recipe=apple_pie seed=20376
+[ 2025-09-01 20:12:07 ] Line 168 — start: profile=C1 recipe=pesto_alla_genovese seed=20301
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:12:07 UTC
+Profiles:        C1
+Recipe:          Pesto alla Genovese
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:12:07 ] Line 168 — done:  profile=C1 recipe=pesto_alla_genovese seed=20301
+[ 2025-09-01 20:12:07 ] Line 169 — start: profile=C5 recipe=parisian_gnocchi seed=20386
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:12:08 UTC
+Profiles:        C5
+Recipe:          Parisian Gnocchi
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:12:08 ] Line 169 — done:  profile=C5 recipe=parisian_gnocchi seed=20386
+[ 2025-09-01 20:12:08 ] Line 170 — start: profile=C5 recipe=duck_a_lorange seed=20409
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:12:09 UTC
+Profiles:        C5
+Recipe:          Duck à l’Orange
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:12:09 ] Line 170 — done:  profile=C5 recipe=duck_a_lorange seed=20409
+[ 2025-09-01 20:12:09 ] Line 171 — start: profile=C1 recipe=fried_chicken seed=20271
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:12:10 UTC
+Profiles:        C1
+Recipe:          Buttermilk-Brined Southern Fried Chicken
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:12:10 ] Line 171 — done:  profile=C1 recipe=fried_chicken seed=20271
+[ 2025-09-01 20:12:10 ] Line 172 — start: profile=C5 recipe=savory_cheese_souffle seed=20411
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:12:11 UTC
+Profiles:        C5
+Recipe:          Savory Cheese Soufflé
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:12:11 ] Line 172 — done:  profile=C5 recipe=savory_cheese_souffle seed=20411
+[ 2025-09-01 20:12:11 ] Line 173 — start: profile=C1 recipe=pesto_alla_genovese seed=20305
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:12:12 UTC
+Profiles:        C1
+Recipe:          Pesto alla Genovese
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:12:12 ] Line 173 — done:  profile=C1 recipe=pesto_alla_genovese seed=20305
+[ 2025-09-01 20:12:12 ] Line 174 — start: profile=C5 recipe=savory_cheese_souffle seed=20412
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:12:12 UTC
+Profiles:        C5
+Recipe:          Savory Cheese Soufflé
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:12:12 ] Line 174 — done:  profile=C5 recipe=savory_cheese_souffle seed=20412
+[ 2025-09-01 20:12:13 ] Line 175 — start: profile=C1 recipe=savory_cheese_souffle seed=20300
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:12:13 UTC
+Profiles:        C1
+Recipe:          Savory Cheese Soufflé
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:12:13 ] Line 175 — done:  profile=C1 recipe=savory_cheese_souffle seed=20300
+[ 2025-09-01 20:12:13 ] Line 176 — start: profile=C3 recipe=apple_pie seed=20314
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:12:14 UTC
+Profiles:        C3
+Recipe:          Old-Fashioned Apple Pie
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:12:14 ] Line 176 — done:  profile=C3 recipe=apple_pie seed=20314
+[ 2025-09-01 20:12:14 ] Line 177 — start: profile=C5 recipe=fried_chicken seed=20398
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:12:15 UTC
+Profiles:        C5
+Recipe:          Buttermilk-Brined Southern Fried Chicken
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:12:15 ] Line 177 — done:  profile=C5 recipe=fried_chicken seed=20398
+[ 2025-09-01 20:12:15 ] Line 178 — start: profile=C1 recipe=pesto_alla_genovese seed=20309
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:12:16 UTC
+Profiles:        C1
+Recipe:          Pesto alla Genovese
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:12:16 ] Line 178 — done:  profile=C1 recipe=pesto_alla_genovese seed=20309
+[ 2025-09-01 20:12:16 ] Line 179 — start: profile=C5 recipe=duck_a_lorange seed=20404
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:12:17 UTC
+Profiles:        C5
+Recipe:          Duck à l’Orange
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:12:17 ] Line 179 — done:  profile=C5 recipe=duck_a_lorange seed=20404
+[ 2025-09-01 20:12:17 ] Line 180 — start: profile=C5 recipe=pesto_alla_genovese seed=20421
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 20:12:17 UTC
+Profiles:        C5
+Recipe:          Pesto alla Genovese
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_20250901_200945
+================================
+
+Error in row$recipe_title : object of type 'closure' is not subsettable
+Calls: run_batch -> run_one_conversation -> cat -> unique
+Execution halted
+[ 2025-09-01 20:12:18 ] Line 180 — done:  profile=C5 recipe=pesto_alla_genovese seed=20421
+[ 2025-09-01 20:12:18 ] All scheduled runs completed.

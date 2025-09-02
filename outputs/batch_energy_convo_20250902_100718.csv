@@ -1,0 +1,4 @@
+cluster,conversation_id,model_agent,energy_Wh_total,agent_turns,mean_W_mean,peak_W_max
+C1_Hyperpolite,C1_Hyperpolite__OldFashionedApplePie__seed20251,deepseek-r1:8b,NA,12,NA,NA
+C3_DirectLowPoliteness,C3_DirectLowPoliteness__OldFashionedApplePie__seed20251,deepseek-r1:8b,NA,7,NA,NA
+C5_Impolite,C5_Impolite__OldFashionedApplePie__seed20251,deepseek-r1:8b,NA,11,NA,NA

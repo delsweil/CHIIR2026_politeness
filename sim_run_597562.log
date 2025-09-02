@@ -1,0 +1,566 @@
+========== RUN CONFIG ==========
+UTC time:      2025-09-02 10:48:49 UTC
+User model:    llama3:70b
+Agent model:   deepseek-r1:8b
+Energy:        1
+Out dir:       /home/david/sim_runs/test_20250902_104849
+Schedule:      run_schedule.tsv
+Log:           sim_run_597562.log
+================================
+[ 2025-09-02 10:48:49 ] Line 1 — start: profile=C1 recipe=pesto_alla_genovese seed=20310
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-02 10:48:50 UTC
+Profiles:        C1
+Recipe:          Pesto alla Genovese
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20310
+Output dir:      /home/david/sim_runs/test_20250902_104849
+================================
+
+[2025-09-02 10:48:50] Starting conversation:C1_Hyperpolite__PestoallaGenovese__seed20311 | recipe:Pesto alla Genovese | user:llama3:70b | agent:deepseek-r1:8b | energy:ON
+
+=== Engagement (per cluster) ===
+# A tibble: 1 × 5
+  cluster       steps_with_questions steps_with_agent_reply steps_proceeded_no_q
+  <chr>                        <dbl>                  <dbl>                <dbl>
+1 C1_Hyperpoli…                    1                      1                    0
+# ℹ 1 more variable: avg_questions_per_step <dbl>
+
+[Done] Files written to: /home/david/sim_runs/test_20250902_104849
+[ 2025-09-02 10:49:48 ] Line 1 — done:  profile=C1 recipe=pesto_alla_genovese seed=20310
+[ 2025-09-02 10:49:48 ] Line 2 — start: profile=C3 recipe=parisian_gnocchi seed=20328
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-02 10:49:49 UTC
+Profiles:        C3
+Recipe:          Parisian Gnocchi
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20328
+Output dir:      /home/david/sim_runs/test_20250902_104849
+================================
+
+[2025-09-02 10:49:49] Starting conversation:C3_DirectLowPoliteness__ParisianGnocchi__seed20329 | recipe:Parisian Gnocchi | user:llama3:70b | agent:deepseek-r1:8b | energy:ON
+
+=== Engagement (per cluster) ===
+# A tibble: 1 × 5
+  cluster       steps_with_questions steps_with_agent_reply steps_proceeded_no_q
+  <chr>                        <dbl>                  <dbl>                <dbl>
+1 C3_DirectLow…                  0.8                    0.8                  0.2
+# ℹ 1 more variable: avg_questions_per_step <dbl>
+
+[Done] Files written to: /home/david/sim_runs/test_20250902_104849
+[ 2025-09-02 10:50:18 ] Line 2 — done:  profile=C3 recipe=parisian_gnocchi seed=20328
+[ 2025-09-02 10:50:18 ] Line 3 — start: profile=C1 recipe=parisian_gnocchi seed=20270
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-02 10:50:19 UTC
+Profiles:        C1
+Recipe:          Parisian Gnocchi
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20270
+Output dir:      /home/david/sim_runs/test_20250902_104849
+================================
+
+[2025-09-02 10:50:19] Starting conversation:C1_Hyperpolite__ParisianGnocchi__seed20271 | recipe:Parisian Gnocchi | user:llama3:70b | agent:deepseek-r1:8b | energy:ON
+
+=== Engagement (per cluster) ===
+# A tibble: 1 × 5
+  cluster       steps_with_questions steps_with_agent_reply steps_proceeded_no_q
+  <chr>                        <dbl>                  <dbl>                <dbl>
+1 C1_Hyperpoli…                    1                      1                    0
+# ℹ 1 more variable: avg_questions_per_step <dbl>
+
+[Done] Files written to: /home/david/sim_runs/test_20250902_104849
+[ 2025-09-02 10:51:05 ] Line 3 — done:  profile=C1 recipe=parisian_gnocchi seed=20270
+[ 2025-09-02 10:51:05 ] Line 4 — start: profile=C1 recipe=duck_a_lorange seed=20282
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-02 10:51:06 UTC
+Profiles:        C1
+Recipe:          Duck à l’Orange
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20282
+Output dir:      /home/david/sim_runs/test_20250902_104849
+================================
+
+[2025-09-02 10:51:06] Starting conversation:C1_Hyperpolite__DucklOrange__seed20283 | recipe:Duck à l’Orange | user:llama3:70b | agent:deepseek-r1:8b | energy:ON
+
+=== Engagement (per cluster) ===
+# A tibble: 1 × 5
+  cluster       steps_with_questions steps_with_agent_reply steps_proceeded_no_q
+  <chr>                        <dbl>                  <dbl>                <dbl>
+1 C1_Hyperpoli…                    1                      1                    0
+# ℹ 1 more variable: avg_questions_per_step <dbl>
+
+[Done] Files written to: /home/david/sim_runs/test_20250902_104849
+[ 2025-09-02 10:52:31 ] Line 4 — done:  profile=C1 recipe=duck_a_lorange seed=20282
+[ 2025-09-02 10:52:31 ] Line 5 — start: profile=C3 recipe=duck_a_lorange seed=20341
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-02 10:52:32 UTC
+Profiles:        C3
+Recipe:          Duck à l’Orange
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20341
+Output dir:      /home/david/sim_runs/test_20250902_104849
+================================
+
+[2025-09-02 10:52:32] Starting conversation:C3_DirectLowPoliteness__DucklOrange__seed20342 | recipe:Duck à l’Orange | user:llama3:70b | agent:deepseek-r1:8b | energy:ON
+
+=== Engagement (per cluster) ===
+# A tibble: 1 × 5
+  cluster       steps_with_questions steps_with_agent_reply steps_proceeded_no_q
+  <chr>                        <dbl>                  <dbl>                <dbl>
+1 C3_DirectLow…                    1                      1                    0
+# ℹ 1 more variable: avg_questions_per_step <dbl>
+
+[Done] Files written to: /home/david/sim_runs/test_20250902_104849
+[ 2025-09-02 10:53:39 ] Line 5 — done:  profile=C3 recipe=duck_a_lorange seed=20341
+[ 2025-09-02 10:53:39 ] Line 6 — start: profile=C5 recipe=parisian_gnocchi seed=20388
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-02 10:53:40 UTC
+Profiles:        C5
+Recipe:          Parisian Gnocchi
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20388
+Output dir:      /home/david/sim_runs/test_20250902_104849
+================================
+
+[2025-09-02 10:53:40] Starting conversation:C5_Impolite__ParisianGnocchi__seed20389 | recipe:Parisian Gnocchi | user:llama3:70b | agent:deepseek-r1:8b | energy:ON
+
+=== Engagement (per cluster) ===
+# A tibble: 1 × 5
+  cluster     steps_with_questions steps_with_agent_reply steps_proceeded_no_q
+  <chr>                      <dbl>                  <dbl>                <dbl>
+1 C5_Impolite                    1                      1                    0
+# ℹ 1 more variable: avg_questions_per_step <dbl>
+
+[Done] Files written to: /home/david/sim_runs/test_20250902_104849
+[ 2025-09-02 10:54:20 ] Line 6 — done:  profile=C5 recipe=parisian_gnocchi seed=20388
+[ 2025-09-02 10:54:20 ] Line 7 — start: profile=C5 recipe=fried_chicken seed=20395
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-02 10:54:21 UTC
+Profiles:        C5
+Recipe:          Buttermilk-Brined Southern Fried Chicken
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20395
+Output dir:      /home/david/sim_runs/test_20250902_104849
+================================
+
+[2025-09-02 10:54:21] Starting conversation:C5_Impolite__ButtermilkBrinedSouthernFriedChicken__seed20396 | recipe:Buttermilk-Brined Southern Fried Chicken | user:llama3:70b | agent:deepseek-r1:8b | energy:ON
+
+=== Engagement (per cluster) ===
+# A tibble: 1 × 5
+  cluster     steps_with_questions steps_with_agent_reply steps_proceeded_no_q
+  <chr>                      <dbl>                  <dbl>                <dbl>
+1 C5_Impolite                0.667                  0.833                0.333
+# ℹ 1 more variable: avg_questions_per_step <dbl>
+
+[Done] Files written to: /home/david/sim_runs/test_20250902_104849
+[ 2025-09-02 10:55:01 ] Line 7 — done:  profile=C5 recipe=fried_chicken seed=20395
+[ 2025-09-02 10:55:01 ] Line 8 — start: profile=C3 recipe=duck_a_lorange seed=20344
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-02 10:55:02 UTC
+Profiles:        C3
+Recipe:          Duck à l’Orange
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20344
+Output dir:      /home/david/sim_runs/test_20250902_104849
+================================
+
+[2025-09-02 10:55:02] Starting conversation:C3_DirectLowPoliteness__DucklOrange__seed20345 | recipe:Duck à l’Orange | user:llama3:70b | agent:deepseek-r1:8b | energy:ON
+
+=== Engagement (per cluster) ===
+# A tibble: 1 × 5
+  cluster       steps_with_questions steps_with_agent_reply steps_proceeded_no_q
+  <chr>                        <dbl>                  <dbl>                <dbl>
+1 C3_DirectLow…                    1                      1                    0
+# ℹ 1 more variable: avg_questions_per_step <dbl>
+
+[Done] Files written to: /home/david/sim_runs/test_20250902_104849
+[ 2025-09-02 10:56:07 ] Line 8 — done:  profile=C3 recipe=duck_a_lorange seed=20344
+[ 2025-09-02 10:56:07 ] Line 9 — start: profile=C5 recipe=fried_chicken seed=20391
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-02 10:56:08 UTC
+Profiles:        C5
+Recipe:          Buttermilk-Brined Southern Fried Chicken
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20391
+Output dir:      /home/david/sim_runs/test_20250902_104849
+================================
+
+[2025-09-02 10:56:08] Starting conversation:C5_Impolite__ButtermilkBrinedSouthernFriedChicken__seed20392 | recipe:Buttermilk-Brined Southern Fried Chicken | user:llama3:70b | agent:deepseek-r1:8b | energy:ON
+
+=== Engagement (per cluster) ===
+# A tibble: 1 × 5
+  cluster     steps_with_questions steps_with_agent_reply steps_proceeded_no_q
+  <chr>                      <dbl>                  <dbl>                <dbl>
+1 C5_Impolite                0.833                  0.833                0.167
+# ℹ 1 more variable: avg_questions_per_step <dbl>
+
+[Done] Files written to: /home/david/sim_runs/test_20250902_104849
+[ 2025-09-02 10:56:57 ] Line 9 — done:  profile=C5 recipe=fried_chicken seed=20391
+[ 2025-09-02 10:56:57 ] Line 10 — start: profile=C3 recipe=pesto_alla_genovese seed=20362
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-02 10:56:58 UTC
+Profiles:        C3
+Recipe:          Pesto alla Genovese
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20362
+Output dir:      /home/david/sim_runs/test_20250902_104849
+================================
+
+[2025-09-02 10:56:58] Starting conversation:C3_DirectLowPoliteness__PestoallaGenovese__seed20363 | recipe:Pesto alla Genovese | user:llama3:70b | agent:deepseek-r1:8b | energy:ON
+
+=== Engagement (per cluster) ===
+# A tibble: 1 × 5
+  cluster       steps_with_questions steps_with_agent_reply steps_proceeded_no_q
+  <chr>                        <dbl>                  <dbl>                <dbl>
+1 C3_DirectLow…                    1                      1                    0
+# ℹ 1 more variable: avg_questions_per_step <dbl>
+
+[Done] Files written to: /home/david/sim_runs/test_20250902_104849
+[ 2025-09-02 10:57:32 ] Line 10 — done:  profile=C3 recipe=pesto_alla_genovese seed=20362
+[ 2025-09-02 10:57:32 ] Line 11 — start: profile=C5 recipe=savory_cheese_souffle seed=20413
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-02 10:57:33 UTC
+Profiles:        C5
+Recipe:          Savory Cheese Soufflé
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20413
+Output dir:      /home/david/sim_runs/test_20250902_104849
+================================
+
+[2025-09-02 10:57:33] Starting conversation:C5_Impolite__SavoryCheeseSouffl__seed20414 | recipe:Savory Cheese Soufflé | user:llama3:70b | agent:deepseek-r1:8b | energy:ON
+
+=== Engagement (per cluster) ===
+# A tibble: 1 × 5
+  cluster     steps_with_questions steps_with_agent_reply steps_proceeded_no_q
+  <chr>                      <dbl>                  <dbl>                <dbl>
+1 C5_Impolite                    1                      1                    0
+# ℹ 1 more variable: avg_questions_per_step <dbl>
+
+[Done] Files written to: /home/david/sim_runs/test_20250902_104849
+[ 2025-09-02 10:58:33 ] Line 11 — done:  profile=C5 recipe=savory_cheese_souffle seed=20413
+[ 2025-09-02 10:58:33 ] Line 12 — start: profile=C1 recipe=duck_a_lorange seed=20288
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-02 10:58:34 UTC
+Profiles:        C1
+Recipe:          Duck à l’Orange
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20288
+Output dir:      /home/david/sim_runs/test_20250902_104849
+================================
+
+[2025-09-02 10:58:34] Starting conversation:C1_Hyperpolite__DucklOrange__seed20289 | recipe:Duck à l’Orange | user:llama3:70b | agent:deepseek-r1:8b | energy:ON
+
+
+Execution halted

@@ -1,0 +1,463 @@
+nohup: ignoring input
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 13:59:40 UTC
+Profiles:        C1, C3, C5
+Recipe:          Old-Fashioned Apple Pie
+n per profile:   10
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_1_9_25
+================================
+
+[ 2025-09-01 13:59:40 ] Starting conversation: C1_Hyperpolite__OldFashionedApplePie__seed20251 | recipe: Old-Fashioned Apple Pie | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:00:47 ] Starting conversation: C1_Hyperpolite__OldFashionedApplePie__seed20252 | recipe: Old-Fashioned Apple Pie | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:01:49 ] Starting conversation: C1_Hyperpolite__OldFashionedApplePie__seed20253 | recipe: Old-Fashioned Apple Pie | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:02:53 ] Starting conversation: C1_Hyperpolite__OldFashionedApplePie__seed20254 | recipe: Old-Fashioned Apple Pie | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:03:48 ] Starting conversation: C1_Hyperpolite__OldFashionedApplePie__seed20255 | recipe: Old-Fashioned Apple Pie | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:04:48 ] Starting conversation: C1_Hyperpolite__OldFashionedApplePie__seed20256 | recipe: Old-Fashioned Apple Pie | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:05:50 ] Starting conversation: C1_Hyperpolite__OldFashionedApplePie__seed20257 | recipe: Old-Fashioned Apple Pie | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:06:49 ] Starting conversation: C1_Hyperpolite__OldFashionedApplePie__seed20258 | recipe: Old-Fashioned Apple Pie | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:07:45 ] Starting conversation: C1_Hyperpolite__OldFashionedApplePie__seed20259 | recipe: Old-Fashioned Apple Pie | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:08:41 ] Starting conversation: C1_Hyperpolite__OldFashionedApplePie__seed20260 | recipe: Old-Fashioned Apple Pie | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:09:46 ] Starting conversation: C3_DirectLowPoliteness__OldFashionedApplePie__seed20251 | recipe: Old-Fashioned Apple Pie | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:10:31 ] Starting conversation: C3_DirectLowPoliteness__OldFashionedApplePie__seed20252 | recipe: Old-Fashioned Apple Pie | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:11:12 ] Starting conversation: C3_DirectLowPoliteness__OldFashionedApplePie__seed20253 | recipe: Old-Fashioned Apple Pie | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:11:52 ] Starting conversation: C3_DirectLowPoliteness__OldFashionedApplePie__seed20254 | recipe: Old-Fashioned Apple Pie | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:12:30 ] Starting conversation: C3_DirectLowPoliteness__OldFashionedApplePie__seed20255 | recipe: Old-Fashioned Apple Pie | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:13:15 ] Starting conversation: C3_DirectLowPoliteness__OldFashionedApplePie__seed20256 | recipe: Old-Fashioned Apple Pie | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:14:00 ] Starting conversation: C3_DirectLowPoliteness__OldFashionedApplePie__seed20257 | recipe: Old-Fashioned Apple Pie | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:14:41 ] Starting conversation: C3_DirectLowPoliteness__OldFashionedApplePie__seed20258 | recipe: Old-Fashioned Apple Pie | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:15:20 ] Starting conversation: C3_DirectLowPoliteness__OldFashionedApplePie__seed20259 | recipe: Old-Fashioned Apple Pie | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:15:54 ] Starting conversation: C3_DirectLowPoliteness__OldFashionedApplePie__seed20260 | recipe: Old-Fashioned Apple Pie | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:16:28 ] Starting conversation: C5_Impolite__OldFashionedApplePie__seed20251 | recipe: Old-Fashioned Apple Pie | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:17:15 ] Starting conversation: C5_Impolite__OldFashionedApplePie__seed20252 | recipe: Old-Fashioned Apple Pie | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:17:57 ] Starting conversation: C5_Impolite__OldFashionedApplePie__seed20253 | recipe: Old-Fashioned Apple Pie | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:18:39 ] Starting conversation: C5_Impolite__OldFashionedApplePie__seed20254 | recipe: Old-Fashioned Apple Pie | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:19:21 ] Starting conversation: C5_Impolite__OldFashionedApplePie__seed20255 | recipe: Old-Fashioned Apple Pie | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:20:02 ] Starting conversation: C5_Impolite__OldFashionedApplePie__seed20256 | recipe: Old-Fashioned Apple Pie | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:20:47 ] Starting conversation: C5_Impolite__OldFashionedApplePie__seed20257 | recipe: Old-Fashioned Apple Pie | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:21:28 ] Starting conversation: C5_Impolite__OldFashionedApplePie__seed20258 | recipe: Old-Fashioned Apple Pie | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:22:11 ] Starting conversation: C5_Impolite__OldFashionedApplePie__seed20259 | recipe: Old-Fashioned Apple Pie | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:22:53 ] Starting conversation: C5_Impolite__OldFashionedApplePie__seed20260 | recipe: Old-Fashioned Apple Pie | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+
+=== Engagement (per cluster) ===
+# A tibble: 3 × 5
+  cluster       steps_with_questions steps_with_agent_reply steps_proceeded_no_q
+  <chr>                        <dbl>                  <dbl>                <dbl>
+1 C1_Hyperpoli…                1                      1                   0     
+2 C3_DirectLow…                0.933                  0.933               0.0667
+3 C5_Impolite                  0.967                  1                   0.0167
+# ℹ 1 more variable: avg_questions_per_step <dbl>
+Error: Cannot open file for writing:
+* '/scratch/sim_runs_1_9_25/dialogs_flat_20250901_142338.csv'
+Execution halted
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 14:23:39 UTC
+Profiles:        C1, C3, C5
+Recipe:          Parisian Gnocchi
+n per profile:   10
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_1_9_25
+================================
+
+[ 2025-09-01 14:23:39 ] Starting conversation: C1_Hyperpolite__ParisianGnocchi__seed20251 | recipe: Parisian Gnocchi | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:24:27 ] Starting conversation: C1_Hyperpolite__ParisianGnocchi__seed20252 | recipe: Parisian Gnocchi | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:25:14 ] Starting conversation: C1_Hyperpolite__ParisianGnocchi__seed20253 | recipe: Parisian Gnocchi | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:25:58 ] Starting conversation: C1_Hyperpolite__ParisianGnocchi__seed20254 | recipe: Parisian Gnocchi | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:26:42 ] Starting conversation: C1_Hyperpolite__ParisianGnocchi__seed20255 | recipe: Parisian Gnocchi | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:27:27 ] Starting conversation: C1_Hyperpolite__ParisianGnocchi__seed20256 | recipe: Parisian Gnocchi | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:28:21 ] Starting conversation: C1_Hyperpolite__ParisianGnocchi__seed20257 | recipe: Parisian Gnocchi | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:29:05 ] Starting conversation: C1_Hyperpolite__ParisianGnocchi__seed20258 | recipe: Parisian Gnocchi | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:29:49 ] Starting conversation: C1_Hyperpolite__ParisianGnocchi__seed20259 | recipe: Parisian Gnocchi | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:30:29 ] Starting conversation: C1_Hyperpolite__ParisianGnocchi__seed20260 | recipe: Parisian Gnocchi | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:31:13 ] Starting conversation: C3_DirectLowPoliteness__ParisianGnocchi__seed20251 | recipe: Parisian Gnocchi | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:31:45 ] Starting conversation: C3_DirectLowPoliteness__ParisianGnocchi__seed20252 | recipe: Parisian Gnocchi | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:32:19 ] Starting conversation: C3_DirectLowPoliteness__ParisianGnocchi__seed20253 | recipe: Parisian Gnocchi | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:32:49 ] Starting conversation: C3_DirectLowPoliteness__ParisianGnocchi__seed20254 | recipe: Parisian Gnocchi | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:33:25 ] Starting conversation: C3_DirectLowPoliteness__ParisianGnocchi__seed20255 | recipe: Parisian Gnocchi | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:33:57 ] Starting conversation: C3_DirectLowPoliteness__ParisianGnocchi__seed20256 | recipe: Parisian Gnocchi | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:34:35 ] Starting conversation: C3_DirectLowPoliteness__ParisianGnocchi__seed20257 | recipe: Parisian Gnocchi | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:35:05 ] Starting conversation: C3_DirectLowPoliteness__ParisianGnocchi__seed20258 | recipe: Parisian Gnocchi | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:35:36 ] Starting conversation: C3_DirectLowPoliteness__ParisianGnocchi__seed20259 | recipe: Parisian Gnocchi | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:36:04 ] Starting conversation: C3_DirectLowPoliteness__ParisianGnocchi__seed20260 | recipe: Parisian Gnocchi | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:36:41 ] Starting conversation: C5_Impolite__ParisianGnocchi__seed20251 | recipe: Parisian Gnocchi | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:37:09 ] Starting conversation: C5_Impolite__ParisianGnocchi__seed20252 | recipe: Parisian Gnocchi | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:37:54 ] Starting conversation: C5_Impolite__ParisianGnocchi__seed20253 | recipe: Parisian Gnocchi | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:38:30 ] Starting conversation: C5_Impolite__ParisianGnocchi__seed20254 | recipe: Parisian Gnocchi | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:39:09 ] Starting conversation: C5_Impolite__ParisianGnocchi__seed20255 | recipe: Parisian Gnocchi | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:39:53 ] Starting conversation: C5_Impolite__ParisianGnocchi__seed20256 | recipe: Parisian Gnocchi | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:40:35 ] Starting conversation: C5_Impolite__ParisianGnocchi__seed20257 | recipe: Parisian Gnocchi | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:41:11 ] Starting conversation: C5_Impolite__ParisianGnocchi__seed20258 | recipe: Parisian Gnocchi | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:41:47 ] Starting conversation: C5_Impolite__ParisianGnocchi__seed20259 | recipe: Parisian Gnocchi | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:42:25 ] Starting conversation: C5_Impolite__ParisianGnocchi__seed20260 | recipe: Parisian Gnocchi | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+
+=== Engagement (per cluster) ===
+# A tibble: 3 × 5
+  cluster       steps_with_questions steps_with_agent_reply steps_proceeded_no_q
+  <chr>                        <dbl>                  <dbl>                <dbl>
+1 C1_Hyperpoli…                 0.98                   1                    0.02
+2 C3_DirectLow…                 0.98                   0.98                 0.02
+3 C5_Impolite                   0.96                   0.98                 0.04
+# ℹ 1 more variable: avg_questions_per_step <dbl>
+Error: Cannot open file for writing:
+* '/scratch/sim_runs_1_9_25/dialogs_flat_20250901_144300.csv'
+Execution halted
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 14:43:01 UTC
+Profiles:        C1, C3, C5
+Recipe:          Buttermilk-Brined Southern Fried Chicken
+n per profile:   10
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_1_9_25
+================================
+
+[ 2025-09-01 14:43:01 ] Starting conversation: C1_Hyperpolite__ButtermilkBrinedSouthernFriedChicken__seed20251 | recipe: Buttermilk-Brined Southern Fried Chicken | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:44:03 ] Starting conversation: C1_Hyperpolite__ButtermilkBrinedSouthernFriedChicken__seed20252 | recipe: Buttermilk-Brined Southern Fried Chicken | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:45:02 ] Starting conversation: C1_Hyperpolite__ButtermilkBrinedSouthernFriedChicken__seed20253 | recipe: Buttermilk-Brined Southern Fried Chicken | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:46:01 ] Starting conversation: C1_Hyperpolite__ButtermilkBrinedSouthernFriedChicken__seed20254 | recipe: Buttermilk-Brined Southern Fried Chicken | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:46:56 ] Starting conversation: C1_Hyperpolite__ButtermilkBrinedSouthernFriedChicken__seed20255 | recipe: Buttermilk-Brined Southern Fried Chicken | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:47:47 ] Starting conversation: C1_Hyperpolite__ButtermilkBrinedSouthernFriedChicken__seed20256 | recipe: Buttermilk-Brined Southern Fried Chicken | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:48:44 ] Starting conversation: C1_Hyperpolite__ButtermilkBrinedSouthernFriedChicken__seed20257 | recipe: Buttermilk-Brined Southern Fried Chicken | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:49:38 ] Starting conversation: C1_Hyperpolite__ButtermilkBrinedSouthernFriedChicken__seed20258 | recipe: Buttermilk-Brined Southern Fried Chicken | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:50:29 ] Starting conversation: C1_Hyperpolite__ButtermilkBrinedSouthernFriedChicken__seed20259 | recipe: Buttermilk-Brined Southern Fried Chicken | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:51:20 ] Starting conversation: C1_Hyperpolite__ButtermilkBrinedSouthernFriedChicken__seed20260 | recipe: Buttermilk-Brined Southern Fried Chicken | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:52:16 ] Starting conversation: C3_DirectLowPoliteness__ButtermilkBrinedSouthernFriedChicken__seed20251 | recipe: Buttermilk-Brined Southern Fried Chicken | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:53:04 ] Starting conversation: C3_DirectLowPoliteness__ButtermilkBrinedSouthernFriedChicken__seed20252 | recipe: Buttermilk-Brined Southern Fried Chicken | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:53:43 ] Starting conversation: C3_DirectLowPoliteness__ButtermilkBrinedSouthernFriedChicken__seed20253 | recipe: Buttermilk-Brined Southern Fried Chicken | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:54:22 ] Starting conversation: C3_DirectLowPoliteness__ButtermilkBrinedSouthernFriedChicken__seed20254 | recipe: Buttermilk-Brined Southern Fried Chicken | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:55:06 ] Starting conversation: C3_DirectLowPoliteness__ButtermilkBrinedSouthernFriedChicken__seed20255 | recipe: Buttermilk-Brined Southern Fried Chicken | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:55:49 ] Starting conversation: C3_DirectLowPoliteness__ButtermilkBrinedSouthernFriedChicken__seed20256 | recipe: Buttermilk-Brined Southern Fried Chicken | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:56:36 ] Starting conversation: C3_DirectLowPoliteness__ButtermilkBrinedSouthernFriedChicken__seed20257 | recipe: Buttermilk-Brined Southern Fried Chicken | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:57:13 ] Starting conversation: C3_DirectLowPoliteness__ButtermilkBrinedSouthernFriedChicken__seed20258 | recipe: Buttermilk-Brined Southern Fried Chicken | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:57:50 ] Starting conversation: C3_DirectLowPoliteness__ButtermilkBrinedSouthernFriedChicken__seed20259 | recipe: Buttermilk-Brined Southern Fried Chicken | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:58:27 ] Starting conversation: C3_DirectLowPoliteness__ButtermilkBrinedSouthernFriedChicken__seed20260 | recipe: Buttermilk-Brined Southern Fried Chicken | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:59:07 ] Starting conversation: C5_Impolite__ButtermilkBrinedSouthernFriedChicken__seed20251 | recipe: Buttermilk-Brined Southern Fried Chicken | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 14:59:55 ] Starting conversation: C5_Impolite__ButtermilkBrinedSouthernFriedChicken__seed20252 | recipe: Buttermilk-Brined Southern Fried Chicken | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:00:40 ] Starting conversation: C5_Impolite__ButtermilkBrinedSouthernFriedChicken__seed20253 | recipe: Buttermilk-Brined Southern Fried Chicken | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:01:24 ] Starting conversation: C5_Impolite__ButtermilkBrinedSouthernFriedChicken__seed20254 | recipe: Buttermilk-Brined Southern Fried Chicken | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:02:14 ] Starting conversation: C5_Impolite__ButtermilkBrinedSouthernFriedChicken__seed20255 | recipe: Buttermilk-Brined Southern Fried Chicken | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:03:02 ] Starting conversation: C5_Impolite__ButtermilkBrinedSouthernFriedChicken__seed20256 | recipe: Buttermilk-Brined Southern Fried Chicken | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:03:45 ] Starting conversation: C5_Impolite__ButtermilkBrinedSouthernFriedChicken__seed20257 | recipe: Buttermilk-Brined Southern Fried Chicken | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:04:25 ] Starting conversation: C5_Impolite__ButtermilkBrinedSouthernFriedChicken__seed20258 | recipe: Buttermilk-Brined Southern Fried Chicken | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:05:14 ] Starting conversation: C5_Impolite__ButtermilkBrinedSouthernFriedChicken__seed20259 | recipe: Buttermilk-Brined Southern Fried Chicken | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:05:55 ] Starting conversation: C5_Impolite__ButtermilkBrinedSouthernFriedChicken__seed20260 | recipe: Buttermilk-Brined Southern Fried Chicken | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+
+=== Engagement (per cluster) ===
+# A tibble: 3 × 5
+  cluster       steps_with_questions steps_with_agent_reply steps_proceeded_no_q
+  <chr>                        <dbl>                  <dbl>                <dbl>
+1 C1_Hyperpoli…                0.983                  1                   0.0167
+2 C3_DirectLow…                0.983                  0.983               0.0167
+3 C5_Impolite                  0.95                   0.967               0.05  
+# ℹ 1 more variable: avg_questions_per_step <dbl>
+Error: Cannot open file for writing:
+* '/scratch/sim_runs_1_9_25/dialogs_flat_20250901_150631.csv'
+Execution halted
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 15:06:32 UTC
+Profiles:        C1, C3, C5
+Recipe:          Duck à l’Orange
+n per profile:   10
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_1_9_25
+================================
+
+[ 2025-09-01 15:06:32 ] Starting conversation: C1_Hyperpolite__DucklOrange__seed20251 | recipe: Duck à l’Orange | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:08:08 ] Starting conversation: C1_Hyperpolite__DucklOrange__seed20252 | recipe: Duck à l’Orange | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:09:39 ] Starting conversation: C1_Hyperpolite__DucklOrange__seed20253 | recipe: Duck à l’Orange | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:11:11 ] Starting conversation: C1_Hyperpolite__DucklOrange__seed20254 | recipe: Duck à l’Orange | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:12:41 ] Starting conversation: C1_Hyperpolite__DucklOrange__seed20255 | recipe: Duck à l’Orange | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:14:12 ] Starting conversation: C1_Hyperpolite__DucklOrange__seed20256 | recipe: Duck à l’Orange | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:15:42 ] Starting conversation: C1_Hyperpolite__DucklOrange__seed20257 | recipe: Duck à l’Orange | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:17:12 ] Starting conversation: C1_Hyperpolite__DucklOrange__seed20258 | recipe: Duck à l’Orange | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:18:44 ] Starting conversation: C1_Hyperpolite__DucklOrange__seed20259 | recipe: Duck à l’Orange | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:20:08 ] Starting conversation: C1_Hyperpolite__DucklOrange__seed20260 | recipe: Duck à l’Orange | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:21:38 ] Starting conversation: C3_DirectLowPoliteness__DucklOrange__seed20251 | recipe: Duck à l’Orange | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:22:39 ] Starting conversation: C3_DirectLowPoliteness__DucklOrange__seed20252 | recipe: Duck à l’Orange | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:23:47 ] Starting conversation: C3_DirectLowPoliteness__DucklOrange__seed20253 | recipe: Duck à l’Orange | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:24:51 ] Starting conversation: C3_DirectLowPoliteness__DucklOrange__seed20254 | recipe: Duck à l’Orange | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:25:57 ] Starting conversation: C3_DirectLowPoliteness__DucklOrange__seed20255 | recipe: Duck à l’Orange | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:27:00 ] Starting conversation: C3_DirectLowPoliteness__DucklOrange__seed20256 | recipe: Duck à l’Orange | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:28:09 ] Starting conversation: C3_DirectLowPoliteness__DucklOrange__seed20257 | recipe: Duck à l’Orange | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:29:13 ] Starting conversation: C3_DirectLowPoliteness__DucklOrange__seed20258 | recipe: Duck à l’Orange | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:30:20 ] Starting conversation: C3_DirectLowPoliteness__DucklOrange__seed20259 | recipe: Duck à l’Orange | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:31:23 ] Starting conversation: C3_DirectLowPoliteness__DucklOrange__seed20260 | recipe: Duck à l’Orange | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:32:28 ] Starting conversation: C5_Impolite__DucklOrange__seed20251 | recipe: Duck à l’Orange | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:33:41 ] Starting conversation: C5_Impolite__DucklOrange__seed20252 | recipe: Duck à l’Orange | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:34:57 ] Starting conversation: C5_Impolite__DucklOrange__seed20253 | recipe: Duck à l’Orange | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:36:12 ] Starting conversation: C5_Impolite__DucklOrange__seed20254 | recipe: Duck à l’Orange | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:37:19 ] Starting conversation: C5_Impolite__DucklOrange__seed20255 | recipe: Duck à l’Orange | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:38:29 ] Starting conversation: C5_Impolite__DucklOrange__seed20256 | recipe: Duck à l’Orange | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:39:34 ] Starting conversation: C5_Impolite__DucklOrange__seed20257 | recipe: Duck à l’Orange | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:40:48 ] Starting conversation: C5_Impolite__DucklOrange__seed20258 | recipe: Duck à l’Orange | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:42:07 ] Starting conversation: C5_Impolite__DucklOrange__seed20259 | recipe: Duck à l’Orange | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:43:22 ] Starting conversation: C5_Impolite__DucklOrange__seed20260 | recipe: Duck à l’Orange | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+
+=== Engagement (per cluster) ===
+# A tibble: 3 × 5
+  cluster       steps_with_questions steps_with_agent_reply steps_proceeded_no_q
+  <chr>                        <dbl>                  <dbl>                <dbl>
+1 C1_Hyperpoli…                 1                      1                    0   
+2 C3_DirectLow…                 1                      1                    0   
+3 C5_Impolite                   0.86                   0.96                 0.13
+# ℹ 1 more variable: avg_questions_per_step <dbl>
+Error: Cannot open file for writing:
+* '/scratch/sim_runs_1_9_25/dialogs_flat_20250901_154427.csv'
+Execution halted
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 15:44:28 UTC
+Profiles:        C1, C3, C5
+Recipe:          Savory Cheese Soufflé
+n per profile:   10
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_1_9_25
+================================
+
+[ 2025-09-01 15:44:28 ] Starting conversation: C1_Hyperpolite__SavoryCheeseSouffl__seed20251 | recipe: Savory Cheese Soufflé | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:45:51 ] Starting conversation: C1_Hyperpolite__SavoryCheeseSouffl__seed20252 | recipe: Savory Cheese Soufflé | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:47:04 ] Starting conversation: C1_Hyperpolite__SavoryCheeseSouffl__seed20253 | recipe: Savory Cheese Soufflé | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:48:13 ] Starting conversation: C1_Hyperpolite__SavoryCheeseSouffl__seed20254 | recipe: Savory Cheese Soufflé | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:49:31 ] Starting conversation: C1_Hyperpolite__SavoryCheeseSouffl__seed20255 | recipe: Savory Cheese Soufflé | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:50:40 ] Starting conversation: C1_Hyperpolite__SavoryCheeseSouffl__seed20256 | recipe: Savory Cheese Soufflé | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:51:59 ] Starting conversation: C1_Hyperpolite__SavoryCheeseSouffl__seed20257 | recipe: Savory Cheese Soufflé | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:53:16 ] Starting conversation: C1_Hyperpolite__SavoryCheeseSouffl__seed20258 | recipe: Savory Cheese Soufflé | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:54:29 ] Starting conversation: C1_Hyperpolite__SavoryCheeseSouffl__seed20259 | recipe: Savory Cheese Soufflé | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:55:45 ] Starting conversation: C1_Hyperpolite__SavoryCheeseSouffl__seed20260 | recipe: Savory Cheese Soufflé | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:57:11 ] Starting conversation: C3_DirectLowPoliteness__SavoryCheeseSouffl__seed20251 | recipe: Savory Cheese Soufflé | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:58:05 ] Starting conversation: C3_DirectLowPoliteness__SavoryCheeseSouffl__seed20252 | recipe: Savory Cheese Soufflé | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:58:57 ] Starting conversation: C3_DirectLowPoliteness__SavoryCheeseSouffl__seed20253 | recipe: Savory Cheese Soufflé | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 15:59:44 ] Starting conversation: C3_DirectLowPoliteness__SavoryCheeseSouffl__seed20254 | recipe: Savory Cheese Soufflé | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 16:00:36 ] Starting conversation: C3_DirectLowPoliteness__SavoryCheeseSouffl__seed20255 | recipe: Savory Cheese Soufflé | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 16:01:28 ] Starting conversation: C3_DirectLowPoliteness__SavoryCheeseSouffl__seed20256 | recipe: Savory Cheese Soufflé | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 16:02:17 ] Starting conversation: C3_DirectLowPoliteness__SavoryCheeseSouffl__seed20257 | recipe: Savory Cheese Soufflé | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 16:03:03 ] Starting conversation: C3_DirectLowPoliteness__SavoryCheeseSouffl__seed20258 | recipe: Savory Cheese Soufflé | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 16:04:00 ] Starting conversation: C3_DirectLowPoliteness__SavoryCheeseSouffl__seed20259 | recipe: Savory Cheese Soufflé | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 16:04:51 ] Starting conversation: C3_DirectLowPoliteness__SavoryCheeseSouffl__seed20260 | recipe: Savory Cheese Soufflé | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 16:05:42 ] Starting conversation: C5_Impolite__SavoryCheeseSouffl__seed20251 | recipe: Savory Cheese Soufflé | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 16:06:49 ] Starting conversation: C5_Impolite__SavoryCheeseSouffl__seed20252 | recipe: Savory Cheese Soufflé | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 16:07:48 ] Starting conversation: C5_Impolite__SavoryCheeseSouffl__seed20253 | recipe: Savory Cheese Soufflé | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 16:08:42 ] Starting conversation: C5_Impolite__SavoryCheeseSouffl__seed20254 | recipe: Savory Cheese Soufflé | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 16:09:36 ] Starting conversation: C5_Impolite__SavoryCheeseSouffl__seed20255 | recipe: Savory Cheese Soufflé | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 16:10:31 ] Starting conversation: C5_Impolite__SavoryCheeseSouffl__seed20256 | recipe: Savory Cheese Soufflé | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 16:11:33 ] Starting conversation: C5_Impolite__SavoryCheeseSouffl__seed20257 | recipe: Savory Cheese Soufflé | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 16:12:37 ] Starting conversation: C5_Impolite__SavoryCheeseSouffl__seed20258 | recipe: Savory Cheese Soufflé | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 16:13:37 ] Starting conversation: C5_Impolite__SavoryCheeseSouffl__seed20259 | recipe: Savory Cheese Soufflé | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 16:14:35 ] Starting conversation: C5_Impolite__SavoryCheeseSouffl__seed20260 | recipe: Savory Cheese Soufflé | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+
+=== Engagement (per cluster) ===
+# A tibble: 3 × 5
+  cluster       steps_with_questions steps_with_agent_reply steps_proceeded_no_q
+  <chr>                        <dbl>                  <dbl>                <dbl>
+1 C1_Hyperpoli…                1                      1                   0     
+2 C3_DirectLow…                0.925                  0.95                0.075 
+3 C5_Impolite                  0.9                    0.975               0.0875
+# ℹ 1 more variable: avg_questions_per_step <dbl>
+Error: Cannot open file for writing:
+* '/scratch/sim_runs_1_9_25/dialogs_flat_20250901_161531.csv'
+Execution halted
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-01 16:15:32 UTC
+Profiles:        C1, C3, C5
+Recipe:          Pesto alla Genovese
+n per profile:   10
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20250
+Output dir:      /scratch/sim_runs_1_9_25
+================================
+
+[ 2025-09-01 16:15:32 ] Starting conversation: C1_Hyperpolite__PestoallaGenovese__seed20251 | recipe: Pesto alla Genovese | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 16:16:23 ] Starting conversation: C1_Hyperpolite__PestoallaGenovese__seed20252 | recipe: Pesto alla Genovese | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 16:17:11 ] Starting conversation: C1_Hyperpolite__PestoallaGenovese__seed20253 | recipe: Pesto alla Genovese | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 16:17:57 ] Starting conversation: C1_Hyperpolite__PestoallaGenovese__seed20254 | recipe: Pesto alla Genovese | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 16:18:41 ] Starting conversation: C1_Hyperpolite__PestoallaGenovese__seed20255 | recipe: Pesto alla Genovese | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 16:19:32 ] Starting conversation: C1_Hyperpolite__PestoallaGenovese__seed20256 | recipe: Pesto alla Genovese | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 16:20:19 ] Starting conversation: C1_Hyperpolite__PestoallaGenovese__seed20257 | recipe: Pesto alla Genovese | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 16:21:04 ] Starting conversation: C1_Hyperpolite__PestoallaGenovese__seed20258 | recipe: Pesto alla Genovese | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 16:21:44 ] Starting conversation: C1_Hyperpolite__PestoallaGenovese__seed20259 | recipe: Pesto alla Genovese | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 16:22:25 ] Starting conversation: C1_Hyperpolite__PestoallaGenovese__seed20260 | recipe: Pesto alla Genovese | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 16:23:18 ] Starting conversation: C3_DirectLowPoliteness__PestoallaGenovese__seed20251 | recipe: Pesto alla Genovese | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 16:23:51 ] Starting conversation: C3_DirectLowPoliteness__PestoallaGenovese__seed20252 | recipe: Pesto alla Genovese | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 16:24:23 ] Starting conversation: C3_DirectLowPoliteness__PestoallaGenovese__seed20253 | recipe: Pesto alla Genovese | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 16:24:53 ] Starting conversation: C3_DirectLowPoliteness__PestoallaGenovese__seed20254 | recipe: Pesto alla Genovese | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 16:25:29 ] Starting conversation: C3_DirectLowPoliteness__PestoallaGenovese__seed20255 | recipe: Pesto alla Genovese | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 16:26:02 ] Starting conversation: C3_DirectLowPoliteness__PestoallaGenovese__seed20256 | recipe: Pesto alla Genovese | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 16:26:36 ] Starting conversation: C3_DirectLowPoliteness__PestoallaGenovese__seed20257 | recipe: Pesto alla Genovese | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 16:27:07 ] Starting conversation: C3_DirectLowPoliteness__PestoallaGenovese__seed20258 | recipe: Pesto alla Genovese | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 16:27:38 ] Starting conversation: C3_DirectLowPoliteness__PestoallaGenovese__seed20259 | recipe: Pesto alla Genovese | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 16:28:09 ] Starting conversation: C3_DirectLowPoliteness__PestoallaGenovese__seed20260 | recipe: Pesto alla Genovese | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 16:28:40 ] Starting conversation: C5_Impolite__PestoallaGenovese__seed20251 | recipe: Pesto alla Genovese | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 16:29:16 ] Starting conversation: C5_Impolite__PestoallaGenovese__seed20252 | recipe: Pesto alla Genovese | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 16:29:48 ] Starting conversation: C5_Impolite__PestoallaGenovese__seed20253 | recipe: Pesto alla Genovese | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 16:30:27 ] Starting conversation: C5_Impolite__PestoallaGenovese__seed20254 | recipe: Pesto alla Genovese | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 16:31:06 ] Starting conversation: C5_Impolite__PestoallaGenovese__seed20255 | recipe: Pesto alla Genovese | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 16:31:44 ] Starting conversation: C5_Impolite__PestoallaGenovese__seed20256 | recipe: Pesto alla Genovese | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 16:32:22 ] Starting conversation: C5_Impolite__PestoallaGenovese__seed20257 | recipe: Pesto alla Genovese | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 16:33:00 ] Starting conversation: C5_Impolite__PestoallaGenovese__seed20258 | recipe: Pesto alla Genovese | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 16:33:31 ] Starting conversation: C5_Impolite__PestoallaGenovese__seed20259 | recipe: Pesto alla Genovese | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+[ 2025-09-01 16:34:05 ] Starting conversation: C5_Impolite__PestoallaGenovese__seed20260 | recipe: Pesto alla Genovese | user: llama3:70b | agent: deepseek-r1:8b | energy: ON 
+
+=== Engagement (per cluster) ===
+# A tibble: 3 × 5
+  cluster       steps_with_questions steps_with_agent_reply steps_proceeded_no_q
+  <chr>                        <dbl>                  <dbl>                <dbl>
+1 C1_Hyperpoli…                 1                      1                    0   
+2 C3_DirectLow…                 1                      1                    0   
+3 C5_Impolite                   0.84                   0.94                 0.16
+# ℹ 1 more variable: avg_questions_per_step <dbl>
+Error: Cannot open file for writing:
+* '/scratch/sim_runs_1_9_25/dialogs_flat_20250901_163433.csv'
+Execution halted

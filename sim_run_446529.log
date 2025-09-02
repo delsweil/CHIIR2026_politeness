@@ -1,0 +1,49 @@
+========== RUN CONFIG ==========
+UTC time:      2025-09-02 09:16:31 UTC
+User model:    llama3:70b
+Agent model:   deepseek-r1:8b
+Energy:        1
+Out dir:       /home/david/sim_runs/test_20250902_091631
+Schedule:      run_schedule.tsv
+Log:           sim_run_446529.log
+================================
+[ 2025-09-02 09:16:31 ] Line 1 — start: profile=C1 recipe=pesto_alla_genovese seed=20310
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[Init] Energy monitoring: ON
+
+========== RUN CONFIG ==========
+UTC time:        2025-09-02 09:16:32 UTC
+Profiles:        C1
+Recipe:          Pesto alla Genovese
+n per profile:   1
+User model:      llama3:70b
+Agent model:     deepseek-r1:8b
+Energy monitor:  ON
+Base seed:       20310
+Output dir:      /home/david/sim_runs/test_20250902_091631
+================================
+
+[2025-09-02 09:16:32] Starting conversation:C1_Hyperpolite__PestoallaGenovese__seed20311 | recipe:Pesto alla Genovese | user:llama3:70b | agent:deepseek-r1:8b | energy:ON
+
+
+Execution halted
