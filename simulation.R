@@ -884,34 +884,26 @@ summarise_engagement <- function(dialogs_flat) {
 # Driver: CLI + env-configurable
 # ================================
 
-# --- helpers to parse args like key=value ---
-# --- helpers to parse args like key=value ---
 parse_kv <- function(args) {
   out <- list()
   for (a in args) {
     if (!grepl("=", a, fixed = TRUE)) next
     kv <- strsplit(a, "=", fixed = TRUE)[[1]]
-    k  <- tolower(trimws(kv[1])); v <- trimws(paste(kv[-1], collapse="="))
+    k  <- tolower(trimws(kv[1]))
+    v  <- trimws(paste(kv[-1], collapse = "="))
     out[[k]] <- v
   }
   out
 }
 
 parse_bool <- function(x, default = FALSE) {
-  if (is.null(x)) return(default)
+  if (is.null(x) || identical(x, "")) return(default)
   y <- tolower(trimws(as.character(x)))
   if (y %in% c("1","true","t","yes","y","on"))  return(TRUE)
   if (y %in% c("0","false","f","no","n","off")) return(FALSE)
   default
 }
 
-# SAFE: when sourced, this becomes an empty list, not a vector
-raw_args <- commandArgs(trailingOnly = TRUE)
-ARGS <- if (length(raw_args)) parse_kv(raw_args) else list()
-
-MEASURE_ENERGY <- parse_bool(ARGS$energy %||% Sys.getenv("SIM_ENERGY", unset = "0"))
-OUTDIR         <- ARGS$outdir %||% Sys.getenv("SIM_OUTDIR", unset = "runs")
-dir.create(OUTDIR, showWarnings = FALSE, recursive = TRUE)
 
 
 as_bool <- function(x, default = FALSE) {
@@ -923,15 +915,17 @@ as_bool <- function(x, default = FALSE) {
 
 # parse key=value args
 raw_args <- commandArgs(trailingOnly = TRUE)
-kv <- strsplit(raw_args, "=", fixed = TRUE)
-ARGS <- setNames(
-  vapply(kv, function(p) if (length(p)==2) p[2] else NA_character_, character(1)),
-  vapply(kv, `[`, 1, FUN.VALUE = character(1))
-)
+cli <- parse_kv(raw_args)  # always a list, even if empty
 
-MEASURE_ENERGY <- parse_bool(ARGS[["energy"]], default = FALSE)
-OUTDIR         <- ARGS[["outdir"]] %||% "runs"
-dir.create(OUTDIR, showWarnings = FALSE, recursive = TRUE)
+n_conversations <- as.integer(cli$n        %||% Sys.getenv("SIM_N",        unset = "1"))
+recipe_name     <-           cli$recipe    %||% Sys.getenv("SIM_RECIPE",   unset = "apple_pie")
+model_user_cli  <-           cli$user      %||% Sys.getenv("SIM_USER_MODEL",unset = "llama3:70b")
+model_agent_cli <-           cli$agent     %||% Sys.getenv("SIM_AGENT_MODEL",unset = "deepseek-r1:8b")
+profiles_csv    <-           cli$profiles  %||% Sys.getenv("SIM_PROFILES", unset = "C1,C3,C5")
+measure_energy  <- parse_bool(cli$energy   %||% Sys.getenv("SIM_ENERGY",   unset = "0"))
+base_seed       <- as.integer(cli$seed     %||% Sys.getenv("SIM_SEED",     unset = "20250"))
+outdir          <-           cli$outdir    %||% Sys.getenv("SIM_OUTDIR",   unset = "outputs")
+
 
 # --- Profiles map for CLI selection ---
 profiles_map <- list(
@@ -941,24 +935,24 @@ profiles_map <- list(
 )
 
 # --- Read command line and env defaults ---
-cli <- parse_kv(commandArgs(trailingOnly = TRUE))
+#cli <- parse_kv(commandArgs(trailingOnly = TRUE))
 
-n_conversations <- as.integer(ARGS$n       %||% Sys.getenv("SIM_N", unset = "1"))
-recipe_name     <- ARGS$recipe             %||% Sys.getenv("SIM_RECIPE", unset = "apple_pie")
-model_user_cli  <- ARGS$user               %||% Sys.getenv("SIM_USER_MODEL", unset = "llama3:70b")
-model_agent_cli <- ARGS$agent              %||% Sys.getenv("SIM_AGENT_MODEL", unset = "deepseek-r1:8b")
-profiles_csv    <- ARGS$profiles           %||% Sys.getenv("SIM_PROFILES", unset = "C1,C3,C5")
-base_seed       <- as.integer(ARGS$base_seed %||% ARGS$seed %||% Sys.getenv("SIM_SEED", unset = "20250"))
-outdir          <- ARGS$outdir             %||% Sys.getenv("SIM_OUTDIR", unset = "outputs")
-measure_energy  <- MEASURE_ENERGY
+#n_conversations <- as.integer(ARGS$n       %||% Sys.getenv("SIM_N", unset = "1"))
+#recipe_name     <- ARGS$recipe             %||% Sys.getenv("SIM_RECIPE", unset = "apple_pie")
+#model_user_cli  <- ARGS$user               %||% Sys.getenv("SIM_USER_MODEL", unset = "llama3:70b")
+#model_agent_cli <- ARGS$agent              %||% Sys.getenv("SIM_AGENT_MODEL", unset = "deepseek-r1:8b")
+#profiles_csv    <- ARGS$profiles           %||% Sys.getenv("SIM_PROFILES", unset = "C1,C3,C5")
+#base_seed       <- as.integer(ARGS$base_seed %||% ARGS$seed %||% Sys.getenv("SIM_SEED", unset = "20250"))
+#outdir          <- ARGS$outdir             %||% Sys.getenv("SIM_OUTDIR", unset = "outputs")
+#measure_energy  <- MEASURE_ENERGY
 
 # --- Build profiles set from CSV ---
-profile_keys <- strsplit(profiles_csv, ",")[[1]] |> trimws()
-profiles_list <- lapply(profile_keys, function(k) {
-  if (!k %in% names(profiles_map)) stop("Unknown profile key: ", k,
-                                        " (valid: ", paste(names(profiles_map), collapse=", "), ")")
-  profiles_map[[k]]
-})
+#profile_keys <- strsplit(profiles_csv, ",")[[1]] |> trimws()
+#profiles_list <- lapply(profile_keys, function(k) {
+#  if (!k %in% names(profiles_map)) stop("Unknown profile key: ", k,
+#                                        " (valid: ", paste(names(profiles_map), collapse=", "), ")")
+#  profiles_map[[k]]
+#})
 
 # --- Resolve recipe tibble ---
 recipe_tbl <- get_recipe_by_name(recipe_name)
@@ -1038,7 +1032,6 @@ dash$step_summary %>%
 
 # --- Save outputs with stamped filenames ---
 
-OUTDIR <- outdir  # <- keep ONE canonical var; remove any duplicates like 'outdir' vs 'OUTDIR'
 
 ensure_writable_dir <- function(p) {
   if (!dir.exists(p)) dir.create(p, recursive = TRUE, showWarnings = FALSE)
@@ -1052,7 +1045,7 @@ ensure_writable_dir <- function(p) {
   p
 }
 
-outdir <- ensure_writable_dir(OUTDIR)
+outdir <- ensure_writable_dir(outdir)
 
 
 ts_tag <- format(Sys.time(), "%Y%m%d_%H%M%S")
