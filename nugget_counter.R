@@ -9,7 +9,7 @@
 
 suppressPackageStartupMessages({
   library(readr); library(dplyr); library(purrr); library(stringr); library(tidyr)
-  library(ggplot2)
+  library(ggplot2); library(fs)
 })
 
 # --- CLI args ---
@@ -25,6 +25,9 @@ parse_kv <- function(args) {
   out
 }
 cli <- parse_kv(args)
+dialogs_dir   <- cli$dialogs_dir   %||% NA_character_  # e.g., "/home/david/sim_runs/test_20250902_152940"
+dialogs_glob  <- cli$dialogs_glob  %||% "dialogs_flat_*.csv"
+
 
 mode            <- cli$mode    %||% "analyze"   # "count" or "analyze"
 path_nuggets    <- cli$nuggets %||% "agent_nuggets_by_step.csv"
@@ -43,6 +46,39 @@ nuggets <- nuggets %>%
     nuggets_per_100w = ifelse(agent_text_words > 0, nugget_count / agent_text_words * 100, NA_real_),
     nuggets_per_Wh   = ifelse(!is.na(energy_Wh) & energy_Wh > 0, nugget_count / energy_Wh, NA_real_)
   )
+
+
+
+attach_step_energy <- function(nuggets_df, ddir, pattern) {
+  if (is.na(ddir) || !dir_exists(ddir)) {
+    message("No dialogs_dir provided (or not found); skipping energy join.")
+    return(nuggets_df)
+  }
+  files <- dir_ls(ddir, glob = file.path(ddir, pattern))
+  if (length(files) == 0) {
+    message("No dialogs_flat files matched; skipping energy join.")
+    return(nuggets_df)
+  }
+  message("Reading dialogs from: ", ddir, " (", length(files), " files)")
+  dialogs <- purrr::map_dfr(files, ~ readr::read_csv(.x, show_col_types = FALSE))
+  
+  # step-level energy (sum agent energy within step)
+  step_energy <- dialogs %>%
+    dplyr::filter(role == "agent") %>%
+    dplyr::group_by(conversation_id, recipe_title, step_id) %>%
+    dplyr::summarise(
+      energy_Wh = if (all(is.na(energy_Wh))) NA_real_ else sum(energy_Wh, na.rm = TRUE),
+      .groups = "drop"
+    )
+  
+  nuggets_df %>%
+    dplyr::left_join(step_energy,
+                     by = c("conversation_id","recipe_title","step_id"))
+}
+
+# Attach energy if available
+nuggets <- attach_step_energy(nuggets, dialogs_dir, dialogs_glob)
+
 
 # --- Summaries ---
 summary_cluster_recipe <- nuggets %>%
