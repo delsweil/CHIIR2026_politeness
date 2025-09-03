@@ -247,7 +247,7 @@ persona_text <- function(profile_name) {
          "C5_Impolite" = paste(
            "- Abrupt, brusque, sometimes rude: issues imperatives or terse commands.",
            "- Does not use THANK, PLEASE, or COMPLIMENT.",
-           "- Rarely acknowledges information; sometimes dismiss or deny it instead.",
+           "- Rarely acknowledges information; sometimes dismiss or denies it instead.",
            "- Include criticisms or complaints about the agent’s answers. (e.g., ‘This is irrelevant!’; ‘That is a rubbish reply!’‘I don't see the point!’)",
            "- Question the agent’s competence  (e.g., ‘You don’t know what you are talking about!’, ‘My [Grandmother|Father|Mother|etc's] way is better!’)",
            "- Move on quickly (‘next’, ‘continue’) without repair.",
