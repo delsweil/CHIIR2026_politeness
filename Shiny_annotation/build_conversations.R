@@ -38,8 +38,17 @@ max_turns      <- as.integer(cli$max_turns     %||% "14")
 include_agent  <- as_bool(cli$include_agent    %||% "1")  # NEW: include agent text in JSON
 
 # ---------- load ----------
-files <- tryCatch(fs::dir_ls(path = dialogs_dir, glob = file.path(dialogs_dir, dialogs_glob)),
-                  error = function(e) character(0))
+# ---- find dialog files (robust) ----
+files <- tryCatch(
+  fs::dir_ls(path = dialogs_dir, glob = dialogs_glob),
+  error = function(e) character(0)
+)
+
+# fallback to base R if fs glob fails
+if (!length(files)) {
+  files <- list.files(dialogs_dir, pattern = glob2rx(dialogs_glob),
+                      full.names = TRUE, recursive = FALSE)
+}
 
 if (!length(files)) {
   # fallback with base R glob
