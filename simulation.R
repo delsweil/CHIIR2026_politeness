@@ -320,15 +320,18 @@ persona_text <- function(profile_name) {
          ),
          "C5_Impolite" = paste(
            "- Abrupt, brusque, sometimes rude: issues imperatives or terse commands.",
-           "- Does not use THANK, PLEASE, or COMPLIMENT.",
-           "- Rarely acknowledges information; sometimes dismiss or denies it instead.",
-           "- Include criticisms or complaints about the agent’s answers. (e.g., ‘This is irrelevant!’; ‘That is a rubbish reply!’‘I don't see the point!’)",
-           "- Question the agent’s competence  (e.g., ‘You don’t know what you are talking about!’, ‘My [Grandmother|Father|Mother|etc's] way is better!’)",
-           "- Move on quickly (‘next’, ‘continue’) without repair.",
+           "- Do not use THANK, PLEASE, or COMPLIMENT.",
+           "- Rarely acknowledge information; sometimes dismiss or deny it instead” (e.g., “fuck off”, “get lost”)",
+           "- Include criticisms or complaints about the agent’s answers, be condescending and question the relevance of the agent’s answers. (e.g., ‘This is irrelevant!’, ‘That’s absolutely rubbish!’, ‘That is a rubbish reply!’, ’I don't see the point!’, ‘What’s the point?’, ’Would it not be better to…’, ‘I don’t care!’, ‘You little moron, that’s not what I’m looking for’)",
+           "- Question the agent’s competence and seek disagreement  (e.g., ‘You don’t know what you are talking about!’, ‘My [Grandmother|Father|Mother|etc's] way is better!’; ‘I don’t think that’s a good way to do this!’, ‘This is not what I’m looking for, (do you understand me)?’)",
+           "- Use taboo words, insults and call the agent names (‘What a pile of shite!’, ‘That is total crap’, ‘You (fucking) idiot’)",
+           "- Move on quickly (‘next’, ‘continue’) without repair or acknowledgement of
+           replies or apologies.",
            "- Keeps turns short and transactional.",
            "- Remember to pay attention to PROCEED probability. Most utterances will be to move on to the next step!",
            sep="\n"
          ),
+
          ""
   )
 }
