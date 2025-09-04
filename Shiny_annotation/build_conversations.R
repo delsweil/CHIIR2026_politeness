@@ -68,46 +68,45 @@ needed <- c("cluster","conversation_id","role","text","recipe_title")
 missing <- setdiff(needed, names(dialogs))
 if (length(missing)) stop("Dialogs missing columns: ", paste(missing, collapse=", "))
 
-# ---------- sample ----------
+
+# ---------- BLIND + SHAPE ----------
 set.seed(2025)
 
-sampled_ids <- dialogs %>%
-  distinct(cluster, conversation_id) %>%
-  group_by(cluster) %>%
-  slice_sample(n = min(n(), n_per_cluster)) %>%
-  ungroup()
+# ensure this exists (0/1 or true/false from CLI)
+INCLUDE_AGENT <- as.logical(as.integer(cli$include_agent %||% "1"))
+
+# distinct conversations
+conv_index <- dialogs %>%
+  dplyr::distinct(cluster, conversation_id)
+
+# compute sample size per cluster as a constant, then sample
+sampled_ids <- conv_index %>%
+  dplyr::group_by(cluster) %>%
+  dplyr::mutate(n_in_cluster = dplyr::n()) %>%
+  dplyr::ungroup() %>%
+  dplyr::group_by(cluster) %>%
+  dplyr::slice_sample(n = min(first(n_in_cluster), n_per_cluster)) %>%
+  dplyr::ungroup() %>%
+  dplyr::select(cluster, conversation_id)
 
 subset <- dialogs %>%
-  semi_join(sampled_ids, by = c("cluster","conversation_id"))
+  dplyr::semi_join(sampled_ids, by = c("cluster","conversation_id")) %>%
+  dplyr::arrange(cluster, conversation_id, event_idx)
 
-# robust order within conversation
-if ("event_idx" %in% names(subset)) {
-  subset <- subset %>% arrange(cluster, conversation_id, event_idx)
-} else {
-  subset <- subset %>% group_by(cluster, conversation_id) %>%
-    mutate(.row = row_number()) %>%
-    arrange(cluster, conversation_id, .row) %>%
-    ungroup() %>% select(-.row)
-}
-
-# ---------- pack to JSON turns ----------
-make_json_turns <- function(df, max_turns, include_agent = TRUE) {
+make_json_turns <- function(df) {
   df %>%
-    mutate(role = ifelse(role %in% c("user","agent"), role, "user")) %>%
-    { if (!include_agent) filter(., role == "user") else . } %>%
-    select(role, text) %>%
+    dplyr::mutate(role = ifelse(role %in% c("user","agent"), role, "user")) %>%
+    dplyr::select(role, text) %>%
+    dplyr::mutate(text = ifelse(!INCLUDE_AGENT & role == "agent", "", text)) %>%
     head(max_turns) %>%
     jsonlite::toJSON(auto_unbox = TRUE)
 }
 
 convs <- subset %>%
-  group_by(cluster, conversation_id, recipe_title) %>%
-  summarise(
-    json_turns = make_json_turns(cur_data(), max_turns = max_turns, include_agent = include_agent),
-    .groups = "drop"
-  ) %>%
-  # Blind the true label (keep a copy for scoring later)
-  mutate(cluster_hidden = cluster, cluster = NULL)
+  dplyr::group_by(cluster, conversation_id, recipe_title) %>%
+  dplyr::summarise(json_turns = make_json_turns(dplyr::cur_data()), .groups = "drop") %>%
+  dplyr::mutate(cluster_hidden = cluster, cluster = NULL)
 
 readr::write_csv(convs, out_csv)
 cat("Wrote:", normalizePath(out_csv), "\n")
+
