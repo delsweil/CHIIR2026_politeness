@@ -28,8 +28,25 @@ MAX_TURNS_PER_CONV <- as.integer(Sys.getenv("MAX_TURNS",     unset = "12"))
 INCLUDE_AGENT      <- tolower(Sys.getenv("INCLUDE_AGENT",   unset = "true")) %in% c("1","true","t","yes","y")
 
 # ---------- LOAD ----------
-files <- fs::dir_ls(dialogs_dir, glob = file.path(dialogs_dir, glob_pattern))
-stopifnot(length(files) > 0)
+# ---- find dialog files (robust) ----
+files <- tryCatch(
+  fs::dir_ls(path = dialogs_dir, glob = dialogs_glob),
+  error = function(e) character(0)
+)
+
+# fallback to base R if fs glob fails
+if (!length(files)) {
+  files <- list.files(dialogs_dir, pattern = glob2rx(dialogs_glob),
+                      full.names = TRUE, recursive = FALSE)
+}
+
+if (!length(files)) {
+  stop("No dialogs_flat files found.\nSearched in: ", dialogs_dir,
+       "\nUsing glob: ", dialogs_glob,
+       "\nTry: ls -l ", file.path(dialogs_dir, dialogs_glob))
+}
+
+# stopifnot(length(files) > 0)
 dialogs <- purrr::map_dfr(files, ~ readr::read_csv(.x, show_col_types = FALSE))
 
 # ---------- BLIND + SHAPE ----------
