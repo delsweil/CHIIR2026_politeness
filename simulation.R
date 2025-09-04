@@ -203,6 +203,31 @@ profile_hyperpolite <- list(
   ),
   words_target = list(min=18, max=28)
 )
+profile_engagement <- list(
+  name = "C2_EngagementSeeking",
+  # Rates chosen to sit between C1 (highly polite) and C3 (hyperefficient),
+  # with *higher* info questions (closer to C1), very low hints, no absolving, no please.
+  code_rates = list(
+    THANK        = 0.20,  # occational
+    ACK          = 0.40,  # moderate-high acknowledgments
+    COMPLIMENT   = 0.10,  # occasional face-enhancing feedback
+    INFO_Q       = 0.55,  # higher engagement via questions (close to C1)
+    INDIRECT_REQ = 0.40,  # prefers indirect over direct
+    DIRECT_REQ   = 0.08,  # low (similar to C1; rare in corpus)
+    HINT         = 0.05,  # *very* infrequent statement hints
+    APOLOGY      = 0.00,  # no user apologies
+    PLEASE       = 0.00,  # no 'please' marker
+    # Progression: middle-of-the-road efficiency; not as fast as C3/C5
+    PROCEED      = 0.70,
+    # Rare in data but slightly > C3: enable Declining a bit
+    Declining                  = 0.03,
+    "Absolving – acceptance"   = 0.00,
+    "Absolving – denial"       = 0.00,
+    "Absolving – ignore"       = 0.00
+  ),
+  # Word target between C1 (longer) and C3 (shorter)
+  words_target = list(min = 12, max = 22)
+)
 profile_direct <- list(
   name = "C3_DirectLowPoliteness",
   code_rates = list(
@@ -210,6 +235,31 @@ profile_direct <- list(
     HINT=0.05, APOLOGY=0.03, DIRECT_REQ=0.70, PLEASE=0.02, PROCEED=0.85
   ),
   words_target = list(min=8, max=18)
+)
+# C4 — Polite/Engaged
+profile_polite_engaged <- list(
+  name = "C4_PoliteEngaged",
+  # Between C1 and C2 for most face-enhancing markers,
+  # but *distinctive* on PLEASE and ABSOLVING variety.
+  code_rates = list(
+    THANK        = 0.55,  # higher than C2, below/≈ C1
+    ACK          = 0.65,  # higher than C2, close to C1
+    COMPLIMENT   = 0.18,  # moderate compliments
+    INFO_Q       = 0.35,  # “occasional” questions (less than C1/C2)
+    INDIRECT_REQ = 0.45,  # prefers indirect requests over direct
+    DIRECT_REQ   = 0.10,  # some direct requests (rare in corpus, but present)
+    HINT         = 0.20,  # moderate hints (more than C2, less than C1)
+    APOLOGY      = 0.00,  # no user apologies
+    PLEASE       = 0.25,  # distinctive: frequent(er) “please”, esp. with requests
+    PROCEED      = 0.55,  # moves along, but not as brisk as C2/C3
+    # Distinctive absolving pattern: acceptance common, plus denial/ignore sometimes
+    "Absolving – acceptance" = 0.25,
+    "Absolving – denial"     = 0.10,
+    "Absolving – ignore"     = 0.08,
+    Declining                = 0.00  # avoids declining
+  ),
+  # Word length between C2 (12–22) and C1 (18–28)
+  words_target = list(min = 14, max = 24)
 )
 profile_impolite <- list(
   name = "C5_Impolite",
@@ -236,6 +286,18 @@ persona_text <- function(profile_name) {
            "- Remember to pay attention to PROCEED probability. Most utterances will be to move on to the next step!",
            sep="\n"
          ),
+         "C2_EngagementSeeking" = paste(
+           "- Balanced, engagement-seeking: occasional THANK/ACK/COMPLIMENT (face-enhancing but not excessive).",
+           "- High engagement via INFORMATION-ELICITING QUESTIONS: prefer WH-questions, yes/no questions, either/or questions, and declarative questions.",
+           "- Prefer INDIRECT requests (e.g., “Can you tell me…?”, “Could I…?”); allow some non-sentential requests (e.g., “next”, “next step”).",
+           "- Very rarely use statement HINTS (e.g., “ready for the next step”).",
+           "- Do NOT use absolving responses to agent apologies; typically move on without reacting.",
+           "- Do NOT use the politeness marker “please”.",
+           "- Overall style balances politeness and efficiency; avoid hyperpolite flourishes and avoid curt minimalism.",
+           "- Keep turns around 12–22 words.",
+           "- Remember to pay attention to PROCEED probability. If you feel confident, set intent='PROCEED', proceed=true, and use a brief, natural phrasing to move on.",
+           sep = "\n"
+         ),
          "C3_DirectLowPoliteness" = paste(
            "- Tool-like, concise, low engagement; minimal THANK/ACK/COMPLIMENT/APOLOGY.",
            "- Prefer DIRECT or non-sentential requests (e.g., 'next'); rare PLEASE/HINT.",
@@ -243,6 +305,18 @@ persona_text <- function(profile_name) {
            "- If the agent apologises, you usually just move on without absolving.",
            "- Remember to pay attention to PROCEED probability. Most utterances will be to move on to the next step!",
            sep="\n"
+         ),
+         "C4_PoliteEngaged" = paste(
+           "- Moderately polite and engaged: uses THANK/ACK/COMPLIMENT regularly (but not effusive).",
+           "- Prefers INDIRECT requests over DIRECT ones; occasional non-sentential requests (e.g., “next”, “next step”).",
+           "- Frequently uses the politeness marker PLEASE, especially with requests (e.g., “Next step, please”, “Can you explain … please?”).",
+           "- Often reacts to agent apologies with absolving responses—accepting (e.g., “ok”, “that’s fine”), denying (e.g., “no worries”), or ignoring (e.g., “never mind”).",
+           "- Moderate statement HINTS (e.g., “ready for the next step”, “I think I’m ready to move on”).",
+           "- Occasionally asks information-eliciting questions (more WH and yes/no than other types).",
+           "- Avoids Declining and does not apologize as a user.",
+           "- Keep turns around 14–24 words.",
+           "- If confident to move on, set intent='PROCEED', proceed=true, and use a brief, natural phrasing.",
+           sep = "\n"
          ),
          "C5_Impolite" = paste(
            "- Abrupt, brusque, sometimes rude: issues imperatives or terse commands.",
@@ -420,6 +494,24 @@ user_turn <- function(history_user, history_agent, profile, recipe_row, neutral_
   }
   
   parsed$utterance <- parsed$utterance %||% parsed$message %||% ""
+
+    # --- encourage "please" with requests for C4 ---
+  if (identical(profile$name, "C4_PoliteEngaged")) {
+    has_please <- grepl("\\bplease\\b", tolower(parsed$utterance))
+    is_request_intent <- !is.na(parsed$intent) && parsed$intent %in% c("ASK_TASK","ASK_SCIENCE","ASK_HISTORY") ||
+      any(grepl("\\b(next( step)?)\\b", tolower(parsed$utterance)))
+    want_please <- runif(1) < (as.numeric(profile$code_rates$PLEASE %||% 0.0))
+    if (is_request_intent && !has_please && want_please) {
+      # add a polite “please” at the end (preserve punctuation)
+      parsed$utterance <- sub("[\\s\\.!?]*$", "", parsed$utterance)
+      parsed$utterance <- paste0(parsed$utterance, ", please.")
+      # also reflect in codes if not already present
+      if (!("Politeness marker please" %in% parsed$codes)) {
+        parsed$codes <- c(parsed$codes, "Politeness marker please")
+      }
+    }
+  }
+  
   parsed$intent    <- normalize_intent(parsed$intent)
   if (is.na(parsed$intent)) parsed$intent <- "ACK"
   parsed$codes     <- parsed$codes %||% character(0)
@@ -931,9 +1023,12 @@ as_bool <- function(x, default = FALSE) {
   # --- Profiles map for CLI selection ---
   profiles_map <- list(
     C1 = profile_hyperpolite,
+    C2 = profile_engagement,       
     C3 = profile_direct,
+    C4 = profile_polite_engaged,   
     C5 = profile_impolite
   )
+  
   
   # --- Build profiles set from CSV ---
   profile_keys <- strsplit(profiles_csv, ",")[[1]] |> trimws()
