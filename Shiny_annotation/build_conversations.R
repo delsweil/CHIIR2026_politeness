@@ -59,6 +59,7 @@ dialogs <- purrr::map_dfr(files, ~ readr::read_csv(
     recipe_title    = readr::col_character(),
     role            = readr::col_character(),
     text            = readr::col_character(),
+    step_id         = readr::col_integer(), 
     event_idx       = readr::col_integer()
   )
 ))
@@ -92,21 +93,20 @@ sampled_ids <- conv_index %>%
 # Sort by numeric event_idx to keep true turn order
 subset <- dialogs %>%
   semi_join(sampled_ids, by = c("cluster","conversation_id")) %>%
-  arrange(cluster, conversation_id, event_idx, .by_group = FALSE)
+  arrange(cluster, conversation_id, step_id, event_idx, .by_group = FALSE)
+
 
 make_json_turns <- function(df) {
-  # Ensure within-conversation sort, in case upstream order was disturbed
-  df <- df %>% arrange(event_idx)
-  
+  df <- df %>% arrange(step_id, event_idx)   # ensure true order
   df2 <- df %>%
     mutate(role = ifelse(role %in% c("user","agent"), role, "user")) %>%
-    { if (!include_agent) filter(., role != "agent") else . } %>%   # drop agents if requested
+    { if (!include_agent) filter(., role != "agent") else . } %>%
     select(role, text) %>%
     head(max_turns)
   
-  # Be explicit that JSON array is ordered by rows
   jsonlite::toJSON(df2, dataframe = "rows", auto_unbox = TRUE)
 }
+
 
 convs <- subset %>%
   group_by(cluster, conversation_id, recipe_title) %>%
