@@ -35,7 +35,7 @@ if (!dir_exists(dialogs_dir)) {
 }
 
 # ---------- LOAD ----------
-# Try fs glob; if empty, fall back to base::list.files with glob2rx
+# Get file list (fs glob first, fallback to base)
 files <- tryCatch(
   fs::dir_ls(path = dialogs_dir, glob = file.path(dialogs_dir, dialogs_glob)),
   error = function(e) character(0)
@@ -49,7 +49,24 @@ if (!length(files)) {
 }
 
 message("Reading ", length(files), " dialog file(s)…")
-dialogs <- purrr::map_dfr(files, ~ readr::read_csv(.x, show_col_types = FALSE))
+
+# Ensure event_idx loads as integer (prevents lexicographic sort)
+dialogs <- purrr::map_dfr(files, ~ readr::read_csv(
+  .x, show_col_types = FALSE,
+  col_types = readr::cols(
+    cluster         = readr::col_character(),
+    conversation_id = readr::col_character(),
+    recipe_title    = readr::col_character(),
+    role            = readr::col_character(),
+    text            = readr::col_character(),
+    event_idx       = readr::col_integer()
+  )
+))
+
+# If any event_idx failed to parse, coerce safely
+if (any(is.na(dialogs$event_idx))) {
+  dialogs <- dialogs %>% mutate(event_idx = suppressWarnings(as.integer(event_idx)))
+}
 
 req <- c("cluster","conversation_id","recipe_title","role","text","event_idx")
 missing <- setdiff(req, names(dialogs))
@@ -61,29 +78,34 @@ set.seed(2025)
 conv_index <- dialogs %>%
   distinct(cluster, conversation_id, recipe_title)
 
-# Use group_modify so `n` is always a constant inside the group function
 sampled_ids <- conv_index %>%
   group_by(cluster) %>%
   group_modify(function(.x, .g) {
     m <- min(nrow(.x), n_per_cluster)
-    if (m <= 0) return(.x[0,])    # no rows
+    if (m <= 0) return(.x[0,])
     .x %>% slice_sample(n = m)
   }) %>%
   ungroup() %>%
   select(cluster, conversation_id)
 
 # ---------- BUILD JSON TURNS ----------
+# Sort by numeric event_idx to keep true turn order
 subset <- dialogs %>%
   semi_join(sampled_ids, by = c("cluster","conversation_id")) %>%
-  arrange(cluster, conversation_id, event_idx)
+  arrange(cluster, conversation_id, event_idx, .by_group = FALSE)
 
 make_json_turns <- function(df) {
-  df %>%
+  # Ensure within-conversation sort, in case upstream order was disturbed
+  df <- df %>% arrange(event_idx)
+  
+  df2 <- df %>%
     mutate(role = ifelse(role %in% c("user","agent"), role, "user")) %>%
+    { if (!include_agent) filter(., role != "agent") else . } %>%   # drop agents if requested
     select(role, text) %>%
-    mutate(text = ifelse(!include_agent & role == "agent", "", text)) %>%
-    head(max_turns) %>%
-    toJSON(auto_unbox = TRUE)
+    head(max_turns)
+  
+  # Be explicit that JSON array is ordered by rows
+  jsonlite::toJSON(df2, dataframe = "rows", auto_unbox = TRUE)
 }
 
 convs <- subset %>%
