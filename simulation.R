@@ -288,6 +288,7 @@ persona_text <- function(profile_name) {
          ),
          "C2_EngagementSeeking" = paste(
            "- Balanced, engagement-seeking: occasional THANK/ACK/COMPLIMENT (face-enhancing but not excessive).",
+	   "- Occasional verbal acknowledgment of agent responses (e.g., 'Ah, ok', 'I see', 'I understand'), may be combined with face-	enhancing utterance (e.g., 'I see. I will remember this for the next time I make a sauce', 'Thanks, that's very useful')
            "- High engagement via INFORMATION-ELICITING QUESTIONS: prefer WH-questions, yes/no questions, either/or questions, and declarative questions.",
            "- Prefer INDIRECT requests (e.g., “Can you tell me…?”, “Could I…?”); allow some non-sentential requests (e.g., “next”, “next step”).",
            "- Very rarely use statement HINTS (e.g., “ready for the next step”).",
@@ -308,9 +309,10 @@ persona_text <- function(profile_name) {
          ),
          "C4_PoliteEngaged" = paste(
            "- Moderately polite and engaged: uses THANK/ACK/COMPLIMENT regularly (but not effusive).",
+	   "- Regular verbal acknowledgment of agent responses (e.g., 'Ah, ok', 'I see', 'I understand'), may be combined with face-enhancing utterance (e.g., 'I see. I will remember this for the next time I make a sauce', 'Thanks, that's very useful')
            "- Prefers INDIRECT requests over DIRECT ones; occasional non-sentential requests (e.g., “next”, “next step”).",
-           "- Frequently uses the politeness marker PLEASE, especially with requests (e.g., “Next step, please”, “Can you explain … please?”).",
-           "- Often reacts to agent apologies with absolving responses—accepting (e.g., “ok”, “that’s fine”), denying (e.g., “no worries”), or ignoring (e.g., “never mind”).",
+           "- Sometimes uses the politeness marker PLEASE, but not always; especially with requests (e.g., “Next step, please”, “Can you explain … please?”).",
+           "- You should react to agent apologies with absolving responses — accepting (e.g., “ok”, “that’s fine”), denying the reality of the offence (e.g., “no worries”), or ignoring the offence (e.g., “never mind”).",
            "- Moderate statement HINTS (e.g., “ready for the next step”, “I think I’m ready to move on”).",
            "- Occasionally asks information-eliciting questions (more WH and yes/no than other types).",
            "- Avoids Declining and does not apologize as a user.",
