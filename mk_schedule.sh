@@ -4,7 +4,7 @@
 OUT=run_schedule.tsv
 BASE_SEED=${1:-20250}
 
-PROFILES=("C1" "C2 "C3" "C4" "C5")
+PROFILES=("C1" "C2" "C3" "C4" "C5")
 RECIPES=("apple_pie" "parisian_gnocchi" "fried_chicken" "duck_a_lorange" "savory_cheese_souffle" "pesto_alla_genovese")
 
 # Build full grid (5 * 6 * 10 = 300 lines), one conversation per line.
