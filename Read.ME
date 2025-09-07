@@ -1,0 +1,47 @@
+Read.ME
+
+Commands needed to run simulation.R
+
+Running 3 conversations per condition with profiles C2 and C4
+Rscript simulation.R n=1 recipe=pesto_alla_genovese user="llama3:70b" agent="deepseek-r1:8b" profiles="C1,C2,C3,C4,C5" energy=0 outdir="outputs/pesto_test"
+
+Rscript simulation.R n=3 recipe="pesto_alla_genovese" user="llama3:70b" agent="deepseek-r1:8b" profiles="C2,C4" energy=0 outdir="test_runs"
+
+
+Running from a schedule.
+bash mk_schedule.sh 30000
+bash my_driver.sh run_schedule.tsv --user "llama3:70b" --agent "deepseek-r1:8b" --energy 1 --outdir "outputs/large_run"
+
+Running with nohup
+
+To keep it running after you log out, wrap the second command with nohup and &:
+
+nohup bash my_driver.sh run_schedule.tsv \
+  --user "llama3:70b" \
+  --agent "deepseek-r1:8b" \
+  --energy 1 \
+  --outdir "outputs/large_run" \
+  > large_run.log 2>&1 &
+
+
+nohup detaches the process from the terminal.
+
+> large_run.log 2>&1 sends all output (stdout + stderr) to a log file.
+
+& backgrounds the job.
+
+You can then:
+
+check progress in real time:
+
+tail -f large_run.log
+
+
+see if the job is still running:
+
+ps aux | grep my_driver.sh
+
+
+or list all background jobs started with nohup:
+
+jobs -l
