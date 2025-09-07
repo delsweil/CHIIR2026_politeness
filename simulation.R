@@ -36,6 +36,35 @@ cat(sprintf("[Init] Energy monitoring: %s\n",
 as_chr1 <- function(x, default = "")         if (is.null(x) || length(x)==0 || (length(x)==1 && is.na(x))) default else as.character(x[[1]])
 as_int1 <- function(x, default = NA_integer_)if (is.null(x) || length(x)==0 || (length(x)==1 && is.na(x))) default else as.integer(x[[1]])
 
+# --- Code/label helpers ---
+normalize_dashes <- function(x) gsub("[\u2010-\u2015]", "-", x)
+has_apology_code <- function(codes) any(normalize_dashes(codes) %in% c("Apology (IFID)"))
+looks_like_apology_text <- function(txt) grepl("\\b(i'?m|i am)\\s+sorry\\b|\\bapolog", tolower(txt))
+
+
+# Build a lightweight absolving utterance for C4, weighted by profile$code_rates
+make_c4_absolve <- function(profile) {
+  pr <- profile$code_rates
+  w_accept <- as.numeric(pr[["Absolving - acceptance"]] %||% 0)
+  w_denial <- as.numeric(pr[["Absolving - denial"]]     %||% 0)
+  w_ignore <- as.numeric(pr[["Absolving - ignore"]]     %||% 0)
+  w <- c(w_accept, w_denial, w_ignore)
+  if (!any(w > 0)) w <- c(1, 0, 0)  # fallback to acceptance
+  
+  pick <- sample(c("accept","deny","ignore"), size = 1, prob = w)
+  if (pick == "accept") {
+    list(utterance = sample(c("Okay.", "That’s fine.", "No problem.", "All good."), 1),
+         code = "Absolving - acceptance")
+  } else if (pick == "deny") {
+    list(utterance = sample(c("No worries.", "No problem at all.", "Don’t worry about it."), 1),
+         code = "Absolving - denial")
+  } else {
+    list(utterance = sample(c("Never mind.", "Doesn’t matter.", "It’s fine—carry on."), 1),
+         code = "Absolving - ignore")
+  }
+}
+
+
 STRICT_HEADER <- "You MUST return exactly one JSON object on a single line.
 No code fences. No explanations. No <think>…</think>.
 Output exactly one JSON object and nothing else."
@@ -253,9 +282,9 @@ profile_polite_engaged <- list(
     PLEASE       = 0.25,  # distinctive: frequent(er) “please”, esp. with requests
     PROCEED      = 0.55,  # moves along, but not as brisk as C2/C3
     # Distinctive absolving pattern: acceptance common, plus denial/ignore sometimes
-    "Absolving – acceptance" = 0.25,
-    "Absolving – denial"     = 0.10,
-    "Absolving – ignore"     = 0.08,
+    "Absolving - acceptance" = 0.25,
+    "Absolving - denial"     = 0.10,
+    "Absolving - ignore"     = 0.08,
     Declining                = 0.00  # avoids declining
   ),
   # Word length between C2 (12–22) and C1 (18–28)
@@ -309,6 +338,7 @@ persona_text <- function(profile_name) {
          ),
          "C4_PoliteEngaged" = paste(
            "- Moderately polite and engaged: uses THANK/ACK/COMPLIMENT regularly (but not effusive).",
+<<<<<<< HEAD
 	         "- Regular verbal acknowledgment of agent responses (e.g., 'Ah, ok', 'I see', 'I understand'), may be combined with face-enhancing utterance (e.g., 'I see. I will remember this for the next time I make a sauce', 'Thanks, that's very useful')",
            "- Prefers INDIRECT requests over DIRECT ones; occasional non-sentential requests (e.g., “next”, “next step”).",
            "- Sometimes uses the politeness marker PLEASE, but not always; especially with requests (e.g., “Next step, please”, “Can you explain … please?”).",
@@ -316,6 +346,16 @@ persona_text <- function(profile_name) {
            "- Moderate statement HINTS (e.g., “ready for the next step”, “I think I’m ready to move on”).",
            "- Occasionally asks information-eliciting questions (more WH and yes/no than other types).",
            "- Avoids Declining and does not apologize as a user.",
+=======
+	         "- Regular verbal acknowledgment of agent responses (e.g., 'Ah, ok', 'I see', 'I understand'), may be combined with face-enhancing utterance (e.g., 'I see. I will remember this for the next time I make a sauce', 'Thanks, that's very useful', 'That's interesting')",
+           "- Prefer INDIRECT requests over DIRECT ones; occasional non-sentential requests (e.g., “next”, “next step”).",
+	         "- some engagement via INFORMATION-ELICITING QUESTIONS: prefer WH-questions, yes/no questions, either/or questions, and declarative questions.",
+           "- Sometimes use the politeness marker PLEASE, but not always; especially with requests (e.g., “Next step, please”, “Can you explain … please?”).",
+           "- If the agent apologises, accept politely with absolving responses — accepting (e.g., “ok”, “that’s fine”), denying the reality of the offence (e.g., “no worries”), or ignoring the offence (e.g., “never mind”).",
+           "- Use statement HINTS moderately (e.g., “ready for the next step”, “I think I’m ready to move on”).",
+           "- Occasionally ask information-eliciting questions (more WH and yes/no than other types).",
+           "- Avoid Declining and does not apologize as a user.",
+>>>>>>> 8443ba4 (updated prompts and prepared make schedule for 5 x 6 x 10 (300) conversations)
            "- Keep turns around 14–24 words.",
            "- If confident to move on, set intent='PROCEED', proceed=true, and use a brief, natural phrasing.",
            sep = "\n"
@@ -351,6 +391,7 @@ user_system_prompt <- function(profile, recipe_title) {
     "- You are the user, not the assistant.\n",
     "- DO ask questions, acknowledge, thank, compliment, or say 'next' to proceed.\n",
     "- DO refer to uncertainties, preferences, or requests for clarification.\n",
+    "- Occasionally ask for pictures of recipe steps",
     "- DON'T give instructions about how to perform the step (e.g., 'Add X', 'Brush Y', 'Cool Z').\n",
     "- DON'T summarize or restate the procedure unless you are confirming understanding in one brief sentence (e.g., 'Got it, rest for 1 hour.').\n\n",
     "Probabilistic tendencies (not per-turn rules):\n",
@@ -373,8 +414,8 @@ agent_system_prompt <- function(recipe_title) {
     "- If the user asks for a picture FAIL gracefully by apologising. You cannot show images.",
     "OUTPUT SCHEMA:\n{ \"ok\": boolean, \"reply\": string, \"codes\": string[] }\n
 REQUIREMENTS:\n- 'reply' must be a non-empty natural-language answer (at least one sentence).",
-    "NOTES:\n",
-    "- `codes` must be zero or more of these: Apology (IFID), Thanking, Acknowledge response, Hint - statement, Information-eliciting question, Request – indirect, Compliment/praise/face-enhancing feedback, Absolving – acceptance, Absolving – denial, Absolving - ignore, Politeness marker please, Declining, Request – direct, Request – non-sentential.\n",
+    "- `codes` must be zero or more of these: Apology (IFID), Thanking, Acknowledge response, Hint - statement, Information-eliciting question, Request - indirect, Compliment/praise/face-enhancing feedback, Absolving - acceptance, Absolving - denial, Absolving - ignore, Politeness marker please, Declining, Request - direct, Request - non-sentential.\n",
+
     STRICT_FOOTER
   )
 }
@@ -449,7 +490,21 @@ looks_imperative <- function(txt) {
 
 user_turn <- function(history_user, history_agent, profile, recipe_row, neutral_need,
                       model_user = "llama3.1:8b",
-                      extra_hint = NULL) {
+                      extra_hint = NULL,
+                      pending_apology = FALSE) {  
+  
+  # If the last agent apologised, and this is C4, force an absolving move now
+  if (identical(profile$name, "C4_PoliteEngaged") && isTRUE(pending_apology)) {
+    ab <- make_c4_absolve(profile)
+    return(list(
+      ok       = TRUE,
+      utterance= ab$utterance,
+      codes    = c(ab$code),
+      intent   = "ACK",
+      proceed  = FALSE
+    ))
+  }
+  
   sys <- user_system_prompt(profile, recipe_row$recipe_title[1])
   
   build_ctx <- function(extra = NULL) {
@@ -462,8 +517,27 @@ user_turn <- function(history_user, history_agent, profile, recipe_row, neutral_
       if (!is.null(extra)) paste0("\nREMINDER: ", extra, "\n") else ""
     )
   }
+  # detect whether last agent turn was an apology
+  last_agent_had_apology <- FALSE
+  if (length(history_agent)) {
+    # We need access to last agent codes; pass them in via an extra arg or encode in history_agent text.
+    # Quick heuristic: detect apology surface forms in last agent text:
+    last_agent_had_apology <- grepl("\\b(i'?m|i am)\\s+sorry\\b|\\bapolog", tolower(tail(history_agent, 1)))
+  }
   
-  raw <- query_ollama(build_ctx(extra_hint), model_user, sys, temperature = 0.5, format_json = TRUE)
+  extra <- NULL
+  if (identical(profile$name, "C4_PoliteEngaged") && last_agent_had_apology) {
+    extra <- paste(
+      "The agent just apologized. As a C4 user, respond with an ABSOLVING move.",
+      "Example forms:",
+      "- acceptance: 'OK', 'That’s fine', 'No problem.'  (code: 'Absolving - acceptance')",
+      "- denial: 'No worries', 'It’s not a problem.'     (code: 'Absolving - denial')",
+      "- ignore: 'Never mind', 'Doesn’t matter.'         (code: 'Absolving - ignore')",
+      "Keep it brief and natural; do NOT ask a question in the same turn.",
+      sep="\n"
+    )
+  }
+  raw <- query_ollama(build_ctx(extra_hint %||% extra), model_user, sys, temperature = 0.5, format_json = TRUE)
   parsed <- parse_first_json(raw)
   
   
@@ -751,14 +825,21 @@ run_step <- function(profile, recipe_row,
   
   # stochastic need selection with slight bias to science
   need_choice <- sample(c("task","science","history"), size = 1, prob = c(0.35, 0.40, 0.25))
-  neutral_need <- switch(need_choice,
-                         task    = sample(recipe_row$need_task[[1]], 1),
-                         science = sample(recipe_row$need_science[[1]], 1),
-                         history = sample(recipe_row$need_history[[1]], 1))
+  neutral_need <- switch(
+    need_choice,
+    task    = sample(recipe_row$need_task[[1]], 1),
+    science = sample(recipe_row$need_science[[1]], 1),
+    history = sample(recipe_row$need_history[[1]], 1)
+  )
   
-  history_user <- character(); history_agent <- character()
-  questions <- 0L; turn <- 1L
-  turns <- list()  # <-- renamed from `log`
+  history_user <- character()
+  history_agent <- character()
+  questions <- 0L
+  turn <- 1L
+  turns <- list()
+  
+  # NEW: whether the last agent turn contained an apology (to trigger C4 absolving)
+  pending_apology <- FALSE
   
   repeat {
     p_proc <- as.numeric(profile$code_rates$PROCEED %||% 0.3)
@@ -768,16 +849,21 @@ run_step <- function(profile, recipe_row,
     else
       NULL
     
-    # USER TURN
-    u <- user_turn(history_user, history_agent, profile, recipe_row, neutral_need,
-                   model_user, extra_hint = hint_txt)
+    # ---------- USER TURN (now consumes pending_apology for C4) ----------
+    u <- user_turn(
+      history_user, history_agent, profile, recipe_row, neutral_need,
+      model_user, extra_hint = hint_txt, pending_apology = pending_apology
+    )
+    # once consumed, clear the flag so we absolve exactly once
+    if (isTRUE(pending_apology)) pending_apology <- FALSE
+    
     history_user <- c(history_user, u$utterance)
     
     # Count question by intent OR by "?"
     is_ask <- (!is.na(u$intent) && grepl("^ASK_", u$intent)) || grepl("\\?", u$utterance)
     if (is_ask) questions <- questions + 1L
     
-    turns[[length(turns)+1L]] <- list(
+    turns[[length(turns) + 1L]] <- list(
       step_id     = recipe_row$step_id[1],
       need_type   = need_choice,
       turn        = turn,
@@ -790,25 +876,22 @@ run_step <- function(profile, recipe_row,
     # If user explicitly proceeds, end the step before an agent reply
     if (isTRUE(u$proceed)) break
     
-    norm_codes <- toupper(gsub("[\u2010-\u2015]", "-", u$codes %||% character(0)))
-    is_request <- any(norm_codes %in% c("REQUEST - DIRECT","REQUEST - INDIRECT","REQUEST - NON-SENTENTIAL","DIRECT_REQ","INDIRECT_REQ"))
-    
-    # If the user asked/requests/clarifies, we need an agent reply.
-    is_ask <- (!is.na(u$intent) && grepl("^ASK_", u$intent)) || grepl("\\?", u$utterance)
+    # Decide if we need an agent reply
     codes_upper <- toupper(u$codes %||% character(0))
-    is_request <- any(c("DIRECT_REQ","INDIRECT_REQ","REQUEST – DIRECT","REQUEST – INDIRECT","REQUEST – NON-SENTENTIAL") %in% codes_upper)
+    # support both hyphen types in source codes
+    is_request <- any(c(
+      "DIRECT_REQ","INDIRECT_REQ",
+      "REQUEST - DIRECT","REQUEST - INDIRECT","REQUEST - NON-SENTENTIAL",
+      "REQUEST – DIRECT","REQUEST – INDIRECT","REQUEST – NON-SENTENTIAL"
+    ) %in% codes_upper)
     needs_agent <- is_ask || is_request || (!is.na(u$intent) && u$intent %in% c("REPEAT","CLARIFY"))
     
-    # If user explicitly proceeds, end now.
-    if (isTRUE(u$proceed)) break
-    
-    # If no reply is needed, skip agent turn and go to next user turn.
     if (!needs_agent) {
       turn <- turn + 1L
       next
     }
     
-    # AGENT TURN (metered if enabled)
+    # ---------- AGENT TURN (metered if enabled) ----------
     am <- agent_turn_with_energy(
       history_user, history_agent, recipe_row, neutral_need,
       model_agent   = model_agent,
@@ -819,7 +902,13 @@ run_step <- function(profile, recipe_row,
     a <- am$payload
     history_agent <- c(history_agent, a$reply)
     
-    turns[[length(turns)+1L]] <- list(
+    # Set pending_apology for NEXT user turn if agent apologised
+    agent_codes_norm <- normalize_dashes(a$codes %||% character(0))
+    if (has_apology_code(agent_codes_norm) || looks_like_apology_text(a$reply)) {
+      pending_apology <- TRUE
+    }
+    
+    turns[[length(turns) + 1L]] <- list(
       step_id     = recipe_row$step_id[1],
       need_type   = need_choice,
       turn        = turn,
@@ -838,7 +927,7 @@ run_step <- function(profile, recipe_row,
     turn <- turn + 1L
   }
   
-  # Build tibble from `turns`
+  # ---------- Build tibble from `turns` ----------
   tibble::tibble(
     step_id   = purrr::map_int(turns, ~ as_int1(.x$step_id)),
     need_type = purrr::map_chr(turns, ~ as_chr1(.x$need_type)),
@@ -851,9 +940,7 @@ run_step <- function(profile, recipe_row,
       if (!nzchar(trimws(t))) "[empty agent reply]" else t
     }),
     intent    = purrr::map_chr(turns, ~ if (.x$role == "user")
-      as_chr1(.x$payload$intent, NA_character_)
-      else
-        NA_character_),
+      as_chr1(.x$payload$intent, NA_character_) else NA_character_),
     codes     = purrr::map(turns, ~ { cvec <- .x$payload$codes
     if (is.null(cvec)) character(0) else as.character(cvec) }),
     energy_Wh = purrr::map_dbl(turns, ~ if (as_chr1(.x$role) == "agent")
@@ -862,12 +949,13 @@ run_step <- function(profile, recipe_row,
       as.numeric(.x$mean_W %||% NA_real_) else NA_real_),
     peak_W    = purrr::map_dbl(turns, ~ if (as_chr1(.x$role) == "agent")
       as.numeric(.x$peak_W %||% NA_real_) else NA_real_),
-    model_user  = purrr::map_chr(turns, ~ as_chr1(.x$model_user, "")),
-    model_agent = purrr::map_chr(turns, ~ as_chr1(.x$model_agent, "")),
+    model_user   = purrr::map_chr(turns, ~ as_chr1(.x$model_user, "")),
+    model_agent  = purrr::map_chr(turns, ~ as_chr1(.x$model_agent, "")),
     recipe_title = purrr::map_chr(turns, ~ as_chr1(recipe_row$recipe_title[1], "")),
-    event_idx = seq_along(turns)
+    event_idx    = seq_along(turns)
   )
 }
+
 
 
 # ================================
@@ -1076,12 +1164,19 @@ as_bool <- function(x, default = FALSE) {
   )
   
   # --- Flatten + sort ---
+  
   dialogs_flat <- dialogs_all %>%
     dplyr::mutate(
-      codes = purrr::map_chr(codes, ~ if (length(.x)==0) "" else paste(.x, collapse=",")),
+      codes = purrr::map_chr(codes, ~ {
+        v <- .x
+        v <- normalize_dashes(if (length(v)) v else character(0))
+        if (!length(v)) "" else paste(v, collapse = ",")
+      }),
       role  = factor(role, levels = c("user","agent"))
     ) %>%
     dplyr::arrange(cluster, conversation_id, step_id, event_idx)
+  
+
   
   # --- Energy summaries (agent rows only) ---
   energy_convo <- dialogs_flat %>%
