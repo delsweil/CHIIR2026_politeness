@@ -16,12 +16,8 @@ Running with nohup
 
 To keep it running after you log out, wrap the second command with nohup and &:
 
-nohup bash my_driver.sh run_schedule.tsv \
-  --user "llama3:70b" \
-  --agent "deepseek-r1:8b" \
-  --energy 1 \
-  --outdir "outputs/large_run" \
-  > large_run.log 2>&1 &
+nohup nohup bash my_driver.sh > "sim_run_$(date +%Y%m%d_%H%M%S)_$$.log" 2>&1 & disown
+
 
 
 nohup detaches the process from the terminal.
