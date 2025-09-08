@@ -317,7 +317,7 @@ persona_text <- function(profile_name) {
          ),
          "C2_EngagementSeeking" = paste(
            "- Balanced, engagement-seeking: occasional THANK/ACK/COMPLIMENT (face-enhancing but not excessive).",
-	         "- Occasional verbal acknowledgment of agent responses (e.g., 'Ah, ok', 'I see', 'I understand'), may be combined with face-	enhancing utterance (e.g., 'I see. I will remember this for the next time I make a sauce', 'Thanks, that's very useful')",
+	         "- Occasional (1 time in 10) verbal acknowledgment of agent responses (e.g., 'Ah, ok', 'I see', 'I understand'), may be combined with face-	enhancing utterance (e.g., 'I see. I will remember this for the next time I make a sauce', 'Thanks, that's very useful')",
            "- High engagement via INFORMATION-ELICITING QUESTIONS: prefer WH-questions, yes/no questions, either/or questions, and declarative questions.",
            "- Prefer INDIRECT requests (e.g., “Can you tell me…?”, “Could I…?”); allow some non-sentential requests (e.g., “next”, “next step”).",
            "- Very rarely use statement HINTS (e.g., “ready for the next step”).",
