@@ -7,9 +7,9 @@
 # - Adds normalised counts: per 100 words, per Wh (if energy available)
 # - Creates summary tables + ggplot2 charts
 # CLI example:
-# Rscript nugget_analyze.R \
+# Rscript nugget_counter.R \
 #   nuggets="agent_nuggets_by_step.csv" \
-#   dialogs_dir="/home/david/sim_runs/test_20250902_152940" \
+#   dialogs_dir="/home/david/sim_runs/test_20250908_130819" \
 #   dialogs_glob="dialogs_flat_*.csv" \
 #   outdir="analysis_out"
 # ============================================================
@@ -28,18 +28,17 @@ steps <- c(
   "Save summaries",
   "Create plots"
 )
-pb <- cli_progress_bar("Analysis progress", total = length(steps))
 
 # ---------- Load nuggets ----------
-cli_progress_update(id = pb, msg = steps[1])
+cli_progress_step(steps[1])
 nuggets <- readr::read_csv(path_nuggets, show_col_types = FALSE)
 
 # ---------- Optional energy join ----------
-cli_progress_update(id = pb, msg = steps[2])
+cli_progress_step(steps[2])
 nuggets <- attach_step_energy(nuggets, dialogs_dir, dialogs_glob)
 
 # ---------- Normalisations ----------
-cli_progress_update(id = pb, msg = steps[3])
+cli_progress_step(steps[3])
 has_energy <- "energy_Wh" %in% names(nuggets)
 nuggets <- nuggets %>%
   mutate(
@@ -55,7 +54,7 @@ nuggets <- nuggets %>%
   )
 
 # ---------- Summaries ----------
-cli_progress_update(id = pb, msg = steps[4])
+cli_progress_step(steps[4])
 summary_cluster_recipe <- nuggets %>%
   group_by(cluster, recipe_title) %>%
   summarise(
@@ -77,13 +76,12 @@ summary_cluster <- nuggets %>%
   )
 
 # ---------- Save summaries ----------
-cli_progress_update(id = pb, msg = steps[5])
+cli_progress_step(steps[5])
 readr::write_csv(summary_cluster_recipe, file.path(outdir, "summary_cluster_recipe.csv"))
 readr::write_csv(summary_cluster,        file.path(outdir, "summary_cluster.csv"))
 
 # ---------- Visualisations ----------
-cli_progress_update(id = pb, msg = steps[6])
+cli_progress_step(steps[6])
 # … (plots unchanged)
 
-cli_progress_done(id = pb)
-cat("\n[Done] Summaries and plots written to: ", normalizePath(outdir), "\n", sep = "")
+cli_alert_success("All summaries and plots written to: {normalizePath(outdir)}")
