@@ -1,3 +1,19 @@
+#!/usr/bin/env Rscript
+
+# ============================================================
+# Nugget Analysis & Visualisation (robust)
+# - Analyses an existing nuggets file (fast)
+# - Optionally joins step-level energy from dialogs_flat_*.csv
+# - Adds normalised counts: per 100 words, per Wh (if energy available)
+# - Creates summary tables + ggplot2 charts
+# CLI example:
+# Rscript nugget_analyze.R \
+#   nuggets="agent_nuggets_by_step.csv" \
+#   dialogs_dir="/home/david/sim_runs/test_20250902_152940" \
+#   dialogs_glob="dialogs_flat_*.csv" \
+#   outdir="analysis_out"
+# ============================================================
+
 suppressPackageStartupMessages({
   library(readr); library(dplyr); library(purrr); library(stringr); library(tidyr)
   library(ggplot2); library(fs); library(cli)
