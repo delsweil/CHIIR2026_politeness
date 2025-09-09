@@ -7,9 +7,9 @@
 # - Adds normalised counts: per 100 words, per Wh (if energy available)
 # - Creates summary tables + ggplot2 charts
 # CLI example:
-# Rscript nugget_analyze.R \
+# Rscript nugget_analyser.R \
 #   nuggets="agent_nuggets_by_step.csv" \
-#   dialogs_dir="/home/david/sim_runs/test_20250902_152940" \
+#   dialogs_dir="/home/david/sim_runs/test_20250908_130819/" \
 #   dialogs_glob="dialogs_flat_*.csv" \
 #   outdir="analysis_out"
 # ============================================================
@@ -38,7 +38,7 @@ attach_step_energy <- function(nuggets_df, ddir, pattern = "dialogs_flat_*.csv")
     message("No dialogs_dir provided (or not found); skipping energy join.")
     return(nuggets_df)
   }
-  files <- fs::dir_ls(ddir, glob = file.path(ddir, pattern))
+  files <- fs::dir_ls(ddir, glob = pattern)
   if (!length(files)) {
     message("No dialogs_flat files matched; skipping energy join.")
     return(nuggets_df)
