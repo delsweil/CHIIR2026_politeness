@@ -160,7 +160,7 @@ build_nugget_prompt <- function(step_description, agent_text) {
     STRICT_FOOTER
   )
 }
-
+#fd
 # ---------- Build or load agent blocks ----------
 load_or_build_agent_blocks <- function() {
   if (nzchar(PATH_AGENT_BLOCKS) && file.exists(PATH_AGENT_BLOCKS)) {
