@@ -1,6 +1,24 @@
 Read.ME
 
+Commands needed to to setup the final experiment
+------------------------------------------------
+
+# This creates the schedule which is split into 20 files
+chmod +x mk_schedule_final_exp.sh
+./mk_schedule_final_exp.sh           # default BASE_SEED=20250
+./mk_schedule_final_exp.sh 50000     # with custom base seed
+
+
+# This driver runs the schedule
+chmod +x sim_driver_final.sh
+./sim_driver_final.sh
+
+
+
+
+
 Commands needed to run simulation.R
+------------------------------------
 
 Running 3 conversations per condition with profiles C2 and C4
 Rscript simulation.R n=1 recipe=pesto_alla_genovese user="llama3:70b" agent="deepseek-r1:8b" profiles="C1,C2,C3,C4,C5" energy=0 outdir="outputs/pesto_test"
