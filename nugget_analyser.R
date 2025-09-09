@@ -38,12 +38,21 @@ attach_step_energy <- function(nuggets_df, ddir, pattern = "dialogs_flat_*.csv")
     message("No dialogs_dir provided (or not found); skipping energy join.")
     return(nuggets_df)
   }
-  files <- fs::dir_ls(ddir, glob = pattern)
+  
+  # Robust matching (works with trailing slashes, absolute paths)
+  files <- Sys.glob(file.path(ddir, pattern))
+  
+  message("Resolved dialogs_dir: ", ddir)
+  message("Resolved pattern   : ", pattern)
+  message("Matched files      : ", length(files))
+  if (length(files)) {
+    message("First matches      : ", paste(head(basename(files), 3), collapse = " | "))
+  }
+  
   if (!length(files)) {
     message("No dialogs_flat files matched; skipping energy join.")
     return(nuggets_df)
   }
-  message("Reading dialogs from: ", ddir, " (", length(files), " files)")
   
   dialogs <- purrr::map_dfr(files, ~ readr::read_csv(.x, show_col_types = FALSE))
   
@@ -56,9 +65,9 @@ attach_step_energy <- function(nuggets_df, ddir, pattern = "dialogs_flat_*.csv")
     )
   
   nuggets_df %>%
-    dplyr::left_join(step_energy,
-                     by = c("conversation_id","recipe_title","step_id"))
+    dplyr::left_join(step_energy, by = c("conversation_id","recipe_title","step_id"))
 }
+
 
 # ---------- CLI ----------
 args <- commandArgs(trailingOnly = TRUE)
@@ -76,6 +85,18 @@ if (!file.exists(path_nuggets)) {
 
 # ---------- Load nuggets ----------
 nuggets <- readr::read_csv(path_nuggets, show_col_types = FALSE)
+
+# Ensure agent_text_words exists (compute if possible)
+if (!"agent_text_words" %in% names(nuggets)) {
+  if ("agent_text" %in% names(nuggets)) {
+    nuggets <- nuggets %>%
+      mutate(agent_text_words = stringr::str_count(agent_text, "\\S+"))
+    message("Computed agent_text_words from agent_text.")
+  } else {
+    warning("agent_text_words and agent_text both missing; per-100w metrics will be NA.")
+    nuggets <- nuggets %>% mutate(agent_text_words = NA_integer_)
+  }
+}
 
 # Optional energy join (safe if not present)
 nuggets <- attach_step_energy(nuggets, dialogs_dir, dialogs_glob)
