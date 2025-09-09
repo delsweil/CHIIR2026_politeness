@@ -1,11 +1,12 @@
 #!/usr/bin/env Rscript
 # ============================================================
-# Information Nugget Counter (combined, stand-alone)
-# - Reads multiple dialogs_flat CSVs (or a directory/glob)
-# - Merges them + joins step_lookup
+# Information Nugget Counter (stand-alone)
+# - Reads dialogs_flat CSVs (files= or dir= + pattern=)
+# - Joins step_lookup
 # - Collapses agent text per (cluster, conversation, recipe, step)
-# - Uses an LLM (Ollama) to extract "information nuggets"
-# - Writes a single combined CSV for downstream analysis
+# - Uses Ollama to extract "information nuggets"
+# - Writes combined CSV for analysis
+# - Shows a nohup-friendly progress bar + newline ticks
 # ============================================================
 
 suppressPackageStartupMessages({
@@ -24,21 +25,22 @@ parse_kv <- function(args) {
   }
   out
 }
+as_chr1  <- function(x, default = "") if (is.null(x) || length(x)==0 || (length(x)==1 && is.na(x))) default else as.character(x[[1]])
 
 # ---------- Defaults (override via CLI) ----------
 args <- parse_kv(commandArgs(trailingOnly = TRUE))
-# Option A: list of files (comma-separated)
+# Option A: explicit file globs (comma-separated)
 DIALOGS_FILES   <- args$files   %||% ""      # e.g., "runA/dialogs_flat_*.csv,runB/dialogs_flat_*.csv"
-# Option B: a directory + pattern (glob)
-DIALOGS_DIR     <- args$dir     %||% ""      # e.g., "/home/david/sim_runs/test_20250902_152940"
+# Option B: directory + glob pattern
+DIALOGS_DIR     <- args$dir     %||% ""      # e.g., "/home/david/sim_runs/test_20250908_130819"
 DIALOGS_PATTERN <- args$pattern %||% "dialogs_flat_*.csv"
 
 PATH_STEP_LOOKUP  <- args$step_lookup  %||% "step_lookup.csv"
 PATH_NUGGETS_OUT  <- args$out          %||% "agent_nuggets_by_step.csv"
-PATH_AGENT_BLOCKS <- args$cache_blocks %||% ""    # optional cache; if given and exists, we’ll load it
+PATH_AGENT_BLOCKS <- args$cache_blocks %||% ""    # optional cache; if present & exists, load
 
 # LLM/Ollama settings
-OLLAMA_URL        <- args$ollama_url   %||% "http://intern.schlaubox.de:11434/api/generate"
+OLLAMA_URL        <- args$ollama_url   %||% "http://localhost:11434/api/generate"
 ANNOTATOR_MODEL   <- args$model        %||% "deepseek-r1:8b"
 TEMPERATURE       <- as.numeric(args$temperature %||% "0.0")
 NUM_CTX           <- as.integer(args$num_ctx     %||% "8192")
@@ -46,19 +48,12 @@ NUM_PREDICT       <- as.integer(args$num_predict %||% "512")
 ON_FAIL           <- tolower(args$on_fail %||% "zero")  # "zero" or "apologize"
 MAX_ROWS          <- as.integer(args$max_rows %||% "2147483647") # ~Inf
 
-# ---------- I/O helpers ----------
-as_chr1  <- function(x, default = "") if (is.null(x) || length(x)==0 || (length(x)==1 && is.na(x))) default else as.character(x[[1]])
-
-# Collect dialogs files
+# ---------- Collect dialogs files ----------
 collect_dialog_files <- function() {
   files <- character(0)
   if (nzchar(DIALOGS_FILES)) {
     parts <- unlist(strsplit(DIALOGS_FILES, ","))
-    for (p in trimws(parts)) {
-      # expand globs
-      hits <- Sys.glob(p)
-      files <- c(files, hits)
-    }
+    for (p in trimws(parts)) files <- c(files, Sys.glob(p))
   } else if (nzchar(DIALOGS_DIR)) {
     files <- Sys.glob(file.path(DIALOGS_DIR, DIALOGS_PATTERN))
   }
@@ -97,7 +92,7 @@ query_ollama_json <- function(prompt_text, model = ANNOTATOR_MODEL, temperature 
       num_predict = NUM_PREDICT
     )
   )
-  res <- httr::POST(OLLAMA_URL, body = jsonlite::toJSON(body, auto_unbox = TRUE), encode = "json")
+  res <- httr::POST(OLLAMA_URL, body = jsonlite::toJSON(body, auto_unbox = TRUE), encode = "json", httr::timeout(120))
   if (res$status_code != 200) stop("Ollama HTTP error: ", res$status_code)
   httr::content(res)$response
 }
@@ -176,7 +171,6 @@ load_or_build_agent_blocks <- function() {
   miss <- setdiff(must, names(dialogs))
   if (length(miss)) stop("dialogs missing cols: ", paste(miss, collapse=", "))
   
-  # de-dup (if the same row appears in multiple files)
   dialogs <- dialogs %>% distinct(cluster, conversation_id, recipe_title, step_id, role, text, model_agent, .keep_all = TRUE)
   
   step_lookup <- if (grepl("\\.rds$", PATH_STEP_LOOKUP, TRUE)) readRDS(PATH_STEP_LOOKUP) else readr::read_csv(PATH_STEP_LOOKUP, show_col_types = FALSE)
@@ -195,7 +189,6 @@ load_or_build_agent_blocks <- function() {
     ) %>%
     left_join(step_lookup, by = c("recipe_title","step_id"))
   
-  # optional cache write (only if user provided a path)
   if (nzchar(PATH_AGENT_BLOCKS)) {
     if (grepl("\\.rds$", PATH_AGENT_BLOCKS, TRUE)) saveRDS(agent_blocks, PATH_AGENT_BLOCKS) else readr::write_csv(agent_blocks, PATH_AGENT_BLOCKS)
     message("Cached agent blocks -> ", PATH_AGENT_BLOCKS)
@@ -210,7 +203,6 @@ extract_nuggets_row <- function(row) {
   if (!nzchar(trimws(agent_text))) {
     return(tibble(nugget_count = 0, nuggets = "", ok = TRUE, annot_notes = "empty_agent_text"))
   }
-  
   run_once <- function(extra_hint = NULL) {
     prompt <- build_nugget_prompt(step_desc, if (is.null(extra_hint)) agent_text else paste(agent_text, "\n\nSTRICT REMINDER:", extra_hint))
     raw <- tryCatch(query_ollama_json(prompt), error = function(e) NA_character_)
@@ -221,7 +213,6 @@ extract_nuggets_row <- function(row) {
     nlist <- unique(nlist[nzchar(trimws(nlist))])
     list(ok = isTRUE(parsed$ok), nuggets = nlist, notes = as_chr1(parsed$notes, ""))
   }
-  
   r1 <- run_once()
   n1 <- filter_nuggets(r1$nuggets)
   need_retry <- length(n1) == 0 || (length(n1) < length(r1$nuggets) / 2)
@@ -231,12 +222,10 @@ extract_nuggets_row <- function(row) {
     if (length(n2) >= length(n1)) { n_final <- n2; ok_flag <- r2$ok; notes <- if (nzchar(r2$notes)) r2$notes else "retry_used" }
     else                          { n_final <- n1; ok_flag <- r1$ok; notes <- if (nzchar(r1$notes)) r1$notes else "retry_kept_first" }
   } else { n_final <- n1; ok_flag <- r1$ok; notes <- r1$notes }
-  
   if (length(n_final) == 0) {
     if (identical(ON_FAIL, "zero")) return(tibble(nugget_count=0, nuggets="", ok=ok_flag, annot_notes=paste0("filtered_all;", notes)))
     return(tibble(nugget_count=NA_integer_, nuggets="", ok=FALSE, annot_notes=paste0("filtered_all;", notes)))
   }
-  
   n_final <- unique(n_final)
   tibble(nugget_count = length(n_final),
          nuggets      = paste(n_final, collapse = " | "),
@@ -247,27 +236,35 @@ extract_nuggets_row <- function(row) {
 # ---------- Main ----------
 message("Building/Loading agent blocks …")
 agent_blocks <- load_or_build_agent_blocks()
-
 if (!is.finite(MAX_ROWS)) MAX_ROWS <- nrow(agent_blocks)
 agent_blocks <- agent_blocks %>% slice(1:min(n(), MAX_ROWS))
 
 message("Counting nuggets for ", nrow(agent_blocks), " (conversation × recipe × step) blocks…")
 
-# Progress bar
-library(progress)
-pb <- progress_bar$new(
-  format = "  counting nuggets [:bar] :current/:total (:percent) eta: :eta",
-  total = nrow(agent_blocks), clear = FALSE, width = 60
+# Progress bar (forced for nohup) + visible newline ticks
+pb <- progress::progress_bar$new(
+  format     = "  counting nuggets [:bar] :current/:total (:percent) eta: :eta",
+  total      = nrow(agent_blocks),
+  width      = 60,
+  clear      = FALSE,
+  show_after = 0,
+  force      = TRUE
 )
 
+n_i <- 0L
 results <- agent_blocks %>%
   mutate(row_id = row_number()) %>%
   group_split(row_id, .keep = TRUE) %>%
   purrr::map_dfr(function(df1) {
+    n_i <<- n_i + 1L
     pb$tick()
+    if (n_i %% 50 == 0L || n_i == 1L || n_i == pb$total) {
+      cat(sprintf("\n[progress] %d/%d blocks\n", n_i, pb$total))
+      flush.console()
+    }
     r <- df1[1, ]
     out <- extract_nuggets_row(r)
-    bind_cols(select(r, -row_id), out)
+    dplyr::bind_cols(dplyr::select(r, -row_id), out)
   })
 
 readr::write_csv(results, PATH_NUGGETS_OUT)
@@ -282,4 +279,3 @@ results %>%
     mean_nuggets  = mean(nugget_count, na.rm = TRUE),
     .groups = "drop"
   ) %>% print(n = Inf)
-
