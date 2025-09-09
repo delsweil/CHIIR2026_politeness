@@ -239,12 +239,13 @@ agent_blocks <- load_or_build_agent_blocks()
 if (!is.finite(MAX_ROWS)) MAX_ROWS <- nrow(agent_blocks)
 agent_blocks <- agent_blocks %>% slice(1:min(n(), MAX_ROWS))
 
-message("Counting nuggets for ", nrow(agent_blocks), " (conversation × recipe × step) blocks…")
+total_blocks <- nrow(agent_blocks)
+message("Counting nuggets for ", total_blocks, " (conversation × recipe × step) blocks…")
 
 # Progress bar (forced for nohup) + visible newline ticks
 pb <- progress::progress_bar$new(
   format     = "  counting nuggets [:bar] :current/:total (:percent) eta: :eta",
-  total      = nrow(agent_blocks),
+  total      = total_blocks,
   width      = 60,
   clear      = FALSE,
   show_after = 0,
@@ -258,14 +259,28 @@ results <- agent_blocks %>%
   purrr::map_dfr(function(df1) {
     n_i <<- n_i + 1L
     pb$tick()
-    if (n_i %% 50 == 0L || n_i == 1L || n_i == pb$total) {
-      cat(sprintf("\n[progress] %d/%d blocks\n", n_i, pb$total))
+    if (n_i %% 50 == 0L || n_i == 1L || n_i == total_blocks) {
+      cat(sprintf("\n[progress] %d/%d blocks\n", n_i, total_blocks))
       flush.console()
     }
     r <- df1[1, ]
     out <- extract_nuggets_row(r)
     dplyr::bind_cols(dplyr::select(r, -row_id), out)
   })
+
+readr::write_csv(results, PATH_NUGGETS_OUT)
+message("Wrote: ", PATH_NUGGETS_OUT)
+
+# Small console summary
+results %>%
+  group_by(cluster, recipe_title) %>%
+  summarise(
+    steps = n(),
+    total_nuggets = sum(nugget_count, na.rm = TRUE),
+    mean_nuggets  = mean(nugget_count, na.rm = TRUE),
+    .groups = "drop"
+  ) %>% print(n = Inf)
+
 
 readr::write_csv(results, PATH_NUGGETS_OUT)
 message("Wrote: ", PATH_NUGGETS_OUT)
