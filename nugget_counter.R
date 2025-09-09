@@ -74,28 +74,13 @@ if (!file.exists(path_nuggets)) {
   stop("Nuggets file not found: ", path_nuggets)
 }
 
-# ---------- Progress (base R) ----------
-total_steps <- 6L  # update if you add/remove checkpoints
-.i <- 0L
-pb <- utils::txtProgressBar(min = 0, max = total_steps, style = 3)
-on.exit({ utils::setTxtProgressBar(pb, total_steps); close(pb) }, add = TRUE)
-
-step <- function(msg) {
-  .i <<- .i + 1L
-  cat(sprintf("\n[%02d/%02d] %s\n", .i, total_steps, msg))
-  utils::setTxtProgressBar(pb, .i)
-}
-
 # ---------- Load nuggets ----------
-step("Load nuggets")
 nuggets <- readr::read_csv(path_nuggets, show_col_types = FALSE)
 
 # Optional energy join (safe if not present)
-step("Join step-level energy")
 nuggets <- attach_step_energy(nuggets, dialogs_dir, dialogs_glob)
 
 # ---------- Normalisations (robust to missing energy) ----------
-step("Compute normalisations")
 has_energy <- "energy_Wh" %in% names(nuggets)
 
 nuggets <- nuggets %>%
@@ -112,7 +97,6 @@ nuggets <- nuggets %>%
   )
 
 # ---------- Summaries ----------
-step("Compute summaries")
 summary_cluster_recipe <- nuggets %>%
   group_by(cluster, recipe_title) %>%
   summarise(
@@ -135,7 +119,6 @@ summary_cluster <- nuggets %>%
   )
 
 # Save summaries
-step("Save summaries")
 readr::write_csv(summary_cluster_recipe, file.path(outdir, "summary_cluster_recipe.csv"))
 readr::write_csv(summary_cluster,        file.path(outdir, "summary_cluster.csv"))
 
@@ -146,7 +129,6 @@ cat("\n=== Summary by Cluster ===\n")
 print(summary_cluster, n = Inf)
 
 # ---------- Visualisations ----------
-step("Create plots")
 # Heatmap: mean nuggets per step
 p1 <- ggplot(summary_cluster_recipe, aes(x = recipe_title, y = cluster, fill = mean_nuggets)) +
   geom_tile() +
