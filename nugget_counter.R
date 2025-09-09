@@ -19,7 +19,39 @@ suppressPackageStartupMessages({
   library(ggplot2); library(fs); library(cli)
 })
 
-# --- Progress setup ---
+# ---------- Helpers ----------
+`%||%` <- function(x, y) if (is.null(x) || length(x)==0 || (length(x)==1 && is.na(x))) y else x
+parse_kv <- function(args) {
+  out <- list()
+  for (a in args) {
+    if (!grepl("=", a, fixed = TRUE)) next
+    kv <- strsplit(a, "=", fixed = TRUE)[[1]]
+    k <- tolower(trimws(kv[1])); v <- trimws(paste(kv[-1], collapse="="))
+    out[[k]] <- v
+  }
+  out
+}
+
+# ---------- CLI (MUST be before any progress steps) ----------
+args <- commandArgs(trailingOnly = TRUE)
+cli_args <- parse_kv(args)
+
+# If this is the *analyze* script:
+path_nuggets <- cli_args$nuggets %||% "agent_nuggets_by_step.csv"
+dialogs_dir  <- cli_args$dialogs_dir %||% NA_character_
+dialogs_glob <- cli_args$dialogs_glob %||% "dialogs_flat_*.csv"
+outdir       <- cli_args$outdir %||% "analysis_out"
+dir.create(outdir, showWarnings = FALSE, recursive = TRUE)
+
+# If this is the *counter* script, use its arg names instead:
+# ddir       <- cli_args$dir       %||% NA_character_
+# pattern    <- cli_args$pattern   %||% "dialogs_flat_*.csv"
+# step_lookup<- cli_args$step_lookup %||% NA_character_
+# out        <- cli_args$out       %||% "agent_nuggets_by_step.csv"
+# model      <- cli_args$model     %||% "deepseek-r1:8b"
+# max_rows   <- as.integer(cli_args$max_rows %||% 100000)
+
+# ---------- Progress steps ----------
 steps <- c(
   "Load nuggets",
   "Join step-level energy",
@@ -29,59 +61,10 @@ steps <- c(
   "Create plots"
 )
 
-# ---------- Load nuggets ----------
 cli_progress_step(steps[1])
 nuggets <- readr::read_csv(path_nuggets, show_col_types = FALSE)
 
-# ---------- Optional energy join ----------
 cli_progress_step(steps[2])
 nuggets <- attach_step_energy(nuggets, dialogs_dir, dialogs_glob)
-
-# ---------- Normalisations ----------
-cli_progress_step(steps[3])
-has_energy <- "energy_Wh" %in% names(nuggets)
-nuggets <- nuggets %>%
-  mutate(
-    nuggets_per_100w = dplyr::if_else(agent_text_words > 0,
-                                      nugget_count / agent_text_words * 100,
-                                      NA_real_),
-    nuggets_per_Wh = if (has_energy) {
-      dplyr::if_else(!is.na(energy_Wh) & energy_Wh > 0,
-                     nugget_count / energy_Wh, NA_real_)
-    } else {
-      NA_real_
-    }
-  )
-
-# ---------- Summaries ----------
-cli_progress_step(steps[4])
-summary_cluster_recipe <- nuggets %>%
-  group_by(cluster, recipe_title) %>%
-  summarise(
-    steps         = n(),
-    total_nuggets = sum(nugget_count, na.rm = TRUE),
-    mean_nuggets  = mean(nugget_count, na.rm = TRUE),
-    mean_per_100w = mean(nuggets_per_100w, na.rm = TRUE),
-    mean_per_Wh   = if (has_energy) mean(nuggets_per_Wh, na.rm = TRUE) else NA_real_,
-    .groups = "drop"
-  )
-summary_cluster <- nuggets %>%
-  group_by(cluster) %>%
-  summarise(
-    steps         = n(),
-    mean_nuggets  = mean(nugget_count, na.rm = TRUE),
-    mean_per_100w = mean(nuggets_per_100w, na.rm = TRUE),
-    mean_per_Wh   = if (has_energy) mean(nuggets_per_Wh, na.rm = TRUE) else NA_real_,
-    .groups = "drop"
-  )
-
-# ---------- Save summaries ----------
-cli_progress_step(steps[5])
-readr::write_csv(summary_cluster_recipe, file.path(outdir, "summary_cluster_recipe.csv"))
-readr::write_csv(summary_cluster,        file.path(outdir, "summary_cluster.csv"))
-
-# ---------- Visualisations ----------
-cli_progress_step(steps[6])
-# … (plots unchanged)
 
 cli_alert_success("All summaries and plots written to: {normalizePath(outdir)}")
