@@ -251,32 +251,24 @@ agent_blocks <- load_or_build_agent_blocks()
 if (!is.finite(MAX_ROWS)) MAX_ROWS <- nrow(agent_blocks)
 agent_blocks <- agent_blocks %>% slice(1:min(n(), MAX_ROWS))
 
-message("Counting nuggets for ", nrow(agent_blocks), " blocks …")
-pb <- progress_bar$new(total = nrow(agent_blocks), format = "[:bar] :current/:total :percent eta=:eta")
+message("Counting nuggets for ", nrow(agent_blocks), " (conversation × recipe × step) blocks…")
+
+# Progress bar
+library(progress)
+pb <- progress_bar$new(
+  format = "  counting nuggets [:bar] :current/:total (:percent) eta: :eta",
+  total = nrow(agent_blocks), clear = FALSE, width = 60
+)
 
 results <- agent_blocks %>%
-  mutate(.row_id = row_number()) %>%
-  group_split(.row_id, .keep = TRUE) %>%
-  map_dfr(function(df1) {
+  mutate(row_id = row_number()) %>%
+  group_split(row_id, .keep = TRUE) %>%
+  purrr::map_dfr(function(df1) {
     pb$tick()
     r <- df1[1, ]
     out <- extract_nuggets_row(r)
-    bind_cols(select(r, -.row_id), out)
+    bind_cols(select(r, -row_id), out)
   })
-
-results <- results %>%
-  mutate(
-    annotator_model = ANNOTATOR_MODEL,
-    agent_text_chars = nchar(agent_text),
-    agent_text_words = str_count(agent_text, boundary("word"))
-  ) %>%
-  select(
-    cluster, conversation_id, recipe_title, step_id,
-    step_description, agent_turns, model_agent,
-    agent_text_chars, agent_text_words,
-    nugget_count, nuggets, ok, annot_notes, annotator_model
-  ) %>%
-  arrange(cluster, conversation_id, recipe_title, step_id)
 
 readr::write_csv(results, PATH_NUGGETS_OUT)
 message("Wrote: ", PATH_NUGGETS_OUT)
