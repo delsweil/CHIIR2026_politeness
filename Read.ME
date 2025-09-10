@@ -11,7 +11,11 @@ chmod +x mk_schedule_final_exp.sh
 
 # This driver runs the schedule
 chmod +x sim_driver_final.sh
-./sim_driver_final.sh
+# run in background, redirect output to a log
+nohup ./sim_driver_final.sh > sim_driver_final.out 2>&1 &
+
+tail -f sim_driver_final.out
+ps -ef | grep sim_driver_final
 
 
 
