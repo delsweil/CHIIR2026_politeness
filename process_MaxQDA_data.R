@@ -377,16 +377,44 @@ cluster_code_means <- user_code_long %>%
   summarise(mean_scaled = mean(scaled_count), .groups = "drop")
 
 # 5. Plot: Which codes are most characteristic of which cluster?
-ggplot(cluster_code_means, aes(x = reorder(code, mean_scaled), y = mean_scaled, fill = factor(cluster))) +
+# clean the names
+cluster_code_means <- cluster_code_means %>%
+  mutate(code = str_remove(code, " \\(user\\)$"))
+
+# mapping vector
+cluster_labels <- c(
+  "1" = "Hyper-polite",
+  "2" = "Engagement-seeking",
+  "3" = "Hyper-efficient",
+  "4" = "Polite and Engaged"
+)
+
+# desired order for legend: 1,4,2,3
+cluster_order <- c("Hyper-polite", "Polite and Engaged", 
+                   "Engagement-seeking", "Hyper-efficient")
+
+cluster_code_means <- cluster_code_means %>%
+  mutate(cluster = recode(as.character(cluster), !!!cluster_labels),
+         cluster = factor(cluster, levels = cluster_order))
+
+ggplot(cluster_code_means, aes(
+  x = reorder(code, mean_scaled),
+  y = mean_scaled,
+  fill = cluster
+)) +
   geom_col(position = "dodge") +
   coord_flip() +
   labs(
-    title = "Mean Standardized Frequency of Politeness Codes per Cluster",
+    #title = "Mean Standardized Frequency of Politeness Codes per Cluster",
     x = "Politeness Code",
-    y = "Mean (Standardized) Usage",
+    y = "Mean (Standardised) Usage",
     fill = "Cluster"
   ) +
   theme_minimal(base_size = 12)
+
+
+
+
 
 # Find codes with the greatest variance across clusters (i.e., distinctive codes)
 top_discriminating_codes <- cluster_code_means %>%
