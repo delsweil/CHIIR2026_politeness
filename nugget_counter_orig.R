@@ -121,40 +121,167 @@ filter_nuggets <- function(nuggets) {
   nuggets
 }
 
+# -------- Few-shot examples (same set used in evaluation) --------
+shots <- list(
+  # 0-nugget (apology/meta)
+  list(
+    step_description = "General help",
+    agent_text = "Sorry, I can’t provide details for that request. As an assistant, I have limitations.",
+    answer_json = '{"ok":true,"nugget_count":0,"nuggets":[],"notes":""}'
+  ),
+  # 1 nugget (simple, discourage splitting)
+  list(
+    step_description = "Bread baking",
+    agent_text = "Bake the loaf at 220°C until the crust turns golden brown.",
+    answer_json = '{"ok":true,"nugget_count":1,"nuggets":["Bake at 220°C until crust is golden"],"notes":""}'
+  ),
+  # 2 nuggets
+  list(
+    step_description = "Pasta boiling",
+    agent_text = "Add salt to the water to season the pasta. Stir occasionally to prevent noodles from sticking together.",
+    answer_json = '{"ok":true,"nugget_count":2,"nuggets":["Salt in water seasons pasta","Stirring prevents noodles from sticking"],"notes":""}'
+  ),
+  # 1 nugget (Soufflé)
+  list(
+    step_description = "Savory Cheese Soufflé",
+    agent_text = "Folding beaten egg whites into the base serves a crucial role in creating a light and airy texture.",
+    answer_json = '{"ok":true,"nugget_count":1,"nuggets":["Folding egg whites adds air for lift"],"notes":""}'
+  ),
+  # 2 nuggets (Soufflé, with meta to ignore)
+  list(
+    step_description = "Savory Cheese Soufflé",
+    agent_text = paste(
+      "I can’t show pictures.",
+      "Fold egg whites gently with a spatula in a zigzag motion until just incorporated; this keeps the mixture light."
+    ),
+    answer_json = '{"ok":true,"nugget_count":2,"nuggets":["Fold whites gently with a spatula","Keeps mixture light and airy"],"notes":""}'
+  ),
+  # 3 nuggets (Duck)
+  list(
+    step_description = "Duck à l’Orange",
+    agent_text = paste(
+      "Pricking the duck skin helps render fat.",
+      "Brief boiling mobilizes fat outward.",
+      "Dry thoroughly to keep skin crisp."
+    ),
+    answer_json = '{"ok":true,"nugget_count":3,"nuggets":["Prick skin to render fat","Brief boil mobilizes fat outward","Dry thoroughly to keep skin crisp"],"notes":""}'
+  ),
+  # 3 nuggets (Soufflé oven science)
+  list(
+    step_description = "Savory Cheese Soufflé",
+    agent_text = paste(
+      "Preheating ensures proper rise.",
+      "Correct temperature gives even bake.",
+      "Beaten egg bubbles expand with heat."
+    ),
+    answer_json = '{"ok":true,"nugget_count":3,"nuggets":["Preheat oven for proper rise","Correct temperature ensures even bake","Beaten egg bubbles expand with heat"],"notes":""}'
+  ),
+  # 3 nuggets (Double fry, de-duplicated)
+  list(
+    step_description = "Buttermilk-Brined Southern Fried Chicken",
+    agent_text = paste(
+      "Double-frying is a Southern method.",
+      "Rest between fries reduces moisture and sets crust.",
+      "Chilling period improves crispiness."
+    ),
+    answer_json = '{"ok":true,"nugget_count":3,"nuggets":["Double-fry method from Southern cooking","Rest between fries reduces moisture and sets crust","Chilling period improves crispiness"],"notes":""}'
+  ),
+  # 4 nuggets (Spatchcock)
+  list(
+    step_description = "Duck à l’Orange",
+    agent_text = paste(
+      "Spatchcock to butterfly and flatten duck.",
+      "Trim excess fat and skin.",
+      "Remove backbone; detach wings/legs to flatten.",
+      "Reserve trimmings to make stock."
+    ),
+    answer_json = '{"ok":true,"nugget_count":4,"nuggets":["Spatchcock to butterfly and flatten duck","Trim excess fat and skin","Remove backbone; detach wings/legs to flatten","Reserve trimmings to make stock"],"notes":""}'
+  ),
+  # 5 nuggets (Pesto)
+  list(
+    step_description = "Pesto alla Genovese",
+    agent_text = paste(
+      "Pound basil with salt for pesto base.",
+      "Ligurian origin; ancient roots.",
+      "Grinding releases oils for green paste.",
+      "Salt helps emulsify oil.",
+      "Salt preserves by drawing moisture and inhibiting bacteria."
+    ),
+    answer_json = '{"ok":true,"nugget_count":5,"nuggets":["Pound basil with salt for pesto base","Originates from Liguria with ancient roots","Grinding basil releases oils for green paste","Salt helps emulsify the oil","Salt preserves by drawing moisture and inhibiting bacteria"],"notes":""}'
+  ),
+  # 1 nugget (combined/serial instruction = one nugget)
+  list(
+    step_description = "Old-Fashioned Apple Pie",
+    agent_text = "Add tapioca, assemble and seal top crust, then chill before slicing.",
+    answer_json = '{"ok":true,"nugget_count":1,"nuggets":["Add tapioca, assemble and seal top crust, chill before slicing"],"notes":"combined instruction treated as one operation"}'
+  )
+)
+
+
+
 # ---------- Prompt ----------
 STRICT_HEADER <- "You MUST return exactly one JSON object on a single line.
 No code fences. No explanations. No <think>…</think>. Output the JSON object only."
 STRICT_FOOTER <- "Output exactly one line with the JSON object and nothing else."
 
-build_nugget_prompt <- function(step_description, agent_text) {
-  good_bad <- paste(
-    "GOOD NUGGETS (examples):",
-    "- \"Bake until the center reaches 195°F.\"",
-    "- \"Score only the skin and fat; avoid cutting into the meat.\"",
-    "- \"Cold-start rendering improves fat release.\"",
+# ---------- Prompt (policy-aligned, with shots) ----------
+build_nugget_prompt <- function(step_description, agent_text, shots = NULL) {
+  step_block <- if (nzchar(step_description)) paste0("STEP DESCRIPTION:\n", step_description, "\n\n") else ""
+  shots_block <- ""
+  if (!is.null(shots) && length(shots)) {
+    fmt <- function(s) {
+      sd <- s$step_description %||% ""
+      sd_block <- if (nzchar(sd)) paste0("STEP DESCRIPTION (EXAMPLE):\n", sd, "\n") else ""
+      paste0("EXAMPLE:\n", sd_block,
+             "AGENT TEXT (EXAMPLE):\n", s$agent_text, "\n",
+             "EXPECTED OUTPUT (single-line JSON):\n", s$answer_json, "\n\n")
+    }
+    shots_block <- paste0("FEW-SHOT EXAMPLES (match this style):\n",
+                          paste(vapply(shots, fmt, character(1)), collapse = ""),
+                          "END EXAMPLES.\n\n")
+  }
+  
+  policy <- paste(
+    "You are an expert annotator of INFORMATION NUGGETS.",
+    "A nugget is a minimal, self-contained, factual unit drawn ONLY from the AGENT TEXT for THIS STEP.",
     "",
-    "BAD NUGGETS (reject these):",
-    "- \"The user is confused about…\"",
-    "- \"The assistant apologizes…\"",
-    "- \"Mix spices and slice apples\" (vague restatement)",
-    "- \"History exists\" (vague/non-specific)",
+    "RETURN ALL DISTINCT FACTS:",
+    "- Some steps have 0 nuggets; others may have 6–8 or more. List EVERY distinct fact you find.",
+    "- Do NOT cap the number; include them all if present.",
+    "",
+    "SEPARATE vs MERGE:",
+    "- Separate distinct facts even if they are short or appear in the same sentence.",
+    "- MERGE paraphrases of the SAME fact into ONE nugget (avoid duplicate counting).",
+    "- Treat tightly-coupled serial instructions that form ONE atomic operation (e.g., “chop the onion, add to pan, simmer 3–4 min”) as ONE nugget.",
+    "",
+    "EXCLUSIONS:",
+    "- Drop meta/affect (apologies, capability notes, requests, uncertainty).",
+    "- Drop vague statements with no concrete information.",
+    "",
+    "OUTPUT FORMAT (STRICT):",
+    "- Output exactly ONE JSON object on ONE line (no code fences, no <think>, no commentary).",
+    '- Schema: { \"ok\": true, \"nugget_count\": <int>, \"nuggets\": [\"<n1>\", ...], \"notes\": \"<optional>\" }',
+    "- nugget_count MUST equal length(nuggets). nuggets MAY be empty [].",
     sep = "\n"
   )
+  
   paste0(
-    STRICT_HEADER, "\n\n",
-    "You are an expert annotator of INFORMATION NUGGETS.\n",
-    "Definition: An information nugget is a minimal, self-contained, factual unit\n",
-    "drawn ONLY from the AGENT TEXT for THIS STEP. No meta, affect, or apologies.\n\n",
-    good_bad, "\n\n",
-    "Return JSON with schema:\n",
-    "{ \"ok\": true, \"nugget_count\": <int>, \"nuggets\": [\"<n1>\", \"<n2>\", ...], \"notes\": \"<optional>\" }\n",
-    "- nugget_count MUST equal length(nuggets)\n",
-    "- Nuggets MUST be unique within this response\n\n",
-    "STEP DESCRIPTION:\n", step_description, "\n\n",
-    "AGENT TEXT (extract facts from this):\n", agent_text, "\n\n",
-    STRICT_FOOTER
+    policy, "\n\n",
+    "GOOD EXAMPLES:\n",
+    "- \"Bake until the center reaches 195°F.\"\n",
+    "- \"Add oil gradually to stabilize the emulsion.\"\n",
+    "- \"Eggs act as a binder in this dough.\"\n\n",
+    "BAD EXAMPLES:\n",
+    "- Apologies/meta about capabilities.\n",
+    "- Vague restatements without concrete new info.\n",
+    "- Duplicate paraphrases of the same fact.\n\n",
+    shots_block,
+    step_block,
+    "AGENT TEXT:\n", agent_text, "\n\n",
+    "OUTPUT: (JSON on one line)"
   )
 }
+
 
 # ---------- Build or load agent blocks ----------
 load_or_build_agent_blocks <- function() {
@@ -204,7 +331,12 @@ extract_nuggets_row <- function(row) {
     return(tibble(nugget_count = 0, nuggets = "", ok = TRUE, annot_notes = "empty_agent_text"))
   }
   run_once <- function(extra_hint = NULL) {
-    prompt <- build_nugget_prompt(step_desc, if (is.null(extra_hint)) agent_text else paste(agent_text, "\n\nSTRICT REMINDER:", extra_hint))
+    prompt <- build_nugget_prompt(
+      step_description = step_desc,
+      agent_text       = if (is.null(extra_hint)) agent_text else paste(agent_text, "\n\nSTRICT REMINDER:", extra_hint),
+      shots            = shots
+    )
+
     raw <- tryCatch(query_ollama_json(prompt), error = function(e) NA_character_)
     if (is.na(raw)) return(list(ok=FALSE, nuggets=character(0), notes="ollama_error"))
     parsed <- parse_first_json(raw)
