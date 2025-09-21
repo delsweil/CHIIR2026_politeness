@@ -7,7 +7,7 @@
 set -euo pipefail
 
 # === CONFIG ===
-ROOT="/home/david/final_first_three_batches/.."   # parent directory that contains Final_study_* dirs
+ROOT="/home/david/final_20250909_212121/.."   # parent directory that contains Final_study_* dirs
 RSCRIPT="nugget_counter_orig.R"                   # path to your R script
 STEP_LOOKUP="step_lookup.csv"                     # path to step lookup
 MODEL="deepseek-r1:8b"                            # model
