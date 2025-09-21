@@ -43,7 +43,7 @@ for batch_dir in "${BATCH_DIRS[@]}"; do
     continue
   fi
 
-  files_glob="$batch_dir/${bname}_dialogs_flat_*.csv"
+  files_glob="$batch_dir"/line_*/${bname}_dialogs_flat_*.csv
   out_csv="$OUTDIR/agent_nuggets_by_step_${bname}.csv"
   log="$OUTDIR/nugget_counter_${bname}.log"
   done_marker="$OUTDIR/${bname}.done"
