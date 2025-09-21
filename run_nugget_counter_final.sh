@@ -18,7 +18,7 @@ OUTDIR="nugget_outputs"                           # where to write CSVs/logs/.do
 # OLLAMA_URL="http://hcai.ur.de:11434/api/generate"
 
 # Skip these batches
-SKIP=("Final_study_1" "Final_study_10" "Final_study_11")
+SKIP=("Final_study_1" "Final_study_10")
 
 mkdir -p "$OUTDIR"
 
