@@ -12,6 +12,7 @@ library(ggplot2)
 library(Rtsne)
 library(ggrepel)
 library(cluster)
+library(jsonlite)
 
 # 1. Load clean CSVs
 christine.data <- read.csv2("Annotated_conversations/1st_round_IRR_test/Cooking_with_conversation_random_coded_Christine.csv")
@@ -426,3 +427,93 @@ top_discriminating_codes <- cluster_code_means %>%
 head(top_discriminating_codes, 10)
 
 
+# --------------------------
+# analyse demographic patterns in the clusters
+# --------------------------
+
+# first pull in the meta-data from Frummet et al's json
+rows <- list()
+
+for (i in 0:29) {
+  json_filename <- paste0("JASON_files/conversation_", i, ".json")
+  
+  if (!file.exists(json_filename)) {
+    warning("File not found: ", json_filename)
+    next
+  }
+  
+  # Safely parse JSON
+  json_data <- tryCatch(
+    fromJSON(json_filename, simplifyVector = TRUE),
+    error = function(e) {
+      warning("Could not parse JSON in: ", json_filename, " (", e$message, ")")
+      NULL
+    }
+  )
+  if (is.null(json_data)) next
+  
+  # Helper to safely extract a top-level character field
+  get_chr <- function(name) {
+    val <- json_data[[name]]
+    if (is.null(val) || length(val) == 0) NA_character_ else as.character(val)
+  }
+  
+  rows[[length(rows) + 1]] <- data.frame(
+    conversation_id    = get_chr("conversation_id"),
+    recipe_id          = get_chr("recipe_id"),
+    recipe_title       = get_chr("recipe_title"),
+    participant_gender = get_chr("participant_gender"),
+    participant_age    = get_chr("participant_age"),
+    stringsAsFactors   = FALSE
+  )
+}
+
+# Combine all rows into a single dataframe
+meta_df <- if (length(rows)) do.call(rbind, rows) else
+  data.frame(conversation_id=character(),
+             recipe_id=character(),
+             recipe_title=character(),
+             participant_gender=character(),
+             participant_age=character(),
+             stringsAsFactors=FALSE)
+
+# Peek
+print(meta_df)
+
+
+# Collapse user_code_long to one row per user with cluster
+user_clusters <- user_code_long %>%
+  distinct(user, cluster)
+
+# Check: one cluster per user?
+stopifnot(all(duplicated(user_clusters$user) == FALSE))
+
+# Merge with meta_df on conversation_id = user
+meta_df_merged <- meta_df %>%
+  left_join(user_clusters, by = c("conversation_id" = "user"))
+
+# Check number of rows before and after
+nrow(meta_df) == nrow(meta_df_merged)  # should be TRUE
+
+
+# descriptive stats on the clusters
+# 1. Drop cluster 1
+analysis_df <- meta_df_merged %>%
+  filter(cluster != 1)
+
+# 2. Collapse age groups
+analysis_df <- analysis_df %>%
+  mutate(age_group = case_when(
+    participant_age %in% c("18-24", "25-34") ~ "18-34",
+    participant_age %in% c("35-44", "45-54") ~ "35-54",
+    participant_age %in% c("55-64", "65-74") ~ "55+",
+    TRUE ~ NA_character_
+  ))
+
+# 3. Quick checks: cross-tabs
+table(analysis_df$cluster, analysis_df$age_group)
+table(analysis_df$cluster, analysis_df$participant_gender)
+
+# 4. Percentages by cluster
+prop.table(table(analysis_df$cluster, analysis_df$age_group), margin = 1)
+prop.table(table(analysis_df$cluster, analysis_df$participant_gender), margin = 1)
