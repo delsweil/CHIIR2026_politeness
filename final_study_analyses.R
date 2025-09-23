@@ -25,10 +25,10 @@
 unlink("~/R/x86_64-pc-linux-gnu-library/4.5.1/00LOCK-*", recursive = TRUE, force = TRUE)
 
 required_pkgs <- c(
-  # core tidyverse pieces individually (NOT 'tidyverse')
-  "dplyr", "readr", "tidyr", "stringr", "purrr", "ggplot2", "forcats",
-  # modelling & helpers
-  "lme4", "lmerTest", "MASS", "emmeans", "broom", "broom.mixed"
+  # core pieces individually (NOT "tidyverse")
+  "dplyr","readr","tidyr","stringr","purrr","ggplot2","forcats",
+  # modelling
+  "lme4","lmerTest","MASS","emmeans","broom","broom.mixed"
 )
 
 install_if_missing <- function(pkgs) {
@@ -36,6 +36,7 @@ install_if_missing <- function(pkgs) {
   if (length(to_install)) install.packages(to_install, dependencies = c("Depends","Imports"))
 }
 install_if_missing(required_pkgs)
+
 
 suppressPackageStartupMessages({
   library(dplyr)
