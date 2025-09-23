@@ -1,26 +1,33 @@
 ############################################################
-# H1–H3 Analysis Pipeline: Politeness → Length, Nuggets, Efficiency
-# Data sources (two-layer):
-#   (A) Nugget step files          : Final_study_*_agent_nuggets_by_step.csv
-#   (B) Turn-level dialog logs     : dialogs_flat_*.csv (nested in Final_study_*/line_*/)
+# H1–H3 Analysis Pipeline (Slim, tidyverse-first)
 #
-# This script merges (A) + (B) to build a step-level dataset with
-#   - length_words (agent replies per step)
-#   - nugget_count (from nugget annotator)
-#   - energy_Wh (sum over agent turns in that step)
-# and then runs descriptives → visuals → models for H1–H3.
+# Goal: Keep tidyverse + ggplot2, but drop exotic/heavy deps.
+# Uses only: tidyverse, lme4, lmerTest, MASS, emmeans, broom, broom.mixed
+# (No glmmTMB, DHARMa, MuMIn, clubSandwich, patchwork, performance, fs, glue, janitor, mgcv)
 #
-# Author: (you)
-# Date: 2025-09-23
+# Data layers
+#   A) step-level nuggets: Final_study_*_agent_nuggets_by_step.csv
+#   B) turn-level logs  : dialogs_flat_*.csv under Final_study_*/line_*/
+# Merge keys: cluster + conversation_id + recipe_title + step_id
+#
+# Outputs
+#   ./outputs/tables/*.csv  (descriptives, ANOVAs, EMMs, model summaries)
+#   ./outputs/plots/*.png   (violins/boxplots, scatter+loess, simple diagnostics)
+#
+# Author: (you)    Date: 2025-09-23
 ############################################################
 
 # ----------------------------
-# 0) Setup & packages
+# 0) Setup & packages (slim set)
 # ----------------------------
 required_pkgs <- c(
-  "tidyverse", "janitor", "fs", "glue", "scales", "patchwork",
-  "lme4", "lmerTest", "glmmTMB", "emmeans", "DHARMa", "performance",
-  "broom", "broom.mixed", "MuMIn", "clubSandwich", "mgcv"
+  "tidyverse",  # dplyr, readr, tidyr, ggplot2, stringr, purrr
+  "lme4",
+  "lmerTest",   # p-values for lmer
+  "MASS",       # glmer.nb support
+  "emmeans",
+  "broom",
+  "broom.mixed"
 )
 
 install_if_missing <- function(pkgs) {
@@ -29,202 +36,162 @@ install_if_missing <- function(pkgs) {
 }
 install_if_missing(required_pkgs)
 
-library(tidyverse)
-library(janitor)
-library(fs)
-library(glue)
-library(scales)
-library(patchwork)
-library(lme4)
-library(lmerTest)
-library(glmmTMB)
-library(emmeans)
-library(DHARMa)
-library(performance)
-library(broom)
-library(broom.mixed)
-library(MuMIn)
-library(clubSandwich)
-library(mgcv)
+suppressPackageStartupMessages({
+  library(tidyverse)
+  library(lme4)
+  library(lmerTest)
+  library(MASS)
+  library(emmeans)
+  library(broom)
+  library(broom.mixed)
+})
 
 set.seed(1234)
 options(dplyr.summarise.inform = FALSE)
 
 # ----------------------------
-# 1) Paths
+# 1) Paths (edit as needed)
 # ----------------------------
-# Set your base directory that contains Final_study_1 … Final_study_20
-BASE_DIR   <- "/home/david/sim_runs/final_20250909_212121"
-# Directory with the step-level nugget outputs (20 batch files). If unknown,
-# leave as NULL and the script will try to find them under BASE_DIR.
-NUGGET_DIR <- "./nugget_outputs"  # set to NULL to auto-search under BASE_DIR
+BASE_DIR   <- "/home/david/sim_runs/final_20250909_212121"   # contains Final_study_1 … Final_study_20
+NUGGET_DIR <- "./nugget_outputs"                             # set to NULL to auto-search under BASE_DIR
 
-# Output folders
-fs::dir_create("outputs/plots")
-fs::dir_create("outputs/tables")
+dir.create("final_outputs/plots", recursive = TRUE, showWarnings = FALSE)
+.dir_tables <- "final_outputs/tables"; dir.create(.dir_tables, recursive = TRUE, showWarnings = FALSE)
 
 # ----------------------------
 # 2) Load nugget step files (A)
 # ----------------------------
 find_nugget_files <- function() {
   # Priority 1: explicit NUGGET_DIR
-  if (!is.null(NUGGET_DIR) && dir_exists(NUGGET_DIR)) {
-    f <- dir_ls(NUGGET_DIR, regexp = "Final_study_\d+_agent_nuggets_by_step\.csv$", type = "file")
-    if (length(f)) return(f)
+  f <- character(0)
+  if (!is.null(NUGGET_DIR) && dir.exists(NUGGET_DIR)) {
+    f <- list.files(NUGGET_DIR, pattern = "^Final_study_\d+_agent_nuggets_by_step\.csv$", full.names = TRUE)
   }
-  # Priority 2: search under BASE_DIR
-  dir_ls(BASE_DIR, recurse = TRUE, regexp = "Final_study_\d+_agent_nuggets_by_step\.csv$", type = "file")
+  if (!length(f)) {
+    f <- list.files(BASE_DIR, pattern = "Final_study_\d+_agent_nuggets_by_step\.csv$", full.names = TRUE, recursive = TRUE)
+  }
+  f
 }
 
-nugget_files <- find_nugget_files()
-if (!length(nugget_files)) stop("Could not find any *agent_nuggets_by_step.csv files. Set NUGGET_DIR or check BASE_DIR.")
+nug_files <- find_nugget_files()
+if (!length(nug_files)) stop("Could not find any *agent_nuggets_by_step.csv files. Check NUGGET_DIR/BASE_DIR.")
 
-read_nug <- function(path) {
-  suppressMessages(readr::read_csv(path, show_col_types = FALSE)) %>%
-    clean_names() %>% mutate(source_file = basename(path))
-}
+read_nug <- function(path) readr::read_csv(path, show_col_types = FALSE) %>% mutate(source_file = basename(path))
 
-nug_A <- purrr::map_dfr(nugget_files, read_nug)
+nug_A <- purrr::map_dfr(nug_files, read_nug)
 
-# Harmonize column names from your example schema
-# Expected columns (after clean_names):
-# cluster, conversation_id, recipe_title, step_id, agent_text, agent_turns,
-# model_agent, step_description, nugget_count, nuggets, ok, annot_notes
-
-# Coalesce possible variants
-coalesce_cols <- function(d, ...) {
-  cands <- c(...)
-  vals <- rep(NA_character_, nrow(d))
-  for (nm in cands) if (nm %in% names(d)) vals <- coalesce(vals, as.character(d[[nm]]))
-  vals
+# Harmonize columns across possible names
+colpick <- function(d, ...) {
+  cands <- c(...); i <- which(cands %in% names(d))
+  if (!length(i)) return(rep(NA_character_, nrow(d)))
+  out <- d[[cands[i[1]]]]
+  if (length(i) > 1) for (j in i[-1]) out <- dplyr::coalesce(out, d[[cands[j]]])
+  out
 }
 
 nug_A <- nug_A %>% mutate(
-  cluster         = coalesce_cols(., "cluster", "politeness_cluster", "user_cluster"),
-  conversation_id = coalesce_cols(., "conversation_id", "conv_id"),
-  recipe_title    = coalesce_cols(., "recipe_title", "recipe", "recipe_name"),
-  step_id         = suppressWarnings(as.integer(coalesce_cols(., "step_id", "step", "step_index"))),
-  agent_text      = coalesce_cols(., "agent_text", "assistant_text", "agent_response"),
-  agent_turns     = suppressWarnings(as.integer(coalesce_cols(., "agent_turns", "n_agent_turns"))),
-  model_agent     = coalesce_cols(., "model_agent", "agent_model", "llm_agent"),
-  nugget_count    = suppressWarnings(as.numeric(coalesce_cols(., "nugget_count", "nuggets", "num_nuggets")))
-) %>%
-  mutate(length_words_from_agent_text = ifelse(!is.na(agent_text) & nzchar(agent_text),
-                                               stringr::str_count(stringr::str_squish(agent_text), "\S+"), NA_integer_))
+  cluster         = colpick(., "cluster","politeness_cluster","user_cluster","profile"),
+  conversation_id = colpick(., "conversation_id","conv_id","dialogue_id","conversation"),
+  recipe_title    = colpick(., "recipe_title","recipe","recipe_name"),
+  step_id         = suppressWarnings(as.integer(colpick(., "step_id","step","step_index","recipe_step"))),
+  agent_text      = colpick(., "agent_text","assistant_text","agent_response","assistant_message","text"),
+  agent_turns     = suppressWarnings(as.integer(colpick(., "agent_turns","n_agent_turns"))),
+  model_agent     = colpick(., "model_agent","agent_model","llm_agent"),
+  nugget_count    = suppressWarnings(as.numeric(colpick(., "nugget_count","nuggets","num_nuggets","nuggets_sum")))
+) %>% mutate(
+  length_words_from_agent_text = ifelse(!is.na(agent_text) & nzchar(agent_text),
+                                        stringr::str_count(stringr::str_squish(agent_text), "\S+"), NA)
+)
 
-# Minimal step frame from (A)
-step_A <- nug_A %>% select(cluster, conversation_id, recipe_title, step_id,
-                           model_agent, agent_turns, agent_text,
-                           length_words_from_agent_text, nugget_count, source_file) %>%
-  mutate(
-    cluster = as.factor(cluster),
-    conversation_id = as.factor(conversation_id),
-    recipe = as.factor(recipe_title),
-    step_id = as.integer(step_id),
-    agent_model = as.factor(model_agent)
-  )
+step_A <- nug_A %>% transmute(
+  cluster = factor(cluster),
+  conversation_id = factor(conversation_id),
+  recipe_title = factor(recipe_title),
+  step_id = as.integer(step_id),
+  agent_model_A = factor(model_agent),
+  agent_turns_A = as.integer(agent_turns),
+  agent_text,
+  length_words_A = as.numeric(length_words_from_agent_text),
+  nugget_count = as.numeric(nugget_count)
+)
 
 # ----------------------------
 # 3) Load dialogs_flat (B) and aggregate to step level
 # ----------------------------
-message("Searching dialogs_flat files under ", BASE_DIR, " …")
-flat_files <- dir_ls(BASE_DIR, recurse = TRUE, regexp = "dialogs_flat_.*\.csv$", type = "file")
+flat_files <- list.files(BASE_DIR, pattern = "dialogs_flat_.*\.csv$", full.names = TRUE, recursive = TRUE)
 if (!length(flat_files)) stop("No dialogs_flat_*.csv files found under BASE_DIR.")
 
-read_flat <- function(path) {
-  suppressMessages(readr::read_csv(path, show_col_types = FALSE)) %>%
-    clean_names() %>% mutate(source_file_flat = basename(path))
-}
-
+read_flat <- function(path) readr::read_csv(path, show_col_types = FALSE) %>% mutate(source_file_flat = basename(path))
 flat_B <- purrr::map_dfr(flat_files, read_flat)
 
-# Expected columns (after clean_names):
-# step_id, need_type, turn, role, text, intent, codes, energy_wh, mean_w, peak_w,
-# model_user, model_agent, recipe_title, event_idx, cluster, conversation_id, seed
-
-# Mark agent turns (robust): anything that is not clearly user
+# Expected columns in flat_B: step_id, role, text, energy_Wh, model_agent, recipe_title, cluster, conversation_id
 flat_B <- flat_B %>% mutate(
   role = tolower(as.character(role)),
-  is_agent_turn = !is.na(role) & role != "user"
-)
-
-# Token count per turn
-flat_B <- flat_B %>% mutate(
+  is_agent_turn = !is.na(role) & role != "user",
   text = as.character(text),
   turn_words = ifelse(!is.na(text) & nzchar(text), stringr::str_count(stringr::str_squish(text), "\S+"), 0)
 )
 
-# Aggregate to step × conversation (agent-only)
 step_B <- flat_B %>%
   filter(is_agent_turn) %>%
   group_by(cluster, conversation_id, recipe_title, step_id) %>%
   summarise(
-    agent_model_flat = dplyr::first(na.omit(model_agent)),
-    agent_turns_from_flat = dplyr::n(),
-    words_from_flat = sum(turn_words, na.rm = TRUE),
-    energy_wh_from_flat = sum(as.numeric(energy_wh), na.rm = TRUE),
+    agent_model_B = dplyr::first(na.omit(model_agent)),
+    agent_turns_B = dplyr::n(),
+    words_B = sum(turn_words, na.rm = TRUE),
+    energy_wh_B = sum(as.numeric(energy_Wh %||% energy_wh %||% NA_real_), na.rm = TRUE),
     .groups = "drop"
   ) %>%
   mutate(
-    cluster = as.factor(cluster),
-    conversation_id = as.factor(conversation_id),
-    recipe = as.factor(recipe_title),
-    step_id = as.integer(step_id),
-    agent_model_flat = as.factor(agent_model_flat)
+    cluster = factor(cluster),
+    conversation_id = factor(conversation_id),
+    recipe_title = factor(recipe_title),
+    step_id = as.integer(step_id)
   )
 
-# ----------------------------
-# 4) Merge (A) + (B) and derive analysis variables
-# ----------------------------
-by_keys <- c("cluster", "conversation_id", "recipe_title", "step_id")
+`%||%` <- function(x, y) ifelse(!is.null(x), x, y)
 
+# ----------------------------
+# 4) Merge A + B and derive analysis variables
+# ----------------------------
+by_keys <- c("cluster","conversation_id","recipe_title","step_id")
 merged <- step_A %>% full_join(step_B, by = by_keys)
 
-# Resolve agent model, words, turns
-merged <- merged %>% mutate(
-  agent_model = forcats::fct_coalesce(agent_model, agent_model_flat),
-  length_words = coalesce(as.numeric(length_words_from_agent_text), as.numeric(words_from_flat)),
-  agent_turns = coalesce(as.integer(agent_turns), as.integer(agent_turns_from_flat)),
-  energy_wh   = as.numeric(energy_wh_from_flat)
-)
-
-# Flags & derived metrics
-merged <- merged %>% mutate(
-  has_words   = is.finite(length_words) & length_words >= 0,
+an <- merged %>% mutate(
+  agent_model = forcats::fct_coalesce(agent_model_A, factor(agent_model_B)),
+  length_words = dplyr::coalesce(length_words_A, as.numeric(words_B)),
+  agent_turns = dplyr::coalesce(agent_turns_A, as.integer(agent_turns_B)),
+  energy_wh = as.numeric(energy_wh_B),
+  recipe = recipe_title,
+  has_words = is.finite(length_words) & length_words >= 0,
   has_nuggets = is.finite(nugget_count) & nugget_count >= 0,
-  has_energy  = is.finite(energy_wh)   & energy_wh > 0,
+  has_energy = is.finite(energy_wh) & energy_wh > 0,
   nuggets_per_100w = ifelse(has_words & has_nuggets & length_words > 0, 100 * nugget_count / length_words, NA_real_),
-  nuggets_per_wh   = ifelse(has_energy & has_nuggets, nugget_count / energy_wh, NA_real_),
-  recipe = as.factor(recipe_title)
-)
+  nuggets_per_wh   = ifelse(has_energy & has_nuggets, nugget_count / energy_wh, NA_real_)
+) %>% select(cluster, agent_model, recipe, conversation_id, step_id,
+             length_words, nugget_count, energy_wh,
+             nuggets_per_100w, nuggets_per_wh,
+             has_words, has_nuggets, has_energy)
 
-# Diagnostics: merge coverage
+# Merge diagnostics
 merge_diag <- merged %>% summarise(
-  n_total = n(),
-  n_from_A_only = sum(is.na(agent_turns_from_flat)),
+  n_total = dplyr::n(),
+  n_from_A_only = sum(is.na(agent_turns_B)),
   n_from_B_only = sum(is.na(agent_text)),
-  n_with_words = sum(has_words),
-  n_with_nuggets = sum(has_nuggets),
-  n_with_energy = sum(has_energy)
+  n_with_words = sum(is.finite(dplyr::coalesce(length_words_A, as.numeric(words_B))) & dplyr::coalesce(length_words_A, as.numeric(words_B)) >= 0, na.rm=TRUE),
+  n_with_nuggets = sum(is.finite(nugget_count) & nugget_count >= 0, na.rm=TRUE),
+  n_with_energy = sum(is.finite(energy_wh_B) & energy_wh_B > 0, na.rm=TRUE)
 )
-readr::write_csv(merge_diag, "outputs/tables/00_merge_diagnostics.csv")
-
-# Keep analysis frame
-df_step <- merged %>% select(
-  cluster, agent_model, recipe, conversation_id, step_id,
-  length_words, nugget_count, energy_wh,
-  nuggets_per_100w, nuggets_per_wh,
-  has_words, has_nuggets, has_energy
-)
+readr::write_csv(merge_diag, file.path(.dir_tables, "00_merge_diagnostics.csv"))
 
 # ----------------------------
-# 5) Descriptives & sanity tables
+# 5) Descriptives
 # ----------------------------
-cell_counts <- df_step %>% count(cluster, agent_model, recipe, name = "n_steps") %>% arrange(cluster, agent_model, recipe)
-readr::write_csv(cell_counts, "outputs/tables/01_cell_counts.csv")
+cell_counts <- an %>% count(cluster, agent_model, recipe, name = "n_steps") %>% arrange(cluster, agent_model, recipe)
+readr::write_csv(cell_counts, file.path(.dir_tables, "01_cell_counts.csv"))
 
-na_table <- df_step %>% summarise(
-  n = n(),
+na_table <- an %>% summarise(
+  n = dplyr::n(),
   n_na_words = sum(!has_words),
   n_na_nuggets = sum(!has_nuggets),
   n_na_energy = sum(!has_energy),
@@ -232,27 +199,25 @@ na_table <- df_step %>% summarise(
   pct_na_nuggets = mean(!has_nuggets),
   pct_na_energy = mean(!has_energy)
 )
-readr::write_csv(na_table, "outputs/tables/02_missingness_overview.csv")
+readr::write_csv(na_table, file.path(.dir_tables, "02_missingness_overview.csv"))
 
 # Descriptive stats per Cluster × Model
-desc_stats <- df_step %>%
-  group_by(cluster, agent_model) %>%
-  summarise(
-    n = n(),
-    words_mean = mean(length_words, na.rm=TRUE), words_sd = sd(length_words, na.rm=TRUE), words_median = median(length_words, na.rm=TRUE),
-    nuggets_mean = mean(nugget_count, na.rm=TRUE), nuggets_sd = sd(nugget_count, na.rm=TRUE), nuggets_median = median(nugget_count, na.rm=TRUE),
-    energy_mean = mean(energy_wh, na.rm=TRUE), energy_sd = sd(energy_wh, na.rm=TRUE), energy_median = median(energy_wh, na.rm=TRUE),
-    eff100_mean = mean(nuggets_per_100w, na.rm=TRUE), eff100_sd = sd(nuggets_per_100w, na.rm=TRUE),
-    effWh_mean = mean(nuggets_per_wh, na.rm=TRUE), effWh_sd = sd(nuggets_per_wh, na.rm=TRUE)
-  ) %>% ungroup()
-readr::write_csv(desc_stats, "outputs/tables/03_descriptives_by_cluster_model.csv")
+by_cm <- an %>% group_by(cluster, agent_model) %>% summarise(
+  n = dplyr::n(),
+  words_mean = mean(length_words, na.rm=TRUE), words_sd = sd(length_words, na.rm=TRUE), words_median = median(length_words, na.rm=TRUE),
+  nuggets_mean = mean(nugget_count, na.rm=TRUE), nuggets_sd = sd(nugget_count, na.rm=TRUE), nuggets_median = median(nugget_count, na.rm=TRUE),
+  energy_mean = mean(energy_wh, na.rm=TRUE), energy_sd = sd(energy_wh, na.rm=TRUE), energy_median = median(energy_wh, na.rm=TRUE),
+  eff100_mean = mean(nuggets_per_100w, na.rm=TRUE), eff100_sd = sd(nuggets_per_100w, na.rm=TRUE),
+  effWh_mean = mean(nuggets_per_wh, na.rm=TRUE), effWh_sd = sd(nuggets_per_wh, na.rm=TRUE),
+  .groups = "drop"
+)
+readr::write_csv(by_cm, file.path(.dir_tables, "03_descriptives_by_cluster_model.csv"))
 
 # ----------------------------
-# 6) Plots (saved to outputs/plots)
+# 6) Plots (ggplot2; no mgcv — use loess)
 # ----------------------------
-message("Saving plots to ./outputs/plots …")
 
-gg_words <- df_step %>% filter(has_words) %>%
+p_words <- an %>% filter(has_words) %>%
   ggplot(aes(x = cluster, y = length_words)) +
   geom_violin(trim = FALSE, alpha = 0.7) +
   geom_boxplot(width = 0.15, outlier.alpha = 0.2) +
@@ -262,10 +227,9 @@ gg_words <- df_step %>% filter(has_words) %>%
        x = "Cluster (User Politeness Profile)", y = "Words per step") +
   theme_bw()
 
-ggsave("outputs/plots/words_by_cluster_model.png", gg_words, width = 12, height = 7, dpi = 180)
+ggsave("outputs/plots/words_by_cluster_model.png", p_words, width = 12, height = 7, dpi = 180)
 
-
-gg_nuggets <- df_step %>% filter(has_nuggets) %>%
+p_nuggets <- an %>% filter(has_nuggets) %>%
   ggplot(aes(x = cluster, y = nugget_count)) +
   geom_violin(trim = FALSE, alpha = 0.7) +
   geom_boxplot(width = 0.15, outlier.alpha = 0.2) +
@@ -274,10 +238,9 @@ gg_nuggets <- df_step %>% filter(has_nuggets) %>%
        x = "Cluster", y = "Nuggets (count)") +
   theme_bw()
 
-ggsave("outputs/plots/nuggets_by_cluster_model.png", gg_nuggets, width = 12, height = 7, dpi = 180)
+ggsave("outputs/plots/nuggets_by_cluster_model.png", p_nuggets, width = 12, height = 7, dpi = 180)
 
-
-gg_eff100 <- df_step %>% filter(has_words, has_nuggets) %>%
+p_eff100 <- an %>% filter(has_words, has_nuggets) %>%
   ggplot(aes(x = cluster, y = nuggets_per_100w)) +
   geom_violin(trim = FALSE, alpha = 0.7) +
   geom_boxplot(width = 0.15, outlier.alpha = 0.2) +
@@ -286,119 +249,102 @@ gg_eff100 <- df_step %>% filter(has_words, has_nuggets) %>%
        x = "Cluster", y = "Nuggets per 100 words") +
   theme_bw()
 
-ggsave("outputs/plots/efficiency_per_100w_by_cluster_model.png", gg_eff100, width = 12, height = 7, dpi = 180)
+ggsave("outputs/plots/efficiency_per_100w_by_cluster_model.png", p_eff100, width = 12, height = 7, dpi = 180)
 
-
-gg_scatter_words_nuggets <- df_step %>% filter(has_words, has_nuggets) %>%
+p_scatter_words <- an %>% filter(has_words, has_nuggets) %>%
   ggplot(aes(x = length_words, y = nugget_count, color = cluster)) +
   geom_point(alpha = 0.35) +
-  geom_smooth(method = "gam", formula = y ~ s(x, k = 5)) +
+  geom_smooth(method = "loess", formula = y ~ x, se = TRUE) +
   facet_wrap(~ agent_model, ncol = 3, scales = "free") +
   scale_x_continuous(labels = scales::comma) +
   labs(title = "Nuggets vs. Words by AgentModel (colored by Cluster)", x = "Words", y = "Nuggets") +
   theme_bw()
 
-ggsave("outputs/plots/scatter_nuggets_vs_words.png", gg_scatter_words_nuggets, width = 12, height = 7, dpi = 180)
+ggsave("outputs/plots/scatter_nuggets_vs_words.png", p_scatter_words, width = 12, height = 7, dpi = 180)
 
-
-gg_scatter_energy <- df_step %>% filter(has_energy, has_nuggets) %>%
+p_scatter_energy <- an %>% filter(has_energy, has_nuggets) %>%
   ggplot(aes(x = energy_wh, y = nugget_count, color = cluster)) +
   geom_point(alpha = 0.35) +
-  geom_smooth(method = "gam", formula = y ~ s(x, k = 5)) +
+  geom_smooth(method = "loess", formula = y ~ x, se = TRUE) +
   facet_wrap(~ agent_model, ncol = 3, scales = "free") +
   labs(title = "Nuggets vs. Energy (Wh) by AgentModel",
        x = "Energy (Wh)", y = "Nuggets") +
   theme_bw()
 
-ggsave("outputs/plots/scatter_nuggets_vs_energy.png", gg_scatter_energy, width = 12, height = 7, dpi = 180)
+ggsave("outputs/plots/scatter_nuggets_vs_energy.png", p_scatter_energy, width = 12, height = 7, dpi = 180)
 
 # ----------------------------
-# 7) Models for H1–H3
+# 7) Models for H1–H3 (lme4/lmerTest/MASS)
 # ----------------------------
-message("Fitting models …")
+# Simple overdispersion metric for GLMMs
+overdisp_ratio <- function(model) {
+  rp <- resid(model, type = "pearson")
+  sum(rp^2, na.rm = TRUE) / df.residual(model)
+}
 
-an_df <- df_step %>% filter(!is.na(cluster), !is.na(agent_model), !is.na(recipe), !is.na(conversation_id))
+AN <- an %>% filter(!is.na(cluster), !is.na(agent_model), !is.na(recipe), !is.na(conversation_id))
 
 # H1: Length (log scale)
-H1_df <- an_df %>% filter(has_words) %>% mutate(log_words = log1p(length_words))
+H1_df <- AN %>% filter(has_words) %>% mutate(log_words = log1p(length_words))
 if (nrow(H1_df) < 10) stop("Too few rows with words for H1.")
 
 fit_H1 <- lmer(log_words ~ cluster * agent_model + recipe + (1 | conversation_id), data = H1_df)
-H1_anova <- anova(fit_H1)
+H1_anova <- anova(fit_H1)               # Satterthwaite (lmerTest)
 H1_emm   <- emmeans(fit_H1, ~ cluster | agent_model)
 H1_pairs <- contrast(H1_emm, method = "pairwise", adjust = "tukey")
-H1_res   <- performance::check_model(fit_H1)
 
-readr::write_csv(broom::tidy(H1_anova), "outputs/tables/H1_anova.csv")
-readr::write_csv(as.data.frame(summary(H1_emm)), "outputs/tables/H1_emmeans.csv")
-readr::write_csv(as.data.frame(H1_pairs), "outputs/tables/H1_pairs_tukey.csv")
-readr::write_csv(broom.mixed::tidy(fit_H1, effects = "fixed", conf.int = TRUE), "outputs/tables/H1_fixed_effects.csv")
+readr::write_csv(broom::tidy(H1_anova), file.path(.dir_tables, "H1_anova.csv"))
+readr::write_csv(as.data.frame(summary(H1_emm)), file.path(.dir_tables, "H1_emmeans.csv"))
+readr::write_csv(as.data.frame(H1_pairs), file.path(.dir_tables, "H1_pairs_tukey.csv"))
+readr::write_csv(broom.mixed::tidy(fit_H1, effects = "fixed", conf.int = TRUE), file.path(.dir_tables, "H1_fixed_effects.csv"))
 
-ggsave("outputs/plots/H1_check_model.png", H1_res, width = 10, height = 6, dpi = 150)
-
-# H2: Nuggets (NB GLMM)
-H2_df <- an_df %>% filter(has_nuggets)
+# H2: Nuggets (NB GLMM via lme4::glmer.nb)
+H2_df <- AN %>% filter(has_nuggets)
 if (nrow(H2_df) < 10) stop("Too few rows with nuggets for H2.")
 
-fit_H2 <- glmmTMB(nugget_count ~ cluster * agent_model + recipe + (1 | conversation_id),
-                  family = nbinom2, data = H2_df)
-H2_anova <- anova(fit_H2)
-H2_emm   <- emmeans(fit_H2, ~ cluster | agent_model, type = "response")
+fit_H2 <- glmer.nb(nugget_count ~ cluster * agent_model + recipe + (1 | conversation_id), data = H2_df)
+H2_ovr <- overdisp_ratio(fit_H2)
+readr::write_csv(broom.mixed::tidy(fit_H2, effects = "fixed", conf.int = TRUE, exponentiate = TRUE), file.path(.dir_tables, "H2_fixed_effects_rate_ratios.csv"))
+readr::write_csv(tibble::tibble(overdispersion_ratio = H2_ovr), file.path(.dir_tables, "H2_overdispersion_ratio.csv"))
+
+H2_emm <- emmeans(fit_H2, ~ cluster | agent_model, type = "response")
 H2_pairs <- contrast(H2_emm, method = "pairwise", adjust = "tukey")
-H2_simres <- DHARMa::simulateResiduals(fit_H2)
+readr::write_csv(as.data.frame(summary(H2_emm)), file.path(.dir_tables, "H2_emmeans_resp.csv"))
+readr::write_csv(as.data.frame(H2_pairs), file.path(.dir_tables, "H2_pairs_tukey_resp.csv"))
 
-readr::write_csv(broom::tidy(H2_anova), "outputs/tables/H2_anova.csv")
-readr::write_csv(as.data.frame(summary(H2_emm)), "outputs/tables/H2_emmeans_resp.csv")
-readr::write_csv(as.data.frame(H2_pairs), "outputs/tables/H2_pairs_tukey_resp.csv")
-readr::write_csv(broom.mixed::tidy(fit_H2, effects = "fixed", conf.int = TRUE, exponentiate = TRUE),
-                 "outputs/tables/H2_fixed_effects_rate_ratios.csv")
-
-DH <- as.data.frame(H2_simres)
-if (nrow(DH)) {
-  p <- ggplot(DH, aes(x = scaledResiduals)) + geom_histogram(bins = 40) +
-    labs(title = "H2 DHARMa residuals") + theme_bw()
-  ggsave("outputs/plots/H2_DHARMa_residuals.png", p, width = 8, height = 5, dpi = 150)
-}
-
-# H3a: Efficiency per word (offset)
-H3a_df <- an_df %>% filter(has_nuggets, has_words, length_words > 0)
+# H3a: Efficiency per word (offset log(words))
+H3a_df <- AN %>% filter(has_nuggets, has_words, length_words > 0)
 if (nrow(H3a_df) < 10) stop("Too few rows with words+nuggets for H3a.")
 
-fit_H3a <- glmmTMB(nugget_count ~ cluster * agent_model + recipe +
-                     offset(log(pmax(length_words, 1))) + (1 | conversation_id),
-                   family = nbinom2, data = H3a_df)
-H3a_anova <- anova(fit_H3a)
-H3a_emm   <- emmeans(fit_H3a, ~ cluster | agent_model, type = "response")
+fit_H3a <- glmer.nb(nugget_count ~ cluster * agent_model + recipe + offset(log(pmax(length_words, 1))) + (1 | conversation_id), data = H3a_df)
+H3a_ovr <- overdisp_ratio(fit_H3a)
+readr::write_csv(broom.mixed::tidy(fit_H3a, effects = "fixed", conf.int = TRUE, exponentiate = TRUE), file.path(.dir_tables, "H3a_fixed_effects_rate_ratios.csv"))
+readr::write_csv(tibble::tibble(overdispersion_ratio = H3a_ovr), file.path(.dir_tables, "H3a_overdispersion_ratio.csv"))
+
+H3a_emm <- emmeans(fit_H3a, ~ cluster | agent_model, type = "response")  # returns nuggets/word
 H3a_pairs <- contrast(H3a_emm, method = "pairwise", adjust = "tukey")
+readr::write_csv(as.data.frame(summary(H3a_emm)), file.path(.dir_tables, "H3a_emmeans_rate_per_word.csv"))
+readr::write_csv(as.data.frame(H3a_pairs), file.path(.dir_tables, "H3a_pairs_tukey_rate_per_word.csv"))
 
-readr::write_csv(broom::tidy(H3a_anova), "outputs/tables/H3a_anova.csv")
-readr::write_csv(as.data.frame(summary(H3a_emm)), "outputs/tables/H3a_emmeans_rate_per_word.csv")
-readr::write_csv(as.data.frame(H3a_pairs), "outputs/tables/H3a_pairs_tukey_rate_per_word.csv")
-readr::write_csv(broom.mixed::tidy(fit_H3a, effects = "fixed", conf.int = TRUE, exponentiate = TRUE),
-                 "outputs/tables/H3a_fixed_effects_rate_ratios.csv")
-
-# H3b: Efficiency per Wh (offset)
-H3b_df <- an_df %>% filter(has_nuggets, has_energy)
-if (nrow(H3b_df) < 10) {
-  warning("Too few rows with energy for H3b – skipping.")
-} else {
-  fit_H3b <- glmmTMB(nugget_count ~ cluster * agent_model + recipe +
-                       offset(log(energy_wh)) + (1 | conversation_id),
-                     family = nbinom2, data = H3b_df)
-  H3b_anova <- anova(fit_H3b)
-  H3b_emm   <- emmeans(fit_H3b, ~ cluster | agent_model, type = "response")
-  H3b_pairs <- contrast(H3b_emm, method = "pairwise", adjust = "tukey")
+# H3b: Efficiency per Wh (offset log(Wh))
+H3b_df <- AN %>% filter(has_nuggets, has_energy)
+if (nrow(H3b_df) >= 10) {
+  fit_H3b <- glmer.nb(nugget_count ~ cluster * agent_model + recipe + offset(log(energy_wh)) + (1 | conversation_id), data = H3b_df)
+  H3b_ovr <- overdisp_ratio(fit_H3b)
+  readr::write_csv(broom.mixed::tidy(fit_H3b, effects = "fixed", conf.int = TRUE, exponentiate = TRUE), file.path(.dir_tables, "H3b_fixed_effects_rate_ratios.csv"))
+  readr::write_csv(tibble::tibble(overdispersion_ratio = H3b_ovr), file.path(.dir_tables, "H3b_overdispersion_ratio.csv"))
   
-  readr::write_csv(broom::tidy(H3b_anova), "outputs/tables/H3b_anova.csv")
-  readr::write_csv(as.data.frame(summary(H3b_emm)), "outputs/tables/H3b_emmeans_rate_per_Wh.csv")
-  readr::write_csv(as.data.frame(H3b_pairs), "outputs/tables/H3b_pairs_tukey_rate_per_Wh.csv")
-  readr::write_csv(broom.mixed::tidy(fit_H3b, effects = "fixed", conf.int = TRUE, exponentiate = TRUE),
-                   "outputs/tables/H3b_fixed_effects_rate_ratios.csv")
+  H3b_emm <- emmeans(fit_H3b, ~ cluster | agent_model, type = "response")  # nuggets/Wh
+  H3b_pairs <- contrast(H3b_emm, method = "pairwise", adjust = "tukey")
+  readr::write_csv(as.data.frame(summary(H3b_emm)), file.path(.dir_tables, "H3b_emmeans_rate_per_Wh.csv"))
+  readr::write_csv(as.data.frame(H3b_pairs), file.path(.dir_tables, "H3b_pairs_tukey_rate_per_Wh.csv"))
+} else {
+  warning("Too few rows with energy for H3b – skipping.")
 }
 
 # ----------------------------
 # 8) Session info
 # ----------------------------
-writeLines(capture.output(sessionInfo()), con = "outputs/tables/sessionInfo.txt")
+writeLines(capture.output(sessionInfo()), con = file.path(.dir_tables, "sessionInfo.txt"))
 
 message("Done. Tables → ./outputs/tables, Plots → ./outputs/plots")
