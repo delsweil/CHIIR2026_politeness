@@ -1,9 +1,10 @@
 ############################################################
-# H1–H3 Analysis Pipeline (Slim, tidyverse-first)
+# H1–H3 Analysis Pipeline (Slim, tidyverse-core only)
 #
-# Goal: Keep tidyverse + ggplot2, but drop exotic/heavy deps.
-# Uses only: tidyverse, lme4, lmerTest, MASS, emmeans, broom, broom.mixed
-# (No glmmTMB, DHARMa, MuMIn, clubSandwich, patchwork, performance, fs, glue, janitor, mgcv)
+# Keep ggplot2/dplyr etc., but avoid the heavy tidyverse meta-package.
+# Packages used: dplyr, readr, tidyr, stringr, purrr, ggplot2, forcats,
+#                lme4, lmerTest, MASS, emmeans, broom, broom.mixed
+# (No tidyverse meta; avoids pulling ragg/systemfonts/googledrive/...)
 #
 # Data layers
 #   A) step-level nuggets: Final_study_*_agent_nuggets_by_step.csv
@@ -12,22 +13,22 @@
 #
 # Outputs
 #   ./outputs/tables/*.csv  (descriptives, ANOVAs, EMMs, model summaries)
-#   ./outputs/plots/*.png   (violins/boxplots, scatter+loess, simple diagnostics)
+#   ./outputs/plots/*.png   (violins/boxplots, scatter+loess)
 #
 # Author: (you)    Date: 2025-09-23
 ############################################################
 
 # ----------------------------
-# 0) Setup & packages (slim set)
+# 0) Setup & packages (core set only)
 # ----------------------------
+
+unlink("~/R/x86_64-pc-linux-gnu-library/4.5.1/00LOCK-*", recursive = TRUE, force = TRUE)
+
 required_pkgs <- c(
-  "tidyverse",  # dplyr, readr, tidyr, ggplot2, stringr, purrr
-  "lme4",
-  "lmerTest",   # p-values for lmer
-  "MASS",       # glmer.nb support
-  "emmeans",
-  "broom",
-  "broom.mixed"
+  # core tidyverse pieces individually (NOT 'tidyverse')
+  "dplyr", "readr", "tidyr", "stringr", "purrr", "ggplot2", "forcats",
+  # modelling & helpers
+  "lme4", "lmerTest", "MASS", "emmeans", "broom", "broom.mixed"
 )
 
 install_if_missing <- function(pkgs) {
@@ -37,7 +38,13 @@ install_if_missing <- function(pkgs) {
 install_if_missing(required_pkgs)
 
 suppressPackageStartupMessages({
-  library(tidyverse)
+  library(dplyr)
+  library(readr)
+  library(tidyr)
+  library(stringr)
+  library(purrr)
+  library(ggplot2)
+  library(forcats)
   library(lme4)
   library(lmerTest)
   library(MASS)
@@ -62,7 +69,6 @@ dir.create("final_outputs/plots", recursive = TRUE, showWarnings = FALSE)
 # 2) Load nugget step files (A)
 # ----------------------------
 find_nugget_files <- function() {
-  # Priority 1: explicit NUGGET_DIR
   f <- character(0)
   if (!is.null(NUGGET_DIR) && dir.exists(NUGGET_DIR)) {
     f <- list.files(NUGGET_DIR, pattern = "^Final_study_\d+_agent_nuggets_by_step\.csv$", full.names = TRUE)
@@ -124,15 +130,16 @@ if (!length(flat_files)) stop("No dialogs_flat_*.csv files found under BASE_DIR.
 read_flat <- function(path) readr::read_csv(path, show_col_types = FALSE) %>% mutate(source_file_flat = basename(path))
 flat_B <- purrr::map_dfr(flat_files, read_flat)
 
-# helper used below
-`%||%` <- function(x, y) if (!is.null(x)) x else y
+# Choose energy column if present
+energy_col <- intersect(names(flat_B), c("energy_Wh","energy_wh","energy.wh"))
+energy_col <- if (length(energy_col)) energy_col[1] else NA_character_
 
-# Expected columns in flat_B: step_id, role, text, energy_Wh, model_agent, recipe_title, cluster, conversation_id
 flat_B <- flat_B %>% mutate(
   role = tolower(as.character(role)),
   is_agent_turn = !is.na(role) & role != "user",
   text = as.character(text),
-  turn_words = ifelse(!is.na(text) & nzchar(text), stringr::str_count(stringr::str_squish(text), "\S+"), 0)
+  turn_words = ifelse(!is.na(text) & nzchar(text), stringr::str_count(stringr::str_squish(text), "\S+"), 0),
+  energy_num = if (!is.na(energy_col)) suppressWarnings(as.numeric(.data[[energy_col]])) else NA_real_
 )
 
 step_B <- flat_B %>%
@@ -142,7 +149,7 @@ step_B <- flat_B %>%
     agent_model_B = dplyr::first(na.omit(model_agent)),
     agent_turns_B = dplyr::n(),
     words_B = sum(turn_words, na.rm = TRUE),
-    energy_wh_B = sum(as.numeric(energy_Wh %||% energy_wh %||% NA_real_), na.rm = TRUE),
+    energy_wh_B = sum(energy_num, na.rm = TRUE),
     .groups = "drop"
   ) %>%
   mutate(
@@ -207,7 +214,7 @@ by_cm <- an %>% group_by(cluster, agent_model) %>% summarise(
   n = dplyr::n(),
   words_mean = mean(length_words, na.rm=TRUE), words_sd = sd(length_words, na.rm=TRUE), words_median = median(length_words, na.rm=TRUE),
   nuggets_mean = mean(nugget_count, na.rm=TRUE), nuggets_sd = sd(nugget_count, na.rm=TRUE), nuggets_median = median(nugget_count, na.rm=TRUE),
-  energy_mean = mean(energy_wh, na.rm=TRUE), energy_sd = sd(energy_Wh, na.rm=TRUE), energy_median = median(energy_wh, na.rm=TRUE),
+  energy_mean = mean(energy_wh, na.rm=TRUE), energy_sd = sd(energy_wh, na.rm=TRUE), energy_median = median(energy_wh, na.rm=TRUE),
   eff100_mean = mean(nuggets_per_100w, na.rm=TRUE), eff100_sd = sd(nuggets_per_100w, na.rm=TRUE),
   effWh_mean = mean(nuggets_per_wh, na.rm=TRUE), effWh_sd = sd(nuggets_per_wh, na.rm=TRUE),
   .groups = "drop"
@@ -215,7 +222,7 @@ by_cm <- an %>% group_by(cluster, agent_model) %>% summarise(
 readr::write_csv(by_cm, file.path(.dir_tables, "03_descriptives_by_cluster_model.csv"))
 
 # ----------------------------
-# 6) Plots (ggplot2; no mgcv — use loess)
+# 6) Plots (ggplot2; loess smooth)
 # ----------------------------
 
 p_words <- an %>% filter(has_words) %>%
@@ -223,7 +230,6 @@ p_words <- an %>% filter(has_words) %>%
   geom_violin(trim = FALSE, alpha = 0.7) +
   geom_boxplot(width = 0.15, outlier.alpha = 0.2) +
   facet_wrap(~ agent_model, ncol = 3, scales = "free_y") +
-  scale_y_continuous(labels = scales::comma) +
   labs(title = "Response length (words) by Cluster × AgentModel",
        x = "Cluster (User Politeness Profile)", y = "Words per step") +
   theme_bw()
@@ -257,7 +263,6 @@ p_scatter_words <- an %>% filter(has_words, has_nuggets) %>%
   geom_point(alpha = 0.35) +
   geom_smooth(method = "loess", formula = y ~ x, se = TRUE) +
   facet_wrap(~ agent_model, ncol = 3, scales = "free") +
-  scale_x_continuous(labels = scales::comma) +
   labs(title = "Nuggets vs. Words by AgentModel (colored by Cluster)", x = "Words", y = "Nuggets") +
   theme_bw()
 
