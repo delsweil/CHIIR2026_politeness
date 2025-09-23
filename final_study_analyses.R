@@ -123,7 +123,7 @@ step_A <- nug_A %>% transmute(
 # ----------------------------
 # 3) Load dialogs_flat (B) and aggregate to step level
 # ----------------------------
-flat_files <- list.files(BASE_DIR, pattern = "dialogs_flat_.*\.csv$", full.names = TRUE, recursive = TRUE)
+flat_files <- list.files(BASE_DIR, pattern = "dialogs_flat_.*\\.csv$", full.names = TRUE, recursive = TRUE)
 if (!length(flat_files)) stop("No dialogs_flat_*.csv files found under BASE_DIR.")
 
 read_flat <- function(path) readr::read_csv(path, show_col_types = FALSE) %>% mutate(source_file_flat = basename(path))
@@ -137,7 +137,7 @@ flat_B <- flat_B %>% mutate(
   role = tolower(as.character(role)),
   is_agent_turn = !is.na(role) & role != "user",
   text = as.character(text),
-  turn_words = ifelse(!is.na(text) & nzchar(text), stringr::str_count(stringr::str_squish(text), "\S+"), 0),
+  turn_words = ifelse(!is.na(text) & nzchar(text), stringr::str_count(stringr::str_squish(text), "\\S+"), 0),
   energy_num = if (!is.na(energy_col)) suppressWarnings(as.numeric(.data[[energy_col]])) else NA_real_
 )
 
