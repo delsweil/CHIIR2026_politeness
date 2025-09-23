@@ -349,76 +349,113 @@ H1_anova <- anova(fit_H1)               # Satterthwaite (lmerTest)
 H1_emm   <- emmeans(fit_H1, ~ cluster | agent_model)
 H1_pairs <- contrast(H1_emm, method = "pairwise", adjust = "tukey")
 
-readr::write_csv(broom::tidy(H1_anova), file.path(.dir_tables, "H1_anova.csv"))
+#readr::write_csv(broom::tidy(H1_anova), file.path(.dir_tables, "H1_anova.csv"))
+readr::write_csv(as.data.frame(H1_anova), file.path(.dir_tables, "H1_anova.csv"))
 readr::write_csv(as.data.frame(summary(H1_emm)), file.path(.dir_tables, "H1_emmeans.csv"))
 readr::write_csv(as.data.frame(H1_pairs), file.path(.dir_tables, "H1_pairs_tukey.csv"))
 readr::write_csv(broom.mixed::tidy(fit_H1, effects = "fixed", conf.int = TRUE), file.path(.dir_tables, "H1_fixed_effects.csv"))
 
 # H2: Nuggets (NB GLMM via lme4::glmer.nb)
+# H2: Nuggets (GLMM)
 H2_df <- AN %>% filter(has_nuggets)
 if (nrow(H2_df) < 10) stop("Too few rows with nuggets for H2.")
 
-fit_H2 <- if (FAST_MODE) {
-  # Quick Poisson first
-  glmer(nugget_count ~ cluster * agent_model + recipe + (1 | conversation_id),
-        family = poisson, data = H2_df,
-        control = glmerControl(optimizer = "bobyqa", calc.derivs = FALSE), nAGQ = 0)
+if (FAST_MODE) {
+  fit_H2 <- glmer(
+    nugget_count ~ cluster * agent_model + recipe + (1 | conversation_id),
+    family = poisson, data = H2_df,
+    control = glmerControl(optimizer = "bobyqa", calc.derivs = FALSE),
+    nAGQ = 0
+  )
 } else {
-  glmer.nb(nugget_count ~ cluster * agent_model + recipe + (1 | conversation_id),
-           data = H2_df, control = glmerControl(optimizer = "bobyqa"), nAGQ = 0)
-}nugget_count ~ cluster * agent_model + recipe + (1 | conversation_id), data = H2_df)
+  fit_H2 <- glmer.nb(
+    nugget_count ~ cluster * agent_model + recipe + (1 | conversation_id),
+    data = H2_df,
+    control = glmerControl(optimizer = "bobyqa")
+  )
+}
+
 H2_ovr <- overdisp_ratio(fit_H2)
-readr::write_csv(broom.mixed::tidy(fit_H2, effects = "fixed", conf.int = TRUE, exponentiate = TRUE), file.path(.dir_tables, "H2_fixed_effects_rate_ratios.csv"))
-readr::write_csv(tibble::tibble(overdispersion_ratio = H2_ovr), file.path(.dir_tables, "H2_overdispersion_ratio.csv"))
+readr::write_csv(
+  broom.mixed::tidy(fit_H2, effects = "fixed", conf.int = TRUE, exponentiate = TRUE),
+  file.path(.dir_tables, "H2_fixed_effects_rate_ratios.csv")
+)
+readr::write_csv(tibble::tibble(overdispersion_ratio = H2_ovr),
+                 file.path(.dir_tables, "H2_overdispersion_ratio.csv"))
 
 H2_emm <- emmeans(fit_H2, ~ cluster | agent_model, type = "response")
 H2_pairs <- contrast(H2_emm, method = "pairwise", adjust = "tukey")
-readr::write_csv(as.data.frame(summary(H2_emm)), file.path(.dir_tables, "H2_emmeans_resp.csv"))
-readr::write_csv(as.data.frame(H2_pairs), file.path(.dir_tables, "H2_pairs_tukey_resp.csv"))
+readr::write_csv(as.data.frame(summary(H2_emm)),  file.path(.dir_tables, "H2_emmeans_resp.csv"))
+readr::write_csv(as.data.frame(H2_pairs),         file.path(.dir_tables, "H2_pairs_tukey_resp.csv"))
 
 # H3a: Efficiency per word (offset log(words))
+# H3a: Nuggets per word (offset)
 H3a_df <- AN %>% filter(has_nuggets, has_words, length_words > 0)
 if (nrow(H3a_df) < 10) stop("Too few rows with words+nuggets for H3a.")
 
-fit_H3a <- if (FAST_MODE) {
-  glmer(nugget_count ~ cluster * agent_model + recipe + offset(log(pmax(length_words, 1))) + (1 | conversation_id),
-        family = poisson, data = H3a_df,
-        control = glmerControl(optimizer = "bobyqa", calc.derivs = FALSE), nAGQ = 0)
+if (FAST_MODE) {
+  fit_H3a <- glmer(
+    nugget_count ~ cluster * agent_model + recipe + offset(log(pmax(length_words, 1))) + (1 | conversation_id),
+    family = poisson, data = H3a_df,
+    control = glmerControl(optimizer = "bobyqa", calc.derivs = FALSE),
+    nAGQ = 0
+  )
 } else {
-  glmer.nb(nugget_count ~ cluster * agent_model + recipe + offset(log(pmax(length_words, 1))) + (1 | conversation_id),
-           data = H3a_df, control = glmerControl(optimizer = "bobyqa"), nAGQ = 0)
-}nugget_count ~ cluster * agent_model + recipe + offset(log(pmax(length_words, 1))) + (1 | conversation_id), data = H3a_df)
-H3a_ovr <- overdisp_ratio(fit_H3a)
-readr::write_csv(broom.mixed::tidy(fit_H3a, effects = "fixed", conf.int = TRUE, exponentiate = TRUE), file.path(.dir_tables, "H3a_fixed_effects_rate_ratios.csv"))
-readr::write_csv(tibble::tibble(overdispersion_ratio = H3a_ovr), file.path(.dir_tables, "H3a_overdispersion_ratio.csv"))
+  fit_H3a <- glmer.nb(
+    nugget_count ~ cluster * agent_model + recipe + offset(log(pmax(length_words, 1))) + (1 | conversation_id),
+    data = H3a_df,
+    control = glmerControl(optimizer = "bobyqa")
+  )
+}
 
-H3a_emm <- emmeans(fit_H3a, ~ cluster | agent_model, type = "response")  # returns nuggets/word
+H3a_ovr <- overdisp_ratio(fit_H3a)
+readr::write_csv(
+  broom.mixed::tidy(fit_H3a, effects = "fixed", conf.int = TRUE, exponentiate = TRUE),
+  file.path(.dir_tables, "H3a_fixed_effects_rate_ratios.csv")
+)
+readr::write_csv(tibble::tibble(overdispersion_ratio = H3a_ovr),
+                 file.path(.dir_tables, "H3a_overdispersion_ratio.csv"))
+
+H3a_emm <- emmeans(fit_H3a, ~ cluster | agent_model, type = "response")
 H3a_pairs <- contrast(H3a_emm, method = "pairwise", adjust = "tukey")
 readr::write_csv(as.data.frame(summary(H3a_emm)), file.path(.dir_tables, "H3a_emmeans_rate_per_word.csv"))
-readr::write_csv(as.data.frame(H3a_pairs), file.path(.dir_tables, "H3a_pairs_tukey_rate_per_word.csv"))
+readr::write_csv(as.data.frame(H3a_pairs),        file.path(.dir_tables, "H3a_pairs_tukey_rate_per_word.csv"))
 
 # H3b: Efficiency per Wh (offset log(Wh))
+# H3b: Nuggets per Wh (offset)
 H3b_df <- AN %>% filter(has_nuggets, has_energy)
 if (nrow(H3b_df) >= 10) {
-  fit_H3b <- if (FAST_MODE) {
-    glmer(nugget_count ~ cluster * agent_model + recipe + offset(log(energy_wh)) + (1 | conversation_id),
-          family = poisson, data = H3b_df,
-          control = glmerControl(optimizer = "bobyqa", calc.derivs = FALSE), nAGQ = 0)
+  if (FAST_MODE) {
+    fit_H3b <- glmer(
+      nugget_count ~ cluster * agent_model + recipe + offset(log(energy_wh)) + (1 | conversation_id),
+      family = poisson, data = H3b_df,
+      control = glmerControl(optimizer = "bobyqa", calc.derivs = FALSE),
+      nAGQ = 0
+    )
   } else {
-    glmer.nb(nugget_count ~ cluster * agent_model + recipe + offset(log(energy_wh)) + (1 | conversation_id),
-             data = H3b_df, control = glmerControl(optimizer = "bobyqa"), nAGQ = 0)
-  }nugget_count ~ cluster * agent_model + recipe + offset(log(energy_wh)) + (1 | conversation_id), data = H3b_df)
-H3b_ovr <- overdisp_ratio(fit_H3b)
-readr::write_csv(broom.mixed::tidy(fit_H3b, effects = "fixed", conf.int = TRUE, exponentiate = TRUE), file.path(.dir_tables, "H3b_fixed_effects_rate_ratios.csv"))
-readr::write_csv(tibble::tibble(overdispersion_ratio = H3b_ovr), file.path(.dir_tables, "H3b_overdispersion_ratio.csv"))
-
-H3b_emm <- emmeans(fit_H3b, ~ cluster | agent_model, type = "response")  # nuggets/Wh
-H3b_pairs <- contrast(H3b_emm, method = "pairwise", adjust = "tukey")
-readr::write_csv(as.data.frame(summary(H3b_emm)), file.path(.dir_tables, "H3b_emmeans_rate_per_Wh.csv"))
-readr::write_csv(as.data.frame(H3b_pairs), file.path(.dir_tables, "H3b_pairs_tukey_rate_per_Wh.csv"))
+    fit_H3b <- glmer.nb(
+      nugget_count ~ cluster * agent_model + recipe + offset(log(energy_wh)) + (1 | conversation_id),
+      data = H3b_df,
+      control = glmerControl(optimizer = "bobyqa")
+    )
+  }
+  
+  H3b_ovr <- overdisp_ratio(fit_H3b)
+  readr::write_csv(
+    broom.mixed::tidy(fit_H3b, effects = "fixed", conf.int = TRUE, exponentiate = TRUE),
+    file.path(.dir_tables, "H3b_fixed_effects_rate_ratios.csv")
+  )
+  readr::write_csv(tibble::tibble(overdispersion_ratio = H3b_ovr),
+                   file.path(.dir_tables, "H3b_overdispersion_ratio.csv"))
+  
+  H3b_emm <- emmeans(fit_H3b, ~ cluster | agent_model, type = "response")
+  H3b_pairs <- contrast(H3b_emm, method = "pairwise", adjust = "tukey")
+  readr::write_csv(as.data.frame(summary(H3b_emm)), file.path(.dir_tables, "H3b_emmeans_rate_per_Wh.csv"))
+  readr::write_csv(as.data.frame(H3b_pairs),        file.path(.dir_tables, "H3b_pairs_tukey_rate_per_Wh.csv"))
 } else {
   warning("Too few rows with energy for H3b – skipping.")
 }
+
 
 # ----------------------------
 # 8) Session info
