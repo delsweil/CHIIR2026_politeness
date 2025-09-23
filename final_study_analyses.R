@@ -190,21 +190,35 @@ if (VERBOSE) message("[5/7] Merging step-level nuggets with aggregated agent tur
 merged <- step_A %>% full_join(step_B, by = by_keys)
 if (VERBOSE) message("Merged rows: ", scales::comma(nrow(merged)))
 
-an <- merged %>% mutate(
-  agent_model = forcats::fct_coalesce(agent_model_A, factor(agent_model_B)),
-  length_words = dplyr::coalesce(length_words_A, as.numeric(words_B)),
-  agent_turns = dplyr::coalesce(agent_turns_A, as.integer(agent_turns_B)),
-  energy_wh = as.numeric(energy_wh_B),
-  recipe = recipe_title,
-  has_words = is.finite(length_words) & length_words >= 0,
-  has_nuggets = is.finite(nugget_count) & nugget_count >= 0,
-  has_energy = is.finite(energy_wh) & energy_wh > 0,
-  nuggets_per_100w = ifelse(has_words & has_nuggets & length_words > 0, 100 * nugget_count / length_words, NA_real_),
-  nuggets_per_wh   = ifelse(has_energy & has_nuggets, nugget_count / energy_wh, NA_real_)
-) %>% dplyr::select(cluster, agent_model, recipe, conversation_id, step_id,
-                    length_words, nugget_count, energy_wh,
-                    nuggets_per_100w, nuggets_per_wh,
-                    has_words, has_nuggets, has_energy)
+an <- merged %>%
+  mutate(
+    # coalesce to character, then make a factor (robust across forcats versions)
+    agent_model = factor(dplyr::coalesce(
+      as.character(agent_model_A),
+      as.character(agent_model_B)
+    )),
+    
+    length_words = dplyr::coalesce(length_words_A, as.numeric(words_B)),
+    agent_turns  = dplyr::coalesce(agent_turns_A, as.integer(agent_turns_B)),
+    energy_wh    = suppressWarnings(as.numeric(energy_wh_B)),
+    recipe       = recipe_title
+  ) %>%
+  mutate(
+    has_words   = is.finite(length_words) & length_words >= 0,
+    has_nuggets = is.finite(nugget_count) & nugget_count >= 0,
+    has_energy  = is.finite(energy_wh)   & energy_wh > 0,
+    nuggets_per_100w = ifelse(has_words & has_nuggets & length_words > 0,
+                              100 * nugget_count / length_words, NA_real_),
+    nuggets_per_wh   = ifelse(has_energy & has_nuggets,
+                              nugget_count / energy_wh, NA_real_)
+  ) %>%
+  dplyr::select(
+    cluster, agent_model, recipe, conversation_id, step_id,
+    length_words, nugget_count, energy_wh,
+    nuggets_per_100w, nuggets_per_wh,
+    has_words, has_nuggets, has_energy
+  )
+
 
 # Merge diagnostics
 merge_diag <- merged %>% summarise(
