@@ -13,7 +13,7 @@ LOG="/home/david/CHIIR2026_politeness/run_all_batches_master.log"
 # Batches to include (auto-detect all Final_study_* if empty)
 INCLUDE=()   # e.g. ("Final_study_2" "Final_study_3")  leave empty to auto-detect
 # Batches to exclude (if you’ve already run 1,10,11)
-EXCLUDE=("Final_study_1" "Final_study_10" "Final_study_11")
+EXCLUDE=("Final_study_2" "Final_study_3" "Final_study_4" "Final_study_5" "Final_study_6" "Final_study_7" "Final_study_8" "Final_study_9" "Final_study_12" "Final_study_13" "Final_study_14" "Final_study_15" "Final_study_16" "Final_study_17" "Final_study_18" "Final_study_19" "Final_study_20")
 
 mkdir -p "$OUT_ROOT"
 : > "$LOG"
