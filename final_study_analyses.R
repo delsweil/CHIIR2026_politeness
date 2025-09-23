@@ -72,10 +72,10 @@ dir.create("final_outputs/plots", recursive = TRUE, showWarnings = FALSE)
 find_nugget_files <- function() {
   f <- character(0)
   if (!is.null(NUGGET_DIR) && dir.exists(NUGGET_DIR)) {
-    f <- list.files(NUGGET_DIR, pattern = "^Final_study_\d+_agent_nuggets_by_step\.csv$", full.names = TRUE)
+    f <- list.files(NUGGET_DIR, pattern = "^Final_study_[0-9]+_agent_nuggets_by_step\.csv$", full.names = TRUE)
   }
   if (!length(f)) {
-    f <- list.files(BASE_DIR, pattern = "Final_study_\d+_agent_nuggets_by_step\.csv$", full.names = TRUE, recursive = TRUE)
+    f <- list.files(BASE_DIR, pattern = "Final_study_[0-9]+_agent_nuggets_by_step\.csv$", full.names = TRUE, recursive = TRUE)
   }
   f
 }
