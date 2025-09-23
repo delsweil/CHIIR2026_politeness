@@ -107,7 +107,7 @@ nug_A <- nug_A %>% mutate(
   nugget_count    = suppressWarnings(as.numeric(colpick(., "nugget_count","nuggets","num_nuggets","nuggets_sum")))
 ) %>% mutate(
   length_words_from_agent_text = ifelse(!is.na(agent_text) & nzchar(agent_text),
-                                        stringr::str_count(stringr::str_squish(agent_text), "\S+"), NA)
+                                        stringr::str_count(stringr::str_squish(agent_text), "\\S+"), NA)
 )
 
 step_A <- nug_A %>% transmute(
