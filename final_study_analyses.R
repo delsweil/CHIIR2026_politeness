@@ -12,8 +12,8 @@
 # Merge keys: cluster + conversation_id + recipe_title + step_id
 #
 # Outputs
-#   ./outputs/tables/*.csv  (descriptives, ANOVAs, EMMs, model summaries)
-#   ./outputs/plots/*.png   (violins/boxplots, scatter+loess)
+#   ./final_outputs/tables/*.csv  (descriptives, ANOVAs, EMMs, model summaries)
+#   ./final_outputs/plots/*.png   (violins/boxplots, scatter+loess)
 #
 # Author: (you)    Date: 2025-09-23
 ############################################################
@@ -21,14 +21,11 @@
 # ----------------------------
 # 0) Setup & packages (core set only)
 # ----------------------------
-
-unlink("~/R/x86_64-pc-linux-gnu-library/4.5.1/00LOCK-*", recursive = TRUE, force = TRUE)
-
 required_pkgs <- c(
-  # core pieces individually (NOT "tidyverse")
-  "dplyr","readr","tidyr","stringr","purrr","ggplot2","forcats",
-  # modelling
-  "lme4","lmerTest","MASS","emmeans","broom","broom.mixed"
+  # core tidyverse pieces individually (NOT 'tidyverse')
+  "dplyr", "readr", "tidyr", "stringr", "purrr", "ggplot2", "forcats",
+  # modelling & helpers
+  "lme4", "lmerTest", "MASS", "emmeans", "broom", "broom.mixed"
 )
 
 install_if_missing <- function(pkgs) {
@@ -36,7 +33,6 @@ install_if_missing <- function(pkgs) {
   if (length(to_install)) install.packages(to_install, dependencies = c("Depends","Imports"))
 }
 install_if_missing(required_pkgs)
-
 
 suppressPackageStartupMessages({
   library(dplyr)
@@ -72,10 +68,10 @@ dir.create("final_outputs/plots", recursive = TRUE, showWarnings = FALSE)
 find_nugget_files <- function() {
   f <- character(0)
   if (!is.null(NUGGET_DIR) && dir.exists(NUGGET_DIR)) {
-    f <- list.files(NUGGET_DIR, pattern = "^Final_study_[0-9]+_agent_nuggets_by_step\\.csv$", full.names = TRUE)
+    f <- list.files(NUGGET_DIR, pattern = "^Final_study_\\d+_agent_nuggets_by_step\.csv$", full.names = TRUE)
   }
   if (!length(f)) {
-    f <- list.files(BASE_DIR, pattern = "Final_study_[0-9]+_agent_nuggets_by_step\\.csv$", full.names = TRUE, recursive = TRUE)
+    f <- list.files(BASE_DIR, pattern = "Final_study_\\d+_agent_nuggets_by_step\.csv$", full.names = TRUE, recursive = TRUE)
   }
   f
 }
@@ -88,23 +84,25 @@ read_nug <- function(path) readr::read_csv(path, show_col_types = FALSE) %>% mut
 nug_A <- purrr::map_dfr(nug_files, read_nug)
 
 # Harmonize columns across possible names
-colpick <- function(d, ...) {
-  cands <- c(...); i <- which(cands %in% names(d))
-  if (!length(i)) return(rep(NA_character_, nrow(d)))
-  out <- d[[cands[i[1]]]]
-  if (length(i) > 1) for (j in i[-1]) out <- dplyr::coalesce(out, d[[cands[j]]])
+# NOTE: coalesce on CHARACTER first (avoids type-mixing errors), then parse
+pick_char <- function(d, ...) {
+  cands <- c(...)
+  out <- rep(NA_character_, nrow(d))
+  for (nm in cands) if (nm %in% names(d)) out <- dplyr::coalesce(out, as.character(d[[nm]]))
   out
 }
+pick_num <- function(d, ...) suppressWarnings(as.numeric(pick_char(d, ...)))
+pick_int <- function(d, ...) suppressWarnings(as.integer(pick_char(d, ...)))
 
 nug_A <- nug_A %>% mutate(
-  cluster         = colpick(., "cluster","politeness_cluster","user_cluster","profile"),
-  conversation_id = colpick(., "conversation_id","conv_id","dialogue_id","conversation"),
-  recipe_title    = colpick(., "recipe_title","recipe","recipe_name"),
-  step_id         = suppressWarnings(as.integer(colpick(., "step_id","step","step_index","recipe_step"))),
-  agent_text      = colpick(., "agent_text","assistant_text","agent_response","assistant_message","text"),
-  agent_turns     = suppressWarnings(as.integer(colpick(., "agent_turns","n_agent_turns"))),
-  model_agent     = colpick(., "model_agent","agent_model","llm_agent"),
-  nugget_count    = suppressWarnings(as.numeric(colpick(., "nugget_count","nuggets","num_nuggets","nuggets_sum")))
+  cluster         = pick_char(., "cluster","politeness_cluster","user_cluster","profile"),
+  conversation_id = pick_char(., "conversation_id","conv_id","dialogue_id","conversation"),
+  recipe_title    = pick_char(., "recipe_title","recipe","recipe_name"),
+  step_id         = pick_int(.,  "step_id","step","step_index","recipe_step"),
+  agent_text      = pick_char(., "agent_text","assistant_text","agent_response","assistant_message","text"),
+  agent_turns     = pick_int(.,  "agent_turns","n_agent_turns"),
+  model_agent     = pick_char(., "model_agent","agent_model","llm_agent"),
+  nugget_count    = pick_num(.,  "nugget_count","nuggets","num_nuggets","nuggets_sum")
 ) %>% mutate(
   length_words_from_agent_text = ifelse(!is.na(agent_text) & nzchar(agent_text),
                                         stringr::str_count(stringr::str_squish(agent_text), "\\S+"), NA)
@@ -235,7 +233,7 @@ p_words <- an %>% filter(has_words) %>%
        x = "Cluster (User Politeness Profile)", y = "Words per step") +
   theme_bw()
 
-ggsave("outputs/plots/words_by_cluster_model.png", p_words, width = 12, height = 7, dpi = 180)
+ggsave("final_outputs/plots/words_by_cluster_model.png", p_words, width = 12, height = 7, dpi = 180)
 
 p_nuggets <- an %>% filter(has_nuggets) %>%
   ggplot(aes(x = cluster, y = nugget_count)) +
@@ -246,7 +244,7 @@ p_nuggets <- an %>% filter(has_nuggets) %>%
        x = "Cluster", y = "Nuggets (count)") +
   theme_bw()
 
-ggsave("outputs/plots/nuggets_by_cluster_model.png", p_nuggets, width = 12, height = 7, dpi = 180)
+ggsave("final_outputs/plots/nuggets_by_cluster_model.png", p_nuggets, width = 12, height = 7, dpi = 180)
 
 p_eff100 <- an %>% filter(has_words, has_nuggets) %>%
   ggplot(aes(x = cluster, y = nuggets_per_100w)) +
@@ -257,7 +255,7 @@ p_eff100 <- an %>% filter(has_words, has_nuggets) %>%
        x = "Cluster", y = "Nuggets per 100 words") +
   theme_bw()
 
-ggsave("outputs/plots/efficiency_per_100w_by_cluster_model.png", p_eff100, width = 12, height = 7, dpi = 180)
+ggsave("final_outputs/plots/efficiency_per_100w_by_cluster_model.png", p_eff100, width = 12, height = 7, dpi = 180)
 
 p_scatter_words <- an %>% filter(has_words, has_nuggets) %>%
   ggplot(aes(x = length_words, y = nugget_count, color = cluster)) +
@@ -267,7 +265,7 @@ p_scatter_words <- an %>% filter(has_words, has_nuggets) %>%
   labs(title = "Nuggets vs. Words by AgentModel (colored by Cluster)", x = "Words", y = "Nuggets") +
   theme_bw()
 
-ggsave("outputs/plots/scatter_nuggets_vs_words.png", p_scatter_words, width = 12, height = 7, dpi = 180)
+ggsave("final_outputs/plots/scatter_nuggets_vs_words.png", p_scatter_words, width = 12, height = 7, dpi = 180)
 
 p_scatter_energy <- an %>% filter(has_energy, has_nuggets) %>%
   ggplot(aes(x = energy_wh, y = nugget_count, color = cluster)) +
@@ -278,7 +276,7 @@ p_scatter_energy <- an %>% filter(has_energy, has_nuggets) %>%
        x = "Energy (Wh)", y = "Nuggets") +
   theme_bw()
 
-ggsave("outputs/plots/scatter_nuggets_vs_energy.png", p_scatter_energy, width = 12, height = 7, dpi = 180)
+ggsave("final_outputs/plots/scatter_nuggets_vs_energy.png", p_scatter_energy, width = 12, height = 7, dpi = 180)
 
 # ----------------------------
 # 7) Models for H1–H3 (lme4/lmerTest/MASS)
@@ -354,4 +352,4 @@ if (nrow(H3b_df) >= 10) {
 # ----------------------------
 writeLines(capture.output(sessionInfo()), con = file.path(.dir_tables, "sessionInfo.txt"))
 
-message("Done. Tables → ./outputs/tables, Plots → ./outputs/plots")
+message("Done. Tables → ./final_outputs/tables, Plots → ./final_outputs/plots")
