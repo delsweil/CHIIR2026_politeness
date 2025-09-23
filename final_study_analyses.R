@@ -32,7 +32,7 @@ required_pkgs <- c(
 
 install_if_missing <- function(pkgs) {
   to_install <- setdiff(pkgs, rownames(installed.packages()))
-  if (length(to_install)) install.packages(to_install, dependencies = TRUE)
+  if (length(to_install)) install.packages(to_install, dependencies = c("Depends","Imports"))
 }
 install_if_missing(required_pkgs)
 
@@ -124,6 +124,9 @@ if (!length(flat_files)) stop("No dialogs_flat_*.csv files found under BASE_DIR.
 read_flat <- function(path) readr::read_csv(path, show_col_types = FALSE) %>% mutate(source_file_flat = basename(path))
 flat_B <- purrr::map_dfr(flat_files, read_flat)
 
+# helper used below
+`%||%` <- function(x, y) if (!is.null(x)) x else y
+
 # Expected columns in flat_B: step_id, role, text, energy_Wh, model_agent, recipe_title, cluster, conversation_id
 flat_B <- flat_B %>% mutate(
   role = tolower(as.character(role)),
@@ -148,8 +151,6 @@ step_B <- flat_B %>%
     recipe_title = factor(recipe_title),
     step_id = as.integer(step_id)
   )
-
-`%||%` <- function(x, y) ifelse(!is.null(x), x, y)
 
 # ----------------------------
 # 4) Merge A + B and derive analysis variables
@@ -206,7 +207,7 @@ by_cm <- an %>% group_by(cluster, agent_model) %>% summarise(
   n = dplyr::n(),
   words_mean = mean(length_words, na.rm=TRUE), words_sd = sd(length_words, na.rm=TRUE), words_median = median(length_words, na.rm=TRUE),
   nuggets_mean = mean(nugget_count, na.rm=TRUE), nuggets_sd = sd(nugget_count, na.rm=TRUE), nuggets_median = median(nugget_count, na.rm=TRUE),
-  energy_mean = mean(energy_wh, na.rm=TRUE), energy_sd = sd(energy_wh, na.rm=TRUE), energy_median = median(energy_wh, na.rm=TRUE),
+  energy_mean = mean(energy_wh, na.rm=TRUE), energy_sd = sd(energy_Wh, na.rm=TRUE), energy_median = median(energy_wh, na.rm=TRUE),
   eff100_mean = mean(nuggets_per_100w, na.rm=TRUE), eff100_sd = sd(nuggets_per_100w, na.rm=TRUE),
   effWh_mean = mean(nuggets_per_wh, na.rm=TRUE), effWh_sd = sd(nuggets_per_wh, na.rm=TRUE),
   .groups = "drop"
