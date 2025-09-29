@@ -383,6 +383,66 @@ readr::write_csv(
 readr::write_csv(tibble::tibble(overdispersion_ratio = H2_ovr),
                  file.path(.dir_tables, "H2_overdispersion_ratio.csv"))
 
+# additional code to run ANOVA on fit
+.dir_tables <- if (exists(".dir_tables")) .dir_tables else "final_outputs/tables"
+dir.create(.dir_tables, showWarnings = FALSE, recursive = TRUE)
+
+# 1) Interaction test: full vs without cluster:agent_model
+fit_H2_full   <- fit_H2
+fit_H2_no_int <- update(fit_H2_full, . ~ . - cluster:agent_model)
+
+lrt_int <- as.data.frame(anova(fit_H2_no_int, fit_H2_full, test = "Chisq"))
+# row 2 is the full model vs reduced
+int_row <- tibble::tibble(
+  term        = "Cluster:AgentModel",
+  df          = lrt_int$Df[2],
+  LR_Chisq    = lrt_int$Chisq[2],
+  p_value     = lrt_int$`Pr(>Chisq)`[2],
+  compared    = "full vs. no interaction",
+  model_basis = "full"
+)
+
+# 2) Main effects on additive model (Type-II style)
+fit_H2_add        <- fit_H2_no_int  # already additive: cluster + agent_model + recipe + (1|conversation_id)
+fit_H2_no_cluster <- update(fit_H2_add, . ~ . - cluster)
+fit_H2_no_agent   <- update(fit_H2_add, . ~ . - agent_model)
+
+lrt_cluster <- as.data.frame(anova(fit_H2_no_cluster, fit_H2_add, test = "Chisq"))
+lrt_agent   <- as.data.frame(anova(fit_H2_no_agent,   fit_H2_add, test = "Chisq"))
+
+cl_row <- tibble::tibble(
+  term        = "Cluster",
+  df          = lrt_cluster$Df[2],
+  LR_Chisq    = lrt_cluster$Chisq[2],
+  p_value     = lrt_cluster$`Pr(>Chisq)`[2],
+  compared    = "additive vs. drop Cluster",
+  model_basis = "additive (no interaction)"
+)
+
+ag_row <- tibble::tibble(
+  term        = "AgentModel",
+  df          = lrt_agent$Df[2],
+  LR_Chisq    = lrt_agent$Chisq[2],
+  p_value     = lrt_agent$`Pr(>Chisq)`[2],
+  compared    = "additive vs. drop AgentModel",
+  model_basis = "additive (no interaction)"
+)
+
+H2_anova_tbl <- dplyr::bind_rows(cl_row, ag_row, int_row) %>%
+  dplyr::mutate(
+    df       = as.integer(df),
+    LR_Chisq = round(LR_Chisq, 3),
+    p_value  = signif(p_value, 3)
+  )
+
+readr::write_csv(H2_anova_tbl, file.path(.dir_tables, "H2_anova.csv"))
+
+# (optional) console message
+cat("\nH2 omnibus LRTs (written to", file.path(.dir_tables, "H2_anova.csv"), "):\n")
+print(H2_anova_tbl)
+cat("\nNote: Interaction tested on FULL model; main effects tested on ADDITIVE model (Type-II style).\n")
+
+# original code writes out emm values and pairwise tests
 H2_emm <- emmeans(fit_H2, ~ cluster | agent_model, type = "response")
 H2_pairs <- contrast(H2_emm, method = "pairwise", adjust = "tukey")
 readr::write_csv(as.data.frame(summary(H2_emm)),  file.path(.dir_tables, "H2_emmeans_resp.csv"))
