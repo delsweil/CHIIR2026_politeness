@@ -500,14 +500,20 @@ if (nrow(H3b_df) >= 10) {
     )
   }
   
-  H3b_ovr <- overdisp_ratio(fit_H3b)
-  readr::write_csv(
-    broom.mixed::tidy(fit_H3b, effects = "fixed", conf.int = TRUE, exponentiate = TRUE),
-    file.path(.dir_tables, "H3b_fixed_effects_rate_ratios.csv")
-  )
-  readr::write_csv(tibble::tibble(overdispersion_ratio = H3b_ovr),
-                   file.path(.dir_tables, "H3b_overdispersion_ratio.csv"))
-  
+#  H3b_ovr <- overdisp_ratio(fit_H3b)
+#  readr::write_csv(
+#    broom.mixed::tidy(fit_H3b, effects = "fixed", conf.int = TRUE, exponentiate = TRUE),
+#    file.path(.dir_tables, "H3b_fixed_effects_rate_ratios.csv")
+#  )
+#  readr::write_csv(tibble::tibble(overdispersion_ratio = H3b_ovr),
+#                   file.path(.dir_tables, "H3b_overdispersion_ratio.csv"))
+
+  # Get EMMs *with* CIs on the response scale (nuggets/Wh)
+  H3b_emm <- emmeans::emmeans(fit_H3b, ~ cluster | agent_model, type = "response")
+  H3b_sum <- as.data.frame(summary(H3b_emm, infer = c(TRUE, TRUE)))  # adds LCL/UCL
+  # Write the file your table maker expects:
+  readr::write_csv(H3b_sum, "final_outputs/tables/H3b_emmeans_rate_per_Wh.csv")
+    
   H3b_emm <- emmeans(fit_H3b, ~ cluster | agent_model, type = "response")
   H3b_pairs <- contrast(H3b_emm, method = "pairwise", adjust = "tukey")
   readr::write_csv(as.data.frame(summary(H3b_emm)), file.path(.dir_tables, "H3b_emmeans_rate_per_Wh.csv"))
