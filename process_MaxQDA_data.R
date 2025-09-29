@@ -413,10 +413,6 @@ ggplot(cluster_code_means, aes(
   ) +
   theme_minimal(base_size = 12)
 
-
-
-
-
 # Find codes with the greatest variance across clusters (i.e., distinctive codes)
 top_discriminating_codes <- cluster_code_means %>%
   group_by(code) %>%
@@ -425,6 +421,42 @@ top_discriminating_codes <- cluster_code_means %>%
 
 # Show top 10
 head(top_discriminating_codes, 10)
+
+# ------------------------
+# other visualisation options
+# ------------------------
+
+# Heatmap
+cluster_order <- c("Hyper-polite","Polite and Engaged","Engagement-seeking","Hyper-efficient")
+
+df <- cluster_code_means %>%
+  mutate(cluster = factor(recode(as.character(cluster), !!!cluster_labels),
+                          levels = cluster_order))
+
+# 2) Reproduce the ORIGINAL global code order from your bar plot
+#    (equivalent to reorder(code, mean_scaled) applied globally)
+code_order <- df %>%
+  group_by(code) %>%
+  summarise(.o = mean(mean_scaled, na.rm = TRUE), .groups = "drop") %>%
+  arrange(.o) %>%             # ascending, like reorder(..., mean_scaled)
+  pull(code)
+
+df <- df %>% mutate(code = factor(code, levels = code_order))
+
+# 3) Faceted Cleveland dot plot (no per-facet reordering!)
+ggplot(df, aes(x = mean_scaled, y = code)) +
+  geom_segment(aes(x = 0, xend = mean_scaled, y = code, yend = code),
+               linewidth = 0.45, alpha = 0.6) +
+  geom_point(size = 2) +
+  facet_wrap(~ cluster, ncol = 2, scales = "free_y") +
+  labs(x = "Mean (standardised usage, z)", y = "Politeness code") +
+  theme_minimal(base_size = 12) +
+  theme(panel.grid.major.y = element_blank(),
+        strip.text = element_text(face = "bold"))
+
+
+
+
 
 
 # --------------------------
