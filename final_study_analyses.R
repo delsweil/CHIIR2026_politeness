@@ -334,34 +334,31 @@ AN <- readRDS("final_outputs/cache/an_step.rds")
 
 # combined scatterplots
 
-
-
-# 1) Tidy labels (short agent names + ordered clusters)
+# -- Labels and orders ---------------------------------------------------------
 lab_agent <- c(
-  "deepseek-r1:8b"            = "deepseek",
-  "llama3.1:8b-instruct-q4_K_M"= "llama",
-  "qwen2.5:7b-instruct"       = "qwen"
+  "deepseek-r1:8b"              = "deepseek",
+  "llama3.1:8b-instruct-q4_K_M" = "llama",
+  "qwen2.5:7b-instruct"         = "qwen"
 )
 
 lab_cluster <- c(
-  C1_Hyperpolite        = "Hyperpolite",
-  C4_PoliteEngaged      = "Polite-Engaged",
-  C2_EngagementSeeking  = "Engagement-Seeking",
-  C3_DirectLowPoliteness= "Hyperefficient",
-  C5_Impolite           = "Impolite"
+  C1_Hyperpolite         = "Hyperpolite",
+  C4_PoliteEngaged       = "Polite-Engaged",
+  C2_EngagementSeeking   = "Engagement-Seeking",
+  C3_DirectLowPoliteness = "Hyperefficient",
+  C5_Impolite            = "Impolite"
 )
 
 cluster_order <- c("Hyperpolite","Polite-Engaged","Engagement-Seeking","Hyperefficient","Impolite")
 
-# 2) Build a long plotting frame: one row for H3a (x = words) and one for H3b (x = Wh)
+# -- H3a (x = words) and H3b (x = Wh) frames ----------------------------------
 h3a_df <- AN %>%
   filter(has_nuggets, has_words, length_words > 0) %>%
   transmute(
     agent_model = recode(agent_model, !!!lab_agent),
-    cluster     = recode(cluster, !!!lab_cluster),
-    cluster     = factor(cluster, levels = cluster_order),
+    cluster     = factor(recode(cluster, !!!lab_cluster), levels = cluster_order),
     metric      = factor("H3a: Words", levels = c("H3a: Words","H3b: Energy (Wh)")),
-    x           = pmin(length_words, quantile(length_words, 0.99, na.rm = TRUE)), # trim tail for smoother
+    x           = pmin(length_words, quantile(length_words, 0.99, na.rm = TRUE)),
     nuggets     = nugget_count
   )
 
@@ -369,37 +366,39 @@ h3b_df <- AN %>%
   filter(has_nuggets, has_energy, energy_wh > 0) %>%
   transmute(
     agent_model = recode(agent_model, !!!lab_agent),
-    cluster     = recode(cluster, !!!lab_cluster),
-    cluster     = factor(cluster, levels = cluster_order),
+    cluster     = factor(recode(cluster, !!!lab_cluster), levels = cluster_order),
     metric      = factor("H3b: Energy (Wh)", levels = c("H3a: Words","H3b: Energy (Wh)")),
-    x           = pmin(energy_wh, quantile(energy_wh, 0.99, na.rm = TRUE)),      # trim tail
+    x           = pmin(energy_wh, quantile(energy_wh, 0.99, na.rm = TRUE)),
     nuggets     = nugget_count
   )
 
 plot_df <- bind_rows(h3a_df, h3b_df)
 
-# 3) One plot: rows = metric (H3a/H3b), cols = agent; single legend
+# -- Combined plot: one legend, 2 (rows) x 3 (cols) panels ---------------------
 fig_h3_combined <-
   ggplot(plot_df, aes(x = x, y = nuggets, colour = cluster)) +
   geom_point(alpha = 0.15, size = 0.6, stroke = 0) +
-  stat_smooth(method = "loess", se = TRUE, span = 0.8, size = 0.7) +
+  stat_smooth(method = "loess", se = TRUE, span = 0.8, linewidth = 0.6) +  # <- linewidth (not size)
   facet_grid(metric ~ agent_model, scales = "free_x") +
   scale_y_continuous("Nuggets", limits = c(0, NA)) +
   scale_x_continuous(NULL) +
   guides(colour = guide_legend(nrow = 1, title = NULL)) +
   theme_bw(base_size = 10) +
   theme(
-    legend.position = "bottom",
-    legend.margin   = margin(t = 4, unit = "pt"),
-    strip.background = element_rect(fill = "grey92", colour = NA),
-    panel.grid.minor = element_blank()
+    legend.position   = "bottom",
+    legend.margin     = margin(t = 4, unit = "pt"),
+    strip.background  = element_rect(fill = "grey92", colour = NA),
+    panel.grid.minor  = element_blank()
   )
 
-# 4) Save at ACM two-column width
-ggsave("final_outputs/figures/H3_combined_facets.pdf", fig_h3_combined,
-       width = 7.0, height = 4.2, units = "in")
-ggsave("final_outputs/figures/H3_combined_facets.png", fig_h3_combined, dpi = 300,
-       width = 7.0, height = 4.2, units = "in")
+# -- Save to your desired folder ----------------------------------------------
+dir.create("final_outputs/plots", recursive = TRUE, showWarnings = FALSE)
+
+ggsave("final_outputs/plots/H3_combined_facets.pdf",
+       fig_h3_combined, width = 7.0, height = 4.2, units = "in")
+
+ggsave("final_outputs/plots/H3_combined_facets.png",
+       fig_h3_combined, dpi = 300, width = 7.0, height = 4.2, units = "in")
 
 
 
