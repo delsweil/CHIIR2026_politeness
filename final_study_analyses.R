@@ -334,67 +334,78 @@ AN <- readRDS("final_outputs/cache/an_step.rds")
 
 # combined scatterplots
 
-# -- Labels and orders ---------------------------------------------------------
-lab_agent <- c(
-  "deepseek-r1:8b"              = "deepseek",
-  "llama3.1:8b-instruct-q4_K_M" = "llama",
-  "qwen2.5:7b-instruct"         = "qwen"
-)
+# ---- knobs to tweak the presentation ----
+words_xlim  <- c(0, 260)     # set larger common range for H3a (or set to NULL to auto)
+energy_xlim <- c(0.035, 0.30) # set larger common range for H3b (or set to NULL to auto)
+free_x_by_agent <- FALSE      # TRUE -> each agent gets its own x-range; FALSE -> common
 
-lab_cluster <- c(
-  C1_Hyperpolite         = "Hyperpolite",
-  C4_PoliteEngaged       = "Polite-Engaged",
-  C2_EngagementSeeking   = "Engagement-Seeking",
-  C3_DirectLowPoliteness = "Hyperefficient",
-  C5_Impolite            = "Impolite"
-)
+point_alpha <- 0.10
+point_size  <- 0.6
+smooth_span <- 0.65           # smaller -> more wiggly; larger -> smoother
+line_width  <- 0.8
 
-cluster_order <- c("Hyperpolite","Polite-Engaged","Engagement-Seeking","Hyperefficient","Impolite")
+# ---- data (same objects you used before) ----
+H3a_df <- AN %>% filter(has_nuggets, has_words, length_words > 0)
+H3b_df <- AN %>% filter(has_nuggets, has_energy)
 
-# -- H3a (x = words) and H3b (x = Wh) frames ----------------------------------
-h3a_df <- AN %>%
-  filter(has_nuggets, has_words, length_words > 0) %>%
-  transmute(
-    agent_model = recode(agent_model, !!!lab_agent),
-    cluster     = factor(recode(cluster, !!!lab_cluster), levels = cluster_order),
-    metric      = factor("H3a: Words", levels = c("H3a: Words","H3b: Energy (Wh)")),
-    x           = pmin(length_words, quantile(length_words, 0.99, na.rm = TRUE)),
-    nuggets     = nugget_count
+# short agent labels (optional)
+shorten_agent <- function(x) {
+  dplyr::recode(x,
+                "deepsseek-r1:8b"            = "deepseek",
+                "deepseek-r1:8b"             = "deepseek",
+                "llama3.1:8b-instruct-q4_K_M"= "llama",
+                "qwen2.5:7b-instruct"        = "qwen",
+                .default = x
   )
+}
+H3a_df <- H3a_df %>% mutate(agent = shorten_agent(agent_model))
+H3b_df <- H3b_df %>% mutate(agent = shorten_agent(agent_model))
 
-h3b_df <- AN %>%
-  filter(has_nuggets, has_energy, energy_wh > 0) %>%
-  transmute(
-    agent_model = recode(agent_model, !!!lab_agent),
-    cluster     = factor(recode(cluster, !!!lab_cluster), levels = cluster_order),
-    metric      = factor("H3b: Energy (Wh)", levels = c("H3a: Words","H3b: Energy (Wh)")),
-    x           = pmin(energy_wh, quantile(energy_wh, 0.99, na.rm = TRUE)),
-    nuggets     = nugget_count
-  )
+# auto x-limits from the 99th percentile if not provided
+if (is.null(words_xlim)) {
+  wmax <- quantile(H3a_df$length_words, 0.99, na.rm = TRUE)
+  words_xlim <- c(0, ceiling(wmax / 10) * 10)
+}
+if (is.null(energy_xlim)) {
+  emax <- quantile(H3b_df$energy_wh, 0.99, na.rm = TRUE)
+  energy_xlim <- c(0, signif(emax * 1.05, 2))
+}
 
-plot_df <- bind_rows(h3a_df, h3b_df)
+facet_scales <- if (free_x_by_agent) "free_x" else "fixed"
 
-fig_h3_combined <-
-  ggplot(plot_df, aes(x = x, y = nuggets, colour = cluster)) +
-  geom_point(alpha = 0.15, size = 0.6, stroke = 0) +
-  stat_smooth(method = "loess", se = TRUE, span = 0.8, linewidth = 0.6) +
-  facet_grid(agent_model ~ metric, scales = "free_x") +  # <-- flipped; x free by column
-  scale_y_continuous("Nuggets", limits = c(0, NA)) +
-  labs(x = NULL) +
-  guides(colour = guide_legend(nrow = 1, title = NULL)) +
-  theme_bw(base_size = 10) +
-  theme(
-    legend.position  = "bottom",
-    legend.margin    = margin(t = 4, unit = "pt"),
-    strip.background = element_rect(fill = "grey92", colour = NA),
-    panel.grid.minor = element_blank()
-  )
+# ---- H3a: nuggets vs words with larger x-range ----
+p_h3a <- ggplot(
+  H3a_df,
+  aes(x = length_words, y = nugget_count, colour = cluster)
+) +
+  geom_point(alpha = point_alpha, size = point_size) +
+  geom_smooth(method = "loess", se = TRUE, span = smooth_span, linewidth = line_width) +
+  facet_wrap(~ agent, nrow = 1, scales = facet_scales) +
+  coord_cartesian(xlim = words_xlim) +
+  scale_x_continuous(expand = expansion(mult = c(0, 0.02))) +
+  labs(x = "Words", y = "Nuggets", title = "H3a: Nuggets vs. Words by Agent (coloured by Cluster)") +
+  theme_minimal(base_size = 12) +
+  theme(legend.position = "right")
 
-dir.create("final_outputs/plots", recursive = TRUE, showWarnings = FALSE)
-ggsave("final_outputs/plots/H3_combined_facets.pdf",
-       fig_h3_combined, width = 7, height = 4.2, units = "in")
-ggsave("final_outputs/plots/H3_combined_facets.png",
-       fig_h3_combined, dpi = 300, width = 7, height = 4.2, units = "in")
+ggsave("final_outputs/plots/scatter_nuggets_vs_words_wide.png", p_h3a,
+       width = 12, height = 6, dpi = 300)
+
+# ---- H3b: nuggets vs energy with larger x-range ----
+p_h3b <- ggplot(
+  H3b_df,
+  aes(x = energy_wh, y = nugget_count, colour = cluster)
+) +
+  geom_point(alpha = point_alpha, size = point_size) +
+  geom_smooth(method = "loess", se = TRUE, span = smooth_span, linewidth = line_width) +
+  facet_wrap(~ agent, nrow = 1, scales = facet_scales) +
+  coord_cartesian(xlim = energy_xlim) +
+  scale_x_continuous(expand = expansion(mult = c(0, 0.02))) +
+  labs(x = "Energy (Wh)", y = "Nuggets", title = "H3b: Nuggets vs. Energy (Wh) by Agent (coloured by Cluster)") +
+  theme_minimal(base_size = 12) +
+  theme(legend.position = "right")
+
+ggsave("final_outputs/plots/scatter_nuggets_vs_energy_wide.png", p_h3b,
+       width = 12, height = 6, dpi = 300)
 
 
 
