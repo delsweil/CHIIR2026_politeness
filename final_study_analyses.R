@@ -374,33 +374,27 @@ h3b_df <- AN %>%
 
 plot_df <- bind_rows(h3a_df, h3b_df)
 
-# -- Combined plot: one legend, 2 (rows) x 3 (cols) panels ---------------------
 fig_h3_combined <-
   ggplot(plot_df, aes(x = x, y = nuggets, colour = cluster)) +
   geom_point(alpha = 0.15, size = 0.6, stroke = 0) +
-  stat_smooth(method = "loess", se = TRUE, span = 0.8, linewidth = 0.6) +  # <- linewidth (not size)
-  facet_grid(metric ~ agent_model, scales = "free_x") +
+  stat_smooth(method = "loess", se = TRUE, span = 0.8, linewidth = 0.6) +
+  facet_grid(metric ~ agent_model, scales = "free") +   # <- was "free_x"
   scale_y_continuous("Nuggets", limits = c(0, NA)) +
-  scale_x_continuous(NULL) +
+  labs(x = NULL) +
   guides(colour = guide_legend(nrow = 1, title = NULL)) +
   theme_bw(base_size = 10) +
   theme(
-    legend.position   = "bottom",
-    legend.margin     = margin(t = 4, unit = "pt"),
-    strip.background  = element_rect(fill = "grey92", colour = NA),
-    panel.grid.minor  = element_blank()
+    legend.position  = "bottom",
+    legend.margin    = margin(t = 4, unit = "pt"),
+    strip.background = element_rect(fill = "grey92", colour = NA),
+    panel.grid.minor = element_blank()
   )
 
-# -- Save to your desired folder ----------------------------------------------
 dir.create("final_outputs/plots", recursive = TRUE, showWarnings = FALSE)
-
 ggsave("final_outputs/plots/H3_combined_facets.pdf",
        fig_h3_combined, width = 7.0, height = 4.2, units = "in")
-
 ggsave("final_outputs/plots/H3_combined_facets.png",
        fig_h3_combined, dpi = 300, width = 7.0, height = 4.2, units = "in")
-
-
 
 
 
