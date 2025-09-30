@@ -32,7 +32,7 @@ required_pkgs <- c(
   # core tidyverse pieces individually (NOT 'tidyverse')
   "dplyr", "readr", "tidyr", "stringr", "purrr", "ggplot2", "forcats",
   # modelling & helpers
-  "lme4", "lmerTest", "MASS", "emmeans", "broom", "broom.mixed"
+  "lme4", "lmerTest", "MASS", "emmeans", "broom", "broom.mixed","patchwork"
 )
 
 install_if_missing <- function(pkgs) {
@@ -55,6 +55,7 @@ suppressPackageStartupMessages({
   library(emmeans)
   library(broom)
   library(broom.mixed)
+  library(patchwork)
 })
 
 set.seed(1234)
