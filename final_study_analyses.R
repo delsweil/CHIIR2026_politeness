@@ -334,45 +334,34 @@ AN <- readRDS("final_outputs/cache/an_step.rds")
 
 # combined scatterplots
 
-# If you prefer not to add new pkgs, set use_patchwork <- FALSE.
-use_patchwork <- TRUE
-if (use_patchwork) {
-  # install.packages("patchwork")  # uncomment if needed
-  library(patchwork)
-}
+# --- Taller, narrower combined plot for H3a + H3b -----------------------------
+library(patchwork)   # install.packages("patchwork") if needed
 
 dir.create("final_outputs/plots", showWarnings = FALSE, recursive = TRUE)
 
-# --- Recoding helpers ----------------------------------------------------------
-# Agent short names
+# ===== 1) helpers (same mapping/order as before) ==============================
 shorten_agent <- function(x) {
-  x_chr <- as.character(x)
+  x <- as.character(x)
   dplyr::case_when(
-    grepl("^deepseek", x_chr)                       ~ "deepseek",
-    grepl("^llama",    x_chr)                       ~ "llama",
-    grepl("^qwen",     x_chr)                       ~ "qwen",
-    TRUE                                            ~ x_chr
+    grepl("^deepseek", x) ~ "deepseek",
+    grepl("^llama",    x) ~ "llama",
+    grepl("^qwen",     x) ~ "qwen",
+    TRUE                 ~ x
   )
 }
 
-# Cluster -> short labels (legend) and order:
-# Order: HP, PE, ES, HE, IMP (as requested)
 cluster_map <- c(
-  "C1_Hyperpolite"          = "HP (Hyperpolite)",
-  "C4_PoliteEngaged"        = "PE (Polite-Engaged)",
-  "C2_EngagementSeeking"    = "ES (Engagement-Seeking)",
-  "C3_DirectLowPoliteness"  = "HE (Hyperefficient)",
-  "C5_Impolite"             = "IMP (Impolite)"
+  "C1_Hyperpolite"         = "HP (Hyperpolite)",
+  "C4_PoliteEngaged"       = "PE (Polite-Engaged)",
+  "C2_EngagementSeeking"   = "ES (Engagement-Seeking)",
+  "C3_DirectLowPoliteness" = "HE (Hyperefficient)",
+  "C5_Impolite"            = "IMP (Impolite)"
 )
 cluster_levels <- c(
-  "HP (Hyperpolite)",
-  "PE (Polite-Engaged)",
-  "ES (Engagement-Seeking)",
-  "HE (Hyperefficient)",
-  "IMP (Impolite)"
+  "HP (Hyperpolite)", "PE (Polite-Engaged)", "ES (Engagement-Seeking)",
+  "HE (Hyperefficient)", "IMP (Impolite)"
 )
 
-# Colour palette (colorblind-friendly, consistent across plots)
 pal <- c(
   "HP (Hyperpolite)"        = "#0072B2",
   "PE (Polite-Engaged)"     = "#009E73",
@@ -381,12 +370,20 @@ pal <- c(
   "IMP (Impolite)"          = "#D55E00"
 )
 
-# --- Build plotting frames from your AN data ----------------------------------
-# Wider x-ranges (tweak to taste)
-words_xlim  <- c(0, 200)    # H3a
-energy_xlim <- c(0.035, 0.25) # H3b
+# Wider x-limits to reveal the plateaus
+words_xlim  <- c(0, 200)     # tweak as needed
+energy_xlim <- c(0.045, 0.25)
 
-# H3a: nuggets vs words
+base_theme <- theme_bw(base_size = 11) +
+  theme(
+    legend.position   = "bottom",
+    legend.margin     = margin(t = 3),
+    strip.background  = element_rect(fill = "grey92", colour = NA),
+    panel.grid.minor  = element_blank(),
+    panel.spacing.y   = unit(8, "pt")
+  )
+
+# ===== 2) prep data ===========================================================
 h3a_df <- AN %>%
   filter(has_nuggets, has_words, length_words > 0) %>%
   transmute(
@@ -394,10 +391,8 @@ h3a_df <- AN %>%
     cluster = factor(cluster_map[as.character(cluster)], levels = cluster_levels),
     x       = pmin(length_words, quantile(length_words, 0.99, na.rm = TRUE)),
     nuggets = nugget_count
-  ) %>%
-  filter(!is.na(cluster))
+  ) %>% filter(!is.na(cluster))
 
-# H3b: nuggets vs energy
 h3b_df <- AN %>%
   filter(has_nuggets, has_energy, energy_wh > 0) %>%
   transmute(
@@ -405,55 +400,37 @@ h3b_df <- AN %>%
     cluster = factor(cluster_map[as.character(cluster)], levels = cluster_levels),
     x       = pmin(energy_wh, quantile(energy_wh, 0.99, na.rm = TRUE)),
     nuggets = nugget_count
-  ) %>%
-  filter(!is.na(cluster))
+  ) %>% filter(!is.na(cluster))
 
-# --- Base theme ---------------------------------------------------------------
-base_theme <- theme_bw(base_size = 10) +
-  theme(
-    legend.position   = "bottom",
-    legend.margin     = margin(t = 4, unit = "pt"),
-    strip.background  = element_rect(fill = "grey92", colour = NA),
-    panel.grid.minor  = element_blank()
-  )
-
-# --- H3a plot (nuggets vs words) ---------------------------------------------
-p_words <- ggplot(h3a_df, aes(x = x, y = nuggets, colour = cluster)) +
-  geom_point(alpha = 0.12, size = 0.6, stroke = 0) +
-  stat_smooth(method = "loess", se = TRUE, span = 0.7, linewidth = 0.7) +
-  facet_wrap(~ agent, nrow = 1, scales = "fixed") +
+# ===== 3) plots (agents in rows, “tall” layout) ===============================
+p_words_tall <- ggplot(h3a_df, aes(x = x, y = nuggets, colour = cluster)) +
+  geom_point(alpha = 0.10, size = 0.6, stroke = 0) +
+  stat_smooth(method = "loess", se = TRUE, span = 0.7, linewidth = 0.8) +
+  facet_grid(agent ~ ., scales = "fixed") +
   coord_cartesian(xlim = words_xlim) +
   scale_colour_manual(values = pal, drop = FALSE, guide = guide_legend(nrow = 2, title = NULL)) +
-  labs(x = "Words", y = "Nuggets", title = NULL) +
+  labs(x = "Words", y = "Nuggets") +
   base_theme
 
-# --- H3b plot (nuggets vs energy) --------------------------------------------
-p_energy <- ggplot(h3b_df, aes(x = x, y = nuggets, colour = cluster)) +
-  geom_point(alpha = 0.12, size = 0.6, stroke = 0) +
-  stat_smooth(method = "loess", se = TRUE, span = 0.7, linewidth = 0.7) +
-  facet_wrap(~ agent, nrow = 1, scales = "fixed") +
+p_energy_tall <- ggplot(h3b_df, aes(x = x, y = nuggets, colour = cluster)) +
+  geom_point(alpha = 0.10, size = 0.6, stroke = 0) +
+  stat_smooth(method = "loess", se = TRUE, span = 0.7, linewidth = 0.8) +
+  facet_grid(agent ~ ., scales = "fixed") +
   coord_cartesian(xlim = energy_xlim) +
   scale_colour_manual(values = pal, drop = FALSE, guide = guide_legend(nrow = 2, title = NULL)) +
-  labs(x = "Energy (Wh)", y = "Nuggets", title = NULL) +
+  labs(x = "Energy (Wh)", y = "Nuggets") +
   base_theme
 
-# --- Combine with a single legend --------------------------------------------
-if (use_patchwork) {
-  combined <- (p_words / p_energy) +
-    plot_layout(heights = c(1, 1), guides = "collect") &
-    theme(legend.position = "bottom")
-  
-  ggsave("final_outputs/plots/H3_combined_patchwork.pdf",
-         combined, width = 7.0, height = 4.6, units = "in")
-  ggsave("final_outputs/plots/H3_combined_patchwork.png",
-         combined, dpi = 300, width = 7.0, height = 4.6, units = "in")
-} else {
-  # Fallback: save separately (still with consistent legend + ordering)
-  ggsave("final_outputs/plots/scatter_nuggets_vs_words_named.png",
-         p_words, dpi = 300, width = 7.0, height = 2.3, units = "in")
-  ggsave("final_outputs/plots/scatter_nuggets_vs_energy_named.png",
-         p_energy, dpi = 300, width = 7.0, height = 2.3, units = "in")
-}
+# ===== 4) combine vertically with one legend =================================
+combined_tall <- (p_words_tall / p_energy_tall) +
+  plot_layout(heights = c(1, 1), guides = "collect") &
+  theme(legend.position = "bottom")
+
+# A portrait-ish footprint: taller, not wide
+ggsave("final_outputs/plots/H3_combined_tall.pdf",
+       combined_tall, width = 6.0, height = 9.5, units = "in")
+ggsave("final_outputs/plots/H3_combined_tall.png",
+       combined_tall, dpi = 300, width = 6.0, height = 9.5, units = "in")
 
 
 
