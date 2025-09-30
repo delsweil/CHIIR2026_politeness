@@ -383,8 +383,8 @@ pal <- c(
 
 # --- Build plotting frames from your AN data ----------------------------------
 # Wider x-ranges (tweak to taste)
-words_xlim  <- c(0, 260)    # H3a
-energy_xlim <- c(0.035, 0.30) # H3b
+words_xlim  <- c(0, 200)    # H3a
+energy_xlim <- c(0.035, 0.25) # H3b
 
 # H3a: nuggets vs words
 h3a_df <- AN %>%
