@@ -350,13 +350,14 @@ H3b_df <- AN %>% filter(has_nuggets, has_energy)
 
 # short agent labels (optional)
 shorten_agent <- function(x) {
-  dplyr::recode(x,
-                "deepsseek-r1:8b"            = "deepseek",
-                "deepseek-r1:8b"             = "deepseek",
-                "llama3.1:8b-instruct-q4_K_M"= "llama",
-                "qwen2.5:7b-instruct"        = "qwen",
-                .default = x
+  x_chr <- tolower(as.character(x))
+  out <- dplyr::case_when(
+    grepl("^deepseek", x_chr) ~ "deepseek",
+    grepl("^llama",    x_chr) ~ "llama",
+    grepl("^qwen",     x_chr) ~ "qwen",
+    TRUE                      ~ x_chr
   )
+  factor(out, levels = c("deepseek","llama","qwen"))
 }
 H3a_df <- H3a_df %>% mutate(agent = shorten_agent(agent_model))
 H3b_df <- H3b_df %>% mutate(agent = shorten_agent(agent_model))
