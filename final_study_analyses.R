@@ -486,39 +486,31 @@ readr::write_csv(as.data.frame(summary(H3a_emm)), file.path(.dir_tables, "H3a_em
 readr::write_csv(as.data.frame(H3a_pairs),        file.path(.dir_tables, "H3a_pairs_tukey_rate_per_word.csv"))
 
 # ---------- Helpers ----------
+
 .lrt <- function(m0, m1) {
-  a <- anova(m0, m1, test = "Chisq")
-  df <- if ("Chi Df" %in% names(a)) a$`Chi Df`[2] else (a$Df[2] - a$Df[1])
+  a  <- anova(m0, m1, test = "Chisq")
+  df <- as.integer(attr(logLik(m1), "df") - attr(logLik(m0), "df"))  # robust df
+  pcol <- grep("^Pr\\(>Chisq\\)$", names(a))
   data.frame(
-    df       = as.integer(df),
+    df       = df,
     LR_Chisq = unname(a$Chisq[2]),
-    p_value  = unname(a[2, grep("^Pr\\(>Chisq\\)$", names(a))]),
+    p_value  = if (length(pcol)) unname(a[2, pcol]) else NA_real_,
     stringsAsFactors = FALSE
   )
 }
 
 # ---------- H3a omnibus (nuggets per word; offset log(words)) ----------
-# Full model: fit_H3a (already fit)
-fit_H3a_no_int     <- update(fit_H3a, . ~ cluster + agent_model + recipe + 
-                               offset(log(pmax(length_words, 1))) + 
-                               (1 | conversation_id))
+fit_H3a_no_int     <- update(fit_H3a, . ~ cluster + agent_model + recipe + offset(log(pmax(length_words, 1))) + (1|conversation_id))
 fit_H3a_no_cluster <- update(fit_H3a_no_int, . ~ . - cluster)
 fit_H3a_no_agent   <- update(fit_H3a_no_int, . ~ . - agent_model)
 
-lrt_H3a_int     <- .lrt(fit_H3a_no_int,     fit_H3a)        # interaction
-lrt_H3a_cluster <- .lrt(fit_H3a_no_cluster, fit_H3a_no_int) # main (Type II)
-lrt_H3a_agent   <- .lrt(fit_H3a_no_agent,   fit_H3a_no_int) # main (Type II)
-
-H3a_anova <- data.frame(
-  term         = c("Cluster", "AgentModel", "Cluster:AgentModel"),
-  df           = c(lrt_H3a_cluster$df, lrt_H3a_agent$df, lrt_H3a_int$df),
-  LR_Chisq     = c(lrt_H3a_cluster$LR_Chisq, lrt_H3a_agent$LR_Chisq, lrt_H3a_int$LR_Chisq),
-  p_value      = c(lrt_H3a_cluster$p_value,  lrt_H3a_agent$p_value,  lrt_H3a_int$p_value),
-  compared     = c("additive vs. drop Cluster", "additive vs. drop AgentModel", "full vs. no interaction"),
-  model_basis  = c("additive (no interaction)", "additive (no interaction)", "full"),
-  stringsAsFactors = FALSE
+H3a_anova <- rbind(
+  cbind(term = "Cluster",            .lrt(fit_H3a_no_cluster, fit_H3a_no_int), compared="additive vs. drop Cluster",    model_basis="additive"),
+  cbind(term = "AgentModel",         .lrt(fit_H3a_no_agent,   fit_H3a_no_int), compared="additive vs. drop AgentModel", model_basis="additive"),
+  cbind(term = "Cluster:AgentModel", .lrt(fit_H3a_no_int,     fit_H3a),        compared="full vs. no interaction",      model_basis="full")
 )
 readr::write_csv(H3a_anova, file.path(.dir_tables, "H3a_anova.csv"))
+
 
 # H3b: Efficiency per Wh (offset log(Wh))
 # H3b: Nuggets per Wh (offset)
@@ -563,24 +555,14 @@ if (nrow(H3b_df) >= 10) {
 
 # ---------- H3b omnibus (nuggets per Wh; offset log(Wh)) ----------
 if (exists("fit_H3b")) {
-  fit_H3b_no_int     <- update(fit_H3b, . ~ cluster + agent_model + recipe + 
-                                 offset(log(energy_wh)) + 
-                                 (1 | conversation_id))
+  fit_H3b_no_int     <- update(fit_H3b, . ~ cluster + agent_model + recipe + offset(log(energy_wh)) + (1|conversation_id))
   fit_H3b_no_cluster <- update(fit_H3b_no_int, . ~ . - cluster)
   fit_H3b_no_agent   <- update(fit_H3b_no_int, . ~ . - agent_model)
   
-  lrt_H3b_int     <- .lrt(fit_H3b_no_int,     fit_H3b)
-  lrt_H3b_cluster <- .lrt(fit_H3b_no_cluster, fit_H3b_no_int)
-  lrt_H3b_agent   <- .lrt(fit_H3b_no_agent,   fit_H3b_no_int)
-  
-  H3b_anova <- data.frame(
-    term         = c("Cluster", "AgentModel", "Cluster:AgentModel"),
-    df           = c(lrt_H3b_cluster$df, lrt_H3b_agent$df, lrt_H3b_int$df),
-    LR_Chisq     = c(lrt_H3b_cluster$LR_Chisq, lrt_H3b_agent$LR_Chisq, lrt_H3b_int$LR_Chisq),
-    p_value      = c(lrt_H3b_cluster$p_value,  lrt_H3b_agent$p_value,  lrt_H3b_int$p_value),
-    compared     = c("additive vs. drop Cluster", "additive vs. drop AgentModel", "full vs. no interaction"),
-    model_basis  = c("additive (no interaction)", "additive (no interaction)", "full"),
-    stringsAsFactors = FALSE
+  H3b_anova <- rbind(
+    cbind(term = "Cluster",            .lrt(fit_H3b_no_cluster, fit_H3b_no_int), compared="additive vs. drop Cluster",    model_basis="additive"),
+    cbind(term = "AgentModel",         .lrt(fit_H3b_no_agent,   fit_H3b_no_int), compared="additive vs. drop AgentModel", model_basis="additive"),
+    cbind(term = "Cluster:AgentModel", .lrt(fit_H3b_no_int,     fit_H3b),        compared="full vs. no interaction",      model_basis="full")
   )
   readr::write_csv(H3b_anova, file.path(.dir_tables, "H3b_anova.csv"))
 }
