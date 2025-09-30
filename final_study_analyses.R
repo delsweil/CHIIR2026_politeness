@@ -334,80 +334,126 @@ AN <- readRDS("final_outputs/cache/an_step.rds")
 
 # combined scatterplots
 
-# ---- knobs to tweak the presentation ----
-words_xlim  <- c(0, 260)     # set larger common range for H3a (or set to NULL to auto)
-energy_xlim <- c(0.035, 0.30) # set larger common range for H3b (or set to NULL to auto)
-free_x_by_agent <- FALSE      # TRUE -> each agent gets its own x-range; FALSE -> common
+# If you prefer not to add new pkgs, set use_patchwork <- FALSE.
+use_patchwork <- TRUE
+if (use_patchwork) {
+  # install.packages("patchwork")  # uncomment if needed
+  library(patchwork)
+}
 
-point_alpha <- 0.10
-point_size  <- 0.6
-smooth_span <- 0.65           # smaller -> more wiggly; larger -> smoother
-line_width  <- 0.8
+dir.create("final_outputs/plots", showWarnings = FALSE, recursive = TRUE)
 
-# ---- data (same objects you used before) ----
-H3a_df <- AN %>% filter(has_nuggets, has_words, length_words > 0)
-H3b_df <- AN %>% filter(has_nuggets, has_energy)
-
-# short agent labels (optional)
+# --- Recoding helpers ----------------------------------------------------------
+# Agent short names
 shorten_agent <- function(x) {
-  x_chr <- tolower(as.character(x))
-  out <- dplyr::case_when(
-    grepl("^deepseek", x_chr) ~ "deepseek",
-    grepl("^llama",    x_chr) ~ "llama",
-    grepl("^qwen",     x_chr) ~ "qwen",
-    TRUE                      ~ x_chr
+  x_chr <- as.character(x)
+  dplyr::case_when(
+    grepl("^deepseek", x_chr)                       ~ "deepseek",
+    grepl("^llama",    x_chr)                       ~ "llama",
+    grepl("^qwen",     x_chr)                       ~ "qwen",
+    TRUE                                            ~ x_chr
   )
-  factor(out, levels = c("deepseek","llama","qwen"))
-}
-H3a_df <- H3a_df %>% mutate(agent = shorten_agent(agent_model))
-H3b_df <- H3b_df %>% mutate(agent = shorten_agent(agent_model))
-
-# auto x-limits from the 99th percentile if not provided
-if (is.null(words_xlim)) {
-  wmax <- quantile(H3a_df$length_words, 0.99, na.rm = TRUE)
-  words_xlim <- c(0, ceiling(wmax / 10) * 10)
-}
-if (is.null(energy_xlim)) {
-  emax <- quantile(H3b_df$energy_wh, 0.99, na.rm = TRUE)
-  energy_xlim <- c(0, signif(emax * 1.05, 2))
 }
 
-facet_scales <- if (free_x_by_agent) "free_x" else "fixed"
+# Cluster -> short labels (legend) and order:
+# Order: HP, PE, ES, HE, IMP (as requested)
+cluster_map <- c(
+  "C1_Hyperpolite"          = "HP (Hyperpolite)",
+  "C4_PoliteEngaged"        = "PE (Polite-Engaged)",
+  "C2_EngagementSeeking"    = "ES (Engagement-Seeking)",
+  "C3_DirectLowPoliteness"  = "HE (Hyperefficient)",
+  "C5_Impolite"             = "IMP (Impolite)"
+)
+cluster_levels <- c(
+  "HP (Hyperpolite)",
+  "PE (Polite-Engaged)",
+  "ES (Engagement-Seeking)",
+  "HE (Hyperefficient)",
+  "IMP (Impolite)"
+)
 
-# ---- H3a: nuggets vs words with larger x-range ----
-p_h3a <- ggplot(
-  H3a_df,
-  aes(x = length_words, y = nugget_count, colour = cluster)
-) +
-  geom_point(alpha = point_alpha, size = point_size) +
-  geom_smooth(method = "loess", se = TRUE, span = smooth_span, linewidth = line_width) +
-  facet_wrap(~ agent, nrow = 1, scales = facet_scales) +
+# Colour palette (colorblind-friendly, consistent across plots)
+pal <- c(
+  "HP (Hyperpolite)"        = "#0072B2",
+  "PE (Polite-Engaged)"     = "#009E73",
+  "ES (Engagement-Seeking)" = "#56B4E9",
+  "HE (Hyperefficient)"     = "#E69F00",
+  "IMP (Impolite)"          = "#D55E00"
+)
+
+# --- Build plotting frames from your AN data ----------------------------------
+# Wider x-ranges (tweak to taste)
+words_xlim  <- c(0, 260)    # H3a
+energy_xlim <- c(0.035, 0.30) # H3b
+
+# H3a: nuggets vs words
+h3a_df <- AN %>%
+  filter(has_nuggets, has_words, length_words > 0) %>%
+  transmute(
+    agent   = shorten_agent(agent_model),
+    cluster = factor(cluster_map[as.character(cluster)], levels = cluster_levels),
+    x       = pmin(length_words, quantile(length_words, 0.99, na.rm = TRUE)),
+    nuggets = nugget_count
+  ) %>%
+  filter(!is.na(cluster))
+
+# H3b: nuggets vs energy
+h3b_df <- AN %>%
+  filter(has_nuggets, has_energy, energy_wh > 0) %>%
+  transmute(
+    agent   = shorten_agent(agent_model),
+    cluster = factor(cluster_map[as.character(cluster)], levels = cluster_levels),
+    x       = pmin(energy_wh, quantile(energy_wh, 0.99, na.rm = TRUE)),
+    nuggets = nugget_count
+  ) %>%
+  filter(!is.na(cluster))
+
+# --- Base theme ---------------------------------------------------------------
+base_theme <- theme_bw(base_size = 10) +
+  theme(
+    legend.position   = "bottom",
+    legend.margin     = margin(t = 4, unit = "pt"),
+    strip.background  = element_rect(fill = "grey92", colour = NA),
+    panel.grid.minor  = element_blank()
+  )
+
+# --- H3a plot (nuggets vs words) ---------------------------------------------
+p_words <- ggplot(h3a_df, aes(x = x, y = nuggets, colour = cluster)) +
+  geom_point(alpha = 0.12, size = 0.6, stroke = 0) +
+  stat_smooth(method = "loess", se = TRUE, span = 0.7, linewidth = 0.7) +
+  facet_wrap(~ agent, nrow = 1, scales = "fixed") +
   coord_cartesian(xlim = words_xlim) +
-  scale_x_continuous(expand = expansion(mult = c(0, 0.02))) +
-  labs(x = "Words", y = "Nuggets", title = "H3a: Nuggets vs. Words by Agent (coloured by Cluster)") +
-  theme_minimal(base_size = 12) +
-  theme(legend.position = "right")
+  scale_colour_manual(values = pal, drop = FALSE, guide = guide_legend(nrow = 2, title = NULL)) +
+  labs(x = "Words", y = "Nuggets", title = NULL) +
+  base_theme
 
-ggsave("final_outputs/plots/scatter_nuggets_vs_words_wide.png", p_h3a,
-       width = 12, height = 6, dpi = 300)
-
-# ---- H3b: nuggets vs energy with larger x-range ----
-p_h3b <- ggplot(
-  H3b_df,
-  aes(x = energy_wh, y = nugget_count, colour = cluster)
-) +
-  geom_point(alpha = point_alpha, size = point_size) +
-  geom_smooth(method = "loess", se = TRUE, span = smooth_span, linewidth = line_width) +
-  facet_wrap(~ agent, nrow = 1, scales = facet_scales) +
+# --- H3b plot (nuggets vs energy) --------------------------------------------
+p_energy <- ggplot(h3b_df, aes(x = x, y = nuggets, colour = cluster)) +
+  geom_point(alpha = 0.12, size = 0.6, stroke = 0) +
+  stat_smooth(method = "loess", se = TRUE, span = 0.7, linewidth = 0.7) +
+  facet_wrap(~ agent, nrow = 1, scales = "fixed") +
   coord_cartesian(xlim = energy_xlim) +
-  scale_x_continuous(expand = expansion(mult = c(0, 0.02))) +
-  labs(x = "Energy (Wh)", y = "Nuggets", title = "H3b: Nuggets vs. Energy (Wh) by Agent (coloured by Cluster)") +
-  theme_minimal(base_size = 12) +
-  theme(legend.position = "right")
+  scale_colour_manual(values = pal, drop = FALSE, guide = guide_legend(nrow = 2, title = NULL)) +
+  labs(x = "Energy (Wh)", y = "Nuggets", title = NULL) +
+  base_theme
 
-ggsave("final_outputs/plots/scatter_nuggets_vs_energy_wide.png", p_h3b,
-       width = 12, height = 6, dpi = 300)
-
+# --- Combine with a single legend --------------------------------------------
+if (use_patchwork) {
+  combined <- (p_words / p_energy) +
+    plot_layout(heights = c(1, 1), guides = "collect") &
+    theme(legend.position = "bottom")
+  
+  ggsave("final_outputs/plots/H3_combined_patchwork.pdf",
+         combined, width = 7.0, height = 4.6, units = "in")
+  ggsave("final_outputs/plots/H3_combined_patchwork.png",
+         combined, dpi = 300, width = 7.0, height = 4.6, units = "in")
+} else {
+  # Fallback: save separately (still with consistent legend + ordering)
+  ggsave("final_outputs/plots/scatter_nuggets_vs_words_named.png",
+         p_words, dpi = 300, width = 7.0, height = 2.3, units = "in")
+  ggsave("final_outputs/plots/scatter_nuggets_vs_energy_named.png",
+         p_energy, dpi = 300, width = 7.0, height = 2.3, units = "in")
+}
 
 
 
