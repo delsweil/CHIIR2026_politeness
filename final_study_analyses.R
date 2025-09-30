@@ -329,6 +329,10 @@ p_scatter_energy <- plot_df_energy %>%
 
 ggsave("final_outputs/plots/scatter_nuggets_vs_energy.png", p_scatter_energy, width = 12, height = 7, dpi = 180)
 
+# both together for paper
+AN <- readRDS("final_outputs/cache/an_step.rds")
+
+
 # ----------------------------
 # 7) Models for H1–H3 (lme4/lmerTest/MASS)
 # ----------------------------
@@ -481,6 +485,44 @@ H3a_pairs <- contrast(H3a_emm, method = "pairwise", adjust = "tukey")
 readr::write_csv(as.data.frame(summary(H3a_emm)), file.path(.dir_tables, "H3a_emmeans_rate_per_word.csv"))
 readr::write_csv(as.data.frame(H3a_pairs),        file.path(.dir_tables, "H3a_pairs_tukey_rate_per_word.csv"))
 
+# ---------- H3a omnibus LRTs (nuggets per word; offset log(words)) ----------
+# Full (already fit): fit_H3a
+
+# Model without the interaction
+fit_H3a_no_int <- update(
+  fit_H3a,
+  . ~ cluster + agent_model + recipe + offset(log(pmax(length_words, 1))) + (1 | conversation_id)
+)
+
+# Drop each main effect (in the no-interaction model) for Type-II tests
+fit_H3a_no_cluster <- update(fit_H3a_no_int, . ~ . - cluster)
+fit_H3a_no_agent   <- update(fit_H3a_no_int, . ~ . - agent_model)
+
+# Helper to extract chi2, df, p from an anova() comparison
+.extract_lrt <- function(tab) {
+  chi_df_col <- if ("Chi Df" %in% names(tab)) "Chi Df" else if ("Df" %in% names(tab)) "Df" else NA_character_
+  data.frame(
+    Chisq   = unname(tab$Chisq[2]),
+    df      = if (!is.na(chi_df_col) && chi_df_col != "Df") unname(tab[[chi_df_col]][2]) else unname(tab$Df[2] - tab$Df[1]),
+    p.value = unname(tab[2, grep("^Pr\\(>Chisq\\)$", names(tab))]),
+    check.names = FALSE
+  )
+}
+
+# LRTs
+lrt_H3a_int     <- .extract_lrt(anova(fit_H3a_no_int,     fit_H3a,         test = "Chisq"))
+lrt_H3a_cluster <- .extract_lrt(anova(fit_H3a_no_cluster, fit_H3a_no_int,  test = "Chisq"))
+lrt_H3a_agent   <- .extract_lrt(anova(fit_H3a_no_agent,   fit_H3a_no_int,  test = "Chisq"))
+
+H3a_anova <- cbind.data.frame(
+  term = c("Cluster", "AgentModel", "Cluster:AgentModel"),
+  rbind(lrt_H3a_cluster, lrt_H3a_agent, lrt_H3a_int),
+  row.names = NULL, check.names = FALSE
+)
+
+readr::write_csv(H3a_anova, file.path(.dir_tables, "H3a_anova.csv"))
+
+
 # H3b: Efficiency per Wh (offset log(Wh))
 # H3b: Nuggets per Wh (offset)
 H3b_df <- AN %>% filter(has_nuggets, has_energy)
@@ -522,6 +564,33 @@ if (nrow(H3b_df) >= 10) {
   warning("Too few rows with energy for H3b – skipping.")
 }
 
+# ---------- H3b omnibus LRTs (nuggets per Wh; offset log(Wh)) ----------
+# Full (already fit if nrow(H3b_df) >= 10): fit_H3b
+
+if (exists("fit_H3b")) {
+  # Model without the interaction
+  fit_H3b_no_int <- update(
+    fit_H3b,
+    . ~ cluster + agent_model + recipe + offset(log(energy_wh)) + (1 | conversation_id)
+  )
+  
+  # Drop each main effect (in the no-interaction model) for Type-II tests
+  fit_H3b_no_cluster <- update(fit_H3b_no_int, . ~ . - cluster)
+  fit_H3b_no_agent   <- update(fit_H3b_no_int, . ~ . - agent_model)
+  
+  # LRTs
+  lrt_H3b_int     <- .extract_lrt(anova(fit_H3b_no_int,     fit_H3b,         test = "Chisq"))
+  lrt_H3b_cluster <- .extract_lrt(anova(fit_H3b_no_cluster, fit_H3b_no_int,  test = "Chisq"))
+  lrt_H3b_agent   <- .extract_lrt(anova(fit_H3b_no_agent,   fit_H3b_no_int,  test = "Chisq"))
+  
+  H3b_anova <- cbind.data.frame(
+    term = c("Cluster", "AgentModel", "Cluster:AgentModel"),
+    rbind(lrt_H3b_cluster, lrt_H3b_agent, lrt_H3b_int),
+    row.names = NULL, check.names = FALSE
+  )
+  
+  readr::write_csv(H3b_anova, file.path(.dir_tables, "H3b_anova.csv"))
+}
 
 # ----------------------------
 # 8) Session info
