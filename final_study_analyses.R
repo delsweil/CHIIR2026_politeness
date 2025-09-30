@@ -378,7 +378,7 @@ fig_h3_combined <-
   ggplot(plot_df, aes(x = x, y = nuggets, colour = cluster)) +
   geom_point(alpha = 0.15, size = 0.6, stroke = 0) +
   stat_smooth(method = "loess", se = TRUE, span = 0.8, linewidth = 0.6) +
-  facet_grid(metric ~ agent_model, scales = "free") +   # <- was "free_x"
+  facet_grid(agent_model ~ metric, scales = "free_x") +  # <-- flipped; x free by column
   scale_y_continuous("Nuggets", limits = c(0, NA)) +
   labs(x = NULL) +
   guides(colour = guide_legend(nrow = 1, title = NULL)) +
@@ -392,9 +392,9 @@ fig_h3_combined <-
 
 dir.create("final_outputs/plots", recursive = TRUE, showWarnings = FALSE)
 ggsave("final_outputs/plots/H3_combined_facets.pdf",
-       fig_h3_combined, width = 7.0, height = 4.2, units = "in")
+       fig_h3_combined, width = 7, height = 4.2, units = "in")
 ggsave("final_outputs/plots/H3_combined_facets.png",
-       fig_h3_combined, dpi = 300, width = 7.0, height = 4.2, units = "in")
+       fig_h3_combined, dpi = 300, width = 7, height = 4.2, units = "in")
 
 
 
